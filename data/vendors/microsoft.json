@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T01:45:22+00:00",
+  "generated_at": "2026-04-02T03:16:56+00:00",
   "vendor": "microsoft",
   "count": 120,
   "items": [
@@ -26532,10 +26532,10 @@
     },
     {
       "cve_id": "CVE-2026-20963",
-      "description": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "description": "Deserialization of untrusted data in Microsoft Office SharePoint allows an unauthorized attacker to execute code over a network.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "affected": [
         {
           "vendor": "microsoft",
