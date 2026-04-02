@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T23:21:48+00:00",
+  "generated_at": "2026-04-02T00:53:56+00:00",
   "vendor": "_other",
   "count": 799,
   "items": [
@@ -8856,9 +8856,9 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-770"
+          "CWE-121"
         ],
-        "cpe_count": 83,
+        "cpe_count": 4,
         "reference_count": 2
       }
     },
@@ -71462,14 +71462,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 3
       }
     },
