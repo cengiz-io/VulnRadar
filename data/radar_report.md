@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-04-02T12:35:24+00:00`
+Generated: `2026-04-02T13:42:20+00:00`
 
 ## Executive Summary
 
@@ -11,7 +11,7 @@ Top critical items:
 | CVE | EPSS | CVSS | KEV Due | Description |
 |---|---:|---:|---:|---|
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.861 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
-| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.562 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
+| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.591 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | 0.089 | 9.8 | 2026-02-26 | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by defaul… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.139 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.018 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
@@ -45,7 +45,7 @@ Top critical items:
 | CVE | Priority | Bucket | Exploit | KEV | KEV Due | EPSS | CVSS | Watchlist | Description |
 |---|---|---|---:|---:|---:|---:|---:|---:|---|
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.861 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.  The nft_verdict_in… |
-| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.562 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
+| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.591 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-26 | 0.089 | 9.8 | ✅ | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that i… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.139 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.018 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
@@ -241,8 +241,8 @@ Top critical items:
 | [CVE-2024-38812](https://www.cve.org/CVERecord?id=CVE-2024-38812) |  | KEV | ✅ | ✅ | 2024-12-11 | 0.779 | 9.8 |  | The vCenter Server contains a heap-overflow vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server… |
 | [CVE-2024-21412](https://www.cve.org/CVERecord?id=CVE-2024-21412) |  | KEV | ✅ | ✅ | 2024-03-05 | 0.938 | 8.1 |  | Internet Shortcut Files Security Feature Bypass Vulnerability |
 | [CVE-2024-8956](https://www.cve.org/CVERecord?id=CVE-2024-8956) |  | KEV | ✅ | ✅ | 2024-11-25 | 0.836 | 9.1 |  | PTZOptics PT30X-SDI/NDI-xx before firmware 6.3.40 is vulnerable to an insufficient authentication issue. The camera does not properly enforce authentication to… |
-| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.756 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2025-30406](https://www.cve.org/CVERecord?id=CVE-2025-30406) |  | KEV | ✅ | ✅ | 2025-04-29 | 0.834 | 9.0 |  | Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machine… |
+| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.743 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2023-27524](https://www.cve.org/CVERecord?id=CVE-2023-27524) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.840 | 8.9 |  | Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY accordi… |
 
 ## Recent Changes (Last 7 Days)
