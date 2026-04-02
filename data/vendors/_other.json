@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-02T20:20:34+00:00",
+  "generated_at": "2026-04-02T21:21:24+00:00",
   "vendor": "_other",
-  "count": 792,
+  "count": 793,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -72284,6 +72284,55 @@
         ],
         "cpe_count": 7,
         "reference_count": 14
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3502",
+      "description": "TrueConf Client downloads application update code and applies it without performing verification. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the updater, this may result in arbitrary code execution in the context of the updating process or user.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "trueconf",
+          "product": "trueconf client",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "TrueConf Client versions 8.1.0 through 8.5.2"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 9e-05,
+      "kev": {
+        "cveID": "CVE-2026-3502",
+        "vendorProject": "TrueConf",
+        "product": "Client",
+        "vulnerabilityName": "TrueConf Client Download of Code Without Integrity Check Vulnerability",
+        "dateAdded": "2026-04-02",
+        "shortDescription": "TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the updater, this may result in arbitrary code execution in the context of the updating process or user.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-16",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-494"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
