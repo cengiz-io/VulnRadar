@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-04-03T03:16:57+00:00`
+Generated: `2026-04-03T04:56:07+00:00`
 
 ## Executive Summary
 
@@ -249,6 +249,12 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Apr 03 | [CVE-2026-23412](https://www.cve.org/CVERecord?id=CVE-2026-23412) | 🆕 New |
+| Apr 03 | [CVE-2026-23413](https://www.cve.org/CVERecord?id=CVE-2026-23413) | 🆕 New |
+| Apr 03 | [CVE-2026-23414](https://www.cve.org/CVERecord?id=CVE-2026-23414) | 🆕 New |
+| Apr 03 | [CVE-2026-23415](https://www.cve.org/CVERecord?id=CVE-2026-23415) | 🆕 New |
+| Apr 03 | [CVE-2026-23416](https://www.cve.org/CVERecord?id=CVE-2026-23416) | 🆕 New |
+| Apr 03 | [CVE-2026-23417](https://www.cve.org/CVERecord?id=CVE-2026-23417) | 🆕 New |
 | Apr 02 | [CVE-2026-5281](https://www.cve.org/CVERecord?id=CVE-2026-5281) | 🔴 In CISA KEV |
 | Apr 02 | [CVE-2026-23401](https://www.cve.org/CVERecord?id=CVE-2026-23401) | 🆕 New |
 | Apr 02 | [CVE-2026-23402](https://www.cve.org/CVERecord?id=CVE-2026-23402) | 🆕 New |
@@ -293,10 +299,4 @@ Top critical items:
 | Apr 01 | [CVE-2022-26500](https://www.cve.org/CVERecord?id=CVE-2022-26500) | 🔴 In CISA KEV |
 | Apr 01 | [CVE-2022-26501](https://www.cve.org/CVERecord?id=CVE-2022-26501) | 🔴 In CISA KEV |
 | Apr 01 | [CVE-2022-27924](https://www.cve.org/CVERecord?id=CVE-2022-27924) | 🔴 In CISA KEV |
-| Apr 01 | [CVE-2022-27925](https://www.cve.org/CVERecord?id=CVE-2022-27925) | 🔴 In CISA KEV |
-| Apr 01 | [CVE-2022-27926](https://www.cve.org/CVERecord?id=CVE-2022-27926) | 🔴 In CISA KEV |
-| Apr 01 | [CVE-2022-28810](https://www.cve.org/CVERecord?id=CVE-2022-28810) | 🔴 In CISA KEV |
-| Apr 01 | [CVE-2022-29303](https://www.cve.org/CVERecord?id=CVE-2022-29303) | 🔴 In CISA KEV |
-| Apr 01 | [CVE-2022-29464](https://www.cve.org/CVERecord?id=CVE-2022-29464) | 🔴 In CISA KEV |
-| Apr 01 | [CVE-2022-29499](https://www.cve.org/CVERecord?id=CVE-2022-29499) | 🔴 In CISA KEV |
-| ... | | _and 11390 more_ |
+| ... | | _and 11396 more_ |
