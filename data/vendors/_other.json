@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T23:19:11+00:00",
+  "generated_at": "2026-04-03T00:56:19+00:00",
   "vendor": "_other",
   "count": 793,
   "items": [
@@ -8333,9 +8333,9 @@
     {
       "cve_id": "CVE-2026-5281",
       "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -8370,15 +8370,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 4,
+        "reference_count": 3
       }
     },
     {
@@ -72306,7 +72306,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
