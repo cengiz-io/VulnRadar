@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T06:34:53+00:00",
+  "generated_at": "2026-04-04T07:31:29+00:00",
   "vendor": "apple",
   "count": 50,
   "items": [
@@ -2959,7 +2959,7 @@
         "cwe_ids": [
           "CWE-843"
         ],
-        "cpe_count": 11,
+        "cpe_count": 12,
         "reference_count": 25
       }
     },
@@ -3291,9 +3291,9 @@
     {
       "cve_id": "CVE-2024-44309",
       "description": "A cookie management issue was addressed with improved state management. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, iOS 18.1.1 and iPadOS 18.1.1, macOS Sequoia 15.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to a cross site scripting attack. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.",
-      "cvss_score": 6.1,
+      "cvss_score": 6.3,
       "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "apple",
@@ -3370,7 +3370,7 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 6.1,
+        "cvss_v3_score": 6.3,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
@@ -3575,7 +3575,7 @@
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 5,
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
@@ -3795,7 +3795,6 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-787",
           "CWE-119"
         ],
         "cpe_count": 6,
@@ -4216,7 +4215,7 @@
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 7,
+        "cpe_count": 10,
         "reference_count": 13
       }
     },
@@ -4340,9 +4339,9 @@
     {
       "cve_id": "CVE-2025-43520",
       "description": "A memory corruption issue was addressed with improved memory handling. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. A malicious application may be able to cause unexpected system termination or write kernel memory.",
-      "cvss_score": 7.1,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "apple",
@@ -4443,12 +4442,11 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 7.1,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-787",
           "CWE-120"
         ],
         "cpe_count": 10,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T06:34:53+00:00",
+  "generated_at": "2026-04-04T07:31:29+00:00",
   "vendor": "_other",
   "count": 794,
   "items": [
@@ -67914,7 +67914,20 @@
         "vendor:util-linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59",
+          "CWE-269",
+          "CWE-367"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2025-14733",
@@ -72361,7 +72374,7 @@
         "cwe_ids": [
           "CWE-494"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
