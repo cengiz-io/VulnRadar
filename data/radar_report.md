@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-04-05T12:25:04+00:00`
+Generated: `2026-04-05T13:33:14+00:00`
 
 ## Executive Summary
 
@@ -10,8 +10,8 @@ Top critical items:
 
 | CVE | EPSS | CVSS | KEV Due | Description |
 |---|---:|---:|---:|---|
-| [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.859 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
-| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.591 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
+| [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.856 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
+| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.556 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | 0.115 | 9.8 | 2026-02-26 | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by defaul… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.139 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.018 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
@@ -44,8 +44,8 @@ Top critical items:
 
 | CVE | Priority | Bucket | Exploit | KEV | KEV Due | EPSS | CVSS | Watchlist | Description |
 |---|---|---|---:|---:|---:|---:|---:|---:|---|
-| [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.859 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.  The nft_verdict_in… |
-| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.591 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
+| [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.856 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.  The nft_verdict_in… |
+| [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.556 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-26 | 0.115 | 9.8 | ✅ | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that i… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.139 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.018 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
@@ -210,8 +210,8 @@ Top critical items:
 | [CVE-2023-2868](https://www.cve.org/CVERecord?id=CVE-2023-2868) |  | KEV | ✅ | ✅ | 2023-06-16 | 0.895 | 9.4 |  | A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0… |
 | [CVE-2024-43468](https://www.cve.org/CVERecord?id=CVE-2024-43468) |  | KEV | ✅ | ✅ | 2026-03-05 | 0.851 | 9.8 |  | Microsoft Configuration Manager Remote Code Execution Vulnerability |
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.944 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
-| [CVE-2023-27997](https://www.cve.org/CVERecord?id=CVE-2023-27997) |  | KEV | ✅ | ✅ | 2023-07-04 | 0.904 | 9.2 |  | A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and… |
 | [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.884 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
+| [CVE-2023-27997](https://www.cve.org/CVERecord?id=CVE-2023-27997) |  | KEV | ✅ | ✅ | 2023-07-04 | 0.904 | 9.2 |  | A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and… |
 | [CVE-2025-2746](https://www.cve.org/CVERecord?id=CVE-2025-2746) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.843 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server password handling of empty SHA1 usernames … |
 | [CVE-2022-41040](https://www.cve.org/CVERecord?id=CVE-2022-41040) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.941 | 8.8 |  | Microsoft Exchange Server Elevation of Privilege Vulnerability |
 | [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 0.941 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
@@ -232,9 +232,10 @@ Top critical items:
 | [CVE-2022-43939](https://www.cve.org/CVERecord?id=CVE-2022-43939) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.933 | 8.6 |  | Hitachi Vantara Pentaho Business Analytics Server versions before 9.4.0.1 and 9.3.0.2, including 8.3.x contain security restrictions using non-canonical URLs w… |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.792 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
 | [CVE-2023-34192](https://www.cve.org/CVERecord?id=CVE-2023-34192) |  | KEV | ✅ | ✅ | 2025-03-18 | 0.890 | 9.0 |  | Cross Site Scripting vulnerability in Zimbra ZCS v.8.8.15 allows a remote authenticated attacker to execute arbitrary code via a crafted script to the /h/autoS… |
+| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.796 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2025-1316](https://www.cve.org/CVERecord?id=CVE-2025-1316) |  | KEV | ✅ | ✅ | 2025-04-09 | 0.853 | 9.3 |  | Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device |
 | [CVE-2023-36025](https://www.cve.org/CVERecord?id=CVE-2023-36025) |  | KEV | ✅ | ✅ | 2023-12-05 | 0.902 | 8.8 |  | Windows SmartScreen Security Feature Bypass Vulnerability |
-| [CVE-2025-30066](https://www.cve.org/CVERecord?id=CVE-2025-30066) |  | KEV | ✅ | ✅ | 2025-04-08 | 0.913 | 8.6 |  | tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-1… |
+| [CVE-2025-30066](https://www.cve.org/CVERecord?id=CVE-2025-30066) |  | KEV | ✅ | ✅ | 2025-04-08 | 0.910 | 8.6 |  | tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-1… |
 | [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) |  | KEV | ✅ | ✅ | 2024-01-22 | 0.944 | 8.2 |  | An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted reso… |
 | [CVE-2024-21893](https://www.cve.org/CVERecord?id=CVE-2024-21893) |  | KEV | ✅ | ✅ | 2024-02-02 | 0.943 | 8.2 |  | A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons … |
 | [CVE-2023-41266](https://www.cve.org/CVERecord?id=CVE-2023-41266) |  | KEV | ✅ | ✅ | 2023-12-28 | 0.943 | 8.2 |  | A path traversal vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, Novembe… |
@@ -243,7 +244,6 @@ Top critical items:
 | [CVE-2024-8956](https://www.cve.org/CVERecord?id=CVE-2024-8956) |  | KEV | ✅ | ✅ | 2024-11-25 | 0.836 | 9.1 |  | PTZOptics PT30X-SDI/NDI-xx before firmware 6.3.40 is vulnerable to an insufficient authentication issue. The camera does not properly enforce authentication to… |
 | [CVE-2025-59287](https://www.cve.org/CVERecord?id=CVE-2025-59287) |  | KEV | ✅ | ✅ | 2025-11-14 | 0.757 | 9.8 |  | Deserialization of untrusted data in Windows Server Update Service allows an unauthorized attacker to execute code over a network. |
 | [CVE-2025-30406](https://www.cve.org/CVERecord?id=CVE-2025-30406) |  | KEV | ✅ | ✅ | 2025-04-29 | 0.834 | 9.0 |  | Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machine… |
-| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.743 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 
 ## Recent Changes (Last 7 Days)
 
