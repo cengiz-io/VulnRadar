@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T01:46:28+00:00",
+  "generated_at": "2026-04-07T03:17:13+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -56807,6 +56807,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -57008,11 +57020,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -57089,6 +57096,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -57290,11 +57309,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -57372,6 +57386,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -57573,11 +57599,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -57654,6 +57675,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -57855,11 +57888,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -57936,6 +57964,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -58137,11 +58177,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -58218,6 +58253,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -58419,11 +58466,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -58500,6 +58542,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -58701,11 +58755,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -58782,6 +58831,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -58983,11 +59044,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
         },
         {
           "vendor": "red hat",
