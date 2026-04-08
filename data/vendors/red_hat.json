@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T12:35:48+00:00",
+  "generated_at": "2026-04-08T13:43:59+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -309,7 +309,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0004,
+      "probability_score": 0.00054,
       "nvd": {
         "cvss_v3_score": 3.4,
         "cvss_v3_severity": "LOW",
@@ -2122,7 +2122,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.00029,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -4541,7 +4541,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.72535,
+      "probability_score": 0.72771,
       "kev": {
         "cveID": "CVE-2023-4911",
         "vendorProject": "GNU",
@@ -7221,7 +7221,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00019,
+      "probability_score": 0.00024,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -8329,7 +8329,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00022,
+      "probability_score": 0.00023,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -17565,7 +17565,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00402,
+      "probability_score": 0.00426,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -36403,7 +36403,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00078,
+      "probability_score": 0.00102,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -38674,7 +38674,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00062,
+      "probability_score": 0.0006,
       "nvd": {
         "cvss_v3_score": 6.6,
         "cvss_v3_severity": "MEDIUM",
@@ -39550,7 +39550,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00135,
+      "probability_score": 0.00132,
       "nvd": {
         "cvss_v3_score": 2.7,
         "cvss_v3_severity": "LOW",
@@ -48902,7 +48902,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00072,
+      "probability_score": 0.0007,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -50078,7 +50078,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00142,
+      "probability_score": 0.00139,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
@@ -74591,7 +74591,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00759,
+      "probability_score": 0.02116,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
