@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-08T17:35:18+00:00",
+  "generated_at": "2026-04-08T18:42:08+00:00",
   "vendor": "_other",
-  "count": 795,
+  "count": 796,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -61362,6 +61362,61 @@
         ],
         "cpe_count": 5,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1340",
+      "description": "A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "ivanti",
+          "product": "endpoint manager mobile",
+          "versions": [
+            {
+              "status": "unaffected",
+              "version": "12.x.1.x RPM",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "12.x.0.x RPM",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.67744,
+      "kev": {
+        "cveID": "CVE-2026-1340",
+        "vendorProject": "Ivanti",
+        "product": "Endpoint Manager Mobile (EPMM)",
+        "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+        "dateAdded": "2026-04-08",
+        "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-11",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
       }
     },
     {
