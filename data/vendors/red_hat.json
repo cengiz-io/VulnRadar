@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T01:45:08+00:00",
+  "generated_at": "2026-04-09T03:17:38+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -4879,6 +4879,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:4.6.0-6.el10_1.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -4984,11 +4996,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",
