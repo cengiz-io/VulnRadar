@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T01:47:39+00:00",
+  "generated_at": "2026-04-10T03:18:36+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -4891,6 +4891,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:4.6.0-6.el10_0.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -4979,6 +4991,18 @@
           "versions": [
             {
               "version": "sha256:53007894763e03f609c35c727cb738db3c2130b19fa0e1069c24240e0870fb7a",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "sha256:54616c9f3e4d27120504b0b2020432ef3ff85286a50de7be842f05df0cfcd69e",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"

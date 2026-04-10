@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-10T01:47:39+00:00",
+  "generated_at": "2026-04-10T03:18:36+00:00",
   "vendor": "_other",
-  "count": 796,
+  "count": 797,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -63553,6 +63553,51 @@
         "cpe_count": 1,
         "reference_count": 4
       }
+    },
+    {
+      "cve_id": "CVE-2026-35207",
+      "description": "dde-control-center is the control panel of DDE, the Deepin Desktop Environment. plugin-deepinid is a plugin in dde-control-center, which provides the deepinid cloud service. Prior to 6.1.80, plugin-deepinid is configured to skip TLS certificate verification when fetching the user's avatar from openapi.deepin.com or other providers. An MITM attacker could intercept the traffic, replace the avatar with a malicious or misleading image, and potentially identify the user by the avatar. This vulnerability is fixed in dde-control-center 6.1.80 and 5.9.9.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "linuxdeepin",
+          "product": "dde-control-center",
+          "versions": [
+            {
+              "version": ">= 6.1.35, < 6.1.80",
+              "status": "affected"
+            },
+            {
+              "version": ">= 5.5.3, < 5.9.9",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "linuxdeepin",
+          "product": "deepin-deepinid-plugin",
+          "versions": [
+            {
+              "version": ">= 2.0.1, <= 2.0.9",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:dde-control-center",
+        "product:deepin-deepinid-plugin",
+        "vendor:linuxdeepin"
+      ],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2023-5631",
