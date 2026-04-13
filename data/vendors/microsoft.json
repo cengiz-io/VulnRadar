@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-13T17:35:09+00:00",
+  "generated_at": "2026-04-13T18:41:26+00:00",
   "vendor": "microsoft",
-  "count": 120,
+  "count": 123,
   "items": [
     {
       "cve_id": "CVE-2022-21882",
@@ -6519,6 +6519,93 @@
       }
     },
     {
+      "cve_id": "CVE-2023-21529",
+      "description": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft exchange server 2019 cumulative update 12",
+          "versions": [
+            {
+              "version": "15.02.0",
+              "lessThan": "15.02.1118.025",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft exchange server 2019 cumulative update 11",
+          "versions": [
+            {
+              "version": "15.02.0",
+              "lessThan": "15.02.0986.041",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft exchange server 2013 cumulative update 23",
+          "versions": [
+            {
+              "version": "15.00.0",
+              "lessThan": "15.00.1497.047",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft exchange server 2016 cumulative update 23",
+          "versions": [
+            {
+              "version": "15.01.0",
+              "lessThan": "15.01.2507.021",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.36675,
+      "kev": {
+        "cveID": "CVE-2023-21529",
+        "vendorProject": "Microsoft",
+        "product": "Exchange Server",
+        "vulnerabilityName": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-04-13",
+        "shortDescription": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-27",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2023-21674",
       "description": "Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability",
       "cvss_score": 8.8,
@@ -10361,6 +10448,345 @@
         ],
         "cpe_count": 27,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2023-36424",
+      "description": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 22h3",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.2715",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022, 23h2 edition (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.25398.0",
+              "lessThan": "10.0.25398.531",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.2715",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.5122",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.0",
+              "lessThan": "10.0.17763.5122",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.5122",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.5122",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.2113",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.0",
+              "lessThan": "10.0.22000.2600",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19043.0",
+              "lessThan": "10.0.19043.3693",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.22621.0",
+              "lessThan": "10.0.22621.2715",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19045.3693",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1507",
+          "versions": [
+            {
+              "version": "10.0.10240.0",
+              "lessThan": "10.0.10240.20308",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.6452",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.6452",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.6452",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.22367",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.22367",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.22367",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 r2 service pack 1",
+          "versions": [
+            {
+              "version": "6.1.7601.0",
+              "lessThan": "6.1.7601.26816",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 r2 service pack 1 (server core installation)",
+          "versions": [
+            {
+              "version": "6.1.7601.0",
+              "lessThan": "6.1.7601.26816",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.24569",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 (server core installation)",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.24569",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.21668",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.21668",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.10297,
+      "kev": {
+        "cveID": "CVE-2023-36424",
+        "vendorProject": "Microsoft",
+        "product": "Windows",
+        "vulnerabilityName": "Microsoft Windows Out-of-Bounds Read Vulnerability",
+        "dateAdded": "2026-04-13",
+        "shortDescription": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-27",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 21,
+        "reference_count": 2
       }
     },
     {
@@ -25858,6 +26284,93 @@
         ],
         "cpe_count": 7,
         "reference_count": 7
+      }
+    },
+    {
+      "cve_id": "CVE-2025-60710",
+      "description": "Improper link resolution before file access ('link following') in Host Process for Windows Tasks allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 24h2",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.7462",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 25h2",
+          "versions": [
+            {
+              "version": "10.0.26200.0",
+              "lessThan": "10.0.26200.7462",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.7462",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.7462",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.0019,
+      "kev": {
+        "cveID": "CVE-2025-60710",
+        "vendorProject": "Microsoft",
+        "product": "Windows",
+        "vulnerabilityName": "Microsoft Windows Link Following Vulnerability",
+        "dateAdded": "2026-04-13",
+        "shortDescription": "Microsoft Windows contains a link following vulnerability that allows for privilege escalation",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-27",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
       }
     },
     {

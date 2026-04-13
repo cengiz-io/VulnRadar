@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-13T17:35:09+00:00",
+  "generated_at": "2026-04-13T18:41:26+00:00",
   "vendor": "_other",
-  "count": 797,
+  "count": 799,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -39205,6 +39205,57 @@
       }
     },
     {
+      "cve_id": "CVE-2026-34621",
+      "description": "Acrobat Reader versions 24.001.30356, 26.001.21367 and earlier are affected by an Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "adobe",
+          "product": "acrobat reader",
+          "versions": [
+            {
+              "lessThanOrEqual": "26.001.21367",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00038,
+      "kev": {
+        "cveID": "CVE-2026-34621",
+        "vendorProject": "Adobe",
+        "product": "Acrobat and Reader",
+        "vulnerabilityName": "Adobe Acrobat and Reader Prototype Pollution Vulnerability",
+        "dateAdded": "2026-04-13",
+        "shortDescription": "Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-27",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1321"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
       "cve_id": "CVE-2022-24112",
       "description": "An attacker can abuse the batch-requests plugin to send requests to bypass the IP restriction of Admin API. A default configuration of Apache APISIX (with default API key) is vulnerable to remote code execution. When the admin key was changed or the port of Admin API was changed to a port different from the data panel, the impact is lower. But there is still a risk to bypass the IP restriction of Apache APISIX's data panel. There is a check in the batch-requests plugin which overrides the client IP with its real remote IP. But due to a bug in the code, this check can be bypassed.",
       "cvss_score": 9.8,
@@ -44433,6 +44484,55 @@
         ],
         "cpe_count": 5,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-21643",
+      "description": "An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "fortinet",
+          "product": "forticlientems",
+          "versions": [
+            {
+              "version": "7.4.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.13698,
+      "kev": {
+        "cveID": "CVE-2026-21643",
+        "vendorProject": "Fortinet",
+        "product": "FortiClient EMS",
+        "vulnerabilityName": "Fortinet SQL Injection Vulnerability",
+        "dateAdded": "2026-04-13",
+        "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-16",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
       }
     },
     {
