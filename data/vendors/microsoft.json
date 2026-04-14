@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T08:05:12+00:00",
+  "generated_at": "2026-04-14T09:04:53+00:00",
   "vendor": "microsoft",
   "count": 123,
   "items": [
@@ -161,17 +161,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-02-18",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 7.2,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 10,
-        "reference_count": 4
       }
     },
     {
@@ -524,17 +513,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-05-16",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.0,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 6.9,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-59"
-        ],
-        "cpe_count": 22,
-        "reference_count": 3
       }
     },
     {
@@ -695,17 +673,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-09-08",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 9.3,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-824"
-        ],
-        "cpe_count": 9,
-        "reference_count": 3
       }
     },
     {
@@ -1058,18 +1025,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-04-15",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 4.6,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-22",
-          "CWE-59"
-        ],
-        "cpe_count": 19,
-        "reference_count": 3
       }
     },
     {
@@ -1410,17 +1365,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-08-02",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 7.2,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-426"
-        ],
-        "cpe_count": 18,
-        "reference_count": 3
       }
     },
     {
@@ -1773,15 +1717,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-05-10",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 7.2,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 19,
-        "reference_count": 3
       }
     },
     {
@@ -2134,17 +2069,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-05-04",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 4.6,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 19,
-        "reference_count": 3
       }
     },
     {
@@ -2497,17 +2421,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-05-16",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.0,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 4.4,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-362"
-        ],
-        "cpe_count": 19,
-        "reference_count": 3
       }
     },
     {
@@ -2752,17 +2665,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-09-08",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 9.0,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-295"
-        ],
-        "cpe_count": 14,
-        "reference_count": 3
       }
     },
     {
@@ -3115,17 +3017,6 @@
         "requiredAction": "Apply remediation actions outlined in CISA guidance [https://www.cisa.gov/guidance-applying-june-microsoft-patch].",
         "dueDate": "2022-07-22",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 5.9,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": 4.3,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 19,
-        "reference_count": 3
       }
     },
     {
@@ -3430,15 +3321,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-07-05",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": 9.3,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 17,
-        "reference_count": 4
       }
     },
     {
@@ -3743,15 +3625,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-08-30",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 19,
-        "reference_count": 3
       }
     },
     {
@@ -4080,17 +3953,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-10-05",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 17,
-        "reference_count": 3
       }
     },
     {
@@ -4347,15 +4209,6 @@
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.  ",
         "dueDate": "2024-05-14",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 16,
-        "reference_count": 3
       }
     },
     {
@@ -4696,17 +4549,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-11-01",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-843"
-        ],
-        "cpe_count": 18,
-        "reference_count": 3
       }
     },
     {
@@ -4795,17 +4637,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-10-21",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-918"
-        ],
-        "cpe_count": 5,
-        "reference_count": 6
       }
     },
     {
@@ -5014,15 +4845,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-12-09",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 12,
-        "reference_count": 3
       }
     },
     {
@@ -5375,17 +5197,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-12-09",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 19,
-        "reference_count": 4
       }
     },
     {
@@ -5474,15 +5285,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2023-01-31",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 5,
-        "reference_count": 3
       }
     },
     {
@@ -5571,17 +5373,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-10-21",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.0,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-502"
-        ],
-        "cpe_count": 5,
-        "reference_count": 8
       }
     },
     {
@@ -5790,17 +5581,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-12-09",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-863"
-        ],
-        "cpe_count": 12,
-        "reference_count": 3
       }
     },
     {
@@ -6069,17 +5849,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-12-09",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 16,
-        "reference_count": 3
       }
     },
     {
@@ -6336,17 +6105,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-12-09",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 18,
-        "reference_count": 3
       }
     },
     {
@@ -6507,15 +6265,6 @@
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2023-01-03",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 10,
-        "reference_count": 3
       }
     },
     {
