@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T01:02:48+00:00",
+  "generated_at": "2026-04-14T01:53:28+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -52758,6 +52758,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -54282,6 +54287,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -54902,7 +54912,7 @@
           "product": "red hat ceph storage 8",
           "versions": [
             {
-              "version": "sha256:9e4f3ffb68eae556a6d34426903430173e4563eea3ea5d6720ce9b5b43c2dbda",
+              "version": "sha256:09aaeba975aa74bdf95d63e5619c0cabb1cd9e1410aa34e7f8ecf24a5e291d1a",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54926,7 +54936,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:4ba29e3e7565cfdfdedcc558bc8495398cee07742fda133b0bc04fd657b908cd",
+              "version": "sha256:26bb49a8e2e695d61192f04eb0db63efa8210bba20ea22b60e4e22d519d8b9e6",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54938,7 +54948,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:ab86ba36e62e8aec5ba48e9e0076b1f8086c48157c85990be0e2ce3e03273016",
+              "version": "sha256:975a1e501a8520df83f3f4114e72a71384ff1866ec99c7a45fffbf8c76ef5cbc",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -55011,6 +55021,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
           "versions": null
         }
       ],
@@ -85258,6 +85273,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -86479,7 +86499,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:dce6b0ea03379bf06664a5200af8b5f5ae3fad13cdce6d21873843f22554800b",
+              "version": "sha256:14e32e88f1b89f59ed34a6d712746b82a6a54c6ed4727784f18aeff853abbdc7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86491,7 +86511,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:fa844e16d06e871f1a5dbc2fd5b3882d28112eee8d6bee601d94c96295c5e24f",
+              "version": "sha256:dcb9d1cd005c40b6db6f893e56419e383b9dcc0d38315605cb1457e2af5354f7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86525,6 +86545,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
           "versions": null
         }
       ],
