@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T12:57:44+00:00",
+  "generated_at": "2026-04-14T13:47:33+00:00",
   "vendor": "_other",
   "count": 800,
   "items": [
@@ -3134,7 +3134,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21818,
+      "probability_score": 0.22064,
       "kev": {
         "cveID": "CVE-2022-42948",
         "vendorProject": "Fortra",
@@ -3281,7 +3281,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.52388,
+      "probability_score": 0.49157,
       "kev": {
         "cveID": "CVE-2023-0386",
         "vendorProject": "Linux",
@@ -3727,7 +3727,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.83632,
+      "probability_score": 0.8477,
       "kev": {
         "cveID": "CVE-2023-27532",
         "vendorProject": "Veeam",
@@ -4414,7 +4414,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94385,
+      "probability_score": 0.94399,
       "kev": {
         "cveID": "CVE-2023-44487",
         "vendorProject": "IETF",
@@ -39231,7 +39231,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00038,
+      "probability_score": 0.06081,
       "kev": {
         "cveID": "CVE-2026-34621",
         "vendorProject": "Adobe",
@@ -39345,7 +39345,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94392,
+      "probability_score": 0.94369,
       "kev": {
         "cveID": "CVE-2022-24706",
         "vendorProject": "Apache",
@@ -44511,7 +44511,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13698,
+      "probability_score": 0.38246,
       "kev": {
         "cveID": "CVE-2026-21643",
         "vendorProject": "Fortinet",
@@ -44959,7 +44959,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00029,
+      "probability_score": 0.00032,
       "nvd": {
         "cvss_v3_score": 6.0,
         "cvss_v3_severity": "MEDIUM",
@@ -54084,7 +54084,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 9e-05,
+      "probability_score": 0.00011,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -54124,7 +54124,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00053,
+      "probability_score": 0.00076,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -58868,7 +58868,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.55749,
+      "probability_score": 0.5464,
       "kev": {
         "cveID": "CVE-2025-10035",
         "vendorProject": "Fortra",
@@ -60198,7 +60198,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90871,
+      "probability_score": 0.90589,
       "kev": {
         "cveID": "CVE-2023-2868",
         "vendorProject": "Barracuda Networks",
@@ -63544,7 +63544,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00591,
+      "probability_score": 0.00761,
       "kev": {
         "cveID": "CVE-2024-4610",
         "vendorProject": "Arm",
@@ -66048,7 +66048,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.75054,
+      "probability_score": 0.73729,
       "kev": {
         "cveID": "CVE-2025-34026",
         "vendorProject": "Versa",
@@ -67205,7 +67205,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02218,
+      "probability_score": 0.01645,
       "kev": {
         "cveID": "CVE-2024-7694",
         "vendorProject": "TeamT5",
@@ -69172,7 +69172,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.83343,
+      "probability_score": 0.82097,
       "kev": {
         "cveID": "CVE-2025-31125",
         "vendorProject": "Vite",
@@ -70500,7 +70500,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.10462,
+      "probability_score": 0.10494,
       "kev": {
         "cveID": "CVE-2025-54313",
         "vendorProject": "Prettier",
@@ -70729,7 +70729,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84891,
+      "probability_score": 0.86253,
       "kev": {
         "cveID": "CVE-2025-55182",
         "vendorProject": "Meta",
@@ -71498,7 +71498,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.5084,
+      "probability_score": 0.53796,
       "kev": {
         "cveID": "CVE-2026-3055",
         "vendorProject": "Citrix",
@@ -71708,7 +71708,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79157,
+      "probability_score": 0.80676,
       "kev": {
         "cveID": "CVE-2025-68613",
         "vendorProject": "n8n",
@@ -71757,7 +71757,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04756,
+      "probability_score": 0.04406,
       "kev": {
         "cveID": "CVE-2025-6218",
         "vendorProject": "RARLAB",
@@ -72378,7 +72378,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.20049,
+      "probability_score": 0.21298,
       "kev": {
         "cveID": "CVE-2026-22769",
         "vendorProject": "Dell",

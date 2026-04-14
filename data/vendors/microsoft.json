@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T12:57:44+00:00",
+  "generated_at": "2026-04-14T13:47:33+00:00",
   "vendor": "microsoft",
   "count": 123,
   "items": [
@@ -5463,7 +5463,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93795,
+      "probability_score": 0.93809,
       "kev": {
         "cveID": "CVE-2022-41080",
         "vendorProject": "Microsoft",
@@ -5560,7 +5560,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91476,
+      "probability_score": 0.91616,
       "kev": {
         "cveID": "CVE-2022-41082",
         "vendorProject": "Microsoft",
@@ -6581,7 +6581,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.36675,
+      "probability_score": 0.58919,
       "kev": {
         "cveID": "CVE-2023-21529",
         "vendorProject": "Microsoft",
@@ -10765,7 +10765,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.10297,
+      "probability_score": 0.12179,
       "kev": {
         "cveID": "CVE-2023-36424",
         "vendorProject": "Microsoft",
@@ -21591,7 +21591,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.24631,
+      "probability_score": 0.31624,
       "kev": {
         "cveID": "CVE-2025-24989",
         "vendorProject": "Microsoft",
@@ -25728,7 +25728,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88661,
+      "probability_score": 0.88314,
       "kev": {
         "cveID": "CVE-2025-53770",
         "vendorProject": "Microsoft",
@@ -26349,7 +26349,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0019,
+      "probability_score": 0.15507,
       "kev": {
         "cveID": "CVE-2025-60710",
         "vendorProject": "Microsoft",
