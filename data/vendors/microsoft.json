@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-15T01:46:13+00:00",
+  "generated_at": "2026-04-15T03:18:31+00:00",
   "vendor": "microsoft",
-  "count": 123,
+  "count": 124,
   "items": [
     {
       "cve_id": "CVE-2022-21882",
@@ -28781,6 +28781,70 @@
         ],
         "cpe_count": 23,
         "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-32201",
+      "description": "Improper input validation in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:F/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft sharepoint enterprise server 2016",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.0.5548.1003",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft sharepoint server 2019",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.0.10417.20114",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft sharepoint server subscription edition",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.0.19725.20210",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-32201",
+        "vendorProject": "Microsoft",
+        "product": "SharePoint Server",
+        "vulnerabilityName": "Microsoft SharePoint Server Improper Input Validation Vulnerability",
+        "dateAdded": "2026-04-14",
+        "shortDescription": "Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-04-28",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     }
   ]

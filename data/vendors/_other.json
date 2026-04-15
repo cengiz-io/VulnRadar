@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T01:46:13+00:00",
+  "generated_at": "2026-04-15T03:18:31+00:00",
   "vendor": "_other",
   "count": 800,
   "items": [
@@ -59810,28 +59810,24 @@
       "affected": [
         {
           "vendor": "vmware",
-          "product": "aria operations",
+          "product": "vmware aria operations",
           "versions": [
             {
-              "lessThan": "8.18.6",
               "status": "affected",
-              "version": "8.18.0",
+              "version": "8.18.x",
+              "lessThan": "8.18.6",
               "versionType": "custom"
-            },
-            {
-              "status": "unaffected",
-              "version": "8.18.6"
             }
           ]
         },
         {
           "vendor": "vmware",
-          "product": "cloud foundationcust",
+          "product": "vmware cloud foundation operations",
           "versions": [
             {
-              "lessThan": "9.0.2",
               "status": "affected",
               "version": "9.0",
+              "lessThan": "9.0.2",
               "versionType": "custom"
             },
             {
@@ -59840,9 +59836,9 @@
               "versionType": "custom"
             },
             {
-              "lessThan": "5.2.3",
               "status": "affected",
               "version": "4.0",
+              "lessThan": "5.2.3",
               "versionType": "custom"
             },
             {
@@ -59856,9 +59852,9 @@
           "product": "telco cloud platform",
           "versions": [
             {
-              "lessThan": "5.2.3",
               "status": "affected",
               "version": "2.0",
+              "lessThan": "5.2.3",
               "versionType": "custom"
             },
             {
@@ -59873,9 +59869,9 @@
           "product": "telco cloud infrastructure",
           "versions": [
             {
-              "lessThan": "5.2.3",
               "status": "affected",
               "version": "2.0",
+              "lessThan": "5.2.3",
               "versionType": "custom"
             },
             {
