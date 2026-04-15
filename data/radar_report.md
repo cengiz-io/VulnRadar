@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-04-15T12:38:47+00:00`
+Generated: `2026-04-15T13:43:42+00:00`
 
 ## Executive Summary
 
@@ -27,7 +27,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.897 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | 0.893 | 8.1 |  | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated qu… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.834 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
-| [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.813 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
+| [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.822 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | 0.171 | 6.5 |  | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to c… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.014 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | 0.051 | 6.1 |  | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL i… |
@@ -61,7 +61,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.897 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.893 | 8.1 | ✅ | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the ca… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.834 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
-| [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.813 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
+| [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.822 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.171 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.014 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.051 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
@@ -176,7 +176,7 @@ Top critical items:
 | [CVE-2025-32432](https://www.cve.org/CVERecord?id=CVE-2025-32432) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.884 | 10.0 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-R… |
 | [CVE-2023-4966](https://www.cve.org/CVERecord?id=CVE-2023-4966) |  | KEV | ✅ | ✅ | 2023-11-08 | 0.943 | 9.4 |  | Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA  v… |
 | [CVE-2024-8963](https://www.cve.org/CVERecord?id=CVE-2024-8963) |  | KEV | ✅ | ✅ | 2024-10-10 | 0.942 | 9.4 |  | Path Traversal in the Ivanti CSA before 4.6 Patch 519 allows a remote unauthenticated attacker to access restricted functionality. |
-| [CVE-2025-40551](https://www.cve.org/CVERecord?id=CVE-2025-40551) |  | KEV | ✅ | ✅ | 2026-02-06 | 0.899 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an untrusted data deserialization vulnerability that could lead to remote code execution, which would a… |
+| [CVE-2025-40551](https://www.cve.org/CVERecord?id=CVE-2025-40551) |  | KEV | ✅ | ✅ | 2026-02-06 | 0.901 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an untrusted data deserialization vulnerability that could lead to remote code execution, which would a… |
 | [CVE-2022-26143](https://www.cve.org/CVERecord?id=CVE-2022-26143) |  | KEV | ✅ | ✅ | 2022-04-15 | 0.895 | 9.8 |  | The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive i… |
 | [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.894 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2025-61882](https://www.cve.org/CVERecord?id=CVE-2025-61882) |  | KEV | ✅ | ✅ | 2025-10-27 | 0.894 | 9.8 |  | Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affect… |
@@ -233,8 +233,8 @@ Top critical items:
 | [CVE-2022-26923](https://www.cve.org/CVERecord?id=CVE-2022-26923) |  | KEV | ✅ | ✅ | 2022-09-08 | 0.914 | 8.8 |  | Active Directory Domain Services Elevation of Privilege Vulnerability |
 | [CVE-2022-43939](https://www.cve.org/CVERecord?id=CVE-2022-43939) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.933 | 8.6 |  | Hitachi Vantara Pentaho Business Analytics Server versions before 9.4.0.1 and 9.3.0.2, including 8.3.x contain security restrictions using non-canonical URLs w… |
 | [CVE-2025-1316](https://www.cve.org/CVERecord?id=CVE-2025-1316) |  | KEV | ✅ | ✅ | 2025-04-09 | 0.861 | 9.3 |  | Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device |
+| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.801 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2023-34192](https://www.cve.org/CVERecord?id=CVE-2023-34192) |  | KEV | ✅ | ✅ | 2025-03-18 | 0.890 | 9.0 |  | Cross Site Scripting vulnerability in Zimbra ZCS v.8.8.15 allows a remote authenticated attacker to execute arbitrary code via a crafted script to the /h/autoS… |
-| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.796 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2023-36025](https://www.cve.org/CVERecord?id=CVE-2023-36025) |  | KEV | ✅ | ✅ | 2023-12-05 | 0.902 | 8.8 |  | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2025-30066](https://www.cve.org/CVERecord?id=CVE-2025-30066) |  | KEV | ✅ | ✅ | 2025-04-08 | 0.913 | 8.6 |  | tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-1… |
 | [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) |  | KEV | ✅ | ✅ | 2024-01-22 | 0.944 | 8.2 |  | An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted reso… |

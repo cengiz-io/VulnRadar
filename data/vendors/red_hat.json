@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T12:38:45+00:00",
+  "generated_at": "2026-04-15T13:43:40+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -969,7 +969,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00013,
+      "probability_score": 0.00015,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -17047,7 +17047,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00635,
+      "probability_score": 0.00914,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -18694,7 +18694,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00012,
+      "probability_score": 0.00014,
       "nvd": {
         "cvss_v3_score": 5.6,
         "cvss_v3_severity": "MEDIUM",
@@ -46380,7 +46380,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.81263,
+      "probability_score": 0.82215,
       "nvd": {
         "cvss_v3_score": 7.7,
         "cvss_v3_severity": "HIGH",
@@ -54598,7 +54598,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00053,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -73532,7 +73532,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00012,
+      "probability_score": 0.00031,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -76054,7 +76054,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00053,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",

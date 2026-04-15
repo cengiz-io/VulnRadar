@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T12:38:45+00:00",
+  "generated_at": "2026-04-15T13:43:40+00:00",
   "vendor": "_other",
   "count": 800,
   "items": [
@@ -4414,7 +4414,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94399,
+      "probability_score": 0.94395,
       "kev": {
         "cveID": "CVE-2023-44487",
         "vendorProject": "IETF",
@@ -7716,7 +7716,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02686,
+      "probability_score": 0.02804,
       "kev": {
         "cveID": "CVE-2025-13223",
         "vendorProject": "Google",
@@ -38601,7 +38601,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.80881,
+      "probability_score": 0.79142,
       "kev": {
         "cveID": "CVE-2023-21608",
         "vendorProject": "Adobe",
@@ -42067,7 +42067,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.0005,
+      "probability_score": 0.00059,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -44511,7 +44511,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.38246,
+      "probability_score": 0.33907,
       "kev": {
         "cveID": "CVE-2026-21643",
         "vendorProject": "Fortinet",
@@ -47267,7 +47267,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.25308,
+      "probability_score": 0.27209,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -63741,7 +63741,7 @@
         "vendor:linuxdeepin"
       ],
       "active_threat": false,
-      "probability_score": 0.00016,
+      "probability_score": 0.00017,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -65107,7 +65107,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79628,
+      "probability_score": 0.80065,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -65754,7 +65754,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.70667,
+      "probability_score": 0.71251,
       "kev": {
         "cveID": "CVE-2025-40536",
         "vendorProject": "SolarWinds",
@@ -65803,7 +65803,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89931,
+      "probability_score": 0.90055,
       "kev": {
         "cveID": "CVE-2025-40551",
         "vendorProject": "SolarWinds",
@@ -68544,7 +68544,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.86088,
+      "probability_score": 0.86102,
       "kev": {
         "cveID": "CVE-2025-1316",
         "vendorProject": "Edimax",
@@ -70268,7 +70268,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.7872,
+      "probability_score": 0.79939,
       "kev": {
         "cveID": "CVE-2026-23760",
         "vendorProject": "SmarterTools",
@@ -70907,7 +70907,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06916,
+      "probability_score": 0.06011,
       "kev": {
         "cveID": "CVE-2025-59689",
         "vendorProject": "Libraesva",
