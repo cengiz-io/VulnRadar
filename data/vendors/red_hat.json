@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T01:47:09+00:00",
+  "generated_at": "2026-04-18T03:17:09+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -5003,6 +5003,42 @@
           "versions": [
             {
               "version": "sha256:54616c9f3e4d27120504b0b2020432ef3ff85286a50de7be842f05df0cfcd69e",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.3",
+          "versions": [
+            {
+              "version": "sha256:0ec114881d9dcd28a5dbbb2ec0ea1301ad87d5ae133121ce8167ef29d19802cc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.3",
+          "versions": [
+            {
+              "version": "sha256:813ba7ccd1696b44deb90d9e6cd8af114bdb47781eae7f27246a81fba062a892",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.3",
+          "versions": [
+            {
+              "version": "sha256:be6d568f28044533e4ad80f0856407c359e2eaf31a6b89cada433e6575d2300e",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15432,7 +15468,7 @@
           "product": "red hat ceph storage 7.1",
           "versions": [
             {
-              "version": "2:18.2.1-381.el9cp",
+              "version": "2:18.2.1-381.el8cp",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15681,10 +15717,22 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ceph storage 9",
+          "versions": [
+            {
+              "version": "sha256:3e0b13addd3593d8802f1d55e878bb467e5c83e1ffd76999b006107b5cb3d335",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift pipelines 1.14.6",
           "versions": [
             {
-              "version": "sha256:b32808b8cf7e7920cf26d4e878c1b63a65ec18f6be99e40cdb74fbe4fa524569",
+              "version": "sha256:84f36fbadbbbbaa4a174850994a6bfb1ffb8f2c671f9dee83037a756c3a3cd95",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15708,7 +15756,7 @@
           "product": "red hat openshift pipelines 1.15",
           "versions": [
             {
-              "version": "sha256:85baf97e82da18b2fb1f4bde5cd919474f49badb22c901180510a583d8134776",
+              "version": "sha256:43fbd1ff1fcab53e5d4fde5daafa46795b3f2b1e14c07cc2e565b624aa8468c7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15732,7 +15780,7 @@
           "product": "red hat openshift pipelines 1.16",
           "versions": [
             {
-              "version": "sha256:406517f877eca2bda9cfd946bbf453f7e7cf71038ab25742005dd205c10a85f6",
+              "version": "sha256:3fc1b957039ba40b8d5353cd624b930f2bc5c5cb47335f7eb3255a8d792a3060",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15744,7 +15792,7 @@
           "product": "red hat openshift pipelines 1.17",
           "versions": [
             {
-              "version": "sha256:fa3e4e087d67654dd36a0a11961b0a471f58167a9318d2e1416803712f95cb8f",
+              "version": "sha256:43f914efbabff71cd7f5dad186b461fd87a28846b33f8c8b3d2ad38fece95983",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15768,7 +15816,7 @@
           "product": "red hat openshift pipelines 1.18.0",
           "versions": [
             {
-              "version": "sha256:bc7602c4523fa8c1906e6857e61957d2d73f9e62536934da97dc5000a3e5f8eb",
+              "version": "sha256:7a71e590bb448f9f6c9f1e8f8ad0396770cc015e22358d5f7b022f79f2ff01e2",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15780,7 +15828,7 @@
           "product": "red hat openshift pipelines 1.19",
           "versions": [
             {
-              "version": "sha256:41802fe9a757e2619392b014e573c921e38ecec28ba8c1cf19e31e3f8340606f",
+              "version": "sha256:31eeeab213a1b603ab8c3f8253cd19c87bb45ca03e96e0461314571a7de82828",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -15935,11 +15983,6 @@
         {
           "vendor": "red hat",
           "product": "red hat ceph storage 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ceph storage 9",
           "versions": null
         },
         {
