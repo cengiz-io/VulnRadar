@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-04-20T18:40:25+00:00`
+Generated: `2026-04-20T19:37:20+00:00`
 
 ## Executive Summary
 
@@ -17,10 +17,10 @@ Top critical items:
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.018 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.002 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.005 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
+| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.001 | 7.4 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | 0.011 | 7.1 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when find… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.017 | 5.5 | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.022 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
-| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.001 |  | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | 0.810 | 9.8 |  | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP S… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.877 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | 0.881 | 8.6 |  | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in t… |
@@ -34,10 +34,10 @@ Top critical items:
 
 ## Summary
 
-- Total items: **11544**
+- Total items: **11552**
 - Watchlist hits: **10891**
-- CISA KEVs: **664**
-- Exploit Intel (PoC): **674**
+- CISA KEVs: **672**
+- Exploit Intel (PoC): **676**
 - Exploit Intel + Watchlist (CRITICAL): **21**
 
 ## Top Findings (max 200)
@@ -51,10 +51,10 @@ Top critical items:
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.018 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.002 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.005 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
+| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.001 | 7.4 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.011 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.017 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.022 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
-| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.001 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.810 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.877 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.881 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
@@ -138,6 +138,7 @@ Top critical items:
 | [CVE-2023-38203](https://www.cve.org/CVERecord?id=CVE-2023-38203) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.942 | 9.8 |  | Adobe ColdFusion versions 2018u17 (and earlier), 2021u7 (and earlier) and 2023u1 (and earlier) are affected by a Deserialization of Untrusted Data vulnerabilit… |
 | [CVE-2023-25717](https://www.cve.org/CVERecord?id=CVE-2023-25717) |  | KEV | ✅ | ✅ | 2023-06-02 | 0.942 | 9.8 |  | Ruckus Wireless Admin through 10.4 allows Remote Code Execution via an unauthenticated HTTP GET Request, as demonstrated by a /forms/doLogin?login_username=adm… |
 | [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.942 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
+| [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 0.942 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
 | [CVE-2024-13159](https://www.cve.org/CVERecord?id=CVE-2024-13159) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.942 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2024-34102](https://www.cve.org/CVERecord?id=CVE-2024-34102) |  | KEV | ✅ | ✅ | 2024-08-07 | 0.942 | 9.8 |  | Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulner… |
 | [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.941 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
@@ -243,7 +244,6 @@ Top critical items:
 | [CVE-2024-28986](https://www.cve.org/CVERecord?id=CVE-2024-28986) |  | KEV | ✅ | ✅ | 2024-09-05 | 0.769 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to a Java Deserialization Remote Code Execution vulnerability that, if exploited, would allow an attacker … |
 | [CVE-2024-21412](https://www.cve.org/CVERecord?id=CVE-2024-21412) |  | KEV | ✅ | ✅ | 2024-03-05 | 0.938 | 8.1 |  | Internet Shortcut Files Security Feature Bypass Vulnerability |
 | [CVE-2026-23760](https://www.cve.org/CVERecord?id=CVE-2026-23760) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.817 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoi… |
-| [CVE-2024-8956](https://www.cve.org/CVERecord?id=CVE-2024-8956) |  | KEV | ✅ | ✅ | 2024-11-25 | 0.836 | 9.1 |  | PTZOptics PT30X-SDI/NDI-xx before firmware 6.3.40 is vulnerable to an insufficient authentication issue. The camera does not properly enforce authentication to… |
 
 ## Recent Changes (Last 7 Days)
 
@@ -267,8 +267,3 @@ Top critical items:
 | Apr 14 | [CVE-2026-31426](https://www.cve.org/CVERecord?id=CVE-2026-31426) | 🆕 New |
 | Apr 14 | [CVE-2026-31427](https://www.cve.org/CVERecord?id=CVE-2026-31427) | 🆕 New |
 | Apr 14 | [CVE-2026-31428](https://www.cve.org/CVERecord?id=CVE-2026-31428) | 🆕 New |
-| Apr 13 | [CVE-2026-34621](https://www.cve.org/CVERecord?id=CVE-2026-34621) | 🔴 In CISA KEV |
-| Apr 13 | [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) | 🔴 In CISA KEV |
-| Apr 13 | [CVE-2023-21529](https://www.cve.org/CVERecord?id=CVE-2023-21529) | 🔴 In CISA KEV |
-| Apr 13 | [CVE-2023-36424](https://www.cve.org/CVERecord?id=CVE-2023-36424) | 🔴 In CISA KEV |
-| Apr 13 | [CVE-2025-60710](https://www.cve.org/CVERecord?id=CVE-2025-60710) | 🔴 In CISA KEV |
