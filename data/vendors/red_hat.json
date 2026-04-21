@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T01:46:42+00:00",
+  "generated_at": "2026-04-21T03:18:49+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -63753,6 +63753,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "3.8.12-1.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
@@ -63771,11 +63783,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {
@@ -63909,6 +63916,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "3.8.12-1.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
@@ -63932,11 +63951,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {
@@ -64094,6 +64108,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "3.8.12-1.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
@@ -64112,11 +64138,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {
@@ -72323,7 +72344,19 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "file integrity operator 1",
+          "versions": [
+            {
+              "version": "sha256:364d11af112a5b1d3f28c9ea8b7aac678e111b9c7fca0516d61036904f318605",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "sha256:4953a7ea865ff38a4fe19d5536d8062870c262733c640a2c7e4bd9e0bfb3d498",
@@ -72335,7 +72368,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "sha256:06ad8599c4b0170264e40a45b0126504c87c37f0832265c7ff6541d2385b2049",
@@ -72347,22 +72380,10 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "sha256:0903a7a5c857d96c84fd022e5785514eff201047e2fdd5d6699d79f17440ef02",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "file integrity operator 1",
-          "versions": [
-            {
-              "version": "sha256:364d11af112a5b1d3f28c9ea8b7aac678e111b9c7fca0516d61036904f318605",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86663,12 +86684,19 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "4.7.1-2.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat hardened images",
+          "product": "red hat enterprise linux 6",
           "versions": null
         }
       ],

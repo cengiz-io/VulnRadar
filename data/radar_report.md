@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-04-21T01:46:44+00:00`
+Generated: `2026-04-21T03:18:51+00:00`
 
 ## Executive Summary
 
@@ -34,8 +34,8 @@ Top critical items:
 
 ## Summary
 
-- Total items: **11552**
-- Watchlist hits: **10891**
+- Total items: **11554**
+- Watchlist hits: **10893**
 - CISA KEVs: **672**
 - Exploit Intel (PoC): **682**
 - Exploit Intel + Watchlist (CRITICAL): **21**
@@ -259,19 +259,3 @@ Top critical items:
 | Apr 20 | [CVE-2025-2749](https://www.cve.org/CVERecord?id=CVE-2025-2749) | 🔴 In CISA KEV |
 | Apr 16 | [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) | 🔴 In CISA KEV |
 | Apr 15 | [CVE-2026-32201](https://www.cve.org/CVERecord?id=CVE-2026-32201) | 🔴 In CISA KEV |
-| Apr 14 | [CVE-2026-22486](https://www.cve.org/CVERecord?id=CVE-2026-22486) | 🆕 New |
-| Apr 14 | [CVE-2026-31414](https://www.cve.org/CVERecord?id=CVE-2026-31414) | 🆕 New |
-| Apr 14 | [CVE-2026-31415](https://www.cve.org/CVERecord?id=CVE-2026-31415) | 🆕 New |
-| Apr 14 | [CVE-2026-31416](https://www.cve.org/CVERecord?id=CVE-2026-31416) | 🆕 New |
-| Apr 14 | [CVE-2026-31417](https://www.cve.org/CVERecord?id=CVE-2026-31417) | 🆕 New |
-| Apr 14 | [CVE-2026-31418](https://www.cve.org/CVERecord?id=CVE-2026-31418) | 🆕 New |
-| Apr 14 | [CVE-2026-31419](https://www.cve.org/CVERecord?id=CVE-2026-31419) | 🆕 New |
-| Apr 14 | [CVE-2026-31420](https://www.cve.org/CVERecord?id=CVE-2026-31420) | 🆕 New |
-| Apr 14 | [CVE-2026-31421](https://www.cve.org/CVERecord?id=CVE-2026-31421) | 🆕 New |
-| Apr 14 | [CVE-2026-31422](https://www.cve.org/CVERecord?id=CVE-2026-31422) | 🆕 New |
-| Apr 14 | [CVE-2026-31423](https://www.cve.org/CVERecord?id=CVE-2026-31423) | 🆕 New |
-| Apr 14 | [CVE-2026-31424](https://www.cve.org/CVERecord?id=CVE-2026-31424) | 🆕 New |
-| Apr 14 | [CVE-2026-31425](https://www.cve.org/CVERecord?id=CVE-2026-31425) | 🆕 New |
-| Apr 14 | [CVE-2026-31426](https://www.cve.org/CVERecord?id=CVE-2026-31426) | 🆕 New |
-| Apr 14 | [CVE-2026-31427](https://www.cve.org/CVERecord?id=CVE-2026-31427) | 🆕 New |
-| Apr 14 | [CVE-2026-31428](https://www.cve.org/CVERecord?id=CVE-2026-31428) | 🆕 New |
