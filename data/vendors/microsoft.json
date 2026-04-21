@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T17:32:28+00:00",
+  "generated_at": "2026-04-21T18:38:01+00:00",
   "vendor": "microsoft",
   "count": 124,
   "items": [
@@ -6591,7 +6591,7 @@
         "shortDescription": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-27",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 8.8,
