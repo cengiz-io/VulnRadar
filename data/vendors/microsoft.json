@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22T18:39:55+00:00",
+  "generated_at": "2026-04-22T19:39:50+00:00",
   "vendor": "microsoft",
-  "count": 124,
+  "count": 125,
   "items": [
     {
       "cve_id": "CVE-2022-21882",
@@ -28844,6 +28844,46 @@
         "shortDescription": "Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-28",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
+      "cve_id": "CVE-2026-33825",
+      "description": "Insufficient granularity of access control in Microsoft Defender allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft defender antimalware platform",
+          "versions": [
+            {
+              "version": "4.0.0.0",
+              "lessThan": "4.18.26030.3011",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00062,
+      "kev": {
+        "cveID": "CVE-2026-33825",
+        "vendorProject": "Microsoft",
+        "product": "Defender",
+        "vulnerabilityName": "Microsoft Defender Insufficient Granularity of Access Control Vulnerability",
+        "dateAdded": "2026-04-22",
+        "shortDescription": "Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-05-06",
         "knownRansomwareCampaignUse": "Unknown"
       }
     }
