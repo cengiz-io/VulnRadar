@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T01:47:20+00:00",
+  "generated_at": "2026-04-23T03:19:34+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -44148,7 +44148,7 @@
           "product": "devworkspace operator 0.33",
           "versions": [
             {
-              "version": "sha256:b41c498da32fde3fa636594ef93d2206ca1a3bc306e401eaae035dc18d30654a",
+              "version": "sha256:937e1dff95d06b971adee9aeb55e0e2e963b6b14594f30354bb9cdb039c081dd",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -44160,7 +44160,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:f33991d766b618a128fb99fbe4f9b61c5004f7c6aa73b2b38e28d59e56c64d63",
+              "version": "sha256:ad1045aa0de937c3a6969ec377f7bfeda9a44ee434a954e8245e9840316ffc1c",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -44172,7 +44172,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:c960fa13577db72b52765d6941688f431f61fe38adb717b2d8bb6569e241bc5e",
+              "version": "sha256:492e412759cf0eedfa5b557f7b0865f8864f84d0ed75e11dc8d7a840837d9644",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
