@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-23T16:46:35+00:00",
+  "generated_at": "2026-04-23T17:41:59+00:00",
   "vendor": "_other",
-  "count": 809,
+  "count": 810,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -75653,6 +75653,55 @@
         ],
         "cpe_count": 7,
         "reference_count": 14
+      }
+    },
+    {
+      "cve_id": "CVE-2026-39987",
+      "description": "marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authentication validation, allowing an unauthenticated attacker to obtain a full PTY shell and execute arbitrary system commands. Unlike other WebSocket endpoints (e.g., /ws) that correctly call validate_auth() for authentication, the /terminal/ws endpoint only checks the running mode and platform support before accepting connections, completely skipping authentication verification. This vulnerability is fixed in 0.23.0.",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "marimo-team",
+          "product": "marimo",
+          "versions": [
+            {
+              "version": "< 0.23.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.06989,
+      "kev": {
+        "cveID": "CVE-2026-39987",
+        "vendorProject": "Marimo",
+        "product": "Marimo",
+        "vulnerabilityName": "Marimo Remote Code Execution Vulnerability",
+        "dateAdded": "2026-04-23",
+        "shortDescription": "Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-05-07",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-306"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
       }
     },
     {
