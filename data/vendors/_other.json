@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-24T01:47:57+00:00",
+  "generated_at": "2026-04-24T03:20:20+00:00",
   "vendor": "_other",
-  "count": 810,
+  "count": 812,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -60844,54 +60844,6 @@
       }
     },
     {
-      "cve_id": "CVE-2026-22486",
-      "description": "Missing Authorization vulnerability in Re Gallery allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Re Gallery: from n/a through 1.18.9.",
-      "cvss_score": 5.3,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "affected": [
-        {
-          "vendor": "",
-          "product": "re gallery",
-          "versions": [
-            {
-              "status": "affected",
-              "version": "n/a",
-              "lessThanOrEqual": "1.18.9",
-              "changes": [
-                {
-                  "at": "1.18.10",
-                  "status": "unaffected"
-                }
-              ],
-              "versionType": "custom"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:re gallery"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00014,
-      "nvd": {
-        "cvss_v3_score": 5.3,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-862"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
-    },
-    {
       "cve_id": "CVE-2026-23800",
       "description": "Incorrect Privilege Assignment vulnerability in Modular DS modular-connector allows Privilege Escalation.This issue affects Modular DS: from 2.5.2 before 2.6.0.",
       "cvss_score": 10.0,
@@ -61253,6 +61205,93 @@
         "cpe_count": 0,
         "reference_count": 2
       }
+    },
+    {
+      "cve_id": "CVE-2026-40470",
+      "description": "A critical XSS vulnerability affected hackage-server and\nhackage.haskell.org.  HTML and JavaScript files provided in source\npackages or via the documentation upload facility were served\nas-is on the main hackage.haskell.org domain.  As a consequence,\nwhen a user with latent HTTP credentials browses to the package\npages or documentation uploaded by a malicious package maintainer,\ntheir session can be hijacked to upload packages or\ndocumentation, amend maintainers or other package metadata, or\nperform any other action the user is authorised to do.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.1",
+              "lessThan": "0.6",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-40471",
+      "description": "hackage-server lacked Cross-Site Request Forgery (CSRF) protection across its endpoints. Scripts on foreign sites could trigger requests to hackage server, possibly abusing latent credentials to upload packages or perform other administrative actions. Some unauthenticated actions could also be abused (e.g. creating new user accounts).",
+      "cvss_score": 9.6,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "*",
+              "status": "affected",
+              "version": "0.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-40472",
+      "description": "In hackage-server, user-controlled metadata from .cabal files are rendered into HTML\nhref attributes without proper sanitization, enabling stored\nCross-Site Scripting (XSS) attacks.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.1",
+              "lessThan": "*",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2022-46169",
@@ -75310,9 +75349,9 @@
     {
       "cve_id": "CVE-2026-22349",
       "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in linux4me2 Menu In Post menu-in-post allows DOM-Based XSS.This issue affects Menu In Post: from n/a through <= 1.4.1.",
-      "cvss_score": 5.4,
+      "cvss_score": 6.5,
       "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "linux4me2",
