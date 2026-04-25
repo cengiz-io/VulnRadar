@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T00:59:43+00:00",
+  "generated_at": "2026-04-25T01:46:06+00:00",
   "vendor": "_other",
   "count": 816,
   "items": [
@@ -5975,9 +5975,9 @@
     {
       "cve_id": "CVE-2025-29635",
       "description": "A command injection vulnerability in D-Link DIR-823X 240126 and 240802 allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via the corresponding function, triggering remote command execution.",
-      "cvss_score": 8.8,
+      "cvss_score": 7.2,
       "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "n/a",
@@ -6010,7 +6010,7 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 8.8,
+        "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
@@ -6018,7 +6018,7 @@
           "CWE-77"
         ],
         "cpe_count": 3,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -6066,8 +6066,8 @@
         "cwe_ids": [
           "CWE-287"
         ],
-        "cpe_count": 0,
-        "reference_count": 4
+        "cpe_count": 5,
+        "reference_count": 5
       }
     },
     {
@@ -6165,7 +6165,7 @@
           "CWE-79"
         ],
         "cpe_count": 94,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -32347,7 +32347,7 @@
           "CWE-648"
         ],
         "cpe_count": 5,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -34321,7 +34321,7 @@
           "CWE-257"
         ],
         "cpe_count": 5,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -35335,7 +35335,7 @@
           "CWE-200"
         ],
         "cpe_count": 5,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -42970,8 +42970,8 @@
           "CWE-20",
           "CWE-94"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 4,
+        "reference_count": 3
       }
     },
     {
@@ -61381,7 +61381,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00046
+      "probability_score": 0.00046,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-40471",
@@ -61410,7 +61421,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00017
+      "probability_score": 0.00017,
+      "nvd": {
+        "cvss_v3_score": 9.6,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-40472",
@@ -61439,7 +61461,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00046
+      "probability_score": 0.00046,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2022-46169",
@@ -63098,7 +63131,7 @@
           "CWE-287"
         ],
         "cpe_count": 6,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -65967,7 +66000,7 @@
           "CWE-22"
         ],
         "cpe_count": 1,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -71447,7 +71480,7 @@
           "CWE-125"
         ],
         "cpe_count": 0,
-        "reference_count": 11
+        "reference_count": 12
       }
     },
     {
@@ -71489,7 +71522,7 @@
           "CWE-269",
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 4
       }
     },
@@ -72022,7 +72055,7 @@
           "CWE-787"
         ],
         "cpe_count": 2,
-        "reference_count": 15
+        "reference_count": 17
       }
     },
     {
@@ -72227,7 +72260,7 @@
           "CWE-434"
         ],
         "cpe_count": 1,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -75578,7 +75611,7 @@
       "active_threat": false,
       "probability_score": 0.00039,
       "nvd": {
-        "cvss_v3_score": 5.4,
+        "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
@@ -75932,15 +75965,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 0,
-        "reference_count": 3
+        "cpe_count": 1,
+        "reference_count": 5
       }
     },
     {
