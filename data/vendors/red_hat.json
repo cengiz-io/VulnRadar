@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T01:08:24+00:00",
+  "generated_at": "2026-04-28T03:22:17+00:00",
   "vendor": "red_hat",
   "count": 478,
   "items": [
@@ -52811,6 +52811,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "1.1.45-0.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -52832,11 +52844,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {
@@ -54340,6 +54347,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "1.1.45-0.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -54361,11 +54380,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {
@@ -74162,7 +74176,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "sha256:06ad8599c4b0170264e40a45b0126504c87c37f0832265c7ff6541d2385b2049",
