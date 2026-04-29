@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-29T01:09:55+00:00",
+  "generated_at": "2026-04-29T03:22:29+00:00",
   "vendor": "_other",
-  "count": 817,
+  "count": 818,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -50150,9 +50150,9 @@
     {
       "cve_id": "CVE-2023-46777",
       "description": "Cross-Site Request Forgery (CSRF) vulnerability in Custom Login Page | Temporary Users | Rebrand Login | Login Captcha plugin <=\u00a01.1.3 versions.",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
       "affected": [
         {
           "vendor": "",
@@ -53177,7 +53177,7 @@
     },
     {
       "cve_id": "CVE-2024-29769",
-      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Portfolio Gallery \u2013 Image Gallery Plugin allows Stored XSS.This issue affects Portfolio Gallery \u2013 Image Gallery Plugin: from n/a through 1.5.6.\n\n",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Portfolio Gallery \u2013 Image Gallery Plugin allows Stored XSS.This issue affects Portfolio Gallery \u2013 Image Gallery Plugin: from n/a through 1.5.6.",
       "cvss_score": 6.5,
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
@@ -53225,7 +53225,7 @@
     },
     {
       "cve_id": "CVE-2024-29917",
-      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Compact WP Audio Player allows Stored XSS.This issue affects Compact WP Audio Player: from n/a through 1.9.9.\n\n",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Compact WP Audio Player allows Stored XSS.This issue affects Compact WP Audio Player: from n/a through 1.9.9.",
       "cvss_score": 6.5,
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
@@ -53319,7 +53319,7 @@
     },
     {
       "cve_id": "CVE-2024-30434",
-      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP-CRM System allows Stored XSS.This issue affects WP-CRM System: from n/a through 3.2.9.\n\n",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP-CRM System allows Stored XSS.This issue affects WP-CRM System: from n/a through 3.2.9.",
       "cvss_score": 5.9,
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
@@ -53463,7 +53463,7 @@
     },
     {
       "cve_id": "CVE-2024-31931",
-      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Save as Image plugin by Pdfcrowd allows Stored XSS.This issue affects Save as Image plugin by Pdfcrowd: from n/a through 3.2.1 .\n\n",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Save as Image plugin by Pdfcrowd allows Stored XSS.This issue affects Save as Image plugin by Pdfcrowd: from n/a through 3.2.1 .",
       "cvss_score": 5.9,
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
@@ -53479,7 +53479,7 @@
                   "status": "unaffected"
                 }
               ],
-              "lessThanOrEqual": "3.2.1 ",
+              "lessThanOrEqual": "3.2.1",
               "status": "affected",
               "version": "n/a",
               "versionType": "custom"
@@ -53511,7 +53511,7 @@
     },
     {
       "cve_id": "CVE-2024-32722",
-      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Coupon & Discount Code Reveal Button allows Stored XSS.This issue affects Coupon & Discount Code Reveal Button: from n/a through 1.2.5.\n\n",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Coupon & Discount Code Reveal Button allows Stored XSS.This issue affects Coupon & Discount Code Reveal Button: from n/a through 1.2.5.",
       "cvss_score": 5.9,
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
@@ -53559,7 +53559,7 @@
     },
     {
       "cve_id": "CVE-2024-32953",
-      "description": "Insertion of Sensitive Information into Log File vulnerability in Newsletters.This issue affects Newsletters: from n/a through 4.9.5.\n\n",
+      "description": "Insertion of Sensitive Information into Log File vulnerability in Newsletters.This issue affects Newsletters: from n/a through 4.9.5.",
       "cvss_score": 7.5,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -54407,7 +54407,7 @@
     },
     {
       "cve_id": "CVE-2024-34416",
-      "description": "Unrestricted Upload of File with Dangerous Type vulnerability in Pk Favicon Manager.This issue affects Pk Favicon Manager: from n/a through 2.1.\n\n",
+      "description": "Unrestricted Upload of File with Dangerous Type vulnerability in Pk Favicon Manager.This issue affects Pk Favicon Manager: from n/a through 2.1.",
       "cvss_score": 9.1,
       "cvss_severity": "CRITICAL",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
@@ -60986,6 +60986,54 @@
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-22486",
+      "description": "Missing Authorization vulnerability in Re Gallery allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Re Gallery: from n/a through 1.18.9.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "re gallery",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.18.10",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "1.18.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:re gallery"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00014,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
         ],
         "cpe_count": 0,
         "reference_count": 1
