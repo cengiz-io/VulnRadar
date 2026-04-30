@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T09:10:22+00:00",
+  "generated_at": "2026-04-30T10:07:55+00:00",
   "vendor": "apple",
   "count": 50,
   "items": [
@@ -2843,9 +2843,9 @@
     {
       "cve_id": "CVE-2024-23222",
       "description": "A type confusion issue was addressed with improved checks. This issue is fixed in Safari 17.3, iOS 15.8.7 and iPadOS 15.8.7, iOS 16.7.5 and iPadOS 16.7.5, iOS 17.3 and iPadOS 17.3, macOS Monterey 12.7.3, macOS Sonoma 14.3, macOS Ventura 13.6.4, tvOS 17.3, visionOS 1.0.2. Processing maliciously crafted web content may lead to arbitrary code execution. This fix associated with the Coruna exploit was shipped in iOS 17.3 on January 22, 2024. This update brings that fix to devices that cannot update to the latest iOS version.",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "apple",
@@ -2950,25 +2950,14 @@
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2024-02-13",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-843"
-        ],
-        "cpe_count": 12,
-        "reference_count": 25
       }
     },
     {
       "cve_id": "CVE-2024-23225",
       "description": "A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 16.7.6 and iPadOS 16.7.6, iOS 17.4 and iPadOS 17.4, macOS Monterey 12.7.4, macOS Sonoma 14.4, macOS Ventura 13.6.5, tvOS 17.4, visionOS 1.1, watchOS 10.4. An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.",
-      "cvss_score": 7.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "apple",
@@ -3067,25 +3056,14 @@
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2024-03-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 10,
-        "reference_count": 26
       }
     },
     {
       "cve_id": "CVE-2024-23296",
       "description": "A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 16.7.8 and iPadOS 16.7.8, iOS 17.4 and iPadOS 17.4, macOS Monterey 12.7.6, macOS Sonoma 14.4, macOS Ventura 13.6.7, tvOS 17.4, visionOS 1.1, watchOS 10.4. An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.",
-      "cvss_score": 7.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "apple",
@@ -3184,25 +3162,14 @@
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2024-03-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 10,
-        "reference_count": 26
       }
     },
     {
       "cve_id": "CVE-2024-44308",
       "description": "The issue was addressed with improved checks. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, iOS 18.1.1 and iPadOS 18.1.1, macOS Sequoia 15.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "apple",
@@ -3277,23 +3244,14 @@
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2024-12-12",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 8,
-        "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2024-44309",
       "description": "A cookie management issue was addressed with improved state management. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, iOS 18.1.1 and iPadOS 18.1.1, macOS Sequoia 15.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to a cross site scripting attack. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.",
-      "cvss_score": 6.3,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "apple",
@@ -3368,17 +3326,6 @@
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2024-12-12",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 6.3,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 8,
-        "reference_count": 8
       }
     },
     {
