@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-05-01T17:32:27+00:00`
+Generated: `2026-05-01T18:38:04+00:00`
 
 ## Executive Summary
 
@@ -14,6 +14,7 @@ Top critical items:
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.675 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | 0.186 | 9.8 | 2026-02-26 | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by defaul… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.144 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
+| [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | 0.026 | 7.8 | 2026-05-15 | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-pl… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.018 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.002 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.004 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
@@ -29,7 +30,6 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.834 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.813 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | 0.268 | 6.5 |  | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to c… |
-| [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | 0.026 | 7.8 |  | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-pl… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.007 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | 0.066 | 6.1 |  | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL i… |
 
@@ -37,7 +37,7 @@ Top critical items:
 
 - Total items: **11830**
 - Watchlist hits: **11160**
-- CISA KEVs: **681**
+- CISA KEVs: **682**
 - Exploit Intel (PoC): **692**
 - Exploit Intel + Watchlist (CRITICAL): **22**
 
@@ -49,6 +49,7 @@ Top critical items:
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.675 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-26 | 0.186 | 9.8 | ✅ | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that i… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.144 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
+| [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-05-15 | 0.026 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-place  This mostly reverts commit 72548b09… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.018 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.002 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.004 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
@@ -64,7 +65,6 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.834 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.813 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.268 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
-| [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-place  This mostly reverts commit 72548b09… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.007 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2022-22947](https://www.cve.org/CVERecord?id=CVE-2022-22947) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.945 | 10.0 |  | In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enab… |
@@ -300,4 +300,4 @@ Top critical items:
 | Apr 25 | [CVE-2026-31555](https://www.cve.org/CVERecord?id=CVE-2026-31555) | 🆕 New |
 | Apr 25 | [CVE-2026-31556](https://www.cve.org/CVERecord?id=CVE-2026-31556) | 🆕 New |
 | Apr 25 | [CVE-2026-31557](https://www.cve.org/CVERecord?id=CVE-2026-31557) | 🆕 New |
-| ... | | _and 119 more_ |
+| ... | | _and 115 more_ |
