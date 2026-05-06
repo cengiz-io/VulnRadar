@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T23:29:11+00:00",
+  "generated_at": "2026-05-06T01:16:58+00:00",
   "vendor": "_other",
   "count": 820,
   "items": [
@@ -75973,7 +75973,18 @@
         "vendor:vda-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00012
+      "probability_score": 0.00012,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-33634",
@@ -76428,8 +76439,8 @@
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 17,
-        "reference_count": 7
+        "cpe_count": 19,
+        "reference_count": 9
       }
     }
   ]
