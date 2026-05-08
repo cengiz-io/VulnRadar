@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T01:10:28+00:00",
+  "generated_at": "2026-05-08T03:32:43+00:00",
   "vendor": "_other",
-  "count": 821,
+  "count": 822,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -1305,6 +1305,17 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.    Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required.",
         "dueDate": "2026-05-09",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -60710,7 +60721,7 @@
           "CWE-476"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -64939,6 +64950,52 @@
         ],
         "cpe_count": 8,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-6973",
+      "description": "An Improper Input Validation in Ivanti EPMM\u00a0before\u00a0versions 12.6.1.1, 12.7.0.1, and 12.8.0.1\u00a0allows\u00a0a remotely authenticated user with\u00a0administrative access to achieve remote code execution.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "ivanti",
+          "product": "endpoint manager mobile",
+          "versions": [
+            {
+              "status": "unaffected",
+              "version": "12.6.1.1"
+            },
+            {
+              "status": "unaffected",
+              "version": "12.7.0.1"
+            },
+            {
+              "status": "unaffected",
+              "version": "12.8.0.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-6973",
+        "vendorProject": "Ivanti",
+        "product": "Endpoint Manager Mobile (EPMM)",
+        "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+        "dateAdded": "2026-05-07",
+        "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-05-10",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     },
     {
@@ -76139,7 +76196,7 @@
           "CWE-122"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
