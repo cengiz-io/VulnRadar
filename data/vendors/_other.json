@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T01:09:52+00:00",
+  "generated_at": "2026-05-12T03:23:28+00:00",
   "vendor": "_other",
   "count": 823,
   "items": [
@@ -76139,7 +76139,7 @@
               "lessThanOrEqual": "1.14",
               "status": "affected",
               "version": "0",
-              "versionType": "semver"
+              "versionType": "custom"
             }
           ]
         }
