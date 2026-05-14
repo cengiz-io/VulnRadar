@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-05-14T12:56:01+00:00`
+Generated: `2026-05-14T13:49:11+00:00`
 
 ## Executive Summary
 
@@ -199,7 +199,6 @@ Top critical items:
 | [CVE-2025-61757](https://www.cve.org/CVERecord?id=CVE-2025-61757) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.878 | 9.8 |  | Vulnerability in the Identity Manager product of Oracle Fusion Middleware (component: REST WebServices).  Supported versions that are affected are 12.2.1.4.0 a… |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 0.944 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-28987](https://www.cve.org/CVERecord?id=CVE-2024-28987) |  | KEV | ✅ | ✅ | 2024-11-05 | 0.943 | 9.1 |  | The SolarWinds Web Help Desk (WHD) software is affected by a hardcoded credential vulnerability, allowing remote unauthenticated user to access internal functi… |
-| [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.852 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2022-26258](https://www.cve.org/CVERecord?id=CVE-2022-26258) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.872 | 9.8 |  | D-Link DIR-820L 1.05B03 was discovered to contain remote command execution (RCE) vulnerability via HTTP POST to get set ccp. |
 | [CVE-2024-20439](https://www.cve.org/CVERecord?id=CVE-2024-20439) |  | KEV | ✅ | ✅ | 2025-04-21 | 0.871 | 9.8 |  | A vulnerability in Cisco Smart Licensing Utility (CSLU) could allow an unauthenticated, remote attacker to log into an affected system by using a static admini… |
 | [CVE-2022-23131](https://www.cve.org/CVERecord?id=CVE-2022-23131) |  | KEV | ✅ | ✅ | 2022-03-08 | 0.940 | 9.1 |  | In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login st… |
@@ -211,7 +210,7 @@ Top critical items:
 | [CVE-2025-0282](https://www.cve.org/CVERecord?id=CVE-2025-0282) |  | KEV | ✅ | ✅ | 2025-01-15 | 0.941 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gatewa… |
 | [CVE-2025-40551](https://www.cve.org/CVERecord?id=CVE-2025-40551) |  | KEV | ✅ | ✅ | 2026-02-06 | 0.861 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an untrusted data deserialization vulnerability that could lead to remote code execution, which would a… |
 | [CVE-2024-5910](https://www.cve.org/CVERecord?id=CVE-2024-5910) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.910 | 9.3 |  | Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network acc… |
-| [CVE-2025-55182](https://www.cve.org/CVERecord?id=CVE-2025-55182) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.828 | 10.0 |  | A pre-authentication remote code execution vulnerability exists in React Server Components versions 19.0.0, 19.1.0, 19.1.1, and 19.2.0 including the following … |
+| [CVE-2025-55182](https://www.cve.org/CVERecord?id=CVE-2025-55182) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.840 | 10.0 |  | A pre-authentication remote code execution vulnerability exists in React Server Components versions 19.0.0, 19.1.0, 19.1.1, and 19.2.0 including the following … |
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.944 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2023-27997](https://www.cve.org/CVERecord?id=CVE-2023-27997) |  | KEV | ✅ | ✅ | 2023-07-04 | 0.903 | 9.2 |  | A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and… |
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.832 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
@@ -221,8 +220,8 @@ Top critical items:
 | [CVE-2022-41080](https://www.cve.org/CVERecord?id=CVE-2022-41080) |  | KEV | ✅ | ✅ | 2023-01-31 | 0.938 | 8.8 |  | Microsoft Exchange Server Elevation of Privilege Vulnerability |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.817 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
 | [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 0.936 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
+| [CVE-2023-1389](https://www.cve.org/CVERecord?id=CVE-2023-1389) |  | KEV | ✅ | ✅ | 2023-05-22 | 0.936 | 8.8 |  | TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci… |
 | [CVE-2022-33891](https://www.cve.org/CVERecord?id=CVE-2022-33891) |  | KEV | ✅ | ✅ | 2023-03-28 | 0.935 | 8.8 |  | The Apache Spark UI offers the possibility to enable ACLs via the configuration option spark.acls.enable. With an authentication filter, this checks whether a … |
-| [CVE-2023-1389](https://www.cve.org/CVERecord?id=CVE-2023-1389) |  | KEV | ✅ | ✅ | 2023-05-22 | 0.935 | 8.8 |  | TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci… |
 | [CVE-2024-43468](https://www.cve.org/CVERecord?id=CVE-2024-43468) |  | KEV | ✅ | ✅ | 2026-03-05 | 0.831 | 9.8 |  | Microsoft Configuration Manager Remote Code Execution Vulnerability |
 | [CVE-2023-22952](https://www.cve.org/CVERecord?id=CVE-2023-22952) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.928 | 8.8 |  | In SugarCRM before 12.0. Hotfix 91155, a crafted request can inject custom PHP code through the EmailTemplates because of missing input validation. |
 | [CVE-2023-32315](https://www.cve.org/CVERecord?id=CVE-2023-32315) |  | KEV | ✅ | ✅ | 2023-09-14 | 0.944 | 8.6 |  | Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerabl… |
@@ -230,6 +229,7 @@ Top critical items:
 | [CVE-2024-24919](https://www.cve.org/CVERecord?id=CVE-2024-24919) |  | KEV | ✅ | ✅ | 2024-06-20 | 0.943 | 8.6 |  | Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN… |
 | [CVE-2023-26360](https://www.cve.org/CVERecord?id=CVE-2023-26360) |  | KEV | ✅ | ✅ | 2023-04-05 | 0.943 | 8.6 |  | Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could resu… |
 | [CVE-2024-37079](https://www.cve.org/CVERecord?id=CVE-2024-37079) |  | KEV | ✅ | ✅ | 2026-02-13 | 0.820 | 9.8 |  | vCenter Server contains a heap-overflow vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may… |
+| [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.800 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 | [CVE-2024-48248](https://www.cve.org/CVERecord?id=CVE-2024-48248) |  | KEV | ✅ | ✅ | 2025-04-09 | 0.940 | 8.6 |  | NAKIVO Backup & Replication before 11.0.0.88174 allows absolute path traversal for reading files via getImageByPath to /c/router (this may lead to remote code … |
 | [CVE-2023-36025](https://www.cve.org/CVERecord?id=CVE-2023-36025) |  | KEV | ✅ | ✅ | 2023-12-05 | 0.915 | 8.8 |  | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2022-26923](https://www.cve.org/CVERecord?id=CVE-2022-26923) |  | KEV | ✅ | ✅ | 2022-09-08 | 0.914 | 8.8 |  | Active Directory Domain Services Elevation of Privilege Vulnerability |
@@ -241,10 +241,10 @@ Top critical items:
 | [CVE-2023-33538](https://www.cve.org/CVERecord?id=CVE-2023-33538) |  | KEV | ✅ | ✅ | 2025-07-07 | 0.906 | 8.8 |  | TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 was discovered to contain a command injection vulnerability via the component /userRpm/WlanNetwo… |
 | [CVE-2022-37055](https://www.cve.org/CVERecord?id=CVE-2022-37055) |  | KEV | ✅ | ✅ | 2025-12-29 | 0.805 | 9.8 |  | D-Link Go-RT-AC750 GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02 are vulnerable to Buffer Overflow via cgibin, hnap_main, |
 | [CVE-2025-30066](https://www.cve.org/CVERecord?id=CVE-2025-30066) |  | KEV | ✅ | ✅ | 2025-04-08 | 0.918 | 8.6 |  | tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-1… |
-| [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.767 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 | [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) |  | KEV | ✅ | ✅ | 2024-01-22 | 0.944 | 8.2 |  | An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted reso… |
 | [CVE-2024-21893](https://www.cve.org/CVERecord?id=CVE-2024-21893) |  | KEV | ✅ | ✅ | 2024-02-02 | 0.943 | 8.2 |  | A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons … |
 | [CVE-2023-41266](https://www.cve.org/CVERecord?id=CVE-2023-41266) |  | KEV | ✅ | ✅ | 2023-12-28 | 0.942 | 8.2 |  | A path traversal vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, Novembe… |
+| [CVE-2024-38812](https://www.cve.org/CVERecord?id=CVE-2024-38812) |  | KEV | ✅ | ✅ | 2024-12-11 | 0.779 | 9.8 |  | The vCenter Server contains a heap-overflow vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server… |
 
 ## Recent Changes (Last 7 Days)
 
