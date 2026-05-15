@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15T01:12:18+00:00",
+  "generated_at": "2026-05-15T03:25:14+00:00",
   "vendor": "_other",
-  "count": 823,
+  "count": 824,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -35506,6 +35506,176 @@
       }
     },
     {
+      "cve_id": "CVE-2026-20182",
+      "description": "May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in February 2026. This new advisory is for a new vulnerability in the control connection handshaking. The  section of this advisory includes Show Control Connections guidance to help with system checks.&nbsp;\r\n\r\nA vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.\r\nThis vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to the affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "cisco",
+          "product": "cisco catalyst sd-wan manager",
+          "versions": [
+            {
+              "version": "20.1.12",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "18.4.4",
+              "status": "affected"
+            },
+            {
+              "version": "18.4.5",
+              "status": "affected"
+            },
+            {
+              "version": "20.1.1.1",
+              "status": "affected"
+            },
+            {
+              "version": "20.1.1",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.099",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.6",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.7",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.0",
+              "status": "affected"
+            },
+            {
+              "version": "19.1.0",
+              "status": "affected"
+            },
+            {
+              "version": "18.4.303",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.098",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.6.1",
+              "status": "affected"
+            },
+            {
+              "version": "18.2.0",
+              "status": "affected"
+            },
+            {
+              "version": "17.2.8",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.3.1",
+              "status": "affected"
+            },
+            {
+              "version": "18.4.0",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.1",
+              "status": "affected"
+            },
+            {
+              "version": "17.2.6",
+              "status": "affected"
+            },
+            {
+              "version": "17.2.9",
+              "status": "affected"
+            },
+            {
+              "version": "17.2.5",
+              "status": "affected"
+            },
+            {
+              "version": "18.4.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.3",
+              "status": "affected"
+            },
+            {
+              "version": "18.3.0",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.3",
+              "status": "affected"
+            },
+            {
+              "version": "18.4.501_ES",
+              "status": "affected"
+            },
+            {
+              "version": "20.1.2",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.929",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.31",
+              "status": "affected"
+            },
+            {
+              "version": "20.3.2",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.4",
+              "status": "affected"
+            },
+            {
+              "version": "19.2.4.0.9",
+              "status": "affected"
+            },
+            {
+              "version": "20.1.3.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-20182",
+        "vendorProject": "Cisco",
+        "product": "Catalyst SD-WAN",
+        "vulnerabilityName": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+        "dateAdded": "2026-05-14",
+        "shortDescription": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+        "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+        "dueDate": "2026-05-17",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
       "cve_id": "CVE-2022-21445",
       "description": "Vulnerability in the Oracle Application Development Framework (ADF) product of Oracle Fusion Middleware (component: ADF Faces).  Supported versions that are affected are 12.2.1.3.0 and  12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Application Development Framework (ADF).  Successful attacks of this vulnerability can result in takeover of Oracle Application Development Framework (ADF). Note: Oracle Application Development Framework (ADF) is downloaded via Oracle JDeveloper Product. Please refer to Fusion Middleware Patch Advisor for more details. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
       "cvss_score": 9.8,
@@ -51560,7 +51730,7 @@
     },
     {
       "cve_id": "CVE-2024-0241",
-      "description": "encoded_id-rails versions before 1.0.0.beta2 are affected by an uncontrolled resource consumption vulnerability. A remote and unauthenticated attacker might cause a denial of service condition by sending an HTTP request with an extremely long \"id\" parameter.\n\n",
+      "description": "encoded_id-rails versions before 1.0.0.beta2 are affected by an uncontrolled resource consumption vulnerability. A remote and unauthenticated attacker might cause a denial of service condition by sending an HTTP request with an extremely long \"id\" parameter.",
       "cvss_score": 7.5,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
@@ -51573,7 +51743,7 @@
               "lessThan": "1.0.0.beta2",
               "status": "affected",
               "version": "0",
-              "versionType": "semver"
+              "versionType": "custom"
             }
           ]
         }
@@ -56899,7 +57069,7 @@
               "lessThanOrEqual": "2.9.0",
               "status": "affected",
               "version": "2.0",
-              "versionType": "semver"
+              "versionType": "custom"
             }
           ]
         }
@@ -61804,7 +61974,7 @@
               "lessThanOrEqual": "5.4",
               "status": "affected",
               "version": "Unknown",
-              "versionType": "semver"
+              "versionType": "custom"
             }
           ]
         }
@@ -62052,7 +62222,7 @@
               "lessThanOrEqual": "5.4",
               "status": "affected",
               "version": "0",
-              "versionType": "semver"
+              "versionType": "custom"
             }
           ]
         }
