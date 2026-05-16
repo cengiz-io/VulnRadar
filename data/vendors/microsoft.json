@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T07:03:05+00:00",
+  "generated_at": "2026-05-16T07:46:03+00:00",
   "vendor": "microsoft",
   "count": 127,
   "items": [
@@ -29268,15 +29268,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 8.1,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-79"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 40,
+        "reference_count": 2
       }
     }
   ]
