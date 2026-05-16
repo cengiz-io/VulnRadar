@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T01:08:20+00:00",
+  "generated_at": "2026-05-16T01:53:00+00:00",
   "vendor": "microsoft",
   "count": 127,
   "items": [
@@ -29266,6 +29266,17 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-29",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
       }
     }
   ]
