@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T11:33:47+00:00",
+  "generated_at": "2026-05-18T13:36:02+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -1385,7 +1385,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00079,
+      "probability_score": 0.00086,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -7075,7 +7075,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 5e-05,
+      "probability_score": 6e-05,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -13861,7 +13861,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00066,
+      "probability_score": 0.00064,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -27279,7 +27279,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00551,
+      "probability_score": 0.00389,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -60978,7 +60978,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00351,
+      "probability_score": 0.00268,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61067,7 +61067,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00345,
+      "probability_score": 0.00264,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70040,7 +70040,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00038,
+      "probability_score": 0.00102,
       "nvd": {
         "cvss_v3_score": 3.6,
         "cvss_v3_severity": "LOW",
