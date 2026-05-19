@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:48:08+00:00",
+  "generated_at": "2026-05-19T15:22:03+00:00",
   "vendor": "microsoft",
   "count": 127,
   "items": [
@@ -2741,7 +2741,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91441,
+      "probability_score": 0.91014,
       "kev": {
         "cveID": "CVE-2022-26923",
         "vendorProject": "Microsoft",
@@ -4336,7 +4336,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04064,
+      "probability_score": 0.04471,
       "kev": {
         "cveID": "CVE-2022-38028",
         "vendorProject": "Microsoft",
@@ -11068,7 +11068,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02473,
+      "probability_score": 0.02829,
       "kev": {
         "cveID": "CVE-2023-36563",
         "vendorProject": "Microsoft",
@@ -14189,7 +14189,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.43402,
+      "probability_score": 0.50844,
       "kev": {
         "cveID": "CVE-2024-30051",
         "vendorProject": "Microsoft",
@@ -23820,7 +23820,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0102,
+      "probability_score": 0.00907,
       "kev": {
         "cveID": "CVE-2025-30400",
         "vendorProject": "Microsoft",
@@ -24159,7 +24159,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02084,
+      "probability_score": 0.01857,
       "kev": {
         "cveID": "CVE-2025-32701",
         "vendorProject": "Microsoft",
@@ -24498,7 +24498,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01257,
+      "probability_score": 0.01119,
       "kev": {
         "cveID": "CVE-2025-32706",
         "vendorProject": "Microsoft",
@@ -26262,7 +26262,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.71403,
+      "probability_score": 0.69069,
       "kev": {
         "cveID": "CVE-2025-59287",
         "vendorProject": "Microsoft",
