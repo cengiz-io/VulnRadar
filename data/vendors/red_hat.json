@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T01:19:30+00:00",
+  "generated_at": "2026-05-20T03:24:44+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -53575,6 +53575,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "17:10.1.0-17.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9.2 update services for sap solutions",
           "versions": [
             {
@@ -53658,11 +53670,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         }
       ],
@@ -54471,7 +54478,26 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 10",
-          "versions": null
+          "versions": [
+            {
+              "version": "0:11.10.0-12.el10_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:11.10.0-12.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -54486,11 +54512,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         }
       ],
@@ -54604,6 +54625,18 @@
           "versions": [
             {
               "version": "0:2.80.4-10.el10_1.12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:2.87.0-1.el10",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54748,6 +54781,18 @@
           "versions": [
             {
               "version": "0:2.68.4-18.el9_7.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:2.78.6-3.el9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54915,7 +54960,7 @@
           "product": "red hat ceph storage 8",
           "versions": [
             {
-              "version": "sha256:09aaeba975aa74bdf95d63e5619c0cabb1cd9e1410aa34e7f8ecf24a5e291d1a",
+              "version": "1769512383",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54927,7 +54972,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:519d4fe184cebe5152f840e9f609fa4705590656ac9bcace2e2e17622ab7e6a8",
+              "version": "1769104765",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54939,7 +54984,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:26bb49a8e2e695d61192f04eb0db63efa8210bba20ea22b60e4e22d519d8b9e6",
+              "version": "1769111774",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54963,7 +55008,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:975a1e501a8520df83f3f4114e72a71384ff1866ec99c7a45fffbf8c76ef5cbc",
+              "version": "1770740405",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54975,7 +55020,7 @@
           "product": "red hat update infrastructure 5",
           "versions": [
             {
-              "version": "sha256:83e8b356eb4697a81ff8c6764dc976862800f4c78122a606173340a6e105a4fe",
+              "version": "1770808689",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54987,7 +55032,7 @@
           "product": "red hat update infrastructure 5",
           "versions": [
             {
-              "version": "sha256:409a64405669fd11ad8700356243762a3507430f9bba4100bb92765d4482b7e5",
+              "version": "1770807477",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -54999,7 +55044,7 @@
           "product": "red hat update infrastructure 5",
           "versions": [
             {
-              "version": "sha256:48cf7cf48dfadb17f9357bf1894a5d0393551a893faa8b0ea0e11fe1ffed497f",
+              "version": "1770646925",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -55011,17 +55056,12 @@
           "product": "red hat update infrastructure 5",
           "versions": [
             {
-              "version": "sha256:df709663b581b740006c6ea4b297978932874eade1563c3952e0594e926aa5f8",
+              "version": "1770808765",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -55031,11 +55071,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         }
       ],
@@ -69777,6 +69812,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:257-23.el10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -69804,7 +69851,7 @@
           "product": "red hat ceph storage 7",
           "versions": [
             {
-              "version": "sha256:cfaf2a3c9513bd280265b0e2ca5f7d60022a2e362027becfeb2c133179925523",
+              "version": "7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69816,7 +69863,7 @@
           "product": "red hat ceph storage 8",
           "versions": [
             {
-              "version": "sha256:b09eb0a1d99e655de562919ded095bbb5dc65961e341a54ea59ad99b55ca9b1b",
+              "version": "8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69828,7 +69875,7 @@
           "product": "red hat ceph storage 8",
           "versions": [
             {
-              "version": "sha256:97a60239048123bc963d7c9ac2ad85caa6a254759e44c15f173ca12ea51e4719",
+              "version": "1769512383",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69840,7 +69887,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:d4e8987a100ea60942306f1564679e51fa1364f6124fbfb3100959f83a1f16bf",
+              "version": "1767888970",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69852,7 +69899,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:899bd7f941512d54af8ab369ca03028a7d27d05887ccce24bc12c7ccd3e4dbee",
+              "version": "1767904573",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69864,17 +69911,12 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:1d72e553fe5a7696e600dc8fd2fe9050ba1992fa190bea622134ca7bfce7bb0d",
+              "version": "1.5.9-1765201856",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -69958,6 +70000,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -69974,11 +70040,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -70028,6 +70089,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -70044,11 +70129,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -76176,6 +76256,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -76192,11 +76296,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -76246,6 +76345,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.10.4-18.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -76262,11 +76385,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -77560,6 +77678,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "7:5.8.0-2.el10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -77648,6 +77778,18 @@
           "versions": [
             {
               "version": "6:5.6.0-6.el9_7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "6:5.8.0-1.el9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -85519,7 +85661,7 @@
           "product": "red hat openshift dev spaces (rhosds) 3.24",
           "versions": [
             {
-              "version": "sha256:15dcb0c25b2295f58ab725e633ecacc7f0aa1ab857d627e8c0e19b7b15102a6a",
+              "version": "3.24-1760921292",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -85531,7 +85673,7 @@
           "product": "red hat openshift dev spaces (rhosds) 3.24",
           "versions": [
             {
-              "version": "sha256:2579266bc90b8979bb4299eefcd4e4eaa2947a5bec5c50563d743ce7f6605622",
+              "version": "3.24-1761160160",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
