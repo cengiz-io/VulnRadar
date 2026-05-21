@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-05-21T11:21:24+00:00`
+Generated: `2026-05-21T13:31:38+00:00`
 
 ## Executive Summary
 
@@ -30,6 +30,8 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.834 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.822 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | 0.265 | 6.5 |  | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to c… |
+| [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | 0.000 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb fr… |
+| [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | 0.000 | 7.8 |  | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when pag… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.007 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | 0.066 | 6.1 |  | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL i… |
 
@@ -38,8 +40,8 @@ Top critical items:
 - Total items: **12445**
 - Watchlist hits: **11768**
 - CISA KEVs: **689**
-- Exploit Intel (PoC): **697**
-- Exploit Intel + Watchlist (CRITICAL): **22**
+- Exploit Intel (PoC): **699**
+- Exploit Intel + Watchlist (CRITICAL): **24**
 
 ## Top Findings (max 200)
 
@@ -65,6 +67,8 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.834 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.822 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.265 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
+| [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.000 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb frags  MSG_SPLICE_PAGES can attach pages f… |
+| [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.000 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present  The DATA-packet ha… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.007 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2022-22947](https://www.cve.org/CVERecord?id=CVE-2022-22947) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.945 | 10.0 |  | In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enab… |
@@ -243,8 +247,6 @@ Top critical items:
 | [CVE-2022-37055](https://www.cve.org/CVERecord?id=CVE-2022-37055) |  | KEV | ✅ | ✅ | 2025-12-29 | 0.805 | 9.8 |  | D-Link Go-RT-AC750 GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02 are vulnerable to Buffer Overflow via cgibin, hnap_main, |
 | [CVE-2025-30066](https://www.cve.org/CVERecord?id=CVE-2025-30066) |  | KEV | ✅ | ✅ | 2025-04-08 | 0.918 | 8.6 |  | tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-1… |
 | [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) |  | KEV | ✅ | ✅ | 2024-01-22 | 0.944 | 8.2 |  | An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted reso… |
-| [CVE-2024-21893](https://www.cve.org/CVERecord?id=CVE-2024-21893) |  | KEV | ✅ | ✅ | 2024-02-02 | 0.943 | 8.2 |  | A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons … |
-| [CVE-2023-41266](https://www.cve.org/CVERecord?id=CVE-2023-41266) |  | KEV | ✅ | ✅ | 2023-12-28 | 0.942 | 8.2 |  | A path traversal vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, Novembe… |
 
 ## Recent Changes (Last 7 Days)
 
