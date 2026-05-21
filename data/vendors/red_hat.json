@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T01:19:32+00:00",
+  "generated_at": "2026-05-21T03:32:17+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -17102,6 +17102,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.2.5-7.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.2.5-7.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
@@ -17113,11 +17137,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -17143,7 +17162,7 @@
           "CWE-390"
         ],
         "cpe_count": 15,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -53690,7 +53709,7 @@
           "CWE-416"
         ],
         "cpe_count": 0,
-        "reference_count": 10
+        "reference_count": 11
       }
     },
     {
@@ -54532,7 +54551,7 @@
           "CWE-770"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -55091,7 +55110,7 @@
           "CWE-190"
         ],
         "cpe_count": 102,
-        "reference_count": 30
+        "reference_count": 32
       }
     },
     {
@@ -69976,7 +69995,7 @@
           "CWE-364"
         ],
         "cpe_count": 16,
-        "reference_count": 18
+        "reference_count": 19
       }
     },
     {
@@ -70065,7 +70084,7 @@
           "CWE-787"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -70154,7 +70173,7 @@
           "CWE-416"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -71423,7 +71442,7 @@
           "CWE-121"
         ],
         "cpe_count": 0,
-        "reference_count": 9
+        "reference_count": 10
       }
     },
     {
@@ -76321,7 +76340,7 @@
           "CWE-476"
         ],
         "cpe_count": 1,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -76410,7 +76429,7 @@
           "CWE-401"
         ],
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -76475,7 +76494,7 @@
           "CWE-15"
         ],
         "cpe_count": 4,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -85703,7 +85722,7 @@
           "CWE-22"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 32
       }
     },
     {

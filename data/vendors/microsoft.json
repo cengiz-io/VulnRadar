@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-21T01:19:32+00:00",
+  "generated_at": "2026-05-21T03:32:17+00:00",
   "vendor": "microsoft",
-  "count": 127,
+  "count": 129,
   "items": [
     {
       "cve_id": "CVE-2022-21882",
@@ -29201,6 +29201,44 @@
       }
     },
     {
+      "cve_id": "CVE-2026-41091",
+      "description": "Improper link resolution before file access ('link following') in Microsoft Defender allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft malware protection engine",
+          "versions": [
+            {
+              "version": "-",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-41091",
+        "vendorProject": "Microsoft",
+        "product": "Defender",
+        "vulnerabilityName": "Microsoft Defender Link Following Vulnerability",
+        "dateAdded": "2026-05-20",
+        "shortDescription": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-03",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
       "cve_id": "CVE-2026-42897",
       "description": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.",
       "cvss_score": 8.1,
@@ -29277,6 +29315,44 @@
         ],
         "cpe_count": 40,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-45498",
+      "description": "Microsoft Defender Denial of Service Vulnerability",
+      "cvss_score": 4.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft defender antimalware platform",
+          "versions": [
+            {
+              "version": "-",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-45498",
+        "vendorProject": "Microsoft",
+        "product": "Defender",
+        "vulnerabilityName": "Microsoft Defender Denial of Service Vulnerability",
+        "dateAdded": "2026-05-20",
+        "shortDescription": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-03",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     }
   ]
