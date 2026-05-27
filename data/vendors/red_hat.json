@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T01:20:11+00:00",
+  "generated_at": "2026-05-27T03:26:16+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -17123,6 +17123,18 @@
           "versions": [
             {
               "version": "0:3.2.5-7.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:3.2.5-3.el9_6.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
