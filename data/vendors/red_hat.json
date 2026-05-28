@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T01:12:09+00:00",
+  "generated_at": "2026-05-28T03:28:13+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -17179,7 +17179,7 @@
           "CWE-390"
         ],
         "cpe_count": 15,
-        "reference_count": 9
+        "reference_count": 10
       }
     },
     {
@@ -87186,6 +87186,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:3.6.16-8.el8_10.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:3.6.16-8.el8_10.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -87209,11 +87233,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 8",
           "versions": null
         },
         {
@@ -87244,7 +87263,7 @@
           "CWE-191"
         ],
         "cpe_count": 7,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -87350,6 +87369,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:3.6.16-8.el8_10.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:3.6.16-8.el8_10.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -87373,11 +87416,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 8",
           "versions": null
         },
         {
@@ -87408,7 +87446,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 5
+        "reference_count": 6
       }
     }
   ]
