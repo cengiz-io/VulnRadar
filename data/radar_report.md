@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-05-30T03:23:13+00:00`
+Generated: `2026-05-30T05:31:14+00:00`
 
 ## Executive Summary
 
@@ -252,6 +252,13 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| May 30 | [CVE-2026-4776](https://www.cve.org/CVERecord?id=CVE-2026-4776) | 🆕 New |
+| May 30 | [CVE-2026-9557](https://www.cve.org/CVERecord?id=CVE-2026-9557) | 🆕 New |
+| May 30 | [CVE-2026-9558](https://www.cve.org/CVERecord?id=CVE-2026-9558) | 🆕 New |
+| May 30 | [CVE-2026-9559](https://www.cve.org/CVERecord?id=CVE-2026-9559) | 🆕 New |
+| May 30 | [CVE-2026-9808](https://www.cve.org/CVERecord?id=CVE-2026-9808) | 🆕 New |
+| May 30 | [CVE-2026-9809](https://www.cve.org/CVERecord?id=CVE-2026-9809) | 🆕 New |
+| May 30 | [CVE-2026-9811](https://www.cve.org/CVERecord?id=CVE-2026-9811) | 🆕 New |
 | May 29 | [CVE-2026-46104](https://www.cve.org/CVERecord?id=CVE-2026-46104) | 🆕 New |
 | May 29 | [CVE-2026-46105](https://www.cve.org/CVERecord?id=CVE-2026-46105) | 🆕 New |
 | May 29 | [CVE-2026-46106](https://www.cve.org/CVERecord?id=CVE-2026-46106) | 🆕 New |
@@ -295,11 +302,4 @@ Top critical items:
 | May 29 | [CVE-2026-46144](https://www.cve.org/CVERecord?id=CVE-2026-46144) | 🆕 New |
 | May 29 | [CVE-2026-46145](https://www.cve.org/CVERecord?id=CVE-2026-46145) | 🆕 New |
 | May 29 | [CVE-2026-46146](https://www.cve.org/CVERecord?id=CVE-2026-46146) | 🆕 New |
-| May 29 | [CVE-2026-46147](https://www.cve.org/CVERecord?id=CVE-2026-46147) | 🆕 New |
-| May 29 | [CVE-2026-46148](https://www.cve.org/CVERecord?id=CVE-2026-46148) | 🆕 New |
-| May 29 | [CVE-2026-46149](https://www.cve.org/CVERecord?id=CVE-2026-46149) | 🆕 New |
-| May 29 | [CVE-2026-46150](https://www.cve.org/CVERecord?id=CVE-2026-46150) | 🆕 New |
-| May 29 | [CVE-2026-46151](https://www.cve.org/CVERecord?id=CVE-2026-46151) | 🆕 New |
-| May 29 | [CVE-2026-46152](https://www.cve.org/CVERecord?id=CVE-2026-46152) | 🆕 New |
-| May 29 | [CVE-2026-46153](https://www.cve.org/CVERecord?id=CVE-2026-46153) | 🆕 New |
-| ... | | _and 374 more_ |
+| ... | | _and 381 more_ |
