@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T01:26:46+00:00",
+  "generated_at": "2026-06-02T03:28:53+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -53623,6 +53623,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "17:6.2.0-11.el9_0.10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9.2 update services for sap solutions",
           "versions": [
             {
@@ -53726,7 +53738,7 @@
           "CWE-416"
         ],
         "cpe_count": 0,
-        "reference_count": 11
+        "reference_count": 12
       }
     },
     {
@@ -55935,439 +55947,12 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:2.16.0-21.redhat_00055.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:3.5.10-1.redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "1:1.0.2-5.redhat_00004.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:1.9.6-1.Final_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:2.3.14-9.SP10_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:3.3.27-1.Final_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:6.0.23-3.SP2_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:1.5.21-1.Final_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:1.10.0-42.Final_redhat_00042.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:5.4.15-1.Final_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:7.4.23-3.GA_redhat_00002.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:1.15.26-1.Final_redhat_00001.1.el8eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:2.16.0-21.redhat_00055.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:3.5.10-1.redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "1:1.0.2-5.redhat_00004.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:1.9.6-1.Final_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:2.3.14-9.SP10_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:3.3.27-1.Final_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:6.0.23-3.SP2_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:1.5.21-1.Final_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:1.10.0-42.Final_redhat_00042.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:5.4.15-1.Final_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:7.4.23-3.GA_redhat_00002.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:1.15.26-1.Final_redhat_00001.1.el9eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:2.16.0-21.redhat_00055.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:3.5.10-1.redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "1:1.0.2-5.redhat_00004.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:1.9.6-1.Final_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:2.3.14-9.SP10_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:3.3.27-1.Final_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:6.0.23-3.SP2_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:1.5.21-1.Final_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:1.10.0-42.Final_redhat_00042.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:5.4.15-1.Final_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:7.4.23-3.GA_redhat_00002.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7.4 on rhel 7",
-          "versions": [
-            {
-              "version": "0:1.15.26-1.Final_redhat_00001.1.el7eap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat jboss data grid 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 7",
           "versions": null
         },
         {
@@ -87186,6 +86771,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el10_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -87219,11 +86816,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -87287,6 +86879,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el10_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -87296,11 +86900,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -87369,6 +86968,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el10_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -87402,11 +87013,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",

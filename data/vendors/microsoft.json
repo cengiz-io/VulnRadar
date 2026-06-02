@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T01:26:46+00:00",
+  "generated_at": "2026-06-02T03:28:53+00:00",
   "vendor": "microsoft",
   "count": 129,
   "items": [
@@ -29263,7 +29263,9 @@
           "product": "microsoft exchange server 2016 cumulative update 23",
           "versions": [
             {
-              "version": "-",
+              "version": "15.01.0.0",
+              "lessThan": "publication",
+              "versionType": "custom",
               "status": "affected"
             }
           ]
@@ -29273,7 +29275,9 @@
           "product": "microsoft exchange server 2019 cumulative update 14",
           "versions": [
             {
-              "version": "-",
+              "version": "15.02.0.0",
+              "lessThan": "publication",
+              "versionType": "custom",
               "status": "affected"
             }
           ]
@@ -29283,7 +29287,9 @@
           "product": "microsoft exchange server 2019 cumulative update 15",
           "versions": [
             {
-              "version": "-",
+              "version": "15.02.0.0",
+              "lessThan": "publication",
+              "versionType": "custom",
               "status": "affected"
             }
           ]
@@ -29293,7 +29299,9 @@
           "product": "microsoft exchange server subscription edition rtm",
           "versions": [
             {
-              "version": "-",
+              "version": "15.02.0.0",
+              "lessThan": "publication",
+              "versionType": "custom",
               "status": "affected"
             }
           ]
