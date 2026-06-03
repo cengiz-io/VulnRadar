@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03T01:31:45+00:00",
+  "generated_at": "2026-06-03T03:28:30+00:00",
   "vendor": "_other",
-  "count": 843,
+  "count": 846,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -61554,6 +61554,98 @@
         "cpe_count": 3,
         "reference_count": 4
       }
+    },
+    {
+      "cve_id": "CVE-2026-10717",
+      "description": "Out of bounds write and reads in\u00a0openSeaChest\u2019s\u00a0--showSCSIDefects\u00a0in Seagate\u2019s\u00a0openSeaChest\u00a0v25.05.3 on all supported platforms allows for writing defect information out of bounds for very large defects lists via a very bad drive with lots of defects or a maliciously crafted SCSI device\u2019s defect response length.",
+      "cvss_score": 1.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L/S:N/AU:Y/R:A/V:D/RE:L/U:Clear",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "25.05.3",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.03.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-10718",
+      "description": "Out of bounds write in openSeaChest\u2019s Trim/Unmap operation in Seagate\u2019s openSeaChest v26.03.0 on all supported platforms allows for writing extra memory describing a range of LBAs to deallocate 16 bytes outside of the allocated space when running this operation.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:H/UI:N/VC:L/VI:N/VA:N/SC:L/SI:N/SA:N/S:N/AU:Y/R:U/V:D/RE:L/U:Green",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "26.03.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-10719",
+      "description": "Out of bounds write in openSeaChest\u2019s --showSupportedFormats in Seagate\u2019s openSeaChest v25.05.3 on all supported platforms allows for writing 1 extra byte outside of allocated memory which sets a value to 1 via a maliciously crafted NVMe device with a bogus value in the namespace FLBAS byte.",
+      "cvss_score": 1.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:N/VC:N/VI:L/VA:L/SC:N/SI:L/SA:L/S:N/AU:Y/R:A/V:D/RE:L/U:Clear",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "25.05.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-1470",

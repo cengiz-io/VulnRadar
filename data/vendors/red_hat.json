@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T01:31:45+00:00",
+  "generated_at": "2026-06-03T03:28:30+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -5846,6 +5846,18 @@
           "vendor": "red hat",
           "product": "red hat build of keycloak 22.0.10",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhoss-1.33-rhel-8",
+          "versions": [
+            {
+              "version": "1.33.0-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -23431,6 +23443,18 @@
           "product": "rhoss-1.33-rhel-8",
           "versions": [
             {
+              "version": "1.33.0-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhoss-1.33-rhel-8",
+          "versions": [
+            {
               "version": "1.33.0-3",
               "lessThan": "*",
               "versionType": "rpm",
@@ -38433,7 +38457,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:147e1ff243a190e7db6af5a450ab9ee45a6c138beb1428605296c5a39d8c2cd9",
+              "version": "1774540992",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38445,7 +38469,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:457e7c141b8e04ebe23f8b89da6d2a1a86ea5be46e9893b9207bd16a1e7e92b2",
+              "version": "1774540668",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38457,7 +38481,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:0e1a41e4284bb482365de3b2d2e799fe4b53af86743b56ccae50a236eac23897",
+              "version": "1774541259",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38469,7 +38493,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:23e29e78ab6586896be041a0d759d0a47bf5a3708ba816574bc996baee4af946",
+              "version": "1774541345",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38481,7 +38505,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:40b76923ce5df4062bfd3a6c617874e230b4b47cf998081b0c552141d93a81b0",
+              "version": "1774541880",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38493,7 +38517,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:0ea607acea5d6ad4aa853cb564e7c5e462c3d5f38814e2097142d44231437bd8",
+              "version": "1774541518",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38505,7 +38529,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:74efeee9bddf97c549de6a6fa454d86f96d3afef8aaf2438b740403181579fcd",
+              "version": "1774541420",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38517,7 +38541,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:2f22bca94e282ce150235d74070465525b5fbd29070f1caec323f5f8d7be0db5",
+              "version": "1774541448",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38529,7 +38553,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:1f58e36602f8e8704179762e4b94898ded50bb9d4643b829ac516165d5a66fe1",
+              "version": "1774541663",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38541,7 +38565,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:180f30e2f7ae5a1604c9ef3e8fdcdb2af37c53019280777c61375aef9cc6dee3",
+              "version": "1774541469",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38553,7 +38577,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:bc06753f9f013d4eed2705d5fbd727f916eab9f72c0c4d2cc33f6f064c58ecb1",
+              "version": "1774542075",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38565,7 +38589,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:31bd7bff52021201beffb8f94e25635443390ed7c373fef546dd799c29a540dd",
+              "version": "1774541617",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38577,7 +38601,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:0cb993a3f939cd30689f10f03110a6dec8317c9c5c69ed726e78bb9c70b7f3ee",
+              "version": "1774541614",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38589,7 +38613,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:55351821e9c296bf419a0b6b4f8a08942303bde1f6b8c1c8d3e81d719bafd0d4",
+              "version": "1774541633",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38601,7 +38625,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:3d8d9e2964d1c472f29ff5a67ff2b23188dbb9add8ccaa1cfa37ad1742825bf9",
+              "version": "1774541625",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38613,7 +38637,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:0b5f12a165ad061ec151f9310fa5803717cb41f719802503125d982f5420edd0",
+              "version": "1774541625",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38625,7 +38649,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:08cd8df1f99ca92bd8c82a3ce345352f8a5223feac9f475293987dc6088bd607",
+              "version": "1774542179",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38637,7 +38661,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:13594f6f57bdd87477505288fee4a62c504daacdb6fc930e0c64c582edab4dbb",
+              "version": "1774541779",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38649,7 +38673,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:2541e3c82807ec72336aa0151f05e8576eabe710eaa660efe6fe2a98ab0eff61",
+              "version": "1774541857",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38661,7 +38685,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:1872fce9d3599368600ce07f81c6a2105bfdf10cb770fdeea57dd1e16f662789",
+              "version": "1774541919",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38673,7 +38697,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:33e368d66244b241e6eb7e39eb886fa92bf358ddb5a3f231ef3585a7e91d3726",
+              "version": "1774541919",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -38685,7 +38709,7 @@
           "product": "red hat openshift data foundation 4.2",
           "versions": [
             {
-              "version": "sha256:253711dee2d7fdbf65756583ba63a73ed796b1205369e5ed9f48c253a67f4c0a",
+              "version": "1774542101",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -41719,123 +41743,13 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:4.5.11-1.el8ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
+          "product": "red hat ansible automation platform 2",
+          "versions": null
         },
         {
           "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:4.2.16-1.el8ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:3.28.32-1.el8ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:1.26.20-1.el8ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 8",
-          "versions": [
-            {
-              "version": "0:1.4.8-1.1.el8ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:4.5.11-1.el9ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:4.2.16-1.el9ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:3.28.32-1.el9ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:1.26.20-1.el9ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat ansible automation platform 2.4 for rhel 9",
-          "versions": [
-            {
-              "version": "0:1.4.8-1.1.el9ap",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
+          "product": "red hat ansible automation platform 2",
+          "versions": null
         },
         {
           "vendor": "red hat",
@@ -67110,6 +67024,18 @@
           "product": "rhoss-1.36-rhel-8",
           "versions": [
             {
+              "version": "1.36.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhoss-1.36-rhel-8",
+          "versions": [
+            {
               "version": "1.36.0-18",
               "lessThan": "*",
               "versionType": "rpm",
@@ -67146,7 +67072,7 @@
           "product": "cert-manager operator for red hat openshift 1.16",
           "versions": [
             {
-              "version": "sha256:1abdfac084e7c86e7a93a19e5cf6b54db79b903bfb7474a42200f753b29eda4b",
+              "version": "v1.16.5-1760515757",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67158,7 +67084,7 @@
           "product": "file integrity operator 1",
           "versions": [
             {
-              "version": "sha256:364d11af112a5b1d3f28c9ea8b7aac678e111b9c7fca0516d61036904f318605",
+              "version": "v1.3",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67182,7 +67108,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:c26d589f12647890b67aaa986f54d3f7c6f7f2563fb5a73f38d559e6138739d7",
+              "version": "1.5.5-1754504343",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67741,6 +67667,18 @@
           "product": "rhoss-1.36-rhel-8",
           "versions": [
             {
+              "version": "1.36.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhoss-1.36-rhel-8",
+          "versions": [
+            {
               "version": "1.36.0-18",
               "lessThan": "*",
               "versionType": "rpm",
@@ -67777,7 +67715,7 @@
           "product": "cert-manager operator for red hat openshift 1.16",
           "versions": [
             {
-              "version": "sha256:1abdfac084e7c86e7a93a19e5cf6b54db79b903bfb7474a42200f753b29eda4b",
+              "version": "v1.16.5-1760515757",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67789,7 +67727,7 @@
           "product": "file integrity operator 1",
           "versions": [
             {
-              "version": "sha256:364d11af112a5b1d3f28c9ea8b7aac678e111b9c7fca0516d61036904f318605",
+              "version": "v1.3",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67801,7 +67739,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:ad07f55ee75fb20310c88f154a04665bd8465d138d66c665c300f61447858344",
+              "version": "2.0.1-1754478727",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67825,7 +67763,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:c26d589f12647890b67aaa986f54d3f7c6f7f2563fb5a73f38d559e6138739d7",
+              "version": "1.5.5-1754504343",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72122,6 +72060,18 @@
           "product": "rhoss-1.36-rhel-8",
           "versions": [
             {
+              "version": "1.36.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhoss-1.36-rhel-8",
+          "versions": [
+            {
               "version": "1.36.0-18",
               "lessThan": "*",
               "versionType": "rpm",
@@ -72158,7 +72108,7 @@
           "product": "cert-manager operator for red hat openshift 1.16",
           "versions": [
             {
-              "version": "sha256:1abdfac084e7c86e7a93a19e5cf6b54db79b903bfb7474a42200f753b29eda4b",
+              "version": "v1.16.5-1760515757",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72170,7 +72120,7 @@
           "product": "file integrity operator 1",
           "versions": [
             {
-              "version": "sha256:364d11af112a5b1d3f28c9ea8b7aac678e111b9c7fca0516d61036904f318605",
+              "version": "v1.3",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72182,7 +72132,7 @@
           "product": "openshift compliance operator 1",
           "versions": [
             {
-              "version": "sha256:4953a7ea865ff38a4fe19d5536d8062870c262733c640a2c7e4bd9e0bfb3d498",
+              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72194,7 +72144,7 @@
           "product": "openshift compliance operator 1",
           "versions": [
             {
-              "version": "sha256:06ad8599c4b0170264e40a45b0126504c87c37f0832265c7ff6541d2385b2049",
+              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72206,7 +72156,7 @@
           "product": "openshift compliance operator 1",
           "versions": [
             {
-              "version": "sha256:0903a7a5c857d96c84fd022e5785514eff201047e2fdd5d6699d79f17440ef02",
+              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72218,7 +72168,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:1c67d8d526ab4f2854947f7dccd8752a2efd414c0f1cbab17706fa91147e7cda",
+              "version": "2.2.1-1758555934",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72230,7 +72180,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:3fa6c89778502bfb0b16ef8ff3c576467e8a21269afb2380c4ae176ee2fc7fec",
+              "version": "1.5.6-1756187445",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72242,7 +72192,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:5604dbb58d5e31f399f41ae4bf7a766272bf091a4e1bd6e89d1b85d62b0db93a",
+              "version": "rhosdt-3.5-1756116455",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72254,7 +72204,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:03b0aced2885356099971c8470add4b0f7732bcb380c74be3691d30c2894e5c0",
+              "version": "rhosdt-3.5-1756116482",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72266,7 +72216,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:86d400b195958c287846ae60d76d2ec277740da3d3de033c7e72ab9a42370b4b",
+              "version": "rhosdt-3.5-1756116441",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72278,7 +72228,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:1413caf075bae338e12199fc8a6f53c13b491c81e3ad36251a09bceee554955d",
+              "version": "rhosdt-3.5-1756116449",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72290,7 +72240,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:6ceeba5ce034140d4144ead58de768d8f374aa3f1c4800855871c229ee1cd785",
+              "version": "rhosdt-3.5-1756116439",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72302,7 +72252,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:044c58b2f2d18d5a20fd23dafc2db1ee6d6d48ac5c20706f176b8132d1d8ac96",
+              "version": "rhosdt-3.5-1756116447",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72314,7 +72264,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:f250e39033d7cb1d786e5a7ec6798c25d4c5d8c6ecbcf6828915605fc4658da5",
+              "version": "rhosdt-3.5-1756128595",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72326,7 +72276,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:35a048b43d21f9f05df76fc7cb5766eb1f708be1c0012f117fdc09851b8047e1",
+              "version": "rhosdt-3.5-1756125872",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72338,7 +72288,7 @@
           "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
-              "version": "sha256:9b66a46b3a28084c45823268d1fa4ae953c50b996f3d265c5fc9f4bc3eb326b4",
+              "version": "rhosdt-3.5-1756116445",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72350,7 +72300,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:24722900db1425bf0c27f6ad6f3fb7d79ff9ebc433bdab58423fa71bab76122b",
+              "version": "1.10.2-1757422110",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72362,7 +72312,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:7b7c0b42ff8814d9d0cfa1b0ec9e58aebe79bc5cfbc658384f026d8493ae6fbe",
+              "version": "1.10.2-1757421846",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72374,7 +72324,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:9ff002e628e5646b5ab3cc9201087847bea29569b4a1bc135b89d5c1a5f0a422",
+              "version": "1.10.2-1757421804",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72386,7 +72336,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:6b2da66d287083cf823f6efd8d61ba6a1be10eb6ba8cda484dea4e2ab67ae108",
+              "version": "1.10.2-1757422070",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72398,7 +72348,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:8f29671308ca658e32e97d5c3b482f7541aae1bca1b71f39b3276a9a334d8108",
+              "version": "1.10.2-1757421879",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72410,7 +72360,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:59fb1f7f1653361d94f7d48b42d8fe19ed3263c1c78654837c11f2135544c1ac",
+              "version": "1.10.2-1757422401",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72422,7 +72372,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:616297cf428a55918fad3653d7aca18fe3c1f622ff63ab9885991bd6dbc6ed65",
+              "version": "1.10.2-1757421890",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73940,6 +73890,18 @@
           "product": "rhoss-1.36-rhel-8",
           "versions": [
             {
+              "version": "1.36.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhoss-1.36-rhel-8",
+          "versions": [
+            {
               "version": "1.36.0-18",
               "lessThan": "*",
               "versionType": "rpm",
@@ -73976,7 +73938,7 @@
           "product": "cert-manager operator for red hat openshift 1.16",
           "versions": [
             {
-              "version": "sha256:1abdfac084e7c86e7a93a19e5cf6b54db79b903bfb7474a42200f753b29eda4b",
+              "version": "v1.16.5-1760515757",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73988,7 +73950,7 @@
           "product": "openshift compliance operator 1",
           "versions": [
             {
-              "version": "sha256:06ad8599c4b0170264e40a45b0126504c87c37f0832265c7ff6541d2385b2049",
+              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74000,7 +73962,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:bd9cb502def3153c193713b56372694cb555a71b38d4fc0fd9d021bccc5602de",
+              "version": "2.0.0-1752592913",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74012,7 +73974,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:1c67d8d526ab4f2854947f7dccd8752a2efd414c0f1cbab17706fa91147e7cda",
+              "version": "2.2.1-1758555934",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74024,7 +73986,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:4ca38b33efec0d2dd17a8fd822a7c18281810676ceabb0c1db90953cb91cd5ea",
+              "version": "1.5.7-1759331989",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74036,7 +73998,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:1faa5daf085b0844740653d96711b3fcfa766a77224fb523335d877b8e314b57",
+              "version": "rhosdt-3.6-1752046452",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74048,7 +74010,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:39378c1e705973edca5f52f422b5c3693aaf5d2f22fb320d7676086b2cf846ba",
+              "version": "rhosdt-3.6-1752046437",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74060,7 +74022,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:18ca3c44f6f25cbfe67842a0b2c9491a8247a64dbd166f188dccf0a84cfd3e67",
+              "version": "rhosdt-3.6-1752046439",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74072,7 +74034,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:34851d4dd94a887b27d0937a1238d09ac370b4ec06382fe880796dac86c4aa3e",
+              "version": "rhosdt-3.6-1752070865",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74084,7 +74046,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:3d281c9d7fe151c35605aac57a95fec699d20ecea6f4a5ea5b8cdc26a8808695",
+              "version": "rhosdt-3.6-1752070873",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74096,7 +74058,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:2a37885dbd9735167854119a546f9ce1b37454a2b57d283fbd8da890c01db767",
+              "version": "rhosdt-3.6-1751993590",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74108,7 +74070,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:8f2da1e0fc45a36cffbe91f9a1c4449eb0c71671865b7194951ad727c9f7b064",
+              "version": "rhosdt-3.6-1752070827",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74120,7 +74082,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:1feaee0df48953c919df3ceb2dde3aa10345e69c0b1a7186a8a0fd6ab9b300f6",
+              "version": "rhosdt-3.6-1752070833",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74132,7 +74094,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:54c5403a8a9e0300233e75a04318013e9dbe3d894be691927d27dc2fe53fddc0",
+              "version": "rhosdt-3.6-1752070866",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74144,7 +74106,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:24722900db1425bf0c27f6ad6f3fb7d79ff9ebc433bdab58423fa71bab76122b",
+              "version": "1.10.2-1757422110",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74156,7 +74118,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:9ff002e628e5646b5ab3cc9201087847bea29569b4a1bc135b89d5c1a5f0a422",
+              "version": "1.10.2-1757421804",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74168,7 +74130,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:8f29671308ca658e32e97d5c3b482f7541aae1bca1b71f39b3276a9a334d8108",
+              "version": "1.10.2-1757421879",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74180,7 +74142,7 @@
           "product": "red hat openshift sandboxed containers 1.1",
           "versions": [
             {
-              "version": "sha256:59fb1f7f1653361d94f7d48b42d8fe19ed3263c1c78654837c11f2135544c1ac",
+              "version": "1.10.2-1757422401",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86807,6 +86769,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -86825,11 +86811,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -86891,6 +86872,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -86914,11 +86919,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -87004,6 +87004,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -87022,11 +87046,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
