@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T01:31:57+00:00",
+  "generated_at": "2026-06-04T03:28:39+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -55053,7 +55053,7 @@
           "CWE-190"
         ],
         "cpe_count": 102,
-        "reference_count": 32
+        "reference_count": 33
       }
     },
     {
@@ -67081,7 +67081,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "file integrity operator 1",
+          "product": "openshift file integrity operator - fio 1",
           "versions": [
             {
               "version": "v1.3",
@@ -67138,7 +67138,7 @@
           "CWE-825"
         ],
         "cpe_count": 0,
-        "reference_count": 31
+        "reference_count": 32
       }
     },
     {
@@ -67227,7 +67227,7 @@
           "CWE-825"
         ],
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
@@ -67724,7 +67724,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "file integrity operator 1",
+          "product": "openshift file integrity operator - fio 1",
           "versions": [
             {
               "version": "v1.3",
@@ -67793,7 +67793,7 @@
           "CWE-125"
         ],
         "cpe_count": 0,
-        "reference_count": 32
+        "reference_count": 33
       }
     },
     {
@@ -74901,7 +74901,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -86836,7 +86836,7 @@
           "CWE-191"
         ],
         "cpe_count": 7,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -86944,7 +86944,7 @@
           "CWE-179"
         ],
         "cpe_count": 8,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
@@ -87071,7 +87071,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 7
+        "reference_count": 8
       }
     }
   ]
