@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T13:28:56+00:00",
+  "generated_at": "2026-06-04T15:18:35+00:00",
   "vendor": "_other",
   "count": 847,
   "items": [
@@ -1313,7 +1313,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.36344,
+      "probability_score": 0.46453,
       "kev": {
         "cveID": "CVE-2026-0257",
         "vendorProject": "Palo Alto Networks",
@@ -1579,7 +1579,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.26341,
+      "probability_score": 0.28973,
       "kev": {
         "cveID": "CVE-2022-0492",
         "vendorProject": "Linux",
@@ -5892,7 +5892,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89138,
+      "probability_score": 0.9122,
       "kev": {
         "cveID": "CVE-2024-55956",
         "vendorProject": "Cleo",
@@ -6091,7 +6091,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.20122,
+      "probability_score": 0.2788,
       "kev": {
         "cveID": "CVE-2025-11953",
         "vendorProject": "React Native Community",
@@ -8007,7 +8007,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00183,
+      "probability_score": 0.00566,
       "kev": {
         "cveID": "CVE-2024-4671",
         "vendorProject": "Google",
@@ -29442,7 +29442,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04199,
+      "probability_score": 0.03954,
       "kev": {
         "cveID": "CVE-2025-20352",
         "vendorProject": "Cisco",
@@ -35959,7 +35959,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.80539,
+      "probability_score": 0.83125,
       "kev": {
         "cveID": "CVE-2026-20182",
         "vendorProject": "Cisco",
@@ -42263,7 +42263,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.7826,
+      "probability_score": 0.79057,
       "kev": {
         "cveID": "CVE-2023-26359",
         "vendorProject": "Adobe",
@@ -45567,7 +45567,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93119,
+      "probability_score": 0.93785,
       "kev": {
         "cveID": "CVE-2022-27593",
         "vendorProject": "QNAP",
@@ -45950,7 +45950,7 @@
         "vendor:the linux kernel organization"
       ],
       "active_threat": false,
-      "probability_score": 0.01548,
+      "probability_score": 0.0171,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -62388,7 +62388,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0003,
+      "probability_score": 0.00033,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -62489,7 +62489,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00025,
+      "probability_score": 0.00028,
       "nvd": {
         "cvss_v3_score": 6.4,
         "cvss_v3_severity": "MEDIUM",
@@ -62547,7 +62547,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196,
+      "probability_score": 0.00219,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -62587,7 +62587,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00234,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -62629,7 +62629,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00028,
+      "probability_score": 0.00032,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -63191,7 +63191,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59337,
+      "probability_score": 0.64997,
       "kev": {
         "cveID": "CVE-2025-10035",
         "vendorProject": "Fortra",
@@ -63493,7 +63493,7 @@
         "product:ryzen\u2122 pro 5000 series desktop processors"
       ],
       "active_threat": false,
-      "probability_score": 0.01954,
+      "probability_score": 0.02081,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -63753,7 +63753,7 @@
         "product:ryzen\u2122 pro 5000 series desktop processors"
       ],
       "active_threat": false,
-      "probability_score": 0.00128,
+      "probability_score": 0.00137,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -64785,7 +64785,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94402,
+      "probability_score": 0.94407,
       "kev": {
         "cveID": "CVE-2023-35082",
         "vendorProject": "Ivanti",
@@ -65752,7 +65752,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91591,
+      "probability_score": 0.91261,
       "kev": {
         "cveID": "CVE-2025-4427",
         "vendorProject": "Ivanti",
@@ -68009,7 +68009,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00203,
+      "probability_score": 0.00197,
       "kev": {
         "cveID": "CVE-2023-4211",
         "vendorProject": "Arm",
@@ -68788,7 +68788,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93539,
+      "probability_score": 0.93426,
       "kev": {
         "cveID": "CVE-2023-7028",
         "vendorProject": "GitLab",
@@ -69831,7 +69831,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.85006,
+      "probability_score": 0.8624,
       "kev": {
         "cveID": "CVE-2024-1708",
         "vendorProject": "ConnectWise",
@@ -70159,7 +70159,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79939,
+      "probability_score": 0.81462,
       "kev": {
         "cveID": "CVE-2024-28986",
         "vendorProject": "SolarWinds",
@@ -73561,7 +73561,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89733,
+      "probability_score": 0.90218,
       "kev": {
         "cveID": "CVE-2025-2746",
         "vendorProject": "Kentico",
@@ -73612,7 +73612,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90935,
+      "probability_score": 0.91412,
       "kev": {
         "cveID": "CVE-2025-2747",
         "vendorProject": "Kentico",
@@ -73989,7 +73989,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59973,
+      "probability_score": 0.62846,
       "kev": {
         "cveID": "CVE-2025-32433",
         "vendorProject": "Erlang",
@@ -75082,7 +75082,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.81907,
+      "probability_score": 0.83401,
       "kev": {
         "cveID": "CVE-2026-24423",
         "vendorProject": "SmarterTools",
@@ -75488,7 +75488,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82011,
+      "probability_score": 0.84541,
       "kev": {
         "cveID": "CVE-2025-55182",
         "vendorProject": "Meta",
@@ -75832,7 +75832,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08884,
+      "probability_score": 0.10184,
       "kev": {
         "cveID": "CVE-2025-6204",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -75913,7 +75913,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.76757,
+      "probability_score": 0.82805,
       "kev": {
         "cveID": "CVE-2025-6205",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -76567,7 +76567,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08336,
+      "probability_score": 0.10661,
       "kev": {
         "cveID": "CVE-2025-8088",
         "vendorProject": "RARLAB",
@@ -77471,7 +77471,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79886,
+      "probability_score": 0.8071,
       "kev": {
         "cveID": "CVE-2026-39987",
         "vendorProject": "Marimo",
@@ -77520,7 +77520,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02562,
+      "probability_score": 0.02849,
       "kev": {
         "cveID": "CVE-2026-3502",
         "vendorProject": "TrueConf",
@@ -77914,7 +77914,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00137,
+      "probability_score": 0.06149,
       "kev": {
         "cveID": "CVE-2026-45247",
         "vendorProject": "Mirasvit",
@@ -78704,7 +78704,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.15483,
+      "probability_score": 0.1439,
       "kev": {
         "cveID": "CVE-2026-8398",
         "vendorProject": "Daemon",
@@ -78785,7 +78785,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13033,
+      "probability_score": 0.07665,
       "kev": {
         "cveID": "CVE-2026-9082",
         "vendorProject": "Drupal",
