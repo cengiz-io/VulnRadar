@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T01:17:23+00:00",
+  "generated_at": "2026-06-06T03:26:51+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -6578,7 +6578,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 70,
+        "cpe_count": 71,
         "reference_count": 16
       }
     },
@@ -72117,46 +72117,46 @@
         },
         {
           "vendor": "red hat",
-          "product": "file integrity operator 1",
+          "product": "openshift compliance operator 1",
+          "versions": [
+            {
+              "version": "1.8.0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift compliance operator 1",
+          "versions": [
+            {
+              "version": "1.8.0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift compliance operator 1",
+          "versions": [
+            {
+              "version": "1.8.0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift file integrity operator - fio 1",
           "versions": [
             {
               "version": "v1.3",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "openshift compliance operator 1",
-          "versions": [
-            {
-              "version": "1.8.0",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "openshift compliance operator 1",
-          "versions": [
-            {
-              "version": "1.8.0",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "openshift compliance operator 1",
-          "versions": [
-            {
-              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
