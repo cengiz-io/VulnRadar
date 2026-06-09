@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-09T15:21:18+00:00",
+  "generated_at": "2026-06-09T17:09:32+00:00",
   "vendor": "_other",
-  "count": 850,
+  "count": 852,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -8884,6 +8884,58 @@
         ],
         "cpe_count": 10,
         "reference_count": 10
+      }
+    },
+    {
+      "cve_id": "CVE-2026-11645",
+      "description": "Out of bounds read and write in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "google",
+          "product": "chrome",
+          "versions": [
+            {
+              "version": "149.0.7827.103",
+              "status": "affected",
+              "lessThan": "149.0.7827.103",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.0008,
+      "kev": {
+        "cveID": "CVE-2026-11645",
+        "vendorProject": "Google",
+        "product": "Chromium V8",
+        "vulnerabilityName": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+        "dateAdded": "2026-06-09",
+        "shortDescription": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-23",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125",
+          "CWE-787"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -70189,7 +70241,7 @@
         "shortDescription": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-11",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 9.3,
@@ -78845,6 +78897,92 @@
         ],
         "cpe_count": 2,
         "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-7473",
+      "description": "On affected platforms running Arista EOS where a tunnel decapsulation configuration\u2014such as VXLAN (Virtual Extensible LAN), decap-groups, or a GRE (Generic Routing Encapsulation) tunnel interface\u2014is present, the switch will incorrectly decapsulate and forward other unexpected tunneled packet with a destination IP matching its configured decapsulation IP. This occurs because the switch does not verify the tunnel protocol type, potentially leading to the unexpected processing of non-configured tunnel traffic.\n\n\n\nThis issue has been reported as being exploited in the wild.",
+      "cvss_score": 5.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "arista networks",
+          "product": "eos",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "4.36.0",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.35.0",
+              "lessThanOrEqual": "4.35",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.34.0",
+              "lessThanOrEqual": "4.34",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.33.0",
+              "lessThanOrEqual": "4.33",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.32.0",
+              "lessThanOrEqual": "4.32",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.31.0",
+              "lessThanOrEqual": "4.31",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "*",
+              "lessThanOrEqual": "4.30",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00029,
+      "kev": {
+        "cveID": "CVE-2026-7473",
+        "vendorProject": "Arista",
+        "product": "Extensible Operating System",
+        "vulnerabilityName": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+        "dateAdded": "2026-06-09",
+        "shortDescription": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-06-23",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 5.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1023"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
