@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T01:26:16+00:00",
+  "generated_at": "2026-06-10T03:25:18+00:00",
   "vendor": "_other",
   "count": 853,
   "items": [
@@ -36037,7 +36037,7 @@
     },
     {
       "cve_id": "CVE-2026-20245",
-      "description": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by uploading a crafted file to the affected system. A successful exploit could allow the attacker to perform command injection attacks on an affected system and elevate their privileges as the root user.\r\nTo exploit this vulnerability, the attacker must have netadmin privileges on the affected system. This would require valid credentials or exploitation of  or . Cisco is not aware of successful exploitation by other methods. Cisco has observed limited cases where the exploitation of this bug resulted in a configuration change pushed to edge devices.\r\nCisco recommends that customers upgrade to the fixed software that is documented in the  that was published on May 14, 2026, and verify the configuration of the edge devices.",
+      "description": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.\r\n\r\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by uploading a crafted file to the affected system. A successful exploit could allow the attacker to perform command injection attacks on an affected system and elevate their privileges as the root user.&nbsp;\r\nTo exploit this vulnerability, the attacker must have netadmin privileges on the affected system. This would require valid credentials or exploitation of  or . Cisco is not aware of successful exploitation by other methods. Cisco has observed limited cases where the exploitation of this bug resulted in a configuration change pushed to edge devices.\r\nCisco recommends that customers upgrade to the fixed software that is documented in the  that was published on May 14, 2026, and verify the configuration of the edge devices.",
       "cvss_score": 7.8,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
@@ -49837,11 +49837,47 @@
     },
     {
       "cve_id": "CVE-2026-24858",
-      "description": "An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.5, FortiAnalyzer 7.4.0 through 7.4.9, FortiAnalyzer 7.2.0 through 7.2.11, FortiAnalyzer 7.0.0 through 7.0.15, FortiManager 7.6.0 through 7.6.5, FortiManager 7.4.0 through 7.4.9, FortiManager 7.2.0 through 7.2.11, FortiManager 7.0.0 through 7.0.15, FortiOS 7.6.0 through 7.6.5, FortiOS 7.4.0 through 7.4.10, FortiOS 7.2.0 through 7.2.12, FortiOS 7.0.0 through 7.0.18, FortiProxy 7.6.0 through 7.6.4, FortiProxy 7.4.0 through 7.4.12, FortiProxy 7.2.0 through 7.2.15, FortiProxy 7.0.0 through 7.0.22, FortiWeb 8.0.0 through 8.0.3, FortiWeb 7.6.0 through 7.6.6, FortiWeb 7.4.0 through 7.4.11 may allow an attacker with a FortiCloud account and a registered device to log into other devices registered to other accounts, if FortiCloud SSO authentication is enabled on those devices.",
+      "description": "An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.5, FortiAnalyzer 7.4.0 through 7.4.9, FortiAnalyzer 7.2.0 through 7.2.11, FortiAnalyzer 7.0.0 through 7.0.15, FortiManager 7.6.0 through 7.6.5, FortiManager 7.4.0 through 7.4.9, FortiManager 7.2.0 through 7.2.11, FortiManager 7.0.0 through 7.0.15, FortiNAC-F 7.6.3 through 7.6.5, FortiOS 7.6.0 through 7.6.5, FortiOS 7.4.0 through 7.4.10, FortiOS 7.2.0 through 7.2.12, FortiOS 7.0.0 through 7.0.18, FortiProxy 7.6.0 through 7.6.4, FortiProxy 7.4.0 through 7.4.12, FortiProxy 7.2.0 through 7.2.15, FortiProxy 7.0.0 through 7.0.22, FortiWeb 8.0.0 through 8.0.3, FortiWeb 7.6.0 through 7.6.6, FortiWeb 7.4.0 through 7.4.11 may allow an attacker with a FortiCloud account and a registered device to log into other devices registered to other accounts, if FortiCloud SSO authentication is enabled on those devices.",
       "cvss_score": 9.4,
       "cvss_severity": "CRITICAL",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "fortinet",
+          "product": "fortiweb",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "8.0.0",
+              "lessThanOrEqual": "8.0.3",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.6.0",
+              "lessThanOrEqual": "7.6.6",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.4.0",
+              "lessThanOrEqual": "7.4.11",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "fortinet",
+          "product": "fortinac-f",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "7.6.3",
+              "lessThanOrEqual": "7.6.5",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "fortinet",
           "product": "fortios",
@@ -49868,36 +49904,6 @@
               "versionType": "semver",
               "version": "7.0.0",
               "lessThanOrEqual": "7.0.18",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "fortinet",
-          "product": "fortimanager",
-          "versions": [
-            {
-              "versionType": "semver",
-              "version": "7.6.0",
-              "lessThanOrEqual": "7.6.5",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "7.4.0",
-              "lessThanOrEqual": "7.4.9",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "7.2.0",
-              "lessThanOrEqual": "7.2.11",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "7.0.0",
-              "lessThanOrEqual": "7.0.15",
               "status": "affected"
             }
           ]
@@ -49964,24 +49970,30 @@
         },
         {
           "vendor": "fortinet",
-          "product": "fortiweb",
+          "product": "fortimanager",
           "versions": [
             {
               "versionType": "semver",
-              "version": "8.0.0",
-              "lessThanOrEqual": "8.0.3",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
               "version": "7.6.0",
-              "lessThanOrEqual": "7.6.6",
+              "lessThanOrEqual": "7.6.5",
               "status": "affected"
             },
             {
               "versionType": "semver",
               "version": "7.4.0",
-              "lessThanOrEqual": "7.4.11",
+              "lessThanOrEqual": "7.4.9",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.2.0",
+              "lessThanOrEqual": "7.2.11",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.0.0",
+              "lessThanOrEqual": "7.0.15",
               "status": "affected"
             }
           ]
@@ -67588,7 +67600,7 @@
     },
     {
       "cve_id": "CVE-2026-6973",
-      "description": "An Improper Input Validation in Ivanti EPMM\u00a0before\u00a0versions 12.6.1.1, 12.7.0.1, and 12.8.0.1\u00a0allows\u00a0a remotely authenticated user with\u00a0administrative access to achieve remote code execution.",
+      "description": "A configuration control vulnerability in\u00a0the\u00a0Ivanti\u00a0Endpoint\u00a0Manager\u00a0Mobile\u00a0before\u00a012.9.0.1, 12.8.0.3 and 12.7.0.2\u00a0versions\u00a0allows a remote authenticated attacker to inject arbitrary Apache directives, leading to remote code execution.",
       "cvss_score": 7.2,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
@@ -67599,15 +67611,15 @@
           "versions": [
             {
               "status": "unaffected",
-              "version": "12.6.1.1"
+              "version": "12.9.0.1"
             },
             {
               "status": "unaffected",
-              "version": "12.7.0.1"
+              "version": "12.8.0.3"
             },
             {
               "status": "unaffected",
-              "version": "12.8.0.1"
+              "version": "12.7.0.2"
             }
           ]
         }

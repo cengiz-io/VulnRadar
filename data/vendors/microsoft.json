@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T01:26:16+00:00",
+  "generated_at": "2026-06-10T03:25:18+00:00",
   "vendor": "microsoft",
   "count": 129,
   "items": [
@@ -18186,59 +18186,35 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "windows 10 version 1507",
+          "versions": [
+            {
+              "version": "10.0.10240.0",
+              "lessThan": "10.0.10240.20796",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7428",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1809",
           "versions": [
             {
               "version": "10.0.17763.0",
               "lessThan": "10.0.17763.6414",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.6414",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.6414",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.2762",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.22000.0",
-              "lessThan": "10.0.22000.3260",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18258,11 +18234,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows 11 version 22h2",
+          "product": "windows 10 version 22h2",
           "versions": [
             {
-              "version": "10.0.22621.0",
-              "lessThan": "10.0.22621.4317",
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19045.5011",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18270,11 +18246,23 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows 10 version 22h2",
+          "product": "windows 11 version 21h2",
           "versions": [
             {
-              "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.5011",
+              "version": "10.0.22000.0",
+              "lessThan": "10.0.22000.3260",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.22621.0",
+              "lessThan": "10.0.22621.4317",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18306,95 +18294,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows server 2022, 23h2 edition (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.25398.0",
-              "lessThan": "10.0.25398.1189",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
           "product": "windows 11 version 24h2",
           "versions": [
             {
               "version": "10.0.26100.0",
               "lessThan": "10.0.26100.2033",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1507",
-          "versions": [
-            {
-              "version": "10.0.10240.0",
-              "lessThan": "10.0.10240.20796",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7428",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7428",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7428",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2008 service pack 2",
-          "versions": [
-            {
-              "version": "6.0.6003.0",
-              "lessThan": "6.0.6003.22918",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2008 service pack 2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.0.6003.0",
-              "lessThan": "6.0.6003.22918",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18431,6 +18335,30 @@
             {
               "version": "6.1.7601.0",
               "lessThan": "6.1.7601.27366",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.22918",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.22918",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18483,6 +18411,78 @@
               "status": "affected"
             }
           ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7428",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7428",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.6414",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.6414",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.2762",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022, 23h2 edition (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.25398.0",
+              "lessThan": "10.0.25398.1189",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
         }
       ],
       "watchlist_hit": false,
@@ -18523,6 +18523,54 @@
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:F/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1507",
+          "versions": [
+            {
+              "version": "10.0.10240.0",
+              "lessThan": "10.0.10240.20796",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7428",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.6414",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19043.0",
+              "lessThan": "10.0.19044.5011",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 22h2",
@@ -18573,42 +18621,6 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.2762",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022, 23h2 edition (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.25398.0",
-              "lessThan": "10.0.25398.1189",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.19043.0",
-              "lessThan": "10.0.19044.5011",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
           "product": "windows 11 version 23h2",
           "versions": [
             {
@@ -18621,11 +18633,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows server 2019",
+          "product": "windows 11 version 24h2",
           "versions": [
             {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.6414",
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.2033",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18633,7 +18645,55 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows 10 version 1809",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.22221",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.22221",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7428",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7428",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
           "versions": [
             {
               "version": "10.0.17763.0",
@@ -18657,11 +18717,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows 11 version 24h2",
+          "product": "windows server 2022",
           "versions": [
             {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.2033",
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.2762",
               "versionType": "custom",
               "status": "affected"
             }
@@ -18669,71 +18729,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows 10 version 1507",
+          "product": "windows server 2022, 23h2 edition (server core installation)",
           "versions": [
             {
-              "version": "10.0.10240.0",
-              "lessThan": "10.0.10240.20796",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7428",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7428",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.22221",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7428",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.22221",
+              "version": "10.0.25398.0",
+              "lessThan": "10.0.25398.1189",
               "versionType": "custom",
               "status": "affected"
             }
@@ -19072,47 +19072,35 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "windows 10 version 1507",
+          "versions": [
+            {
+              "version": "10.0.10240.0",
+              "lessThan": "10.0.10240.20857",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7606",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1809",
           "versions": [
             {
               "version": "10.0.17763.0",
               "lessThan": "10.0.17763.6659",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.6659",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.6659",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.2966",
               "versionType": "custom",
               "status": "affected"
             }
@@ -19132,18 +19120,6 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows 11 version 22h2",
-          "versions": [
-            {
-              "version": "10.0.22621.0",
-              "lessThan": "10.0.22621.4602",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
           "product": "windows 10 version 22h2",
           "versions": [
             {
@@ -19156,11 +19132,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows server 2025 (server core installation)",
+          "product": "windows 11 version 22h2",
           "versions": [
             {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.2605",
+              "version": "10.0.22621.0",
+              "lessThan": "10.0.22621.4602",
               "versionType": "custom",
               "status": "affected"
             }
@@ -19192,107 +19168,11 @@
         },
         {
           "vendor": "microsoft",
-          "product": "windows server 2022, 23h2 edition (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.25398.0",
-              "lessThan": "10.0.25398.1308",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
           "product": "windows 11 version 24h2",
           "versions": [
             {
               "version": "10.0.26100.0",
               "lessThan": "10.0.26100.2605",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.2605",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1507",
-          "versions": [
-            {
-              "version": "10.0.10240.0",
-              "lessThan": "10.0.10240.20857",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7606",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7606",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.7606",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2008 service pack 2",
-          "versions": [
-            {
-              "version": "6.0.6003.0",
-              "lessThan": "6.0.6003.23016",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2008 service pack 2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.0.6003.0",
-              "lessThan": "6.0.6003.23016",
               "versionType": "custom",
               "status": "affected"
             }
@@ -19329,6 +19209,30 @@
             {
               "version": "6.1.7601.0",
               "lessThan": "6.1.7601.27467",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.23016",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2008 service pack 2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.0.6003.0",
+              "lessThan": "6.0.6003.23016",
               "versionType": "custom",
               "status": "affected"
             }
@@ -19377,6 +19281,102 @@
             {
               "version": "6.3.9600.0",
               "lessThan": "6.3.9600.22318",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7606",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.7606",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.6659",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.6659",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.2966",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022, 23h2 edition (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.25398.0",
+              "lessThan": "10.0.25398.1308",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.2605",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.2605",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29264,7 +29264,7 @@
           "versions": [
             {
               "version": "15.01.0.0",
-              "lessThan": "publication",
+              "lessThan": "15.01.2507.069",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29276,7 +29276,7 @@
           "versions": [
             {
               "version": "15.02.0.0",
-              "lessThan": "publication",
+              "lessThan": "15.02.1544.041",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29288,7 +29288,7 @@
           "versions": [
             {
               "version": "15.02.0.0",
-              "lessThan": "publication",
+              "lessThan": "15.02.1748.046",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29300,7 +29300,7 @@
           "versions": [
             {
               "version": "15.02.0.0",
-              "lessThan": "publication",
+              "lessThan": "15.02.2562.043",
               "versionType": "custom",
               "status": "affected"
             }
