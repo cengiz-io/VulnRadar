@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T13:32:42+00:00",
+  "generated_at": "2026-06-10T15:21:25+00:00",
   "vendor": "red_hat",
   "count": 481,
   "items": [
@@ -361,7 +361,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00113,
+      "probability_score": 0.00142,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -4696,7 +4696,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00879,
+      "probability_score": 0.00855,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -41895,7 +41895,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00367,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -41982,7 +41982,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01222,
+      "probability_score": 0.00938,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -46516,7 +46516,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00037,
+      "probability_score": 0.00036,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -50869,7 +50869,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00012,
+      "probability_score": 0.00016,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -52638,7 +52638,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00505,
       "nvd": {
         "cvss_v3_score": 9.6,
         "cvss_v3_severity": "CRITICAL",
