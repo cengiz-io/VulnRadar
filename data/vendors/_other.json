@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T05:45:20+00:00",
+  "generated_at": "2026-06-13T07:36:34+00:00",
   "vendor": "_other",
   "count": 863,
   "items": [
@@ -35958,6 +35958,17 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-23",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-116"
+        ],
+        "cpe_count": 16,
+        "reference_count": 3
       }
     },
     {
@@ -36377,8 +36388,8 @@
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 2,
+        "reference_count": 2
       }
     },
     {
@@ -61061,7 +61072,7 @@
         "cwe_ids": [
           "CWE-78"
         ],
-        "cpe_count": 0,
+        "cpe_count": 3,
         "reference_count": 3
       }
     },

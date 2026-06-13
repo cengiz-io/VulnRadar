@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T05:45:20+00:00",
+  "generated_at": "2026-06-13T07:36:34+00:00",
   "vendor": "red_hat",
   "count": 482,
   "items": [
@@ -82096,7 +82096,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00011
+      "probability_score": 0.00011,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     }
   ]
 }
