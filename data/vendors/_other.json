@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T01:31:15+00:00",
+  "generated_at": "2026-06-15T03:29:12+00:00",
   "vendor": "_other",
-  "count": 863,
+  "count": 864,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -72088,6 +72088,38 @@
         "dueDate": "2026-05-29",
         "knownRansomwareCampaignUse": "Unknown"
       }
+    },
+    {
+      "cve_id": "CVE-2026-54411",
+      "description": "Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:P/AU:N/V:D",
+      "affected": [
+        {
+          "vendor": "linux-pam",
+          "product": "linux-pam",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.7.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux-pam",
+        "vendor:linux-pam"
+      ],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-7473",
