@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-06-15T18:43:57+00:00`
+Generated: `2026-06-15T20:20:37+00:00`
 
 ## Executive Summary
 
@@ -34,15 +34,15 @@ Top critical items:
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.020 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.005 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | 0.066 | 6.5 |  | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to c… |
-| [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | 0.020 | 6.1 |  | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL i… |
+| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | 0.003 | 7.1 |  | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The… |
 
 ## Summary
 
-- Total items: **13009**
+- Total items: **13010**
 - Watchlist hits: **12312**
-- CISA KEVs: **709**
-- Exploit Intel (PoC): **722**
-- Exploit Intel + Watchlist (CRITICAL): **25**
+- CISA KEVs: **710**
+- Exploit Intel (PoC): **724**
+- Exploit Intel + Watchlist (CRITICAL): **26**
 
 ## Top Findings (max 200)
 
@@ -72,6 +72,7 @@ Top critical items:
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.005 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
+| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.003 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2023-22518](https://www.cve.org/CVERecord?id=CVE-2023-22518) |  | KEV | ✅ | ✅ | 2023-11-28 | 1.000 | 10.0 |  | All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthent… |
 | [CVE-2023-35078](https://www.cve.org/CVERecord?id=CVE-2023-35078) |  | KEV | ✅ | ✅ | 2023-08-15 | 1.000 | 10.0 |  | An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without prop… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2025-64328](https://www.cve.org/CVERecord?id=CVE-2025-64328) |  | KEV | ✅ | ✅ | 2026-02-24 | 0.830 | 8.6 |  | FreePBX Endpoint Manager is a module for managing telephony endpoints in FreePBX systems. In versions 17.0.2.36 and above before 17.0.3, the filestore module w… |
 | [CVE-2024-12987](https://www.cve.org/CVERecord?id=CVE-2024-12987) |  | KEV | ✅ | ✅ | 2025-06-05 | 0.981 | 6.9 |  | A vulnerability, which was classified as critical, was found in DrayTek Vigor2960 and Vigor300B 1.5.1.4. Affected is an unknown function of the file /cgi-bin/m… |
 | [CVE-2026-1603](https://www.cve.org/CVERecord?id=CVE-2026-1603) |  | KEV | ✅ | ✅ | 2026-03-23 | 0.811 | 8.6 |  | An authentication bypass in Ivanti Endpoint Manager before version 2024 SU5 allows a remote unauthenticated attacker to leak specific stored credential data. |
-| [CVE-2023-41266](https://www.cve.org/CVERecord?id=CVE-2023-41266) |  | KEV | ✅ | ✅ | 2023-12-28 | 0.850 | 8.2 |  | A path traversal vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, Novembe… |
 
 ## Recent Changes (Last 7 Days)
 
@@ -303,4 +303,4 @@ Top critical items:
 | Jun 09 | [CVE-2026-46286](https://www.cve.org/CVERecord?id=CVE-2026-46286) | 🆕 New |
 | Jun 09 | [CVE-2026-46287](https://www.cve.org/CVERecord?id=CVE-2026-46287) | 🆕 New |
 | Jun 09 | [CVE-2026-46288](https://www.cve.org/CVERecord?id=CVE-2026-46288) | 🆕 New |
-| ... | | _and 29 more_ |
+| ... | | _and 28 more_ |
