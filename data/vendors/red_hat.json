@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T01:29:59+00:00",
+  "generated_at": "2026-06-17T03:27:55+00:00",
   "vendor": "red_hat",
   "count": 482,
   "items": [
@@ -52684,6 +52684,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:1.1.32-6.4.el8_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:1.1.32-6.4.el8_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat hardened images",
           "versions": [
             {
@@ -52707,11 +52731,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 8",
           "versions": null
         },
         {
@@ -87021,6 +87040,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:3.8.9-9.el10_0.19",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -87073,6 +87104,54 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525684",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525671",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525693",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525739",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -87148,6 +87227,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:3.8.9-9.el10_0.19",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -87176,6 +87267,54 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525684",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525671",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525693",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525739",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -87256,6 +87395,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:3.8.9-9.el10_0.19",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -87308,6 +87459,54 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525684",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525671",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525693",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1781525739",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
