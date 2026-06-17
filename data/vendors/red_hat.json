@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T12:45:17+00:00",
+  "generated_at": "2026-06-17T14:59:06+00:00",
   "vendor": "red_hat",
   "count": 482,
   "items": [
@@ -4621,7 +4621,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01115,
+      "probability_score": 0.01124,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -4696,7 +4696,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01109,
+      "probability_score": 0.01118,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -6242,7 +6242,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00706,
+      "probability_score": 0.00736,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -8206,7 +8206,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.016,
+      "probability_score": 0.01614,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -11589,7 +11589,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00871,
+      "probability_score": 0.00878,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -24943,7 +24943,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00935,
+      "probability_score": 0.00942,
       "nvd": {
         "cvss_v3_score": 9.3,
         "cvss_v3_severity": "CRITICAL",
@@ -40605,7 +40605,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00425,
+      "probability_score": 0.0045,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",
@@ -42807,7 +42807,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00429,
+      "probability_score": 0.00433,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -44572,7 +44572,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00317,
+      "probability_score": 0.0031,
       "nvd": {
         "cvss_v3_score": 2.9,
         "cvss_v3_severity": "LOW",
@@ -52761,7 +52761,7 @@
           "CWE-825"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -60835,7 +60835,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 6.2,
         "cvss_v3_severity": "MEDIUM",
@@ -60945,7 +60945,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 6.2,
         "cvss_v3_severity": "MEDIUM",
@@ -61000,7 +61000,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 6.2,
         "cvss_v3_severity": "MEDIUM",
@@ -61055,7 +61055,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 6.2,
         "cvss_v3_severity": "MEDIUM",
@@ -61110,7 +61110,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 6.2,
         "cvss_v3_severity": "MEDIUM",
@@ -65077,7 +65077,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01139,
+      "probability_score": 0.01205,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -87181,7 +87181,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00639,
+      "probability_score": 0.00669,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -87349,7 +87349,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.0065,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -87536,7 +87536,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0032,
+      "probability_score": 0.00506,
       "nvd": {
         "cvss_v3_score": 7.4,
         "cvss_v3_severity": "HIGH",
