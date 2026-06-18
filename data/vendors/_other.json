@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T13:31:31+00:00",
+  "generated_at": "2026-06-18T15:19:39+00:00",
   "vendor": "_other",
   "count": 867,
   "items": [
@@ -1126,7 +1126,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01818,
+      "probability_score": 0.01862,
       "kev": {
         "cveID": "CVE-2025-0111",
         "vendorProject": "Palo Alto Networks",
@@ -1924,7 +1924,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99948,
+      "probability_score": 0.99939,
       "kev": {
         "cveID": "CVE-2022-22963",
         "vendorProject": "VMware Tanzu",
@@ -1974,7 +1974,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9972,
+      "probability_score": 0.99677,
       "kev": {
         "cveID": "CVE-2022-22965",
         "vendorProject": "VMware",
@@ -5598,7 +5598,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82955,
+      "probability_score": 0.82853,
       "kev": {
         "cveID": "CVE-2024-42009",
         "vendorProject": "Roundcube",
@@ -40569,7 +40569,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88124,
+      "probability_score": 0.88312,
       "kev": {
         "cveID": "CVE-2025-61757",
         "vendorProject": "Oracle",
@@ -50108,7 +50108,7 @@
         "vendor:the linux kernel organization"
       ],
       "active_threat": false,
-      "probability_score": 0.01295,
+      "probability_score": 0.01284,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -61598,7 +61598,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.05015,
+      "probability_score": 0.04974,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -61911,7 +61911,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00418,
+      "probability_score": 0.00427,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -65600,7 +65600,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01589,
+      "probability_score": 0.01613,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -66739,7 +66739,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00331,
+      "probability_score": 0.00288,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -66779,7 +66779,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00281,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 9.6,
         "cvss_v3_severity": "CRITICAL",
@@ -66819,7 +66819,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00282,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 9.6,
         "cvss_v3_severity": "CRITICAL",
@@ -72162,7 +72162,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94645,
+      "probability_score": 0.95132,
       "kev": {
         "cveID": "CVE-2024-53704",
         "vendorProject": "SonicWall",
@@ -75691,7 +75691,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91662,
+      "probability_score": 0.92034,
       "kev": {
         "cveID": "CVE-2025-54309",
         "vendorProject": "CrushFTP",
@@ -79266,7 +79266,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03071,
+      "probability_score": 0.0302,
       "kev": {
         "cveID": "CVE-2025-42599",
         "vendorProject": "Qualitia",
@@ -80367,7 +80367,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82958,
+      "probability_score": 0.84052,
       "kev": {
         "cveID": "CVE-2025-64328",
         "vendorProject": "Sangoma",
@@ -83760,7 +83760,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04659,
+      "probability_score": 0.06854,
       "kev": {
         "cveID": "CVE-2026-48907",
         "vendorProject": "Widget Factory",
