@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T01:35:42+00:00",
+  "generated_at": "2026-06-19T03:28:59+00:00",
   "vendor": "red_hat",
   "count": 482,
   "items": [
@@ -18544,6 +18544,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat service interconnect 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
