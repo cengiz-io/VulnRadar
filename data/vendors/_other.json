@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T23:45:29+00:00",
+  "generated_at": "2026-06-19T01:35:42+00:00",
   "vendor": "_other",
   "count": 868,
   "items": [
@@ -34247,7 +34247,7 @@
         "cwe_ids": [
           "CWE-287"
         ],
-        "cpe_count": 10,
+        "cpe_count": 15,
         "reference_count": 2
       }
     },
@@ -36553,7 +36553,7 @@
         "cwe_ids": [
           "CWE-287"
         ],
-        "cpe_count": 16,
+        "cpe_count": 24,
         "reference_count": 3
       }
     },
@@ -66741,14 +66741,14 @@
       "active_threat": false,
       "probability_score": 0.00288,
       "nvd": {
-        "cvss_v3_score": 9.1,
-        "cvss_v3_severity": "CRITICAL",
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
@@ -66781,14 +66781,14 @@
       "active_threat": false,
       "probability_score": 0.0028,
       "nvd": {
-        "cvss_v3_score": 9.6,
-        "cvss_v3_severity": "CRITICAL",
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-639"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
@@ -66821,14 +66821,14 @@
       "active_threat": false,
       "probability_score": 0.0028,
       "nvd": {
-        "cvss_v3_score": 9.6,
-        "cvss_v3_severity": "CRITICAL",
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-639"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
@@ -83830,14 +83830,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-284"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
