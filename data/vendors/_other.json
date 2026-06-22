@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T11:25:22+00:00",
+  "generated_at": "2026-06-22T14:31:16+00:00",
   "vendor": "_other",
   "count": 868,
   "items": [
@@ -36533,7 +36533,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.77902,
+      "probability_score": 0.76286,
       "kev": {
         "cveID": "CVE-2026-20182",
         "vendorProject": "Cisco",
@@ -49333,7 +49333,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19481,
+      "probability_score": 0.19633,
       "kev": {
         "cveID": "CVE-2022-26871",
         "vendorProject": "Trend Micro",
@@ -50868,7 +50868,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02958,
+      "probability_score": 0.03017,
       "kev": {
         "cveID": "CVE-2024-11667",
         "vendorProject": "Zyxel",
@@ -55189,7 +55189,7 @@
         "product:custom login page | temporary users | rebrand login | login captcha"
       ],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.0021,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -62213,7 +62213,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00202,
+      "probability_score": 0.00201,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -62773,7 +62773,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00259,
+      "probability_score": 0.00271,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -62883,7 +62883,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00146,
+      "probability_score": 0.00153,
       "nvd": {
         "cvss_v3_score": 3.5,
         "cvss_v3_severity": "LOW",
@@ -62941,7 +62941,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.00267,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -62999,7 +62999,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00271,
+      "probability_score": 0.00284,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",
@@ -63549,7 +63549,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.002,
+      "probability_score": 0.00201,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -63595,7 +63595,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00213,
+      "probability_score": 0.00215,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -63641,7 +63641,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00167,
+      "probability_score": 0.00168,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -73058,7 +73058,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89163,
+      "probability_score": 0.89462,
       "kev": {
         "cveID": "CVE-2025-49113",
         "vendorProject": "Roundcube",
@@ -76626,7 +76626,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.23198,
+      "probability_score": 0.23953,
       "kev": {
         "cveID": "CVE-2025-4632",
         "vendorProject": "Samsung",
@@ -78863,7 +78863,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97134,
+      "probability_score": 0.97157,
       "kev": {
         "cveID": "CVE-2025-34028",
         "vendorProject": "Commvault",
@@ -80523,7 +80523,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88429,
+      "probability_score": 0.89077,
       "kev": {
         "cveID": "CVE-2025-5086",
         "vendorProject": "Dassault Syst\u00e8mes",
