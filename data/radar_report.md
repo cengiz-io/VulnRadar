@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-06-25T07:38:29+00:00`
+Generated: `2026-06-25T09:37:45+00:00`
 
 ## Executive Summary
 
@@ -15,11 +15,11 @@ Top critical items:
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.786 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.281 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.037 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
+| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.013 | 7.4 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.127 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.036 |  | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.033 |  | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.027 |  | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
-| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.013 |  | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | 0.013 |  | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when find… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.008 |  | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | 0.934 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb fr… |
@@ -53,11 +53,11 @@ Top critical items:
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.786 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.281 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.  The nft_verdict_in… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.037 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
+| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 | 7.4 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.127 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.036 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.033 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
-| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.013 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.008 |  | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.934 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb frags  MSG_SPLICE_PAGES can attach pages f… |
@@ -106,6 +106,7 @@ Top critical items:
 | [CVE-2025-59287](https://www.cve.org/CVERecord?id=CVE-2025-59287) |  | KEV | ✅ | ✅ | 2025-11-14 | 1.000 | 9.8 |  | Deserialization of untrusted data in Windows Server Update Service allows an unauthorized attacker to execute code over a network. |
 | [CVE-2025-3248](https://www.cve.org/CVERecord?id=CVE-2025-3248) |  | KEV | ✅ | ✅ | 2025-05-26 | 1.000 | 9.8 |  | Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send craft… |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 1.000 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
+| [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 0.999 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
 | [CVE-2022-30525](https://www.cve.org/CVERecord?id=CVE-2022-30525) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.999 | 9.8 |  | A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W) firmware versions 5.00 through 5.21 Patch 1, USG FLEX 200 firmware versions 5.… |
 | [CVE-2024-27198](https://www.cve.org/CVERecord?id=CVE-2024-27198) |  | KEV | ✅ | ✅ | 2024-03-28 | 0.999 | 9.8 |  | In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible |
 | [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.999 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2024-27199](https://www.cve.org/CVERecord?id=CVE-2024-27199) |  | KEV | ✅ | ✅ | 2026-05-04 | 1.000 | 7.3 |  | In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions  was possible |
 | [CVE-2025-34291](https://www.cve.org/CVERecord?id=CVE-2025-34291) |  | KEV | ✅ | ✅ | 2026-06-04 | 0.789 | 9.4 |  | Langflow versions up to and including 1.6.9 contain a chained vulnerability that enables account takeover and remote code execution. An overly permissive CORS … |
 | [CVE-2025-61884](https://www.cve.org/CVERecord?id=CVE-2025-61884) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.976 | 7.5 |  | Vulnerability in the Oracle Configurator product of Oracle E-Business Suite (component: Runtime UI).  Supported versions that are affected are 12.2.3-12.2.14. … |
-| [CVE-2024-20767](https://www.cve.org/CVERecord?id=CVE-2024-20767) |  | KEV | ✅ | ✅ | 2025-01-06 | 0.985 | 7.4 |  | ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could result in arbitrary file system read. An at… |
 
 ## Recent Changes (Last 7 Days)
 
