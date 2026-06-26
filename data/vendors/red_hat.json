@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T01:33:58+00:00",
+  "generated_at": "2026-06-26T03:37:13+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -960,6 +960,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -1063,6 +1068,16 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -1168,6 +1183,16 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -1272,6 +1297,16 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -1375,6 +1410,16 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -11742,6 +11787,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -13668,6 +13718,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat jboss core services",
           "versions": null
         },
@@ -14214,7 +14269,7 @@
           "product": "ansible automation platform execution environments",
           "versions": [
             {
-              "version": "3.0.1-107",
+              "version": "1.2.0-93",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -14250,7 +14305,7 @@
           "product": "ansible automation platform execution environments",
           "versions": [
             {
-              "version": "2.17.7-1",
+              "version": "2.12.10-56",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -14262,7 +14317,7 @@
           "product": "ansible automation platform execution environments",
           "versions": [
             {
-              "version": "2.16.14-2",
+              "version": "2.15.13-4",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -14306,6 +14361,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux ai (rhel ai)",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -14887,6 +14947,16 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -16129,6 +16199,21 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat jboss enterprise application platform 7",
           "versions": null
         },
@@ -16369,6 +16454,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -17070,12 +17160,17 @@
           "product": "openshift compliance operator 1",
           "versions": [
             {
-              "version": "sha256:4953a7ea865ff38a4fe19d5536d8062870c262733c640a2c7e4bd9e0bfb3d498",
+              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -17190,6 +17285,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -17446,12 +17546,17 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:492e412759cf0eedfa5b557f7b0865f8864f84d0ed75e11dc8d7a840837d9644",
+              "version": "1.14.2-1748467619",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         },
         {
           "vendor": "red hat",
@@ -17551,7 +17656,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:492e412759cf0eedfa5b557f7b0865f8864f84d0ed75e11dc8d7a840837d9644",
+              "version": "1.14.2-1748467619",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -17566,6 +17671,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -18707,7 +18817,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:492e412759cf0eedfa5b557f7b0865f8864f84d0ed75e11dc8d7a840837d9644",
+              "version": "1.14.2-1748467619",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -18722,6 +18832,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -33250,6 +33365,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -33310,6 +33430,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -33372,6 +33497,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -33425,6 +33555,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -33480,6 +33615,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -33532,6 +33672,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -34011,6 +34156,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -34162,6 +34312,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -34234,6 +34389,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -34295,6 +34455,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -34364,6 +34529,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -34425,6 +34595,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -34508,6 +34683,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -34569,6 +34749,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -34641,6 +34826,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -38044,6 +38234,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -38119,6 +38314,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -44038,7 +44238,7 @@
           "product": "devworkspace operator 0.33",
           "versions": [
             {
-              "version": "sha256:937e1dff95d06b971adee9aeb55e0e2e963b6b14594f30354bb9cdb039c081dd",
+              "version": "0.33-1744075017",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -44050,7 +44250,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:ad1045aa0de937c3a6969ec377f7bfeda9a44ee434a954e8245e9840316ffc1c",
+              "version": "1.14.3-1748529279",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -44062,7 +44262,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:492e412759cf0eedfa5b557f7b0865f8864f84d0ed75e11dc8d7a840837d9644",
+              "version": "1.14.2-1748467619",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -44132,6 +44332,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -44518,6 +44723,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -44579,6 +44789,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -49892,7 +50107,7 @@
           "product": "red hat openshift container platform 4.13",
           "versions": [
             {
-              "version": "3:4.4.1-16.rhaos4.13.el9",
+              "version": "3:4.4.1-15.rhaos4.13.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -49916,7 +50131,7 @@
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
-              "version": "3:4.4.1-21.rhaos4.14.el9",
+              "version": "3:4.4.1-21.rhaos4.14.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -50047,6 +50262,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -50816,6 +51046,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat storage 3",
           "versions": null
         }
@@ -51021,6 +51256,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -51085,6 +51325,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -51376,6 +51621,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -51701,6 +51951,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -51751,6 +52006,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -51809,6 +52069,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -51859,6 +52124,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -51917,6 +52187,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -51967,6 +52242,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -52028,6 +52308,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -52286,6 +52571,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -52493,6 +52783,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:1.1.39-8.el10_0.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -52509,6 +52811,30 @@
           "versions": [
             {
               "version": "0:1.1.32-6.4.el8_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.1.32-8.el8_4.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.1.32-8.el8_4.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -52521,6 +52847,42 @@
           "versions": [
             {
               "version": "0:1.1.34-14.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.1.34-12.el9_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.1.34-15.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:1.1.34-13.el9_6.2",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -52547,6 +52909,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -52918,6 +53285,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -53118,6 +53490,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -54018,6 +54405,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -54078,6 +54470,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -54196,6 +54593,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -54249,6 +54651,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -54733,6 +55140,16 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -54835,6 +55252,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -54894,6 +55316,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -54944,6 +55371,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -55165,7 +55597,7 @@
           "product": "builds for red hat openshift 1.3.2",
           "versions": [
             {
-              "version": "sha256:02dfa9ff3833810645246f3af3ef89c2ea6794b61f3cdfe0929596ebf5bf042f",
+              "version": "1.3.1-1741784043",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -55180,6 +55612,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -56074,6 +56511,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -56354,6 +56796,21 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -56631,6 +57088,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -56910,6 +57382,21 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -57187,6 +57674,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -57466,6 +57968,21 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -57743,6 +58260,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -58022,6 +58554,21 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -58299,6 +58846,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -59491,6 +60053,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -59819,6 +60386,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -60531,6 +61103,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -60671,6 +61248,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -60724,6 +61306,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -60865,6 +61452,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -61004,6 +61596,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -61267,6 +61864,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -61395,6 +61997,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -61455,6 +62062,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -61529,6 +62141,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -61601,6 +62218,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -61857,6 +62479,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -61917,6 +62544,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -62173,6 +62805,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -62387,6 +63024,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -62506,7 +63148,7 @@
           "product": "red hat ceph storage 7",
           "versions": [
             {
-              "version": "sha256:4d2f9dc5b2b33ee1c77bbfabcbbb9f4d94d343b04c4de2e4f8b3b81a1f0fd2fe",
+              "version": "7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62518,7 +63160,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:435ba9959b793d46a63a74c343bb8c3ff68350496afec12cc5e894dfc40b7648",
+              "version": "2.3.0-1760554384",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62542,7 +63184,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:4ca38b33efec0d2dd17a8fd822a7c18281810676ceabb0c1db90953cb91cd5ea",
+              "version": "1.5.7-1759331989",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62557,6 +63199,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -62658,7 +63305,7 @@
           "product": "red hat ceph storage 7",
           "versions": [
             {
-              "version": "sha256:4d2f9dc5b2b33ee1c77bbfabcbbb9f4d94d343b04c4de2e4f8b3b81a1f0fd2fe",
+              "version": "7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62670,7 +63317,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:435ba9959b793d46a63a74c343bb8c3ff68350496afec12cc5e894dfc40b7648",
+              "version": "2.3.0-1760554384",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62694,7 +63341,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:4ca38b33efec0d2dd17a8fd822a7c18281810676ceabb0c1db90953cb91cd5ea",
+              "version": "1.5.7-1759331989",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62714,6 +63361,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -62839,7 +63491,7 @@
           "product": "red hat ceph storage 7",
           "versions": [
             {
-              "version": "sha256:4d2f9dc5b2b33ee1c77bbfabcbbb9f4d94d343b04c4de2e4f8b3b81a1f0fd2fe",
+              "version": "7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62851,7 +63503,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:435ba9959b793d46a63a74c343bb8c3ff68350496afec12cc5e894dfc40b7648",
+              "version": "2.3.0-1760554384",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62875,7 +63527,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:4ca38b33efec0d2dd17a8fd822a7c18281810676ceabb0c1db90953cb91cd5ea",
+              "version": "1.5.7-1759331989",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -62890,6 +63542,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -63103,6 +63760,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -63246,6 +63908,21 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -63384,6 +64061,46 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -63805,7 +64522,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:c499a099e03c7488ffe50529a34723ade191a89fcfc59d1f0edd01db2b579ca3",
+              "version": "2.0.0-1752592913",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -63820,6 +64537,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -64008,6 +64730,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -64245,6 +64972,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -64293,6 +65025,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -64343,6 +65080,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -64391,6 +65133,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -64603,6 +65350,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -64823,6 +65575,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -64893,6 +65650,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -64965,6 +65727,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -65013,6 +65780,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -65204,6 +65976,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -65393,6 +66170,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -65937,6 +66719,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -66014,6 +66801,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -66570,6 +67362,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -66668,6 +67465,21 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -66971,7 +67783,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:e54a5a5f9d69dd6a03e2bcd845e2202910a188d266d4a79b12c387ceffc36f2d",
+              "version": "1.5.5-1754504343",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -66983,7 +67795,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:a891aa3f77d70d9d7966dfc71ff9087f45deb95d3025072da96a3ec5220db1f3",
+              "version": "rhosdt-3.6-1753265330",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -66995,7 +67807,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:d9ca4a9ec5bc8de23e4550387f822f19949cdfbc4aeeab20e07b206d92f4a426",
+              "version": "rhosdt-3.6-1753265394",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67007,7 +67819,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:addf7b49ce99777a3bbf12c2e6678b604f3cfaf91feaaeb4192d75e902e46458",
+              "version": "rhosdt-3.6-1753265332",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67019,7 +67831,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:d4ef54ac8de0eaf22e294dad8852ea8b5c20f85deb19629a3a4e0020851266c3",
+              "version": "rhosdt-3.6-1753265435",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67031,7 +67843,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:1c4617b035c66b6b34e9b19f618f72a19da5fce644d79e24eb262f14c848bc81",
+              "version": "rhosdt-3.6-1753265342",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67043,7 +67855,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:8c5dddd29d08fe8234edbbcda055fe6b0f9a7d7a0edfc3cd130797fdf78cce5c",
+              "version": "rhosdt-3.6-1753265332",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67055,7 +67867,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:be3feca3b19ac609e5ef829887b6d03ca3c504163ed0f9e10b2410cdfb175b72",
+              "version": "rhosdt-3.6-1753269432",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67067,7 +67879,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:3d37f30462f237f5087ef8ac90e39f5cd2cbaf5c143f7cae9d6155eb574726f2",
+              "version": "rhosdt-3.6-1753265411",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67079,7 +67891,7 @@
           "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
-              "version": "sha256:8fb68adefecd8ccb94404399ac6c8038c064c85287f4f980a0855da1cbd0dcb7",
+              "version": "rhosdt-3.6-1753265314",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -67140,6 +67952,21 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -67188,6 +68015,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -67492,6 +68324,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -67639,6 +68476,26 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         },
@@ -67720,6 +68577,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -67770,6 +68632,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -67929,6 +68796,26 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -68195,6 +69082,16 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         },
@@ -68278,6 +69175,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -68352,6 +69254,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -68596,6 +69503,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -68809,6 +69721,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -69218,6 +70135,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -69273,6 +70195,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -69489,6 +70416,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -69551,6 +70483,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -69928,7 +70865,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:bddcf7ab6d576572b6d60822c313ffebcd9869e4fde93e32ac327821f93cf32b",
+              "version": "3.2.2-1765379088",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69940,7 +70877,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:7856bdb7ae0d643a7b9362c164d4d4fe3c0c7186f5fff73a7ae9835b3df52e57",
+              "version": "3.2.2-1765379049",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69952,7 +70889,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:dce6b0ea03379bf06664a5200af8b5f5ae3fad13cdce6d21873843f22554800b",
+              "version": "3.2.2-1764871796",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69964,7 +70901,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:fa844e16d06e871f1a5dbc2fd5b3882d28112eee8d6bee601d94c96295c5e24f",
+              "version": "1772160593",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69976,7 +70913,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:53007894763e03f609c35c727cb738db3c2130b19fa0e1069c24240e0870fb7a",
+              "version": "1772160625",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69988,7 +70925,7 @@
           "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
-              "version": "sha256:b5ee1febe929df3dd67df124aeb65d1920af553e667c2929a6865784ce546dc3",
+              "version": "rhosdt-3.7-1762254546",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -70000,7 +70937,7 @@
           "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
-              "version": "sha256:f242d27114fa7546df4d7261cccbd8586e9e6ba2487f02e260d8880807b94f43",
+              "version": "rhosdt-3.7-1762254552",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -70012,7 +70949,7 @@
           "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
-              "version": "sha256:dcbae88d4be5b004ff7473bcfbbd57946c773f7e77fc99da0b5b023310f55ddd",
+              "version": "rhosdt-3.7-1762255881",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -70024,7 +70961,7 @@
           "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
-              "version": "sha256:8ad291327a8410feb2d34afeb0d0c7f847a1cffc838883b65d71427b3f97670a",
+              "version": "rhosdt-3.7-1762254530",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -70036,7 +70973,7 @@
           "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
-              "version": "sha256:0fbed65da8c168be024b4ec28e9c5a860ce81c5bee69ebea24002407dc002be8",
+              "version": "rhosdt-3.7-1762254519",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -70048,12 +70985,17 @@
           "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
-              "version": "sha256:83583f8010629b65533926a11163565efd4d8b32433fe279218b60cdb13da13f",
+              "version": "rhosdt-3.7-1762254545",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -70107,6 +71049,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -70933,6 +71880,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -70986,6 +71938,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -71049,6 +72006,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -71108,6 +72070,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -71163,6 +72130,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -71360,7 +72332,7 @@
           "product": "red hat openshift container platform 4.19",
           "versions": [
             {
-              "version": "9.6.20260123-0",
+              "version": "4.19.9.6.202601260820-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -71392,6 +72364,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -71500,6 +72477,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -71553,6 +72535,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -71631,6 +72618,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -71817,6 +72809,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -72566,6 +73563,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -72906,7 +73908,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:ad07f55ee75fb20310c88f154a04665bd8465d138d66c665c300f61447858344",
+              "version": "2.0.1-1754478727",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72930,7 +73932,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:c26d589f12647890b67aaa986f54d3f7c6f7f2563fb5a73f38d559e6138739d7",
+              "version": "1.5.5-1754504343",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -72940,6 +73942,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -73024,7 +74031,7 @@
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
-              "version": "4:4.9.4-16.rhaos4.16.el9",
+              "version": "4:4.9.4-14.rhaos4.16.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73048,7 +74055,7 @@
           "product": "red hat openshift container platform 4.17",
           "versions": [
             {
-              "version": "5:5.2.2-8.rhaos4.17.el9",
+              "version": "5:5.2.2-8.rhaos4.17.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73129,6 +74136,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -73179,6 +74191,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
@@ -73245,6 +74262,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -73425,6 +74447,16 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -73544,7 +74576,7 @@
           "product": "red hat ceph storage 7",
           "versions": [
             {
-              "version": "sha256:4d2f9dc5b2b33ee1c77bbfabcbbb9f4d94d343b04c4de2e4f8b3b81a1f0fd2fe",
+              "version": "7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73556,7 +74588,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:435ba9959b793d46a63a74c343bb8c3ff68350496afec12cc5e894dfc40b7648",
+              "version": "2.3.0-1760554384",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73568,7 +74600,7 @@
           "product": "red hat insights proxy 1.5",
           "versions": [
             {
-              "version": "sha256:4ca38b33efec0d2dd17a8fd822a7c18281810676ceabb0c1db90953cb91cd5ea",
+              "version": "1.5.7-1759331989",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -73583,6 +74615,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -73815,6 +74852,11 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -73995,6 +75037,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -74158,6 +75205,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -74236,6 +75288,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -74286,6 +75343,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -83474,6 +84536,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         }
@@ -83546,6 +84613,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         },
         {
@@ -84150,6 +85222,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat jboss enterprise application platform 7",
           "versions": null
         },
@@ -84649,7 +85726,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:bddcf7ab6d576572b6d60822c313ffebcd9869e4fde93e32ac327821f93cf32b",
+              "version": "3.2.2-1765379088",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -84661,7 +85738,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:7856bdb7ae0d643a7b9362c164d4d4fe3c0c7186f5fff73a7ae9835b3df52e57",
+              "version": "3.2.2-1765379049",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -84673,7 +85750,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:14e32e88f1b89f59ed34a6d712746b82a6a54c6ed4727784f18aeff853abbdc7",
+              "version": "3.2.2-1764871796",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -84685,7 +85762,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:dcb9d1cd005c40b6db6f893e56419e383b9dcc0d38315605cb1457e2af5354f7",
+              "version": "1772160593",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -84697,7 +85774,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:53007894763e03f609c35c727cb738db3c2130b19fa0e1069c24240e0870fb7a",
+              "version": "1772160625",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -84709,7 +85786,7 @@
           "product": "red hat discovery 2",
           "versions": [
             {
-              "version": "sha256:310df392f638ef6eca1a26db024ae2cb617db5932f886d2acddc92fb7289e740",
+              "version": "2.4.0-1763656152",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -84731,6 +85808,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat in-vehicle operating system 1",
           "versions": null
         }
       ],
