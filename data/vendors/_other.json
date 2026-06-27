@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:46:21+00:00",
+  "generated_at": "2026-06-27T13:46:12+00:00",
   "vendor": "_other",
   "count": 875,
   "items": [
@@ -1629,7 +1629,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89063,
+      "probability_score": 0.88106,
       "kev": {
         "cveID": "CVE-2022-0847",
         "vendorProject": "Linux",
@@ -8517,7 +8517,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08557,
+      "probability_score": 0.08404,
       "kev": {
         "cveID": "CVE-2025-2783",
         "vendorProject": "Google",
@@ -36631,7 +36631,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.51238,
+      "probability_score": 0.41694,
       "kev": {
         "cveID": "CVE-2026-20230",
         "vendorProject": "Cisco",
@@ -50069,7 +50069,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.00256,
+      "probability_score": 0.00261,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -62113,7 +62113,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0068,
+      "probability_score": 0.00647,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -62353,7 +62353,7 @@
         "product:build"
       ],
       "active_threat": false,
-      "probability_score": 0.00302,
+      "probability_score": 0.00325,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -80193,7 +80193,7 @@
         "vendor:linuxserver"
       ],
       "active_threat": false,
-      "probability_score": 0.00541,
+      "probability_score": 0.00565,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -82422,7 +82422,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00931,
+      "probability_score": 0.01106,
       "kev": {
         "cveID": "CVE-2026-12569",
         "vendorProject": "PTC",
@@ -82480,7 +82480,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.921,
+      "probability_score": 0.88171,
       "kev": {
         "cveID": "CVE-2026-20253",
         "vendorProject": "Splunk",
@@ -84457,7 +84457,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84106,
+      "probability_score": 0.83453,
       "kev": {
         "cveID": "CVE-2026-42208",
         "vendorProject": "BerriAI",
@@ -85577,7 +85577,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01437,
+      "probability_score": 0.01456,
       "kev": {
         "cveID": "CVE-2026-8398",
         "vendorProject": "Daemon",
