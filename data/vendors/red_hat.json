@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T01:20:27+00:00",
+  "generated_at": "2026-06-27T03:35:27+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -13749,7 +13749,7 @@
           "CWE-863"
         ],
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -17800,7 +17800,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:ad1045aa0de937c3a6969ec377f7bfeda9a44ee434a954e8245e9840316ffc1c",
+              "version": "1.14.3-1748529279",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -17812,7 +17812,7 @@
           "product": "red hat discovery 1.14",
           "versions": [
             {
-              "version": "sha256:c960fa13577db72b52765d6941688f431f61fe38adb717b2d8bb6569e241bc5e",
+              "version": "1.14.2-1748467619",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -19129,7 +19129,7 @@
           "product": "red hat openshift gitops 1.16",
           "versions": [
             {
-              "version": "sha256:4c56abf35c11af85501a8c4a2ec30b1f1efd28eee8af6d62e417846a40cde72e",
+              "version": "1.16",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -19154,7 +19154,7 @@
           "CWE-668"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 9
       }
     },
     {
@@ -27646,7 +27646,7 @@
           "CWE-20"
         ],
         "cpe_count": 0,
-        "reference_count": 21
+        "reference_count": 22
       }
     },
     {
@@ -33286,10 +33286,10 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift container platform 4.2",
+          "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "sha256:23043d4a73f0d25d0959030e3d9b8020e4453a748addcb5c5955415953ad30a3",
+              "version": "ose-openshift-controller-manager-container-v4.20.0-202509261327.p2.gd9e543d.assembly.stream.el9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -34909,7 +34909,7 @@
           "CWE-347"
         ],
         "cpe_count": 4,
-        "reference_count": 2
+        "reference_count": 5
       }
     },
     {
@@ -34957,7 +34957,7 @@
           "CWE-347"
         ],
         "cpe_count": 4,
-        "reference_count": 2
+        "reference_count": 5
       }
     },
     {
@@ -35010,7 +35010,7 @@
           "CWE-1230"
         ],
         "cpe_count": 4,
-        "reference_count": 2
+        "reference_count": 5
       }
     },
     {
@@ -36471,7 +36471,7 @@
           "CWE-770"
         ],
         "cpe_count": 0,
-        "reference_count": 11
+        "reference_count": 14
       }
     },
     {
@@ -37898,7 +37898,7 @@
           "CWE-269"
         ],
         "cpe_count": 0,
-        "reference_count": 9
+        "reference_count": 10
       }
     },
     {
@@ -38164,7 +38164,7 @@
           "CWE-20"
         ],
         "cpe_count": 0,
-        "reference_count": 17
+        "reference_count": 18
       }
     },
     {
@@ -41564,7 +41564,7 @@
           "CWE-401"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 5
       }
     },
     {
@@ -48178,7 +48178,7 @@
           "CWE-94"
         ],
         "cpe_count": 0,
-        "reference_count": 15
+        "reference_count": 16
       }
     },
     {
@@ -53055,6 +53055,30 @@
           "versions": [
             {
               "version": "0:1.1.32-8.el8_4.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.1.32-8.el8_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.1.32-8.el8_8.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -87964,18 +87988,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00606,
-      "nvd": {
-        "cvss_v3_score": 8.3,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 0,
-        "reference_count": 8
-      }
+      "probability_score": 0.00606
     },
     {
       "cve_id": "CVE-2026-0665",
@@ -88039,18 +88052,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00143,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00143
     },
     {
       "cve_id": "CVE-2026-2243",
@@ -88114,18 +88116,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00114,
-      "nvd": {
-        "cvss_v3_score": 5.1,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-125"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00114
     },
     {
       "cve_id": "CVE-2026-33845",
@@ -88212,6 +88203,18 @@
           "versions": [
             {
               "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:3.8.3-6.el9_6.4",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -88325,18 +88328,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00776,
-      "nvd": {
-        "cvss_v3_score": 9.1,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-191"
-        ],
-        "cpe_count": 7,
-        "reference_count": 9
-      }
+      "probability_score": 0.00776
     },
     {
       "cve_id": "CVE-2026-3195",
@@ -88400,18 +88392,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00112,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00112
     },
     {
       "cve_id": "CVE-2026-3196",
@@ -88475,18 +88456,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00102,
-      "nvd": {
-        "cvss_v3_score": 5.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-190"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00102
     },
     {
       "cve_id": "CVE-2026-3832",
@@ -88667,18 +88637,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0072,
-      "nvd": {
-        "cvss_v3_score": 3.7,
-        "cvss_v3_severity": "LOW",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-179"
-        ],
-        "cpe_count": 8,
-        "reference_count": 10
-      }
+      "probability_score": 0.0072
     },
     {
       "cve_id": "CVE-2026-3833",
@@ -88765,6 +88724,18 @@
           "versions": [
             {
               "version": "0:3.8.10-4.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:3.8.3-6.el9_6.4",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -88878,18 +88849,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0052,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-178"
-        ],
-        "cpe_count": 8,
-        "reference_count": 11
-      }
+      "probability_score": 0.0052
     },
     {
       "cve_id": "CVE-2026-48914",
@@ -88958,18 +88918,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00121,
-      "nvd": {
-        "cvss_v3_score": 6.7,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 3
-      }
+      "probability_score": 0.00121
     }
   ]
 }

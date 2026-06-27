@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T01:20:27+00:00",
+  "generated_at": "2026-06-27T03:35:27+00:00",
   "vendor": "_other",
   "count": 875,
   "items": [
@@ -1324,17 +1324,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-01",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.1,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-565"
-        ],
-        "cpe_count": 191,
-        "reference_count": 3
       }
     },
     {
@@ -1491,17 +1480,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
         "dueDate": "2026-05-09",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 211,
-        "reference_count": 3
       }
     },
     {
@@ -8938,9 +8916,9 @@
     {
       "cve_id": "CVE-2026-11645",
       "description": "Out of bounds read and write in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "google",
@@ -8973,26 +8951,14 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-125",
-          "CWE-787"
-        ],
-        "cpe_count": 4,
-        "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-2441",
       "description": "Use after free in CSS in Google Chrome prior to 145.0.7632.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "google",
@@ -9025,25 +8991,14 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-10",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-416"
-        ],
-        "cpe_count": 5,
-        "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-3909",
       "description": "Out of bounds write in Skia in Google Chrome prior to 146.0.7680.75 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "google",
@@ -9076,25 +9031,14 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 4,
-        "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-3910",
       "description": "Inappropriate implementation in V8 in Google Chrome prior to 146.0.7680.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "google",
@@ -9127,26 +9071,14 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-94",
-          "CWE-119"
-        ],
-        "cpe_count": 4,
-        "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-5281",
       "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "google",
@@ -9179,17 +9111,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-15",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-416"
-        ],
-        "cpe_count": 4,
-        "reference_count": 3
       }
     },
     {
@@ -31517,17 +31438,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-11",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-94"
-        ],
-        "cpe_count": 8,
-        "reference_count": 2
       }
     },
     {
@@ -32902,17 +32812,6 @@
         "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
         "dueDate": "2026-04-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-648"
-        ],
-        "cpe_count": 5,
-        "reference_count": 2
       }
     },
     {
@@ -34287,17 +34186,6 @@
         "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
         "dueDate": "2026-02-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-287"
-        ],
-        "cpe_count": 15,
-        "reference_count": 2
       }
     },
     {
@@ -34876,17 +34764,6 @@
         "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
         "dueDate": "2026-04-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-257"
-        ],
-        "cpe_count": 5,
-        "reference_count": 2
       }
     },
     {
@@ -35201,17 +35078,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-22",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-502"
-        ],
-        "cpe_count": 71,
-        "reference_count": 3
       }
     },
     {
@@ -35890,17 +35756,6 @@
         "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
         "dueDate": "2026-04-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-200"
-        ],
-        "cpe_count": 5,
-        "reference_count": 2
       }
     },
     {
@@ -36593,17 +36448,6 @@
         "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
         "dueDate": "2026-05-17",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-287"
-        ],
-        "cpe_count": 24,
-        "reference_count": 3
       }
     },
     {
@@ -36642,17 +36486,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-28",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.6,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-918"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
       }
     },
     {
@@ -38765,17 +38598,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-116"
-        ],
-        "cpe_count": 16,
-        "reference_count": 3
       }
     },
     {
@@ -40314,17 +40136,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-29",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-22"
-        ],
-        "cpe_count": 6,
-        "reference_count": 2
       }
     },
     {
@@ -40838,17 +40649,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-15",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 2,
-        "reference_count": 2
       }
     },
     {
@@ -45928,17 +45728,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-24",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-190"
-        ],
-        "cpe_count": 474,
-        "reference_count": 3
       }
     },
     {
@@ -47244,17 +47033,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.6,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1321"
-        ],
-        "cpe_count": 8,
-        "reference_count": 2
       }
     },
     {
@@ -47976,9 +47754,9 @@
     {
       "cve_id": "CVE-2026-34197",
       "description": "Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.\n\nApache ActiveMQ Classic exposes the Jolokia JMX-HTTP bridge at /api/jolokia/ on the web console. The default Jolokia access policy permits exec operations on all ActiveMQ MBeans (org.apache.activemq:*), including\nBrokerService.addNetworkConnector(String) and BrokerService.addConnector(String).\n\nAn authenticated attacker can invoke these operations with a crafted discovery URI that triggers the VM transport's brokerConfig parameter to load a remote Spring XML application context using ResourceXmlApplicationContext.\nBecause Spring's ResourceXmlApplicationContext instantiates all singleton beans before the BrokerService validates the configuration, arbitrary code execution occurs on the broker's JVM through bean factory methods such as Runtime.exec().\n\n\n\nThis issue affects Apache ActiveMQ Broker: before 5.19.4, from 6.0.0 before 6.2.3; Apache ActiveMQ All: before 5.19.4, from 6.0.0 before 6.2.3; Apache ActiveMQ: before 5.19.4, from 6.0.0 before 6.2.3.\n\n\n\nUsers are recommended to upgrade to version 5.19.4 or 6.2.3, which fixes the issue",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "apache software foundation",
@@ -48053,18 +47831,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-30",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-20",
-          "CWE-94"
-        ],
-        "cpe_count": 4,
-        "reference_count": 3
       }
     },
     {
@@ -52618,17 +52384,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-16",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
       }
     },
     {
@@ -52813,17 +52568,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-01-30",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-288"
-        ],
-        "cpe_count": 22,
-        "reference_count": 4
       }
     },
     {
@@ -52864,17 +52608,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-09",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-284"
-        ],
-        "cpe_count": 2,
-        "reference_count": 2
       }
     },
     {
@@ -65898,18 +65631,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00219,
-      "nvd": {
-        "cvss_v3_score": 8.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-476"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00219
     },
     {
       "cve_id": "CVE-2026-0863",
@@ -65950,19 +65672,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.08497,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-95",
-          "CWE-94"
-        ],
-        "cpe_count": 3,
-        "reference_count": 4
-      }
+      "probability_score": 0.08497
     },
     {
       "cve_id": "CVE-2026-10717",
@@ -65996,18 +65706,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00102,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00102
     },
     {
       "cve_id": "CVE-2026-10718",
@@ -66036,18 +65735,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00114,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00114
     },
     {
       "cve_id": "CVE-2026-10719",
@@ -66076,18 +65764,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00102,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00102
     },
     {
       "cve_id": "CVE-2026-1470",
@@ -66128,18 +65805,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.18071,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-95"
-        ],
-        "cpe_count": 3,
-        "reference_count": 2
-      }
+      "probability_score": 0.18071
     },
     {
       "cve_id": "CVE-2026-1664",
@@ -66168,18 +65834,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00366,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-639"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00366
     },
     {
       "cve_id": "CVE-2026-1721",
@@ -66208,18 +65863,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00371,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00371
     },
     {
       "cve_id": "CVE-2026-22486",
@@ -66256,18 +65900,7 @@
         "product:re gallery"
       ],
       "active_threat": false,
-      "probability_score": 0.00269,
-      "nvd": {
-        "cvss_v3_score": 5.3,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-862"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00269
     },
     {
       "cve_id": "CVE-2026-23800",
@@ -66304,18 +65937,7 @@
         "product:modular ds"
       ],
       "active_threat": false,
-      "probability_score": 0.00469,
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-266"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00469
     },
     {
       "cve_id": "CVE-2026-25904",
@@ -66343,18 +65965,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00165,
-      "nvd": {
-        "cvss_v3_score": 5.8,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-918"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2026-25905",
@@ -66382,18 +65993,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00177,
-      "nvd": {
-        "cvss_v3_score": 5.8,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-653"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00177
     },
     {
       "cve_id": "CVE-2026-26045",
@@ -66434,18 +66034,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00553,
-      "nvd": {
-        "cvss_v3_score": 7.2,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-94"
-        ],
-        "cpe_count": 3,
-        "reference_count": 2
-      }
+      "probability_score": 0.00553
     },
     {
       "cve_id": "CVE-2026-26046",
@@ -66486,18 +66075,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02202,
-      "nvd": {
-        "cvss_v3_score": 7.2,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-78"
-        ],
-        "cpe_count": 3,
-        "reference_count": 2
-      }
+      "probability_score": 0.02202
     },
     {
       "cve_id": "CVE-2026-26047",
@@ -66538,19 +66116,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00435,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-400",
-          "CWE-770"
-        ],
-        "cpe_count": 3,
-        "reference_count": 2
-      }
+      "probability_score": 0.00435
     },
     {
       "cve_id": "CVE-2026-2391",
@@ -66579,18 +66145,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00478,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-20"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00478
     },
     {
       "cve_id": "CVE-2026-2681",
@@ -66619,18 +66174,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00301,
-      "nvd": {
-        "cvss_v3_score": 5.3,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00301
     },
     {
       "cve_id": "CVE-2026-40470",
@@ -66659,18 +66203,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00309,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00309
     },
     {
       "cve_id": "CVE-2026-40471",
@@ -66699,18 +66232,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
-      "nvd": {
-        "cvss_v3_score": 9.6,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-352"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00137
     },
     {
       "cve_id": "CVE-2026-40472",
@@ -66739,18 +66261,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00303,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00303
     },
     {
       "cve_id": "CVE-2026-4776",
@@ -66797,18 +66308,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00224,
-      "nvd": {
-        "cvss_v3_score": 7.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00224
     },
     {
       "cve_id": "CVE-2026-53469",
@@ -66837,18 +66337,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00288,
-      "nvd": {
-        "cvss_v3_score": 8.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00288
     },
     {
       "cve_id": "CVE-2026-53470",
@@ -66877,18 +66366,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0028,
-      "nvd": {
-        "cvss_v3_score": 8.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-639"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.0028
     },
     {
       "cve_id": "CVE-2026-53471",
@@ -66917,18 +66395,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00286,
-      "nvd": {
-        "cvss_v3_score": 7.7,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-639"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00286
     },
     {
       "cve_id": "CVE-2026-53473",
@@ -66957,18 +66424,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00187,
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00187
     },
     {
       "cve_id": "CVE-2026-53474",
@@ -66997,18 +66453,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00298,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00298
     },
     {
       "cve_id": "CVE-2026-53475",
@@ -67037,18 +66482,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00253,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-295"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00253
     },
     {
       "cve_id": "CVE-2026-53476",
@@ -67077,19 +66511,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00291,
-      "nvd": {
-        "cvss_v3_score": 9.6,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-59",
-          "CWE-22"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
-      }
+      "probability_score": 0.00291
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -67120,19 +66542,7 @@
         "product:shell-quote"
       ],
       "active_threat": false,
-      "probability_score": 0.00623,
-      "nvd": {
-        "cvss_v3_score": 8.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-77",
-          "CWE-78"
-        ],
-        "cpe_count": 0,
-        "reference_count": 6
-      }
+      "probability_score": 0.00623
     },
     {
       "cve_id": "CVE-2026-9557",
@@ -67179,18 +66589,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00138,
-      "nvd": {
-        "cvss_v3_score": 6.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-918"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00138
     },
     {
       "cve_id": "CVE-2026-9558",
@@ -67237,18 +66636,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00439,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1336"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00439
     },
     {
       "cve_id": "CVE-2026-9559",
@@ -67277,20 +66665,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00583,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-22",
-          "CWE-73",
-          "CWE-98"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00583
     },
     {
       "cve_id": "CVE-2026-9808",
@@ -67319,18 +66694,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00201,
-      "nvd": {
-        "cvss_v3_score": 7.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-863"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00201
     },
     {
       "cve_id": "CVE-2026-9809",
@@ -67359,18 +66723,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00164,
-      "nvd": {
-        "cvss_v3_score": 7.6,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00164
     },
     {
       "cve_id": "CVE-2026-9811",
@@ -67399,18 +66752,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00133,
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00133
     },
     {
       "cve_id": "CVE-2022-46169",
@@ -68912,17 +68254,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-24",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-77"
-        ],
-        "cpe_count": 5,
-        "reference_count": 4
       }
     },
     {
@@ -70559,17 +69890,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-14",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-78"
-        ],
-        "cpe_count": 3,
-        "reference_count": 3
       }
     },
     {
@@ -70614,17 +69934,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-01",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-94"
-        ],
-        "cpe_count": 5,
-        "reference_count": 2
       }
     },
     {
@@ -70669,17 +69978,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-11",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-94"
-        ],
-        "cpe_count": 1,
-        "reference_count": 2
       }
     },
     {
@@ -70718,18 +70016,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-288",
-          "CWE-306"
-        ],
-        "cpe_count": 8,
-        "reference_count": 2
       }
     },
     {
@@ -70779,17 +70065,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-10",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.2,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-20"
-        ],
-        "cpe_count": 3,
-        "reference_count": 2
       }
     },
     {
@@ -71953,17 +71228,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-04",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 6.7,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-23"
-        ],
-        "cpe_count": 2,
-        "reference_count": 5
       }
     },
     {
@@ -73035,18 +72299,7 @@
         "vendor:linuxdeepin"
       ],
       "active_threat": false,
-      "probability_score": 0.00148,
-      "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-295"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
-      }
+      "probability_score": 0.00148
     },
     {
       "cve_id": "CVE-2023-5631",
@@ -74412,17 +73665,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-16",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-78"
-        ],
-        "cpe_count": 2,
-        "reference_count": 5
       }
     },
     {
@@ -74885,9 +74127,9 @@
     {
       "cve_id": "CVE-2026-50751",
       "description": "A logic flow weakness in Remote Access and Mobile Access certificate validation in deprecated IKEv1 key exchange allows an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
-      "cvss_score": 9.3,
-      "cvss_severity": "CRITICAL",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "checkpoint",
@@ -74940,17 +74182,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-11",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.3,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-287"
-        ],
-        "cpe_count": 93,
-        "reference_count": 3
       }
     },
     {
@@ -75285,17 +74516,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-19",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-400"
-        ],
-        "cpe_count": 2,
-        "reference_count": 3
       }
     },
     {
@@ -77816,20 +77036,7 @@
         "vendor:util-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00118,
-      "nvd": {
-        "cvss_v3_score": 4.7,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-59",
-          "CWE-269",
-          "CWE-367"
-        ],
-        "cpe_count": 1,
-        "reference_count": 4
-      }
+      "probability_score": 0.00118
     },
     {
       "cve_id": "CVE-2025-14733",
@@ -79334,19 +78541,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-08",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-94",
-          "CWE-95",
-          "CWE-306"
-        ],
-        "cpe_count": 1,
-        "reference_count": 7
       }
     },
     {
@@ -79922,17 +79116,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-16",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-288"
-        ],
-        "cpe_count": 1,
-        "reference_count": 6
       }
     },
     {
@@ -79973,17 +79156,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-26",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 1,
-        "reference_count": 4
       }
     },
     {
@@ -81148,17 +80320,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-02",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-125"
-        ],
-        "cpe_count": 6,
-        "reference_count": 3
       }
     },
     {
@@ -81772,9 +80933,9 @@
     {
       "cve_id": "CVE-2026-8863",
       "description": "Multiple Microsoft-sigend UEFI SHIM bootloaders are vulnerable to SecureBoot bypass. An attacker with administrative privileges or the ability to modify the boot process could use one of the vulnerable shim bootloaders to bypass Secure Boot protections and execute arbitrary code before the operating system loads. Specific UEFI DBX update is required to block these vulnerable boot loaders.",
-      "cvss_score": 7.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "oracle corporation",
@@ -81943,16 +81104,7 @@
         "vendor:suse linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00097,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
-        "reference_count": 3
-      }
+      "probability_score": 0.00097
     },
     {
       "cve_id": "CVE-2025-8875",
@@ -82202,18 +81354,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00111,
-      "nvd": {
-        "cvss_v3_score": 9.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-348"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00111
     },
     {
       "cve_id": "CVE-2026-3888",
@@ -82302,18 +81443,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00383,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-268"
-        ],
-        "cpe_count": 5,
-        "reference_count": 6
-      }
+      "probability_score": 0.00383
     },
     {
       "cve_id": "CVE-2026-12569",
@@ -82433,18 +81563,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-28",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-20",
-          "CWE-502"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
       }
     },
     {
@@ -82491,17 +81609,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-21",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 2,
-        "reference_count": 3
       }
     },
     {
@@ -82534,18 +81641,7 @@
         "vendor:linux4me2"
       ],
       "active_threat": false,
-      "probability_score": 0.00161,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-79"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
+      "probability_score": 0.00161
     },
     {
       "cve_id": "CVE-2026-22769",
@@ -82597,17 +81693,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-21",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-798"
-        ],
-        "cpe_count": 9,
-        "reference_count": 3
       }
     },
     {
@@ -82648,17 +81733,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-02-16",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-88"
-        ],
-        "cpe_count": 2,
-        "reference_count": 13
       }
     },
     {
@@ -82707,17 +81781,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-17",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-78"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
       }
     },
     {
@@ -82750,18 +81813,7 @@
         "vendor:cryptodev-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0012,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-416"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
-      }
+      "probability_score": 0.0012
     },
     {
       "cve_id": "CVE-2026-29004",
@@ -82793,18 +81845,7 @@
         "vendor:vda-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00324,
-      "nvd": {
-        "cvss_v3_score": 8.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 5
-      }
+      "probability_score": 0.00324
     },
     {
       "cve_id": "CVE-2026-33634",
@@ -82882,17 +81923,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-09",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-506"
-        ],
-        "cpe_count": 7,
-        "reference_count": 14
       }
     },
     {
@@ -83293,17 +82323,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-26",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-284"
-        ],
-        "cpe_count": 61,
-        "reference_count": 3
       }
     },
     {
@@ -83716,17 +82735,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-26",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-22"
-        ],
-        "cpe_count": 63,
-        "reference_count": 3
       }
     },
     {
@@ -84127,17 +83135,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-26",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 10.0,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-20"
-        ],
-        "cpe_count": 61,
-        "reference_count": 3
       }
     },
     {
@@ -84176,17 +83173,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-07",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 1,
-        "reference_count": 5
       }
     },
     {
@@ -84225,17 +83211,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-16",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-494"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
       }
     },
     {
@@ -84419,17 +83394,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-03",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-306"
-        ],
-        "cpe_count": 19,
-        "reference_count": 9
       }
     },
     {
@@ -84468,17 +83432,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-11",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
       }
     },
     {
@@ -84517,18 +83470,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-22",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-77",
-          "CWE-78"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
       }
     },
     {
@@ -84569,17 +83510,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-06",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-502"
-        ],
-        "cpe_count": 1,
-        "reference_count": 5
       }
     },
     {
@@ -85196,17 +84126,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-10",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.6,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-506"
-        ],
-        "cpe_count": 343,
-        "reference_count": 5
       }
     },
     {
@@ -85245,17 +84164,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-10",
         "knownRansomwareCampaignUse": "Known"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-506"
-        ],
-        "cpe_count": 1,
-        "reference_count": 5
       }
     },
     {
@@ -85308,17 +84216,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-29",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-266"
-        ],
-        "cpe_count": 2,
-        "reference_count": 4
       }
     },
     {
@@ -85359,17 +84256,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-18",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 8.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-61"
-        ],
-        "cpe_count": 2,
-        "reference_count": 3
       }
     },
     {
@@ -85408,17 +84294,6 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-06-19",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-284"
-        ],
-        "cpe_count": 1,
-        "reference_count": 3
       }
     },
     {
@@ -85451,18 +84326,7 @@
         "vendor:linux-pam"
       ],
       "active_threat": false,
-      "probability_score": 0.00321,
-      "nvd": {
-        "cvss_v3_score": 5.9,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-208"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
-      }
+      "probability_score": 0.00321
     },
     {
       "cve_id": "CVE-2026-7473",
@@ -85537,17 +84401,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-06-23",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 5.8,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1023"
-        ],
-        "cpe_count": 102,
-        "reference_count": 3
       }
     },
     {
@@ -85588,17 +84441,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-30",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-506"
-        ],
-        "cpe_count": 2,
-        "reference_count": 3
       }
     },
     {
@@ -85669,17 +84511,6 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-27",
         "knownRansomwareCampaignUse": "Unknown"
-      },
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 6,
-        "reference_count": 2
       }
     }
   ]

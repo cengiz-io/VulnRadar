@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-06-27T01:20:29+00:00`
+Generated: `2026-06-27T03:35:29+00:00`
 
 ## Executive Summary
 
@@ -38,8 +38,8 @@ Top critical items:
 
 ## Summary
 
-- Total items: **13385**
-- Watchlist hits: **12678**
+- Total items: **13432**
+- Watchlist hits: **12725**
 - CISA KEVs: **719**
 - Exploit Intel (PoC): **733**
 - Exploit Intel + Watchlist (CRITICAL): **26**
@@ -239,7 +239,6 @@ Top critical items:
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.861 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.941 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
 | [CVE-2024-5910](https://www.cve.org/CVERecord?id=CVE-2024-5910) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.917 | 9.3 |  | Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network acc… |
-| [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.963 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
 | [CVE-2023-52163](https://www.cve.org/CVERecord?id=CVE-2023-52163) |  | KEV | ✅ | ✅ | 2026-01-12 | 0.963 | 8.8 |  | Digiever DS-2105 Pro 3.1.0.71-11 devices allow time_tzsetup.cgi Command Injection. NOTE: This vulnerability only affects products that are no longer supported … |
 | [CVE-2024-28987](https://www.cve.org/CVERecord?id=CVE-2024-28987) |  | KEV | ✅ | ✅ | 2024-11-05 | 0.932 | 9.1 |  | The SolarWinds Web Help Desk (WHD) software is affected by a hardcoded credential vulnerability, allowing remote unauthenticated user to access internal functi… |
 | [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.895 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
@@ -248,6 +247,7 @@ Top critical items:
 | [CVE-2026-9082](https://www.cve.org/CVERecord?id=CVE-2026-9082) |  | KEV | ✅ | ✅ | 2026-05-27 | 0.846 | 9.8 |  | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Drupal Drupal core allows SQL Injection.  This issue affe… |
 | [CVE-2024-28986](https://www.cve.org/CVERecord?id=CVE-2024-28986) |  | KEV | ✅ | ✅ | 2024-09-05 | 0.846 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to a Java Deserialization Remote Code Execution vulnerability that, if exploited, would allow an attacker … |
 | [CVE-2023-27992](https://www.cve.org/CVERecord?id=CVE-2023-27992) |  | KEV | ✅ | ✅ | 2023-07-14 | 0.843 | 9.8 |  | The pre-authentication command injection vulnerability in the Zyxel NAS326 firmware versions prior to V5.21(AAZF.14)C0, NAS540 firmware versions prior to V5.21… |
+| [CVE-2025-40551](https://www.cve.org/CVERecord?id=CVE-2025-40551) |  | KEV | ✅ | ✅ | 2026-02-06 | 0.841 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an untrusted data deserialization vulnerability that could lead to remote code execution, which would a… |
 
 ## Recent Changes (Last 7 Days)
 
