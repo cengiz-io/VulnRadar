@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T12:43:38+00:00",
+  "generated_at": "2026-06-29T14:34:29+00:00",
   "vendor": "apple",
   "count": 50,
   "items": [
@@ -2215,7 +2215,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": true,
+      "in_patchthis": false,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -2811,7 +2811,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": true,
+      "in_patchthis": false,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -3975,7 +3975,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01428,
+      "probability_score": 0.01481,
       "kev": {
         "cveID": "CVE-2025-31277",
         "vendorProject": "Apple",
