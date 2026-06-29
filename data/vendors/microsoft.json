@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T18:57:52+00:00",
+  "generated_at": "2026-06-29T19:46:29+00:00",
   "vendor": "microsoft",
   "count": 129,
   "items": [
@@ -29186,7 +29186,7 @@
         "shortDescription": "Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-05-06",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 7.8,
