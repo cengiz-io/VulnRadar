@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-01T13:15:17+00:00`
+Generated: `2026-07-01T15:14:02+00:00`
 
 ## Executive Summary
 
@@ -11,7 +11,7 @@ Top critical items:
 | CVE | EPSS | CVSS | KEV Due | Description |
 |---|---:|---:|---:|---|
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | 0.968 | 7.8 | 2026-05-15 | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-pl… |
-| [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | 0.619 | 9.8 | 2026-02-26 | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by defaul… |
+| [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | 0.624 | 9.8 | 2026-02-26 | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by defaul… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.814 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.281 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.037 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
@@ -33,7 +33,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.028 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.020 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.006 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
-| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | 0.012 | 7.1 |  | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The… |
+| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | 0.014 | 7.1 |  | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | 0.066 | 6.5 |  | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to c… |
 
 ## Summary
@@ -49,7 +49,7 @@ Top critical items:
 | CVE | Priority | Bucket | Exploit | KEV | KEV Due | EPSS | CVSS | Watchlist | Description |
 |---|---|---|---:|---:|---:|---:|---:|---:|---|
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-05-15 | 0.968 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-place  This mostly reverts commit 72548b09… |
-| [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-26 | 0.619 | 9.8 | ✅ | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that i… |
+| [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-26 | 0.624 | 9.8 | ✅ | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that i… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.814 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.281 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.  The nft_verdict_in… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.037 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
@@ -71,7 +71,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.028 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.006 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
-| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.012 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
+| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.014 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2023-22518](https://www.cve.org/CVERecord?id=CVE-2023-22518) |  | KEV | ✅ | ✅ | 2023-11-28 | 1.000 | 10.0 |  | All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthent… |
@@ -239,8 +239,8 @@ Top critical items:
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.861 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.941 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
 | [CVE-2024-5910](https://www.cve.org/CVERecord?id=CVE-2024-5910) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.918 | 9.3 |  | Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network acc… |
+| [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.967 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
 | [CVE-2023-52163](https://www.cve.org/CVERecord?id=CVE-2023-52163) |  | KEV | ✅ | ✅ | 2026-01-12 | 0.963 | 8.8 |  | Digiever DS-2105 Pro 3.1.0.71-11 devices allow time_tzsetup.cgi Command Injection. NOTE: This vulnerability only affects products that are no longer supported … |
-| [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.962 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
 | [CVE-2024-28987](https://www.cve.org/CVERecord?id=CVE-2024-28987) |  | KEV | ✅ | ✅ | 2024-11-05 | 0.932 | 9.1 |  | The SolarWinds Web Help Desk (WHD) software is affected by a hardcoded credential vulnerability, allowing remote unauthenticated user to access internal functi… |
 | [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.895 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
 | [CVE-2023-26360](https://www.cve.org/CVERecord?id=CVE-2023-26360) |  | KEV | ✅ | ✅ | 2023-04-05 | 0.971 | 8.6 |  | Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could resu… |
