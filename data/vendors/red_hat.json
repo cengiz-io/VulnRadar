@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T01:20:25+00:00",
+  "generated_at": "2026-07-02T03:23:59+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -64598,7 +64598,7 @@
           "CWE-190"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -70547,7 +70547,7 @@
           "CWE-191"
         ],
         "cpe_count": 0,
-        "reference_count": 15
+        "reference_count": 16
       }
     },
     {
@@ -71332,6 +71332,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat insights proxy 1.5",
+          "versions": [
+            {
+              "version": "1782890503",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
@@ -71452,7 +71464,7 @@
           "CWE-121"
         ],
         "cpe_count": 0,
-        "reference_count": 13
+        "reference_count": 14
       }
     },
     {
@@ -87515,6 +87527,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "0:3.3.29-9.el7_9.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -87816,11 +87840,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7",
           "versions": null
         },
         {
