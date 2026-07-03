@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T13:07:13+00:00",
+  "generated_at": "2026-07-03T15:25:46+00:00",
   "vendor": "_other",
   "count": 877,
   "items": [
@@ -7574,7 +7574,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99739,
+      "probability_score": 0.99694,
       "kev": {
         "cveID": "CVE-2023-4863",
         "vendorProject": "Google",
@@ -46807,7 +46807,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97115,
+      "probability_score": 0.97339,
       "kev": {
         "cveID": "CVE-2023-26360",
         "vendorProject": "Adobe",
@@ -51100,7 +51100,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1931,
+      "probability_score": 0.20121,
       "kev": {
         "cveID": "CVE-2024-40890",
         "vendorProject": "Zyxel",
@@ -51149,7 +51149,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19406,
+      "probability_score": 0.19735,
       "kev": {
         "cveID": "CVE-2024-40891",
         "vendorProject": "Zyxel",
@@ -52643,7 +52643,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89526,
+      "probability_score": 0.89177,
       "kev": {
         "cveID": "CVE-2025-64446",
         "vendorProject": "Fortinet",
@@ -56408,7 +56408,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00412,
+      "probability_score": 0.00419,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -56448,7 +56448,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00534,
+      "probability_score": 0.00544,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -57918,7 +57918,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00474,
+      "probability_score": 0.00482,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -61005,7 +61005,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00557,
+      "probability_score": 0.00553,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -61043,7 +61043,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00849,
+      "probability_score": 0.00842,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -61502,7 +61502,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00338,
+      "probability_score": 0.00335,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -61542,7 +61542,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00703,
+      "probability_score": 0.00697,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -62014,7 +62014,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00377,
+      "probability_score": 0.00394,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70527,7 +70527,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99589,
+      "probability_score": 0.99891,
       "kev": {
         "cveID": "CVE-2025-4427",
         "vendorProject": "Ivanti",
@@ -70576,7 +70576,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87529,
+      "probability_score": 0.83641,
       "kev": {
         "cveID": "CVE-2025-4428",
         "vendorProject": "Ivanti",
@@ -84533,7 +84533,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84518,
+      "probability_score": 0.86607,
       "kev": {
         "cveID": "CVE-2026-42208",
         "vendorProject": "BerriAI",

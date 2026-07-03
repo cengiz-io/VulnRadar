@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-03T13:07:15+00:00`
+Generated: `2026-07-03T15:25:48+00:00`
 
 ## Executive Summary
 
@@ -214,8 +214,8 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2025-49704](https://www.cve.org/CVERecord?id=CVE-2025-49704) |  | KEV | ✅ | ✅ | 2025-07-23 | 0.999 | 8.8 |  | Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. |
 | [CVE-2025-54236](https://www.cve.org/CVERecord?id=CVE-2025-54236) |  | KEV | ✅ | ✅ | 2025-11-14 | 0.967 | 9.1 |  | Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerabilit… |
-| [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 0.997 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
 | [CVE-2024-13160](https://www.cve.org/CVERecord?id=CVE-2024-13160) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.897 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
+| [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 0.997 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
 | [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.877 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2025-54068](https://www.cve.org/CVERecord?id=CVE-2025-54068) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.954 | 9.2 |  | Livewire is a full-stack framework for Laravel. In Livewire v3 up to and including v3.6.3, a vulnerability allows unauthenticated attackers to achieve remote c… |
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
@@ -242,8 +242,8 @@ Top critical items:
 | [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.967 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
 | [CVE-2023-52163](https://www.cve.org/CVERecord?id=CVE-2023-52163) |  | KEV | ✅ | ✅ | 2026-01-12 | 0.964 | 8.8 |  | Digiever DS-2105 Pro 3.1.0.71-11 devices allow time_tzsetup.cgi Command Injection. NOTE: This vulnerability only affects products that are no longer supported … |
 | [CVE-2024-28987](https://www.cve.org/CVERecord?id=CVE-2024-28987) |  | KEV | ✅ | ✅ | 2024-11-05 | 0.932 | 9.1 |  | The SolarWinds Web Help Desk (WHD) software is affected by a hardcoded credential vulnerability, allowing remote unauthenticated user to access internal functi… |
-| [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.895 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
-| [CVE-2023-26360](https://www.cve.org/CVERecord?id=CVE-2023-26360) |  | KEV | ✅ | ✅ | 2023-04-05 | 0.971 | 8.6 |  | Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could resu… |
+| [CVE-2023-26360](https://www.cve.org/CVERecord?id=CVE-2023-26360) |  | KEV | ✅ | ✅ | 2023-04-05 | 0.973 | 8.6 |  | Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could resu… |
+| [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.892 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
 | [CVE-2025-30406](https://www.cve.org/CVERecord?id=CVE-2025-30406) |  | KEV | ✅ | ✅ | 2025-04-29 | 0.927 | 9.0 |  | Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machine… |
 | [CVE-2026-9082](https://www.cve.org/CVERecord?id=CVE-2026-9082) |  | KEV | ✅ | ✅ | 2026-05-27 | 0.846 | 9.8 |  | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Drupal Drupal core allows SQL Injection.  This issue affe… |
 | [CVE-2024-28986](https://www.cve.org/CVERecord?id=CVE-2024-28986) |  | KEV | ✅ | ✅ | 2024-09-05 | 0.846 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to a Java Deserialization Remote Code Execution vulnerability that, if exploited, would allow an attacker … |
