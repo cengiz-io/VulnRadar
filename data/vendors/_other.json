@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T11:46:21+00:00",
+  "generated_at": "2026-07-04T13:58:17+00:00",
   "vendor": "_other",
   "count": 877,
   "items": [
@@ -7637,7 +7637,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.34401,
+      "probability_score": 0.49013,
       "kev": {
         "cveID": "CVE-2023-5217",
         "vendorProject": "Google",
@@ -50248,7 +50248,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.00248,
+      "probability_score": 0.00255,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -54135,7 +54135,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00373,
+      "probability_score": 0.00376,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -59670,7 +59670,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00186,
+      "probability_score": 0.00189,
       "nvd": {
         "cvss_v3_score": 7.4,
         "cvss_v3_severity": "HIGH",
@@ -61854,7 +61854,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00493,
+      "probability_score": 0.00514,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -71348,7 +71348,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.011,
+      "probability_score": 0.01091,
       "kev": {
         "cveID": "CVE-2023-36851",
         "vendorProject": "Juniper",
@@ -72629,7 +72629,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.53535,
+      "probability_score": 0.53255,
       "kev": {
         "cveID": "CVE-2023-45249",
         "vendorProject": "Acronis",
@@ -75114,7 +75114,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93159,
+      "probability_score": 0.93299,
       "kev": {
         "cveID": "CVE-2024-28987",
         "vendorProject": "SolarWinds",
@@ -77850,7 +77850,7 @@
         "vendor:util-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00176,
+      "probability_score": 0.00179,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -79348,7 +79348,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99968,
+      "probability_score": 0.99972,
       "kev": {
         "cveID": "CVE-2025-3248",
         "vendorProject": "Langflow",
@@ -81369,7 +81369,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03046,
+      "probability_score": 0.031,
       "kev": {
         "cveID": "CVE-2025-66644",
         "vendorProject": "Array Networks ",

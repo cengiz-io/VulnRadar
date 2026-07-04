@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T11:46:21+00:00",
+  "generated_at": "2026-07-04T13:58:17+00:00",
   "vendor": "apple",
   "count": 50,
   "items": [
@@ -963,7 +963,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09502,
+      "probability_score": 0.09426,
       "kev": {
         "cveID": "CVE-2023-23529",
         "vendorProject": "Apple",
@@ -1074,7 +1074,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.14406,
+      "probability_score": 0.14292,
       "kev": {
         "cveID": "CVE-2023-28204",
         "vendorProject": "Apple",
@@ -1371,7 +1371,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1227,
+      "probability_score": 0.12172,
       "kev": {
         "cveID": "CVE-2023-32373",
         "vendorProject": "Apple",
@@ -2654,7 +2654,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.17963,
+      "probability_score": 0.17823,
       "kev": {
         "cveID": "CVE-2023-42916",
         "vendorProject": "Apple",
