@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T00:26:17+00:00",
+  "generated_at": "2026-07-07T05:10:46+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -80295,6 +80295,42 @@
           "versions": [
             {
               "version": "0:3.8.3-6.el9_6.4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "1782951051",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "1782951012",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "1782951244",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
