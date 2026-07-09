@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T23:26:04+00:00",
+  "generated_at": "2026-07-09T04:21:00+00:00",
   "vendor": "_other",
   "count": 881,
   "items": [
@@ -47389,7 +47389,7 @@
           "CWE-22"
         ],
         "cpe_count": 31,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -52059,7 +52059,7 @@
       "description": "An\u00a0Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to\u00a0Node.js websocket module.",
       "cvss_score": 9.6,
       "cvss_severity": "CRITICAL",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:W/RC:C",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C",
       "affected": [
         {
           "vendor": "fortinet",
@@ -52128,8 +52128,20 @@
       "description": "An\u00a0Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS 7.0.0 through 7.0.16 and FortiProxy 7.2.0 through 7.2.12, 7.0.0 through 7.0.19 may allow a remote unauthenticated attacker with prior knowledge of upstream and downstream devices serial numbers to gain super-admin privileges on the downstream device, if the Security Fabric is enabled, via crafted CSF proxy requests.",
       "cvss_score": 8.1,
       "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:X/RC:C",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "fortinet",
+          "product": "fortios",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "7.0.0",
+              "lessThanOrEqual": "7.0.16",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "fortinet",
           "product": "fortiproxy",
@@ -52144,18 +52156,6 @@
               "versionType": "semver",
               "version": "7.0.0",
               "lessThanOrEqual": "7.0.19",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "fortinet",
-          "product": "fortios",
-          "versions": [
-            {
-              "versionType": "semver",
-              "version": "7.0.0",
-              "lessThanOrEqual": "7.0.16",
               "status": "affected"
             }
           ]
@@ -79513,15 +79513,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-639"
         ],
         "cpe_count": 1,
-        "reference_count": 3
+        "reference_count": 6
       }
     },
     {
@@ -85700,7 +85700,7 @@
           "CWE-434"
         ],
         "cpe_count": 1,
-        "reference_count": 3
+        "reference_count": 5
       }
     },
     {
@@ -85792,7 +85792,7 @@
           "CWE-434"
         ],
         "cpe_count": 1,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
