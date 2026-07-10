@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:24:35+00:00",
+  "generated_at": "2026-07-10T15:49:16+00:00",
   "vendor": "_other",
   "count": 881,
   "items": [
@@ -1629,7 +1629,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88106,
+      "probability_score": 0.89063,
       "kev": {
         "cveID": "CVE-2022-0847",
         "vendorProject": "Linux",
@@ -52168,7 +52168,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02988,
+      "probability_score": 0.03092,
       "kev": {
         "cveID": "CVE-2025-24472",
         "vendorProject": "Fortinet",
@@ -56830,7 +56830,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00769,
+      "probability_score": 0.00784,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -74596,7 +74596,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98125,
+      "probability_score": 0.98084,
       "kev": {
         "cveID": "CVE-2024-12987",
         "vendorProject": "DrayTek",
