@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T15:49:16+00:00",
+  "generated_at": "2026-07-10T18:02:48+00:00",
   "vendor": "_other",
-  "count": 881,
+  "count": 883,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -85704,6 +85704,55 @@
       }
     },
     {
+      "cve_id": "CVE-2026-48939",
+      "description": "A vulnerability in the iCagenda extension for Joomla allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:A/AU:Y/U:Red",
+      "affected": [
+        {
+          "vendor": "icagenda.com",
+          "product": "icagenda extension for joomla",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "3.2.1-4.0.7"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00564,
+      "kev": {
+        "cveID": "CVE-2026-48939",
+        "vendorProject": "iCagenda",
+        "product": "iCagenda",
+        "vulnerabilityName": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-07-10",
+        "shortDescription": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-13",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-434"
+        ],
+        "cpe_count": 2,
+        "reference_count": 5
+      }
+    },
+    {
       "cve_id": "CVE-2026-54411",
       "description": "Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.",
       "cvss_score": 6.9,
@@ -85793,6 +85842,55 @@
         ],
         "cpe_count": 1,
         "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-56291",
+      "description": "The Joomla extension Balbooa Forms is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to full RCE.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:A/AU:Y/U:Red",
+      "affected": [
+        {
+          "vendor": "balbooa.com",
+          "product": "balbooa.com balbooa forms extension for joomla",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.0-2.4.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00278,
+      "kev": {
+        "cveID": "CVE-2026-56291",
+        "vendorProject": "Balbooa",
+        "product": "Forms",
+        "vulnerabilityName": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-07-10",
+        "shortDescription": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-13",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-434"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
