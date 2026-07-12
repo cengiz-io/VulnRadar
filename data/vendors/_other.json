@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T11:24:57+00:00",
+  "generated_at": "2026-07-12T13:53:37+00:00",
   "vendor": "_other",
   "count": 883,
   "items": [
@@ -4669,7 +4669,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84966,
+      "probability_score": 0.82646,
       "kev": {
         "cveID": "CVE-2023-41266",
         "vendorProject": "Qlik",
@@ -8808,7 +8808,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06231,
+      "probability_score": 0.0645,
       "kev": {
         "cveID": "CVE-2025-5419",
         "vendorProject": "Google",
@@ -16233,7 +16233,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.53827,
+      "probability_score": 0.54107,
       "kev": {
         "cveID": "CVE-2023-20118",
         "vendorProject": "Cisco",
@@ -44446,7 +44446,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00661,
+      "probability_score": 0.00778,
       "kev": {
         "cveID": "CVE-2025-21479",
         "vendorProject": "Qualcomm",
@@ -44795,7 +44795,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00359,
+      "probability_score": 0.00435,
       "kev": {
         "cveID": "CVE-2025-21480",
         "vendorProject": "Qualcomm",
@@ -46909,7 +46909,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99754,
+      "probability_score": 0.99761,
       "kev": {
         "cveID": "CVE-2023-29298",
         "vendorProject": "Adobe",
@@ -46960,7 +46960,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99984,
+      "probability_score": 0.99988,
       "kev": {
         "cveID": "CVE-2023-29300",
         "vendorProject": "Adobe",
@@ -50439,7 +50439,7 @@
         "vendor:the linux kernel organization"
       ],
       "active_threat": false,
-      "probability_score": 0.06214,
+      "probability_score": 0.05871,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -52694,7 +52694,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89177,
+      "probability_score": 0.8936,
       "kev": {
         "cveID": "CVE-2025-64446",
         "vendorProject": "Fortinet",
@@ -53344,7 +53344,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0044,
+      "probability_score": 0.00447,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -61553,7 +61553,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00335,
+      "probability_score": 0.00349,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -61593,7 +61593,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00697,
+      "probability_score": 0.00726,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -62368,7 +62368,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0022,
+      "probability_score": 0.00223,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -63915,7 +63915,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00268,
+      "probability_score": 0.00282,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -76706,7 +76706,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87776,
+      "probability_score": 0.84758,
       "kev": {
         "cveID": "CVE-2024-58136",
         "vendorProject": "Yiiframework",
