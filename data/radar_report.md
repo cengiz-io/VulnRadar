@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-12T03:56:27+00:00`
+Generated: `2026-07-12T06:49:27+00:00`
 
 ## Executive Summary
 
@@ -260,7 +260,3 @@ Top critical items:
 | Jul 07 | [CVE-2026-48908](https://www.cve.org/CVERecord?id=CVE-2026-48908) | 🔴 In CISA KEV |
 | Jul 07 | [CVE-2026-56290](https://www.cve.org/CVERecord?id=CVE-2026-56290) | 🔴 In CISA KEV |
 | Jul 07 | [CVE-2026-48282](https://www.cve.org/CVERecord?id=CVE-2026-48282) | 🔴 In CISA KEV |
-| Jul 05 | [CVE-2026-53359](https://www.cve.org/CVERecord?id=CVE-2026-53359) | 🆕 New |
-| Jul 05 | [CVE-2026-53360](https://www.cve.org/CVERecord?id=CVE-2026-53360) | 🆕 New |
-| Jul 05 | [CVE-2026-53361](https://www.cve.org/CVERecord?id=CVE-2026-53361) | 🆕 New |
-| Jul 05 | [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | 🆕 New |
