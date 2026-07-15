@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T00:05:40+00:00",
+  "generated_at": "2026-07-15T03:29:05+00:00",
   "vendor": "microsoft",
-  "count": 130,
+  "count": 132,
   "items": [
     {
       "cve_id": "CVE-2022-21882",
@@ -29462,6 +29462,254 @@
         ],
         "cpe_count": 3,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-56155",
+      "description": "Insufficient granularity of access control in Active Directory Federation Services (AD FS) allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9339",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9020",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26226",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 (server core installation)",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26226",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23291",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23291",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9339",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9339",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9020",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9020",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.5386",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33158",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33158",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-56155",
+        "vendorProject": "Microsoft",
+        "product": "Active Directory Federation Services",
+        "vulnerabilityName": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+        "dateAdded": "2026-07-14",
+        "shortDescription": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-28",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
+      "cve_id": "CVE-2026-56164",
+      "description": "Missing authentication for critical function in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft sharepoint enterprise server 2016",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.0.5561.1001",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft sharepoint server 2019",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.0.10417.20175",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft sharepoint server subscription edition",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.0.19725.20434",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-56164",
+        "vendorProject": "Microsoft",
+        "product": "SharePoint Server",
+        "vulnerabilityName": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+        "dateAdded": "2026-07-14",
+        "shortDescription": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-07-17",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     }
   ]

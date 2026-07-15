@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T00:05:40+00:00",
+  "generated_at": "2026-07-15T03:29:05+00:00",
   "vendor": "red_hat",
   "count": 483,
   "items": [
@@ -75231,6 +75231,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:2.12.5-10.el10_2.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -75247,6 +75259,30 @@
           "versions": [
             {
               "version": "0:2.9.7-21.el8_10.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:2.9.13-14.el9_8.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:2.9.13-14.el9_8.2",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -75267,22 +75303,12 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -81139,6 +81165,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "17:10.1.0-17.el9_8.4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -81160,11 +81198,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
