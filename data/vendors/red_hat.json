@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T23:13:43+00:00",
+  "generated_at": "2026-07-16T03:40:00+00:00",
   "vendor": "red_hat",
   "count": 483,
   "items": [
@@ -71223,6 +71223,18 @@
           "versions": [
             {
               "version": "0:8.32-41.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cost management 4",
+          "versions": [
+            {
+              "version": "1783539156",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
