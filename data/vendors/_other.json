@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T12:06:23+00:00",
+  "generated_at": "2026-07-18T13:46:45+00:00",
   "vendor": "_other",
   "count": 889,
   "items": [
@@ -5941,7 +5941,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09328,
+      "probability_score": 0.08632,
       "kev": {
         "cveID": "CVE-2024-57726",
         "vendorProject": "SimpleHelp ",
@@ -6039,7 +6039,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.07549,
+      "probability_score": 0.06982,
       "kev": {
         "cveID": "CVE-2024-57728",
         "vendorProject": "SimpleHelp ",
@@ -22459,7 +22459,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91911,
+      "probability_score": 0.92062,
       "kev": {
         "cveID": "CVE-2024-20439",
         "vendorProject": "Cisco",
@@ -50302,7 +50302,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.0035,
+      "probability_score": 0.00357,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -78398,7 +78398,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.18047,
+      "probability_score": 0.18346,
       "kev": {
         "cveID": "CVE-2025-14733",
         "vendorProject": "WatchGuard",
@@ -79391,7 +79391,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97859,
+      "probability_score": 0.98594,
       "kev": {
         "cveID": "CVE-2025-32433",
         "vendorProject": "Erlang",
@@ -81121,7 +81121,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01929,
+      "probability_score": 0.01913,
       "kev": {
         "cveID": "CVE-2025-59689",
         "vendorProject": "Libraesva",
@@ -86178,7 +86178,7 @@
         "vendor:linux-pam"
       ],
       "active_threat": false,
-      "probability_score": 0.00321,
+      "probability_score": 0.00333,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",

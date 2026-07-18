@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-18T12:06:25+00:00`
+Generated: `2026-07-18T13:46:46+00:00`
 
 ## Executive Summary
 
@@ -91,6 +91,7 @@ Top critical items:
 | [CVE-2023-22515](https://www.cve.org/CVERecord?id=CVE-2023-22515) |  | KEV | ✅ | ✅ | 2023-10-13 | 0.992 | 10.0 |  | Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in … |
 | [CVE-2026-10520](https://www.cve.org/CVERecord?id=CVE-2026-10520) |  | KEV | ✅ | ✅ | 2026-06-14 | 0.990 | 10.0 |  | An OS Command Injection vulnerability in Ivanti Sentry before the R10.5.2, R10.6.2 and R10.7.1 versions allows a remote unauthenticated user to achieve root-le… |
 | [CVE-2022-24816](https://www.cve.org/CVERecord?id=CVE-2022-24816) |  | KEV | ✅ | ✅ | 2024-07-17 | 0.987 | 10.0 |  | JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request … |
+| [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.986 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
 | [CVE-2024-50603](https://www.cve.org/CVERecord?id=CVE-2024-50603) |  | KEV | ✅ | ✅ | 2025-02-06 | 0.985 | 10.0 |  | An issue was discovered in Aviatrix Controller before 7.1.4191 and 7.2.x before 7.2.4996. Due to the improper neutralization of special elements used in an OS … |
 | [CVE-2022-22947](https://www.cve.org/CVERecord?id=CVE-2022-22947) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.983 | 10.0 |  | In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enab… |
 | [CVE-2022-26134](https://www.cve.org/CVERecord?id=CVE-2022-26134) |  | KEV | ✅ | ✅ | 2022-06-06 | 1.000 | 9.8 |  | In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbit… |
@@ -122,7 +123,6 @@ Top critical items:
 | [CVE-2023-34362](https://www.cve.org/CVERecord?id=CVE-2023-34362) |  | KEV | ✅ | ✅ | 2023-06-23 | 0.999 | 9.8 |  | In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerabi… |
 | [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.999 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.979 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
-| [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.979 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
 | [CVE-2024-13159](https://www.cve.org/CVERecord?id=CVE-2024-13159) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.998 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2022-46169](https://www.cve.org/CVERecord?id=CVE-2022-46169) |  | KEV | ✅ | ✅ | 2023-03-09 | 0.998 | 9.8 |  | Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a… |
 | [CVE-2024-36401](https://www.cve.org/CVERecord?id=CVE-2024-36401) |  | KEV | ✅ | ✅ | 2024-08-05 | 0.998 | 9.8 |  | GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.22.6, 2.23.6, 2.24.4, and 2.25.2, multiple OGC requ… |
@@ -198,9 +198,9 @@ Top critical items:
 | [CVE-2025-34028](https://www.cve.org/CVERecord?id=CVE-2025-34028) |  | KEV | ✅ | ✅ | 2025-05-23 | 0.973 | 9.3 |  | The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the … |
 | [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.922 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
+| [CVE-2024-20439](https://www.cve.org/CVERecord?id=CVE-2024-20439) |  | KEV | ✅ | ✅ | 2025-04-21 | 0.921 | 9.8 |  | A vulnerability in Cisco Smart Licensing Utility (CSLU) could allow an unauthenticated, remote attacker to log into an affected system by using a static admini… |
 | [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2025-0282](https://www.cve.org/CVERecord?id=CVE-2025-0282) |  | KEV | ✅ | ✅ | 2025-01-15 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gatewa… |
-| [CVE-2024-20439](https://www.cve.org/CVERecord?id=CVE-2024-20439) |  | KEV | ✅ | ✅ | 2025-04-21 | 0.919 | 9.8 |  | A vulnerability in Cisco Smart Licensing Utility (CSLU) could allow an unauthenticated, remote attacker to log into an affected system by using a static admini… |
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.897 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.996 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
 | [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.916 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
