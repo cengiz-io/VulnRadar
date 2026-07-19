@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T11:22:01+00:00",
+  "generated_at": "2026-07-19T13:50:29+00:00",
   "vendor": "_other",
   "count": 889,
   "items": [
@@ -658,7 +658,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9846,
+      "probability_score": 0.98494,
       "kev": {
         "cveID": "CVE-2024-9463",
         "vendorProject": "Palo Alto Networks",
@@ -1777,7 +1777,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13935,
+      "probability_score": 0.13825,
       "kev": {
         "cveID": "CVE-2022-22948",
         "vendorProject": "VMware",
@@ -3979,7 +3979,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98053,
+      "probability_score": 0.97864,
       "kev": {
         "cveID": "CVE-2023-25280",
         "vendorProject": "D-Link",
@@ -4028,7 +4028,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95326,
+      "probability_score": 0.98069,
       "kev": {
         "cveID": "CVE-2023-25717",
         "vendorProject": "Ruckus Wireless",
@@ -49868,7 +49868,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99445,
+      "probability_score": 0.9972,
       "kev": {
         "cveID": "CVE-2023-3519",
         "vendorProject": "Citrix",
@@ -50258,7 +50258,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.00263,
+      "probability_score": 0.0027,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -50438,7 +50438,7 @@
         "vendor:the linux kernel organization"
       ],
       "active_threat": true,
-      "probability_score": 0.12746,
+      "probability_score": 0.10458,
       "kev": {
         "cveID": "CVE-2022-2586",
         "vendorProject": "Linux",
@@ -54786,7 +54786,7 @@
         "product:media library helper"
       ],
       "active_threat": false,
-      "probability_score": 0.00246,
+      "probability_score": 0.00248,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -61289,7 +61289,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00553,
+      "probability_score": 0.00564,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -62178,7 +62178,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0029,
+      "probability_score": 0.00296,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -64679,7 +64679,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00223,
+      "probability_score": 0.00228,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -64725,7 +64725,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00213,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -64783,7 +64783,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00227,
+      "probability_score": 0.00232,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -64829,7 +64829,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00274,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -64869,7 +64869,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.0026,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -64921,7 +64921,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00234,
+      "probability_score": 0.00231,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -64979,7 +64979,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00385,
+      "probability_score": 0.0038,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -65037,7 +65037,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00246,
+      "probability_score": 0.00251,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -65095,7 +65095,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00204,
+      "probability_score": 0.00209,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -68848,7 +68848,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13638,
+      "probability_score": 0.1353,
       "kev": {
         "cveID": "CVE-2023-20867",
         "vendorProject": "VMware",
@@ -71242,7 +71242,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90966,
+      "probability_score": 0.91357,
       "kev": {
         "cveID": "CVE-2023-36844",
         "vendorProject": "Juniper",
@@ -75996,7 +75996,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04006,
+      "probability_score": 0.03973,
       "kev": {
         "cveID": "CVE-2024-39717",
         "vendorProject": "Versa",
@@ -78809,7 +78809,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99898,
+      "probability_score": 0.99864,
       "kev": {
         "cveID": "CVE-2025-24893",
         "vendorProject": "XWiki",
@@ -86265,7 +86265,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00836,
+      "probability_score": 0.08635,
       "kev": {
         "cveID": "CVE-2026-56291",
         "vendorProject": "Balbooa",
