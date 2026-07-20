@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:15:09+00:00",
+  "generated_at": "2026-07-20T14:32:57+00:00",
   "vendor": "_other",
   "count": 889,
   "items": [
@@ -3049,7 +3049,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99628,
+      "probability_score": 0.99696,
       "kev": {
         "cveID": "CVE-2022-35914",
         "vendorProject": "Teclib",
@@ -6498,7 +6498,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03817,
+      "probability_score": 0.04003,
       "kev": {
         "cveID": "CVE-2025-47827",
         "vendorProject": "IGEL",
@@ -8860,7 +8860,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06564,
+      "probability_score": 0.06887,
       "kev": {
         "cveID": "CVE-2025-6554",
         "vendorProject": "Google",
@@ -8911,7 +8911,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09185,
+      "probability_score": 0.09038,
       "kev": {
         "cveID": "CVE-2025-6558",
         "vendorProject": "Google",
@@ -47115,7 +47115,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99732,
+      "probability_score": 0.99768,
       "kev": {
         "cveID": "CVE-2023-38205",
         "vendorProject": "Adobe",
@@ -49669,7 +49669,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03054,
+      "probability_score": 0.02837,
       "kev": {
         "cveID": "CVE-2022-40139",
         "vendorProject": "Trend Micro",
@@ -49868,7 +49868,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9972,
+      "probability_score": 0.99715,
       "kev": {
         "cveID": "CVE-2023-3519",
         "vendorProject": "Citrix",
@@ -55515,7 +55515,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00603,
+      "probability_score": 0.00721,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -68552,7 +68552,7 @@
         "product:ryzen\u2122 pro 5000 series desktop processors"
       ],
       "active_threat": false,
-      "probability_score": 0.0616,
+      "probability_score": 0.06657,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -78756,7 +78756,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93027,
+      "probability_score": 0.9384,
       "kev": {
         "cveID": "CVE-2025-24016",
         "vendorProject": "Wazuh",
@@ -79442,7 +79442,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.47467,
+      "probability_score": 0.48239,
       "kev": {
         "cveID": "CVE-2025-32463",
         "vendorProject": "Sudo",
@@ -79945,7 +79945,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03084,
+      "probability_score": 0.03215,
       "kev": {
         "cveID": "CVE-2025-42599",
         "vendorProject": "Qualitia",
