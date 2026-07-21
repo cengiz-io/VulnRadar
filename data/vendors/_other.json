@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:30:49+00:00",
+  "generated_at": "2026-07-21T14:45:57+00:00",
   "vendor": "_other",
   "count": 889,
   "items": [
@@ -5062,7 +5062,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19543,
+      "probability_score": 0.20834,
       "kev": {
         "cveID": "CVE-2024-27443",
         "vendorProject": "Synacor",
@@ -7246,7 +7246,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.16109,
+      "probability_score": 0.15983,
       "kev": {
         "cveID": "CVE-2022-4262",
         "vendorProject": "Google",
@@ -46962,7 +46962,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99761,
+      "probability_score": 0.99734,
       "kev": {
         "cveID": "CVE-2023-29298",
         "vendorProject": "Adobe",
@@ -47901,7 +47901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99426,
+      "probability_score": 0.99442,
       "kev": {
         "cveID": "CVE-2024-32113",
         "vendorProject": "Apache",
@@ -66148,7 +66148,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00504,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -66188,7 +66188,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00651,
+      "probability_score": 0.00676,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -71347,7 +71347,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93546,
+      "probability_score": 0.9415,
       "kev": {
         "cveID": "CVE-2023-36845",
         "vendorProject": "Juniper",
@@ -76047,7 +76047,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.83479,
+      "probability_score": 0.8323,
       "kev": {
         "cveID": "CVE-2025-34026",
         "vendorProject": "Versa",
@@ -76098,7 +76098,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90208,
+      "probability_score": 0.90369,
       "kev": {
         "cveID": "CVE-2024-40711",
         "vendorProject": "Veeam",
@@ -76892,7 +76892,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04714,
+      "probability_score": 0.04356,
       "kev": {
         "cveID": "CVE-2025-23209",
         "vendorProject": "Craft CMS",
@@ -80381,7 +80381,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94913,
+      "probability_score": 0.95104,
       "kev": {
         "cveID": "CVE-2025-4008",
         "vendorProject": "Smartbedded",
