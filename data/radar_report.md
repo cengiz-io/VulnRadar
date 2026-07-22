@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-22T12:04:09+00:00`
+Generated: `2026-07-22T14:23:14+00:00`
 
 ## Executive Summary
 
@@ -102,10 +102,10 @@ Top critical items:
 | [CVE-2022-22954](https://www.cve.org/CVERecord?id=CVE-2022-22954) |  | KEV | ✅ | ✅ | 2022-05-05 | 1.000 | 9.8 |  | VMware Workspace ONE Access and Identity Manager contain a remote code execution vulnerability due to server-side template injection. A malicious actor with ne… |
 | [CVE-2022-44877](https://www.cve.org/CVERecord?id=CVE-2022-44877) |  | KEV | ✅ | ✅ | 2023-02-07 | 1.000 | 9.8 |  | login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metac… |
 | [CVE-2024-34102](https://www.cve.org/CVERecord?id=CVE-2024-34102) |  | KEV | ✅ | ✅ | 2024-08-07 | 1.000 | 9.8 |  | Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulner… |
+| [CVE-2024-7593](https://www.cve.org/CVERecord?id=CVE-2024-7593) |  | KEV | ✅ | ✅ | 2024-10-15 | 1.000 | 9.8 |  | Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass a… |
 | [CVE-2025-3248](https://www.cve.org/CVERecord?id=CVE-2025-3248) |  | KEV | ✅ | ✅ | 2025-05-26 | 1.000 | 9.8 |  | Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send craft… |
 | [CVE-2023-29300](https://www.cve.org/CVERecord?id=CVE-2023-29300) |  | KEV | ✅ | ✅ | 2024-01-29 | 1.000 | 9.8 |  | Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vul… |
 | [CVE-2024-4577](https://www.cve.org/CVERecord?id=CVE-2024-4577) |  | KEV | ✅ | ✅ | 2024-07-03 | 1.000 | 9.8 |  | In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain … |
-| [CVE-2024-7593](https://www.cve.org/CVERecord?id=CVE-2024-7593) |  | KEV | ✅ | ✅ | 2024-10-15 | 1.000 | 9.8 |  | Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass a… |
 | [CVE-2022-40684](https://www.cve.org/CVERecord?id=CVE-2022-40684) |  | KEV | ✅ | ✅ | 2022-11-01 | 1.000 | 9.8 |  | An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy versi… |
 | [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
 | [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 1.000 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
@@ -225,7 +225,7 @@ Top critical items:
 | [CVE-2022-37042](https://www.cve.org/CVERecord?id=CVE-2022-37042) |  | KEV | ✅ | ✅ | 2022-09-01 | 0.888 | 9.8 |  | Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authenticatio… |
 | [CVE-2024-51567](https://www.cve.org/CVERecord?id=CVE-2024-51567) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.867 | 10.0 |  | upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary … |
 | [CVE-2022-23131](https://www.cve.org/CVERecord?id=CVE-2022-23131) |  | KEV | ✅ | ✅ | 2022-03-08 | 0.957 | 9.1 |  | In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login st… |
-| [CVE-2025-0108](https://www.cve.org/CVERecord?id=CVE-2025-0108) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.984 | 8.8 |  | An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to b… |
+| [CVE-2025-0108](https://www.cve.org/CVERecord?id=CVE-2025-0108) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.985 | 8.8 |  | An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to b… |
 | [CVE-2023-27524](https://www.cve.org/CVERecord?id=CVE-2023-27524) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.974 | 8.9 |  | Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY accordi… |
 | [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.883 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2025-61757](https://www.cve.org/CVERecord?id=CVE-2025-61757) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.883 | 9.8 |  | Vulnerability in the Identity Manager product of Oracle Fusion Middleware (component: REST WebServices).  Supported versions that are affected are 12.2.1.4.0 a… |
