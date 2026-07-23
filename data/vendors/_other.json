@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T22:19:00+00:00",
+  "generated_at": "2026-07-23T00:28:34+00:00",
   "vendor": "_other",
   "count": 895,
   "items": [
@@ -67496,7 +67496,7 @@
           "CWE-78"
         ],
         "cpe_count": 0,
-        "reference_count": 28
+        "reference_count": 29
       }
     },
     {
@@ -77214,7 +77214,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00099
+      "probability_score": 0.00099,
+      "nvd": {
+        "cvss_v3_score": 5.6,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-212"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-12249",
@@ -77403,7 +77414,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00125
+      "probability_score": 0.00125,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-250"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-3888",
@@ -77565,7 +77587,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-250"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2024-7262",
@@ -80139,7 +80172,7 @@
           "CWE-829"
         ],
         "cpe_count": 1,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -86686,8 +86719,8 @@
         "cwe_ids": [
           "CWE-89"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 3,
+        "reference_count": 3
       }
     },
     {
@@ -86743,8 +86776,8 @@
         "cwe_ids": [
           "CWE-436"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 2,
+        "reference_count": 3
       }
     },
     {
