@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T00:28:34+00:00",
+  "generated_at": "2026-07-23T04:31:01+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -4746,6 +4746,18 @@
           "versions": [
             {
               "version": "0:4.4.0-15.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:4.4.0-13.el9_6.5",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -80836,6 +80848,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "0:3.3.29-9.el7_9.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -81149,11 +81173,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7",
           "versions": null
         },
         {
