@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T23:12:57+00:00",
+  "generated_at": "2026-07-24T03:52:55+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -4879,7 +4879,7 @@
           "CWE-787"
         ],
         "cpe_count": 3,
-        "reference_count": 14
+        "reference_count": 15
       }
     },
     {
@@ -53056,6 +53056,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784795076",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
@@ -71370,6 +71382,66 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784794818",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784794778",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784795112",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784794289",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784795076",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
@@ -75326,6 +75398,66 @@
           "versions": [
             {
               "version": "2.15.2-0.3.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784794818",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784794778",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784795112",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784794289",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1784795076",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -81203,7 +81335,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 17
+        "reference_count": 18
       }
     },
     {
