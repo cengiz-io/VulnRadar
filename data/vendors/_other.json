@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T03:39:17+00:00",
+  "generated_at": "2026-07-25T06:34:45+00:00",
   "vendor": "_other",
   "count": 899,
   "items": [
@@ -67496,7 +67496,7 @@
           "CWE-78"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 31
       }
     },
     {
@@ -75489,7 +75489,7 @@
         "cwe_ids": [
           "CWE-287"
         ],
-        "cpe_count": 0,
+        "cpe_count": 122,
         "reference_count": 2
       }
     },
@@ -86773,7 +86773,18 @@
         "vendor:selinuxproject"
       ],
       "active_threat": false,
-      "probability_score": 0.00087
+      "probability_score": 0.00087,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-367"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-59677",
@@ -86805,7 +86816,18 @@
         "vendor:selinuxproject"
       ],
       "active_threat": false,
-      "probability_score": 0.00107
+      "probability_score": 0.00107,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-59678",
@@ -86837,7 +86859,18 @@
         "vendor:linux-gaming"
       ],
       "active_threat": false,
-      "probability_score": 0.00116
+      "probability_score": 0.00116,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-60137",
