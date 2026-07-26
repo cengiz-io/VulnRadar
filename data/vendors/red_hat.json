@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T00:12:11+00:00",
+  "generated_at": "2026-07-26T04:39:27+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -17086,7 +17086,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -71262,7 +71262,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "cost management metrics operator 4",
+          "product": "cost management 4",
           "versions": [
             {
               "version": "1783539156",
@@ -71298,7 +71298,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782501180",
@@ -71310,7 +71310,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782501200",
@@ -71322,7 +71322,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782498923",
@@ -71334,7 +71334,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782510941",
@@ -71346,7 +71346,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782501220",
@@ -71358,7 +71358,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782501196",
@@ -71370,7 +71370,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.0",
+          "product": "red hat openshift distributed tracing 3.10.2",
           "versions": [
             {
               "version": "1782501195",
@@ -72616,43 +72616,43 @@
           "product": "compliance operator 1",
           "versions": [
             {
-              "version": "1.8.0",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "compliance operator 1",
-          "versions": [
-            {
-              "version": "1.8.0",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "compliance operator 1",
-          "versions": [
-            {
-              "version": "1.8.0",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "compliance operator 1",
-          "versions": [
-            {
               "version": "v1.3",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift compliance operator 1",
+          "versions": [
+            {
+              "version": "1.8.0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift compliance operator 1",
+          "versions": [
+            {
+              "version": "1.8.0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift compliance operator 1",
+          "versions": [
+            {
+              "version": "1.8.0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -74443,7 +74443,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
