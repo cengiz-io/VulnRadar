@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T12:15:58+00:00",
+  "generated_at": "2026-07-26T14:46:32+00:00",
   "vendor": "_other",
   "count": 899,
   "items": [
@@ -2901,7 +2901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98975,
+      "probability_score": 0.99107,
       "kev": {
         "cveID": "CVE-2022-30333",
         "vendorProject": "RARLAB",
@@ -40645,7 +40645,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.49689,
+      "probability_score": 0.4997,
       "kev": {
         "cveID": "CVE-2024-21182",
         "vendorProject": "Oracle",
@@ -46444,7 +46444,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99406,
+      "probability_score": 0.99512,
       "kev": {
         "cveID": "CVE-2025-31324",
         "vendorProject": "SAP",
@@ -47417,7 +47417,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98993,
+      "probability_score": 0.99197,
       "kev": {
         "cveID": "CVE-2026-48282",
         "vendorProject": "Adobe",
@@ -47645,7 +47645,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97405,
+      "probability_score": 0.97172,
       "kev": {
         "cveID": "CVE-2023-27524",
         "vendorProject": "Apache",
@@ -50726,7 +50726,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99938,
+      "probability_score": 0.9994,
       "kev": {
         "cveID": "CVE-2022-30525",
         "vendorProject": "Zyxel",
@@ -51200,7 +51200,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.22421,
+      "probability_score": 0.22251,
       "kev": {
         "cveID": "CVE-2024-40890",
         "vendorProject": "Zyxel",
@@ -56688,7 +56688,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00419,
+      "probability_score": 0.00428,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -56728,7 +56728,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00544,
+      "probability_score": 0.00555,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -58198,7 +58198,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00482,
+      "probability_score": 0.00492,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -62478,7 +62478,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00661,
+      "probability_score": 0.00707,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -64012,7 +64012,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00201,
+      "probability_score": 0.00208,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -69789,7 +69789,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.63316,
+      "probability_score": 0.63577,
       "kev": {
         "cveID": "CVE-2023-35081",
         "vendorProject": "Ivanti",
@@ -70387,7 +70387,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9999,
+      "probability_score": 0.99987,
       "kev": {
         "cveID": "CVE-2024-7593",
         "vendorProject": "Ivanti",
@@ -71765,7 +71765,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.33641,
+      "probability_score": 0.33878,
       "kev": {
         "cveID": "CVE-2023-39780",
         "vendorProject": "ASUS",
@@ -79263,7 +79263,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00751,
+      "probability_score": 0.00784,
       "kev": {
         "cveID": "CVE-2025-1976",
         "vendorProject": "Broadcom",
@@ -79469,7 +79469,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01767,
+      "probability_score": 0.01775,
       "kev": {
         "cveID": "CVE-2025-27920",
         "vendorProject": "Srimax",
@@ -82045,7 +82045,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99937,
+      "probability_score": 0.9994,
       "kev": {
         "cveID": "CVE-2025-5777",
         "vendorProject": "Citrix",
