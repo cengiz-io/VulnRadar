@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-27T12:39:20+00:00`
+Generated: `2026-07-27T15:53:56+00:00`
 
 ## Executive Summary
 
@@ -82,7 +82,7 @@ Top critical items:
 | [CVE-2024-1709](https://www.cve.org/CVERecord?id=CVE-2024-1709) |  | KEV | ✅ | ✅ | 2024-02-29 | 1.000 | 10.0 |  | ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel   vulnerability, which may allow an atta… |
 | [CVE-2026-10520](https://www.cve.org/CVERecord?id=CVE-2026-10520) |  | KEV | ✅ | ✅ | 2026-06-14 | 0.999 | 10.0 |  | An OS Command Injection vulnerability in Ivanti Sentry before the R10.5.2, R10.6.2 and R10.7.1 versions allows a remote unauthenticated user to achieve root-le… |
 | [CVE-2024-45519](https://www.cve.org/CVERecord?id=CVE-2024-45519) |  | KEV | ✅ | ✅ | 2024-10-24 | 0.999 | 10.0 |  | The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allow… |
-| [CVE-2025-32432](https://www.cve.org/CVERecord?id=CVE-2025-32432) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.999 | 10.0 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-R… |
+| [CVE-2025-32432](https://www.cve.org/CVERecord?id=CVE-2025-32432) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.998 | 10.0 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-R… |
 | [CVE-2023-46604](https://www.cve.org/CVERecord?id=CVE-2023-46604) |  | KEV | ✅ | ✅ | 2023-11-23 | 0.997 | 10.0 |  | The Java OpenWire protocol marshaller is vulnerable to Remote Code  Execution. This vulnerability may allow a remote attacker with network  access to either a … |
 | [CVE-2022-0543](https://www.cve.org/CVERecord?id=CVE-2022-0543) |  | KEV | ✅ | ✅ | 2022-04-18 | 0.996 | 10.0 |  | It was discovered, that redis, a persistent key-value database, due to a packaging issue, is prone to a (Debian-specific) Lua sandbox escape, which could resul… |
 | [CVE-2025-10035](https://www.cve.org/CVERecord?id=CVE-2025-10035) |  | KEV | ✅ | ✅ | 2025-10-20 | 0.996 | 10.0 |  | A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged license response signature to deseriali… |
@@ -194,6 +194,7 @@ Top critical items:
 | [CVE-2024-5217](https://www.cve.org/CVERecord?id=CVE-2024-5217) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.995 | 9.2 |  | ServiceNow has addressed an input validation vulnerability that was identified in the Washington DC, Vancouver, and earlier Now Platform releases. This vulnera… |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
+| [CVE-2026-41940](https://www.cve.org/CVERecord?id=CVE-2026-41940) |  | KEV | ✅ | ✅ | 2026-05-03 | 0.979 | 9.3 |  | cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unaut… |
 | [CVE-2025-34028](https://www.cve.org/CVERecord?id=CVE-2025-34028) |  | KEV | ✅ | ✅ | 2025-05-23 | 0.977 | 9.3 |  | The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the … |
 | [CVE-2023-48788](https://www.cve.org/CVERecord?id=CVE-2023-48788) |  | KEV | ✅ | ✅ | 2024-04-15 | 0.976 | 9.3 |  | A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7… |
 | [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.925 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
@@ -207,7 +208,6 @@ Top critical items:
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.897 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.996 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
 | [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.916 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
-| [CVE-2026-41940](https://www.cve.org/CVERecord?id=CVE-2026-41940) |  | KEV | ✅ | ✅ | 2026-05-03 | 0.965 | 9.3 |  | cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unaut… |
 | [CVE-2022-26352](https://www.cve.org/CVERecord?id=CVE-2022-26352) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.911 | 9.8 |  | An issue was discovered in the ContentResource API in dotCMS 3.0 through 22.02. Attackers can craft a multipart form request to post a file whose filename is n… |
 | [CVE-2024-41713](https://www.cve.org/CVERecord?id=CVE-2024-41713) |  | KEV | ✅ | ✅ | 2025-01-28 | 0.981 | 9.1 |  | A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to c… |
 | [CVE-2024-13160](https://www.cve.org/CVERecord?id=CVE-2024-13160) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.910 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
