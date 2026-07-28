@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T12:10:54+00:00",
+  "generated_at": "2026-07-28T14:38:42+00:00",
   "vendor": "_other",
   "count": 901,
   "items": [
@@ -5549,7 +5549,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98067,
+      "probability_score": 0.9811,
       "kev": {
         "cveID": "CVE-2024-41713",
         "vendorProject": "Mitel",
@@ -47645,7 +47645,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97172,
+      "probability_score": 0.97405,
       "kev": {
         "cveID": "CVE-2023-27524",
         "vendorProject": "Apache",
@@ -51249,7 +51249,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21996,
+      "probability_score": 0.21829,
       "kev": {
         "cveID": "CVE-2024-40891",
         "vendorProject": "Zyxel",
@@ -52818,7 +52818,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00477,
+      "probability_score": 0.01264,
       "kev": {
         "cveID": "CVE-2025-68686",
         "vendorProject": "Fortinet",
@@ -62711,7 +62711,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0041,
+      "probability_score": 0.00417,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -65930,7 +65930,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00832,
+      "probability_score": 0.00862,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -68023,7 +68023,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00474,
+      "probability_score": 0.00484,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -68064,7 +68064,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00881,
+      "probability_score": 0.009,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -68105,7 +68105,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.0084,
+      "probability_score": 0.00858,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -68146,7 +68146,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.0048,
+      "probability_score": 0.00491,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -68187,7 +68187,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00808,
+      "probability_score": 0.00826,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -79749,7 +79749,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.5461,
+      "probability_score": 0.42514,
       "kev": {
         "cveID": "CVE-2025-2775",
         "vendorProject": "SysAid",
@@ -79800,7 +79800,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.72971,
+      "probability_score": 0.63999,
       "kev": {
         "cveID": "CVE-2025-2776",
         "vendorProject": "SysAid",
@@ -80309,7 +80309,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.53461,
+      "probability_score": 0.56267,
       "kev": {
         "cveID": "CVE-2026-0770",
         "vendorProject": "Langflow",
@@ -80374,7 +80374,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01174,
+      "probability_score": 0.01268,
       "kev": {
         "cveID": "CVE-2025-35939",
         "vendorProject": "Craft CMS",
@@ -80728,7 +80728,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08489,
+      "probability_score": 0.08659,
       "kev": {
         "cveID": "CVE-2025-48927",
         "vendorProject": "TeleMessage",
@@ -80959,7 +80959,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02775,
+      "probability_score": 0.02839,
       "kev": {
         "cveID": "CVE-2025-48384",
         "vendorProject": "Git",
@@ -83549,7 +83549,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": null,
+      "probability_score": 0.0098,
       "kev": {
         "cveID": "CVE-2026-16812",
         "vendorProject": "Arista",
