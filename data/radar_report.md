@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-29T17:41:50+00:00`
+Generated: `2026-07-29T19:49:54+00:00`
 
 ## Executive Summary
 
@@ -31,18 +31,18 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.112 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.050 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.029 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
+| [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | 0.025 | 7.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during co… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.020 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.006 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | 0.015 | 7.1 |  | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The… |
-| [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | 0.066 | 6.5 |  | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to c… |
 
 ## Summary
 
 - Total items: **14294**
 - Watchlist hits: **13563**
 - CISA KEVs: **743**
-- Exploit Intel (PoC): **757**
-- Exploit Intel + Watchlist (CRITICAL): **26**
+- Exploit Intel (PoC): **758**
+- Exploit Intel + Watchlist (CRITICAL): **27**
 
 ## Top Findings (max 200)
 
@@ -69,6 +69,7 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.112 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.050 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
+| [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.025 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during coalescing  skb_try_coalesce() can attach … |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.006 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.015 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2022-26143](https://www.cve.org/CVERecord?id=CVE-2022-26143) |  | KEV | ✅ | ✅ | 2022-04-15 | 0.872 | 9.8 |  | The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive i… |
 | [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.941 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
 | [CVE-2023-52163](https://www.cve.org/CVERecord?id=CVE-2023-52163) |  | KEV | ✅ | ✅ | 2026-01-12 | 0.969 | 8.8 |  | Digiever DS-2105 Pro 3.1.0.71-11 devices allow time_tzsetup.cgi Command Injection. NOTE: This vulnerability only affects products that are no longer supported … |
-| [CVE-2024-5910](https://www.cve.org/CVERecord?id=CVE-2024-5910) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.918 | 9.3 |  | Missing authentication for a critical function in Palo Alto Networks Expedition can lead to an Expedition admin account takeover for attackers with network acc… |
 
 ## Recent Changes (Last 7 Days)
 
