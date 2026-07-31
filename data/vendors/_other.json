@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:41:50+00:00",
+  "generated_at": "2026-07-31T14:40:33+00:00",
   "vendor": "_other",
   "count": 908,
   "items": [
@@ -5329,7 +5329,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.54143,
+      "probability_score": 0.54571,
       "kev": {
         "cveID": "CVE-2024-38812",
         "vendorProject": "VMware",
@@ -5401,7 +5401,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.16676,
+      "probability_score": 0.17355,
       "kev": {
         "cveID": "CVE-2024-38813",
         "vendorProject": "VMware",
@@ -6184,7 +6184,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00963,
+      "probability_score": 0.00997,
       "kev": {
         "cveID": "CVE-2025-22225",
         "vendorProject": "VMware",
@@ -6302,7 +6302,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01676,
+      "probability_score": 0.01735,
       "kev": {
         "cveID": "CVE-2025-22226",
         "vendorProject": "VMware",
@@ -35190,7 +35190,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.27551,
+      "probability_score": 0.28158,
       "kev": {
         "cveID": "CVE-2026-20131",
         "vendorProject": "Cisco",
@@ -50084,7 +50084,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94418,
+      "probability_score": 0.94662,
       "kev": {
         "cveID": "CVE-2023-24489",
         "vendorProject": "Citrix",
@@ -62945,7 +62945,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00323,
+      "probability_score": 0.00318,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -69550,7 +69550,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01524,
+      "probability_score": 0.01561,
       "kev": {
         "cveID": "CVE-2025-22224",
         "vendorProject": "VMware",
@@ -75459,7 +75459,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87172,
+      "probability_score": 0.88115,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -76758,7 +76758,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9408,
+      "probability_score": 0.94265,
       "kev": {
         "cveID": "CVE-2024-48248",
         "vendorProject": "NAKIVO",
@@ -78579,7 +78579,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.60879,
+      "probability_score": 0.61279,
       "kev": {
         "cveID": "CVE-2024-8956",
         "vendorProject": "PTZOptics",
@@ -78643,7 +78643,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.81973,
+      "probability_score": 0.82166,
       "kev": {
         "cveID": "CVE-2024-8957",
         "vendorProject": "PTZOptics",
@@ -79744,7 +79744,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.7227,
+      "probability_score": 0.73036,
       "kev": {
         "cveID": "CVE-2025-1316",
         "vendorProject": "Edimax",
@@ -81618,7 +81618,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95692,
+      "probability_score": 0.96268,
       "kev": {
         "cveID": "CVE-2026-23760",
         "vendorProject": "SmarterTools",
@@ -82075,7 +82075,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99562,
+      "probability_score": 0.99616,
       "kev": {
         "cveID": "CVE-2025-55182",
         "vendorProject": "Meta",
