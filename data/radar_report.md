@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-31T00:18:44+00:00`
+Generated: `2026-07-31T04:42:16+00:00`
 
 ## Executive Summary
 
@@ -18,7 +18,7 @@ Top critical items:
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.036 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.033 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.027 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
-| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.013 | 7.4 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
+| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.013 | 7.8 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | 0.014 | 7.1 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when find… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.105 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.008 | 5.5 | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
@@ -38,8 +38,8 @@ Top critical items:
 
 ## Summary
 
-- Total items: **14306**
-- Watchlist hits: **13574**
+- Total items: **14307**
+- Watchlist hits: **13575**
 - CISA KEVs: **744**
 - Exploit Intel (PoC): **758**
 - Exploit Intel + Watchlist (CRITICAL): **27**
@@ -56,7 +56,7 @@ Top critical items:
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.036 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.033 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
-| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 | 7.4 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
+| [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.014 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.105 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.008 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
@@ -303,4 +303,4 @@ Top critical items:
 | Jul 26 | [CVE-2026-64262](https://www.cve.org/CVERecord?id=CVE-2026-64262) | 🆕 New |
 | Jul 26 | [CVE-2026-64263](https://www.cve.org/CVERecord?id=CVE-2026-64263) | 🆕 New |
 | Jul 26 | [CVE-2026-64264](https://www.cve.org/CVERecord?id=CVE-2026-64264) | 🆕 New |
-| ... | | _and 317 more_ |
+| ... | | _and 313 more_ |
