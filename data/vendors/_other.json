@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T12:14:57+00:00",
+  "generated_at": "2026-08-01T14:45:03+00:00",
   "vendor": "_other",
   "count": 908,
   "items": [
@@ -6736,7 +6736,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99628,
+      "probability_score": 0.99277,
       "kev": {
         "cveID": "CVE-2022-0543",
         "vendorProject": "Redis",
@@ -6787,7 +6787,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21966,
+      "probability_score": 0.21799,
       "kev": {
         "cveID": "CVE-2022-0609",
         "vendorProject": "Google",
@@ -41220,7 +41220,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93997,
+      "probability_score": 0.95473,
       "kev": {
         "cveID": "CVE-2026-35273",
         "vendorProject": "Oracle",
@@ -57035,7 +57035,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00397,
+      "probability_score": 0.00405,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -57156,7 +57156,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00438,
+      "probability_score": 0.00447,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -57197,7 +57197,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00274,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -61305,7 +61305,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00467,
+      "probability_score": 0.00495,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -62985,7 +62985,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00223,
+      "probability_score": 0.00228,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -82844,7 +82844,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.78337,
+      "probability_score": 0.84471,
       "kev": {
         "cveID": "CVE-2026-3055",
         "vendorProject": "Citrix",
@@ -85833,7 +85833,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95338,
+      "probability_score": 0.96576,
       "kev": {
         "cveID": "CVE-2026-39987",
         "vendorProject": "Marimo",
