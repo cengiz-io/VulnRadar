@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T12:15:14+00:00",
+  "generated_at": "2026-08-04T15:37:36+00:00",
   "vendor": "_other",
   "count": 909,
   "items": [
@@ -426,7 +426,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.26636,
+      "probability_score": 0.28617,
       "kev": {
         "cveID": "CVE-2024-3393",
         "vendorProject": "Palo Alto Networks",
@@ -2169,7 +2169,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.3106,
+      "probability_score": 0.30931,
       "kev": {
         "cveID": "CVE-2022-24682",
         "vendorProject": "Synacor",
@@ -3831,7 +3831,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01445,
+      "probability_score": 0.01465,
       "kev": {
         "cveID": "CVE-2023-20963",
         "vendorProject": "Android",
@@ -4571,7 +4571,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84578,
+      "probability_score": 0.84702,
       "kev": {
         "cveID": "CVE-2023-38950",
         "vendorProject": "ZKTeco",
@@ -48444,7 +48444,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99945,
+      "probability_score": 0.99962,
       "kev": {
         "cveID": "CVE-2025-24813",
         "vendorProject": "Apache",
@@ -66612,7 +66612,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00291,
+      "probability_score": 0.00312,
       "nvd": {
         "cvss_v3_score": 7.6,
         "cvss_v3_severity": "HIGH",
@@ -71287,7 +71287,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99932,
+      "probability_score": 0.9999,
       "kev": {
         "cveID": "CVE-2025-22457",
         "vendorProject": "Ivanti",
@@ -80666,7 +80666,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02072,
+      "probability_score": 0.02089,
       "kev": {
         "cveID": "CVE-2025-3928",
         "vendorProject": "Commvault",
@@ -80880,7 +80880,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89733,
+      "probability_score": 0.90014,
       "kev": {
         "cveID": "CVE-2025-37164",
         "vendorProject": "Hewlett Packard Enterprise (HPE)",
@@ -81732,7 +81732,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.30809,
+      "probability_score": 0.31405,
       "kev": {
         "cveID": "CVE-2025-53690",
         "vendorProject": "Sitecore",
@@ -81846,7 +81846,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04146,
+      "probability_score": 0.04112,
       "kev": {
         "cveID": "CVE-2025-54313",
         "vendorProject": "Prettier",
@@ -82950,7 +82950,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21621,
+      "probability_score": 0.21973,
       "kev": {
         "cveID": "CVE-2025-66376",
         "vendorProject": "Synacor",
@@ -83103,7 +83103,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87486,
+      "probability_score": 0.88447,
       "kev": {
         "cveID": "CVE-2025-6218",
         "vendorProject": "RARLAB",
@@ -83796,7 +83796,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01477,
+      "probability_score": 0.02529,
       "kev": {
         "cveID": "CVE-2026-18577",
         "vendorProject": "N-able",
@@ -85938,7 +85938,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05557,
+      "probability_score": 0.0575,
       "kev": {
         "cveID": "CVE-2026-3502",
         "vendorProject": "TrueConf",
