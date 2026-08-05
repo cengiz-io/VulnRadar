@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-05T12:23:20+00:00`
+Generated: `2026-08-05T15:33:15+00:00`
 
 ## Executive Summary
 
@@ -164,7 +164,7 @@ Top critical items:
 | [CVE-2023-23397](https://www.cve.org/CVERecord?id=CVE-2023-23397) |  | KEV | ✅ | ✅ | 2023-04-04 | 0.974 | 9.8 |  | Microsoft Outlook Elevation of Privilege Vulnerability |
 | [CVE-2024-1212](https://www.cve.org/CVERecord?id=CVE-2024-1212) |  | KEV | ✅ | ✅ | 2024-12-09 | 0.954 | 10.0 |  | Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution. |
 | [CVE-2025-47812](https://www.cve.org/CVERecord?id=CVE-2025-47812) |  | KEV | ✅ | ✅ | 2025-08-04 | 0.953 | 10.0 |  | In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session … |
-| [CVE-2024-51378](https://www.cve.org/CVERecord?id=CVE-2024-51378) |  | KEV | ✅ | ✅ | 2024-12-25 | 0.948 | 10.0 |  | getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arb… |
+| [CVE-2024-51378](https://www.cve.org/CVERecord?id=CVE-2024-51378) |  | KEV | ✅ | ✅ | 2024-12-25 | 0.947 | 10.0 |  | getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arb… |
 | [CVE-2023-7028](https://www.cve.org/CVERecord?id=CVE-2023-7028) |  | KEV | ✅ | ✅ | 2024-05-22 | 0.946 | 10.0 |  | An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5… |
 | [CVE-2023-33246](https://www.cve.org/CVERecord?id=CVE-2023-33246) |  | KEV | ✅ | ✅ | 2023-09-27 | 0.966 | 9.8 |  | For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution.   Several components of RocketMQ, including NameS… |
 | [CVE-2023-38203](https://www.cve.org/CVERecord?id=CVE-2023-38203) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.965 | 9.8 |  | Adobe ColdFusion versions 2018u17 (and earlier), 2021u7 (and earlier) and 2023u1 (and earlier) are affected by a Deserialization of Untrusted Data vulnerabilit… |
@@ -230,8 +230,8 @@ Top critical items:
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.991 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2026-34910](https://www.cve.org/CVERecord?id=CVE-2026-34910) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.870 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Input Validation vulnerability found in UniFi OS devices to execute a Command Injection. |
 | [CVE-2022-37042](https://www.cve.org/CVERecord?id=CVE-2022-37042) |  | KEV | ✅ | ✅ | 2022-09-01 | 0.888 | 9.8 |  | Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authenticatio… |
-| [CVE-2024-51567](https://www.cve.org/CVERecord?id=CVE-2024-51567) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.867 | 10.0 |  | upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary … |
 | [CVE-2022-23131](https://www.cve.org/CVERecord?id=CVE-2022-23131) |  | KEV | ✅ | ✅ | 2022-03-08 | 0.957 | 9.1 |  | In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login st… |
+| [CVE-2024-51567](https://www.cve.org/CVERecord?id=CVE-2024-51567) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.866 | 10.0 |  | upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary … |
 | [CVE-2025-0108](https://www.cve.org/CVERecord?id=CVE-2025-0108) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.985 | 8.8 |  | An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to b… |
 | [CVE-2023-27524](https://www.cve.org/CVERecord?id=CVE-2023-27524) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.974 | 8.9 |  | Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY accordi… |
 | [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.883 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
