@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T06:47:30+00:00",
+  "generated_at": "2026-08-05T09:55:45+00:00",
   "vendor": "_other",
   "count": 913,
   "items": [
@@ -48622,8 +48622,8 @@
           "CWE-311",
           "CWE-807"
         ],
-        "cpe_count": 3,
-        "reference_count": 19
+        "cpe_count": 14,
+        "reference_count": 21
       }
     },
     {
@@ -68516,7 +68516,7 @@
           "CWE-94"
         ],
         "cpe_count": 1,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -83916,15 +83916,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.4,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-288"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 1,
+        "reference_count": 3
       }
     },
     {
@@ -83972,15 +83972,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-288"
         ],
-        "cpe_count": 0,
-        "reference_count": 4
+        "cpe_count": 2,
+        "reference_count": 5
       }
     },
     {
@@ -87173,7 +87173,18 @@
         "vendor:pilinux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-362"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-48172",
