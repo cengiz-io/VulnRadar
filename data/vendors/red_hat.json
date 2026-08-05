@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T23:19:35+00:00",
+  "generated_at": "2026-08-05T03:30:01+00:00",
   "vendor": "red_hat",
   "count": 484,
   "items": [
@@ -18173,7 +18173,7 @@
           "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
           "versions": [
             {
-              "version": "0:2.2.9-1.Final_redhat_00001.1.el8eap",
+              "version": "0:2.16.1-1.redhat_00001.1.el8eap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -18182,10 +18182,130 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
           "versions": [
             {
-              "version": "0:2.2.9-1.Final_redhat_00001.1.el9eap",
+              "version": "0:1.80.0-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:800.7.0-2.GA_redhat_00002.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:6.2.35-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.0.13-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.0.1-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:4.0.11-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:1.0.4-3.redhat_00004.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.1.10-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:5.1.5-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:8.0.7-3.GA_redhat_00004.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:2.2.9-1.Final_redhat_00001.1.el8eap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -42429,11 +42549,6 @@
           "vendor": "red hat",
           "product": "red hat jboss enterprise application platform 8",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 8",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -56429,7 +56544,259 @@
           "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
           "versions": [
             {
+              "version": "0:2.16.1-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:1.80.0-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:800.7.0-2.GA_redhat_00002.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:6.2.35-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.0.13-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.0.1-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:4.0.11-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:1.0.4-3.redhat_00004.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.1.10-1.redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:5.1.5-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
               "version": "0:8.0.7-3.GA_redhat_00004.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 8",
+          "versions": [
+            {
+              "version": "0:2.2.9-1.Final_redhat_00001.1.el8eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.16.1-1.redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.80.0-1.redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:800.7.0-2.GA_redhat_00002.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.2.35-1.Final_redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.0.13-1.Final_redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.0.1-1.redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.0.11-1.redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.0.4-3.redhat_00004.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.1.10-1.redhat_00001.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:5.1.5-1.Final_redhat_00001.1.el9eap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -56442,6 +56809,18 @@
           "versions": [
             {
               "version": "0:8.0.7-3.GA_redhat_00004.1.el9eap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.0 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.2.9-1.Final_redhat_00001.1.el9eap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -60910,7 +61289,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1743162265",
@@ -60922,7 +61301,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1744028971",
@@ -60999,7 +61378,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1743162265",
@@ -61011,7 +61390,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1744028971",
@@ -71322,7 +71701,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501180",
@@ -71334,7 +71713,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501200",
@@ -71346,7 +71725,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782498923",
@@ -71358,7 +71737,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782510941",
@@ -71370,7 +71749,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501220",
@@ -71382,7 +71761,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501196",
@@ -71394,7 +71773,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501195",
@@ -71508,9 +71887,9 @@
     {
       "cve_id": "CVE-2025-5318",
       "description": "A flaw was found in the libssh library in versions less than 0.11.2. An out-of-bounds read can be triggered in the sftp_handle function due to an incorrect comparison check that permits the function to access memory beyond the valid handle list and to return an invalid pointer, which is used in further processing. This vulnerability allows an authenticated remote attacker to potentially read unintended memory regions, exposing sensitive information or affect service behavior.",
-      "cvss_score": 8.1,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -71922,7 +72301,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.1",
+          "product": "red hat openshift distributed tracing 3.7.0",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254546",
@@ -71934,7 +72313,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.1",
+          "product": "red hat openshift distributed tracing 3.7.0",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254552",
@@ -71946,7 +72325,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.1",
+          "product": "red hat openshift distributed tracing 3.7.0",
           "versions": [
             {
               "version": "rhosdt-3.7-1762255881",
@@ -71958,7 +72337,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.1",
+          "product": "red hat openshift distributed tracing 3.7.0",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254530",
@@ -71970,7 +72349,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.1",
+          "product": "red hat openshift distributed tracing 3.7.0",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254519",
@@ -71982,7 +72361,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.1",
+          "product": "red hat openshift distributed tracing 3.7.0",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254545",
@@ -72709,7 +73088,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116455",
@@ -72721,7 +73100,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116482",
@@ -72733,7 +73112,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116441",
@@ -72745,7 +73124,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116449",
@@ -72757,7 +73136,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116439",
@@ -72769,7 +73148,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116447",
@@ -72781,7 +73160,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756128595",
@@ -72793,7 +73172,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756125872",
@@ -72805,7 +73184,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.2",
+          "product": "red hat openshift distributed tracing 3.5.1",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116445",
