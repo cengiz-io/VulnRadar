@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T12:16:10+00:00",
+  "generated_at": "2026-08-06T15:29:40+00:00",
   "vendor": "_other",
   "count": 914,
   "items": [
@@ -2023,7 +2023,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.12793,
+      "probability_score": 0.12692,
       "kev": {
         "cveID": "CVE-2022-23176",
         "vendorProject": "WatchGuard",
@@ -2459,7 +2459,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0594,
+      "probability_score": 0.05828,
       "kev": {
         "cveID": "CVE-2022-26500",
         "vendorProject": "Veeam",
@@ -2508,7 +2508,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04278,
+      "probability_score": 0.04104,
       "kev": {
         "cveID": "CVE-2022-26501",
         "vendorProject": "Veeam",
@@ -46816,7 +46816,7 @@
         "shortDescription": "SAP NetWeaver Visual Composer Metadata Uploader contains a deserialization vulnerability that allows a privileged attacker to compromise the confidentiality, integrity, and availability of the host system by deserializing untrusted or malicious content.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2025-06-05",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 9.1,
@@ -48444,7 +48444,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99962,
+      "probability_score": 0.99925,
       "kev": {
         "cveID": "CVE-2025-24813",
         "vendorProject": "Apache",
@@ -48601,7 +48601,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.8116,
+      "probability_score": 0.79938,
       "kev": {
         "cveID": "CVE-2026-34486",
         "vendorProject": "Apache",
@@ -53042,7 +53042,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.63018,
+      "probability_score": 0.63443,
       "kev": {
         "cveID": "CVE-2025-59718",
         "vendorProject": "Fortinet",
@@ -53523,7 +53523,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.69827,
+      "probability_score": 0.73603,
       "kev": {
         "cveID": "CVE-2026-25089",
         "vendorProject": "Fortinet",
@@ -53667,7 +53667,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89691,
+      "probability_score": 0.9121,
       "kev": {
         "cveID": "CVE-2026-39808",
         "vendorProject": "Fortinet",
@@ -68590,7 +68590,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00484,
+      "probability_score": 0.0053,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -68631,7 +68631,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.009,
+      "probability_score": 0.00985,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -68672,7 +68672,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00858,
+      "probability_score": 0.00938,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -68713,7 +68713,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00491,
+      "probability_score": 0.00537,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -68754,7 +68754,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.00826,
+      "probability_score": 0.00903,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -73155,7 +73155,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00649,
+      "probability_score": 0.0101,
       "kev": {
         "cveID": "CVE-2026-63077",
         "vendorProject": "JetBrains",
@@ -73420,7 +73420,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01944,
+      "probability_score": 0.01987,
       "kev": {
         "cveID": "CVE-2025-40602",
         "vendorProject": "SonicWall",
@@ -74434,7 +74434,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.20094,
+      "probability_score": 0.20506,
       "kev": {
         "cveID": "CVE-2025-68461",
         "vendorProject": "Roundcube",
@@ -75969,7 +75969,7 @@
         "shortDescription": "Rejetto HTTP File Server contains an improper neutralization of special elements used in a template engine vulnerability. This allows a remote, unauthenticated attacker to execute commands on the affected system by sending a specially crafted HTTP request.",
         "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2024-07-30",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 9.8,
@@ -80162,7 +80162,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01775,
+      "probability_score": 0.01796,
       "kev": {
         "cveID": "CVE-2025-27920",
         "vendorProject": "Srimax",
@@ -81944,7 +81944,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95376,
+      "probability_score": 0.95805,
       "kev": {
         "cveID": "CVE-2025-54068",
         "vendorProject": "Laravel",
@@ -83327,7 +83327,7 @@
         "shortDescription": "RARLAB WinRAR contains a path traversal vulnerability affecting the Windows version of WinRAR. This vulnerability could allow an attacker to execute arbitrary code by crafting malicious archive files.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2025-09-02",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 8.8,
@@ -84417,7 +84417,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96225,
+      "probability_score": 0.96939,
       "kev": {
         "cveID": "CVE-2026-20253",
         "vendorProject": "Splunk",
