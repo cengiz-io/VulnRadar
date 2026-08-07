@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:45:02+00:00",
+  "generated_at": "2026-08-07T15:11:18+00:00",
   "vendor": "_other",
   "count": 914,
   "items": [
@@ -128,7 +128,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02126,
+      "probability_score": 0.02366,
       "kev": {
         "cveID": "CVE-2022-0028",
         "vendorProject": "Palo Alto Networks",
@@ -6596,7 +6596,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1432,
+      "probability_score": 0.13549,
       "kev": {
         "cveID": "CVE-2025-67038",
         "vendorProject": "Lantronix",
@@ -6787,7 +6787,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21225,
+      "probability_score": 0.20767,
       "kev": {
         "cveID": "CVE-2022-0609",
         "vendorProject": "Google",
@@ -48601,7 +48601,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79938,
+      "probability_score": 0.8116,
       "kev": {
         "cveID": "CVE-2026-34486",
         "vendorProject": "Apache",
@@ -62743,7 +62743,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00394,
+      "probability_score": 0.00401,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -67212,7 +67212,7 @@
         "product:re gallery"
       ],
       "active_threat": false,
-      "probability_score": 0.00269,
+      "probability_score": 0.00274,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -71985,7 +71985,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9415,
+      "probability_score": 0.93546,
       "kev": {
         "cveID": "CVE-2023-36845",
         "vendorProject": "Juniper",
@@ -72084,7 +72084,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94205,
+      "probability_score": 0.94121,
       "kev": {
         "cveID": "CVE-2023-36846",
         "vendorProject": "Juniper",
@@ -72183,7 +72183,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84692,
+      "probability_score": 0.84573,
       "kev": {
         "cveID": "CVE-2023-36847",
         "vendorProject": "Juniper",
@@ -72697,7 +72697,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99288,
+      "probability_score": 0.99269,
       "kev": {
         "cveID": "CVE-2024-4885",
         "vendorProject": "Progress",
@@ -76819,7 +76819,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.8323,
+      "probability_score": 0.83107,
       "kev": {
         "cveID": "CVE-2025-34026",
         "vendorProject": "Versa",
@@ -77554,7 +77554,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.61063,
+      "probability_score": 0.59193,
       "kev": {
         "cveID": "CVE-2024-54085",
         "vendorProject": "AMI",
@@ -79648,7 +79648,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.2184,
+      "probability_score": 0.22285,
       "kev": {
         "cveID": "CVE-2025-14733",
         "vendorProject": "WatchGuard",
@@ -80111,7 +80111,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.26049,
+      "probability_score": 0.27553,
       "kev": {
         "cveID": "CVE-2025-27363",
         "vendorProject": "FreeType",
@@ -83368,7 +83368,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82482,
+      "probability_score": 0.82693,
       "kev": {
         "cveID": "CVE-2025-8110",
         "vendorProject": "Gogs",
@@ -87531,7 +87531,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.24347,
+      "probability_score": 0.82501,
       "kev": {
         "cveID": "CVE-2026-48939",
         "vendorProject": "iCagenda",
