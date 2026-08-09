@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:15:53+00:00",
+  "generated_at": "2026-08-09T14:50:45+00:00",
   "vendor": "_other",
   "count": 915,
   "items": [
@@ -1875,7 +1875,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.36391,
+      "probability_score": 0.35765,
       "kev": {
         "cveID": "CVE-2022-22960",
         "vendorProject": "VMware",
@@ -2754,7 +2754,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98039,
+      "probability_score": 0.97997,
       "kev": {
         "cveID": "CVE-2022-29303",
         "vendorProject": "SolarView",
@@ -8465,7 +8465,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.22721,
+      "probability_score": 0.22632,
       "kev": {
         "cveID": "CVE-2025-14174",
         "vendorProject": "Google",
@@ -8860,7 +8860,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08322,
+      "probability_score": 0.12723,
       "kev": {
         "cveID": "CVE-2025-6554",
         "vendorProject": "Google",
@@ -50672,7 +50672,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.00357,
+      "probability_score": 0.00378,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -62151,7 +62151,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0321,
+      "probability_score": 0.03237,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -63207,7 +63207,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00472,
+      "probability_score": 0.00489,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -69190,7 +69190,7 @@
         "product:ryzen\u2122 pro 5000 series desktop processors"
       ],
       "active_threat": false,
-      "probability_score": 0.06657,
+      "probability_score": 0.06713,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -69450,7 +69450,7 @@
         "product:ryzen\u2122 pro 5000 series desktop processors"
       ],
       "active_threat": false,
-      "probability_score": 0.00508,
+      "probability_score": 0.00584,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -70663,7 +70663,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99835,
+      "probability_score": 0.99847,
       "kev": {
         "cveID": "CVE-2024-13159",
         "vendorProject": "Ivanti",
@@ -70718,7 +70718,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91004,
+      "probability_score": 0.91247,
       "kev": {
         "cveID": "CVE-2024-13160",
         "vendorProject": "Ivanti",
@@ -70773,7 +70773,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89829,
+      "probability_score": 0.90081,
       "kev": {
         "cveID": "CVE-2024-13161",
         "vendorProject": "Ivanti",
@@ -76861,7 +76861,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03973,
+      "probability_score": 0.04006,
       "kev": {
         "cveID": "CVE-2024-39717",
         "vendorProject": "Versa",
@@ -77186,7 +77186,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92034,
+      "probability_score": 0.94362,
       "kev": {
         "cveID": "CVE-2025-54309",
         "vendorProject": "CrushFTP",
@@ -79300,7 +79300,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.50949,
+      "probability_score": 0.53302,
       "kev": {
         "cveID": "CVE-2025-14611",
         "vendorProject": "Gladinet",
@@ -81388,7 +81388,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00409,
+      "probability_score": 0.00428,
       "kev": {
         "cveID": "CVE-2025-47729",
         "vendorProject": "TeleMessage",
@@ -81439,7 +81439,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08659,
+      "probability_score": 0.09074,
       "kev": {
         "cveID": "CVE-2025-48927",
         "vendorProject": "TeleMessage",
@@ -81490,7 +81490,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00366,
+      "probability_score": 0.00369,
       "kev": {
         "cveID": "CVE-2025-48928",
         "vendorProject": "TeleMessage",
@@ -81542,7 +81542,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95173,
+      "probability_score": 0.95491,
       "kev": {
         "cveID": "CVE-2025-47812",
         "vendorProject": "Wing FTP Server",
