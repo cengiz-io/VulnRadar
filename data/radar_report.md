@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-11T13:38:34+00:00`
+Generated: `2026-08-11T15:29:45+00:00`
 
 ## Executive Summary
 
@@ -193,6 +193,7 @@ Top critical items:
 | [CVE-2024-5217](https://www.cve.org/CVERecord?id=CVE-2024-5217) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.996 | 9.2 |  | ServiceNow has addressed an input validation vulnerability that was identified in the Washington DC, Vancouver, and earlier Now Platform releases. This vulnera… |
 | [CVE-2024-9465](https://www.cve.org/CVERecord?id=CVE-2024-9465) |  | KEV | ✅ | ✅ | 2024-12-05 | 0.996 | 9.2 |  | An SQL injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to reveal Expedition database contents, such as password has… |
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.935 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
+| [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.915 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
 | [CVE-2026-41940](https://www.cve.org/CVERecord?id=CVE-2026-41940) |  | KEV | ✅ | ✅ | 2026-05-03 | 0.979 | 9.3 |  | cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unaut… |
@@ -200,7 +201,6 @@ Top critical items:
 | [CVE-2023-48788](https://www.cve.org/CVERecord?id=CVE-2023-48788) |  | KEV | ✅ | ✅ | 2024-04-15 | 0.976 | 9.3 |  | A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7… |
 | [CVE-2024-56145](https://www.cve.org/CVERecord?id=CVE-2024-56145) |  | KEV | ✅ | ✅ | 2025-06-23 | 0.974 | 9.3 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerabi… |
 | [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.924 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
-| [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.903 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.922 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2024-20439](https://www.cve.org/CVERecord?id=CVE-2024-20439) |  | KEV | ✅ | ✅ | 2025-04-21 | 0.921 | 9.8 |  | A vulnerability in Cisco Smart Licensing Utility (CSLU) could allow an unauthenticated, remote attacker to log into an affected system by using a static admini… |
@@ -247,7 +247,7 @@ Top critical items:
 | [CVE-2025-52691](https://www.cve.org/CVERecord?id=CVE-2025-52691) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.855 | 10.0 |  | Successful exploitation of the vulnerability could allow an unauthenticated attacker to upload arbitrary files to any location on the mail server, potentially … |
 | [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.972 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
 | [CVE-2022-26143](https://www.cve.org/CVERecord?id=CVE-2022-26143) |  | KEV | ✅ | ✅ | 2022-04-15 | 0.872 | 9.8 |  | The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive i… |
-| [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.941 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
+| [CVE-2026-34908](https://www.cve.org/CVERecord?id=CVE-2026-34908) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.852 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi OS devices to make unauthorized changes to t… |
 
 ## Recent Changes (Last 7 Days)
 
