@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T23:58:41+00:00",
+  "generated_at": "2026-08-13T03:01:27+00:00",
   "vendor": "_other",
   "count": 917,
   "items": [
@@ -41546,6 +41546,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-14",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-244"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -80607,7 +80618,7 @@
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 36,
+        "cpe_count": 41,
         "reference_count": 3
       }
     },
@@ -89180,7 +89191,7 @@
           "CWE-89"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
