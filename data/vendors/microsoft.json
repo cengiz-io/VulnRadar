@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:13:20+00:00",
+  "generated_at": "2026-08-14T17:15:32+00:00",
   "vendor": "microsoft",
   "count": 135,
   "items": [
@@ -160,7 +160,7 @@
         "shortDescription": "Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.",
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-02-18",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 7.8,
@@ -26347,7 +26347,7 @@
         "shortDescription": "Microsoft Windows contains a link following vulnerability that allows for privilege escalation",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-27",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 7.8,
