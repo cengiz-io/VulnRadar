@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:02:06+00:00",
+  "generated_at": "2026-08-15T13:44:57+00:00",
   "vendor": "_other",
   "count": 922,
   "items": [
@@ -1126,7 +1126,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01927,
+      "probability_score": 0.0196,
       "kev": {
         "cveID": "CVE-2025-0111",
         "vendorProject": "Palo Alto Networks",
@@ -3194,7 +3194,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.57037,
+      "probability_score": 0.55531,
       "kev": {
         "cveID": "CVE-2022-37055",
         "vendorProject": "D-Link",
@@ -5647,7 +5647,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99877,
+      "probability_score": 0.99874,
       "kev": {
         "cveID": "CVE-2024-45519",
         "vendorProject": "Synacor",
@@ -54720,7 +54720,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00365,
+      "probability_score": 0.00442,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -59487,7 +59487,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00316,
+      "probability_score": 0.0033,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -67810,7 +67810,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00243,
+      "probability_score": 0.00475,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -67851,7 +67851,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00398,
+      "probability_score": 0.00451,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -68262,7 +68262,7 @@
         "product:modular ds"
       ],
       "active_threat": false,
-      "probability_score": 0.00469,
+      "probability_score": 0.00477,
       "nvd": {
         "cvss_v3_score": 10.0,
         "cvss_v3_severity": "CRITICAL",
@@ -68915,7 +68915,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00248
     },
     {
       "cve_id": "CVE-2026-53473",
@@ -74451,7 +74451,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01987,
+      "probability_score": 0.02114,
       "kev": {
         "cveID": "CVE-2025-40602",
         "vendorProject": "SonicWall",
@@ -75465,7 +75465,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.20506,
+      "probability_score": 0.20779,
       "kev": {
         "cveID": "CVE-2025-68461",
         "vendorProject": "Roundcube",
@@ -81684,7 +81684,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02296,
+      "probability_score": 0.02395,
       "kev": {
         "cveID": "CVE-2025-30154",
         "vendorProject": "reviewdog",
@@ -82563,7 +82563,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00408,
+      "probability_score": 0.00526,
       "kev": {
         "cveID": "CVE-2025-48928",
         "vendorProject": "TeleMessage",
