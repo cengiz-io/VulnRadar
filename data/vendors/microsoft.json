@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:38:38+00:00",
+  "generated_at": "2026-08-15T02:00:31+00:00",
   "vendor": "microsoft",
   "count": 135,
   "items": [
@@ -28859,7 +28859,7 @@
           "versions": [
             {
               "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9060",
+              "lessThan": "10.0.14393.9339",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28871,7 +28871,7 @@
           "versions": [
             {
               "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.8644",
+              "lessThan": "10.0.17763.9020",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28883,7 +28883,7 @@
           "versions": [
             {
               "version": "10.0.19044.0",
-              "lessThan": "10.0.19044.7184",
+              "lessThan": "10.0.19044.7548",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28895,19 +28895,7 @@
           "versions": [
             {
               "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.7184",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 22h3",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.6936",
+              "lessThan": "10.0.19045.7548",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28919,7 +28907,19 @@
           "versions": [
             {
               "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.6936",
+              "lessThan": "10.0.22631.7376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7376",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28931,7 +28931,7 @@
           "versions": [
             {
               "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.8246",
+              "lessThan": "10.0.26100.8875",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28943,7 +28943,7 @@
           "versions": [
             {
               "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.8246",
+              "lessThan": "10.0.26200.8875",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28955,7 +28955,7 @@
           "versions": [
             {
               "version": "10.0.28000.0",
-              "lessThan": "10.0.28000.1836",
+              "lessThan": "10.0.28000.2525",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28967,7 +28967,7 @@
           "versions": [
             {
               "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26026",
+              "lessThan": "6.2.9200.26226",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28979,7 +28979,7 @@
           "versions": [
             {
               "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26026",
+              "lessThan": "6.2.9200.26226",
               "versionType": "custom",
               "status": "affected"
             }
@@ -28991,7 +28991,7 @@
           "versions": [
             {
               "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23132",
+              "lessThan": "6.3.9600.23291",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29003,7 +29003,7 @@
           "versions": [
             {
               "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23132",
+              "lessThan": "6.3.9600.23291",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29015,7 +29015,7 @@
           "versions": [
             {
               "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9060",
+              "lessThan": "10.0.14393.9339",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29027,7 +29027,7 @@
           "versions": [
             {
               "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9060",
+              "lessThan": "10.0.14393.9339",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29039,7 +29039,7 @@
           "versions": [
             {
               "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.8644",
+              "lessThan": "10.0.17763.9020",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29051,7 +29051,7 @@
           "versions": [
             {
               "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.8644",
+              "lessThan": "10.0.17763.9020",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29063,19 +29063,7 @@
           "versions": [
             {
               "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.5020",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022, 23h2 edition (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.25398.0",
-              "lessThan": "10.0.25398.2274",
+              "lessThan": "10.0.20348.5386",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29087,7 +29075,7 @@
           "versions": [
             {
               "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.32690",
+              "lessThan": "10.0.26100.33158",
               "versionType": "custom",
               "status": "affected"
             }
@@ -29099,7 +29087,7 @@
           "versions": [
             {
               "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.32690",
+              "lessThan": "10.0.26100.33158",
               "versionType": "custom",
               "status": "affected"
             }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T23:38:38+00:00",
+  "generated_at": "2026-08-15T02:00:31+00:00",
   "vendor": "_other",
-  "count": 921,
+  "count": 922,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -68887,6 +68887,35 @@
         "cpe_count": 1,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-53472",
+      "description": "A flaw was found in migration-planner. Insufficient validation of the `AgentStatusUpdate.CredentialUrl` field allows an authenticated attacker to store a malicious `javascript:` URL. When a victim views this URL in the Hybrid Cloud Console, it can lead to Cross-Site Scripting (XSS), enabling script execution in the victim's session and potentially disclosing sensitive information.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "0.13.6",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-53473",
