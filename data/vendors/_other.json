@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:35:47+00:00",
+  "generated_at": "2026-08-16T13:45:13+00:00",
   "vendor": "_other",
   "count": 924,
   "items": [
@@ -5647,7 +5647,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99874,
+      "probability_score": 0.99907,
       "kev": {
         "cveID": "CVE-2024-45519",
         "vendorProject": "Synacor",
@@ -53499,7 +53499,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9671,
+      "probability_score": 0.96806,
       "kev": {
         "cveID": "CVE-2025-25257",
         "vendorProject": "Fortinet",
@@ -54720,7 +54720,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00442,
+      "probability_score": 0.00481,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -64005,7 +64005,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00201,
+      "probability_score": 0.00202,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -65341,7 +65341,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00209,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -65387,7 +65387,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00213,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -65844,7 +65844,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00987,
+      "probability_score": 0.00776,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -69116,7 +69116,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00199
     },
     {
       "cve_id": "CVE-2026-73194",
@@ -69145,7 +69145,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00201
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -75031,7 +75031,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01361,
+      "probability_score": 0.01098,
       "kev": {
         "cveID": "CVE-2023-4211",
         "vendorProject": "Arm",
@@ -80859,7 +80859,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.26178,
+      "probability_score": 0.2651,
       "kev": {
         "cveID": "CVE-2025-14733",
         "vendorProject": "WatchGuard",
@@ -81042,7 +81042,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.83007,
+      "probability_score": 0.83218,
       "kev": {
         "cveID": "CVE-2025-14847",
         "vendorProject": "MongoDB",
@@ -82812,7 +82812,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02839,
+      "probability_score": 0.04109,
       "kev": {
         "cveID": "CVE-2025-48384",
         "vendorProject": "Git",
@@ -84452,7 +84452,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97875,
+      "probability_score": 0.9795,
       "kev": {
         "cveID": "CVE-2025-68613",
         "vendorProject": "n8n",
