@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:10:26+00:00",
+  "generated_at": "2026-08-18T13:58:55+00:00",
   "vendor": "_other",
   "count": 928,
   "items": [
@@ -1777,7 +1777,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13825,
+      "probability_score": 0.13282,
       "kev": {
         "cveID": "CVE-2022-22948",
         "vendorProject": "VMware",
@@ -5451,7 +5451,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01477,
+      "probability_score": 0.01669,
       "kev": {
         "cveID": "CVE-2024-39891",
         "vendorProject": "Twilio",
@@ -41744,7 +41744,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03405,
+      "probability_score": 0.03934,
       "kev": {
         "cveID": "CVE-2024-20953",
         "vendorProject": "Oracle",
@@ -48569,7 +48569,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99197,
+      "probability_score": 0.99241,
       "kev": {
         "cveID": "CVE-2026-48282",
         "vendorProject": "Adobe",
@@ -50984,7 +50984,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94662,
+      "probability_score": 0.94368,
       "kev": {
         "cveID": "CVE-2023-24489",
         "vendorProject": "Citrix",
@@ -53499,7 +53499,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9705,
+      "probability_score": 0.99772,
       "kev": {
         "cveID": "CVE-2025-25257",
         "vendorProject": "Fortinet",
@@ -54413,7 +54413,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.8894,
+      "probability_score": 0.90749,
       "kev": {
         "cveID": "CVE-2026-35616",
         "vendorProject": "Fortinet",
@@ -61453,7 +61453,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00328,
+      "probability_score": 0.00337,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -61569,7 +61569,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00323,
+      "probability_score": 0.00332,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61627,7 +61627,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00318,
+      "probability_score": 0.00327,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61743,7 +61743,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00323,
+      "probability_score": 0.00332,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61801,7 +61801,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00318,
+      "probability_score": 0.00327,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61917,7 +61917,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00336,
+      "probability_score": 0.00345,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -62033,7 +62033,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00338,
+      "probability_score": 0.00347,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -62149,7 +62149,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00357,
+      "probability_score": 0.00367,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -68046,7 +68046,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00265,
+      "probability_score": 0.00818,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -69169,7 +69169,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00207,
+      "probability_score": 0.0055,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -69209,7 +69209,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00201,
+      "probability_score": 0.00436,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -69249,7 +69249,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00199,
+      "probability_score": 0.00495,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -69290,7 +69290,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00201,
+      "probability_score": 0.00512,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -69806,7 +69806,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.01283,
+      "probability_score": 0.01311,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -71790,7 +71790,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99949,
+      "probability_score": 0.99955,
       "kev": {
         "cveID": "CVE-2023-38035",
         "vendorProject": "Ivanti",
@@ -72922,7 +72922,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.8404,
+      "probability_score": 0.85956,
       "kev": {
         "cveID": "CVE-2026-1340",
         "vendorProject": "Ivanti",
@@ -73242,7 +73242,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93546,
+      "probability_score": 0.93667,
       "kev": {
         "cveID": "CVE-2023-36845",
         "vendorProject": "Juniper",
@@ -73341,7 +73341,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94121,
+      "probability_score": 0.95101,
       "kev": {
         "cveID": "CVE-2023-36846",
         "vendorProject": "Juniper",
@@ -73440,7 +73440,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84573,
+      "probability_score": 0.85769,
       "kev": {
         "cveID": "CVE-2023-36847",
         "vendorProject": "Juniper",
@@ -77989,7 +77989,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99787,
+      "probability_score": 0.99813,
       "kev": {
         "cveID": "CVE-2024-36401",
         "vendorProject": "OSGeo",
@@ -78904,7 +78904,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59193,
+      "probability_score": 0.60826,
       "kev": {
         "cveID": "CVE-2024-54085",
         "vendorProject": "AMI",
@@ -81103,7 +81103,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91255,
+      "probability_score": 0.913,
       "kev": {
         "cveID": "CVE-2025-9242",
         "vendorProject": "WatchGuard",
@@ -81503,7 +81503,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.27553,
+      "probability_score": 0.27775,
       "kev": {
         "cveID": "CVE-2025-27363",
         "vendorProject": "FreeType",
@@ -82738,7 +82738,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09074,
+      "probability_score": 0.09115,
       "kev": {
         "cveID": "CVE-2025-48927",
         "vendorProject": "TeleMessage",
@@ -82789,7 +82789,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00526,
+      "probability_score": 0.00528,
       "kev": {
         "cveID": "CVE-2025-48928",
         "vendorProject": "TeleMessage",
@@ -82892,7 +82892,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.60329,
+      "probability_score": 0.59403,
       "kev": {
         "cveID": "CVE-2025-47813",
         "vendorProject": "Wing FTP Server",
@@ -84497,7 +84497,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00369,
+      "probability_score": 0.01015,
       "kev": {
         "cveID": "CVE-2025-62593",
         "vendorProject": "Ray-Project",
@@ -86129,7 +86129,7 @@
         "vendor:cryptodev-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0012,
+      "probability_score": 0.00174,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -88875,7 +88875,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.66013,
+      "probability_score": 0.6883,
       "kev": {
         "cveID": "CVE-2026-48907",
         "vendorProject": "Widget Factory",
