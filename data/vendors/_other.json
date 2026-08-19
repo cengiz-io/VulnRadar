@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:10:38+00:00",
+  "generated_at": "2026-08-19T14:00:40+00:00",
   "vendor": "_other",
   "count": 934,
   "items": [
@@ -6645,7 +6645,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.31769,
+      "probability_score": 0.34441,
       "kev": {
         "cveID": "CVE-2025-68645",
         "vendorProject": "Synacor",
@@ -51251,7 +51251,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01399,
+      "probability_score": 0.0139,
       "kev": {
         "cveID": "CVE-2024-8068",
         "vendorProject": "Citrix",
@@ -55663,7 +55663,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0124,
+      "probability_score": 0.0125,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -64181,7 +64181,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00476,
+      "probability_score": 0.00487,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -64221,7 +64221,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00546,
+      "probability_score": 0.00559,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -64421,7 +64421,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00527,
+      "probability_score": 0.0054,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -70145,7 +70145,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99614,
+      "probability_score": 0.9958,
       "kev": {
         "cveID": "CVE-2025-10035",
         "vendorProject": "Fortra",
@@ -71292,7 +71292,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0114,
+      "probability_score": 0.02405,
       "kev": {
         "cveID": "CVE-2026-59310",
         "vendorProject": "Broadcom",
@@ -77006,7 +77006,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88115,
+      "probability_score": 0.89396,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -79351,7 +79351,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84758,
+      "probability_score": 0.8464,
       "kev": {
         "cveID": "CVE-2024-58136",
         "vendorProject": "Yiiframework",
@@ -80103,7 +80103,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.14736,
+      "probability_score": 0.14643,
       "kev": {
         "cveID": "CVE-2024-8069",
         "vendorProject": "Citrix",
@@ -83528,7 +83528,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04112,
+      "probability_score": 0.04146,
       "kev": {
         "cveID": "CVE-2025-54313",
         "vendorProject": "Prettier",
@@ -85420,7 +85420,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01588,
+      "probability_score": 0.01575,
       "kev": {
         "cveID": "CVE-2025-8875",
         "vendorProject": "N-able",
@@ -85471,7 +85471,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03092,
+      "probability_score": 0.03066,
       "kev": {
         "cveID": "CVE-2025-8876",
         "vendorProject": "N-able",
@@ -89152,7 +89152,7 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00188
     },
     {
       "cve_id": "CVE-2026-53759",
@@ -89182,7 +89182,7 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00184
     },
     {
       "cve_id": "CVE-2026-55426",
@@ -89223,7 +89223,7 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00197
     },
     {
       "cve_id": "CVE-2026-67433",
@@ -89380,7 +89380,7 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00215
     },
     {
       "cve_id": "CVE-2026-73974",
@@ -89421,7 +89421,7 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00139
     },
     {
       "cve_id": "CVE-2026-54411",
