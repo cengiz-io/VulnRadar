@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:38:44+00:00",
+  "generated_at": "2026-08-19T01:57:16+00:00",
   "vendor": "red_hat",
   "count": 482,
   "items": [
@@ -64673,7 +64673,7 @@
           "CWE-457"
         ],
         "cpe_count": 0,
-        "reference_count": 14
+        "reference_count": 16
       }
     },
     {
@@ -87146,6 +87146,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202608121719-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
@@ -87162,11 +87174,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         }
       ],
@@ -87283,7 +87290,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501180",
@@ -87295,7 +87302,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501200",
@@ -87307,7 +87314,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782498923",
@@ -87319,7 +87326,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782510941",
@@ -87331,7 +87338,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501220",
@@ -87343,7 +87350,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501196",
@@ -87355,7 +87362,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1782501195",
@@ -87367,7 +87374,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1785704636",
@@ -87379,7 +87386,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.1",
+          "product": "red hat openshift distributed tracing 3.10.0",
           "versions": [
             {
               "version": "1785704547",
@@ -88694,7 +88701,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116455",
@@ -88706,7 +88713,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116482",
@@ -88718,7 +88725,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116441",
@@ -88730,7 +88737,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116449",
@@ -88742,7 +88749,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116439",
@@ -88754,7 +88761,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116447",
@@ -88766,7 +88773,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756128595",
@@ -88778,7 +88785,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756125872",
@@ -88790,7 +88797,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116445",
