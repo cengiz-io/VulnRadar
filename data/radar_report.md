@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-20T13:19:00+00:00`
+Generated: `2026-08-20T14:05:43+00:00`
 
 ## Executive Summary
 
@@ -200,14 +200,14 @@ Top critical items:
 | [CVE-2023-48788](https://www.cve.org/CVERecord?id=CVE-2023-48788) |  | KEV | ✅ | ✅ | 2024-04-15 | 0.976 | 9.3 |  | A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7… |
 | [CVE-2024-56145](https://www.cve.org/CVERecord?id=CVE-2024-56145) |  | KEV | ✅ | ✅ | 2025-06-23 | 0.974 | 9.3 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerabi… |
 | [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.924 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
+| [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.924 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.902 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
-| [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.922 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2024-20439](https://www.cve.org/CVERecord?id=CVE-2024-20439) |  | KEV | ✅ | ✅ | 2025-04-21 | 0.921 | 9.8 |  | A vulnerability in Cisco Smart Licensing Utility (CSLU) could allow an unauthenticated, remote attacker to log into an affected system by using a static admini… |
 | [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2025-0282](https://www.cve.org/CVERecord?id=CVE-2025-0282) |  | KEV | ✅ | ✅ | 2025-01-15 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gatewa… |
 | [CVE-2022-37042](https://www.cve.org/CVERecord?id=CVE-2022-37042) |  | KEV | ✅ | ✅ | 2022-09-01 | 0.919 | 9.8 |  | Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authenticatio… |
-| [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.996 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
+| [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.997 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
 | [CVE-2026-39987](https://www.cve.org/CVERecord?id=CVE-2026-39987) |  | KEV | ✅ | ✅ | 2026-05-07 | 0.966 | 9.3 |  | marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authenticati… |
 | [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.916 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
 | [CVE-2026-23760](https://www.cve.org/CVERecord?id=CVE-2026-23760) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.963 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoi… |
