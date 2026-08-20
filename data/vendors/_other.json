@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T23:40:00+00:00",
+  "generated_at": "2026-08-20T01:54:42+00:00",
   "vendor": "_other",
-  "count": 935,
+  "count": 937,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -69223,6 +69223,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-72889",
+      "description": "Net::OAuth versions before 0.33 for Perl allow the sender to choose the signature algorithm in verify.\n\nverify resolves the signature method class from the signature_method parameter of the incoming message. signature_method is required on every request, so the algorithm used to check a signature is chosen by whoever sent it, and nothing lets the verifying party pin the method instead. When a message names HMAC-SHA1 or HMAC-SHA256, the key is derived from consumer_secret and token_secret rather than from the key the provider deployed.\n\nA provider deployed on RSA-SHA1 holds only the consumer public key, and RFC 5849 does not use consumer_secret for that method, so the required parameter is filled with a placeholder. A client that names HMAC-SHA1 instead has its signature checked against that placeholder, so a guessable one is enough to forge requests for any consumer key and token.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.33",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00111
+    },
+    {
       "cve_id": "CVE-2026-73193",
       "description": "DBI versions before 1.652 for Perl allow a heap out-of-bounds write on 32-bit perl via an integer wraparound in the output buffer size computed by preparse.\n\npreparse reserves its output buffer with `newSV(strlen(statement) * 7 + 16)`, budgeting seven output bytes per input byte for the longest ':p99999' expansion. The product is computed in STRLEN, which is 32 bits wide on a 32-bit perl build, so a statement of 613,566,757 bytes multiplies to 4,294,967,299, wraps modulo 2^32 to 3, and reserves 19 bytes. The parser then copies the statement out through a raw pointer with no capacity check, writing the whole 585 MB input past the end of the allocation. The 99,999 placeholder limit does not bound this path, which is reached by ordinary non-placeholder content.\n\nAny caller that passes an untrusted statement of that length to preparse on a 32-bit perl gets a heap out-of-bounds write of attacker controlled bytes. Builds with a 64-bit STRLEN are not affected, since the wrap there needs a statement of about 2.3 exabytes.",
       "cvss_score": 9.8,
@@ -69303,6 +69332,35 @@
         "cpe_count": 0,
         "reference_count": 4
       }
+    },
+    {
+      "cve_id": "CVE-2026-75589",
+      "description": "Net::OAuth versions before 0.33 for Perl check HMAC-SHA1, HMAC-SHA256 and PLAINTEXT signatures with a non-constant-time comparison in verify.\n\nEach of the three compares the signature carried in the message against the locally computed one with the eq operator, which returns as soon as the two strings differ. The time taken to reject a signature varies with the length of the matching prefix. RSA-SHA1 is not affected, as it verifies through the RSA key object rather than by comparing strings.\n\nA client that can submit messages and time the replies may recover a valid signature one byte at a time rather than searching the whole signature space. Under PLAINTEXT the value compared against is the signature key itself, so the search recovers consumer_secret and token_secret.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.33",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00166
     },
     {
       "cve_id": "CVE-2026-9277",
