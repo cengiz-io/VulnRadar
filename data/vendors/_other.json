@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:54:42+00:00",
+  "generated_at": "2026-08-20T03:36:15+00:00",
   "vendor": "_other",
   "count": 937,
   "items": [
@@ -71370,8 +71370,8 @@
         "cwe_ids": [
           "CWE-22"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 33,
+        "reference_count": 4
       }
     },
     {
@@ -89210,7 +89210,18 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": 0.00188
+      "probability_score": 0.00188,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-88"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-53759",
@@ -89240,7 +89251,18 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": 0.00184
+      "probability_score": 0.00184,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-377"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-55426",
@@ -89281,7 +89303,18 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": 0.00197
+      "probability_score": 0.00197,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-67433",
@@ -89438,7 +89471,19 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": 0.00215
+      "probability_score": 0.00215,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22",
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-73974",
@@ -89479,7 +89524,19 @@
         "vendor:linuxfabrik"
       ],
       "active_threat": false,
-      "probability_score": 0.00139
+      "probability_score": 0.00139,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22",
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-54411",
