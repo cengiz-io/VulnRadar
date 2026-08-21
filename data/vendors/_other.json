@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:43:55+00:00",
+  "generated_at": "2026-08-21T02:03:02+00:00",
   "vendor": "_other",
-  "count": 939,
+  "count": 941,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -51629,9 +51629,45 @@
           "product": "linux",
           "versions": [
             {
-              "lessThan": "6.0~rc1",
               "status": "affected",
-              "version": "0",
+              "version": "3.16",
+              "lessThan": "4.14.316",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "4.15",
+              "lessThan": "4.19.256",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "4.20",
+              "lessThan": "5.4.211",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.5",
+              "lessThan": "5.10.137",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.11",
+              "lessThan": "5.15.61",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.16",
+              "lessThan": "5.18.18",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.19",
+              "lessThan": "5.19.2",
               "versionType": "semver"
             }
           ]
@@ -67913,6 +67949,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-15743",
+      "description": "Catalyst::Plugin::Static::Simple versions through 0.38 for Perl mark responses as publicly cacheable.\n\nThe _serve_static method always sets the Cache-Control header to \"public\", with no means of overriding it.  This advises proxies that the content may be stored in a shared cache, and may be reused in responses to requests from other users. (This includes requests with an Authorization header.)\n\nConfiguring the expires time to \"0\" to disable caching, as documented, is ignored.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "0.38",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-16543",
       "description": "Kong Operator's embedded Kong Kubernetes Ingress Controller (KIC) allows a user with namespace-scoped Secret creation privileges to cause a cluster-wide ingress configuration denial of service. The embedded KIC collects CA-certificate Secrets across all watched namespaces using a label selector alone, without ingress-class or namespace restrictions. The CA-certificate primary key is derived from a user-supplied field in the Secret. Duplicate CA-certificate IDs cause Kong Gateway to reject the entire configuration document and halting all ingress changes cluster-wide.",
       "cvss_score": 7.1,
@@ -69383,6 +69448,46 @@
         ],
         "cpe_count": 0,
         "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-75628",
+      "description": "Punk::OAuth2 versions before 0.03 for Perl allow an attacker-chosen off-site redirect after login because same_origin_path accepts a backslash or tab in the return parameter.\n\noauth2_login reads the return parameter from the initiation request, runs same_origin_path over it, and stores the survivor in the session flow record as the post-login redirect target. That check rejects a value that does not begin with a slash, one with a slash as its second byte, and one containing CR or LF. A backslash and a tab pass. The URL Standard treats a backslash as equivalent to a slash for special schemes, so `/\\evil.example` parses with the authority `evil.example`. It also strips ASCII tab before parsing, so a tab between two leading slashes leaves `//evil.example`.\n\nA crafted link to the application's own login route lands the victim on the attacker's site after a genuine authentication. The redirect carries no authorization code or access token.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.03",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0026,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-601"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
       }
     },
     {
