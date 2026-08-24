@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T23:35:51+00:00",
+  "generated_at": "2026-08-24T01:58:17+00:00",
   "vendor": "_other",
-  "count": 947,
+  "count": 950,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -68177,6 +68177,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-19565",
+      "description": "Apache::AppSamurai::Util versions through 1.01 for Perl generate predictable session authentication keys from the clock and process id in CreateSessionAuthKey.\n\nCreateSessionAuthKey runs five rounds of SHA-256, each over a fresh Time::HiRes reading formatted to six decimal places, the running digest, and the process id. CreateSession calls it with an empty key source on every login, and the optional Keysource directive is the only route to the other branch. The result is 64 hex characters. The microsecond field of the first reading takes one of a million values, the later readings follow it within microseconds, and the process id is drawn from a small range.\n\nThe key is returned to the browser as the session cookie, and is combined with the configured server key to compute the session id and to encrypt the stored session data. An attacker who knows the second in which a session was created and the process id of the worker that created it can enumerate candidate keys and recover the victim's cookie, bypassing authentication for the protected resources. Each candidate has to be tried against the server, which validates the cookie with a key the attacker does not hold.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.01",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-1470",
       "description": "n8n contains a critical Remote Code Execution (RCE) vulnerability in its workflow Expression evaluation system. Expressions supplied by authenticated users during workflow configuration may be evaluated in an execution context that is not sufficiently isolated from the underlying runtime.\n\nAn authenticated attacker could abuse this behavior to execute arbitrary code with the privileges of the n8n process. Successful exploitation may lead to full compromise of the affected instance, including unauthorized access to sensitive data, modification of workflows, and execution of system-level operations.",
       "cvss_score": 9.9,
@@ -69640,6 +69669,35 @@
       "probability_score": 0.00198
     },
     {
+      "cve_id": "CVE-2026-75922",
+      "description": "Reverse::Proxy versions before 0.04 for Perl allow HTTP request smuggling via a percent-decoded PATH_INFO written unencoded to the upstream request line.\n\nPSGI hands PATH_INFO to an application percent-decoded, so a %XX sequence in the client URL has become a raw byte by the time the proxy sees it. The proxy appends that byte string to the upstream base URL, and for an Upgrade tunnel writes it into a request line it serializes itself, re-encoding nothing in either path. The HTTP client that sends the resulting URL does not validate the target either. A path containing %0d%0a therefore arrives at the upstream as a CRLF that ends the request line, and a decoded space, '?' or '#' truncates it the same way.\n\nEverything the client writes after the CRLF is read by the upstream as a second request. On the buffered path it arrives on a keep-alive connection the proxy pools and reuses for other clients. Its method, path and headers are all chosen by the client, and the upstream attributes it to the proxy, so it reaches upstream paths that the proxy's own routing does not expose.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.04",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-77781",
       "description": "Tie::Hash::Regex versions before 2.0.0 for Perl will throw an exception on unparseable lookup keys.\n\nThe FETCH, EXISTS and DELETE methods throw an exception when on malformed regular expressions.\n\nEach method falls back to a regex match when the key is not already stored in the hash, compiling the caller's key with a bare qr// and no eval guard. A key that is not a valid regular expression pattern, such as a single unmatched bracket, dies.\n\nAn application that looks up externally supplied strings in a tied hash will die on an invalid key.",
       "cvss_score": null,
@@ -69678,6 +69736,34 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-78183",
+      "description": "DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float.\n\nquote_float() allocates the length of the string + 1, which is the size of the bare numeric symbol plus NULL.  But for special literals NaN, Inf, +Inf, -Inf, Infinity, +Infinity, -Infinity it emits the literal surrounded by quotes plus NULL, which is length + 3 bytes. Every recognised literal (case-insensitive) overflows by 2 bytes, a single quote and a NULL.\n\nThis can be reached by the $dbh->quote method, for example\n\n    $dbh->quote( \"Infinity\", DBI::SQL_NUMERIC ).\n\nThis regression was introduced in 3.21.0 by the quote.c rewrite.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "3.21.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-9277",
