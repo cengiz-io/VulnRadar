@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:36:12+00:00",
+  "generated_at": "2026-08-25T01:59:56+00:00",
   "vendor": "red_hat",
   "count": 500,
   "items": [
@@ -69711,11 +69711,6 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -84086,11 +84081,6 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -84656,11 +84646,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         }
       ],
@@ -95028,11 +95013,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -98909,11 +98889,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -99381,11 +99356,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -101465,6 +101435,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "18:10.1.0-16.el10_2.5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -101474,11 +101456,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
         },
         {
           "vendor": "red hat",

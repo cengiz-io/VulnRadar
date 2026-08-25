@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:36:12+00:00",
+  "generated_at": "2026-08-25T01:59:56+00:00",
   "vendor": "_other",
   "count": 951,
   "items": [
@@ -42061,7 +42061,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -48611,13 +48611,35 @@
       "affected": [
         {
           "vendor": "adobe",
-          "product": "coldfusion",
+          "product": "coldfusion 2025",
           "versions": [
             {
-              "lessThanOrEqual": "2023.20",
+              "lessThanOrEqual": "9",
               "status": "affected",
               "version": "0",
-              "versionType": "semver"
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "10",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "adobe",
+          "product": "coldfusion 2023",
+          "versions": [
+            {
+              "lessThanOrEqual": "20",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "21",
+              "versionType": "custom"
             }
           ]
         }
