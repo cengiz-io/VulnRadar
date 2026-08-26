@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:59:38+00:00",
+  "generated_at": "2026-08-26T03:20:02+00:00",
   "vendor": "red_hat",
   "count": 501,
   "items": [
@@ -97162,7 +97162,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00107
+      "probability_score": 0.00107,
+      "nvd": {
+        "cvss_v3_score": 6.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1287"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-1584",
@@ -102017,7 +102028,7 @@
           "CWE-122"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
