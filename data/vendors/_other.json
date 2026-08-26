@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:38:35+00:00",
+  "generated_at": "2026-08-26T01:59:38+00:00",
   "vendor": "_other",
-  "count": 951,
+  "count": 953,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -69902,6 +69902,64 @@
         "cpe_count": 0,
         "reference_count": 5
       }
+    },
+    {
+      "cve_id": "CVE-2026-78619",
+      "description": "Punk::Plugin::TOTP versions before 0.05 for Perl accept another account's recovery code at the two-factor challenge because totp_use_recovery compares user identifiers numerically.\n\nThe helper searches the recovery model for the submitted code's digest alone, across every user's rows, so the ownership test that follows is the only thing binding a code to the account it was issued to. That test compares the row's user_id with the challenged user's id through Perl's integer coercion, and an identifier with no leading digits coerces to zero, so any two of them compare equal. User models keyed on a username, an email address or a UUID hit that case, and a numeric key compares as intended.\n\nThe challenge route feeds a submitted value to the helper once TOTP verification fails, so an attacker who knows a victim's password and holds a recovery code of their own passes the victim's second factor.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.05",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-78655",
+      "description": "Punk::Plugin::TOTP versions before 0.05 for Perl allow the second-factor attempt limit to be reset by replaying an earlier session cookie because the challenge route counts failures in the session.\n\nThe POST handler on challenge_path keeps the failure count as tries inside the totp_pending record in the session, raising it on each rejected code and deleting the pending record once it reaches attempts, five by default. Punk::Session carries the session in a signed cookie unless the application declares a store, and keeps no server-side record, so an earlier value of the same session stays valid until the expiry stamped inside it. A client that saves the cookie before its failed attempts and presents it again gets the pending record back with its counter, and the limit never fires. The replayed record is accepted while its own expiry, pending_ttl seconds from the challenge and 300 by default, has not passed.\n\nSessions declared with a store are not affected: the pending record and its counter then live server-side.\n\nThe attempt limit does not bound guessing of the second factor, which is left to the per-address rate limit the plugin registers on the same path, 30 requests per 60 seconds.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.05",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-9277",

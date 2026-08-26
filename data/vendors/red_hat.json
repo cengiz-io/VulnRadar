@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T23:38:35+00:00",
+  "generated_at": "2026-08-26T01:59:38+00:00",
   "vendor": "red_hat",
-  "count": 500,
+  "count": 501,
   "items": [
     {
       "cve_id": "CVE-2023-0118",
@@ -64107,6 +64107,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat trusted artifact signer 1.3",
+          "versions": [
+            {
+              "version": "1787305413",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "nbde tang server",
           "versions": null
         },
@@ -64643,11 +64655,6 @@
         {
           "vendor": "red hat",
           "product": "red hat storage 3",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat trusted artifact signer",
           "versions": null
         }
       ],
@@ -68769,6 +68776,18 @@
           "versions": [
             {
               "version": "1784795076",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -77469,7 +77488,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1743162265",
@@ -77481,7 +77500,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1744028971",
@@ -77558,7 +77577,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1743162265",
@@ -77570,7 +77589,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1744028971",
@@ -85090,7 +85109,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265330",
@@ -85102,7 +85121,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265394",
@@ -85114,7 +85133,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265332",
@@ -85126,7 +85145,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265435",
@@ -85138,7 +85157,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265342",
@@ -85150,7 +85169,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265332",
@@ -85162,7 +85181,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753269432",
@@ -85174,7 +85193,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265411",
@@ -85186,7 +85205,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265314",
@@ -88080,6 +88099,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
@@ -88536,7 +88591,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.0",
+          "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254546",
@@ -88548,7 +88603,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.0",
+          "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254552",
@@ -88560,7 +88615,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.0",
+          "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
               "version": "rhosdt-3.7-1762255881",
@@ -88572,7 +88627,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.0",
+          "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254530",
@@ -88584,7 +88639,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.0",
+          "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254519",
@@ -88596,7 +88651,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.7.0",
+          "product": "red hat openshift distributed tracing 3.7.1",
           "versions": [
             {
               "version": "rhosdt-3.7-1762254545",
@@ -89323,7 +89378,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116455",
@@ -89335,7 +89390,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116482",
@@ -89347,7 +89402,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116441",
@@ -89359,7 +89414,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116449",
@@ -89371,7 +89426,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116439",
@@ -89383,7 +89438,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116447",
@@ -89395,7 +89450,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756128595",
@@ -89407,7 +89462,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756125872",
@@ -89419,7 +89474,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5.3",
+          "product": "red hat openshift distributed tracing 3.5.2",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116445",
@@ -91129,7 +91184,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752046452",
@@ -91141,7 +91196,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752046437",
@@ -91153,7 +91208,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752046439",
@@ -91165,7 +91220,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752070865",
@@ -91177,7 +91232,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752070873",
@@ -91189,7 +91244,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1751993590",
@@ -91201,7 +91256,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752070827",
@@ -91213,7 +91268,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752070833",
@@ -91225,7 +91280,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1752070866",
@@ -92127,6 +92182,42 @@
           "versions": [
             {
               "version": "1784795076",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -97013,6 +97104,67 @@
       }
     },
     {
+      "cve_id": "CVE-2026-17113",
+      "description": "A flaw was found in CRI-O's container-creation environment-variable handling\n(`mergeEnvs` in `server/utils.go`, consumed by `setupContainerEnvironmentAndWorkdir` in\n`server/container_create.go`). When a `CreateContainer` request supplies a `nil` CRI\n`Envs` field, CRI-O falls back to using the target OCI image's `config.Env` entries\nunfiltered, in contrast to the normal merge path, which validates each entry for a\n`key=value` form before use. An OCI image whose `config.Env` contains an entry with no\n`=` character (e.g. a bare `NOEQUALS` string) causes CRI-O to split that entry into a\nsingle-element slice and then index its second element, which is out of range. This\ntriggers an unrecovered Go runtime panic in the `crio` daemon process, crashing it and\nterminating the container-runtime service for all workloads on the node until it is\nrestarted.",
+      "cvss_score": 6.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.34.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.35.7",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.36.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00107
+    },
+    {
       "cve_id": "CVE-2026-1584",
       "description": "A flaw was found in gnutls. A remote, unauthenticated attacker can exploit this vulnerability by sending a specially crafted ClientHello message with an invalid Pre-Shared Key (PSK) binder value during the TLS handshake. This can lead to a NULL pointer dereference, causing the server to crash and resulting in a remote Denial of Service (DoS) condition.",
       "cvss_score": 7.5,
@@ -97572,7 +97724,48 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -97901,6 +98094,42 @@
           "versions": [
             {
               "version": "1781525739",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -98314,6 +98543,42 @@
           "versions": [
             {
               "version": "1781525739",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -98882,7 +99147,48 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -99350,6 +99656,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
@@ -99764,12 +100106,43 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
           "versions": null
         },
         {
@@ -100157,6 +100530,42 @@
           "versions": [
             {
               "version": "1781525739",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -100578,12 +100987,43 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
           "versions": null
         },
         {
@@ -100971,6 +101411,42 @@
           "versions": [
             {
               "version": "1781525739",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -101372,6 +101848,42 @@
           "versions": [
             {
               "version": "1781525739",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -102165,17 +102677,48 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
         },
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -102371,6 +102914,42 @@
           "versions": [
             {
               "version": "1781525739",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241211",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787135742",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat update infrastructure 5",
+          "versions": [
+            {
+              "version": "1787241260",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
