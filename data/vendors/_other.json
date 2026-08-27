@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T09:40:11+00:00",
+  "generated_at": "2026-08-27T20:25:59+00:00",
   "vendor": "_other",
-  "count": 956,
+  "count": 958,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -128,7 +128,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02366,
+      "probability_score": 0.02383,
       "kev": {
         "cveID": "CVE-2022-0028",
         "vendorProject": "Palo Alto Networks",
@@ -1587,7 +1587,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06344,
+      "probability_score": 0.09518,
       "kev": {
         "cveID": "CVE-2022-0995",
         "vendorProject": "Linux",
@@ -4200,6 +4200,44 @@
       }
     },
     {
+      "cve_id": "CVE-2023-49105",
+      "description": "An issue was discovered in ownCloud owncloud/core before 10.13.1. An attacker can access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured. This occurs because pre-signed URLs can be accepted even when no signing-key is configured for the owner of the files. The earliest affected version is 10.6.0.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AC:L/AV:N/A:H/C:H/I:H/PR:N/S:U/UI:N",
+      "affected": [
+        {
+          "vendor": "n/a",
+          "product": "n/a",
+          "versions": [
+            {
+              "version": "n/a",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.11074,
+      "kev": {
+        "cveID": "CVE-2023-49105",
+        "vendorProject": "ownCloud",
+        "product": "ownCloud",
+        "vulnerabilityName": "ownCloud Improper Authentication Vulnerability",
+        "dateAdded": "2026-08-27",
+        "shortDescription": "ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-30",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
       "cve_id": "CVE-2023-52163",
       "description": "Digiever DS-2105 Pro 3.1.0.71-11 devices allow time_tzsetup.cgi Command Injection. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
       "cvss_score": null,
@@ -5043,7 +5081,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.38104,
+      "probability_score": 0.37848,
       "kev": {
         "cveID": "CVE-2024-55550",
         "vendorProject": "Mitel",
@@ -58899,7 +58937,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00391,
+      "probability_score": 0.00397,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -58957,7 +58995,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00353,
+      "probability_score": 0.00363,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -59015,7 +59053,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00403,
+      "probability_score": 0.00414,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -59362,7 +59400,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00298,
+      "probability_score": 0.00306,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -60383,7 +60421,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00202
+      "probability_score": 0.00204
     },
     {
       "cve_id": "CVE-2025-26869",
@@ -61422,7 +61460,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209
+      "probability_score": 0.00211
     },
     {
       "cve_id": "CVE-2025-46804",
@@ -61457,7 +61495,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00214
+      "probability_score": 0.00217
     },
     {
       "cve_id": "CVE-2025-46805",
@@ -61492,7 +61530,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00169
     },
     {
       "cve_id": "CVE-2025-4143",
@@ -63706,7 +63744,7 @@
         "product:re gallery"
       ],
       "active_threat": false,
-      "probability_score": 0.00274
+      "probability_score": 0.0028
     },
     {
       "cve_id": "CVE-2026-23800",
@@ -64491,7 +64529,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137
+      "probability_score": 0.00347
     },
     {
       "cve_id": "CVE-2026-73193",
@@ -64578,7 +64616,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00184
+      "probability_score": 0.00409
     },
     {
       "cve_id": "CVE-2026-75628",
@@ -64780,7 +64818,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0044
+      "probability_score": 0.00616
     },
     {
       "cve_id": "CVE-2026-78655",
@@ -64809,7 +64847,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00198
+      "probability_score": 0.00495
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -65198,7 +65236,7 @@
         "vendor:minidvblinux"
       ],
       "active_threat": false,
-      "probability_score": 0.01311
+      "probability_score": 0.0139
     },
     {
       "cve_id": "CVE-2023-53770",
@@ -71348,7 +71386,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91559,
+      "probability_score": 0.91458,
       "kev": {
         "cveID": "CVE-2024-11680",
         "vendorProject": "ProjectSend",
@@ -71876,7 +71914,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0342,
+      "probability_score": 0.03392,
       "kev": {
         "cveID": "CVE-2025-3935",
         "vendorProject": "ConnectWise",
@@ -75573,7 +75611,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.73236,
+      "probability_score": 0.74482,
       "kev": {
         "cveID": "CVE-2025-1316",
         "vendorProject": "Edimax",
@@ -76103,7 +76141,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.58801,
+      "probability_score": 0.58462,
       "kev": {
         "cveID": "CVE-2025-31125",
         "vendorProject": "Vite",
@@ -78165,7 +78203,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01041,
+      "probability_score": 0.01606,
       "kev": {
         "cveID": "CVE-2026-8452",
         "vendorProject": "Citrix",
@@ -78338,7 +78376,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01506,
+      "probability_score": 0.20528,
       "kev": {
         "cveID": "CVE-2026-73570",
         "vendorProject": "Synacor",
@@ -78990,7 +79028,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01668,
+      "probability_score": 0.01682,
       "kev": {
         "cveID": "CVE-2025-8875",
         "vendorProject": "N-able",
@@ -79030,7 +79068,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03303,
+      "probability_score": 0.0333,
       "kev": {
         "cveID": "CVE-2025-8876",
         "vendorProject": "N-able",
@@ -79070,7 +79108,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03928,
+      "probability_score": 0.40158,
       "kev": {
         "cveID": "CVE-2026-18556",
         "vendorProject": "N-able",
@@ -79115,7 +79153,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06153,
+      "probability_score": 0.54068,
       "kev": {
         "cveID": "CVE-2026-18577",
         "vendorProject": "N-able",
@@ -82957,7 +82995,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": null,
+      "probability_score": 0.824,
       "kev": {
         "cveID": "CVE-2026-60004",
         "vendorProject": "Gitea",
@@ -83103,6 +83141,52 @@
         "shortDescription": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-02",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
+      "cve_id": "CVE-2026-66384",
+      "description": "An authenticated user may write data outside the intended Docker cache path under specific remote-repository conditions.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "jfrog",
+          "product": "artifactory",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "7.146.35",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "7.161.0",
+              "lessThan": "7.161.16",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00264,
+      "kev": {
+        "cveID": "CVE-2026-66384",
+        "vendorProject": "JFrog",
+        "product": "Artifactory",
+        "vulnerabilityName": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+        "dateAdded": "2026-08-27",
+        "shortDescription": "JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-10",
         "knownRansomwareCampaignUse": "Unknown"
       }
     },

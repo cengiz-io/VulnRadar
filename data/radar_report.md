@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-27T09:40:13+00:00`
+Generated: `2026-08-27T20:26:01+00:00`
 
 ## Executive Summary
 
@@ -19,6 +19,7 @@ Top critical items:
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.033 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.027 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.013 | 7.8 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
+| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | 0.003 | 7.8 | 2026-08-30 | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation … |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | 0.014 | 7.1 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when find… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.105 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.008 | 5.5 | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
@@ -34,13 +35,12 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.029 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.020 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.006 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
-| [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | 0.015 | 7.1 |  | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The… |
 
 ## Summary
 
-- Total items: **15898**
+- Total items: **15900**
 - Watchlist hits: **15144**
-- CISA KEVs: **766**
+- CISA KEVs: **769**
 - Exploit Intel (PoC): **780**
 - Exploit Intel + Watchlist (CRITICAL): **27**
 
@@ -57,6 +57,7 @@ Top critical items:
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.033 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
+| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | CRITICAL (CISA KEV + Watchlist) | CRITICAL |  | ✅ | 2026-08-30 | 0.003 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation path  In __ip6_append_data(), when the p… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.014 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.105 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.008 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
@@ -183,7 +184,7 @@ Top critical items:
 | [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2025-0282](https://www.cve.org/CVERecord?id=CVE-2025-0282) |  | KEV | ✅ | ✅ | 2025-01-15 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gatewa… |
 | [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.997 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
-| [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.916 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
+| [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.915 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
 | [CVE-2024-13160](https://www.cve.org/CVERecord?id=CVE-2024-13160) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.912 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-33017](https://www.cve.org/CVERecord?id=CVE-2026-33017) |  | KEV | ✅ | ✅ | 2026-04-08 | 0.962 | 9.3 |  | Langflow is a tool for building and deploying AI-powered agents and workflows. In versions prior to 1.9.0, the POST /api/v1/build_public_tmp/{flow_id}/flow end… |
 | [CVE-2024-41713](https://www.cve.org/CVERecord?id=CVE-2024-41713) |  | KEV | ✅ | ✅ | 2025-01-28 | 0.981 | 9.1 |  | A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to c… |
@@ -237,6 +238,7 @@ Top critical items:
 | [CVE-2023-2868](https://www.cve.org/CVERecord?id=CVE-2023-2868) |  | KEV | ✅ | ✅ | 2023-06-16 | 0.874 | 9.4 |  | A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0… |
 | [CVE-2023-41265](https://www.cve.org/CVERecord?id=CVE-2023-41265) |  | KEV | ✅ | ✅ | 2023-12-28 | 0.850 | 9.6 |  | An HTTP Request Tunneling vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier… |
 | [CVE-2026-24423](https://www.cve.org/CVERecord?id=CVE-2026-24423) |  | KEV | ✅ | ✅ | 2026-02-26 | 0.877 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an unauthenticated remote code execution vulnerability in the ConnectToHub API method. The attack… |
+| [CVE-2026-60004](https://www.cve.org/CVERecord?id=CVE-2026-60004) |  | KEV |  | ✅ | 2026-08-28 | 0.824 | 9.8 |  | Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation. |
 | [CVE-2024-48248](https://www.cve.org/CVERecord?id=CVE-2024-48248) |  | KEV | ✅ | ✅ | 2025-04-09 | 0.944 | 8.6 |  | NAKIVO Backup & Replication before 11.0.0.88174 allows absolute path traversal for reading files via getImageByPath to /c/router (this may lead to remote code … |
 | [CVE-2024-21762](https://www.cve.org/CVERecord?id=CVE-2024-21762) |  | KEV | ✅ | ✅ | 2024-02-16 | 0.843 | 9.6 |  | A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, … |
 | [CVE-2025-4008](https://www.cve.org/CVERecord?id=CVE-2025-4008) |  | KEV | ✅ | ✅ | 2025-10-23 | 0.933 | 8.7 |  | The Meteobridge web interface let meteobridge administrator manage their weather station data collection and administer their meteobridge system through a web … |
@@ -246,61 +248,59 @@ Top critical items:
 | [CVE-2025-5086](https://www.cve.org/CVERecord?id=CVE-2025-5086) |  | KEV | ✅ | ✅ | 2025-10-02 | 0.900 | 9.0 |  | A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution. |
 | [CVE-2022-41082](https://www.cve.org/CVERecord?id=CVE-2022-41082) |  | KEV | ✅ | ✅ | 2022-10-21 | 1.000 | 8.0 |  | Microsoft Exchange Server Remote Code Execution Vulnerability |
 | [CVE-2024-7399](https://www.cve.org/CVERecord?id=CVE-2024-7399) |  | KEV | ✅ | ✅ | 2026-05-08 | 0.919 | 8.8 |  | Improper limitation of a pathname to a restricted directory vulnerability in Samsung MagicINFO 9 Server version before 21.1050 allows attackers to write arbitr… |
-| [CVE-2026-1281](https://www.cve.org/CVERecord?id=CVE-2026-1281) |  | KEV | ✅ | ✅ | 2026-02-01 | 0.815 | 9.8 |  | A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution. |
-| [CVE-2024-1708](https://www.cve.org/CVERecord?id=CVE-2024-1708) |  | KEV | ✅ | ✅ | 2026-05-12 | 0.955 | 8.4 |  | ConnectWise ScreenConnect 23.9.7 and prior are affected by path-traversal vulnerability, which may allow an attacker   the ability to execute remote code or di… |
 
 ## Recent Changes (Last 7 Days)
 
 | Date | CVE | Status |
 |------|-----|--------|
-| Aug 26 | [CVE-2026-78619](https://www.cve.org/CVERecord?id=CVE-2026-78619) | 🆕 New |
-| Aug 26 | [CVE-2026-78655](https://www.cve.org/CVERecord?id=CVE-2026-78655) | 🆕 New |
-| Aug 26 | [CVE-2023-6610](https://www.cve.org/CVERecord?id=CVE-2023-6610) | 🆕 New |
-| Aug 26 | [CVE-2026-17113](https://www.cve.org/CVERecord?id=CVE-2026-17113) | 🆕 New |
-| Aug 26 | [CVE-2022-0995](https://www.cve.org/CVERecord?id=CVE-2022-0995) | 🔴 In CISA KEV |
-| Aug 26 | [CVE-2026-8452](https://www.cve.org/CVERecord?id=CVE-2026-8452) | 🔴 In CISA KEV |
-| Aug 25 | [CVE-2023-3268](https://www.cve.org/CVERecord?id=CVE-2023-3268) | 🆕 New |
-| Aug 24 | [CVE-2026-19565](https://www.cve.org/CVERecord?id=CVE-2026-19565) | 🆕 New |
-| Aug 24 | [CVE-2026-75922](https://www.cve.org/CVERecord?id=CVE-2026-75922) | 🆕 New |
-| Aug 24 | [CVE-2026-78183](https://www.cve.org/CVERecord?id=CVE-2026-78183) | 🆕 New |
-| Aug 24 | [CVE-2026-21962](https://www.cve.org/CVERecord?id=CVE-2026-21962) | 🔴 In CISA KEV |
-| Aug 23 | [CVE-2026-75866](https://www.cve.org/CVERecord?id=CVE-2026-75866) | 🆕 New |
-| Aug 23 | [CVE-2026-75870](https://www.cve.org/CVERecord?id=CVE-2026-75870) | 🆕 New |
-| Aug 23 | [CVE-2026-74584](https://www.cve.org/CVERecord?id=CVE-2026-74584) | 🆕 New |
-| Aug 23 | [CVE-2026-74585](https://www.cve.org/CVERecord?id=CVE-2026-74585) | 🆕 New |
-| Aug 23 | [CVE-2026-74586](https://www.cve.org/CVERecord?id=CVE-2026-74586) | 🆕 New |
-| Aug 23 | [CVE-2026-74587](https://www.cve.org/CVERecord?id=CVE-2026-74587) | 🆕 New |
-| Aug 23 | [CVE-2026-74588](https://www.cve.org/CVERecord?id=CVE-2026-74588) | 🆕 New |
-| Aug 23 | [CVE-2026-74589](https://www.cve.org/CVERecord?id=CVE-2026-74589) | 🆕 New |
-| Aug 23 | [CVE-2026-74590](https://www.cve.org/CVERecord?id=CVE-2026-74590) | 🆕 New |
-| Aug 23 | [CVE-2026-74591](https://www.cve.org/CVERecord?id=CVE-2026-74591) | 🆕 New |
-| Aug 23 | [CVE-2026-74592](https://www.cve.org/CVERecord?id=CVE-2026-74592) | 🆕 New |
-| Aug 23 | [CVE-2026-74593](https://www.cve.org/CVERecord?id=CVE-2026-74593) | 🆕 New |
-| Aug 23 | [CVE-2026-74594](https://www.cve.org/CVERecord?id=CVE-2026-74594) | 🆕 New |
-| Aug 23 | [CVE-2026-74595](https://www.cve.org/CVERecord?id=CVE-2026-74595) | 🆕 New |
-| Aug 23 | [CVE-2026-74596](https://www.cve.org/CVERecord?id=CVE-2026-74596) | 🆕 New |
-| Aug 23 | [CVE-2026-74597](https://www.cve.org/CVERecord?id=CVE-2026-74597) | 🆕 New |
-| Aug 23 | [CVE-2026-74598](https://www.cve.org/CVERecord?id=CVE-2026-74598) | 🆕 New |
-| Aug 23 | [CVE-2026-74599](https://www.cve.org/CVERecord?id=CVE-2026-74599) | 🆕 New |
-| Aug 23 | [CVE-2026-74600](https://www.cve.org/CVERecord?id=CVE-2026-74600) | 🆕 New |
-| Aug 23 | [CVE-2026-74601](https://www.cve.org/CVERecord?id=CVE-2026-74601) | 🆕 New |
-| Aug 23 | [CVE-2026-74602](https://www.cve.org/CVERecord?id=CVE-2026-74602) | 🆕 New |
-| Aug 23 | [CVE-2026-74603](https://www.cve.org/CVERecord?id=CVE-2026-74603) | 🆕 New |
-| Aug 23 | [CVE-2026-74604](https://www.cve.org/CVERecord?id=CVE-2026-74604) | 🆕 New |
-| Aug 23 | [CVE-2026-74605](https://www.cve.org/CVERecord?id=CVE-2026-74605) | 🆕 New |
-| Aug 23 | [CVE-2026-74606](https://www.cve.org/CVERecord?id=CVE-2026-74606) | 🆕 New |
-| Aug 23 | [CVE-2026-74607](https://www.cve.org/CVERecord?id=CVE-2026-74607) | 🆕 New |
-| Aug 23 | [CVE-2026-74608](https://www.cve.org/CVERecord?id=CVE-2026-74608) | 🆕 New |
-| Aug 23 | [CVE-2026-74609](https://www.cve.org/CVERecord?id=CVE-2026-74609) | 🆕 New |
-| Aug 23 | [CVE-2026-74610](https://www.cve.org/CVERecord?id=CVE-2026-74610) | 🆕 New |
-| Aug 23 | [CVE-2026-74611](https://www.cve.org/CVERecord?id=CVE-2026-74611) | 🆕 New |
-| Aug 23 | [CVE-2026-74612](https://www.cve.org/CVERecord?id=CVE-2026-74612) | 🆕 New |
-| Aug 23 | [CVE-2026-74613](https://www.cve.org/CVERecord?id=CVE-2026-74613) | 🆕 New |
-| Aug 23 | [CVE-2026-74614](https://www.cve.org/CVERecord?id=CVE-2026-74614) | 🆕 New |
-| Aug 23 | [CVE-2026-74615](https://www.cve.org/CVERecord?id=CVE-2026-74615) | 🆕 New |
-| Aug 23 | [CVE-2026-74616](https://www.cve.org/CVERecord?id=CVE-2026-74616) | 🆕 New |
-| Aug 23 | [CVE-2026-74617](https://www.cve.org/CVERecord?id=CVE-2026-74617) | 🆕 New |
-| Aug 23 | [CVE-2026-74618](https://www.cve.org/CVERecord?id=CVE-2026-74618) | 🆕 New |
-| Aug 23 | [CVE-2026-74619](https://www.cve.org/CVERecord?id=CVE-2026-74619) | 🆕 New |
-| Aug 23 | [CVE-2026-74620](https://www.cve.org/CVERecord?id=CVE-2026-74620) | 🆕 New |
-| ... | | _and 144 more_ |
+| Aug 27 | [CVE-2026-60004](https://www.cve.org/CVERecord?id=CVE-2026-60004) | 🔴 In CISA KEV |
+| Aug 27 | [CVE-2026-74734](https://www.cve.org/CVERecord?id=CVE-2026-74734) | 🆕 New |
+| Aug 27 | [CVE-2026-74735](https://www.cve.org/CVERecord?id=CVE-2026-74735) | 🆕 New |
+| Aug 27 | [CVE-2026-74736](https://www.cve.org/CVERecord?id=CVE-2026-74736) | 🆕 New |
+| Aug 27 | [CVE-2026-74737](https://www.cve.org/CVERecord?id=CVE-2026-74737) | 🆕 New |
+| Aug 27 | [CVE-2026-74738](https://www.cve.org/CVERecord?id=CVE-2026-74738) | 🆕 New |
+| Aug 27 | [CVE-2026-74739](https://www.cve.org/CVERecord?id=CVE-2026-74739) | 🆕 New |
+| Aug 27 | [CVE-2026-74740](https://www.cve.org/CVERecord?id=CVE-2026-74740) | 🆕 New |
+| Aug 27 | [CVE-2026-74741](https://www.cve.org/CVERecord?id=CVE-2026-74741) | 🆕 New |
+| Aug 27 | [CVE-2026-74742](https://www.cve.org/CVERecord?id=CVE-2026-74742) | 🆕 New |
+| Aug 27 | [CVE-2026-74743](https://www.cve.org/CVERecord?id=CVE-2026-74743) | 🆕 New |
+| Aug 27 | [CVE-2026-74744](https://www.cve.org/CVERecord?id=CVE-2026-74744) | 🆕 New |
+| Aug 27 | [CVE-2026-74745](https://www.cve.org/CVERecord?id=CVE-2026-74745) | 🆕 New |
+| Aug 27 | [CVE-2026-74746](https://www.cve.org/CVERecord?id=CVE-2026-74746) | 🆕 New |
+| Aug 27 | [CVE-2026-74747](https://www.cve.org/CVERecord?id=CVE-2026-74747) | 🆕 New |
+| Aug 27 | [CVE-2026-74748](https://www.cve.org/CVERecord?id=CVE-2026-74748) | 🆕 New |
+| Aug 27 | [CVE-2026-74749](https://www.cve.org/CVERecord?id=CVE-2026-74749) | 🆕 New |
+| Aug 27 | [CVE-2026-74750](https://www.cve.org/CVERecord?id=CVE-2026-74750) | 🆕 New |
+| Aug 27 | [CVE-2026-74751](https://www.cve.org/CVERecord?id=CVE-2026-74751) | 🆕 New |
+| Aug 27 | [CVE-2026-74752](https://www.cve.org/CVERecord?id=CVE-2026-74752) | 🆕 New |
+| Aug 27 | [CVE-2026-74753](https://www.cve.org/CVERecord?id=CVE-2026-74753) | 🆕 New |
+| Aug 27 | [CVE-2026-74754](https://www.cve.org/CVERecord?id=CVE-2026-74754) | 🆕 New |
+| Aug 27 | [CVE-2026-80519](https://www.cve.org/CVERecord?id=CVE-2026-80519) | 🆕 New |
+| Aug 27 | [CVE-2026-80520](https://www.cve.org/CVERecord?id=CVE-2026-80520) | 🆕 New |
+| Aug 27 | [CVE-2026-80521](https://www.cve.org/CVERecord?id=CVE-2026-80521) | 🆕 New |
+| Aug 27 | [CVE-2026-80522](https://www.cve.org/CVERecord?id=CVE-2026-80522) | 🆕 New |
+| Aug 27 | [CVE-2026-80523](https://www.cve.org/CVERecord?id=CVE-2026-80523) | 🆕 New |
+| Aug 27 | [CVE-2026-80524](https://www.cve.org/CVERecord?id=CVE-2026-80524) | 🆕 New |
+| Aug 27 | [CVE-2026-80525](https://www.cve.org/CVERecord?id=CVE-2026-80525) | 🆕 New |
+| Aug 27 | [CVE-2026-80526](https://www.cve.org/CVERecord?id=CVE-2026-80526) | 🆕 New |
+| Aug 27 | [CVE-2026-80527](https://www.cve.org/CVERecord?id=CVE-2026-80527) | 🆕 New |
+| Aug 27 | [CVE-2026-80528](https://www.cve.org/CVERecord?id=CVE-2026-80528) | 🆕 New |
+| Aug 27 | [CVE-2026-80529](https://www.cve.org/CVERecord?id=CVE-2026-80529) | 🆕 New |
+| Aug 27 | [CVE-2026-80530](https://www.cve.org/CVERecord?id=CVE-2026-80530) | 🆕 New |
+| Aug 27 | [CVE-2026-80531](https://www.cve.org/CVERecord?id=CVE-2026-80531) | 🆕 New |
+| Aug 27 | [CVE-2026-80532](https://www.cve.org/CVERecord?id=CVE-2026-80532) | 🆕 New |
+| Aug 27 | [CVE-2026-80533](https://www.cve.org/CVERecord?id=CVE-2026-80533) | 🆕 New |
+| Aug 27 | [CVE-2026-80534](https://www.cve.org/CVERecord?id=CVE-2026-80534) | 🆕 New |
+| Aug 27 | [CVE-2026-80535](https://www.cve.org/CVERecord?id=CVE-2026-80535) | 🆕 New |
+| Aug 27 | [CVE-2026-80536](https://www.cve.org/CVERecord?id=CVE-2026-80536) | 🆕 New |
+| Aug 27 | [CVE-2026-80537](https://www.cve.org/CVERecord?id=CVE-2026-80537) | 🆕 New |
+| Aug 27 | [CVE-2026-80538](https://www.cve.org/CVERecord?id=CVE-2026-80538) | 🆕 New |
+| Aug 27 | [CVE-2026-80539](https://www.cve.org/CVERecord?id=CVE-2026-80539) | 🆕 New |
+| Aug 27 | [CVE-2026-80540](https://www.cve.org/CVERecord?id=CVE-2026-80540) | 🆕 New |
+| Aug 27 | [CVE-2026-80541](https://www.cve.org/CVERecord?id=CVE-2026-80541) | 🆕 New |
+| Aug 27 | [CVE-2026-80542](https://www.cve.org/CVERecord?id=CVE-2026-80542) | 🆕 New |
+| Aug 27 | [CVE-2026-80543](https://www.cve.org/CVERecord?id=CVE-2026-80543) | 🆕 New |
+| Aug 27 | [CVE-2026-80544](https://www.cve.org/CVERecord?id=CVE-2026-80544) | 🆕 New |
+| Aug 27 | [CVE-2026-80545](https://www.cve.org/CVERecord?id=CVE-2026-80545) | 🆕 New |
+| Aug 27 | [CVE-2026-80546](https://www.cve.org/CVERecord?id=CVE-2026-80546) | 🆕 New |
+| ... | | _and 247 more_ |
