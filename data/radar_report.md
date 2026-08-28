@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-27T20:26:01+00:00`
+Generated: `2026-08-28T05:26:02+00:00`
 
 ## Executive Summary
 
@@ -41,8 +41,8 @@ Top critical items:
 - Total items: **15900**
 - Watchlist hits: **15144**
 - CISA KEVs: **769**
-- Exploit Intel (PoC): **780**
-- Exploit Intel + Watchlist (CRITICAL): **27**
+- Exploit Intel (PoC): **784**
+- Exploit Intel + Watchlist (CRITICAL): **28**
 
 ## Top Findings (max 200)
 
@@ -57,7 +57,7 @@ Top critical items:
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.033 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
-| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | CRITICAL (CISA KEV + Watchlist) | CRITICAL |  | ✅ | 2026-08-30 | 0.003 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation path  In __ip6_append_data(), when the p… |
+| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-30 | 0.003 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation path  In __ip6_append_data(), when the p… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.014 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.105 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.008 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
@@ -238,7 +238,7 @@ Top critical items:
 | [CVE-2023-2868](https://www.cve.org/CVERecord?id=CVE-2023-2868) |  | KEV | ✅ | ✅ | 2023-06-16 | 0.874 | 9.4 |  | A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0… |
 | [CVE-2023-41265](https://www.cve.org/CVERecord?id=CVE-2023-41265) |  | KEV | ✅ | ✅ | 2023-12-28 | 0.850 | 9.6 |  | An HTTP Request Tunneling vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier… |
 | [CVE-2026-24423](https://www.cve.org/CVERecord?id=CVE-2026-24423) |  | KEV | ✅ | ✅ | 2026-02-26 | 0.877 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an unauthenticated remote code execution vulnerability in the ConnectToHub API method. The attack… |
-| [CVE-2026-60004](https://www.cve.org/CVERecord?id=CVE-2026-60004) |  | KEV |  | ✅ | 2026-08-28 | 0.824 | 9.8 |  | Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation. |
+| [CVE-2026-60004](https://www.cve.org/CVERecord?id=CVE-2026-60004) |  | KEV | ✅ | ✅ | 2026-08-28 | 0.824 | 9.8 |  | Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation. |
 | [CVE-2024-48248](https://www.cve.org/CVERecord?id=CVE-2024-48248) |  | KEV | ✅ | ✅ | 2025-04-09 | 0.944 | 8.6 |  | NAKIVO Backup & Replication before 11.0.0.88174 allows absolute path traversal for reading files via getImageByPath to /c/router (this may lead to remote code … |
 | [CVE-2024-21762](https://www.cve.org/CVERecord?id=CVE-2024-21762) |  | KEV | ✅ | ✅ | 2024-02-16 | 0.843 | 9.6 |  | A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, … |
 | [CVE-2025-4008](https://www.cve.org/CVERecord?id=CVE-2025-4008) |  | KEV | ✅ | ✅ | 2025-10-23 | 0.933 | 8.7 |  | The Meteobridge web interface let meteobridge administrator manage their weather station data collection and administer their meteobridge system through a web … |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T20:25:59+00:00",
+  "generated_at": "2026-08-28T05:26:00+00:00",
   "vendor": "_other",
   "count": 958,
   "items": [
@@ -4219,7 +4219,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -46449,13 +46449,52 @@
       "affected": [
         {
           "vendor": "adobe",
-          "product": "acrobat reader",
+          "product": "acrobat dc",
           "versions": [
             {
               "lessThanOrEqual": "26.001.21367",
               "status": "affected",
               "version": "0",
-              "versionType": "semver"
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "26.001.21411",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "adobe",
+          "product": "acrobat reader dc",
+          "versions": [
+            {
+              "lessThanOrEqual": "26.001.21367",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "26.001.21411",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "adobe",
+          "product": "acrobat 2024",
+          "versions": [
+            {
+              "lessThanOrEqual": "24.001.30356",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "24.001.30362 (Win), 24.001.30360 (Mac)",
+              "versionType": "custom"
             }
           ]
         }
@@ -82990,7 +83029,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -83172,7 +83211,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T20:25:59+00:00",
+  "generated_at": "2026-08-28T05:26:00+00:00",
   "vendor": "red_hat",
   "count": 513,
   "items": [
@@ -94587,8 +94587,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1787153684",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
