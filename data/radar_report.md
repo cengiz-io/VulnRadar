@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-29T10:05:44+00:00`
+Generated: `2026-08-29T15:08:06+00:00`
 
 ## Executive Summary
 
@@ -211,13 +211,13 @@ Top critical items:
 | [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.997 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
 | [CVE-2022-26352](https://www.cve.org/CVERecord?id=CVE-2022-26352) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.916 | 9.8 |  | An issue was discovered in the ContentResource API in dotCMS 3.0 through 22.02. Attackers can craft a multipart form request to post a file whose filename is n… |
 | [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.915 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
+| [CVE-2026-23760](https://www.cve.org/CVERecord?id=CVE-2026-23760) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.963 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoi… |
 | [CVE-2024-13160](https://www.cve.org/CVERecord?id=CVE-2024-13160) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.912 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-33017](https://www.cve.org/CVERecord?id=CVE-2026-33017) |  | KEV | ✅ | ✅ | 2026-04-08 | 0.962 | 9.3 |  | Langflow is a tool for building and deploying AI-powered agents and workflows. In versions prior to 1.9.0, the POST /api/v1/build_public_tmp/{flow_id}/flow end… |
 | [CVE-2024-41713](https://www.cve.org/CVERecord?id=CVE-2024-41713) |  | KEV | ✅ | ✅ | 2025-01-28 | 0.981 | 9.1 |  | A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to c… |
-| [CVE-2026-23760](https://www.cve.org/CVERecord?id=CVE-2026-23760) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.957 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoi… |
+| [CVE-2025-54068](https://www.cve.org/CVERecord?id=CVE-2025-54068) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.965 | 9.2 |  | Livewire is a full-stack framework for Laravel. In Livewire v3 up to and including v3.6.3, a vulnerability allows unauthenticated attackers to achieve remote c… |
 | [CVE-2024-40711](https://www.cve.org/CVERecord?id=CVE-2024-40711) |  | KEV | ✅ | ✅ | 2024-11-07 | 0.904 | 9.8 |  | A deserialization of untrusted data vulnerability with a malicious payload can allow an unauthenticated remote code execution (RCE). |
 | [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.883 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
-| [CVE-2025-54068](https://www.cve.org/CVERecord?id=CVE-2025-54068) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.963 | 9.2 |  | Livewire is a full-stack framework for Laravel. In Livewire v3 up to and including v3.6.3, a vulnerability allows unauthenticated attackers to achieve remote c… |
 | [CVE-2026-20127](https://www.cve.org/CVERecord?id=CVE-2026-20127) |  | KEV | ✅ | ✅ | 2026-02-27 | 0.882 | 10.0 |  | A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vMana… |
 | [CVE-2024-13161](https://www.cve.org/CVERecord?id=CVE-2024-13161) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.901 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2023-1389](https://www.cve.org/CVERecord?id=CVE-2023-1389) |  | KEV | ✅ | ✅ | 2023-05-22 | 1.000 | 8.8 |  | TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci… |
