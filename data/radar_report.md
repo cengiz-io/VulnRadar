@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-31T05:30:32+00:00`
+Generated: `2026-08-31T13:40:12+00:00`
 
 ## Executive Summary
 
@@ -198,9 +198,9 @@ Top critical items:
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
 | [CVE-2025-34028](https://www.cve.org/CVERecord?id=CVE-2025-34028) |  | KEV | ✅ | ✅ | 2025-05-23 | 0.977 | 9.3 |  | The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the … |
+| [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.925 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2024-56145](https://www.cve.org/CVERecord?id=CVE-2024-56145) |  | KEV | ✅ | ✅ | 2025-06-23 | 0.974 | 9.3 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerabi… |
 | [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.924 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
-| [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.924 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2026-39987](https://www.cve.org/CVERecord?id=CVE-2026-39987) |  | KEV | ✅ | ✅ | 2026-05-07 | 0.973 | 9.3 |  | marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authenticati… |
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.902 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
@@ -216,6 +216,7 @@ Top critical items:
 | [CVE-2026-33017](https://www.cve.org/CVERecord?id=CVE-2026-33017) |  | KEV | ✅ | ✅ | 2026-04-08 | 0.962 | 9.3 |  | Langflow is a tool for building and deploying AI-powered agents and workflows. In versions prior to 1.9.0, the POST /api/v1/build_public_tmp/{flow_id}/flow end… |
 | [CVE-2024-41713](https://www.cve.org/CVERecord?id=CVE-2024-41713) |  | KEV | ✅ | ✅ | 2025-01-28 | 0.981 | 9.1 |  | A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to c… |
 | [CVE-2025-54068](https://www.cve.org/CVERecord?id=CVE-2025-54068) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.965 | 9.2 |  | Livewire is a full-stack framework for Laravel. In Livewire v3 up to and including v3.6.3, a vulnerability allows unauthenticated attackers to achieve remote c… |
+| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.894 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2024-40711](https://www.cve.org/CVERecord?id=CVE-2024-40711) |  | KEV | ✅ | ✅ | 2024-11-07 | 0.904 | 9.8 |  | A deserialization of untrusted data vulnerability with a malicious payload can allow an unauthenticated remote code execution (RCE). |
 | [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.883 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 | [CVE-2026-20127](https://www.cve.org/CVERecord?id=CVE-2026-20127) |  | KEV | ✅ | ✅ | 2026-02-27 | 0.882 | 10.0 |  | A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vMana… |
@@ -225,7 +226,6 @@ Top critical items:
 | [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 1.000 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
 | [CVE-2022-41040](https://www.cve.org/CVERecord?id=CVE-2022-41040) |  | KEV | ✅ | ✅ | 2022-10-21 | 1.000 | 8.8 |  | Microsoft Exchange Server Elevation of Privilege Vulnerability |
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
-| [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.886 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2025-54253](https://www.cve.org/CVERecord?id=CVE-2025-54253) |  | KEV | ✅ | ✅ | 2025-11-05 | 0.875 | 10.0 |  | Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacke… |
 | [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.895 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2026-34910](https://www.cve.org/CVERecord?id=CVE-2026-34910) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.875 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Input Validation vulnerability found in UniFi OS devices to execute a Command Injection. |
@@ -253,6 +253,12 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Aug 31 | [CVE-2026-82547](https://www.cve.org/CVERecord?id=CVE-2026-82547) | 🆕 New |
+| Aug 31 | [CVE-2026-82548](https://www.cve.org/CVERecord?id=CVE-2026-82548) | 🆕 New |
+| Aug 31 | [CVE-2026-82549](https://www.cve.org/CVERecord?id=CVE-2026-82549) | 🆕 New |
+| Aug 31 | [CVE-2026-82550](https://www.cve.org/CVERecord?id=CVE-2026-82550) | 🆕 New |
+| Aug 31 | [CVE-2026-82551](https://www.cve.org/CVERecord?id=CVE-2026-82551) | 🆕 New |
+| Aug 31 | [CVE-2026-82552](https://www.cve.org/CVERecord?id=CVE-2026-82552) | 🆕 New |
 | Aug 30 | [CVE-2026-80725](https://www.cve.org/CVERecord?id=CVE-2026-80725) | 🆕 New |
 | Aug 29 | [CVE-2026-80590](https://www.cve.org/CVERecord?id=CVE-2026-80590) | 🆕 New |
 | Aug 29 | [CVE-2026-80591](https://www.cve.org/CVERecord?id=CVE-2026-80591) | 🆕 New |
@@ -297,10 +303,4 @@ Top critical items:
 | Aug 29 | [CVE-2026-80630](https://www.cve.org/CVERecord?id=CVE-2026-80630) | 🆕 New |
 | Aug 29 | [CVE-2026-80631](https://www.cve.org/CVERecord?id=CVE-2026-80631) | 🆕 New |
 | Aug 29 | [CVE-2026-80632](https://www.cve.org/CVERecord?id=CVE-2026-80632) | 🆕 New |
-| Aug 29 | [CVE-2026-80633](https://www.cve.org/CVERecord?id=CVE-2026-80633) | 🆕 New |
-| Aug 29 | [CVE-2026-80634](https://www.cve.org/CVERecord?id=CVE-2026-80634) | 🆕 New |
-| Aug 29 | [CVE-2026-80635](https://www.cve.org/CVERecord?id=CVE-2026-80635) | 🆕 New |
-| Aug 29 | [CVE-2026-80636](https://www.cve.org/CVERecord?id=CVE-2026-80636) | 🆕 New |
-| Aug 29 | [CVE-2026-80637](https://www.cve.org/CVERecord?id=CVE-2026-80637) | 🆕 New |
-| Aug 29 | [CVE-2026-80638](https://www.cve.org/CVERecord?id=CVE-2026-80638) | 🆕 New |
-| ... | | _and 201 more_ |
+| ... | | _and 207 more_ |

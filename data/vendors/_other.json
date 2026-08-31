@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:30:30+00:00",
+  "generated_at": "2026-08-31T13:40:10+00:00",
   "vendor": "_other",
   "count": 964,
   "items": [
@@ -245,7 +245,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99717,
+      "probability_score": 0.99718,
       "kev": {
         "cveID": "CVE-2024-0012",
         "vendorProject": "Palo Alto Networks",
@@ -840,7 +840,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94687,
+      "probability_score": 0.94701,
       "kev": {
         "cveID": "CVE-2024-9474",
         "vendorProject": "Palo Alto Networks",
@@ -5696,7 +5696,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.81537,
+      "probability_score": 0.82882,
       "kev": {
         "cveID": "CVE-2024-42009",
         "vendorProject": "Roundcube",
@@ -6837,7 +6837,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00439
     },
     {
       "cve_id": "CVE-2026-82548",
@@ -6867,7 +6867,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00311
     },
     {
       "cve_id": "CVE-2026-82549",
@@ -6897,7 +6897,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00186
     },
     {
       "cve_id": "CVE-2026-82550",
@@ -6927,7 +6927,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00405
     },
     {
       "cve_id": "CVE-2026-82551",
@@ -6957,7 +6957,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00308
     },
     {
       "cve_id": "CVE-2026-82552",
@@ -6987,7 +6987,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00302
     },
     {
       "cve_id": "CVE-2022-0543",
@@ -55196,7 +55196,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00267,
+      "probability_score": 0.00261,
       "nvd": {
         "cvss_v3_score": 6.0,
         "cvss_v3_severity": "MEDIUM",
@@ -61074,7 +61074,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0036,
+      "probability_score": 0.00398,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -61426,7 +61426,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00358,
+      "probability_score": 0.00395,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -63825,7 +63825,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.04974,
+      "probability_score": 0.05015,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -64018,7 +64018,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0069,
+      "probability_score": 0.00696,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -64361,7 +64361,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00256,
+      "probability_score": 0.00258,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -69105,7 +69105,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00478,
+      "probability_score": 0.00487,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -78004,7 +78004,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88586,
+      "probability_score": 0.89396,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -82022,7 +82022,7 @@
         "vendor:util-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00196,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -82781,7 +82781,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92384,
+      "probability_score": 0.92488,
       "kev": {
         "cveID": "CVE-2025-2747",
         "vendorProject": "Kentico",
@@ -83395,7 +83395,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.83844,
+      "probability_score": 0.83629,
       "kev": {
         "cveID": "CVE-2025-34291",
         "vendorProject": "Langflow",
@@ -83761,7 +83761,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03215,
+      "probability_score": 0.03189,
       "kev": {
         "cveID": "CVE-2025-42599",
         "vendorProject": "Qualitia",
@@ -85869,7 +85869,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03462,
+      "probability_score": 0.03415,
       "kev": {
         "cveID": "CVE-2025-66644",
         "vendorProject": "Array Networks ",
@@ -91425,7 +91425,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79215,
+      "probability_score": 0.82323,
       "kev": {
         "cveID": "CVE-2026-72898",
         "vendorProject": "Metabase",
