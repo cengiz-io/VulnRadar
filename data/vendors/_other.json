@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T23:53:33+00:00",
+  "generated_at": "2026-09-01T05:04:43+00:00",
   "vendor": "_other",
-  "count": 966,
+  "count": 969,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -68301,6 +68301,46 @@
       }
     },
     {
+      "cve_id": "CVE-2026-14380",
+      "description": "DBI versions before 1.650 for Perl are vulnerable to code injection via caller-influenced Profile.\n\nWhen a string is assigned to a DBI handle's Profile attribute, DBI splits it into path, package and arguments, and interpolates the package part in a string eval with no validation of the package name.\n\nAny caller-influenced value that reaches the Profile attribute is therefore arbitrary Perl code execution, including calls to run system commands.\n\nThe Profile attribute can be set from three different sources that can carry untrusted data: the DBI_PROFILE environment variable, a direct attribute assignment, and a DSN driver-attribute clause dbi:Driver(Profile=>SPEC):db.\n\nAn attacker controlling any of those inputs runs arbitrary Perl in the host process. The strongest remote position is a network-exposed DBI::Gofer / DBI::ProxyServer whose per-request DSN reaches the Profile attribute, letting a client execute code on the broker host.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.650",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00518,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-95"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
       "cve_id": "CVE-2026-15228",
       "description": "Kong Kubernetes Ingress Controller (KIC) allows a user with namespace-scoped Secret creation privileges to cause a cluster-wide ingress configuration denial of service. KIC collects CA-certificate Secrets across all watched namespaces using a label selector alone, without ingress-class or namespace restrictions. The CA-certificate primary key is derived from a user-supplied field in the Secret. Duplicate CA-certificate IDs cause Kong Gateway to reject the entire configuration document and halting all ingress changes cluster-wide.",
       "cvss_score": 7.1,
@@ -68614,6 +68654,64 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-19873",
+      "description": "HTML::FormFu versions through 2.08 for Perl allow resource exhaustion via an unbounded repeat count from the query string in Repeatable elements.\n\nWhen a Repeatable element has counter_name set, its process method reads the repeat count from the named query string parameter, checks only that it is a positive integer, and passes it to repeat, which deep-clones the element's child subtree once per iteration. Nothing caps the value, and no attribute lets an application impose a limit.\n\nThe count is read on every request, before the form decides whether it was submitted, so a plain GET reaches the clone loop with no credentials, no session and no request body. Nesting multiplies: a Repeatable inside a Repeatable takes a counter at each level, so an outer and an inner value of 100 build 10,000 clones.\n\nOnce the form is submitted, each cloned field's constraints scan the whole element tree in _find_field_value, so cost grows faster than linearly with the count. A single request exhausts memory and CPU.\n\nThe latest release on CPAN is 2.07, from 2018. Version 2.08 exists only in the git repository.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.08",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-19953",
+      "description": "URI versions before 5.36 for Perl encode non-NFC host names to non-standard punycode labels via missing normalization in nameprep.\n\nnameprep lowercases each host label but performs no Unicode normalization. IDNA requires a label to be normalized to Form C before it is encoded (RFC 5891), so a label that is not already in NFC is encoded to a different A-label than its normalized form. A label built from the precomposed Devanagari sequence U+0958 U+093E encodes to xn--72b5c without normalization but to xn--11b2fg after NFC normalization, and xn--72b5c does not round-trip back to the original label.\n\nAny caller that reads host() from a URI built from untrusted input and uses it for a security decision (an allow or deny list, an SSRF filter, deduplication, a cache key) sees the non-standard label, while a client that fetches the same URL resolves the NFC form, so the check and the fetch can disagree about the host.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.36",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-1470",
@@ -82106,6 +82204,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
