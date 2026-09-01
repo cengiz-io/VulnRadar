@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-01T10:19:16+00:00`
+Generated: `2026-09-01T15:02:07+00:00`
 
 ## Executive Summary
 
@@ -198,9 +198,9 @@ Top critical items:
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
 | [CVE-2025-34028](https://www.cve.org/CVERecord?id=CVE-2025-34028) |  | KEV | ✅ | ✅ | 2025-05-23 | 0.977 | 9.3 |  | The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the … |
+| [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.925 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
 | [CVE-2025-2747](https://www.cve.org/CVERecord?id=CVE-2025-2747) |  | KEV | ✅ | ✅ | 2025-11-10 | 0.925 | 9.8 |  | An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server… |
 | [CVE-2024-56145](https://www.cve.org/CVERecord?id=CVE-2024-56145) |  | KEV | ✅ | ✅ | 2025-06-23 | 0.974 | 9.3 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerabi… |
-| [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.924 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
 | [CVE-2026-39987](https://www.cve.org/CVERecord?id=CVE-2026-39987) |  | KEV | ✅ | ✅ | 2026-05-07 | 0.973 | 9.3 |  | marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authenticati… |
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.902 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |

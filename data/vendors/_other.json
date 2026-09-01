@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T10:19:14+00:00",
+  "generated_at": "2026-09-01T15:02:05+00:00",
   "vendor": "_other",
   "count": 969,
   "items": [
@@ -6400,7 +6400,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0172,
+      "probability_score": 0.01735,
       "kev": {
         "cveID": "CVE-2025-22226",
         "vendorProject": "VMware",
@@ -6498,7 +6498,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87823,
+      "probability_score": 0.87944,
       "kev": {
         "cveID": "CVE-2025-29635",
         "vendorProject": "D-Link",
@@ -49150,7 +49150,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92414,
+      "probability_score": 0.9251,
       "kev": {
         "cveID": "CVE-2022-24706",
         "vendorProject": "Apache",
@@ -68751,7 +68751,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00517,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -68792,7 +68792,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00209,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -72737,7 +72737,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00393,
+      "probability_score": 0.00771,
       "kev": {
         "cveID": "CVE-2026-81578",
         "vendorProject": "PaperCut",
@@ -72788,7 +72788,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00462,
+      "probability_score": 0.00926,
       "kev": {
         "cveID": "CVE-2026-82078",
         "vendorProject": "PaperCut",
@@ -74554,7 +74554,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91357,
+      "probability_score": 0.90993,
       "kev": {
         "cveID": "CVE-2023-36844",
         "vendorProject": "Juniper",
@@ -77482,7 +77482,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.16832,
+      "probability_score": 0.19106,
       "kev": {
         "cveID": "CVE-2023-7101",
         "vendorProject": "Spreadsheet::ParseExcel",
@@ -91391,7 +91391,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84554,
+      "probability_score": 0.86777,
       "kev": {
         "cveID": "CVE-2026-60004",
         "vendorProject": "Gitea",
