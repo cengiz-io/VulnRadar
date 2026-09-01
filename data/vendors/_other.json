@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:04:43+00:00",
+  "generated_at": "2026-09-01T10:19:14+00:00",
   "vendor": "_other",
   "count": 969,
   "items": [
@@ -6837,7 +6837,18 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00439
+      "probability_score": 0.00439,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 6.4,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-82548",
@@ -6867,7 +6878,19 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00311
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 5.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-284"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-82549",
@@ -6897,7 +6920,19 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00186
+      "probability_score": 0.00186,
+      "nvd": {
+        "cvss_v3_score": 8.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 7.5,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-345",
+          "CWE-354"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-82550",
@@ -6927,7 +6962,18 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00405
+      "probability_score": 0.00405,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 5.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-82551",
@@ -6957,7 +7003,18 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00308
+      "probability_score": 0.00308,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 5.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-371"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
+      }
     },
     {
       "cve_id": "CVE-2026-82552",
@@ -6987,7 +7044,18 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00302
+      "probability_score": 0.00302,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-404"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2022-0543",
@@ -68334,7 +68402,8 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-95"
+          "CWE-95",
+          "CWE-470"
         ],
         "cpe_count": 1,
         "reference_count": 4
@@ -68658,9 +68727,9 @@
     {
       "cve_id": "CVE-2026-19873",
       "description": "HTML::FormFu versions through 2.08 for Perl allow resource exhaustion via an unbounded repeat count from the query string in Repeatable elements.\n\nWhen a Repeatable element has counter_name set, its process method reads the repeat count from the named query string parameter, checks only that it is a positive integer, and passes it to repeat, which deep-clones the element's child subtree once per iteration. Nothing caps the value, and no attribute lets an application impose a limit.\n\nThe count is read on every request, before the form decides whether it was submitted, so a plain GET reaches the clone loop with no credentials, no session and no request body. Nesting multiplies: a Repeatable inside a Repeatable takes a counter at each level, so an outer and an inner value of 100 build 10,000 clones.\n\nOnce the form is submitted, each cloned field's constraints scan the whole element tree in _find_field_value, so cost grows faster than linearly with the count. A single request exhausts memory and CPU.\n\nThe latest release on CPAN is 2.07, from 2018. Version 2.08 exists only in the git repository.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -68682,7 +68751,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770",
+          "CWE-1284"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-19953",
@@ -68711,7 +68792,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1289"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-1470",
@@ -72658,15 +72750,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-305"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 6,
+        "reference_count": 3
       }
     },
     {
@@ -72709,15 +72801,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-470"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 6,
+        "reference_count": 3
       }
     },
     {
