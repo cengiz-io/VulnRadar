@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:30:03+00:00",
+  "generated_at": "2026-09-02T04:26:33+00:00",
   "vendor": "red_hat",
   "count": 515,
   "items": [
@@ -17653,6 +17653,18 @@
           "versions": [
             {
               "version": "8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ceph storage 8.1",
+          "versions": [
+            {
+              "version": "1787550654",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
