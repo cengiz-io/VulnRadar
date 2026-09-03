@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-03T04:42:39+00:00`
+Generated: `2026-09-03T09:49:34+00:00`
 
 ## Executive Summary
 
@@ -126,6 +126,7 @@ Top critical items:
 | [CVE-2024-27198](https://www.cve.org/CVERecord?id=CVE-2024-27198) |  | KEV | ✅ | ✅ | 2024-03-28 | 0.999 | 9.8 |  | In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible |
 | [CVE-2023-34362](https://www.cve.org/CVERecord?id=CVE-2023-34362) |  | KEV | ✅ | ✅ | 2023-06-23 | 0.999 | 9.8 |  | In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerabi… |
 | [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.999 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
+| [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 0.999 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
 | [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.999 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
 | [CVE-2022-46169](https://www.cve.org/CVERecord?id=CVE-2022-46169) |  | KEV | ✅ | ✅ | 2023-03-09 | 0.998 | 9.8 |  | Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a… |
 | [CVE-2024-36401](https://www.cve.org/CVERecord?id=CVE-2024-36401) |  | KEV | ✅ | ✅ | 2024-08-05 | 0.998 | 9.8 |  | GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.22.6, 2.23.6, 2.24.4, and 2.25.2, multiple OGC requ… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.972 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
 | [CVE-2022-26143](https://www.cve.org/CVERecord?id=CVE-2022-26143) |  | KEV | ✅ | ✅ | 2022-04-15 | 0.872 | 9.8 |  | The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive i… |
 | [CVE-2026-34908](https://www.cve.org/CVERecord?id=CVE-2026-34908) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.852 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi OS devices to make unauthorized changes to t… |
-| [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.941 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
 
 ## Recent Changes (Last 7 Days)
 
@@ -303,4 +303,4 @@ Top critical items:
 | Aug 29 | [CVE-2026-80615](https://www.cve.org/CVERecord?id=CVE-2026-80615) | 🆕 New |
 | Aug 29 | [CVE-2026-80616](https://www.cve.org/CVERecord?id=CVE-2026-80616) | 🆕 New |
 | Aug 29 | [CVE-2026-80617](https://www.cve.org/CVERecord?id=CVE-2026-80617) | 🆕 New |
-| ... | | _and 214 more_ |
+| ... | | _and 109 more_ |
