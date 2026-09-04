@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T00:10:20+00:00",
+  "generated_at": "2026-09-04T04:34:04+00:00",
   "vendor": "_other",
-  "count": 977,
+  "count": 978,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -77373,7 +77373,7 @@
           "CWE-290"
         ],
         "cpe_count": 2,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -82948,6 +82948,44 @@
         "cpe_count": 1,
         "reference_count": 4
       }
+    },
+    {
+      "cve_id": "CVE-2026-76642",
+      "description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "util-linux",
+          "product": "util-linux",
+          "versions": [
+            {
+              "version": "2.39",
+              "lessThan": "2.41.6",
+              "status": "affected",
+              "versionType": "custom"
+            },
+            {
+              "version": "2.42",
+              "lessThan": "2.42.3",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:util-linux",
+        "vendor:util-linux"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2025-14733",

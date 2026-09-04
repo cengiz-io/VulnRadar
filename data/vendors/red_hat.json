@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:10:20+00:00",
+  "generated_at": "2026-09-04T04:34:04+00:00",
   "vendor": "red_hat",
   "count": 515,
   "items": [
@@ -69759,6 +69759,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
@@ -87961,6 +87973,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.18",
           "versions": [
             {
@@ -98145,6 +98169,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
@@ -98173,6 +98209,18 @@
           "versions": [
             {
               "version": "416.94.202608150307-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -99068,6 +99116,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.19",
           "versions": [
             {
@@ -99592,6 +99664,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
@@ -99620,6 +99704,18 @@
           "versions": [
             {
               "version": "416.94.202608150307-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -100149,10 +100245,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
               "version": "416.94.202608150307-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -100700,10 +100820,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
               "version": "416.94.202608150307-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -101615,10 +101759,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
               "version": "416.94.202608150307-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -103356,10 +103524,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.12",
+          "versions": [
+            {
+              "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
               "version": "416.94.202608150307-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.17",
+          "versions": [
+            {
+              "version": "417.94.202608250221-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
