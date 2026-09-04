@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:29:20+00:00",
+  "generated_at": "2026-09-04T18:28:25+00:00",
   "vendor": "microsoft",
   "count": 137,
   "items": [
@@ -4079,7 +4079,7 @@
         "shortDescription": "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-10-05",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 7.8,

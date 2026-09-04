@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T14:29:20+00:00",
+  "generated_at": "2026-09-04T18:28:25+00:00",
   "vendor": "_other",
-  "count": 978,
+  "count": 979,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -9536,6 +9536,46 @@
         ],
         "cpe_count": 4,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-85046",
+      "description": "Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "google",
+          "product": "chrome",
+          "versions": [
+            {
+              "version": "152.0.7977.82",
+              "status": "affected",
+              "lessThan": "152.0.7977.82",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00462,
+      "kev": {
+        "cveID": "CVE-2026-85046",
+        "vendorProject": "Google",
+        "product": "Chromium V8",
+        "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
+        "dateAdded": "2026-09-04",
+        "shortDescription": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-18",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     },
     {
