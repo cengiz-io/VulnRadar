@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:41:25+00:00",
+  "generated_at": "2026-09-04T14:29:20+00:00",
   "vendor": "microsoft",
   "count": 137,
   "items": [
@@ -2123,7 +2123,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.07304,
+      "probability_score": 0.07134,
       "kev": {
         "cveID": "CVE-2022-24521",
         "vendorProject": "Microsoft",
@@ -2486,7 +2486,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09817,
+      "probability_score": 0.09592,
       "kev": {
         "cveID": "CVE-2022-26904",
         "vendorProject": "Microsoft",
@@ -23274,7 +23274,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13789,
+      "probability_score": 0.13904,
       "kev": {
         "cveID": "CVE-2025-29824",
         "vendorProject": "Microsoft",
@@ -26728,7 +26728,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02416,
+      "probability_score": 0.02505,
       "kev": {
         "cveID": "CVE-2025-62221",
         "vendorProject": "Microsoft",
