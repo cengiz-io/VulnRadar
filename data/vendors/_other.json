@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:42:40+00:00",
+  "generated_at": "2026-09-05T16:04:25+00:00",
   "vendor": "_other",
   "count": 980,
   "items": [
@@ -9516,7 +9516,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00462,
+      "probability_score": 0.00885,
       "kev": {
         "cveID": "CVE-2026-85046",
         "vendorProject": "Google",
@@ -24015,7 +24015,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.15852,
+      "probability_score": 0.1575,
       "kev": {
         "cveID": "CVE-2024-20481",
         "vendorProject": "Cisco",
@@ -42298,7 +42298,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99722,
+      "probability_score": 0.99732,
       "kev": {
         "cveID": "CVE-2025-61882",
         "vendorProject": "Oracle",
@@ -49847,7 +49847,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9722,
+      "probability_score": 0.98256,
       "kev": {
         "cveID": "CVE-2026-34197",
         "vendorProject": "Apache",
@@ -53091,7 +53091,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.12316,
+      "probability_score": 0.10682,
       "kev": {
         "cveID": "CVE-2022-41328",
         "vendorProject": "Fortinet",
@@ -53797,7 +53797,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9495,
+      "probability_score": 0.9507,
       "kev": {
         "cveID": "CVE-2024-47575",
         "vendorProject": "Fortinet",
@@ -68974,7 +68974,7 @@
         "product:re gallery"
       ],
       "active_threat": false,
-      "probability_score": 0.0028,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70561,7 +70561,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -74625,7 +74625,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90993,
+      "probability_score": 0.89318,
       "kev": {
         "cveID": "CVE-2023-36844",
         "vendorProject": "Juniper",
@@ -85148,7 +85148,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93256,
+      "probability_score": 0.93667,
       "kev": {
         "cveID": "CVE-2025-4008",
         "vendorProject": "Smartbedded",
@@ -86939,7 +86939,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.15667,
+      "probability_score": 0.21985,
       "kev": {
         "cveID": "CVE-2025-67038",
         "vendorProject": "Lantronix",
@@ -87143,7 +87143,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82693,
+      "probability_score": 0.82471,
       "kev": {
         "cveID": "CVE-2025-8110",
         "vendorProject": "Gogs",
