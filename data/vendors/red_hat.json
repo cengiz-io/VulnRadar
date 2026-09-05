@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:01:21+00:00",
+  "generated_at": "2026-09-05T04:40:26+00:00",
   "vendor": "red_hat",
   "count": 515,
   "items": [
@@ -17769,7 +17769,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift pipelines 1.18",
+          "product": "red hat openshift pipelines 1.18.0",
           "versions": [
             {
               "version": "v1.18.1-1747749913",
@@ -48659,8 +48659,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 7",
-          "versions": null
+          "product": "red hat jboss enterprise application platform",
+          "versions": [
+            {
+              "version": "2.2.33.SP1-redhat-00001",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -69843,7 +69850,7 @@
           "CWE-416"
         ],
         "cpe_count": 0,
-        "reference_count": 12
+        "reference_count": 13
       }
     },
     {
@@ -72327,7 +72334,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "builds for red hat openshift 1.3.2",
+          "product": "builds for red hat openshift 1.3.1",
           "versions": [
             {
               "version": "1.3.1-1741784043",
@@ -88062,7 +88069,7 @@
           "CWE-120"
         ],
         "cpe_count": 1,
-        "reference_count": 16
+        "reference_count": 17
       }
     },
     {
@@ -95813,8 +95820,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 8.1",
-          "versions": null
+          "product": "red hat jboss enterprise application platform 8.1.6",
+          "versions": [
+            {
+              "version": "2.3.24.SP2-redhat-00001",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -98440,7 +98454,7 @@
           "CWE-191"
         ],
         "cpe_count": 7,
-        "reference_count": 51
+        "reference_count": 53
       }
     },
     {
@@ -99303,7 +99317,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 20
+        "reference_count": 22
       }
     },
     {
@@ -99971,7 +99985,7 @@
           "CWE-475"
         ],
         "cpe_count": 44,
-        "reference_count": 58
+        "reference_count": 60
       }
     },
     {
@@ -100534,7 +100548,7 @@
           "CWE-626"
         ],
         "cpe_count": 8,
-        "reference_count": 52
+        "reference_count": 54
       }
     },
     {
@@ -101031,7 +101045,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 21
+        "reference_count": 23
       }
     },
     {
@@ -101970,7 +101984,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 21
+        "reference_count": 23
       }
     },
     {
@@ -103740,7 +103754,7 @@
           "CWE-126"
         ],
         "cpe_count": 0,
-        "reference_count": 20
+        "reference_count": 22
       }
     },
     {
@@ -104861,7 +104875,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "multicluster engine for kubernetes 2.10",
+          "product": "multicluster engine for kubernetes 2.1",
           "versions": [
             {
               "version": "1776983527",
