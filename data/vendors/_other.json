@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:31:30+00:00",
+  "generated_at": "2026-09-06T09:25:44+00:00",
   "vendor": "_other",
   "count": 980,
   "items": [
@@ -9536,8 +9536,8 @@
         "cwe_ids": [
           "CWE-843"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 1,
+        "reference_count": 7
       }
     },
     {
@@ -70561,7 +70561,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171
+      "probability_score": 0.00171,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-405",
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -70603,7 +70615,7 @@
           "CWE-78"
         ],
         "cpe_count": 0,
-        "reference_count": 38
+        "reference_count": 39
       }
     },
     {
@@ -86957,10 +86969,11 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-78",
           "CWE-94"
         ],
         "cpe_count": 6,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -91418,7 +91431,7 @@
           "CWE-1289"
         ],
         "cpe_count": 12,
-        "reference_count": 28
+        "reference_count": 29
       }
     },
     {
