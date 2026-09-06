@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-06T09:25:46+00:00`
+Generated: `2026-09-06T13:41:48+00:00`
 
 ## Executive Summary
 
@@ -173,6 +173,7 @@ Top critical items:
 | [CVE-2023-33246](https://www.cve.org/CVERecord?id=CVE-2023-33246) |  | KEV | ✅ | ✅ | 2023-09-27 | 0.966 | 9.8 |  | For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution.   Several components of RocketMQ, including NameS… |
 | [CVE-2023-46747](https://www.cve.org/CVERecord?id=CVE-2023-46747) |  | KEV | ✅ | ✅ | 2023-11-21 | 0.965 | 9.8 |  | Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port… |
 | [CVE-2024-55591](https://www.cve.org/CVERecord?id=CVE-2024-55591) |  | KEV | ✅ | ✅ | 2025-01-21 | 0.983 | 9.6 |  | An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0… |
+| [CVE-2026-72898](https://www.cve.org/CVERecord?id=CVE-2026-72898) |  | KEV | ✅ | ✅ | 2026-08-14 | 0.942 | 10.0 |  | Metabase allows a remote, unauthenticated attacker to inject arbitrary SQL via the '/reset_password' database endpoint and gain administrator access to the con… |
 | [CVE-2022-24112](https://www.cve.org/CVERecord?id=CVE-2022-24112) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.960 | 9.8 |  | An attacker can abuse the batch-requests plugin to send requests to bypass the IP restriction of Admin API. A default configuration of Apache APISIX (with defa… |
 | [CVE-2023-4966](https://www.cve.org/CVERecord?id=CVE-2023-4966) |  | KEV | ✅ | ✅ | 2023-11-08 | 1.000 | 9.4 |  | Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA  v… |
 | [CVE-2022-41352](https://www.cve.org/CVERecord?id=CVE-2022-41352) |  | KEV | ✅ | ✅ | 2022-11-10 | 0.955 | 9.8 |  | An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to … |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.855 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 | [CVE-2022-26143](https://www.cve.org/CVERecord?id=CVE-2022-26143) |  | KEV | ✅ | ✅ | 2022-04-15 | 0.872 | 9.8 |  | The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive i… |
 | [CVE-2026-34908](https://www.cve.org/CVERecord?id=CVE-2026-34908) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.852 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi OS devices to make unauthorized changes to t… |
-| [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.941 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
 
 ## Recent Changes (Last 7 Days)
 

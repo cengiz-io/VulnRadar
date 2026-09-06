@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:25:44+00:00",
+  "generated_at": "2026-09-06T13:41:46+00:00",
   "vendor": "red_hat",
   "count": 515,
   "items": [
@@ -3010,7 +3010,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00365,
+      "probability_score": 0.00368,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -4106,7 +4106,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -84260,7 +84260,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00731,
+      "probability_score": 0.00776,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -84831,7 +84831,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01483,
+      "probability_score": 0.0149,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -86125,7 +86125,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00494,
+      "probability_score": 0.00518,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -88059,7 +88059,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0041,
+      "probability_score": 0.0042,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -92546,7 +92546,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0028,
+      "probability_score": 0.00297,
       "nvd": {
         "cvss_v3_score": 2.5,
         "cvss_v3_severity": "LOW",

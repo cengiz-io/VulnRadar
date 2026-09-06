@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:25:44+00:00",
+  "generated_at": "2026-09-06T13:41:46+00:00",
   "vendor": "_other",
   "count": 980,
   "items": [
@@ -2119,7 +2119,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.49431,
+      "probability_score": 0.48497,
       "kev": {
         "cveID": "CVE-2022-23227",
         "vendorProject": "NUUO",
@@ -6596,7 +6596,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04035,
+      "probability_score": 0.04927,
       "kev": {
         "cveID": "CVE-2025-47827",
         "vendorProject": "IGEL",
@@ -7706,7 +7706,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02203,
+      "probability_score": 0.02782,
       "kev": {
         "cveID": "CVE-2023-35674",
         "vendorProject": "Android",
@@ -7808,7 +7808,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.39933,
+      "probability_score": 0.41081,
       "kev": {
         "cveID": "CVE-2023-4762",
         "vendorProject": "Google",
@@ -9516,7 +9516,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00885,
+      "probability_score": 0.01162,
       "kev": {
         "cveID": "CVE-2026-85046",
         "vendorProject": "Google",
@@ -44395,7 +44395,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00847,
+      "probability_score": 0.00924,
       "kev": {
         "cveID": "CVE-2023-33106",
         "vendorProject": "Qualcomm",
@@ -46625,7 +46625,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00871,
+      "probability_score": 0.01016,
       "kev": {
         "cveID": "CVE-2025-27038",
         "vendorProject": "Qualcomm",
@@ -47610,7 +47610,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01069,
+      "probability_score": 0.01287,
       "kev": {
         "cveID": "CVE-2026-21385",
         "vendorProject": "Qualcomm",
@@ -49317,7 +49317,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96604,
+      "probability_score": 0.96568,
       "kev": {
         "cveID": "CVE-2023-33246",
         "vendorProject": "Apache",
@@ -53935,7 +53935,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06969,
+      "probability_score": 0.07106,
       "kev": {
         "cveID": "CVE-2025-24472",
         "vendorProject": "Fortinet",
@@ -65806,7 +65806,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00402,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",
@@ -67604,7 +67604,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00736,
+      "probability_score": 0.008,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -67649,7 +67649,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00303,
+      "probability_score": 0.0034,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -67689,7 +67689,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00862,
+      "probability_score": 0.00931,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -68149,7 +68149,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.08643,
+      "probability_score": 0.0883,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -73020,7 +73020,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87449,
+      "probability_score": 0.87691,
       "kev": {
         "cveID": "CVE-2023-2868",
         "vendorProject": "Barracuda Networks",
@@ -81258,7 +81258,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.8464,
+      "probability_score": 0.8449,
       "kev": {
         "cveID": "CVE-2024-58136",
         "vendorProject": "Yiiframework",
@@ -92745,7 +92745,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82323,
+      "probability_score": 0.94217,
       "kev": {
         "cveID": "CVE-2026-72898",
         "vendorProject": "Metabase",
