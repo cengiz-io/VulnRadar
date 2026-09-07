@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-07T10:19:39+00:00`
+Generated: `2026-09-07T16:33:30+00:00`
 
 ## Executive Summary
 
@@ -179,6 +179,7 @@ Top critical items:
 | [CVE-2022-41352](https://www.cve.org/CVERecord?id=CVE-2022-41352) |  | KEV | ✅ | ✅ | 2022-11-10 | 0.955 | 9.8 |  | An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to … |
 | [CVE-2026-35273](https://www.cve.org/CVERecord?id=CVE-2026-35273) |  | KEV | ✅ | ✅ | 2026-06-15 | 0.955 | 9.8 |  | Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Updates Environment Management). Supported versions that are af… |
 | [CVE-2024-53704](https://www.cve.org/CVERecord?id=CVE-2024-53704) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.951 | 9.8 |  | An Improper Authentication vulnerability in the SSLVPN authentication mechanism allows a remote attacker to bypass authentication. |
+| [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.951 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
 | [CVE-2024-47575](https://www.cve.org/CVERecord?id=CVE-2024-47575) |  | KEV | ✅ | ✅ | 2024-11-13 | 0.951 | 9.8 |  | A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 th… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
 | [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
@@ -187,7 +188,6 @@ Top critical items:
 | [CVE-2024-0012](https://www.cve.org/CVERecord?id=CVE-2024-0012) |  | KEV | ✅ | ✅ | 2024-12-09 | 0.997 | 9.3 |  | An authentication bypass in Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to gain … |
 | [CVE-2024-21413](https://www.cve.org/CVERecord?id=CVE-2024-21413) |  | KEV | ✅ | ✅ | 2025-02-27 | 0.947 | 9.8 |  | Microsoft Outlook Remote Code Execution Vulnerability |
 | [CVE-2024-8963](https://www.cve.org/CVERecord?id=CVE-2024-8963) |  | KEV | ✅ | ✅ | 2024-10-10 | 0.986 | 9.4 |  | Path Traversal in the Ivanti CSA before 4.6 Patch 519 allows a remote unauthenticated attacker to access restricted functionality. |
-| [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.946 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
 | [CVE-2022-42475](https://www.cve.org/CVERecord?id=CVE-2022-42475) |  | KEV | ✅ | ✅ | 2023-01-03 | 0.995 | 9.3 |  | A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6… |
 | [CVE-2024-55956](https://www.cve.org/CVERecord?id=CVE-2024-55956) |  | KEV | ✅ | ✅ | 2025-01-07 | 0.940 | 9.8 |  | In Cleo Harmony before 5.8.0.24, VLTrader before 5.8.0.24, and LexiCom before 5.8.0.24, an unauthenticated user can import and execute arbitrary Bash or PowerS… |
 | [CVE-2026-39987](https://www.cve.org/CVERecord?id=CVE-2026-39987) |  | KEV | ✅ | ✅ | 2026-05-07 | 0.989 | 9.3 |  | marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authenticati… |
@@ -206,6 +206,7 @@ Top critical items:
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.902 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2024-20439](https://www.cve.org/CVERecord?id=CVE-2024-20439) |  | KEV | ✅ | ✅ | 2025-04-21 | 0.921 | 9.8 |  | A vulnerability in Cisco Smart Licensing Utility (CSLU) could allow an unauthenticated, remote attacker to log into an affected system by using a static admini… |
+| [CVE-2022-26258](https://www.cve.org/CVERecord?id=CVE-2022-26258) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.920 | 9.8 |  | D-Link DIR-820L 1.05B03 was discovered to contain remote command execution (RCE) vulnerability via HTTP POST to get set ccp. |
 | [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2025-0282](https://www.cve.org/CVERecord?id=CVE-2025-0282) |  | KEV | ✅ | ✅ | 2025-01-15 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gatewa… |
 | [CVE-2022-37042](https://www.cve.org/CVERecord?id=CVE-2022-37042) |  | KEV | ✅ | ✅ | 2022-09-01 | 0.919 | 9.8 |  | Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authenticatio… |
@@ -234,8 +235,8 @@ Top critical items:
 | [CVE-2024-51567](https://www.cve.org/CVERecord?id=CVE-2024-51567) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.865 | 10.0 |  | upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary … |
 | [CVE-2025-0108](https://www.cve.org/CVERecord?id=CVE-2025-0108) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.985 | 8.8 |  | An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to b… |
 | [CVE-2023-27524](https://www.cve.org/CVERecord?id=CVE-2023-27524) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.974 | 8.9 |  | Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY accordi… |
+| [CVE-2025-61757](https://www.cve.org/CVERecord?id=CVE-2025-61757) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.883 | 9.8 |  | Vulnerability in the Identity Manager product of Oracle Fusion Middleware (component: REST WebServices).  Supported versions that are affected are 12.2.1.4.0 a… |
 | [CVE-2026-34197](https://www.cve.org/CVERecord?id=CVE-2026-34197) |  | KEV | ✅ | ✅ | 2026-04-30 | 0.983 | 8.8 |  | Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ.  Apache ActiveMQ… |
-| [CVE-2025-61757](https://www.cve.org/CVERecord?id=CVE-2025-61757) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.882 | 9.8 |  | Vulnerability in the Identity Manager product of Oracle Fusion Middleware (component: REST WebServices).  Supported versions that are affected are 12.2.1.4.0 a… |
 | [CVE-2023-32315](https://www.cve.org/CVERecord?id=CVE-2023-32315) |  | KEV | ✅ | ✅ | 2023-09-14 | 1.000 | 8.6 |  | Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerabl… |
 | [CVE-2024-12356](https://www.cve.org/CVERecord?id=CVE-2024-12356) |  | KEV | ✅ | ✅ | 2024-12-27 | 0.880 | 9.8 |  | A critical vulnerability has been discovered in Privileged Remote Access (PRA) and Remote Support (RS) products which can allow an unauthenticated attacker to … |
 | [CVE-2024-24919](https://www.cve.org/CVERecord?id=CVE-2024-24919) |  | KEV | ✅ | ✅ | 2024-06-20 | 1.000 | 8.6 |  | Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2025-54236](https://www.cve.org/CVERecord?id=CVE-2025-54236) |  | KEV | ✅ | ✅ | 2025-11-14 | 0.945 | 9.1 |  | Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerabilit… |
 | [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.855 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 | [CVE-2022-26143](https://www.cve.org/CVERecord?id=CVE-2022-26143) |  | KEV | ✅ | ✅ | 2022-04-15 | 0.872 | 9.8 |  | The TP-240 (aka tp240dvr) component in Mitel MiCollab before 9.4 SP1 FP1 and MiVoice Business Express through 8.1 allows remote attackers to obtain sensitive i… |
-| [CVE-2026-34908](https://www.cve.org/CVERecord?id=CVE-2026-34908) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.852 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi OS devices to make unauthorized changes to t… |
 
 ## Recent Changes (Last 7 Days)
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:19:37+00:00",
+  "generated_at": "2026-09-07T16:33:28+00:00",
   "vendor": "_other",
   "count": 982,
   "items": [
@@ -1126,7 +1126,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0196,
+      "probability_score": 0.01999,
       "kev": {
         "cveID": "CVE-2025-0111",
         "vendorProject": "Palo Alto Networks",
@@ -2365,7 +2365,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.80377,
+      "probability_score": 0.91981,
       "kev": {
         "cveID": "CVE-2022-26258",
         "vendorProject": "D-Link",
@@ -4126,7 +4126,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01255,
+      "probability_score": 0.01218,
       "kev": {
         "cveID": "CVE-2023-26083",
         "vendorProject": "Arm",
@@ -8186,7 +8186,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0068,
+      "probability_score": 0.0067,
       "kev": {
         "cveID": "CVE-2024-29748",
         "vendorProject": "Android",
@@ -8762,7 +8762,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.22632,
+      "probability_score": 0.22327,
       "kev": {
         "cveID": "CVE-2025-14174",
         "vendorProject": "Google",
@@ -18405,7 +18405,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.25365,
+      "probability_score": 0.25564,
       "kev": {
         "cveID": "CVE-2023-20269",
         "vendorProject": "Cisco",
@@ -42192,7 +42192,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01465,
+      "probability_score": 0.01723,
       "kev": {
         "cveID": "CVE-2024-21287",
         "vendorProject": "Oracle",
@@ -42247,7 +42247,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.88201,
+      "probability_score": 0.88312,
       "kev": {
         "cveID": "CVE-2025-61757",
         "vendorProject": "Oracle",
@@ -52513,7 +52513,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84195,
+      "probability_score": 0.83787,
       "kev": {
         "cveID": "CVE-2023-27992",
         "vendorProject": "Zyxel",
@@ -70602,7 +70602,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00217
     },
     {
       "cve_id": "CVE-2026-86304",
@@ -70631,7 +70631,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00106
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -73027,7 +73027,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08111,
+      "probability_score": 0.08377,
       "kev": {
         "cveID": "CVE-2023-28434",
         "vendorProject": "MinIO",
@@ -74695,7 +74695,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89318,
+      "probability_score": 0.89958,
       "kev": {
         "cveID": "CVE-2023-36844",
         "vendorProject": "Juniper",
@@ -74800,7 +74800,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94595,
+      "probability_score": 0.9507,
       "kev": {
         "cveID": "CVE-2023-36845",
         "vendorProject": "Juniper",
@@ -76019,7 +76019,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.74933,
+      "probability_score": 0.75103,
       "kev": {
         "cveID": "CVE-2023-44221",
         "vendorProject": "SonicWall",
@@ -81316,7 +81316,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.8449,
+      "probability_score": 0.84609,
       "kev": {
         "cveID": "CVE-2024-58136",
         "vendorProject": "Yiiframework",
@@ -86276,7 +86276,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99962,
+      "probability_score": 0.99953,
       "kev": {
         "cveID": "CVE-2025-5777",
         "vendorProject": "Citrix",
