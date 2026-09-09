@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:47:18+00:00",
+  "generated_at": "2026-09-09T14:34:41+00:00",
   "vendor": "_other",
   "count": 996,
   "items": [
@@ -426,7 +426,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.28617,
+      "probability_score": 0.28408,
       "kev": {
         "cveID": "CVE-2024-3393",
         "vendorProject": "Palo Alto Networks",
@@ -3547,7 +3547,7 @@
         "shortDescription": "Synacor Zimbra Collaboration Suite (ZCS) allows an attacker to upload arbitrary files using cpio package to gain incorrect access to any other user accounts.",
         "requiredAction": "Apply updates per vendor instructions.",
         "dueDate": "2022-11-10",
-        "knownRansomwareCampaignUse": "Unknown"
+        "knownRansomwareCampaignUse": "Known"
       },
       "nvd": {
         "cvss_v3_score": 9.8,
@@ -3978,7 +3978,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.80274,
+      "probability_score": 0.80139,
       "kev": {
         "cveID": "CVE-2023-22952",
         "vendorProject": "SugarCRM",
@@ -9516,7 +9516,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01162,
+      "probability_score": 0.01427,
       "kev": {
         "cveID": "CVE-2026-85046",
         "vendorProject": "Google",
@@ -31854,7 +31854,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04382,
+      "probability_score": 0.04478,
       "kev": {
         "cveID": "CVE-2026-20045",
         "vendorProject": "Cisco",
@@ -49128,7 +49128,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00676,
+      "probability_score": 0.02148,
       "kev": {
         "cveID": "CVE-2026-75650",
         "vendorProject": "Adobe",
@@ -54626,7 +54626,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.2915,
+      "probability_score": 0.29601,
       "kev": {
         "cveID": "CVE-2025-68686",
         "vendorProject": "Fortinet",
@@ -55315,7 +55315,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00481,
+      "probability_score": 0.00492,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -68748,7 +68748,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.0063,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -69016,7 +69016,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00226
     },
     {
       "cve_id": "CVE-2026-19873",
@@ -69266,7 +69266,7 @@
         "product:re gallery"
       ],
       "active_threat": false,
-      "probability_score": 0.003,
+      "probability_score": 0.00297,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70946,7 +70946,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171,
+      "probability_score": 0.00239,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -70987,7 +70987,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00199
     },
     {
       "cve_id": "CVE-2026-85485",
@@ -71016,7 +71016,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00186
     },
     {
       "cve_id": "CVE-2026-85630",
@@ -71045,7 +71045,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00199
     },
     {
       "cve_id": "CVE-2026-86219",
@@ -71074,7 +71074,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00217,
+      "probability_score": 0.00486,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -71114,7 +71114,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0017,
+      "probability_score": 0.00385,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -71154,7 +71154,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00106,
+      "probability_score": 0.00225,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -71667,7 +71667,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.57019,
+      "probability_score": 0.60597,
       "kev": {
         "cveID": "CVE-2026-9198",
         "vendorProject": "IBM",
@@ -73613,7 +73613,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08377,
+      "probability_score": 0.07917,
       "kev": {
         "cveID": "CVE-2023-28434",
         "vendorProject": "MinIO",
@@ -75485,7 +75485,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95101,
+      "probability_score": 0.9482,
       "kev": {
         "cveID": "CVE-2023-36846",
         "vendorProject": "Juniper",
@@ -76989,7 +76989,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0071,
+      "probability_score": 0.07447,
       "kev": {
         "cveID": "CVE-2026-83548",
         "vendorProject": "SonicWall",
@@ -77043,7 +77043,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01625,
+      "probability_score": 0.13843,
       "kev": {
         "cveID": "CVE-2026-83549",
         "vendorProject": "SonicWall",
@@ -83184,7 +83184,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92094,
+      "probability_score": 0.92137,
       "kev": {
         "cveID": "CVE-2025-11371",
         "vendorProject": "Gladinet",
@@ -85573,7 +85573,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92823,
+      "probability_score": 0.92862,
       "kev": {
         "cveID": "CVE-2025-47812",
         "vendorProject": "Wing FTP Server",
@@ -85624,7 +85624,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59403,
+      "probability_score": 0.62967,
       "kev": {
         "cveID": "CVE-2025-47813",
         "vendorProject": "Wing FTP Server",
@@ -87595,7 +87595,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21985,
+      "probability_score": 0.1926,
       "kev": {
         "cveID": "CVE-2025-67038",
         "vendorProject": "Lantronix",
@@ -88493,7 +88493,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00411,
+      "probability_score": 0.00744,
       "kev": {
         "cveID": "CVE-2026-86218",
         "vendorProject": "N-able",
@@ -89057,7 +89057,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97878,
+      "probability_score": 0.97993,
       "kev": {
         "cveID": "CVE-2026-24061",
         "vendorProject": "GNU",

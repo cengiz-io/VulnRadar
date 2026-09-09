@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-09T09:47:21+00:00`
+Generated: `2026-09-09T14:34:44+00:00`
 
 ## Executive Summary
 
@@ -156,8 +156,8 @@ Top critical items:
 | [CVE-2023-25717](https://www.cve.org/CVERecord?id=CVE-2023-25717) |  | KEV | ✅ | ✅ | 2023-06-02 | 0.981 | 9.8 |  | Ruckus Wireless Admin through 10.4 allows Remote Code Execution via an unauthenticated HTTP GET Request, as demonstrated by a /forms/doLogin?login_username=adm… |
 | [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2022-29303](https://www.cve.org/CVERecord?id=CVE-2022-29303) |  | KEV | ✅ | ✅ | 2023-08-03 | 0.980 | 9.8 |  | SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php. |
+| [CVE-2026-24061](https://www.cve.org/CVERecord?id=CVE-2026-24061) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.980 | 9.8 |  | telnetd in GNU Inetutils through 2.7 allows remote authentication bypass via a "-f root" value for the USER environment variable. |
 | [CVE-2024-29824](https://www.cve.org/CVERecord?id=CVE-2024-29824) |  | KEV | ✅ | ✅ | 2024-10-23 | 1.000 | 9.6 |  | An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execut… |
-| [CVE-2026-24061](https://www.cve.org/CVERecord?id=CVE-2026-24061) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.979 | 9.8 |  | telnetd in GNU Inetutils through 2.7 allows remote authentication bypass via a "-f root" value for the USER environment variable. |
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.979 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
 | [CVE-2025-25257](https://www.cve.org/CVERecord?id=CVE-2025-25257) |  | KEV | ✅ | ✅ | 2025-08-08 | 0.998 | 9.6 |  | An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiWeb 7.6.0 through… |
 | [CVE-2026-8037](https://www.cve.org/CVERecord?id=CVE-2026-8037) |  | KEV | ✅ | ✅ | 2026-08-10 | 0.996 | 9.6 |  | OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an un-authenticated attacker to execute arbitrary commands on t… |
@@ -183,8 +183,8 @@ Top critical items:
 | [CVE-2024-47575](https://www.cve.org/CVERecord?id=CVE-2024-47575) |  | KEV | ✅ | ✅ | 2024-11-13 | 0.951 | 9.8 |  | A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 th… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
 | [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
+| [CVE-2025-47812](https://www.cve.org/CVERecord?id=CVE-2025-47812) |  | KEV | ✅ | ✅ | 2025-08-04 | 0.929 | 10.0 |  | In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session … |
 | [CVE-2025-24016](https://www.cve.org/CVERecord?id=CVE-2025-24016) |  | KEV | ✅ | ✅ | 2025-07-01 | 0.938 | 9.9 |  | Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe d… |
-| [CVE-2025-47812](https://www.cve.org/CVERecord?id=CVE-2025-47812) |  | KEV | ✅ | ✅ | 2025-08-04 | 0.928 | 10.0 |  | In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session … |
 | [CVE-2024-0012](https://www.cve.org/CVERecord?id=CVE-2024-0012) |  | KEV | ✅ | ✅ | 2024-12-09 | 0.997 | 9.3 |  | An authentication bypass in Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to gain … |
 | [CVE-2024-21413](https://www.cve.org/CVERecord?id=CVE-2024-21413) |  | KEV | ✅ | ✅ | 2025-02-27 | 0.947 | 9.8 |  | Microsoft Outlook Remote Code Execution Vulnerability |
 | [CVE-2024-8963](https://www.cve.org/CVERecord?id=CVE-2024-8963) |  | KEV | ✅ | ✅ | 2024-10-10 | 0.986 | 9.4 |  | Path Traversal in the Ivanti CSA before 4.6 Patch 519 allows a remote unauthenticated attacker to access restricted functionality. |
