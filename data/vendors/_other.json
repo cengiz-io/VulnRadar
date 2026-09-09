@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T18:38:00+00:00",
+  "generated_at": "2026-09-09T21:51:45+00:00",
   "vendor": "_other",
-  "count": 996,
+  "count": 999,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -31879,6 +31879,335 @@
       }
     },
     {
+      "cve_id": "CVE-2026-20079",
+      "description": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&nbsp;\r\n\r\nThis vulnerability is due to an improper system process that is created at boot time. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute a variety of scripts and commands that allow&nbsp;root access to the device.&nbsp;",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "cisco",
+          "product": "cisco secure firewall management center (fmc)",
+          "versions": [
+            {
+              "version": "7.0.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.1.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.1.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.1.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.3",
+              "status": "affected"
+            },
+            {
+              "version": "7.1.0.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.4",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.5",
+              "status": "affected"
+            },
+            {
+              "version": "7.3.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.3.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.3",
+              "status": "affected"
+            },
+            {
+              "version": "7.1.0.3",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.3.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.4",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.6",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.4.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.5",
+              "status": "affected"
+            },
+            {
+              "version": "7.3.1.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.6.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.5.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.6",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.1.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.6.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.7",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.5.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.3.1.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.8",
+              "status": "affected"
+            },
+            {
+              "version": "7.6.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.8.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.6.3",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.9",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.7",
+              "status": "affected"
+            },
+            {
+              "version": "7.7.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.2.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.10",
+              "status": "affected"
+            },
+            {
+              "version": "7.6.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.2.3",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.8",
+              "status": "affected"
+            },
+            {
+              "version": "7.6.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.7.10",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.10.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.8.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.6.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.10.2",
+              "status": "affected"
+            },
+            {
+              "version": "7.7.10.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.2.4",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.3",
+              "status": "affected"
+            },
+            {
+              "version": "7.7.11",
+              "status": "affected"
+            },
+            {
+              "version": "7.6.4",
+              "status": "affected"
+            },
+            {
+              "version": "10.0.0",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.4",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.5",
+              "status": "affected"
+            },
+            {
+              "version": "7.0.9",
+              "status": "affected"
+            },
+            {
+              "version": "7.2.11",
+              "status": "affected"
+            },
+            {
+              "version": "7.7.12",
+              "status": "affected"
+            },
+            {
+              "version": "7.6.5",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.6",
+              "status": "affected"
+            },
+            {
+              "version": "10.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "7.4.7",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.35946,
+      "kev": {
+        "cveID": "CVE-2026-20079",
+        "vendorProject": "Cisco",
+        "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+        "vulnerabilityName": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+        "dateAdded": "2026-09-09",
+        "shortDescription": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-12",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 10.0,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-288"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2026-20122",
       "description": "A vulnerability in the API of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to overwrite arbitrary files on the local file system. To exploit this vulnerability, the attacker must have valid read-only credentials with API access on the affected system.\r\n\r\nThis vulnerability is due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on the local file system. A successful exploit could allow the attacker to overwrite arbitrary files on the affected system&nbsp;and gain vmanage user privileges.",
       "cvss_score": 5.4,
@@ -54046,6 +54375,82 @@
           "CWE-288"
         ],
         "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-25249",
+      "description": "A heap-based buffer overflow vulnerability in Fortinet FortiOS 7.6.0 through 7.6.3, FortiOS 7.4.0 through 7.4.8, FortiOS 7.2.0 through 7.2.11, FortiOS 7.0.0 through 7.0.17, FortiOS 6.4 all versions, FortiSwitchManager 7.2.0 through 7.2.6, FortiSwitchManager 7.0.0 through 7.0.5 allows attacker to execute unauthorized code or commands via specially crafted packets",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:W/RC:C",
+      "affected": [
+        {
+          "vendor": "fortinet",
+          "product": "fortiswitchmanager",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "7.2.2",
+              "lessThanOrEqual": "7.2.5",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "fortinet",
+          "product": "fortios",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "7.6.0",
+              "lessThanOrEqual": "7.6.2",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.4.0",
+              "lessThanOrEqual": "7.4.7",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.2.4",
+              "lessThanOrEqual": "7.2.11",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00759,
+      "kev": {
+        "cveID": "CVE-2025-25249",
+        "vendorProject": "Fortinet",
+        "product": "Multiple Products",
+        "vulnerabilityName": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+        "dateAdded": "2026-09-09",
+        "shortDescription": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-12",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "cpe_count": 9,
         "reference_count": 2
       }
     },
@@ -87072,6 +87477,81 @@
         ],
         "cpe_count": 8,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-19490",
+      "description": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 through 73.32 and from 13.1 through 63.21.",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L",
+      "affected": [
+        {
+          "vendor": "netscaler",
+          "product": "adc",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "14.1",
+              "lessThanOrEqual": "73.32",
+              "versionType": "patch"
+            },
+            {
+              "status": "affected",
+              "version": "13.1",
+              "lessThanOrEqual": "63.21",
+              "versionType": "patch"
+            }
+          ]
+        },
+        {
+          "vendor": "netscaler",
+          "product": "gateway",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "14.1",
+              "lessThanOrEqual": "73.32",
+              "versionType": "patch"
+            },
+            {
+              "status": "affected",
+              "version": "13.1",
+              "lessThanOrEqual": "63.21",
+              "versionType": "patch"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.03372,
+      "kev": {
+        "cveID": "CVE-2026-19490",
+        "vendorProject": "Citrix",
+        "product": "NetScaler",
+        "vulnerabilityName": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+        "dateAdded": "2026-09-09",
+        "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-12",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-288"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
       }
     },
     {
