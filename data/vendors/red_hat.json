@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T00:14:28+00:00",
+  "generated_at": "2026-09-10T05:59:15+00:00",
   "vendor": "red_hat",
   "count": 515,
   "items": [
@@ -64048,6 +64048,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:101.5-2.el8_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -64326,11 +64338,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 8",
           "versions": null
         },
         {
@@ -89634,7 +89641,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116455",
@@ -89646,7 +89653,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116482",
@@ -89658,7 +89665,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116441",
@@ -89670,7 +89677,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116449",
@@ -89682,7 +89689,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116439",
@@ -89694,7 +89701,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116447",
@@ -89706,7 +89713,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756128595",
@@ -89718,7 +89725,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756125872",
@@ -89730,7 +89737,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.5",
+          "product": "red hat openshift distributed tracing 3.5.3",
           "versions": [
             {
               "version": "rhosdt-3.5-1756116445",
@@ -97677,7 +97684,7 @@
           "CWE-1333"
         ],
         "cpe_count": 1,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
@@ -105248,7 +105255,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat container native virtualization 4.2",
+          "product": "red hat container native virtualization 4.20",
           "versions": [
             {
               "version": "1779288737",
@@ -105367,7 +105374,7 @@
           "CWE-863"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
