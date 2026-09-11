@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-11T11:15:06+00:00`
+Generated: `2026-09-11T16:30:01+00:00`
 
 ## Executive Summary
 
@@ -167,8 +167,8 @@ Top critical items:
 | [CVE-2023-24489](https://www.cve.org/CVERecord?id=CVE-2023-24489) |  | KEV | ✅ | ✅ | 2023-09-06 | 0.973 | 9.8 |  | A vulnerability has been discovered in the customer-managed ShareFile storage zones controller which, if exploited, could allow an unauthenticated attacker to … |
 | [CVE-2026-63030](https://www.cve.org/CVERecord?id=CVE-2026-63030) |  | KEV | ✅ | ✅ | 2026-07-24 | 0.973 | 9.8 |  | WordPress 6.9.x before 6.9.5 and 7.0.x before 7.0.2 is affected by a REST API batch endpoint route confusion issue which, combined with the author__not_in WP_Q… |
 | [CVE-2026-20253](https://www.cve.org/CVERecord?id=CVE-2026-20253) |  | KEV | ✅ | ✅ | 2026-06-21 | 0.969 | 9.8 |  | In Splunk Enterprise 10.2 versions below 10.2.4 and 10 versions below 10.0.7, an unauthenticated user could create or truncate arbitrary files through a Postgr… |
-| [CVE-2024-51378](https://www.cve.org/CVERecord?id=CVE-2024-51378) |  | KEV | ✅ | ✅ | 2024-12-25 | 0.947 | 10.0 |  | getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arb… |
 | [CVE-2023-38203](https://www.cve.org/CVERecord?id=CVE-2023-38203) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.967 | 9.8 |  | Adobe ColdFusion versions 2018u17 (and earlier), 2021u7 (and earlier) and 2023u1 (and earlier) are affected by a Deserialization of Untrusted Data vulnerabilit… |
+| [CVE-2024-51378](https://www.cve.org/CVERecord?id=CVE-2024-51378) |  | KEV | ✅ | ✅ | 2024-12-25 | 0.947 | 10.0 |  | getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arb… |
 | [CVE-2023-7028](https://www.cve.org/CVERecord?id=CVE-2023-7028) |  | KEV | ✅ | ✅ | 2024-05-22 | 0.946 | 10.0 |  | An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5… |
 | [CVE-2023-33246](https://www.cve.org/CVERecord?id=CVE-2023-33246) |  | KEV | ✅ | ✅ | 2023-09-27 | 0.966 | 9.8 |  | For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution.   Several components of RocketMQ, including NameS… |
 | [CVE-2023-46747](https://www.cve.org/CVERecord?id=CVE-2023-46747) |  | KEV | ✅ | ✅ | 2023-11-21 | 0.965 | 9.8 |  | Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port… |
