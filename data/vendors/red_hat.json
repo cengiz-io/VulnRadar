@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T01:15:51+00:00",
+  "generated_at": "2026-09-12T05:49:25+00:00",
   "vendor": "red_hat",
-  "count": 515,
+  "count": 516,
   "items": [
     {
       "cve_id": "CVE-2023-0118",
@@ -105423,6 +105423,73 @@
         ],
         "cpe_count": 0,
         "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-89060",
+      "description": "A cross-namespace authorization flaw in multicluster-observability-addon allows a user with permission to modify a managed cluster\u2019s ManagedClusterAddOn configuration to reference ClusterLogForwarder or OpenTelemetryCollector resources outside the permitted namespace. If those resources reference Secrets, the add-on may copy the referenced Secrets to the attacker-controlled managed cluster.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "changes": [
+                {
+                  "at": "ad36a3ba9fd946c04de71621e47486f7aa2634fd",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "683191e26a0ecb1a36d3e58470f1c1bed1ba62d4",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "8139c3ac7d388e0b3b008d1fb7d9bbdfabe252bb",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "691eb796f04e358adeae441b453dbfdc576ff7fe",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1f727af81d89c50c76d4db1f6ece7db39653006d",
+                  "status": "unaffected"
+                }
+              ],
+              "version": "0",
+              "lessThan": "*",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat advanced cluster management for kubernetes 2",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00235,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-551"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
       }
     },
     {
