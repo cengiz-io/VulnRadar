@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:04:27+00:00",
+  "generated_at": "2026-09-14T06:13:52+00:00",
   "vendor": "_other",
   "count": 1006,
   "items": [
@@ -73955,7 +73955,19 @@
             {
               "status": "affected",
               "version": "0",
-              "lessThan": "24.1.10, 25.0.13, 26.0.5",
+              "lessThan": "24.1.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "25.0.0",
+              "lessThan": "25.0.13",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.0.0",
+              "lessThan": "26.0.5",
               "versionType": "semver"
             }
           ]
@@ -74006,7 +74018,19 @@
             {
               "status": "affected",
               "version": "0",
-              "lessThan": "24.1.10, 25.0.13, 26.0.5",
+              "lessThan": "24.1.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "25.0.0",
+              "lessThan": "25.0.13",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.0.0",
+              "lessThan": "26.0.5",
               "versionType": "semver"
             }
           ]
