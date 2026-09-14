@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:13:52+00:00",
+  "generated_at": "2026-09-14T14:02:24+00:00",
   "vendor": "_other",
   "count": 1006,
   "items": [
@@ -3439,7 +3439,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.33055,
+      "probability_score": 0.3365,
       "kev": {
         "cveID": "CVE-2022-40799",
         "vendorProject": "D-Link",
@@ -6547,7 +6547,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02377,
+      "probability_score": 0.02458,
       "kev": {
         "cveID": "CVE-2025-32975",
         "vendorProject": "Quest",
@@ -6746,7 +6746,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.01159,
+      "probability_score": 0.01205,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -51821,7 +51821,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02872,
+      "probability_score": 0.02857,
       "kev": {
         "cveID": "CVE-2022-40139",
         "vendorProject": "Trend Micro",
@@ -64798,7 +64798,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00343,
+      "probability_score": 0.0035,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -64941,7 +64941,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00318,
+      "probability_score": 0.00315,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -76815,7 +76815,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.21476,
+      "probability_score": 0.2204,
       "kev": {
         "cveID": "CVE-2025-54948",
         "vendorProject": "Trend Micro",
@@ -79285,7 +79285,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01164,
+      "probability_score": 0.11115,
       "kev": {
         "cveID": "CVE-2026-85706",
         "vendorProject": "GitLab",
@@ -85859,7 +85859,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99989,
+      "probability_score": 0.9999,
       "kev": {
         "cveID": "CVE-2025-3248",
         "vendorProject": "Langflow",
@@ -86009,7 +86009,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03189,
+      "probability_score": 0.03298,
       "kev": {
         "cveID": "CVE-2025-42599",
         "vendorProject": "Qualitia",
@@ -87428,7 +87428,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.72521,
+      "probability_score": 0.73308,
       "kev": {
         "cveID": "CVE-2025-6205",
         "vendorProject": "Dassault Syst\u00e8mes",
