@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-15T07:45:47+00:00`
+Generated: `2026-09-15T13:34:11+00:00`
 
 ## Executive Summary
 
@@ -144,9 +144,9 @@ Top critical items:
 | [CVE-2024-38856](https://www.cve.org/CVERecord?id=CVE-2024-38856) |  | KEV | ✅ | ✅ | 2024-09-17 | 0.994 | 9.8 |  | Incorrect Authorization vulnerability in Apache OFBiz.  This issue affects Apache OFBiz: through 18.12.14.  Users are recommended to upgrade to version 18.12.1… |
 | [CVE-2024-4885](https://www.cve.org/CVERecord?id=CVE-2024-4885) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.993 | 9.8 |  | In WhatsUp Gold versions released before 2023.1.3, an unauthenticated Remote Code Execution vulnerability in Progress WhatsUpGold.  The   WhatsUp.ExportUtiliti… |
 | [CVE-2023-28771](https://www.cve.org/CVERecord?id=CVE-2023-28771) |  | KEV | ✅ | ✅ | 2023-06-21 | 0.993 | 9.8 |  | Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series… |
+| [CVE-2025-20281](https://www.cve.org/CVERecord?id=CVE-2025-20281) |  | KEV | ✅ | ✅ | 2025-08-18 | 0.972 | 10.0 |  | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
 | [CVE-2024-27348](https://www.cve.org/CVERecord?id=CVE-2024-27348) |  | KEV | ✅ | ✅ | 2024-10-09 | 0.992 | 9.8 |  | RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 & Java11  Us… |
 | [CVE-2022-24086](https://www.cve.org/CVERecord?id=CVE-2022-24086) |  | KEV | ✅ | ✅ | 2022-03-01 | 0.992 | 9.8 |  | Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout proces… |
-| [CVE-2025-20281](https://www.cve.org/CVERecord?id=CVE-2025-20281) |  | KEV | ✅ | ✅ | 2025-08-18 | 0.971 | 10.0 |  | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
 | [CVE-2022-3236](https://www.cve.org/CVERecord?id=CVE-2022-3236) |  | KEV | ✅ | ✅ | 2022-10-14 | 0.989 | 9.8 |  | A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older. |
 | [CVE-2023-47246](https://www.cve.org/CVERecord?id=CVE-2023-47246) |  | KEV | ✅ | ✅ | 2023-12-04 | 0.989 | 9.8 |  | In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited… |
 | [CVE-2024-50623](https://www.cve.org/CVERecord?id=CVE-2024-50623) |  | KEV | ✅ | ✅ | 2025-01-03 | 0.986 | 9.8 |  | In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to re… |
@@ -232,7 +232,7 @@ Top critical items:
 | [CVE-2026-34910](https://www.cve.org/CVERecord?id=CVE-2026-34910) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.875 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Input Validation vulnerability found in UniFi OS devices to execute a Command Injection. |
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2022-23131](https://www.cve.org/CVERecord?id=CVE-2022-23131) |  | KEV | ✅ | ✅ | 2022-03-08 | 0.957 | 9.1 |  | In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login st… |
-| [CVE-2024-51567](https://www.cve.org/CVERecord?id=CVE-2024-51567) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.865 | 10.0 |  | upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary … |
+| [CVE-2024-51567](https://www.cve.org/CVERecord?id=CVE-2024-51567) |  | KEV | ✅ | ✅ | 2024-11-28 | 0.866 | 10.0 |  | upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary … |
 | [CVE-2025-0108](https://www.cve.org/CVERecord?id=CVE-2025-0108) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.985 | 8.8 |  | An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to b… |
 | [CVE-2023-27524](https://www.cve.org/CVERecord?id=CVE-2023-27524) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.974 | 8.9 |  | Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY accordi… |
 | [CVE-2025-61757](https://www.cve.org/CVERecord?id=CVE-2025-61757) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.883 | 9.8 |  | Vulnerability in the Identity Manager product of Oracle Fusion Middleware (component: REST WebServices).  Supported versions that are affected are 12.2.1.4.0 a… |
@@ -253,6 +253,9 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Sep 15 | [CVE-2026-76461](https://www.cve.org/CVERecord?id=CVE-2026-76461) | 🔴 In CISA KEV |
+| Sep 15 | [CVE-2026-19624](https://www.cve.org/CVERecord?id=CVE-2026-19624) | 🆕 New |
+| Sep 15 | [CVE-2026-19816](https://www.cve.org/CVERecord?id=CVE-2026-19816) | 🆕 New |
 | Sep 13 | [CVE-2026-85706](https://www.cve.org/CVERecord?id=CVE-2026-85706) | 🔴 In CISA KEV |
 | Sep 12 | [CVE-2026-80926](https://www.cve.org/CVERecord?id=CVE-2026-80926) | 🆕 New |
 | Sep 12 | [CVE-2026-80927](https://www.cve.org/CVERecord?id=CVE-2026-80927) | 🆕 New |
@@ -300,7 +303,4 @@ Top critical items:
 | Sep 12 | [CVE-2026-80969](https://www.cve.org/CVERecord?id=CVE-2026-80969) | 🆕 New |
 | Sep 12 | [CVE-2026-80970](https://www.cve.org/CVERecord?id=CVE-2026-80970) | 🆕 New |
 | Sep 12 | [CVE-2026-80971](https://www.cve.org/CVERecord?id=CVE-2026-80971) | 🆕 New |
-| Sep 12 | [CVE-2026-80972](https://www.cve.org/CVERecord?id=CVE-2026-80972) | 🆕 New |
-| Sep 12 | [CVE-2026-80973](https://www.cve.org/CVERecord?id=CVE-2026-80973) | 🆕 New |
-| Sep 12 | [CVE-2026-80974](https://www.cve.org/CVERecord?id=CVE-2026-80974) | 🆕 New |
-| ... | | _and 417 more_ |
+| ... | | _and 420 more_ |
