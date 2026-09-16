@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:24:37+00:00",
+  "generated_at": "2026-09-16T07:58:01+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -79504,6 +79504,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": null
         }
@@ -79584,6 +79589,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
           "versions": null
         },
         {
@@ -99417,7 +99427,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 23
+        "reference_count": 24
       }
     },
     {
@@ -100660,7 +100670,7 @@
           "CWE-626"
         ],
         "cpe_count": 8,
-        "reference_count": 56
+        "reference_count": 58
       }
     },
     {
