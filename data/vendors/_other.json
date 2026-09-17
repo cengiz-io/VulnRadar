@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:38:25+00:00",
+  "generated_at": "2026-09-17T16:55:23+00:00",
   "vendor": "_other",
   "count": 1011,
   "items": [
@@ -2316,7 +2316,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87212,
+      "probability_score": 0.87325,
       "kev": {
         "cveID": "CVE-2022-26143",
         "vendorProject": "Mitel",
@@ -3929,7 +3929,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00264,
+      "probability_score": 0.00266,
       "kev": {
         "cveID": "CVE-2023-21237",
         "vendorProject": "Android",
@@ -6694,7 +6694,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.49374,
+      "probability_score": 0.48873,
       "kev": {
         "cveID": "CVE-2025-68645",
         "vendorProject": "Synacor",
@@ -9463,7 +9463,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00112,
+      "probability_score": 0.00207,
       "kev": {
         "cveID": "CVE-2026-58704",
         "vendorProject": "Google",
@@ -42479,12 +42479,12 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": null,
+      "probability_score": 0.00915,
       "kev": {
         "cveID": "CVE-2026-76460",
         "vendorProject": "Cisco",
@@ -43141,7 +43141,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.4202,
+      "probability_score": 0.42475,
       "kev": {
         "cveID": "CVE-2026-21962",
         "vendorProject": "Oracle",
@@ -65061,7 +65061,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00298,
+      "probability_score": 0.0031,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -65245,7 +65245,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00149,
+      "probability_score": 0.00155,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -66738,7 +66738,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00293,
+      "probability_score": 0.00311,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -68621,7 +68621,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00931,
+      "probability_score": 0.00967,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -75882,7 +75882,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98487,
+      "probability_score": 0.98575,
       "kev": {
         "cveID": "CVE-2026-1281",
         "vendorProject": "Ivanti",
@@ -75937,7 +75937,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98592,
+      "probability_score": 0.98676,
       "kev": {
         "cveID": "CVE-2026-1340",
         "vendorProject": "Ivanti",
@@ -82105,7 +82105,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94709,
+      "probability_score": 0.94905,
       "kev": {
         "cveID": "CVE-2025-54309",
         "vendorProject": "CrushFTP",
@@ -82886,7 +82886,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87634,
+      "probability_score": 0.87757,
       "kev": {
         "cveID": "CVE-2024-58136",
         "vendorProject": "Yiiframework",
