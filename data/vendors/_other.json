@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T23:34:51+00:00",
+  "generated_at": "2026-09-18T04:40:44+00:00",
   "vendor": "_other",
-  "count": 1011,
+  "count": 1014,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -9441,9 +9441,9 @@
     {
       "cve_id": "CVE-2026-58704",
       "description": "In Cellular Modem, there is a possible permission bypass due to a logic error in the code. This could lead to remote (proximal/adjacent) escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-      "cvss_score": 8.0,
+      "cvss_score": 8.8,
       "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -9476,7 +9476,7 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 8.0,
+        "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
@@ -9484,8 +9484,8 @@
           "CWE-285",
           "CWE-693"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 1,
+        "reference_count": 2
       }
     },
     {
@@ -42495,6 +42495,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-19",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 10.0,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-648"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -71332,6 +71343,76 @@
       }
     },
     {
+      "cve_id": "CVE-2026-73638",
+      "description": "Imager versions from 0.45_02 before 1.035 for Perl read outside the EXIF block via unchecked start offsets in tiff_load_ifd.\n\ntiff_load_ifd() validates an IFD entry's data by checking that `entry->offset + entry->size` stays within the EXIF block, and never checks the start offset itself. Where that sum is not the real end of the data, the check passes with the entry starting outside the block.\n\nThrough 1.032 `entry->offset` is a plain int, so on the usual two's-complement implementations an offset with the high bit set converts to negative and the sum can land back inside the block. From 1.033 the field is a size_t and the addition wraps only where size_t is 32 bits. The IFD's own start offset is checked the same way and wraps where unsigned long is 32 bits, which includes 64-bit Windows.\n\nAny caller of Imager->read() on an attacker-supplied image may receive EXIF tags holding bytes from outside the block, or crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.035",
+              "status": "affected",
+              "version": "0.45_02",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-73639",
+      "description": "Imager::File::PNG versions from 1.003 before 1.004 for Perl write past the end of the row buffer reading a PNG with a tRNS transparency chunk in read_direct8.\n\nWith a tRNS chunk, read_direct8() adds an alpha channel to the image it creates but still sizes the row buffer from the original channel count. libpng expands the transparency into that extra channel, so png_read_row() fills one channel more than the buffer holds, at one byte per sample, and writes width bytes past the end of the allocation. Palette images go to read_paletted() and 16-bit images to read_direct16(), which sizes its buffer from png_get_rowbytes() and allocates enough for the expanded row.\n\nThe same reader ships bundled in the Imager distribution.\n\nReading an attacker-supplied PNG through Imager->read() corrupts the heap, which can crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.004",
+              "status": "affected",
+              "version": "1.003",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.035",
+              "status": "affected",
+              "version": "1.034",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-75589",
       "description": "Net::OAuth versions before 0.33 for Perl check HMAC-SHA1, HMAC-SHA256 and PLAINTEXT signatures with a non-constant-time comparison in verify.\n\nEach of the three compares the signature carried in the message against the locally computed one with the eq operator, which returns as soon as the two strings differ. The time taken to reject a signature varies with the length of the matching prefix. RSA-SHA1 is not affected, as it verifies through the RSA key object rather than by comparing strings.\n\nA client that can submit messages and time the replies may recover a valid signature one byte at a time rather than searching the whole signature space. Under PLAINTEXT the value compared against is the signature key itself, so the search recovers consumer_secret and token_secret.",
       "cvss_score": 7.5,
@@ -78117,6 +78198,70 @@
         ],
         "cpe_count": 5,
         "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-87886",
+      "description": "Local privilege escalation due to insecure file permissions. The following products are affected: Acronis Backup plugin for cPanel & WHM (Linux) before build 1.9.3.1021, Acronis Backup extension for Plesk (Linux) before build 1.8.11.638, Acronis Backup plugin for DirectAdmin (Linux) before build 1.2.3.238.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "acronis",
+          "product": "acronis backup plugin for cpanel & whm",
+          "versions": [
+            {
+              "version": "unspecified",
+              "status": "affected",
+              "lessThan": "1.9.3.1021",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "acronis",
+          "product": "acronis backup extension for plesk",
+          "versions": [
+            {
+              "version": "unspecified",
+              "status": "affected",
+              "lessThan": "1.8.11.638",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "acronis",
+          "product": "acronis backup plugin for directadmin",
+          "versions": [
+            {
+              "version": "unspecified",
+              "status": "affected",
+              "lessThan": "1.2.3.238",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-87886",
+        "vendorProject": "Acronis",
+        "product": "Backup",
+        "vulnerabilityName": "Acronis Backup Incorrect Default Permissions Vulnerability",
+        "dateAdded": "2026-09-16",
+        "shortDescription": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-19",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     },
     {
