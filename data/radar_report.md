@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-18T14:29:45+00:00`
+Generated: `2026-09-18T18:26:44+00:00`
 
 ## Executive Summary
 
@@ -14,12 +14,14 @@ Top critical items:
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | 0.999 | 7.8 | 2026-05-15 | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-pl… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.814 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.281 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
+| [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | 0.001 | 8.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writa… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.037 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.036 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.034 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.027 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.013 | 7.8 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
 | [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | 0.005 | 7.8 | 2026-08-30 | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation … |
+| [CVE-2025-39964](https://www.cve.org/CVERecord?id=CVE-2025-39964) | 0.003 | 7.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  crypto: af_alg - Disallow concurrent writes in af_… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | 0.014 | 7.1 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when find… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.105 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.008 | 5.5 | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
@@ -33,16 +35,14 @@ Top critical items:
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.050 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | 0.093 | 7.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during co… |
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.029 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
-| [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | 0.020 | 7.7 |  | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectl… |
-| [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | 0.006 | 7.2 |  | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 
 ## Summary
 
 - Total items: **17606**
 - Watchlist hits: **16822**
-- CISA KEVs: **797**
-- Exploit Intel (PoC): **811**
-- Exploit Intel + Watchlist (CRITICAL): **28**
+- CISA KEVs: **799**
+- Exploit Intel (PoC): **814**
+- Exploit Intel + Watchlist (CRITICAL): **30**
 
 ## Top Findings (max 200)
 
@@ -52,12 +52,14 @@ Top critical items:
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-05-15 | 0.999 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-place  This mostly reverts commit 72548b09… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.814 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.281 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.    The nft_verdict_… |
+| [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.001 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writable  The ebtables SNAT target keeps the … |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.037 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.036 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.034 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.013 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
 | [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-30 | 0.005 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation path  In __ip6_append_data(), when the p… |
+| [CVE-2025-39964](https://www.cve.org/CVERecord?id=CVE-2025-39964) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.003 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg  Issuing two writes to the s… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.014 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.105 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.008 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
@@ -246,8 +248,6 @@ Top critical items:
 | [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.918 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
 | [CVE-2022-43769](https://www.cve.org/CVERecord?id=CVE-2022-43769) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.977 | 8.8 |  | Hitachi Vantara Pentaho Business Analytics Server prior to versions 9.4.0.1 and 9.3.0.2, including 8.3.x allow certain web services to set property values whic… |
 | [CVE-2025-52691](https://www.cve.org/CVERecord?id=CVE-2025-52691) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.857 | 10.0 |  | Successful exploitation of the vulnerability could allow an unauthenticated attacker to upload arbitrary files to any location on the mail server, potentially … |
-| [CVE-2024-28995](https://www.cve.org/CVERecord?id=CVE-2024-28995) |  | KEV | ✅ | ✅ | 2024-08-07 | 0.996 | 8.6 |  | SolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine. |
-| [CVE-2025-54236](https://www.cve.org/CVERecord?id=CVE-2025-54236) |  | KEV | ✅ | ✅ | 2025-11-14 | 0.945 | 9.1 |  | Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerabilit… |
 
 ## Recent Changes (Last 7 Days)
 
