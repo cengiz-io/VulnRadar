@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T00:18:12+00:00",
+  "generated_at": "2026-09-19T05:51:20+00:00",
   "vendor": "_other",
-  "count": 1014,
+  "count": 1016,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -42504,7 +42504,7 @@
         "cwe_ids": [
           "CWE-648"
         ],
-        "cpe_count": 0,
+        "cpe_count": 92,
         "reference_count": 2
       }
     },
@@ -71369,7 +71369,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00176
+      "probability_score": 0.00176,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
+      }
     },
     {
       "cve_id": "CVE-2026-73639",
@@ -71410,7 +71421,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00176
+      "probability_score": 0.00176,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-75589",
@@ -72146,6 +72168,64 @@
         "cpe_count": 1,
         "reference_count": 2
       }
+    },
+    {
+      "cve_id": "CVE-2026-93018",
+      "description": "Imager versions before 1.036 for Perl disclose uninitialised heap memory reading a paletted image with pixel indexes past its colour map in i_gpix_p and i_glin_p.\n\nThe palette is allocated uninitialised, and only the entries a reader adds count as populated. The TGA reader stores pixel indexes without checking them against the colour map. i_gpix_p() rejects only an index greater than the count, so an index equal to it reads the first unpopulated entry, and getpixel() returns it.\n\ni_glin_p() skips any index at or beyond the count without writing that pixel to the caller's buffer. The palette-to-RGB conversion reads each row through an uninitialised buffer, so those pixels of the converted image hold prior heap contents.\n\nReading an attacker-supplied image through Imager->read() and then fetching its pixels or converting it to RGB discloses process heap memory.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.036",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-93019",
+      "description": "Imager versions before 1.036 for Perl exit the process reading a TGA with a colour map length of 32768 or more in tga_palette_read.\n\nThe reader unpacks the two-byte colour map length into a signed short, so a length of 32768 or more becomes negative. tga_palette_read() casts that value to size_t and asks mymalloc() for a size near SIZE_MAX. The allocation fails and Imager's allocator calls exit(3).\n\nReading an attacker-supplied file through Imager->read() triggers an uncatchable exit.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.036",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -78262,6 +78342,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-19",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-276"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
       }
     },
     {

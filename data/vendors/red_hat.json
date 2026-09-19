@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:18:12+00:00",
+  "generated_at": "2026-09-19T05:51:20+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -69922,7 +69922,7 @@
           "CWE-416"
         ],
         "cpe_count": 0,
-        "reference_count": 13
+        "reference_count": 14
       }
     },
     {
@@ -73301,7 +73301,7 @@
           "CWE-284"
         ],
         "cpe_count": 4,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -84047,11 +84047,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss core services 2.4.62.sp2",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat openshift container platform 4.12",
           "versions": [
             {
@@ -84615,11 +84610,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss core services 2.4.62.sp2",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -88213,7 +88203,7 @@
           "CWE-120"
         ],
         "cpe_count": 1,
-        "reference_count": 17
+        "reference_count": 18
       }
     },
     {
@@ -92004,11 +91994,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat jboss core services 2.4.62.sp2",
-          "versions": null
         },
         {
           "vendor": "red hat",
@@ -98634,7 +98619,7 @@
           "CWE-191"
         ],
         "cpe_count": 7,
-        "reference_count": 55
+        "reference_count": 56
       }
     },
     {
@@ -99545,7 +99530,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 24
+        "reference_count": 26
       }
     },
     {
@@ -100225,7 +100210,7 @@
           "CWE-475"
         ],
         "cpe_count": 44,
-        "reference_count": 62
+        "reference_count": 63
       }
     },
     {
@@ -100812,7 +100797,7 @@
           "CWE-626"
         ],
         "cpe_count": 8,
-        "reference_count": 58
+        "reference_count": 59
       }
     },
     {
