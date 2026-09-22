@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T23:20:35+00:00",
+  "generated_at": "2026-09-22T05:09:40+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -1647,7 +1647,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:2fd4f343235f7e896a70169fc4b856343d639c65bec77c1883cbd8210caf3a92",
+              "version": "1772713830",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1817,7 +1817,7 @@
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
-              "version": "sha256:2fd4f343235f7e896a70169fc4b856343d639c65bec77c1883cbd8210caf3a92",
+              "version": "1772713830",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -21231,7 +21231,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -42133,7 +42133,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift container platform 4.2",
+          "product": "red hat openshift container platform 4.20",
           "versions": [
             {
               "version": "ose-openshift-controller-manager-container-v4.20.0-202509261327.p2.gd9e543d.assembly.stream.el9",
@@ -57559,11 +57559,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss core services 2.4.62.sp1",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "devworkspace operator 0.33",
           "versions": [
             {
@@ -64070,6 +64065,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:46.3-8.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:46.3-8.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.8 telecommunications update service",
           "versions": [
             {
@@ -69746,6 +69765,30 @@
           "versions": [
             {
               "version": "8100020251202222937.489197e6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "8040020260916092751.522a0ee4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "8040020260916092751.522a0ee4",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -85387,7 +85430,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265330",
@@ -85399,7 +85442,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265394",
@@ -85411,7 +85454,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265332",
@@ -85423,7 +85466,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265435",
@@ -85435,7 +85478,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265342",
@@ -85447,7 +85490,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265332",
@@ -85459,7 +85502,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753269432",
@@ -85471,7 +85514,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265411",
@@ -85483,7 +85526,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.6.1",
+          "product": "red hat openshift distributed tracing 3.6.0",
           "versions": [
             {
               "version": "rhosdt-3.6-1753265314",
@@ -89689,7 +89732,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -89701,7 +89744,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -89713,7 +89756,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -91549,7 +91592,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "compliance operator 1",
+          "product": "openshift compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -105643,8 +105686,63 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat advanced cluster management for kubernetes 2",
-          "versions": null
+          "product": "red hat advanced cluster management for kubernetes 2.13",
+          "versions": [
+            {
+              "version": "1789126264",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat advanced cluster management for kubernetes 2.14",
+          "versions": [
+            {
+              "version": "1789126262",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat advanced cluster management for kubernetes 2.15",
+          "versions": [
+            {
+              "version": "1789126262",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat advanced cluster management for kubernetes 2.16",
+          "versions": [
+            {
+              "version": "1789126267",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat advanced cluster management for kubernetes 2.17",
+          "versions": [
+            {
+              "version": "1789126264",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         }
       ],
       "watchlist_hit": true,

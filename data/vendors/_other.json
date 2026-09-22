@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T23:20:35+00:00",
+  "generated_at": "2026-09-22T05:09:40+00:00",
   "vendor": "_other",
-  "count": 1021,
+  "count": 1022,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -72480,6 +72480,35 @@
         "cpe_count": 1,
         "reference_count": 2
       }
+    },
+    {
+      "cve_id": "CVE-2026-93012",
+      "description": "Email::Sender::Transport::Sendmail versions before 2.602 for Perl allow arbitrary command execution on Windows sending a message whose envelope address reaches the shell in _sendmail_pipe.\n\nOn MSWin32 the envelope sender and every recipient go into a single command string, which open() passes to a shell. Every other platform gets the list form, which runs sendmail directly. When the caller supplies no envelope, Email::Sender::Simple takes the recipients from the To and Cc headers and the sender from the From header.\n\nAn attacker who controls one of those header addresses runs commands as the sending process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.602",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-93018",
