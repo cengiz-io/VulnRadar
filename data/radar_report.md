@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-22T09:59:08+00:00`
+Generated: `2026-09-22T14:49:53+00:00`
 
 ## Executive Summary
 
@@ -14,7 +14,7 @@ Top critical items:
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | 0.999 | 7.8 | 2026-05-15 | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-pl… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.814 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.281 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
-| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | 0.012 | 9.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx… |
+| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | 0.020 | 9.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx… |
 | [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | 0.003 | 8.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writa… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.037 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.036 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
@@ -30,7 +30,7 @@ Top critical items:
 | [CVE-2024-6387](https://www.cve.org/CVERecord?id=CVE-2024-6387) | 0.995 | 8.1 |  | A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can le… |
 | [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | 0.929 | 7.8 |  | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when pag… |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | 0.875 | 8.1 |  | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated qu… |
-| [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | 0.663 | 9.8 |  | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP S… |
+| [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | 0.658 | 9.8 |  | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP S… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | 0.631 | 8.6 |  | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in t… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.112 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.050 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
@@ -52,7 +52,7 @@ Top critical items:
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-05-15 | 0.999 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-place  This mostly reverts commit 72548b09… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.814 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.281 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.    The nft_verdict_… |
-| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.012 | 9.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx_list  Each recvmsg() call must process … |
+| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.020 | 9.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx_list  Each recvmsg() call must process … |
 | [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.003 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writable  The ebtables SNAT target keeps the … |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.037 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.036 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
@@ -68,7 +68,7 @@ Top critical items:
 | [CVE-2024-6387](https://www.cve.org/CVERecord?id=CVE-2024-6387) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.995 | 8.1 | ✅ | A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an uns… |
 | [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.929 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present  The DATA-packet ha… |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.875 | 8.1 | ✅ | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the ca… |
-| [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.663 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
+| [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.658 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.631 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.112 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.050 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
