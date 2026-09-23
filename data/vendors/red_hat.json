@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:28:43+00:00",
+  "generated_at": "2026-09-23T06:02:07+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -1712,7 +1712,7 @@
           "CWE-400"
         ],
         "cpe_count": 8,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1882,7 +1882,7 @@
           "CWE-400"
         ],
         "cpe_count": 8,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -64801,7 +64801,7 @@
           "CWE-457"
         ],
         "cpe_count": 0,
-        "reference_count": 19
+        "reference_count": 20
       }
     },
     {
@@ -88282,6 +88282,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
+              "version": "0:8.30-21.el8_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -88552,11 +88564,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 8",
           "versions": null
         },
         {
@@ -105762,7 +105769,7 @@
           "CWE-551"
         ],
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 8
       }
     },
     {

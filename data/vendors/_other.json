@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T00:28:43+00:00",
+  "generated_at": "2026-09-23T06:02:07+00:00",
   "vendor": "_other",
-  "count": 1023,
+  "count": 1038,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -10171,6 +10171,58 @@
         ],
         "cpe_count": 4,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-94127",
+      "description": "When a BIG-IP APM access policy and an OAuth profile is configured on a virtual server, specific malicious traffic can lead to Remote Code Execution (RCE).\n\nImpact:\nThis vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "f5",
+          "product": "big-ip",
+          "versions": [
+            {
+              "lessThan": "Hotfix-BIGIP-21.1.0.2.0.30.22-ENG",
+              "status": "affected",
+              "version": "21.1.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "Hotfix-BIGIP-17.5.1.9.0.160.12-ENG",
+              "status": "affected",
+              "version": "17.5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "Hotfix-BIGIP-17.1.3.5.0.41.14-ENG",
+              "status": "affected",
+              "version": "17.1.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-94127",
+        "vendorProject": "F5",
+        "product": "BIG-IP APM",
+        "vulnerabilityName": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+        "dateAdded": "2026-09-22",
+        "shortDescription": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-25",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     },
     {
@@ -53955,7 +54007,7 @@
           "CWE-121"
         ],
         "cpe_count": 0,
-        "reference_count": 1
+        "reference_count": 3
       }
     },
     {
@@ -71655,6 +71707,64 @@
       }
     },
     {
+      "cve_id": "CVE-2026-74765",
+      "description": "Net::IDN::Punycode versions before 2.590 for Perl allow an out-of-bounds read via integer overflow of the delta accumulator in encode_punycode.\n\nThe XS backend keeps the punycode delta, and the digit index derived from it, in a signed int. The accumulation `delta += (m-n) * (h+1)` has no overflow check, so a large enough code point wraps the delta and the digit index leaves the range of the 36-entry digit table. The bound before the final table access tests only for an index above 36, so a negative index passes it, as does 36 itself. Perl strings hold code points beyond the Unicode range, and one such code point overflows the accumulation on its own. Valid input wraps it as well, for example 1927 ASCII letters followed by U+10FFFF. The conversion functions encode a label before they check its length, so a long label reaches the encoder through the documented API.\n\nOnly the XS backend is affected.\n\nEncoding an attacker-supplied string copies a byte from outside the digit table into the encoded result or crashes the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00157
+    },
+    {
+      "cve_id": "CVE-2026-74766",
+      "description": "Net::IDN::Punycode versions from 2.301 before 2.590 for Perl allow a heap use-after-free via a decoded code point that reallocates the output buffer in decode_punycode.\n\nThe XS backend inserts each decoded code point into the string buffer of the scalar it returns. decode_punycode computes the insertion pointer first and only then grows the buffer when the code point does not fit. The growth reallocates the buffer and updates every pointer except the insertion pointer, so the move that follows and the write of the code point go through a freed pointer. The buffer starts at twice the label length, and a code point above U+FFFF takes four bytes in the output, so a label of such code points outgrows it and forces the reallocation.\n\nVersion 2.301, the fix for CVE-2016-15059, introduced the defect. Only the XS backend is affected.\n\nDecoding an attacker-supplied punycode label reads and writes freed heap memory.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "2.301",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00156
+    },
+    {
       "cve_id": "CVE-2026-75589",
       "description": "Net::OAuth versions before 0.33 for Perl check HMAC-SHA1, HMAC-SHA256 and PLAINTEXT signatures with a non-constant-time comparison in verify.\n\nEach of the three compares the signature carried in the message against the locally computed one with the eq operator, which returns as soon as the two strings differ. The time taken to reject a signature varies with the length of the matching prefix. RSA-SHA1 is not affected, as it verifies through the RSA key object rather than by comparing strings.\n\nA client that can submit messages and time the replies may recover a valid signature one byte at a time rather than searching the whole signature space. Under PLAINTEXT the value compared against is the signature key itself, so the search recovers consumer_secret and token_secret.",
       "cvss_score": 7.5,
@@ -72140,9 +72250,9 @@
     {
       "cve_id": "CVE-2026-82560",
       "description": "Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.\n\nEach =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.\n\nFormatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72178,8 +72288,8 @@
       "active_threat": false,
       "probability_score": 0.0063,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72430,6 +72540,151 @@
       }
     },
     {
+      "cve_id": "CVE-2026-87078",
+      "description": "Net::IDN::Punycode versions from 2.302 before 2.590 for Perl leak the output buffer on every rejected label in decode_punycode.\n\nThe XS backend allocates the scalar it returns before it validates the input, sizing the buffer at twice the input length. The scalar is released only on the success path, so each of the three croaks that reject a label leaves the scalar and its buffer allocated. Nothing bounds the label length in the to-Unicode direction, since the 63-byte DNS limit is checked only when converting to ASCII.\n\nOnly the XS backend is affected.\n\nA sender who supplies invalid labels grows the process by twice the label length per rejected call, with no successful call needed.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "2.302",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00154
+    },
+    {
+      "cve_id": "CVE-2026-87079",
+      "description": "Net::IDN::Punycode versions before 2.590 for Perl allow CPU exhaustion via quadratic insertion cost when decoding a long label in decode_punycode.\n\nThe XS backend inserts each decoded code point into a UTF-8 buffer and finds the insertion point by scanning that buffer from the start, one character at a time. The scan runs once per code point over the output built so far, so the cost is quadratic in the label length. The pure-Perl backend downgrades its input to bytes so that substr can index it directly, but takes its working copy before the downgrade, so when the input carries the UTF-8 flag every substr on the copy scans from the start, with the same quadratic cost.\n\nNothing bounds the label length in the to-Unicode direction. The 63-byte DNS limit is checked only when converting to ASCII, so domain_to_unicode and uts46_to_unicode pass an attacker-supplied label of any length to the decoder.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00155
+    },
+    {
+      "cve_id": "CVE-2026-87080",
+      "description": "Net::IDN::Punycode::PP versions before 2.590 for Perl decode a truncated label to a name containing a character it never encoded in decode_punycode.\n\nThe pure-Perl decoder reads one digit at a time with four-argument substr and tests the result with defined to detect the end of the input. substr on an exhausted string returns the empty string rather than undef, so decoding continues past the end. The empty string converts to a digit value below the range, reducing the accumulator, and the decoder derives one extra code point and its position from it. The result is deterministic. The XS backend rejects the same label.\n\nNet::IDN::Punycode uses this backend wherever the XS does not build.\n\nThe two backends disagree about what such a label means, so a sender can pick a label that one installation resolves to a name and another rejects.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00148
+    },
+    {
+      "cve_id": "CVE-2026-87081",
+      "description": "Net::IDN::UTS46 versions before 2.590 for Perl allow CPU exhaustion via quadratic punycode encoding of an overlong label before the length check in to_ascii.\n\nto_ascii punycode encodes each label and only then applies the 63-byte DNS limit. encode_punycode in both backends follows the sample implementation in RFC 3492, whose outer loop runs once per distinct non-ASCII code point and scans the whole input each round, so a label of distinct non-ASCII characters costs the square of its length before the limit rejects it. Every ASCII conversion in the distribution, including domain_to_ascii and email_to_ascii, goes through to_ascii.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00155
+    },
+    {
+      "cve_id": "CVE-2026-87082",
+      "description": "Net::IDN::Punycode versions before 2.590 for Perl hang, crash or return a wrong label via unvalidated malformed UTF-8 in encode_punycode.\n\nNeither backend checks that its input is well-formed UTF-8, so a string with the UTF-8 flag set over malformed bytes, as the :utf8 PerlIO layer produces from any malformed input, reaches the encoder unchecked. On perl 5.32 and later the XS backend reports a malformed sequence with a length of `(STRLEN)-1`, so the scan steps back one byte instead of forward and never ends. On earlier perls the XS returns a valid label for a different name. The pure-Perl backend runs a regex over the flagged string. Depending on the bytes, it aborts with SIGBUS on perl 5.28 and later, dies with a panic, or returns a wrong label.\n\nThe documented conversion functions match the label against Unicode properties first and that match dies on such a string, so only a direct call to encode_punycode reaches the defect. The decoder is not affected.\n\nA direct caller encoding attacker-supplied bytes hangs, crashes or gets a label for a name the input never held.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.590",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0016
+    },
+    {
       "cve_id": "CVE-2026-8376",
       "description": "Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.\n\nPerl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.\n\nA caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.",
       "cvss_score": 9.8,
@@ -72508,7 +72763,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00222
+      "probability_score": 0.00222,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-93018",
@@ -72591,6 +72857,195 @@
         "cpe_count": 0,
         "reference_count": 5
       }
+    },
+    {
+      "cve_id": "CVE-2026-93709",
+      "description": "Dancer2 versions before 2.2.0 for Perl serve a layout as a page when an equivalent spelling of its path misses the guard in the AutoPage handler.\n\nThe handler compares the request path against the layout directory name as text, while the lookup that follows canonicalises it. A doubled slash, a dot segment, a percent-encoded slash, or a different capitalisation on a case-insensitive filesystem therefore misses the guard.\n\nThe handler is off by default, enabled with auto_page. The layout wrapping every page is already public, so this discloses one of the application's other layouts.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.2.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00186,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-41"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-93710",
+      "description": "Dancer2 versions from 2.0.0 before 2.2.0 for Perl dispatch a route that a dying hook refused when the exception handler halts the response in compile_hooks.\n\nA hook that dies fires core.app.hook_exception, then calls cleanup unless the failing hook is the exception handler. A handler that halts does not stop that cleanup, which discards the request, response and session the dispatcher has yet to read, so the refused route runs.\n\nThe handler has to halt the response object by calling its halt method or setting is_halted: the halt keyword unwinds through with_return before cleanup runs.\n\nA check in a before hook is not enforced: the caller gets the refusal, while the route body runs and its writes land.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.2.0",
+              "status": "affected",
+              "version": "2.0.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-460"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-93711",
+      "description": "Dancer2 versions before 2.2.0 for Perl do not strip CR and LF from response header names in headers_to_array.\n\nThe routine removes CR and LF from each header value but not from the name. A name carrying them therefore reaches the PSGI server intact. A server that does not validate keys writes it to the wire, so the bytes after the CRLF arrive as their own header line.\n\nThe application has to derive the header name from request data, not just the value.\n\nAn attacker who controls that data adds their own headers and splits the response.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.2.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00188,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-113"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-93712",
+      "description": "Dancer2 versions from 2.1.0 before 2.2.0 for Perl serve files from outside public_dir via relative path segments in the File route handler.\n\nThe handler joins the request path onto public_dir without collapsing relative segments, and checks only that the result is a readable regular file. A request for `/../outside.txt` escapes public_dir, and percent-encoding the dots reaches the same file.\n\nThe handler is off by default. An application is affected once it names File in route_handlers and sets static_handler to 0, which otherwise refuses a dot segment before the route runs.\n\nAny file the worker process can read is served to an unauthenticated request, including the application's config.yml above public_dir.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.2.0",
+              "status": "affected",
+              "version": "2.1.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00186,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-95831",
+      "description": "Crypt::SelfCertificate versions from 1.01 through 1.05 for Perl contains malware which executes Python code from an obfuscated URL.\n\nThe generate_certificate runs a Python script saved as a certificate file.  The pyhton script attempts to retrieve code from a hardcoded http URL that is obfuscated with base64 encoding and run the response body directly.\n\nThe impact is that arbitrary code can be invoked as the user, without a dropped script being saved on the affected host.\n\nThe releases have no test scripts nor build hooks.  The intention may have been to trigger the payload after installation.\n\nFor version 1.01, the dropper script is in lib/Crypt/SelfCertificate/sample/validate.p12.\n\nFor version 1.05, the dropper script is in lib/Crypt/SelfCertificate/sample/cert7.pem.\n\nThe SHA-256 digests of the files are\n\n    fbff21f45ff748365062a5e36fb2d72558cad82a507a6f357f320b4fcdf07760 Crypt-SelfCertificate-1.01.tar.gz\n    27b2d2d3174ad771474fff2521f5084ec231e9218ea8c832515aef1cbd5897bc lib/Crypt/SelfCertificate/sample/validate.p12\n\n    9fdfa7d69b034b77d4510cda567e8da1e486ca81c7daaadc5732a45c41d71991 Crypt-SelfCertificate-1.05.tar.gz\n    27b2d2d3174ad771474fff2521f5084ec231e9218ea8c832515aef1cbd5897bc lib/Crypt/SelfCertificate/sample/cert7.pem",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.05",
+              "status": "affected",
+              "version": "1.01",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -81928,6 +82383,84 @@
       }
     },
     {
+      "cve_id": "CVE-2026-93616",
+      "description": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "checkpoint",
+          "product": "quantum security management",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "R82.20 with no Jumbo Hotfix"
+            },
+            {
+              "status": "affected",
+              "version": "R82.10 with Jumbo Hotfix Take 44 or below"
+            },
+            {
+              "status": "affected",
+              "version": "R82 with Jumbo Hotfix Take 126 or below"
+            },
+            {
+              "status": "affected",
+              "version": "R81.20 with Jumbo Hotfix Take 166 or below"
+            },
+            {
+              "status": "affected",
+              "version": "R81.10 (EOS) with Jumbo Hotfix Take 190 or below"
+            },
+            {
+              "status": "affected",
+              "version": "R81 (EOS)"
+            },
+            {
+              "status": "affected",
+              "version": "R80.40 (EOS)"
+            },
+            {
+              "status": "affected",
+              "version": "R80.30 (EOS)"
+            },
+            {
+              "status": "affected",
+              "version": "R80.20 (EOS)"
+            },
+            {
+              "status": "affected",
+              "version": "R80.10 (EOS)"
+            },
+            {
+              "status": "affected",
+              "version": "R80 (EOS)"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-93616",
+        "vendorProject": "Check Point",
+        "product": "Multiple Products",
+        "vulnerabilityName": "Check Point Multiple Products Path Traversal Vulnerability",
+        "dateAdded": "2026-09-22",
+        "shortDescription": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-25",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
       "cve_id": "CVE-2024-28986",
       "description": "SolarWinds Web Help Desk was found to be susceptible to a Java Deserialization Remote Code Execution vulnerability that, if exploited, would allow an attacker to run commands on the host machine. \n\nWhile it was reported as an unauthenticated\u00a0vulnerability, SolarWinds has been unable to reproduce it\u00a0without authentication\u00a0after thorough testing. \u00a0\n\nHowever, out of an abundance of caution, we recommend all Web Help Desk customers apply the patch, which is now available.",
       "cvss_score": 9.8,
@@ -90581,6 +91114,64 @@
         ],
         "cpe_count": 102,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-93952",
+      "description": "VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "arista networks",
+          "product": "velocloud orchestrator (vco) on-prem",
+          "versions": [
+            {
+              "version": "5.2.0",
+              "lessThanOrEqual": "5.2.3.15",
+              "status": "affected",
+              "versionType": "custom"
+            },
+            {
+              "version": "6.1.0",
+              "lessThanOrEqual": "6.1.3.7",
+              "status": "affected",
+              "versionType": "custom"
+            },
+            {
+              "version": "6.4.0",
+              "lessThanOrEqual": "6.4.2.7",
+              "status": "affected",
+              "versionType": "custom"
+            },
+            {
+              "version": "7.0.0",
+              "lessThanOrEqual": "7.0.0.2",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00424,
+      "kev": {
+        "cveID": "CVE-2026-93952",
+        "vendorProject": "Arista",
+        "product": "VeloCloud Orchestrator",
+        "vulnerabilityName": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+        "dateAdded": "2026-09-22",
+        "shortDescription": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-09-25",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     },
     {
