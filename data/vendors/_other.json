@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T06:02:07+00:00",
+  "generated_at": "2026-09-23T11:52:23+00:00",
   "vendor": "_other",
   "count": 1038,
   "items": [
@@ -10223,6 +10223,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-25",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -54006,7 +54017,7 @@
         "cwe_ids": [
           "CWE-121"
         ],
-        "cpe_count": 0,
+        "cpe_count": 20,
         "reference_count": 3
       }
     },
@@ -71617,9 +71628,9 @@
     {
       "cve_id": "CVE-2026-73638",
       "description": "Imager versions from 0.45_02 before 1.035 for Perl read outside the EXIF block via unchecked start offsets in tiff_load_ifd.\n\ntiff_load_ifd() validates an IFD entry's data by checking that `entry->offset + entry->size` stays within the EXIF block, and never checks the start offset itself. Where that sum is not the real end of the data, the check passes with the entry starting outside the block.\n\nThrough 1.032 `entry->offset` is a plain int, so on the usual two's-complement implementations an offset with the high bit set converts to negative and the sum can land back inside the block. From 1.033 the field is a size_t and the addition wraps only where size_t is 32 bits. The IFD's own start offset is checked the same way and wraps where unsigned long is 32 bits, which includes 64-bit Windows.\n\nAny caller of Imager->read() on an attacker-supplied image may receive EXIF tags holding bytes from outside the block, or crash the process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -71643,8 +71654,8 @@
       "active_threat": false,
       "probability_score": 0.00176,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.2,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -71657,9 +71668,9 @@
     {
       "cve_id": "CVE-2026-73639",
       "description": "Imager::File::PNG versions from 1.003 before 1.004 for Perl write past the end of the row buffer reading a PNG with a tRNS transparency chunk in read_direct8.\n\nWith a tRNS chunk, read_direct8() adds an alpha channel to the image it creates but still sizes the row buffer from the original channel count. libpng expands the transparency into that extra channel, so png_read_row() fills one channel more than the buffer holds, at one byte per sample, and writes width bytes past the end of the allocation. Palette images go to read_paletted() and 16-bit images to read_direct16(), which sizes its buffer from png_get_rowbytes() and allocates enough for the expanded row.\n\nThe same reader ships bundled in the Imager distribution.\n\nReading an attacker-supplied PNG through Imager->read() corrupts the heap, which can crash the process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -71695,8 +71706,8 @@
       "active_threat": false,
       "probability_score": 0.00176,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -71709,9 +71720,9 @@
     {
       "cve_id": "CVE-2026-74765",
       "description": "Net::IDN::Punycode versions before 2.590 for Perl allow an out-of-bounds read via integer overflow of the delta accumulator in encode_punycode.\n\nThe XS backend keeps the punycode delta, and the digit index derived from it, in a signed int. The accumulation `delta += (m-n) * (h+1)` has no overflow check, so a large enough code point wraps the delta and the digit index leaves the range of the 36-entry digit table. The bound before the final table access tests only for an index above 36, so a negative index passes it, as does 36 itself. Perl strings hold code points beyond the Unicode range, and one such code point overflows the accumulation on its own. Valid input wraps it as well, for example 1927 ASCII letters followed by U+10FFFF. The conversion functions encode a label before they check its length, so a long label reaches the encoder through the documented API.\n\nOnly the XS backend is affected.\n\nEncoding an attacker-supplied string copies a byte from outside the digit table into the encoded result or crashes the process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
       "affected": [
         {
           "vendor": "",
@@ -71733,14 +71744,26 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00157
+      "probability_score": 0.00157,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125",
+          "CWE-190"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-74766",
       "description": "Net::IDN::Punycode versions from 2.301 before 2.590 for Perl allow a heap use-after-free via a decoded code point that reallocates the output buffer in decode_punycode.\n\nThe XS backend inserts each decoded code point into the string buffer of the scalar it returns. decode_punycode computes the insertion pointer first and only then grows the buffer when the code point does not fit. The growth reallocates the buffer and updates every pointer except the insertion pointer, so the move that follows and the write of the code point go through a freed pointer. The buffer starts at twice the label length, and a code point above U+FFFF takes four bytes in the output, so a label of such code points outgrows it and forces the reallocation.\n\nVersion 2.301, the fix for CVE-2016-15059, introduced the defect. Only the XS backend is affected.\n\nDecoding an attacker-supplied punycode label reads and writes freed heap memory.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -71762,7 +71785,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-75589",
@@ -72542,9 +72576,9 @@
     {
       "cve_id": "CVE-2026-87078",
       "description": "Net::IDN::Punycode versions from 2.302 before 2.590 for Perl leak the output buffer on every rejected label in decode_punycode.\n\nThe XS backend allocates the scalar it returns before it validates the input, sizing the buffer at twice the input length. The scalar is released only on the success path, so each of the three croaks that reject a label leaves the scalar and its buffer allocated. Nothing bounds the label length in the to-Unicode direction, since the 63-byte DNS limit is checked only when converting to ASCII.\n\nOnly the XS backend is affected.\n\nA sender who supplies invalid labels grows the process by twice the label length per rejected call, with no successful call needed.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72566,14 +72600,25 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00154
+      "probability_score": 0.00154,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-87079",
       "description": "Net::IDN::Punycode versions before 2.590 for Perl allow CPU exhaustion via quadratic insertion cost when decoding a long label in decode_punycode.\n\nThe XS backend inserts each decoded code point into a UTF-8 buffer and finds the insertion point by scanning that buffer from the start, one character at a time. The scan runs once per code point over the output built so far, so the cost is quadratic in the label length. The pure-Perl backend downgrades its input to bytes so that substr can index it directly, but takes its working copy before the downgrade, so when the input carries the UTF-8 flag every substr on the copy scans from the start, with the same quadratic cost.\n\nNothing bounds the label length in the to-Unicode direction. The 63-byte DNS limit is checked only when converting to ASCII, so domain_to_unicode and uts46_to_unicode pass an attacker-supplied label of any length to the decoder.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72595,14 +72640,25 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00155
+      "probability_score": 0.00155,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-407"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-87080",
       "description": "Net::IDN::Punycode::PP versions before 2.590 for Perl decode a truncated label to a name containing a character it never encoded in decode_punycode.\n\nThe pure-Perl decoder reads one digit at a time with four-argument substr and tests the result with defined to detect the end of the input. substr on an exhausted string returns the empty string rather than undef, so decoding continues past the end. The empty string converts to a digit value below the range, reducing the accumulator, and the decoder derives one extra code point and its position from it. The result is deterministic. The XS backend rejects the same label.\n\nNet::IDN::Punycode uses this backend wherever the XS does not build.\n\nThe two backends disagree about what such a label means, so a sender can pick a label that one installation resolves to a name and another rejects.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72624,14 +72680,25 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00148
+      "probability_score": 0.00148,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1286"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-87081",
       "description": "Net::IDN::UTS46 versions before 2.590 for Perl allow CPU exhaustion via quadratic punycode encoding of an overlong label before the length check in to_ascii.\n\nto_ascii punycode encodes each label and only then applies the 63-byte DNS limit. encode_punycode in both backends follows the sample implementation in RFC 3492, whose outer loop runs once per distinct non-ASCII code point and scans the whole input each round, so a label of distinct non-ASCII characters costs the square of its length before the limit rejects it. Every ASCII conversion in the distribution, including domain_to_ascii and email_to_ascii, goes through to_ascii.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72653,14 +72720,25 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00155
+      "probability_score": 0.00155,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-407"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-87082",
       "description": "Net::IDN::Punycode versions before 2.590 for Perl hang, crash or return a wrong label via unvalidated malformed UTF-8 in encode_punycode.\n\nNeither backend checks that its input is well-formed UTF-8, so a string with the UTF-8 flag set over malformed bytes, as the :utf8 PerlIO layer produces from any malformed input, reaches the encoder unchecked. On perl 5.32 and later the XS backend reports a malformed sequence with a length of `(STRLEN)-1`, so the scan steps back one byte instead of forward and never ends. On earlier perls the XS returns a valid label for a different name. The pure-Perl backend runs a regex over the flagged string. Depending on the bytes, it aborts with SIGBUS on perl 5.28 and later, dies with a panic, or returns a wrong label.\n\nThe documented conversion functions match the label against Unicode properties first and that match dies on such a string, so only a direct call to encode_punycode reaches the defect. The decoder is not affected.\n\nA direct caller encoding attacker-supplied bytes hangs, crashes or gets a label for a name the input never held.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72682,7 +72760,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-835",
+          "CWE-1286"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
     },
     {
       "cve_id": "CVE-2026-8376",
@@ -72739,9 +72829,9 @@
     {
       "cve_id": "CVE-2026-93012",
       "description": "Email::Sender::Transport::Sendmail versions before 2.602 for Perl allow arbitrary command execution on Windows sending a message whose envelope address reaches the shell in _sendmail_pipe.\n\nOn MSWin32 the envelope sender and every recipient go into a single command string, which open() passes to a shell. Every other platform gets the list form, which runs sendmail directly. When the caller supplies no envelope, Email::Sender::Simple takes the recipients from the To and Cc headers and the sender from the From header.\n\nAn attacker who controls one of those header addresses runs commands as the sending process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72765,8 +72855,8 @@
       "active_threat": false,
       "probability_score": 0.00222,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72779,9 +72869,9 @@
     {
       "cve_id": "CVE-2026-93018",
       "description": "Imager versions before 1.036 for Perl disclose uninitialised heap memory reading a paletted image with pixel indexes past its colour map in i_gpix_p and i_glin_p.\n\nThe palette is allocated uninitialised, and only the entries a reader adds count as populated. The TGA reader stores pixel indexes without checking them against the colour map. i_gpix_p() rejects only an index greater than the count, so an index equal to it reads the first unpopulated entry, and getpixel() returns it.\n\ni_glin_p() skips any index at or beyond the count without writing that pixel to the caller's buffer. The palette-to-RGB conversion reads each row through an uninitialised buffer, so those pixels of the converted image hold prior heap contents.\n\nReading an attacker-supplied image through Imager->read() and then fetching its pixels or converting it to RGB discloses process heap memory.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -72805,8 +72895,8 @@
       "active_threat": false,
       "probability_score": 0.00184,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72901,9 +72991,9 @@
     {
       "cve_id": "CVE-2026-93710",
       "description": "Dancer2 versions from 2.0.0 before 2.2.0 for Perl dispatch a route that a dying hook refused when the exception handler halts the response in compile_hooks.\n\nA hook that dies fires core.app.hook_exception, then calls cleanup unless the failing hook is the exception handler. A handler that halts does not stop that cleanup, which discards the request, response and session the dispatcher has yet to read, so the refused route runs.\n\nThe handler has to halt the response object by calling its halt method or setting is_halted: the halt keyword unwinds through with_return before cleanup runs.\n\nA check in a before hook is not enforced: the caller gets the refusal, while the route body runs and its writes land.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72927,8 +73017,8 @@
       "active_threat": false,
       "probability_score": 0.00172,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72941,9 +73031,9 @@
     {
       "cve_id": "CVE-2026-93711",
       "description": "Dancer2 versions before 2.2.0 for Perl do not strip CR and LF from response header names in headers_to_array.\n\nThe routine removes CR and LF from each header value but not from the name. A name carrying them therefore reaches the PSGI server intact. A server that does not validate keys writes it to the wire, so the bytes after the CRLF arrive as their own header line.\n\nThe application has to derive the header name from request data, not just the value.\n\nAn attacker who controls that data adds their own headers and splits the response.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -72967,8 +73057,8 @@
       "active_threat": false,
       "probability_score": 0.00188,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72981,9 +73071,9 @@
     {
       "cve_id": "CVE-2026-93712",
       "description": "Dancer2 versions from 2.1.0 before 2.2.0 for Perl serve files from outside public_dir via relative path segments in the File route handler.\n\nThe handler joins the request path onto public_dir without collapsing relative segments, and checks only that the result is a readable regular file. A request for `/../outside.txt` escapes public_dir, and percent-encoding the dots reaches the same file.\n\nThe handler is off by default. An application is affected once it names File in route_handlers and sets static_handler to 0, which otherwise refuses a dot segment before the route runs.\n\nAny file the worker process can read is served to an unauthenticated request, including the application's config.yml above public_dir.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -73007,8 +73097,8 @@
       "active_threat": false,
       "probability_score": 0.00186,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -73021,9 +73111,9 @@
     {
       "cve_id": "CVE-2026-95831",
       "description": "Crypt::SelfCertificate versions from 1.01 through 1.05 for Perl contains malware which executes Python code from an obfuscated URL.\n\nThe generate_certificate runs a Python script saved as a certificate file.  The pyhton script attempts to retrieve code from a hardcoded http URL that is obfuscated with base64 encoding and run the response body directly.\n\nThe impact is that arbitrary code can be invoked as the user, without a dropped script being saved on the affected host.\n\nThe releases have no test scripts nor build hooks.  The intention may have been to trigger the payload after installation.\n\nFor version 1.01, the dropper script is in lib/Crypt/SelfCertificate/sample/validate.p12.\n\nFor version 1.05, the dropper script is in lib/Crypt/SelfCertificate/sample/cert7.pem.\n\nThe SHA-256 digests of the files are\n\n    fbff21f45ff748365062a5e36fb2d72558cad82a507a6f357f320b4fcdf07760 Crypt-SelfCertificate-1.01.tar.gz\n    27b2d2d3174ad771474fff2521f5084ec231e9218ea8c832515aef1cbd5897bc lib/Crypt/SelfCertificate/sample/validate.p12\n\n    9fdfa7d69b034b77d4510cda567e8da1e486ca81c7daaadc5732a45c41d71991 Crypt-SelfCertificate-1.05.tar.gz\n    27b2d2d3174ad771474fff2521f5084ec231e9218ea8c832515aef1cbd5897bc lib/Crypt/SelfCertificate/sample/cert7.pem",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -73045,7 +73135,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-506"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-9277",
@@ -82379,7 +82480,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 1
+        "reference_count": 3
       }
     },
     {
@@ -82458,6 +82559,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-25",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
       }
     },
     {
@@ -91172,6 +91284,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-09-25",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 10.0,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
