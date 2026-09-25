@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T01:35:45+00:00",
+  "generated_at": "2026-09-25T07:45:06+00:00",
   "vendor": "_other",
-  "count": 1040,
+  "count": 1042,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -10232,7 +10232,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 3,
         "reference_count": 2
       }
     },
@@ -49950,7 +49950,7 @@
           "CWE-863"
         ],
         "cpe_count": 157,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -72504,6 +72504,47 @@
       }
     },
     {
+      "cve_id": "CVE-2026-85491",
+      "description": "Catalyst::Seal versions before 0.03 for Perl allow one request to disable a path or route a later one past an authorization check via a dispatch memo keyed on the request path alone.\n\nCatalyst::Seal replaces the dispatcher's prepare_action with a version that memoises how a path resolved: which dispatch type matched, at which level, and what was left over as arguments. The key is the request path and nothing else. Action roles that match on the method, content type, scheme or query make that resolution depend on state the key does not carry, so the memo answers for a request it was not built from.\n\nA path that resolves to no action is memoised as well, and replaying that entry returns without consulting any dispatch type, so no action is set and the request fails. A GET of a path whose action is declared POST-only therefore disables that path for every later request, the correct POST included. An entry that did resolve replays the level the earlier descent reached. Where a POST-only action sits below a shallower action on the same path, a GET memoises the shallow route, and a later POST is dispatched there with an auto() guarding the deeper controller never running.\n\nThe memo is cleared only when an action is registered, which happens at setup, so an entry lasts for the life of the process, and its cap of 2048 entries bounds how many paths one caller can disable. In the configuration measured, the misroute lands on the less privileged action, so it is an authorization check not running rather than a privilege gain.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.03",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-706",
+          "CWE-1023"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
       "cve_id": "CVE-2026-85630",
       "description": "HTML::FormHandler versions before 0.410002 for Perl render field attributes into HTML without escaping using the process_attrs method.\n\nAny application with fields or field labels where some attributes are built from data rather than literals allows attacker-influenced text in an attribute value that can override the field attributes or embed JavaScript in rendered pages.\n\nFor example, the RadioGroup widget uses the process_attrs method via the render_option and wrap_radio methods.",
       "cvss_score": 6.1,
@@ -73041,9 +73082,9 @@
     {
       "cve_id": "CVE-2026-93709",
       "description": "Dancer2 versions before 2.2.0 for Perl serve a layout as a page when an equivalent spelling of its path misses the guard in the AutoPage handler.\n\nThe handler compares the request path against the layout directory name as text, while the lookup that follows canonicalises it. A doubled slash, a dot segment, a percent-encoded slash, or a different capitalisation on a case-insensitive filesystem therefore misses the guard.\n\nThe handler is off by default, enabled with auto_page. The layout wrapping every page is already public, so this discloses one of the application's other layouts.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -73067,8 +73108,8 @@
       "active_threat": false,
       "probability_score": 0.00329,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -73235,7 +73276,46 @@
           "CWE-506"
         ],
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-97230",
+      "description": "IO::Socket::SSL::SelfCertificate versions 1.00 for Perl contains malware which executes Python code from an obfuscated URL.\n\nThe generate_certificate runs a Python script saved as a certificate file.  The pyhton script attempts to retrieve code from a hardcoded http URL that is obfuscated with base64 encoding and run the response body directly.\n\nThe impact is that arbitrary code can be invoked as the user, without a dropped script being saved on the affected host.\n\nThe releases have no test scripts nor build hooks.  The intention may have been to trigger the payload after installation.\n\nThe dropper script is in lib/Crypt/SelfCertificate/sample/cert.pem.\n\nThis is similar to CVE-2026-95831 for the module Crypt::SelfCertificate.\n\nThe SHA-256 digests of the files are\n\n    ba24ee8ec3b7f47f65bed62e16fb413ace50653cf44bd8ea90914390922831e0  IO-Socket-SSL-SelfCertificate-1.00.tar.gz\n    821d38830e5eb8607738421c25ac25f59fff02a6ab67daa32fbd020429454dac  IO-Socket-SSL-SelfCertificate-1.00/lib/IO/Socket/SSL/SelfCertificate/sample/cert.pem\n\n    d483cb7b23b7271cb11cf242bff4a2e1c02df0b9525eb0429abeea8961c399d5  IO-Socket-SSL-SelfCertificate-1.00-upload.tar.gz",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.00",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-506"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -80907,7 +80987,7 @@
         "cwe_ids": [
           "CWE-22"
         ],
-        "cpe_count": 6,
+        "cpe_count": 10,
         "reference_count": 3
       }
     },
@@ -82581,7 +82661,7 @@
         "cwe_ids": [
           "CWE-295"
         ],
-        "cpe_count": 0,
+        "cpe_count": 180,
         "reference_count": 3
       }
     },
@@ -82670,7 +82750,7 @@
         "cwe_ids": [
           "CWE-22"
         ],
-        "cpe_count": 0,
+        "cpe_count": 242,
         "reference_count": 3
       }
     },
@@ -91395,7 +91475,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 2
       }
     },
@@ -96153,7 +96233,7 @@
           "CWE-347"
         ],
         "cpe_count": 12,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {

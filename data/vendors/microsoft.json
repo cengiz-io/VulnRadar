@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:35:45+00:00",
+  "generated_at": "2026-09-25T07:45:06+00:00",
   "vendor": "microsoft",
   "count": 139,
   "items": [
@@ -30666,7 +30666,7 @@
           "versions": [
             {
               "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23397",
+              "lessThan": "6.3.9600.23398",
               "versionType": "custom",
               "status": "affected"
             }
@@ -30678,7 +30678,7 @@
           "versions": [
             {
               "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23397",
+              "lessThan": "6.3.9600.23398",
               "versionType": "custom",
               "status": "affected"
             }
