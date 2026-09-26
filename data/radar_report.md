@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-25T22:22:51+00:00`
+Generated: `2026-09-26T01:36:11+00:00`
 
 ## Executive Summary
 
@@ -303,4 +303,4 @@ Top critical items:
 | Sep 25 | [CVE-2026-93250](https://www.cve.org/CVERecord?id=CVE-2026-93250) | 🆕 New |
 | Sep 25 | [CVE-2026-93251](https://www.cve.org/CVERecord?id=CVE-2026-93251) | 🆕 New |
 | Sep 25 | [CVE-2026-93252](https://www.cve.org/CVERecord?id=CVE-2026-93252) | 🆕 New |
-| ... | | _and 214 more_ |
+| ... | | _and 215 more_ |
