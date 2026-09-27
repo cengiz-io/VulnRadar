@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:07:40+00:00",
+  "generated_at": "2026-09-27T13:59:16+00:00",
   "vendor": "_other",
   "count": 1047,
   "items": [
@@ -2901,7 +2901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.54317,
+      "probability_score": 0.54964,
       "kev": {
         "cveID": "CVE-2022-29499",
         "vendorProject": "Mitel",
@@ -6282,7 +6282,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00997,
+      "probability_score": 0.01016,
       "kev": {
         "cveID": "CVE-2025-22225",
         "vendorProject": "VMware",
@@ -6400,7 +6400,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01735,
+      "probability_score": 0.01769,
       "kev": {
         "cveID": "CVE-2025-22226",
         "vendorProject": "VMware",
@@ -35710,7 +35710,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.07795,
+      "probability_score": 0.07064,
       "kev": {
         "cveID": "CVE-2026-20128",
         "vendorProject": "Cisco",
@@ -60159,7 +60159,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02216,
+      "probability_score": 0.02255,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -60440,7 +60440,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00494,
+      "probability_score": 0.00498,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",
@@ -60560,7 +60560,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00914,
+      "probability_score": 0.00921,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -67213,7 +67213,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00324,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -67253,7 +67253,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0055,
+      "probability_score": 0.00574,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -73030,7 +73030,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00222,
+      "probability_score": 0.00393,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -73364,7 +73364,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.00405,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -91594,7 +91594,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00895,
+      "probability_score": 0.01062,
       "kev": {
         "cveID": "CVE-2026-93952",
         "vendorProject": "Arista",
