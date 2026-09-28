@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-28T06:50:01+00:00`
+Generated: `2026-09-28T15:29:20+00:00`
 
 ## Executive Summary
 
@@ -201,11 +201,11 @@ Top critical items:
 | [CVE-2024-6670](https://www.cve.org/CVERecord?id=CVE-2024-6670) |  | KEV | ✅ | ✅ | 2024-10-07 | 0.930 | 9.8 |  | In WhatsUp Gold versions released before 2024.0.0, a SQL Injection vulnerability allows an unauthenticated attacker to retrieve the users encrypted password. |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
+| [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.906 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2025-34028](https://www.cve.org/CVERecord?id=CVE-2025-34028) |  | KEV | ✅ | ✅ | 2025-05-23 | 0.976 | 9.3 |  | The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the … |
 | [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.925 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
 | [CVE-2024-56145](https://www.cve.org/CVERecord?id=CVE-2024-56145) |  | KEV | ✅ | ✅ | 2025-06-23 | 0.974 | 9.3 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerabi… |
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.902 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
-| [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.901 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2024-55591](https://www.cve.org/CVERecord?id=CVE-2024-55591) |  | KEV | ✅ | ✅ | 2025-01-21 | 0.941 | 9.6 |  | An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0… |
 | [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2022-26258](https://www.cve.org/CVERecord?id=CVE-2022-26258) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.920 | 9.8 |  | D-Link DIR-820L 1.05B03 was discovered to contain remote command execution (RCE) vulnerability via HTTP POST to get set ccp. |
@@ -230,6 +230,7 @@ Top critical items:
 | [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 1.000 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
 | [CVE-2022-41040](https://www.cve.org/CVERecord?id=CVE-2022-41040) |  | KEV | ✅ | ✅ | 2022-10-21 | 1.000 | 8.8 |  | Microsoft Exchange Server Elevation of Privilege Vulnerability |
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
+| [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.896 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.895 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2025-5086](https://www.cve.org/CVERecord?id=CVE-2025-5086) |  | KEV | ✅ | ✅ | 2025-10-02 | 0.969 | 9.0 |  | A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution. |
@@ -247,12 +248,13 @@ Top critical items:
 | [CVE-2025-52691](https://www.cve.org/CVERecord?id=CVE-2025-52691) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.857 | 10.0 |  | Successful exploitation of the vulnerability could allow an unauthenticated attacker to upload arbitrary files to any location on the mail server, potentially … |
 | [CVE-2024-28995](https://www.cve.org/CVERecord?id=CVE-2024-28995) |  | KEV | ✅ | ✅ | 2024-08-07 | 0.996 | 8.6 |  | SolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine. |
 | [CVE-2025-54236](https://www.cve.org/CVERecord?id=CVE-2025-54236) |  | KEV | ✅ | ✅ | 2025-11-14 | 0.945 | 9.1 |  | Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerabilit… |
-| [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.855 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 
 ## Recent Changes (Last 7 Days)
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Sep 28 | [CVE-2026-88771](https://www.cve.org/CVERecord?id=CVE-2026-88771) | 🔴 In CISA KEV |
+| Sep 28 | [CVE-2026-88772](https://www.cve.org/CVERecord?id=CVE-2026-88772) | 🔴 In CISA KEV |
 | Sep 27 | [CVE-2026-98163](https://www.cve.org/CVERecord?id=CVE-2026-98163) | 🆕 New |
 | Sep 26 | [CVE-2026-92288](https://www.cve.org/CVERecord?id=CVE-2026-92288) | 🆕 New |
 | Sep 26 | [CVE-2026-92289](https://www.cve.org/CVERecord?id=CVE-2026-92289) | 🆕 New |
@@ -301,6 +303,4 @@ Top critical items:
 | Sep 26 | [CVE-2026-97553](https://www.cve.org/CVERecord?id=CVE-2026-97553) | 🆕 New |
 | Sep 26 | [CVE-2026-97554](https://www.cve.org/CVERecord?id=CVE-2026-97554) | 🆕 New |
 | Sep 26 | [CVE-2026-97555](https://www.cve.org/CVERecord?id=CVE-2026-97555) | 🆕 New |
-| Sep 26 | [CVE-2026-97556](https://www.cve.org/CVERecord?id=CVE-2026-97556) | 🆕 New |
-| Sep 26 | [CVE-2026-97557](https://www.cve.org/CVERecord?id=CVE-2026-97557) | 🆕 New |
-| ... | | _and 585 more_ |
+| ... | | _and 587 more_ |
