@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:28:11+00:00",
+  "generated_at": "2026-09-29T15:48:40+00:00",
   "vendor": "_other",
   "count": 1052,
   "items": [
@@ -5843,7 +5843,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94668,
+      "probability_score": 0.94748,
       "kev": {
         "cveID": "CVE-2024-51378",
         "vendorProject": "CyberPersons",
@@ -48411,7 +48411,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01243,
+      "probability_score": 0.01265,
       "kev": {
         "cveID": "CVE-2026-21385",
         "vendorProject": "Qualcomm",
@@ -67127,7 +67127,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00217,
+      "probability_score": 0.00222,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -67173,7 +67173,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00169,
+      "probability_score": 0.00173,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -68964,7 +68964,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.77866,
+      "probability_score": 0.77657,
       "nvd": {
         "cvss_v3_score": 9.6,
         "cvss_v3_severity": "CRITICAL",
@@ -72611,7 +72611,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00185
     },
     {
       "cve_id": "CVE-2026-86219",
@@ -72961,7 +72961,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00209
     },
     {
       "cve_id": "CVE-2026-88816",
@@ -72990,7 +72990,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00209
     },
     {
       "cve_id": "CVE-2026-8376",
@@ -75738,7 +75738,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.29246,
+      "probability_score": 0.28621,
       "kev": {
         "cveID": "CVE-2023-2533",
         "vendorProject": "PaperCut",
@@ -77464,7 +77464,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87644,
+      "probability_score": 0.8794,
       "kev": {
         "cveID": "CVE-2026-1603",
         "vendorProject": "Ivanti",
@@ -85280,7 +85280,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01807,
+      "probability_score": 0.01792,
       "kev": {
         "cveID": "CVE-2024-7694",
         "vendorProject": "TeamT5",
@@ -87562,7 +87562,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97551,
+      "probability_score": 0.97604,
       "kev": {
         "cveID": "CVE-2025-34028",
         "vendorProject": "Commvault",
@@ -94337,7 +94337,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.12754,
+      "probability_score": 0.9257,
       "kev": {
         "cveID": "CVE-2026-42271",
         "vendorProject": "BerriAI",
@@ -96660,7 +96660,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.22488,
+      "probability_score": 0.19756,
       "kev": {
         "cveID": "CVE-2026-87902",
         "vendorProject": "WordPress",
@@ -97090,7 +97090,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01026,
+      "probability_score": 0.01063,
       "kev": {
         "cveID": "CVE-2026-88771",
         "vendorProject": "Citrix",
@@ -97177,7 +97177,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01238,
+      "probability_score": 0.01301,
       "kev": {
         "cveID": "CVE-2026-88772",
         "vendorProject": "Citrix",
