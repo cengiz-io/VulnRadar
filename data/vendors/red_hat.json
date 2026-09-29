@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:59:41+00:00",
+  "generated_at": "2026-09-29T02:08:47+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -84150,6 +84150,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202609140326-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
@@ -84452,7 +84464,7 @@
           "CWE-825"
         ],
         "cpe_count": 0,
-        "reference_count": 33
+        "reference_count": 34
       }
     },
     {
@@ -84708,6 +84720,18 @@
           "versions": [
             {
               "version": "414.92.202510211419-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202609140326-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -85030,7 +85054,7 @@
           "CWE-125"
         ],
         "cpe_count": 0,
-        "reference_count": 34
+        "reference_count": 35
       }
     },
     {
@@ -92598,6 +92622,90 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790223279",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790223719",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790272426",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790589998",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790589912",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790589914",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790589855",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -95432,6 +95540,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202609140326-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
@@ -95681,7 +95801,7 @@
           "CWE-22"
         ],
         "cpe_count": 0,
-        "reference_count": 33
+        "reference_count": 34
       }
     },
     {
@@ -99429,6 +99549,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202609140326-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
@@ -99628,7 +99760,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 26
+        "reference_count": 27
       }
     },
     {
@@ -100618,6 +100750,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202609140326-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
@@ -100895,7 +101039,7 @@
           "CWE-626"
         ],
         "cpe_count": 8,
-        "reference_count": 60
+        "reference_count": 61
       }
     },
     {
