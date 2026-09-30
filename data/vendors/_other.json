@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T00:27:18+00:00",
+  "generated_at": "2026-09-30T06:46:03+00:00",
   "vendor": "_other",
-  "count": 1052,
+  "count": 1053,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -69399,6 +69399,48 @@
       }
     },
     {
+      "cve_id": "CVE-2026-102422",
+      "description": "shell-quote's `quote()` function emits a `{ comment }` token as `#` followed by its text, which comments out the rest of the shell line, including the opening quote of any later string token. A line terminator (\\n, \\r, U+2028, U+2029) in that later string therefore ends the comment, and the rest of the string is parsed as shell input: `quote(['echo', 'ok', { comment: 'x' }, 'a\\nid;#'])` runs `id` in sh, bash, dash, ksh and zsh. `parse()` emits a comment token for a `#` in the middle of a word (for example `http://example.com/#frag`), so callers that combine `parse()` output with another untrusted string, such as `quote(parse(untrustedCommand).concat(untrustedArg))`, are affected. The fix for CVE-2026-9277 rejected line terminators in the comment's own text, but not in the tokens after it. Fixed in 1.11.0: `quote()` throws a `TypeError` when a string after a `{ comment }` token contains a line terminator.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "shell-quote",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.8.4",
+              "lessThan": "1.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:shell-quote"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00383,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
       "cve_id": "CVE-2026-10717",
       "description": "Out of bounds write and reads in\u00a0openSeaChest\u2019s\u00a0--showSCSIDefects\u00a0in Seagate\u2019s\u00a0openSeaChest\u00a0v25.05.3 on all supported platforms allows for writing defect information out of bounds for very large defects lists via a very bad drive with lots of defects or a maliciously crafted SCSI device\u2019s defect response length.",
       "cvss_score": 1.8,
@@ -72611,7 +72653,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00185
+      "probability_score": 0.00185,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125",
+          "CWE-843"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-86219",
@@ -72961,7 +73015,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209
+      "probability_score": 0.00209,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-843"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-88816",
@@ -72990,7 +73055,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209
+      "probability_score": 0.00209,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-843"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-8376",
@@ -96680,7 +96756,7 @@
         "cwe_ids": [
           "CWE-98"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 3
       }
     },
@@ -97103,14 +97179,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 7,
         "reference_count": 2
       }
     },
@@ -97190,14 +97266,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-119"
         ],
-        "cpe_count": 0,
+        "cpe_count": 7,
         "reference_count": 2
       }
     },

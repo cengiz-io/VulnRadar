@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:27:18+00:00",
+  "generated_at": "2026-09-30T06:46:03+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -88354,6 +88354,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cost management 4",
           "versions": [
             {
@@ -88642,7 +88654,7 @@
           "CWE-121"
         ],
         "cpe_count": 0,
-        "reference_count": 21
+        "reference_count": 22
       }
     },
     {
@@ -92706,6 +92718,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -92891,7 +92915,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 15
+        "reference_count": 22
       }
     },
     {
@@ -98650,6 +98674,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
@@ -98837,7 +98873,7 @@
           "CWE-191"
         ],
         "cpe_count": 7,
-        "reference_count": 57
+        "reference_count": 58
       }
     },
     {
@@ -99059,6 +99095,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -99225,7 +99273,7 @@
           "CWE-179"
         ],
         "cpe_count": 8,
-        "reference_count": 11
+        "reference_count": 12
       }
     },
     {
@@ -99609,6 +99657,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -99760,7 +99820,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 27
+        "reference_count": 28
       }
     },
     {
@@ -100253,6 +100313,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
@@ -100440,7 +100512,7 @@
           "CWE-475"
         ],
         "cpe_count": 44,
-        "reference_count": 64
+        "reference_count": 65
       }
     },
     {
@@ -100846,6 +100918,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ai inference server 3.2",
           "versions": [
             {
@@ -101039,7 +101123,7 @@
           "CWE-626"
         ],
         "cpe_count": 8,
-        "reference_count": 61
+        "reference_count": 62
       }
     },
     {
@@ -101385,6 +101469,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -101536,7 +101632,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 23
+        "reference_count": 24
       }
     },
     {
@@ -101822,6 +101918,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -101978,7 +102086,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 18
+        "reference_count": 19
       }
     },
     {
@@ -102324,6 +102432,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -102475,7 +102595,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 23
+        "reference_count": 24
       }
     },
     {
@@ -102761,6 +102881,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -102917,7 +103049,7 @@
           "CWE-825"
         ],
         "cpe_count": 0,
-        "reference_count": 19
+        "reference_count": 20
       }
     },
     {
@@ -103203,6 +103335,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -103359,7 +103503,7 @@
           "CWE-193"
         ],
         "cpe_count": 0,
-        "reference_count": 18
+        "reference_count": 19
       }
     },
     {
@@ -104101,6 +104245,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -104257,7 +104413,7 @@
           "CWE-126"
         ],
         "cpe_count": 0,
-        "reference_count": 23
+        "reference_count": 24
       }
     },
     {
@@ -104343,6 +104499,18 @@
           "versions": [
             {
               "version": "0:3.8.3-6.el9_6.4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "cert manager support for red hat openshift release 1.20",
+          "versions": [
+            {
+              "version": "1790598593",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -104517,7 +104685,7 @@
           "CWE-208"
         ],
         "cpe_count": 0,
-        "reference_count": 12
+        "reference_count": 13
       }
     },
     {
@@ -105575,6 +105743,11 @@
         {
           "vendor": "red hat",
           "product": "red hat build of keycloak 26.4.12",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7",
           "versions": null
         }
       ],
