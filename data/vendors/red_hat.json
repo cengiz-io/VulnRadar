@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:48:02+00:00",
+  "generated_at": "2026-10-01T05:50:33+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -4842,6 +4842,66 @@
           "versions": [
             {
               "version": "2.4.0-1763656152",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276886",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276884",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790277045",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276889",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276974",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -92730,6 +92790,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "1790621714",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "1790621718",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.2",
+          "versions": [
+            {
+              "version": "1790621713",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -92770,6 +92866,66 @@
           "versions": [
             {
               "version": "1786433656",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276886",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276884",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790277045",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276889",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.0",
+          "versions": [
+            {
+              "version": "1790276974",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -98005,6 +98161,18 @@
           "versions": [
             {
               "version": "1785137880",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.3",
+          "versions": [
+            {
+              "version": "1789573032",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -103802,6 +103970,18 @@
           "versions": [
             {
               "version": "2:3.0.4-4.el9_8.10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "2:2.99.8-4.el9_6.20",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
