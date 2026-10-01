@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-01T13:08:35+00:00`
+Generated: `2026-10-01T18:56:26+00:00`
 
 ## Executive Summary
 
@@ -33,7 +33,7 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.112 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.050 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | 0.025 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb fr… |
-| [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | 0.002 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through … |
+| [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | 0.005 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through … |
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.029 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
 
 ## Summary
@@ -41,7 +41,7 @@ Top critical items:
 - Total items: **18265**
 - Watchlist hits: **17467**
 - CISA KEVs: **814**
-- Exploit Intel (PoC): **829**
+- Exploit Intel (PoC): **830**
 - Exploit Intel + Watchlist (CRITICAL): **32**
 
 ## Top Findings (max 200)
@@ -71,7 +71,7 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.112 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.050 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.025 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb frags  MSG_SPLICE_PAGES can attach pages f… |
-| [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.002 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through frag-transfer helpers  Two frag-transfer… |
+| [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.005 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through frag-transfer helpers  Two frag-transfer… |
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.024 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during coalescing  skb_try_coalesce() can attach … |
 | [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.023 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present  The DATA-packet ha… |
@@ -186,6 +186,7 @@ Top critical items:
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.951 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
 | [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
+| [CVE-2026-85706](https://www.cve.org/CVERecord?id=CVE-2026-85706) |  | KEV | ✅ | ✅ | 2026-09-14 | 0.930 | 10.0 |  | GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, an… |
 | [CVE-2024-0012](https://www.cve.org/CVERecord?id=CVE-2024-0012) |  | KEV | ✅ | ✅ | 2024-12-09 | 0.998 | 9.3 |  | An authentication bypass in Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to gain … |
 | [CVE-2025-24016](https://www.cve.org/CVERecord?id=CVE-2025-24016) |  | KEV | ✅ | ✅ | 2025-07-01 | 0.938 | 9.9 |  | Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe d… |
 | [CVE-2024-47575](https://www.cve.org/CVERecord?id=CVE-2024-47575) |  | KEV | ✅ | ✅ | 2024-11-13 | 0.948 | 9.8 |  | A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 th… |
@@ -198,7 +199,6 @@ Top critical items:
 | [CVE-2026-41940](https://www.cve.org/CVERecord?id=CVE-2026-41940) |  | KEV | ✅ | ✅ | 2026-05-03 | 0.985 | 9.3 |  | cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unaut… |
 | [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.915 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2023-48788](https://www.cve.org/CVERecord?id=CVE-2023-48788) |  | KEV | ✅ | ✅ | 2024-04-15 | 0.984 | 9.3 |  | A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7… |
-| [CVE-2026-85706](https://www.cve.org/CVERecord?id=CVE-2026-85706) |  | KEV | ✅ | ✅ | 2026-09-14 | 0.914 | 10.0 |  | GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, an… |
 | [CVE-2024-6670](https://www.cve.org/CVERecord?id=CVE-2024-6670) |  | KEV | ✅ | ✅ | 2024-10-07 | 0.930 | 9.8 |  | In WhatsUp Gold versions released before 2024.0.0, a SQL Injection vulnerability allows an unauthenticated attacker to retrieve the users encrypted password. |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
