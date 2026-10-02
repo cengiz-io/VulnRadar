@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:48:08+00:00",
+  "generated_at": "2026-10-02T16:21:34+00:00",
   "vendor": "_other",
-  "count": 1074,
+  "count": 1076,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -245,7 +245,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99848,
+      "probability_score": 0.99855,
       "kev": {
         "cveID": "CVE-2024-0012",
         "vendorProject": "Palo Alto Networks",
@@ -601,7 +601,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91783,
+      "probability_score": 0.91684,
       "kev": {
         "cveID": "CVE-2024-5910",
         "vendorProject": "Palo Alto Networks",
@@ -840,7 +840,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94701,
+      "probability_score": 0.94824,
       "kev": {
         "cveID": "CVE-2024-9474",
         "vendorProject": "Palo Alto Networks",
@@ -2606,7 +2606,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.85398,
+      "probability_score": 0.93908,
       "kev": {
         "cveID": "CVE-2022-27924",
         "vendorProject": "Synacor",
@@ -2950,7 +2950,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99107,
+      "probability_score": 0.99233,
       "kev": {
         "cveID": "CVE-2022-30333",
         "vendorProject": "RARLAB",
@@ -8302,7 +8302,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00715,
+      "probability_score": 0.00709,
       "kev": {
         "cveID": "CVE-2024-43093",
         "vendorProject": "Android",
@@ -8873,7 +8873,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00543,
+      "probability_score": 0.00539,
       "kev": {
         "cveID": "CVE-2025-48543",
         "vendorProject": "Android",
@@ -9157,7 +9157,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.12564,
+      "probability_score": 0.14142,
       "kev": {
         "cveID": "CVE-2025-6554",
         "vendorProject": "Google",
@@ -9362,7 +9362,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00704,
+      "probability_score": 0.02301,
       "kev": {
         "cveID": "CVE-2026-3909",
         "vendorProject": "Google",
@@ -36035,7 +36035,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.42665,
+      "probability_score": 0.43166,
       "kev": {
         "cveID": "CVE-2026-20131",
         "vendorProject": "Cisco",
@@ -42821,7 +42821,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01096,
+      "probability_score": 0.01575,
       "kev": {
         "cveID": "CVE-2026-76504",
         "vendorProject": "Cisco",
@@ -48942,7 +48942,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9947,
+      "probability_score": 0.99486,
       "kev": {
         "cveID": "CVE-2025-31324",
         "vendorProject": "SAP",
@@ -52256,7 +52256,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02349,
+      "probability_score": 0.02351,
       "kev": {
         "cveID": "CVE-2022-26486",
         "vendorProject": "Mozilla",
@@ -55942,7 +55942,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": null,
+      "probability_score": 0.01779,
       "kev": {
         "cveID": "CVE-2026-104286",
         "vendorProject": "Fortinet",
@@ -68504,7 +68504,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.0042,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -68556,7 +68556,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00246,
+      "probability_score": 0.00268,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -68620,7 +68620,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00282,
+      "probability_score": 0.00307,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -68684,7 +68684,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00267,
+      "probability_score": 0.0029,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -68748,7 +68748,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0024,
+      "probability_score": 0.00261,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -68812,7 +68812,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00443,
+      "probability_score": 0.0047,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -68876,7 +68876,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00354,
+      "probability_score": 0.00385,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -68940,7 +68940,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00288,
+      "probability_score": 0.00306,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -69004,7 +69004,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00334,
+      "probability_score": 0.00363,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -69677,7 +69677,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00392,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -69718,7 +69718,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00241,
       "nvd": {
         "cvss_v3_score": 6.3,
         "cvss_v3_severity": "MEDIUM",
@@ -69776,7 +69776,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00263,
+      "probability_score": 0.00246,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -69834,7 +69834,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00247,
+      "probability_score": 0.00299,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -69892,7 +69892,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00217,
+      "probability_score": 0.00228,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -69950,7 +69950,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00233,
+      "probability_score": 0.00236,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70008,7 +70008,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171,
+      "probability_score": 0.00198,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -70066,7 +70066,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00204,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70124,7 +70124,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00236,
+      "probability_score": 0.00241,
       "nvd": {
         "cvss_v3_score": 2.7,
         "cvss_v3_severity": "LOW",
@@ -70176,7 +70176,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196,
+      "probability_score": 0.00201,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70222,7 +70222,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196,
+      "probability_score": 0.00201,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -70280,7 +70280,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00276,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -70338,7 +70338,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00233,
+      "probability_score": 0.00238,
       "nvd": {
         "cvss_v3_score": 2.7,
         "cvss_v3_severity": "LOW",
@@ -70396,7 +70396,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00173,
+      "probability_score": 0.00198,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -70436,7 +70436,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00181,
       "nvd": {
         "cvss_v3_score": 7.7,
         "cvss_v3_severity": "HIGH",
@@ -70476,7 +70476,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00205,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -70516,7 +70516,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00296,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -70556,7 +70556,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00285,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",
@@ -71507,7 +71507,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00441,
+      "probability_score": 0.00472,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -71547,7 +71547,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00385,
+      "probability_score": 0.00394,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -71918,7 +71918,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00496,
+      "probability_score": 0.00507,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -72549,7 +72549,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196,
+      "probability_score": 0.00211,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -73488,7 +73488,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00187,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -79402,7 +79402,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.40189,
+      "probability_score": 0.39514,
       "kev": {
         "cveID": "CVE-2023-39780",
         "vendorProject": "ASUS",
@@ -83301,7 +83301,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90963,
+      "probability_score": 0.91568,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -85689,7 +85689,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99785,
+      "probability_score": 0.99792,
       "kev": {
         "cveID": "CVE-2025-32432",
         "vendorProject": "Craft CMS",
@@ -87922,7 +87922,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01747,
+      "probability_score": 0.01772,
       "kev": {
         "cveID": "CVE-2025-15556",
         "vendorProject": "Notepad++",
@@ -88226,7 +88226,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01855,
+      "probability_score": 0.01865,
       "kev": {
         "cveID": "CVE-2025-27920",
         "vendorProject": "Srimax",
@@ -88647,7 +88647,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.64688,
+      "probability_score": 0.65189,
       "kev": {
         "cveID": "CVE-2025-31125",
         "vendorProject": "Vite",
@@ -88756,7 +88756,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.61039,
+      "probability_score": 0.55498,
       "kev": {
         "cveID": "CVE-2025-32463",
         "vendorProject": "Sudo",
@@ -88991,7 +88991,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.63839,
+      "probability_score": 0.63013,
       "kev": {
         "cveID": "CVE-2026-0770",
         "vendorProject": "Langflow",
@@ -91065,7 +91065,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0797,
+      "probability_score": 0.23158,
       "kev": {
         "cveID": "CVE-2026-19490",
         "vendorProject": "Citrix",
@@ -91389,7 +91389,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19559,
+      "probability_score": 0.20227,
       "kev": {
         "cveID": "CVE-2025-66376",
         "vendorProject": "Synacor",
@@ -92595,6 +92595,122 @@
       }
     },
     {
+      "cve_id": "CVE-2026-102489",
+      "description": "Zammad versions 6.3.0 to 6.5.4 are vulnerable a session hijack vulnerability that leads to remote code execution as the zammad user. The vulnerability is also present in version 7.0.0 to version 7.1.3, but not exploitable due to environment conditions.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L/E:A/AU:Y/V:C",
+      "affected": [
+        {
+          "vendor": "zammad gmbh",
+          "product": "zammad",
+          "versions": [
+            {
+              "status": "unknown",
+              "version": "*",
+              "lessThan": "6.3.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "6.3.0",
+              "lessThan": "6.5.4",
+              "versionType": "semver"
+            },
+            {
+              "status": "unaffected",
+              "version": "7.0.0",
+              "lessThan": "*",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00582,
+      "kev": {
+        "cveID": "CVE-2026-102489",
+        "vendorProject": "Zammad GmbH",
+        "product": "Zammad",
+        "vulnerabilityName": "Zammad GmbH Zammad Session Fixation Vulnerability",
+        "dateAdded": "2026-10-02",
+        "shortDescription": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-05",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-102490",
+      "description": "All versions of Zammad including the latest alpha enable the local zammad user to escalate privileges to root.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A/AU:Y/V:D",
+      "affected": [
+        {
+          "vendor": "zammad gmbh",
+          "product": "zammad",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.5.0",
+              "lessThan": "7.1.0-alpha",
+              "versionType": "semver"
+            },
+            {
+              "status": "unknown",
+              "version": "*",
+              "lessThan": "1.5.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00262,
+      "kev": {
+        "cveID": "CVE-2026-102490",
+        "vendorProject": "Zammad GmbH",
+        "product": "Zammad",
+        "vulnerabilityName": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+        "dateAdded": "2026-10-02",
+        "shortDescription": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-05",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2026-12569",
       "description": "A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill PDMlink and PTC FlexPLM. The vulnerability may be exploited through the deserialization of untrusted data.\u00a0  *  This advisory also applies to all CPS versions\n  *  The identified vulnerability also impacts Windchill and FlexPLM releases prior to 11.0 M030",
       "cvss_score": 9.3,
@@ -93369,7 +93485,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05066,
+      "probability_score": 0.05177,
       "kev": {
         "cveID": "CVE-2026-25108",
         "vendorProject": "Soliton Systems K.K",
@@ -97906,7 +98022,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19756,
+      "probability_score": 0.45501,
       "kev": {
         "cveID": "CVE-2026-87902",
         "vendorProject": "WordPress",
@@ -98144,7 +98260,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01849,
+      "probability_score": 0.06392,
       "kev": {
         "cveID": "CVE-2026-86060",
         "vendorProject": "MikroTik",
