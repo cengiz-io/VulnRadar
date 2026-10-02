@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:18:08+00:00",
+  "generated_at": "2026-10-02T09:48:08+00:00",
   "vendor": "_other",
   "count": 1074,
   "items": [
@@ -9229,7 +9229,7 @@
           "CWE-20"
         ],
         "cpe_count": 10,
-        "reference_count": 10
+        "reference_count": 11
       }
     },
     {
@@ -42832,6 +42832,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-10-03",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-177"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
       }
     },
     {
@@ -55942,6 +55953,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-10-04",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -69631,9 +69653,9 @@
     {
       "cve_id": "CVE-2026-102504",
       "description": "Imager versions before 1.037 for Perl exit the process reading a raw image with an out-of-range raw_datachannels value in i_readraw_wiol.\n\nNothing range-checks raw_datachannels. The line buffer is sized as the image width times the channel count with no overflow check, so a negative or very large count requests an excessive allocation. When it fails, Imager's allocator calls exit(3).\n\nPassing an untrusted raw_datachannels value to Imager->read() triggers an uncatchable exit.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -69655,14 +69677,26 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-190",
+          "CWE-789"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102505",
       "description": "Imager versions before 1.037 for Perl overflow a heap buffer fetching float samples from a paletted image in i_gsampf_fp.\n\nFor a paletted image, getsamples() with type \"float\" allocates a buffer of one sample per pixel and fetches every requested channel of each pixel into it. Requesting more than one channel writes past its end.\n\nAn attacker-supplied image controls the overflowing bytes through its palette.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "",
@@ -69684,7 +69718,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-131"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102577",
@@ -69731,7 +69776,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00263
+      "probability_score": 0.00263,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-918"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102578",
@@ -69778,7 +69834,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00247
+      "probability_score": 0.00247,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102579",
@@ -69825,7 +69892,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00217
+      "probability_score": 0.00217,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-359"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102580",
@@ -69872,7 +69950,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00233
+      "probability_score": 0.00233,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-470"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102581",
@@ -69919,7 +70008,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171
+      "probability_score": 0.00171,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102582",
@@ -69966,7 +70066,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00204
+      "probability_score": 0.00204,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-425"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102583",
@@ -70013,7 +70124,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00236
+      "probability_score": 0.00236,
+      "nvd": {
+        "cvss_v3_score": 2.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-425"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102584",
@@ -70054,7 +70176,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196
+      "probability_score": 0.00196,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-425"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102585",
@@ -70089,7 +70222,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196
+      "probability_score": 0.00196,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-842"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102586",
@@ -70136,7 +70280,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00286
+      "probability_score": 0.00286,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102587",
@@ -70183,7 +70338,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00233
+      "probability_score": 0.00233,
+      "nvd": {
+        "cvss_v3_score": 2.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-204"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-102588",
@@ -70230,7 +70396,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00173
+      "probability_score": 0.00173,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-346"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-103431",
@@ -70259,7 +70436,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-150"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-103678",
@@ -70288,7 +70476,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-103679",
@@ -70317,7 +70516,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-103680",
@@ -70346,7 +70556,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 3.1,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-10717",
@@ -73267,7 +73488,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209
+      "probability_score": 0.00209,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-81928",
@@ -73566,9 +73798,9 @@
     {
       "cve_id": "CVE-2026-85644",
       "description": "XS::Parse::Infix versions from 0.40 through 0.49 for Perl treat a number as an array reference.\n\nThe wrapper function XS::Parse::Infix generates for a list-associative infix operator checks whether arguments are array references, but it tests using SvRV() rather than SvROK(). SvRV() reads a union slot that only holds a referent once SvROK(sv) is true, so the guard never validates that it is a reference. For an IV or NV that slot holds the number itself, SvRV() returns the caller's value and SvTYPE() dereferences it at offset 12. This will generally result in a segmentation fault.\n\nAn application that hands the wrapper a list built from decoded input (for example, from JSON) lets whoever supplies a number in that list choose the address that the interpreter dereferences.\n\nAn ordinary string's byte 12 is rarely SVt_PVAV so the guard croaks by luck, but an attacker-crafted string carrying 0x0b there passes, and the buffer is then used as an AV head, with AvARRAY taken from bytes 16-23 and its entries pushed onto the Perl stack as live SVs.\n\nA simple proof-of-concept uses the zip operator:\n\n    use Syntax::Operator::Zip 'zip';\n\n    my @args = ([1], 2);\n    zip(@args);",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -73592,8 +73824,8 @@
       "active_threat": false,
       "probability_score": 0.00393,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -73928,9 +74160,9 @@
     {
       "cve_id": "CVE-2026-88815",
       "description": "DBI versions before 1.654 for Perl incorrectly treat numeric values as strings in sql_type_cast_svpv.\n\nWhen casting to SQL_NUMERIC, sql_type_cast_svpv passes the string pointer and length of the SV to grok_number without stringifying it first. An integer (IV) or floating-point (NV) value has no valid string pointer, so grok_number reads from an invalid address, triggering a segmentation fault.\n\nThis is reachable in Perl using the sql_type_cast function:\n\n  my $num = 42;\n  DBI::sql_type_cast( $num, DBI::SQL_NUMERIC, 0 );",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -73954,23 +74186,23 @@
       "active_threat": false,
       "probability_score": 0.00183,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.2,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-843"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
       "cve_id": "CVE-2026-88816",
       "description": "DBI versions before 1.654 for Perl incorrectly treat numeric values as strings in FetchHashKeyName.\n\nfetchrow_hashref uses the string pointer of the FetchHashKeyName attribute as the key name without stringifying it first. When FetchHashKeyName has been set to an integer (IV) or floating-point (NV) value, that pointer is invalid, so reading the key name triggers a segmentation fault.\n\nThis can be triggered with the following code:\n\n   my $dbh = DBI->connect( \"dbi:ExampleP:\", \"\", \"\",\n       { RaiseError => 0, PrintError => 0 } );\n   $dbh->{FetchHashKeyName} = 42;\n\n   my $sth = $dbh->prepare(\"select mode, size, name from .\");\n   $sth->execute;\n   $sth->fetchrow_hashref;",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -73994,15 +74226,15 @@
       "active_threat": false,
       "probability_score": 0.00622,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-843"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -79140,7 +79372,7 @@
         "cwe_ids": [
           "CWE-653"
         ],
-        "cpe_count": 82,
+        "cpe_count": 79,
         "reference_count": 3
       }
     },
