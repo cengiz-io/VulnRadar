@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:14:11+00:00",
+  "generated_at": "2026-10-03T06:33:21+00:00",
   "vendor": "red_hat",
   "count": 518,
   "items": [
@@ -5154,6 +5154,18 @@
           "versions": [
             {
               "version": "1790703494",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -69254,6 +69266,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -93354,6 +93378,126 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703539",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703553",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703631",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703597",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703641",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703630",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703541",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703545",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.5",
+          "versions": [
+            {
+              "version": "1790703552",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -99346,6 +99490,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -100293,6 +100449,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -100985,6 +101153,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -101590,6 +101770,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -102105,6 +102297,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -102546,6 +102750,18 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -103068,6 +103284,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -103509,6 +103737,18 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -103963,6 +104203,18 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -104893,6 +105145,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat update infrastructure 5",
           "versions": [
             {
@@ -105147,6 +105411,18 @@
           "versions": [
             {
               "version": "3.8.13-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790703542",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
