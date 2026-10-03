@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:34:28+00:00",
+  "generated_at": "2026-10-03T17:18:29+00:00",
   "vendor": "_other",
   "count": 1077,
   "items": [
@@ -426,7 +426,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.28617,
+      "probability_score": 0.2912,
       "kev": {
         "cveID": "CVE-2024-3393",
         "vendorProject": "Palo Alto Networks",
@@ -2461,7 +2461,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91553,
+      "probability_score": 0.91248,
       "kev": {
         "cveID": "CVE-2022-26352",
         "vendorProject": "dotCMS",
@@ -9259,7 +9259,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0219,
+      "probability_score": 0.02515,
       "kev": {
         "cveID": "CVE-2026-11645",
         "vendorProject": "Google",
@@ -46244,7 +46244,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00694,
+      "probability_score": 0.00567,
       "kev": {
         "cveID": "CVE-2023-33063",
         "vendorProject": "Qualcomm",
@@ -46901,7 +46901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00924,
+      "probability_score": 0.00749,
       "kev": {
         "cveID": "CVE-2023-33106",
         "vendorProject": "Qualcomm",
@@ -47915,7 +47915,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00892,
+      "probability_score": 0.00723,
       "kev": {
         "cveID": "CVE-2023-33107",
         "vendorProject": "Qualcomm",
@@ -54622,7 +54622,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.00273,
+      "probability_score": 0.00306,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -57510,7 +57510,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01779,
+      "probability_score": 0.02201,
       "kev": {
         "cveID": "CVE-2026-104286",
         "vendorProject": "Fortinet",
@@ -67062,7 +67062,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00696,
+      "probability_score": 0.00681,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -81158,7 +81158,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90553,
+      "probability_score": 0.90355,
       "kev": {
         "cveID": "CVE-2023-40044",
         "vendorProject": "Progress",
@@ -81563,7 +81563,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99988,
+      "probability_score": 0.99987,
       "kev": {
         "cveID": "CVE-2023-42793",
         "vendorProject": "JetBrains",
@@ -84869,7 +84869,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91568,
+      "probability_score": 0.90713,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -84928,7 +84928,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98084,
+      "probability_score": 0.98163,
       "kev": {
         "cveID": "CVE-2024-12987",
         "vendorProject": "DrayTek",
@@ -89999,7 +89999,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.42952,
+      "probability_score": 0.42612,
       "kev": {
         "cveID": "CVE-2025-2775",
         "vendorProject": "SysAid",
@@ -90050,7 +90050,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.64397,
+      "probability_score": 0.64726,
       "kev": {
         "cveID": "CVE-2025-2776",
         "vendorProject": "SysAid",
@@ -90624,7 +90624,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01317,
+      "probability_score": 0.01349,
       "kev": {
         "cveID": "CVE-2025-35939",
         "vendorProject": "Craft CMS",
@@ -94201,7 +94201,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00582,
+      "probability_score": 0.01396,
       "kev": {
         "cveID": "CVE-2026-102489",
         "vendorProject": "Zammad GmbH",
@@ -94256,7 +94256,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00262,
+      "probability_score": 0.00629,
       "kev": {
         "cveID": "CVE-2026-102490",
         "vendorProject": "Zammad GmbH",
@@ -94853,7 +94853,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00693
     },
     {
       "cve_id": "CVE-2026-20253",
