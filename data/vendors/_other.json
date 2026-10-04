@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:15:44+00:00",
+  "generated_at": "2026-10-04T18:12:58+00:00",
   "vendor": "_other",
   "count": 1079,
   "items": [
@@ -128,7 +128,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02383,
+      "probability_score": 0.02542,
       "kev": {
         "cveID": "CVE-2022-0028",
         "vendorProject": "Palo Alto Networks",
@@ -7339,7 +7339,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.24738,
+      "probability_score": 0.24925,
       "kev": {
         "cveID": "CVE-2022-3038",
         "vendorProject": "Google",
@@ -9259,7 +9259,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02515,
+      "probability_score": 0.0244,
       "kev": {
         "cveID": "CVE-2026-11645",
         "vendorProject": "Google",
@@ -44920,7 +44920,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.70915,
+      "probability_score": 0.73192,
       "kev": {
         "cveID": "CVE-2026-21962",
         "vendorProject": "Oracle",
@@ -46244,7 +46244,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00567,
+      "probability_score": 0.0058,
       "kev": {
         "cveID": "CVE-2023-33063",
         "vendorProject": "Qualcomm",
@@ -46901,7 +46901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00749,
+      "probability_score": 0.00788,
       "kev": {
         "cveID": "CVE-2023-33106",
         "vendorProject": "Qualcomm",
@@ -47915,7 +47915,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00723,
+      "probability_score": 0.00739,
       "kev": {
         "cveID": "CVE-2023-33107",
         "vendorProject": "Qualcomm",
@@ -51901,7 +51901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93076,
+      "probability_score": 0.93244,
       "kev": {
         "cveID": "CVE-2022-33891",
         "vendorProject": "Apache",
@@ -57559,7 +57559,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93723,
+      "probability_score": 0.93871,
       "kev": {
         "cveID": "CVE-2026-21643",
         "vendorProject": "Fortinet",
@@ -70950,7 +70950,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.65771,
+      "probability_score": 0.74787,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -73163,7 +73163,7 @@
         "product:re gallery"
       ],
       "active_threat": false,
-      "probability_score": 0.00297,
+      "probability_score": 0.00293,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -82440,7 +82440,7 @@
         "vendor:linux mint"
       ],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00431,
       "nvd": {
         "cvss_v3_score": 6.3,
         "cvss_v3_severity": "MEDIUM",
@@ -85011,7 +85011,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90713,
+      "probability_score": 0.90891,
       "kev": {
         "cveID": "CVE-2026-1731",
         "vendorProject": "BeyondTrust",
@@ -86714,7 +86714,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99976,
+      "probability_score": 0.99966,
       "kev": {
         "cveID": "CVE-2025-31161",
         "vendorProject": "CrushFTP",
@@ -88783,7 +88783,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.31309,
+      "probability_score": 0.31085,
       "kev": {
         "cveID": "CVE-2025-0994",
         "vendorProject": "Trimble",
@@ -91069,7 +91069,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00428,
+      "probability_score": 0.00447,
       "kev": {
         "cveID": "CVE-2025-47729",
         "vendorProject": "TeleMessage",
@@ -92356,7 +92356,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.77957,
+      "probability_score": 0.79342,
       "kev": {
         "cveID": "CVE-2025-6204",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -92437,7 +92437,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.73308,
+      "probability_score": 0.73752,
       "kev": {
         "cveID": "CVE-2025-6205",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -92700,7 +92700,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19631,
+      "probability_score": 0.20284,
       "kev": {
         "cveID": "CVE-2025-7775",
         "vendorProject": "Citrix",
