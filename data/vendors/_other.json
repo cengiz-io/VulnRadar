@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T00:52:11+00:00",
+  "generated_at": "2026-10-06T07:53:57+00:00",
   "vendor": "_other",
-  "count": 1080,
+  "count": 1081,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -72046,14 +72046,14 @@
       "active_threat": false,
       "probability_score": 0.00205,
       "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
@@ -72093,7 +72093,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
@@ -72126,14 +72126,14 @@
       "active_threat": false,
       "probability_score": 0.00285,
       "nvd": {
-        "cvss_v3_score": 3.1,
-        "cvss_v3_severity": "LOW",
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 3
       }
     },
@@ -72994,6 +72994,46 @@
         ],
         "cpe_count": 0,
         "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-19954",
+      "description": "Net::Whois::Raw versions before 2.99044 for Perl ship a pwhois command-line tool that queries WHOIS for the wrong domain for unicode domain names.\n\npwhois encodes each non-ASCII label directly using Net::IDN::Punycode and prepends xn--. Apart from lowercasing ASCII and Cyrillic letters, it skips the IDNA mapping and normalization steps, so a label with other uppercase letters, or not in NFC, encodes to a different A-label than its IDNA form. For example, a label of U+00C9 followed by \"cole\" encodes to \"xn--cole-pka\" rather than \"xn--cole-9oa\".\n\nThe Net::Whois::Raw library modules are not affected.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.99044",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00179,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-176"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
       }
     },
     {
@@ -92956,13 +92996,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
-        "reference_count": 1
+        "cwe_ids": [
+          "CWE-119"
+        ],
+        "cpe_count": 7,
+        "reference_count": 3
       }
     },
     {
@@ -94401,21 +94443,21 @@
           "product": "zammad",
           "versions": [
             {
+              "lessThan": "6.3.0",
               "status": "unknown",
               "version": "*",
-              "lessThan": "6.3.0",
               "versionType": "semver"
             },
             {
+              "lessThan": "6.5.4",
               "status": "affected",
               "version": "6.3.0",
-              "lessThan": "6.5.4",
               "versionType": "semver"
             },
             {
+              "lessThan": "*",
               "status": "unaffected",
               "version": "7.0.0",
-              "lessThan": "*",
               "versionType": "semver"
             }
           ]
@@ -94464,15 +94506,15 @@
           "product": "zammad",
           "versions": [
             {
+              "lessThan": "7.1.0-alpha",
               "status": "affected",
               "version": "1.5.0",
-              "lessThan": "7.1.0-alpha",
               "versionType": "semver"
             },
             {
+              "lessThan": "1.5.0",
               "status": "unknown",
               "version": "*",
-              "lessThan": "1.5.0",
               "versionType": "semver"
             }
           ]
