@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:53:57+00:00",
+  "generated_at": "2026-10-06T15:14:41+00:00",
   "vendor": "_other",
   "count": 1081,
   "items": [
@@ -1313,7 +1313,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96382,
+      "probability_score": 0.96895,
       "kev": {
         "cveID": "CVE-2026-0257",
         "vendorProject": "Palo Alto Networks",
@@ -25614,7 +25614,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.67825,
+      "probability_score": 0.67995,
       "kev": {
         "cveID": "CVE-2025-20337",
         "vendorProject": "Cisco",
@@ -44389,7 +44389,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01575,
+      "probability_score": 0.01819,
       "kev": {
         "cveID": "CVE-2026-76504",
         "vendorProject": "Cisco",
@@ -45075,7 +45075,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00455,
+      "probability_score": 0.00411,
       "kev": {
         "cveID": "CVE-2022-22071",
         "vendorProject": "Qualcomm",
@@ -46244,7 +46244,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0058,
+      "probability_score": 0.00672,
       "kev": {
         "cveID": "CVE-2023-33063",
         "vendorProject": "Qualcomm",
@@ -52921,7 +52921,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9817,
+      "probability_score": 0.98241,
       "kev": {
         "cveID": "CVE-2022-26138",
         "vendorProject": "Atlassian",
@@ -53368,7 +53368,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99235,
+      "probability_score": 0.99223,
       "kev": {
         "cveID": "CVE-2023-22515",
         "vendorProject": "Atlassian",
@@ -54666,7 +54666,7 @@
         "vendor:linux kernel"
       ],
       "active_threat": false,
-      "probability_score": 0.00378,
+      "probability_score": 0.00383,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -66829,7 +66829,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.21346,
+      "probability_score": 0.21183,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -72044,7 +72044,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00205,
+      "probability_score": 0.00239,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -72084,7 +72084,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00296,
+      "probability_score": 0.00283,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -72124,7 +72124,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00285,
+      "probability_score": 0.00326,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -76794,7 +76794,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99968,
+      "probability_score": 0.99965,
       "kev": {
         "cveID": "CVE-2022-47986",
         "vendorProject": "IBM",
@@ -83731,7 +83731,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98897,
+      "probability_score": 0.98972,
       "kev": {
         "cveID": "CVE-2025-49113",
         "vendorProject": "Roundcube",
@@ -92983,7 +92983,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00534,
+      "probability_score": 0.00592,
       "kev": {
         "cveID": "CVE-2026-88779",
         "vendorProject": "Citrix",
@@ -93277,7 +93277,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.11946,
+      "probability_score": 0.71663,
       "kev": {
         "cveID": "CVE-2026-73570",
         "vendorProject": "Synacor",
