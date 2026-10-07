@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T07:16:31+00:00",
+  "generated_at": "2026-10-07T15:36:28+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -6936,7 +6936,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00843,
+      "probability_score": 0.00836,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -13570,7 +13570,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00328,
+      "probability_score": 0.00374,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -42480,7 +42480,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00553,
+      "probability_score": 0.00576,
       "nvd": {
         "cvss_v3_score": 7.6,
         "cvss_v3_severity": "HIGH",
@@ -58009,7 +58009,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01326,
+      "probability_score": 0.01353,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -67246,7 +67246,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.0026,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -72324,7 +72324,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00634,
+      "probability_score": 0.00666,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -72399,7 +72399,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00142,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -95703,7 +95703,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171,
+      "probability_score": 0.00174,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -98636,7 +98636,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00894,
+      "probability_score": 0.01047,
       "nvd": {
         "cvss_v3_score": 8.3,
         "cvss_v3_severity": "HIGH",
@@ -98711,7 +98711,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00154,
+      "probability_score": 0.00157,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -106695,7 +106695,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0023
     },
     {
       "cve_id": "CVE-2026-7163",
@@ -107001,7 +107001,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00983,
+      "probability_score": 0.0101,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
