@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07T00:45:04+00:00",
+  "generated_at": "2026-10-07T07:16:31+00:00",
   "vendor": "_other",
-  "count": 1081,
+  "count": 1082,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -72134,6 +72134,46 @@
           "CWE-787"
         ],
         "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-104380",
+      "description": "Punk versions from 0.48 before 0.55 for Perl route Extended CONNECT requests to any GET route without an Origin check in ps_serve_one.\n\nOn HTTP/2 and HTTP/3 a WebSocket handshake arrives as an Extended CONNECT, which is matched as a GET and so reaches every GET route, API operation and mount. The Origin check runs only when a websocket route matches. On this transport the handler's status is the handshake response, and a 2xx accepts it.\n\nA cross-origin page can open a WebSocket to any path and learn from its open or error event whether that path returns 2xx.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.55",
+              "status": "affected",
+              "version": "0.48",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00129,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1385"
+        ],
+        "cpe_count": 0,
         "reference_count": 3
       }
     },
