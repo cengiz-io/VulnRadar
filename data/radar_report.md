@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-08T02:07:53+00:00`
+Generated: `2026-10-08T08:56:19+00:00`
 
 ## Executive Summary
 
@@ -253,6 +253,8 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Oct 08 | [CVE-2026-98373](https://www.cve.org/CVERecord?id=CVE-2026-98373) | 🆕 New |
+| Oct 08 | [CVE-2026-98374](https://www.cve.org/CVERecord?id=CVE-2026-98374) | 🆕 New |
 | Oct 07 | [CVE-2026-104380](https://www.cve.org/CVERecord?id=CVE-2026-104380) | 🆕 New |
 | Oct 07 | [CVE-2026-98165](https://www.cve.org/CVERecord?id=CVE-2026-98165) | 🆕 New |
 | Oct 07 | [CVE-2026-98166](https://www.cve.org/CVERecord?id=CVE-2026-98166) | 🆕 New |
@@ -301,6 +303,4 @@ Top critical items:
 | Oct 07 | [CVE-2026-98209](https://www.cve.org/CVERecord?id=CVE-2026-98209) | 🆕 New |
 | Oct 07 | [CVE-2026-98210](https://www.cve.org/CVERecord?id=CVE-2026-98210) | 🆕 New |
 | Oct 07 | [CVE-2026-98211](https://www.cve.org/CVERecord?id=CVE-2026-98211) | 🆕 New |
-| Oct 07 | [CVE-2026-98212](https://www.cve.org/CVERecord?id=CVE-2026-98212) | 🆕 New |
-| Oct 07 | [CVE-2026-98213](https://www.cve.org/CVERecord?id=CVE-2026-98213) | 🆕 New |
-| ... | | _and 191 more_ |
+| ... | | _and 179 more_ |
