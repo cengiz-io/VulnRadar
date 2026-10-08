@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:20:19+00:00",
+  "generated_at": "2026-10-08T02:07:51+00:00",
   "vendor": "_other",
   "count": 1082,
   "items": [
@@ -72140,9 +72140,9 @@
     {
       "cve_id": "CVE-2026-104380",
       "description": "Punk versions from 0.48 before 0.55 for Perl route Extended CONNECT requests to any GET route without an Origin check in ps_serve_one.\n\nOn HTTP/2 and HTTP/3 a WebSocket handshake arrives as an Extended CONNECT, which is matched as a GET and so reaches every GET route, API operation and mount. The Origin check runs only when a websocket route matches. On this transport the handler's status is the handshake response, and a 2xx accepts it.\n\nA cross-origin page can open a WebSocket to any path and learn from its open or error event whether that path returns 2xx.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -72166,8 +72166,8 @@
       "active_threat": false,
       "probability_score": 0.00163,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -73039,9 +73039,9 @@
     {
       "cve_id": "CVE-2026-19954",
       "description": "Net::Whois::Raw versions before 2.99044 for Perl ship a pwhois command-line tool that queries WHOIS for the wrong domain for unicode domain names.\n\npwhois encodes each non-ASCII label directly using Net::IDN::Punycode and prepends xn--. Apart from lowercasing ASCII and Cyrillic letters, it skips the IDNA mapping and normalization steps, so a label with other uppercase letters, or not in NFC, encodes to a different A-label than its IDNA form. For example, a label of U+00C9 followed by \"cole\" encodes to \"xn--cole-pka\" rather than \"xn--cole-9oa\".\n\nThe Net::Whois::Raw library modules are not affected.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -73065,8 +73065,8 @@
       "active_threat": false,
       "probability_score": 0.00216,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -94473,7 +94473,7 @@
     },
     {
       "cve_id": "CVE-2026-102489",
-      "description": "Zammad versions 6.3.0 to 6.5.4 are vulnerable a session hijack vulnerability that leads to remote code execution as the zammad user. The vulnerability is also present in version 7.0.0 to version 7.1.3, but not exploitable due to environment conditions.",
+      "description": "Zammad versions 6.3.0 to 6.5.4 are vulnerable a session hijack vulnerability that leads to remote code execution as the zammad user. The bug is also present in version 7.0.0 to version 7.1.2, but not exploitable due to changes in the underlying framework.",
       "cvss_score": 8.7,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L/E:A/AU:Y/V:C",
@@ -94483,21 +94483,21 @@
           "product": "zammad",
           "versions": [
             {
-              "lessThan": "6.3.0",
               "status": "unknown",
               "version": "*",
+              "lessThan": "6.3.0",
               "versionType": "semver"
             },
             {
-              "lessThan": "6.5.4",
               "status": "affected",
               "version": "6.3.0",
+              "lessThan": "6.5.4",
               "versionType": "semver"
             },
             {
-              "lessThan": "*",
-              "status": "unaffected",
+              "status": "unknown",
               "version": "7.0.0",
+              "lessThan": "7.1.3",
               "versionType": "semver"
             }
           ]
@@ -94546,15 +94546,15 @@
           "product": "zammad",
           "versions": [
             {
-              "lessThan": "7.1.0-alpha",
               "status": "affected",
               "version": "1.5.0",
+              "lessThan": "7.1.0-alpha",
               "versionType": "semver"
             },
             {
-              "lessThan": "1.5.0",
               "status": "unknown",
               "version": "*",
+              "lessThan": "1.5.0",
               "versionType": "semver"
             }
           ]
