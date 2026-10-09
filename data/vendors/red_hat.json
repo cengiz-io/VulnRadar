@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T22:06:52+00:00",
+  "generated_at": "2026-10-09T02:09:44+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -18142,11 +18142,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "openshift pipelines",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "openshift serverless",
           "versions": null
         },
@@ -18253,6 +18248,16 @@
         {
           "vendor": "red hat",
           "product": "red hat ceph storage 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ceph storage 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ceph storage 9",
           "versions": null
         },
         {
@@ -74131,7 +74136,38 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 10",
-          "versions": null
+          "versions": [
+            {
+              "version": "0:9.9p1-7.el10_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:8.7p1-45.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:8.7p1-45.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -74146,11 +74182,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -84440,6 +84471,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat jboss core services 2.4.62.sp2",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.12",
           "versions": [
             {
@@ -84766,11 +84802,6 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -85015,6 +85046,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss core services 2.4.62.sp2",
+          "versions": null
         },
         {
           "vendor": "red hat",
@@ -85355,11 +85391,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         }
       ],
@@ -92924,6 +92955,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:2.9.7-13.el8_6.15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:2.9.7-13.el8_6.15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -92940,6 +92995,18 @@
           "versions": [
             {
               "version": "0:2.9.13-14.el9_8.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:2.9.13-3.el9_2.12",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -96607,11 +96674,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -99850,11 +99912,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -100809,11 +100866,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -101513,11 +101565,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -102129,11 +102176,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {

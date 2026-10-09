@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-08T22:06:54+00:00`
+Generated: `2026-10-09T02:09:47+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **18495**
-- Watchlist hits: **17692**
+- Total items: **18496**
+- Watchlist hits: **17693**
 - CISA KEVs: **819**
-- Exploit Intel (PoC): **834**
-- Exploit Intel + Watchlist (CRITICAL): **32**
+- Exploit Intel (PoC): **836**
+- Exploit Intel + Watchlist (CRITICAL): **33**
 
 ## Top Findings (max 200)
 
@@ -76,6 +76,7 @@ Top critical items:
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.024 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during coalescing  skb_try_coalesce() can attach … |
 | [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.023 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present  The DATA-packet ha… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
+| [CVE-2026-3888](https://www.cve.org/CVERecord?id=CVE-2026-3888) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.002 | 7.8 | ✅ | Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.006 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.005 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2024-24919](https://www.cve.org/CVERecord?id=CVE-2024-24919) |  | KEV | ✅ | ✅ | 2024-06-20 | 1.000 | 8.6 |  | Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN… |
 | [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.918 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
 | [CVE-2022-43769](https://www.cve.org/CVERecord?id=CVE-2022-43769) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.977 | 8.8 |  | Hitachi Vantara Pentaho Business Analytics Server prior to versions 9.4.0.1 and 9.3.0.2, including 8.3.x allow certain web services to set property values whic… |
-| [CVE-2025-52691](https://www.cve.org/CVERecord?id=CVE-2025-52691) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.857 | 10.0 |  | Successful exploitation of the vulnerability could allow an unauthenticated attacker to upload arbitrary files to any location on the mail server, potentially … |
 
 ## Recent Changes (Last 7 Days)
 
@@ -255,6 +255,7 @@ Top critical items:
 |------|-----|--------|
 | Oct 08 | [CVE-2026-98373](https://www.cve.org/CVERecord?id=CVE-2026-98373) | 🆕 New |
 | Oct 08 | [CVE-2026-98374](https://www.cve.org/CVERecord?id=CVE-2026-98374) | 🆕 New |
+| Oct 08 | [CVE-2023-22894](https://www.cve.org/CVERecord?id=CVE-2023-22894) | 🔴 In CISA KEV |
 | Oct 07 | [CVE-2026-104380](https://www.cve.org/CVERecord?id=CVE-2026-104380) | 🆕 New |
 | Oct 07 | [CVE-2026-98165](https://www.cve.org/CVERecord?id=CVE-2026-98165) | 🆕 New |
 | Oct 07 | [CVE-2026-98166](https://www.cve.org/CVERecord?id=CVE-2026-98166) | 🆕 New |
@@ -302,5 +303,4 @@ Top critical items:
 | Oct 07 | [CVE-2026-98208](https://www.cve.org/CVERecord?id=CVE-2026-98208) | 🆕 New |
 | Oct 07 | [CVE-2026-98209](https://www.cve.org/CVERecord?id=CVE-2026-98209) | 🆕 New |
 | Oct 07 | [CVE-2026-98210](https://www.cve.org/CVERecord?id=CVE-2026-98210) | 🆕 New |
-| Oct 07 | [CVE-2026-98211](https://www.cve.org/CVERecord?id=CVE-2026-98211) | 🆕 New |
-| ... | | _and 179 more_ |
+| ... | | _and 180 more_ |
