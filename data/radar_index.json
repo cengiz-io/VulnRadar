@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-10T01:46:51+00:00",
-  "total_count": 18496,
+  "generated_at": "2026-10-10T08:30:02+00:00",
+  "total_count": 18508,
   "vendor_count": 5,
   "vendors": {
     "_other": {
       "file": "vendors/_other.json",
-      "count": 1084
+      "count": 1086
     },
     "apple": {
       "file": "vendors/apple.json",
@@ -13,7 +13,7 @@
     },
     "linux": {
       "file": "vendors/linux.json",
-      "count": 16700
+      "count": 16710
     },
     "microsoft": {
       "file": "vendors/microsoft.json",
