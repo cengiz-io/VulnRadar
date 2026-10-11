@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:44:46+00:00",
+  "generated_at": "2026-10-11T18:07:32+00:00",
   "vendor": "_other",
   "count": 1088,
   "items": [
@@ -8922,7 +8922,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00543,
+      "probability_score": 0.00588,
       "kev": {
         "cveID": "CVE-2025-48543",
         "vendorProject": "Android",
@@ -9360,7 +9360,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.55101,
+      "probability_score": 0.54957,
       "kev": {
         "cveID": "CVE-2026-2441",
         "vendorProject": "Google",
@@ -64679,7 +64679,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00968,
+      "probability_score": 0.0096,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -64719,7 +64719,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00997,
+      "probability_score": 0.00989,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -72253,7 +72253,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00187
     },
     {
       "cve_id": "CVE-2026-107794",
@@ -72282,7 +72282,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00185
     },
     {
       "cve_id": "CVE-2026-108124",
@@ -73382,7 +73382,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00394,
+      "probability_score": 0.00417,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -89255,7 +89255,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95428,
+      "probability_score": 0.95748,
       "kev": {
         "cveID": "CVE-2025-12480",
         "vendorProject": "Gladinet",
@@ -91492,7 +91492,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93235,
+      "probability_score": 0.93884,
       "kev": {
         "cveID": "CVE-2025-47812",
         "vendorProject": "Wing FTP Server",
@@ -91543,7 +91543,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.63107,
+      "probability_score": 0.62766,
       "kev": {
         "cveID": "CVE-2025-47813",
         "vendorProject": "Wing FTP Server",
@@ -95665,7 +95665,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05177,
+      "probability_score": 0.05249,
       "kev": {
         "cveID": "CVE-2026-25108",
         "vendorProject": "Soliton Systems K.K",
