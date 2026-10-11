@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T23:33:44+00:00",
+  "generated_at": "2026-10-11T05:41:34+00:00",
   "vendor": "_other",
-  "count": 1086,
+  "count": 1088,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -72225,6 +72225,64 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-107373",
+      "description": "ExtUtils::Typemaps::STL::String versions before 1.06 for Perl T_STD_STRING typemap may read the SV length before stringifying the argument.\n\nThe typemap uses\n\n    $var = std::string( SvPV_nolen($arg), SvCUR($arg) )\n\nHowever, evaluation order for C++ arguments is not specified, and some compilers may produce code that evalutes SvCUR($arg) first.\n\nWhen $arg is not a string (for example, an interger, number or a reference) then SvCUR will return an invalid value, and the program may abort or segfault.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.06",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-107794",
+      "description": "ExtUtils::Typemaps::STL::List versions before 1.07 for Perl allocate a 32 GiB array on an empty list.\n\nThe OUTPUT typemaps call av_extend( av, len-1 ). On an empty list, this undeflows, and av_extend will allocate an array with 2^32 slots, leading to memory exhaustion.\n\nNote that a similar issue was fixed in ExtUtils::Typemaps::STL::Vector version 1.05.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.07",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-108124",
