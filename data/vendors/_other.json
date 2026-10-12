@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:26:39+00:00",
+  "generated_at": "2026-10-12T19:10:45+00:00",
   "vendor": "_other",
   "count": 1088,
   "items": [
@@ -2168,7 +2168,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09092,
+      "probability_score": 0.0848,
       "kev": {
         "cveID": "CVE-2022-23748",
         "vendorProject": "Audinate",
@@ -7235,7 +7235,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1372,
+      "probability_score": 0.13921,
       "kev": {
         "cveID": "CVE-2022-1364",
         "vendorProject": "Google",
@@ -8922,7 +8922,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00588,
+      "probability_score": 0.00584,
       "kev": {
         "cveID": "CVE-2025-48543",
         "vendorProject": "Android",
@@ -45022,7 +45022,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09444,
+      "probability_score": 0.96678,
       "kev": {
         "cveID": "CVE-2026-35273",
         "vendorProject": "Oracle",
@@ -53189,7 +53189,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99174,
+      "probability_score": 0.99077,
       "kev": {
         "cveID": "CVE-2022-36804",
         "vendorProject": "Atlassian",
@@ -63015,7 +63015,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00336,
+      "probability_score": 0.00342,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -73500,7 +73500,7 @@
         "product:modular ds"
       ],
       "active_threat": false,
-      "probability_score": 0.00517,
+      "probability_score": 0.0051,
       "nvd": {
         "cvss_v3_score": 10.0,
         "cvss_v3_severity": "CRITICAL",
@@ -88773,7 +88773,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79703,
+      "probability_score": 0.7984,
       "kev": {
         "cveID": "CVE-2024-8957",
         "vendorProject": "PTZOptics",
@@ -90378,7 +90378,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04054,
+      "probability_score": 0.04021,
       "kev": {
         "cveID": "CVE-2025-2749",
         "vendorProject": "Kentico",
@@ -90581,7 +90581,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02437,
+      "probability_score": 0.02485,
       "kev": {
         "cveID": "CVE-2025-30154",
         "vendorProject": "reviewdog",
@@ -91960,7 +91960,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.52508,
+      "probability_score": 0.60601,
       "kev": {
         "cveID": "CVE-2025-53690",
         "vendorProject": "Sitecore",
@@ -94700,7 +94700,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.35823,
+      "probability_score": 0.36875,
       "kev": {
         "cveID": "CVE-2025-9377",
         "vendorProject": "TP-Link",

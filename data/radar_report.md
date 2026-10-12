@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-12T09:26:41+00:00`
+Generated: `2026-10-12T19:10:47+00:00`
 
 ## Executive Summary
 
@@ -176,6 +176,7 @@ Top critical items:
 | [CVE-2023-38203](https://www.cve.org/CVERecord?id=CVE-2023-38203) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.971 | 9.8 |  | Adobe ColdFusion versions 2018u17 (and earlier), 2021u7 (and earlier) and 2023u1 (and earlier) are affected by a Deserialization of Untrusted Data vulnerabilit… |
 | [CVE-2026-20253](https://www.cve.org/CVERecord?id=CVE-2026-20253) |  | KEV | ✅ | ✅ | 2026-06-21 | 0.969 | 9.8 |  | In Splunk Enterprise 10.2 versions below 10.2.4 and 10 versions below 10.0.7, an unauthenticated user could create or truncate arbitrary files through a Postgr… |
 | [CVE-2024-51378](https://www.cve.org/CVERecord?id=CVE-2024-51378) |  | KEV | ✅ | ✅ | 2024-12-25 | 0.947 | 10.0 |  | getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arb… |
+| [CVE-2026-35273](https://www.cve.org/CVERecord?id=CVE-2026-35273) |  | KEV | ✅ | ✅ | 2026-06-15 | 0.967 | 9.8 |  | Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Updates Environment Management). Supported versions that are af… |
 | [CVE-2023-7028](https://www.cve.org/CVERecord?id=CVE-2023-7028) |  | KEV | ✅ | ✅ | 2024-05-22 | 0.946 | 10.0 |  | An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5… |
 | [CVE-2023-33246](https://www.cve.org/CVERecord?id=CVE-2023-33246) |  | KEV | ✅ | ✅ | 2023-09-27 | 0.966 | 9.8 |  | For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution.   Several components of RocketMQ, including NameS… |
 | [CVE-2023-46747](https://www.cve.org/CVERecord?id=CVE-2023-46747) |  | KEV | ✅ | ✅ | 2023-11-21 | 0.965 | 9.8 |  | Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port… |
@@ -234,7 +235,7 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.896 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.895 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
-| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
+| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.991 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2025-5086](https://www.cve.org/CVERecord?id=CVE-2025-5086) |  | KEV | ✅ | ✅ | 2025-10-02 | 0.969 | 9.0 |  | A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution. |
 | [CVE-2025-34291](https://www.cve.org/CVERecord?id=CVE-2025-34291) |  | KEV | ✅ | ✅ | 2026-06-04 | 0.928 | 9.4 |  | Langflow versions up to and including 1.6.9 contain a chained vulnerability that enables account takeover and remote code execution. An overly permissive CORS … |
 | [CVE-2025-12480](https://www.cve.org/CVERecord?id=CVE-2025-12480) |  | KEV | ✅ | ✅ | 2025-12-03 | 0.957 | 9.1 |  | Triofox versions prior to 16.7.10368.56560, are vulnerable to an Improper Access Control flaw that allows access to initial setup pages even after setup is complete. |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2023-32315](https://www.cve.org/CVERecord?id=CVE-2023-32315) |  | KEV | ✅ | ✅ | 2023-09-14 | 1.000 | 8.6 |  | Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerabl… |
 | [CVE-2024-24919](https://www.cve.org/CVERecord?id=CVE-2024-24919) |  | KEV | ✅ | ✅ | 2024-06-20 | 1.000 | 8.6 |  | Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN… |
 | [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.918 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
-| [CVE-2022-43769](https://www.cve.org/CVERecord?id=CVE-2022-43769) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.977 | 8.8 |  | Hitachi Vantara Pentaho Business Analytics Server prior to versions 9.4.0.1 and 9.3.0.2, including 8.3.x allow certain web services to set property values whic… |
 
 ## Recent Changes (Last 7 Days)
 
