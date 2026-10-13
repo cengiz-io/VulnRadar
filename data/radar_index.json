@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T01:38:36+00:00",
-  "total_count": 18510,
+  "generated_at": "2026-10-13T09:23:42+00:00",
+  "total_count": 18512,
   "vendor_count": 5,
   "vendors": {
     "_other": {
@@ -13,7 +13,7 @@
     },
     "linux": {
       "file": "vendors/linux.json",
-      "count": 16710
+      "count": 16711
     },
     "microsoft": {
       "file": "vendors/microsoft.json",
@@ -21,7 +21,7 @@
     },
     "red_hat": {
       "file": "vendors/red_hat.json",
-      "count": 520
+      "count": 521
     }
   }
 }
