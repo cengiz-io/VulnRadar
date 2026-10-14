@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:44:54+00:00",
+  "generated_at": "2026-10-14T02:25:15+00:00",
   "vendor": "red_hat",
   "count": 521,
   "items": [
@@ -17059,11 +17059,6 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -21550,7 +21545,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "openshift compliance operator 1",
+          "product": "compliance operator 1",
           "versions": [
             {
               "version": "1.8.0",
@@ -21559,11 +21554,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -59433,11 +59423,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -64650,6 +64635,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.18",
+          "versions": [
+            {
+              "version": "418.94.202502100215-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -65209,11 +65206,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -68139,11 +68131,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 10",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         }
       ],
@@ -93550,6 +93537,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ai inference server 3.5",
+          "versions": [
+            {
+              "version": "1791425869",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.5",
+          "versions": [
+            {
+              "version": "1791427182",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ai inference server 3.5",
+          "versions": [
+            {
+              "version": "1791803821",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat discovery 2",
           "versions": [
             {
@@ -94203,7 +94226,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 66
+        "reference_count": 68
       }
     },
     {
