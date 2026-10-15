@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-15T13:37:30+00:00`
+Generated: `2026-10-15T18:25:36+00:00`
 
 ## Executive Summary
 
@@ -38,10 +38,10 @@ Top critical items:
 
 ## Summary
 
-- Total items: **18568**
+- Total items: **18569**
 - Watchlist hits: **17759**
-- CISA KEVs: **825**
-- Exploit Intel (PoC): **840**
+- CISA KEVs: **826**
+- Exploit Intel (PoC): **843**
 - Exploit Intel + Watchlist (CRITICAL): **33**
 
 ## Top Findings (max 200)
@@ -148,6 +148,7 @@ Top critical items:
 | [CVE-2024-23692](https://www.cve.org/CVERecord?id=CVE-2024-23692) |  | KEV | ✅ | ✅ | 2024-07-30 | 0.995 | 9.8 |  | Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenti… |
 | [CVE-2023-34048](https://www.cve.org/CVERecord?id=CVE-2023-34048) |  | KEV | ✅ | ✅ | 2024-02-12 | 0.994 | 9.8 |  | vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Ser… |
 | [CVE-2024-38856](https://www.cve.org/CVERecord?id=CVE-2024-38856) |  | KEV | ✅ | ✅ | 2024-09-17 | 0.994 | 9.8 |  | Incorrect Authorization vulnerability in Apache OFBiz.  This issue affects Apache OFBiz: through 18.12.14.  Users are recommended to upgrade to version 18.12.1… |
+| [CVE-2026-72898](https://www.cve.org/CVERecord?id=CVE-2026-72898) |  | KEV | ✅ | ✅ | 2026-08-14 | 0.973 | 10.0 |  | Metabase allows a remote, unauthenticated attacker to inject arbitrary SQL via the '/reset_password' database endpoint and gain administrator access to the con… |
 | [CVE-2024-4885](https://www.cve.org/CVERecord?id=CVE-2024-4885) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.993 | 9.8 |  | In WhatsUp Gold versions released before 2023.1.3, an unauthenticated Remote Code Execution vulnerability in Progress WhatsUpGold.  The   WhatsUp.ExportUtiliti… |
 | [CVE-2023-28771](https://www.cve.org/CVERecord?id=CVE-2023-28771) |  | KEV | ✅ | ✅ | 2023-06-21 | 0.993 | 9.8 |  | Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series… |
 | [CVE-2024-27348](https://www.cve.org/CVERecord?id=CVE-2024-27348) |  | KEV | ✅ | ✅ | 2024-10-09 | 0.992 | 9.8 |  | RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 & Java11  Us… |
@@ -211,8 +212,8 @@ Top critical items:
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.904 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2025-37164](https://www.cve.org/CVERecord?id=CVE-2025-37164) |  | KEV | ✅ | ✅ | 2026-01-28 | 0.902 | 10.0 |  | A remote code execution issue exists in HPE OneView. |
 | [CVE-2024-55591](https://www.cve.org/CVERecord?id=CVE-2024-55591) |  | KEV | ✅ | ✅ | 2025-01-21 | 0.941 | 9.6 |  | An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0… |
-| [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2025-0282](https://www.cve.org/CVERecord?id=CVE-2025-0282) |  | KEV | ✅ | ✅ | 2025-01-15 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gatewa… |
+| [CVE-2025-22457](https://www.cve.org/CVERecord?id=CVE-2025-22457) |  | KEV | ✅ | ✅ | 2025-04-11 | 1.000 | 9.0 |  | A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before ve… |
 | [CVE-2022-37042](https://www.cve.org/CVERecord?id=CVE-2022-37042) |  | KEV | ✅ | ✅ | 2022-09-01 | 0.919 | 9.8 |  | Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authenticatio… |
 | [CVE-2024-11680](https://www.cve.org/CVERecord?id=CVE-2024-11680) |  | KEV | ✅ | ✅ | 2024-12-24 | 0.918 | 9.8 |  | ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sendin… |
 | [CVE-2025-48703](https://www.cve.org/CVERecord?id=CVE-2025-48703) |  | KEV | ✅ | ✅ | 2025-11-25 | 0.997 | 9.0 |  | CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total paramete… |
@@ -235,7 +236,7 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.896 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.895 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
-| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
+| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.991 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2025-5086](https://www.cve.org/CVERecord?id=CVE-2025-5086) |  | KEV | ✅ | ✅ | 2025-10-02 | 0.969 | 9.0 |  | A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution. |
 | [CVE-2025-34291](https://www.cve.org/CVERecord?id=CVE-2025-34291) |  | KEV | ✅ | ✅ | 2026-06-04 | 0.928 | 9.4 |  | Langflow versions up to and including 1.6.9 contain a chained vulnerability that enables account takeover and remote code execution. An overly permissive CORS … |
 | [CVE-2025-12480](https://www.cve.org/CVERecord?id=CVE-2025-12480) |  | KEV | ✅ | ✅ | 2025-12-03 | 0.957 | 9.1 |  | Triofox versions prior to 16.7.10368.56560, are vulnerable to an Improper Access Control flaw that allows access to initial setup pages even after setup is complete. |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2025-57819](https://www.cve.org/CVERecord?id=CVE-2025-57819) |  | KEV | ✅ | ✅ | 2025-09-19 | 0.863 | 10.0 |  | FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied dat… |
 | [CVE-2023-32315](https://www.cve.org/CVERecord?id=CVE-2023-32315) |  | KEV | ✅ | ✅ | 2023-09-14 | 1.000 | 8.6 |  | Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerabl… |
 | [CVE-2024-24919](https://www.cve.org/CVERecord?id=CVE-2024-24919) |  | KEV | ✅ | ✅ | 2024-06-20 | 1.000 | 8.6 |  | Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN… |
-| [CVE-2025-64446](https://www.cve.org/CVERecord?id=CVE-2025-64446) |  | KEV | ✅ | ✅ | 2025-11-21 | 0.918 | 9.4 |  | A relative path traversal vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.1, FortiWeb 7.6.0 through 7.6.4, FortiWeb 7.4.0 through 7.4.9, FortiWeb 7.2.0 th… |
 
 ## Recent Changes (Last 7 Days)
 
