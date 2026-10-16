@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T01:21:48+00:00",
+  "generated_at": "2026-10-16T07:10:44+00:00",
   "vendor": "red_hat",
   "count": 521,
   "items": [
@@ -17950,6 +17950,18 @@
           "versions": [
             {
               "version": "v4.18.2-8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ceph storage 7.1",
+          "versions": [
+            {
+              "version": "1791452477",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -58239,6 +58251,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss core services 2.4.62.sp1",
+          "versions": null
         },
         {
           "vendor": "red hat",
@@ -107350,6 +107367,18 @@
           "versions": [
             {
               "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.13",
+          "versions": [
+            {
+              "version": "413.92.202609302032-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
