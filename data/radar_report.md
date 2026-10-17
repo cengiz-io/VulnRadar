@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-17T09:18:30+00:00`
+Generated: `2026-10-17T13:45:09+00:00`
 
 ## Executive Summary
 
@@ -228,6 +228,7 @@ Top critical items:
 | [CVE-2025-54253](https://www.cve.org/CVERecord?id=CVE-2025-54253) |  | KEV | ✅ | ✅ | 2025-11-05 | 0.883 | 10.0 |  | Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacke… |
 | [CVE-2024-41713](https://www.cve.org/CVERecord?id=CVE-2024-41713) |  | KEV | ✅ | ✅ | 2025-01-28 | 0.972 | 9.1 |  | A vulnerability in the NuPoint Unified Messaging (NPM) component of Mitel MiCollab through 9.8 SP1 FP2 (9.8.1.201) could allow an unauthenticated attacker to c… |
 | [CVE-2026-20079](https://www.cve.org/CVERecord?id=CVE-2026-20079) |  | KEV | ✅ | ✅ | 2026-09-12 | 0.882 | 10.0 |  | A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authen… |
+| [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.901 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2024-13161](https://www.cve.org/CVERecord?id=CVE-2024-13161) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.901 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2023-1389](https://www.cve.org/CVERecord?id=CVE-2023-1389) |  | KEV | ✅ | ✅ | 2023-05-22 | 1.000 | 8.8 |  | TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci… |
 | [CVE-2025-49704](https://www.cve.org/CVERecord?id=CVE-2025-49704) |  | KEV | ✅ | ✅ | 2025-07-23 | 1.000 | 8.8 |  | Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. |
@@ -235,7 +236,6 @@ Top critical items:
 | [CVE-2022-41040](https://www.cve.org/CVERecord?id=CVE-2022-41040) |  | KEV | ✅ | ✅ | 2022-10-21 | 1.000 | 8.8 |  | Microsoft Exchange Server Elevation of Privilege Vulnerability |
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.896 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
-| [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.895 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2025-5086](https://www.cve.org/CVERecord?id=CVE-2025-5086) |  | KEV | ✅ | ✅ | 2025-10-02 | 0.969 | 9.0 |  | A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution. |
 | [CVE-2025-34291](https://www.cve.org/CVERecord?id=CVE-2025-34291) |  | KEV | ✅ | ✅ | 2026-06-04 | 0.928 | 9.4 |  | Langflow versions up to and including 1.6.9 contain a chained vulnerability that enables account takeover and remote code execution. An overly permissive CORS … |
