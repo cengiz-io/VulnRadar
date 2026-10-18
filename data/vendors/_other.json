@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:01:43+00:00",
+  "generated_at": "2026-10-18T14:36:41+00:00",
   "vendor": "_other",
   "count": 1108,
   "items": [
@@ -3285,7 +3285,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9988,
+      "probability_score": 0.99851,
       "kev": {
         "cveID": "CVE-2022-35914",
         "vendorProject": "Teclib",
@@ -8985,7 +8985,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05026,
+      "probability_score": 0.049,
       "kev": {
         "cveID": "CVE-2025-13223",
         "vendorProject": "Google",
@@ -17808,7 +17808,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99615,
+      "probability_score": 0.99609,
       "kev": {
         "cveID": "CVE-2023-20198",
         "vendorProject": "Cisco",
@@ -30329,7 +30329,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.40169,
+      "probability_score": 0.41502,
       "kev": {
         "cveID": "CVE-2025-20352",
         "vendorProject": "Cisco",
@@ -51213,7 +51213,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59582,
+      "probability_score": 0.59427,
       "kev": {
         "cveID": "CVE-2023-21608",
         "vendorProject": "Adobe",
@@ -51741,7 +51741,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94311,
+      "probability_score": 0.9466,
       "kev": {
         "cveID": "CVE-2025-54236",
         "vendorProject": "Adobe",
@@ -57316,7 +57316,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99806,
+      "probability_score": 0.99921,
       "kev": {
         "cveID": "CVE-2025-25257",
         "vendorProject": "Fortinet",
@@ -61236,7 +61236,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01862,
+      "probability_score": 0.0217,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -61300,7 +61300,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0193,
+      "probability_score": 0.0225,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -61364,7 +61364,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00506,
+      "probability_score": 0.00531,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -61402,7 +61402,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00433,
+      "probability_score": 0.00473,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61455,7 +61455,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00243,
+      "probability_score": 0.00248,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -61519,7 +61519,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0051,
+      "probability_score": 0.00597,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -61584,7 +61584,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00538,
+      "probability_score": 0.00573,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61637,7 +61637,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01165,
+      "probability_score": 0.01294,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -61701,7 +61701,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00506,
+      "probability_score": 0.00531,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -61765,7 +61765,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00294,
+      "probability_score": 0.00316,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61830,7 +61830,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0056,
+      "probability_score": 0.00587,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -61895,7 +61895,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0137,
+      "probability_score": 0.01605,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -61959,7 +61959,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00278,
+      "probability_score": 0.00287,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -69655,7 +69655,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00499,
+      "probability_score": 0.00536,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -79882,7 +79882,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87691,
+      "probability_score": 0.86841,
       "kev": {
         "cveID": "CVE-2023-2868",
         "vendorProject": "Barracuda Networks",
@@ -85194,7 +85194,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94647,
+      "probability_score": 0.94458,
       "kev": {
         "cveID": "CVE-2023-7028",
         "vendorProject": "GitLab",
@@ -85318,7 +85318,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.19106,
+      "probability_score": 0.18959,
       "kev": {
         "cveID": "CVE-2023-7101",
         "vendorProject": "Spreadsheet::ParseExcel",
@@ -92966,7 +92966,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96544,
+      "probability_score": 0.96432,
       "kev": {
         "cveID": "CVE-2026-23760",
         "vendorProject": "SmarterTools",
@@ -93129,7 +93129,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97321,
+      "probability_score": 0.96284,
       "kev": {
         "cveID": "CVE-2025-54068",
         "vendorProject": "Laravel",
@@ -93523,7 +93523,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.86347,
+      "probability_score": 0.95024,
       "kev": {
         "cveID": "CVE-2025-57819",
         "vendorProject": "Sangoma",
@@ -93810,7 +93810,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.79342,
+      "probability_score": 0.79202,
       "kev": {
         "cveID": "CVE-2025-6204",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -93891,7 +93891,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.73752,
+      "probability_score": 0.73572,
       "kev": {
         "cveID": "CVE-2025-6205",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -96768,7 +96768,7 @@
         "vendor:linux4me2"
       ],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
