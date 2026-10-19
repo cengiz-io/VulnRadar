@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-19T07:47:03+00:00`
+Generated: `2026-10-19T15:39:40+00:00`
 
 ## Executive Summary
 
@@ -34,7 +34,7 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.111 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.050 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | 0.020 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through … |
-| [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.029 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
+| [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.033 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
 
 ## Summary
 
@@ -72,7 +72,7 @@ Top critical items:
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.111 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.050 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through frag-transfer helpers  Two frag-transfer… |
-| [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
+| [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.033 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2026-43500](https://www.cve.org/CVERecord?id=CVE-2026-43500) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present  The DATA-packet ha… |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.024 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during coalescing  skb_try_coalesce() can attach … |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
@@ -162,8 +162,8 @@ Top critical items:
 | [CVE-2022-21587](https://www.cve.org/CVERecord?id=CVE-2022-21587) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.983 | 9.8 |  | Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected ar… |
 | [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.983 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
 | [CVE-2022-26138](https://www.cve.org/CVERecord?id=CVE-2022-26138) |  | KEV | ✅ | ✅ | 2022-08-19 | 0.982 | 9.8 |  | The Atlassian Questions For Confluence app for Confluence Server and Data Center creates a Confluence user account in the confluence-users group with the usern… |
+| [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.981 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2023-25717](https://www.cve.org/CVERecord?id=CVE-2023-25717) |  | KEV | ✅ | ✅ | 2023-06-02 | 0.981 | 9.8 |  | Ruckus Wireless Admin through 10.4 allows Remote Code Execution via an unauthenticated HTTP GET Request, as demonstrated by a /forms/doLogin?login_username=adm… |
-| [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2022-29303](https://www.cve.org/CVERecord?id=CVE-2022-29303) |  | KEV | ✅ | ✅ | 2023-08-03 | 0.980 | 9.8 |  | SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php. |
 | [CVE-2024-29824](https://www.cve.org/CVERecord?id=CVE-2024-29824) |  | KEV | ✅ | ✅ | 2024-10-23 | 0.999 | 9.6 |  | An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execut… |
 | [CVE-2025-25257](https://www.cve.org/CVERecord?id=CVE-2025-25257) |  | KEV | ✅ | ✅ | 2025-08-08 | 0.999 | 9.6 |  | An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiWeb 7.6.0 through… |
@@ -253,54 +253,54 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
-| Oct 17 | [CVE-2026-110752](https://www.cve.org/CVERecord?id=CVE-2026-110752) | 🆕 New |
-| Oct 17 | [CVE-2026-110753](https://www.cve.org/CVERecord?id=CVE-2026-110753) | 🆕 New |
-| Oct 17 | [CVE-2026-110754](https://www.cve.org/CVERecord?id=CVE-2026-110754) | 🆕 New |
-| Oct 17 | [CVE-2026-110755](https://www.cve.org/CVERecord?id=CVE-2026-110755) | 🆕 New |
-| Oct 17 | [CVE-2026-110756](https://www.cve.org/CVERecord?id=CVE-2026-110756) | 🆕 New |
-| Oct 17 | [CVE-2026-110757](https://www.cve.org/CVERecord?id=CVE-2026-110757) | 🆕 New |
-| Oct 17 | [CVE-2026-110758](https://www.cve.org/CVERecord?id=CVE-2026-110758) | 🆕 New |
-| Oct 17 | [CVE-2026-110759](https://www.cve.org/CVERecord?id=CVE-2026-110759) | 🆕 New |
-| Oct 16 | [CVE-2026-98432](https://www.cve.org/CVERecord?id=CVE-2026-98432) | 🆕 New |
-| Oct 16 | [CVE-2026-99999](https://www.cve.org/CVERecord?id=CVE-2026-99999) | 🆕 New |
-| Oct 16 | [CVE-2025-61624](https://www.cve.org/CVERecord?id=CVE-2025-61624) | 🔴 In CISA KEV |
-| Oct 16 | [CVE-2026-102764](https://www.cve.org/CVERecord?id=CVE-2026-102764) | 🔴 In CISA KEV |
-| Oct 15 | [CVE-2026-0322](https://www.cve.org/CVERecord?id=CVE-2026-0322) | 🔴 In CISA KEV |
-| Oct 15 | [CVE-2026-76519](https://www.cve.org/CVERecord?id=CVE-2026-76519) | 🔴 In CISA KEV |
-| Oct 15 | [CVE-2026-53612](https://www.cve.org/CVERecord?id=CVE-2026-53612) | 🆕 New |
-| Oct 15 | [CVE-2026-53613](https://www.cve.org/CVERecord?id=CVE-2026-53613) | 🆕 New |
-| Oct 15 | [CVE-2026-53614](https://www.cve.org/CVERecord?id=CVE-2026-53614) | 🆕 New |
-| Oct 15 | [CVE-2026-53615](https://www.cve.org/CVERecord?id=CVE-2026-53615) | 🆕 New |
-| Oct 15 | [CVE-2026-98386](https://www.cve.org/CVERecord?id=CVE-2026-98386) | 🆕 New |
-| Oct 15 | [CVE-2026-98387](https://www.cve.org/CVERecord?id=CVE-2026-98387) | 🆕 New |
-| Oct 15 | [CVE-2026-98388](https://www.cve.org/CVERecord?id=CVE-2026-98388) | 🆕 New |
-| Oct 15 | [CVE-2026-98389](https://www.cve.org/CVERecord?id=CVE-2026-98389) | 🆕 New |
-| Oct 15 | [CVE-2026-98390](https://www.cve.org/CVERecord?id=CVE-2026-98390) | 🆕 New |
-| Oct 15 | [CVE-2026-98391](https://www.cve.org/CVERecord?id=CVE-2026-98391) | 🆕 New |
-| Oct 15 | [CVE-2026-98392](https://www.cve.org/CVERecord?id=CVE-2026-98392) | 🆕 New |
-| Oct 15 | [CVE-2026-98393](https://www.cve.org/CVERecord?id=CVE-2026-98393) | 🆕 New |
-| Oct 15 | [CVE-2026-98394](https://www.cve.org/CVERecord?id=CVE-2026-98394) | 🆕 New |
-| Oct 15 | [CVE-2026-98395](https://www.cve.org/CVERecord?id=CVE-2026-98395) | 🆕 New |
-| Oct 15 | [CVE-2026-98396](https://www.cve.org/CVERecord?id=CVE-2026-98396) | 🆕 New |
-| Oct 15 | [CVE-2026-98397](https://www.cve.org/CVERecord?id=CVE-2026-98397) | 🆕 New |
-| Oct 15 | [CVE-2026-98398](https://www.cve.org/CVERecord?id=CVE-2026-98398) | 🆕 New |
-| Oct 15 | [CVE-2026-98399](https://www.cve.org/CVERecord?id=CVE-2026-98399) | 🆕 New |
-| Oct 15 | [CVE-2026-98400](https://www.cve.org/CVERecord?id=CVE-2026-98400) | 🆕 New |
-| Oct 15 | [CVE-2026-98401](https://www.cve.org/CVERecord?id=CVE-2026-98401) | 🆕 New |
-| Oct 15 | [CVE-2026-98402](https://www.cve.org/CVERecord?id=CVE-2026-98402) | 🆕 New |
-| Oct 15 | [CVE-2026-98403](https://www.cve.org/CVERecord?id=CVE-2026-98403) | 🆕 New |
-| Oct 15 | [CVE-2026-98404](https://www.cve.org/CVERecord?id=CVE-2026-98404) | 🆕 New |
-| Oct 15 | [CVE-2026-98405](https://www.cve.org/CVERecord?id=CVE-2026-98405) | 🆕 New |
-| Oct 15 | [CVE-2026-98406](https://www.cve.org/CVERecord?id=CVE-2026-98406) | 🆕 New |
-| Oct 15 | [CVE-2026-98407](https://www.cve.org/CVERecord?id=CVE-2026-98407) | 🆕 New |
-| Oct 15 | [CVE-2026-98408](https://www.cve.org/CVERecord?id=CVE-2026-98408) | 🆕 New |
-| Oct 15 | [CVE-2026-98409](https://www.cve.org/CVERecord?id=CVE-2026-98409) | 🆕 New |
-| Oct 15 | [CVE-2026-98410](https://www.cve.org/CVERecord?id=CVE-2026-98410) | 🆕 New |
-| Oct 15 | [CVE-2026-98411](https://www.cve.org/CVERecord?id=CVE-2026-98411) | 🆕 New |
-| Oct 15 | [CVE-2026-98412](https://www.cve.org/CVERecord?id=CVE-2026-98412) | 🆕 New |
-| Oct 15 | [CVE-2026-98413](https://www.cve.org/CVERecord?id=CVE-2026-98413) | 🆕 New |
-| Oct 15 | [CVE-2026-98414](https://www.cve.org/CVERecord?id=CVE-2026-98414) | 🆕 New |
-| Oct 15 | [CVE-2026-98415](https://www.cve.org/CVERecord?id=CVE-2026-98415) | 🆕 New |
-| Oct 15 | [CVE-2026-98416](https://www.cve.org/CVERecord?id=CVE-2026-98416) | 🆕 New |
-| Oct 15 | [CVE-2026-98417](https://www.cve.org/CVERecord?id=CVE-2026-98417) | 🆕 New |
-| ... | | _and 21 more_ |
+| Oct 19 | [CVE-2026-78497](https://www.cve.org/CVERecord?id=CVE-2026-78497) | 🆕 New |
+| Oct 19 | [CVE-2026-98433](https://www.cve.org/CVERecord?id=CVE-2026-98433) | 🆕 New |
+| Oct 19 | [CVE-2026-98434](https://www.cve.org/CVERecord?id=CVE-2026-98434) | 🆕 New |
+| Oct 19 | [CVE-2026-98435](https://www.cve.org/CVERecord?id=CVE-2026-98435) | 🆕 New |
+| Oct 19 | [CVE-2026-98436](https://www.cve.org/CVERecord?id=CVE-2026-98436) | 🆕 New |
+| Oct 19 | [CVE-2026-98437](https://www.cve.org/CVERecord?id=CVE-2026-98437) | 🆕 New |
+| Oct 19 | [CVE-2026-98438](https://www.cve.org/CVERecord?id=CVE-2026-98438) | 🆕 New |
+| Oct 19 | [CVE-2026-98439](https://www.cve.org/CVERecord?id=CVE-2026-98439) | 🆕 New |
+| Oct 19 | [CVE-2026-98440](https://www.cve.org/CVERecord?id=CVE-2026-98440) | 🆕 New |
+| Oct 19 | [CVE-2026-98441](https://www.cve.org/CVERecord?id=CVE-2026-98441) | 🆕 New |
+| Oct 19 | [CVE-2026-98442](https://www.cve.org/CVERecord?id=CVE-2026-98442) | 🆕 New |
+| Oct 19 | [CVE-2026-98443](https://www.cve.org/CVERecord?id=CVE-2026-98443) | 🆕 New |
+| Oct 19 | [CVE-2026-98444](https://www.cve.org/CVERecord?id=CVE-2026-98444) | 🆕 New |
+| Oct 19 | [CVE-2026-98445](https://www.cve.org/CVERecord?id=CVE-2026-98445) | 🆕 New |
+| Oct 19 | [CVE-2026-98446](https://www.cve.org/CVERecord?id=CVE-2026-98446) | 🆕 New |
+| Oct 19 | [CVE-2026-98447](https://www.cve.org/CVERecord?id=CVE-2026-98447) | 🆕 New |
+| Oct 19 | [CVE-2026-98448](https://www.cve.org/CVERecord?id=CVE-2026-98448) | 🆕 New |
+| Oct 19 | [CVE-2026-98449](https://www.cve.org/CVERecord?id=CVE-2026-98449) | 🆕 New |
+| Oct 19 | [CVE-2026-98450](https://www.cve.org/CVERecord?id=CVE-2026-98450) | 🆕 New |
+| Oct 19 | [CVE-2026-98451](https://www.cve.org/CVERecord?id=CVE-2026-98451) | 🆕 New |
+| Oct 19 | [CVE-2026-98452](https://www.cve.org/CVERecord?id=CVE-2026-98452) | 🆕 New |
+| Oct 19 | [CVE-2026-98453](https://www.cve.org/CVERecord?id=CVE-2026-98453) | 🆕 New |
+| Oct 19 | [CVE-2026-98454](https://www.cve.org/CVERecord?id=CVE-2026-98454) | 🆕 New |
+| Oct 19 | [CVE-2026-98455](https://www.cve.org/CVERecord?id=CVE-2026-98455) | 🆕 New |
+| Oct 19 | [CVE-2026-98456](https://www.cve.org/CVERecord?id=CVE-2026-98456) | 🆕 New |
+| Oct 19 | [CVE-2026-98457](https://www.cve.org/CVERecord?id=CVE-2026-98457) | 🆕 New |
+| Oct 19 | [CVE-2026-98458](https://www.cve.org/CVERecord?id=CVE-2026-98458) | 🆕 New |
+| Oct 19 | [CVE-2026-98459](https://www.cve.org/CVERecord?id=CVE-2026-98459) | 🆕 New |
+| Oct 19 | [CVE-2026-98460](https://www.cve.org/CVERecord?id=CVE-2026-98460) | 🆕 New |
+| Oct 19 | [CVE-2026-98461](https://www.cve.org/CVERecord?id=CVE-2026-98461) | 🆕 New |
+| Oct 19 | [CVE-2026-98462](https://www.cve.org/CVERecord?id=CVE-2026-98462) | 🆕 New |
+| Oct 19 | [CVE-2026-98463](https://www.cve.org/CVERecord?id=CVE-2026-98463) | 🆕 New |
+| Oct 19 | [CVE-2026-98464](https://www.cve.org/CVERecord?id=CVE-2026-98464) | 🆕 New |
+| Oct 19 | [CVE-2026-98465](https://www.cve.org/CVERecord?id=CVE-2026-98465) | 🆕 New |
+| Oct 19 | [CVE-2026-98466](https://www.cve.org/CVERecord?id=CVE-2026-98466) | 🆕 New |
+| Oct 19 | [CVE-2026-98467](https://www.cve.org/CVERecord?id=CVE-2026-98467) | 🆕 New |
+| Oct 19 | [CVE-2026-98468](https://www.cve.org/CVERecord?id=CVE-2026-98468) | 🆕 New |
+| Oct 19 | [CVE-2026-98469](https://www.cve.org/CVERecord?id=CVE-2026-98469) | 🆕 New |
+| Oct 19 | [CVE-2026-98470](https://www.cve.org/CVERecord?id=CVE-2026-98470) | 🆕 New |
+| Oct 19 | [CVE-2026-98471](https://www.cve.org/CVERecord?id=CVE-2026-98471) | 🆕 New |
+| Oct 19 | [CVE-2026-98472](https://www.cve.org/CVERecord?id=CVE-2026-98472) | 🆕 New |
+| Oct 19 | [CVE-2026-98473](https://www.cve.org/CVERecord?id=CVE-2026-98473) | 🆕 New |
+| Oct 19 | [CVE-2026-98474](https://www.cve.org/CVERecord?id=CVE-2026-98474) | 🆕 New |
+| Oct 19 | [CVE-2026-98475](https://www.cve.org/CVERecord?id=CVE-2026-98475) | 🆕 New |
+| Oct 19 | [CVE-2026-98476](https://www.cve.org/CVERecord?id=CVE-2026-98476) | 🆕 New |
+| Oct 19 | [CVE-2026-98477](https://www.cve.org/CVERecord?id=CVE-2026-98477) | 🆕 New |
+| Oct 19 | [CVE-2026-98478](https://www.cve.org/CVERecord?id=CVE-2026-98478) | 🆕 New |
+| Oct 19 | [CVE-2026-98479](https://www.cve.org/CVERecord?id=CVE-2026-98479) | 🆕 New |
+| Oct 19 | [CVE-2026-98480](https://www.cve.org/CVERecord?id=CVE-2026-98480) | 🆕 New |
+| Oct 19 | [CVE-2026-98481](https://www.cve.org/CVERecord?id=CVE-2026-98481) | 🆕 New |
+| ... | | _and 458 more_ |
