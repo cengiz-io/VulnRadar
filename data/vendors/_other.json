@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T01:13:32+00:00",
+  "generated_at": "2026-10-19T07:47:00+00:00",
   "vendor": "_other",
-  "count": 1108,
+  "count": 1109,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -76002,6 +76002,35 @@
         "cpe_count": 0,
         "reference_count": 5
       }
+    },
+    {
+      "cve_id": "CVE-2026-78497",
+      "description": "JQ::Lite versions before 2.51 for Perl execute Perl code embedded in a query's regular expression by compiling it with string eval.\n\nThe pattern given to test(), match(), or the match and =~ conditions of select() is placed in a `qr'...'` literal and compiled as source text, so a `(?{ ... })` code block in it runs without `use re 'eval'`. Single quotes in the pattern are escaped, but a code block runs in place and needs none.\n\nAn attacker who supplies a query, or text that an application inserts into the pattern of one, can execute arbitrary Perl code in the calling process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.51",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-78619",
