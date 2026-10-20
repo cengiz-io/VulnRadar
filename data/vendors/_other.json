@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:50:21+00:00",
+  "generated_at": "2026-10-20T17:00:51+00:00",
   "vendor": "_other",
   "count": 1125,
   "items": [
@@ -2990,7 +2990,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97997,
+      "probability_score": 0.98039,
       "kev": {
         "cveID": "CVE-2022-29303",
         "vendorProject": "SolarView",
@@ -5298,7 +5298,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.42919,
+      "probability_score": 0.4319,
       "kev": {
         "cveID": "CVE-2023-49105",
         "vendorProject": "ownCloud",
@@ -6982,7 +6982,7 @@
         "vendor:linux foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.01205,
+      "probability_score": 0.01255,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -9959,7 +9959,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98878,
+      "probability_score": 0.98905,
       "kev": {
         "cveID": "CVE-2022-3236",
         "vendorProject": "Sophos",
@@ -45177,7 +45177,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99732,
+      "probability_score": 0.99728,
       "kev": {
         "cveID": "CVE-2025-61882",
         "vendorProject": "Oracle",
@@ -50932,7 +50932,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.12743,
+      "probability_score": 0.12854,
       "kev": {
         "cveID": "CVE-2025-42999",
         "vendorProject": "SAP",
@@ -54189,12 +54189,12 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": null,
+      "probability_score": 0.12711,
       "kev": {
         "cveID": "CVE-2026-21589",
         "vendorProject": "Atlassian",
@@ -57668,7 +57668,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.30703,
+      "probability_score": 0.30944,
       "kev": {
         "cveID": "CVE-2025-32756",
         "vendorProject": "Fortinet",
@@ -62678,7 +62678,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02255,
+      "probability_score": 0.02299,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -66253,7 +66253,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00347,
+      "probability_score": 0.00333,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -66369,7 +66369,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00367,
+      "probability_score": 0.00352,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -68225,7 +68225,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0021,
+      "probability_score": 0.00211,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -69600,7 +69600,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00217,
+      "probability_score": 0.00219,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -71602,7 +71602,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00375,
+      "probability_score": 0.00393,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -71732,7 +71732,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00529,
+      "probability_score": 0.0055,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -71772,7 +71772,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00709,
+      "probability_score": 0.00738,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -73230,7 +73230,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110673",
@@ -73259,7 +73259,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110674",
@@ -73288,7 +73288,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00199
     },
     {
       "cve_id": "CVE-2026-110675",
@@ -73317,7 +73317,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110676",
@@ -73346,7 +73346,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110677",
@@ -73375,7 +73375,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110678",
@@ -73404,7 +73404,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110680",
@@ -73433,7 +73433,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110681",
@@ -73462,7 +73462,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110682",
@@ -73491,7 +73491,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110684",
@@ -73520,7 +73520,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110685",
@@ -73549,7 +73549,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110686",
@@ -73578,7 +73578,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110687",
@@ -73607,7 +73607,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110688",
@@ -73636,7 +73636,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-110752",
@@ -73897,7 +73897,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0017
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -79502,7 +79502,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1353,
+      "probability_score": 0.13638,
       "kev": {
         "cveID": "CVE-2023-20867",
         "vendorProject": "VMware",
@@ -81718,7 +81718,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99924,
+      "probability_score": 0.99927,
       "kev": {
         "cveID": "CVE-2025-4427",
         "vendorProject": "Ivanti",
@@ -81767,7 +81767,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.86984,
+      "probability_score": 0.88003,
       "kev": {
         "cveID": "CVE-2025-4428",
         "vendorProject": "Ivanti",
@@ -93844,7 +93844,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04934,
+      "probability_score": 0.05125,
       "kev": {
         "cveID": "CVE-2025-54313",
         "vendorProject": "Prettier",
@@ -97756,7 +97756,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01683,
+      "probability_score": 0.01748,
       "kev": {
         "cveID": "CVE-2026-33634",
         "vendorProject": "Aquasecurity",
