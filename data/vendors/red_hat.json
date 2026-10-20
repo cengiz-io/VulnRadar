@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:21:48+00:00",
+  "generated_at": "2026-10-20T06:08:54+00:00",
   "vendor": "red_hat",
   "count": 521,
   "items": [
@@ -32071,6 +32071,21 @@
         },
         {
           "vendor": "red hat",
+          "product": "fast datapath for rhel 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "fast datapath for rhel 7",
           "versions": null
         },
@@ -32122,6 +32137,76 @@
         {
           "vendor": "red hat",
           "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openstack platform 13 (queens)",
           "versions": null
         }
       ],
@@ -74144,8 +74229,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 8.1",
-          "versions": null
+          "product": "red hat jboss enterprise application platform 8.1.6.ga",
+          "versions": [
+            {
+              "version": "27.1.9.Final-redhat-00002",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -99788,13 +99880,27 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791468368",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790958159",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -99848,13 +99954,27 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791537794",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791535841",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         }
       ],
       "watchlist_hit": true,
@@ -100040,8 +100160,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791790095",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         }
       ],
       "watchlist_hit": true,
