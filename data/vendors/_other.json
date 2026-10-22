@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T23:29:28+00:00",
+  "generated_at": "2026-10-22T04:44:57+00:00",
   "vendor": "_other",
-  "count": 1136,
+  "count": 1140,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -69927,6 +69927,64 @@
       "probability_score": 0.00229
     },
     {
+      "cve_id": "CVE-2026-112921",
+      "description": "Robots::Validate versions from 0.4.3 before 0.4.10 for Perl report clients as imposter robots when User-Agent matcher state carries over from a previous request.\n\nEach Robots::Validate object holds one pure-Perl Aho-Corasick search machine and feeds every User-Agent into it without resetting its state. A User-Agent that ends part-way through a robot name leaves the machine mid-match, so the next User-Agent checked by the same object can complete that name. That client's address is then checked against the robot's DNS rule, which it fails.\n\nA remote client can use this to make a site that blocks bad robots block other visitors where the prefix User-Agent string is a suffix of a robot being validated.\n\nNote that deployments with Algorithm::AhoCorasick::XS are also affected, since it was unused due to a different bug.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.4.10",
+              "status": "affected",
+              "version": "0.4.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-113811",
+      "description": "Algorithm::UrataniTakeda versions from 0.1.5 before 0.1.7 for Perl allow memory exhaustion via a never-cleared failure shift cache in search.\n\nThe failure shift is cached for each pair of trie state and text character in a field of the matcher object, and nothing clears it. A character not seen before at a given state adds an entry that lasts for the life of the matcher.\n\nAn attacker who can submit text with many distinct characters to a long-lived matcher can grow its memory with each search.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.1.7",
+              "status": "affected",
+              "version": "0.1.5",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-113812",
       "description": "Mozilla::CA versions before 20261020 for Perl provide a CA certificate bundle containing a root linked to compromised intermediates.\n\nThe bundle includes \"emSign ECC Root CA - G3\", which provides a trust path for intermediate certificates whose private keys are publicly available.\n\nAn attacker able to intercept or redirect client traffic may use these keys to impersonate a TLS server.\n\nLWP, HTTP::Tiny and other clients normally use IO::Socket::SSL, which looks for CA certificates in OpenSSL's default locations before falling back to Mozilla::CA.\n\nConfiguration and environment variables can override this selection. Users should check which CA store their client uses. If it uses the system store, check for and install the operating system vendor's updates for this incident.",
       "cvss_score": null,
@@ -72944,6 +73002,64 @@
       "matched_terms": [],
       "active_threat": false,
       "probability_score": 0.00548
+    },
+    {
+      "cve_id": "CVE-2026-94140",
+      "description": "Rex versions through 1.16.1 for Perl accept an unknown SSH host key for remote rsync transfers because sync hardcodes StrictHostKeyChecking=no.\n\nEvery remote branch of sync builds its ssh command with that option, for password authentication, for private-key authentication and for the fallback. The ssh options a caller sets through set_openssh_opt reach the OpenSSH transport but not this command, so there is no configuration that restores host key checking for the transfer.\n\nAn attacker who can redirect the connection before the real host key is known presents their own and the transfer proceeds: under password authentication sync sends the connection password to that server, an upload writes the selected local files to it, and a download writes what it returns to the local destination.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.16.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-94423",
+      "description": "Net::LibSSH versions before 0.004 for Perl authenticate to an unverified server because connect never checks the host key against known_hosts.\n\nconnect reports success as soon as ssh_connect returns SSH_OK. libssh leaves the known-hosts check to the application, and this binding never makes it, so the strict_hostkeycheck and knownhosts options are set on the session and then decide nothing.\n\nPassword, agent and public-key authentication, channel and SFTP operations all run on a session whose peer was never identified, so an attacker who can redirect the connection receives the password when password authentication is used, and commands and data sent over the session.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.004",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-95811",
@@ -81853,8 +81969,10 @@
           "product": "serv-u",
           "versions": [
             {
+              "lessThanOrEqual": "15.5.4",
               "status": "affected",
-              "version": "15.5.4 and previous versions"
+              "version": "0",
+              "versionType": "custom"
             }
           ]
         }
