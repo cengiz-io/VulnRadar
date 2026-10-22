@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:24:20+00:00",
+  "generated_at": "2026-10-22T15:27:28+00:00",
   "vendor": "_other",
   "count": 1140,
   "items": [
@@ -2939,7 +2939,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.14093,
+      "probability_score": 0.18461,
       "kev": {
         "cveID": "CVE-2022-38181",
         "vendorProject": "Arm",
@@ -5125,7 +5125,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.66601,
+      "probability_score": 0.66414,
       "kev": {
         "cveID": "CVE-2024-57726",
         "vendorProject": "SimpleHelp ",
@@ -5163,7 +5163,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96576,
+      "probability_score": 0.96833,
       "kev": {
         "cveID": "CVE-2024-57727",
         "vendorProject": "SimpleHelp ",
@@ -5201,7 +5201,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.64664,
+      "probability_score": 0.64468,
       "kev": {
         "cveID": "CVE-2024-57728",
         "vendorProject": "SimpleHelp ",
@@ -51154,7 +51154,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02351,
+      "probability_score": 0.02362,
       "kev": {
         "cveID": "CVE-2022-26486",
         "vendorProject": "Mozilla",
@@ -52297,7 +52297,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.82828,
+      "probability_score": 0.82264,
       "kev": {
         "cveID": "CVE-2023-27992",
         "vendorProject": "Zyxel",
@@ -61982,7 +61982,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00384
+      "probability_score": 0.00378
     },
     {
       "cve_id": "CVE-2025-12183",
@@ -62178,7 +62178,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00211
+      "probability_score": 0.00213
     },
     {
       "cve_id": "CVE-2025-26869",
@@ -63245,7 +63245,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00219
+      "probability_score": 0.0022
     },
     {
       "cve_id": "CVE-2025-46804",
@@ -63280,7 +63280,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00224
+      "probability_score": 0.00225
     },
     {
       "cve_id": "CVE-2025-46805",
@@ -63315,7 +63315,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00175
+      "probability_score": 0.00176
     },
     {
       "cve_id": "CVE-2025-4143",
@@ -66820,7 +66820,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00229
     },
     {
       "cve_id": "CVE-2026-113811",
@@ -66849,7 +66849,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00229
     },
     {
       "cve_id": "CVE-2026-113812",
@@ -69897,7 +69897,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00252
     },
     {
       "cve_id": "CVE-2026-94423",
@@ -69926,7 +69926,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00269
     },
     {
       "cve_id": "CVE-2026-95811",
@@ -71886,7 +71886,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.28621,
+      "probability_score": 0.28831,
       "kev": {
         "cveID": "CVE-2023-2533",
         "vendorProject": "PaperCut",
@@ -78044,7 +78044,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.504,
+      "probability_score": 0.5423,
       "kev": {
         "cveID": "CVE-2026-85102",
         "vendorProject": "Check Point",
@@ -78392,7 +78392,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01942,
+      "probability_score": 0.43651,
       "kev": {
         "cveID": "CVE-2026-28318",
         "vendorProject": "SolarWinds",
@@ -85499,7 +85499,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00854,
+      "probability_score": 0.05794,
       "kev": {
         "cveID": "CVE-2026-105133",
         "vendorProject": "Ahsay",
@@ -85549,7 +85549,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04782,
+      "probability_score": 0.3831,
       "kev": {
         "cveID": "CVE-2026-105134",
         "vendorProject": "Ahsay",
@@ -85647,7 +85647,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01367,
+      "probability_score": 0.0117,
       "kev": {
         "cveID": "CVE-2026-106931",
         "vendorProject": "EG Secure Solutions",
@@ -85687,7 +85687,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00262,
+      "probability_score": 0.00238,
       "kev": {
         "cveID": "CVE-2026-110936",
         "vendorProject": "Siemens",
@@ -86458,7 +86458,7 @@
         "vendor:cryptodev-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00181
+      "probability_score": 0.00188
     },
     {
       "cve_id": "CVE-2026-29004",
@@ -88365,7 +88365,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.14121,
+      "probability_score": 0.14372,
       "kev": {
         "cveID": "CVE-2026-82329",
         "vendorProject": "JFrog",
@@ -90427,7 +90427,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09839,
+      "probability_score": 0.10017,
       "kev": {
         "cveID": "CVE-2026-64849",
         "vendorProject": "MLflow",
@@ -90531,7 +90531,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01027,
+      "probability_score": 0.01046,
       "kev": {
         "cveID": "CVE-2026-67279",
         "vendorProject": "MikroTik",
@@ -90677,7 +90677,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.97335,
+      "probability_score": 0.9744,
       "kev": {
         "cveID": "CVE-2026-72898",
         "vendorProject": "Metabase",
@@ -90913,7 +90913,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00423,
+      "probability_score": 0.00455,
       "kev": {
         "cveID": "CVE-2026-96652",
         "vendorProject": "Plex",
@@ -90957,7 +90957,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00432,
+      "probability_score": 0.00465,
       "kev": {
         "cveID": "CVE-2026-96654",
         "vendorProject": "Plex",
@@ -91001,7 +91001,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00423,
+      "probability_score": 0.00455,
       "kev": {
         "cveID": "CVE-2026-96655",
         "vendorProject": "Plex",
@@ -91045,7 +91045,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00758,
+      "probability_score": 0.00816,
       "kev": {
         "cveID": "CVE-2026-96656",
         "vendorProject": "Plex",

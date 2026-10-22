@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-22T10:24:23+00:00`
+Generated: `2026-10-22T15:27:30+00:00`
 
 ## Executive Summary
 
@@ -130,8 +130,8 @@ Top critical items:
 | [CVE-2024-9463](https://www.cve.org/CVERecord?id=CVE-2024-9463) |  | KEV | ✅ | ✅ | 2024-12-05 | 0.985 | 9.9 |  | An OS command injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to run arbitrary OS commands as root in Expedition, r… |
 | [CVE-2024-4040](https://www.cve.org/CVERecord?id=CVE-2024-4040) |  | KEV | ✅ | ✅ | 2024-05-01 | 0.995 | 9.8 |  | A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to… |
 | [CVE-2024-23692](https://www.cve.org/CVERecord?id=CVE-2024-23692) |  | KEV | ✅ | ✅ | 2024-07-30 | 0.995 | 9.8 |  | Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenti… |
+| [CVE-2026-72898](https://www.cve.org/CVERecord?id=CVE-2026-72898) |  | KEV | ✅ | ✅ | 2026-08-14 | 0.974 | 10.0 |  | Metabase allows a remote, unauthenticated attacker to inject arbitrary SQL via the '/reset_password' database endpoint and gain administrator access to the con… |
 | [CVE-2023-34048](https://www.cve.org/CVERecord?id=CVE-2023-34048) |  | KEV | ✅ | ✅ | 2024-02-12 | 0.994 | 9.8 |  | vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Ser… |
-| [CVE-2026-72898](https://www.cve.org/CVERecord?id=CVE-2026-72898) |  | KEV | ✅ | ✅ | 2026-08-14 | 0.973 | 10.0 |  | Metabase allows a remote, unauthenticated attacker to inject arbitrary SQL via the '/reset_password' database endpoint and gain administrator access to the con… |
 | [CVE-2024-4885](https://www.cve.org/CVERecord?id=CVE-2024-4885) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.993 | 9.8 |  | In WhatsUp Gold versions released before 2023.1.3, an unauthenticated Remote Code Execution vulnerability in Progress WhatsUpGold.  The   WhatsUp.ExportUtiliti… |
 | [CVE-2023-28771](https://www.cve.org/CVERecord?id=CVE-2023-28771) |  | KEV | ✅ | ✅ | 2023-06-21 | 0.993 | 9.8 |  | Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series… |
 | [CVE-2022-24086](https://www.cve.org/CVERecord?id=CVE-2022-24086) |  | KEV | ✅ | ✅ | 2022-03-01 | 0.992 | 9.8 |  | Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout proces… |
@@ -230,10 +230,10 @@ Top critical items:
 | [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 8.2 |  | An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted reso… |
 | [CVE-2026-24423](https://www.cve.org/CVERecord?id=CVE-2026-24423) |  | KEV | ✅ | ✅ | 2026-02-26 | 0.882 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an unauthenticated remote code execution vulnerability in the ConnectToHub API method. The attack… |
 | [CVE-2023-2868](https://www.cve.org/CVERecord?id=CVE-2023-2868) |  | KEV | ✅ | ✅ | 2023-06-16 | 0.868 | 9.4 |  | A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0… |
-| [CVE-2023-27992](https://www.cve.org/CVERecord?id=CVE-2023-27992) |  | KEV | ✅ | ✅ | 2023-07-14 | 0.828 | 9.8 |  | The pre-authentication command injection vulnerability in the Zyxel NAS326 firmware versions prior to V5.21(AAZF.14)C0, NAS540 firmware versions prior to V5.21… |
 | [CVE-2024-21412](https://www.cve.org/CVERecord?id=CVE-2024-21412) |  | KEV | ✅ | ✅ | 2024-03-05 | 0.994 | 8.1 |  | Internet Shortcut Files Security Feature Bypass Vulnerability |
 | [CVE-2024-48248](https://www.cve.org/CVERecord?id=CVE-2024-48248) |  | KEV | ✅ | ✅ | 2025-04-09 | 0.944 | 8.6 |  | NAKIVO Backup & Replication before 11.0.0.88174 allows absolute path traversal for reading files via getImageByPath to /c/router (this may lead to remote code … |
 | [CVE-2025-4008](https://www.cve.org/CVERecord?id=CVE-2025-4008) |  | KEV | ✅ | ✅ | 2025-10-23 | 0.933 | 8.7 |  | The Meteobridge web interface let meteobridge administrator manage their weather station data collection and administer their meteobridge system through a web … |
+| [CVE-2023-27992](https://www.cve.org/CVERecord?id=CVE-2023-27992) |  | KEV | ✅ | ✅ | 2023-07-14 | 0.823 | 9.8 |  | The pre-authentication command injection vulnerability in the Zyxel NAS326 firmware versions prior to V5.21(AAZF.14)C0, NAS540 firmware versions prior to V5.21… |
 | [CVE-2022-41082](https://www.cve.org/CVERecord?id=CVE-2022-41082) |  | KEV | ✅ | ✅ | 2022-10-21 | 1.000 | 8.0 |  | Microsoft Exchange Server Remote Code Execution Vulnerability |
 | [CVE-2024-7399](https://www.cve.org/CVERecord?id=CVE-2024-7399) |  | KEV | ✅ | ✅ | 2026-05-08 | 0.919 | 8.8 |  | Improper limitation of a pathname to a restricted directory vulnerability in Samsung MagicINFO 9 Server version before 21.1050 allows attackers to write arbitr… |
 | [CVE-2026-24858](https://www.cve.org/CVERecord?id=CVE-2026-24858) |  | KEV | ✅ | ✅ | 2026-01-30 | 0.858 | 9.4 |  | An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.5, FortiAnalyzer … |
