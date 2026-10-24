@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T00:48:18+00:00",
+  "generated_at": "2026-10-24T05:48:42+00:00",
   "vendor": "_other",
-  "count": 1142,
+  "count": 1144,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -74176,6 +74176,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-110975",
+      "description": "A flaw was found in Kruize Autotune. Its REST API ships without an authentication layer, and the endpoints that return datasource configuration \u2014 the list-datasources endpoint (GET /datasources) and the datasource-metadata endpoint \u2014 serialized datasource objects using a default Gson configuration with no field-exclusion strategy. As a result, the authentication secrets stored for each configured monitoring datasource (basic-auth passwords, bearer tokens, API keys, and OAuth2 client secrets) were returned in cleartext to any client able to reach the service. An attacker with network access to Autotune could harvest these credentials and reuse them to authenticate to the backing monitoring stack.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "0.11.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-111879",
       "description": "DBI versions before 1.656 for Perl hang on a later open of a DBD::DBM table because a failed open_data does not release the table's lock.\n\nopen_data creates the table's lock file and takes an exclusive flock on it for a CREATE, before the checks that can croak: a dbm_mldbm value that is not a module name, a failing tie, or a missing data file. The croak unwinds before the table object is blessed, so nothing releases the lock, and the meta data holding the open descriptor stays cached on the database handle.\n\nThe dbm_mldbm and dbm_type values come from the DSN or the connect attributes, so a caller that chooses the serializer or the storage backend can trigger the failure.\n\nThe flock has no timeout, so a later open of that table (even through a separate database handle) blocks for as long as the handle holding the stale lock lives, in the same process or any other.",
       "cvss_score": null,
@@ -74426,6 +74455,35 @@
         "cpe_count": 0,
         "reference_count": 5
       }
+    },
+    {
+      "cve_id": "CVE-2026-113877",
+      "description": "HTTP::Headers::ActionPack versions before 0.10 for Perl allow CPU exhaustion via Accept-Language ranges matched as regular expressions.\n\n_language_match interpolates each Accept-Language range into the pattern `/^$range\\-/i` without escaping it, so regular expression syntax in the header reaches the regex engine. A 12-byte range such as `(a?|b?){26}z` backtracks for seconds, and each increment of the quantifier doubles the time. An invalid range such as `(` fails to compile.\n\nA remote attacker can exhaust CPU, or make choose_language die, in any application that passes an untrusted Accept-Language header to it.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-13048",
