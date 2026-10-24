@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-24T10:56:06+00:00`
+Generated: `2026-10-24T14:33:43+00:00`
 
 ## Executive Summary
 
@@ -237,7 +237,7 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2024-13161](https://www.cve.org/CVERecord?id=CVE-2024-13161) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.898 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.896 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
-| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.992 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
+| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.991 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 | [CVE-2025-5086](https://www.cve.org/CVERecord?id=CVE-2025-5086) |  | KEV | ✅ | ✅ | 2025-10-02 | 0.969 | 9.0 |  | A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution. |
 | [CVE-2025-34291](https://www.cve.org/CVERecord?id=CVE-2025-34291) |  | KEV | ✅ | ✅ | 2026-06-04 | 0.928 | 9.4 |  | Langflow versions up to and including 1.6.9 contain a chained vulnerability that enables account takeover and remote code execution. An overly permissive CORS … |
 | [CVE-2025-12480](https://www.cve.org/CVERecord?id=CVE-2025-12480) |  | KEV | ✅ | ✅ | 2025-12-03 | 0.957 | 9.1 |  | Triofox versions prior to 16.7.10368.56560, are vulnerable to an Improper Access Control flaw that allows access to initial setup pages even after setup is complete. |

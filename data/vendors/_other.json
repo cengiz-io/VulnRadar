@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:56:03+00:00",
+  "generated_at": "2026-10-24T14:33:41+00:00",
   "vendor": "_other",
   "count": 1144,
   "items": [
@@ -8896,7 +8896,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05391,
+      "probability_score": 0.0606,
       "kev": {
         "cveID": "CVE-2025-10585",
         "vendorProject": "Google",
@@ -19595,7 +19595,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92992,
+      "probability_score": 0.92938,
       "kev": {
         "cveID": "CVE-2023-20273",
         "vendorProject": "Cisco",
@@ -42783,7 +42783,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.14026,
+      "probability_score": 0.66643,
       "kev": {
         "cveID": "CVE-2026-76460",
         "vendorProject": "Cisco",
@@ -52577,7 +52577,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99919,
+      "probability_score": 0.99916,
       "kev": {
         "cveID": "CVE-2024-32113",
         "vendorProject": "Apache",
@@ -53513,7 +53513,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99174,
+      "probability_score": 0.99077,
       "kev": {
         "cveID": "CVE-2022-36804",
         "vendorProject": "Atlassian",
@@ -70113,7 +70113,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00776,
+      "probability_score": 0.00814,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -74202,7 +74202,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00314
     },
     {
       "cve_id": "CVE-2026-111879",
@@ -74483,7 +74483,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00325
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -87278,7 +87278,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.31355,
+      "probability_score": 0.33259,
       "kev": {
         "cveID": "CVE-2024-11182",
         "vendorProject": "MDaemon",
@@ -93136,7 +93136,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.65189,
+      "probability_score": 0.65756,
       "kev": {
         "cveID": "CVE-2025-31125",
         "vendorProject": "Vite",
@@ -93901,7 +93901,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.11104,
+      "probability_score": 0.11567,
       "kev": {
         "cveID": "CVE-2025-48927",
         "vendorProject": "TeleMessage",
@@ -93952,7 +93952,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00553,
+      "probability_score": 0.00577,
       "kev": {
         "cveID": "CVE-2025-48928",
         "vendorProject": "TeleMessage",
@@ -97599,7 +97599,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01225,
+      "probability_score": 0.02285,
       "kev": {
         "cveID": "CVE-2026-110447",
         "vendorProject": "Collabora",
@@ -97713,7 +97713,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00555,
+      "probability_score": 0.00813,
       "kev": {
         "cveID": "CVE-2026-114625",
         "vendorProject": "Arista",
@@ -98312,7 +98312,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00693,
+      "probability_score": 0.0071,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -103541,7 +103541,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04722,
+      "probability_score": 0.05108,
       "kev": {
         "cveID": "CVE-2026-88771",
         "vendorProject": "Citrix",
