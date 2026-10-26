@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-26T19:25:21+00:00`
+Generated: `2026-10-26T23:56:42+00:00`
 
 ## Executive Summary
 
@@ -38,10 +38,10 @@ Top critical items:
 
 ## Summary
 
-- Total items: **19274**
+- Total items: **19276**
 - Watchlist hits: **18454**
-- CISA KEVs: **836**
-- Exploit Intel (PoC): **853**
+- CISA KEVs: **838**
+- Exploit Intel (PoC): **855**
 - Exploit Intel + Watchlist (CRITICAL): **33**
 
 ## Top Findings (max 200)
@@ -201,6 +201,8 @@ Top critical items:
 | [CVE-2026-21589](https://www.cve.org/CVERecord?id=CVE-2026-21589) |  | KEV | ✅ | ✅ | 2026-10-18 | 0.995 | 9.3 |  | This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. C… |
 | [CVE-2022-42475](https://www.cve.org/CVERecord?id=CVE-2022-42475) |  | KEV | ✅ | ✅ | 2023-01-03 | 0.995 | 9.3 |  | A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6… |
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.931 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
+| [CVE-2026-109619](https://www.cve.org/CVERecord?id=CVE-2026-109619) |  | KEV | ✅ | ✅ | 2026-10-29 | 1.000 | 9.2 |  | PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated aft… |
+| [CVE-2026-109618](https://www.cve.org/CVERecord?id=CVE-2026-109618) |  | KEV | ✅ | ✅ | 2026-10-29 | 1.000 | 9.2 |  | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for thi… |
 | [CVE-2024-55956](https://www.cve.org/CVERecord?id=CVE-2024-55956) |  | KEV | ✅ | ✅ | 2025-01-07 | 0.940 | 9.8 |  | In Cleo Harmony before 5.8.0.24, VLTrader before 5.8.0.24, and LexiCom before 5.8.0.24, an unauthenticated user can import and execute arbitrary Bash or PowerS… |
 | [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.918 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2024-5217](https://www.cve.org/CVERecord?id=CVE-2024-5217) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.996 | 9.2 |  | ServiceNow has addressed an input validation vulnerability that was identified in the Washington DC, Vancouver, and earlier Now Platform releases. This vulnera… |
@@ -246,8 +248,6 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2024-13161](https://www.cve.org/CVERecord?id=CVE-2024-13161) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.898 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-9082](https://www.cve.org/CVERecord?id=CVE-2026-9082) |  | KEV | ✅ | ✅ | 2026-05-27 | 0.894 | 9.8 |  | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Drupal Drupal core allows SQL Injection.  This issue affe… |
-| [CVE-2023-27524](https://www.cve.org/CVERecord?id=CVE-2023-27524) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.981 | 8.9 |  | Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY accordi… |
-| [CVE-2022-36804](https://www.cve.org/CVERecord?id=CVE-2022-36804) |  | KEV | ✅ | ✅ | 2022-10-21 | 0.991 | 8.8 |  | Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.… |
 
 ## Recent Changes (Last 7 Days)
 
