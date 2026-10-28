@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:37:51+00:00",
+  "generated_at": "2026-10-28T16:21:28+00:00",
   "vendor": "_other",
   "count": 1113,
   "items": [
@@ -3381,7 +3381,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.91893,
+      "probability_score": 0.92072,
       "kev": {
         "cveID": "CVE-2022-37042",
         "vendorProject": "Synacor",
@@ -46005,7 +46005,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00668,
+      "probability_score": 0.00674,
       "kev": {
         "cveID": "CVE-2024-43047",
         "vendorProject": "Qualcomm",
@@ -47905,7 +47905,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01293,
+      "probability_score": 0.01316,
       "kev": {
         "cveID": "CVE-2026-21385",
         "vendorProject": "Qualcomm",
@@ -49440,7 +49440,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.30582,
+      "probability_score": 0.59078,
       "kev": {
         "cveID": "CVE-2026-48356",
         "vendorProject": "Adobe",
@@ -49998,7 +49998,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99891,
+      "probability_score": 0.99992,
       "kev": {
         "cveID": "CVE-2023-46604",
         "vendorProject": "Apache",
@@ -51036,7 +51036,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99077,
+      "probability_score": 0.99174,
       "kev": {
         "cveID": "CVE-2022-36804",
         "vendorProject": "Atlassian",
@@ -62824,7 +62824,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01103,
+      "probability_score": 0.01112,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -78521,7 +78521,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99212,
+      "probability_score": 0.99234,
       "kev": {
         "cveID": "CVE-2023-34048",
         "vendorProject": "VMware",
@@ -82030,7 +82030,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93,
+      "probability_score": 0.92907,
       "kev": {
         "cveID": "CVE-2024-6670",
         "vendorProject": "Progress",
@@ -92992,7 +92992,7 @@
         "vendor:linuxserver"
       ],
       "active_threat": false,
-      "probability_score": 0.00594,
+      "probability_score": 0.00606,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -93267,7 +93267,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95024,
+      "probability_score": 0.95213,
       "kev": {
         "cveID": "CVE-2025-57819",
         "vendorProject": "Sangoma",

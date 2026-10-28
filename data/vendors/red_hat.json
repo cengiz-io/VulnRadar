@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:37:51+00:00",
+  "generated_at": "2026-10-28T16:21:28+00:00",
   "vendor": "red_hat",
   "count": 522,
   "items": [
@@ -3511,7 +3511,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.06602,
+      "probability_score": 0.07158,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -3767,7 +3767,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.7855,
+      "probability_score": 0.78513,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -3858,7 +3858,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.10506,
+      "probability_score": 0.11376,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -53835,7 +53835,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0061,
+      "probability_score": 0.00605,
       "nvd": {
         "cvss_v3_score": 8.3,
         "cvss_v3_severity": "HIGH",
@@ -57141,7 +57141,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00511,
+      "probability_score": 0.00515,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -59195,7 +59195,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00681,
+      "probability_score": 0.00675,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -90210,7 +90210,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01841,
+      "probability_score": 0.01886,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
