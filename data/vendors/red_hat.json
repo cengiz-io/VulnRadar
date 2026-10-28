@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:19:51+00:00",
+  "generated_at": "2026-10-28T08:37:51+00:00",
   "vendor": "red_hat",
   "count": 522,
   "items": [
@@ -6364,7 +6364,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat developer hub",
+          "product": "red hat developer hub 1",
           "versions": null
         },
         {
@@ -18294,7 +18294,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat developer hub",
+          "product": "red hat developer hub 1",
           "versions": null
         },
         {
@@ -28326,7 +28326,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat developer hub",
+          "product": "red hat developer hub 1",
           "versions": null
         },
         {
@@ -64899,10 +64899,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "1:0.2.1-14.el8_6.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.6 extended update support long-life add-on",
           "versions": [
             {
               "version": "0:46.3-8.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "1:0.2.1-14.el8_6.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -65623,7 +65647,7 @@
           "CWE-457"
         ],
         "cpe_count": 0,
-        "reference_count": 20
+        "reference_count": 21
       }
     },
     {
@@ -96293,12 +96317,12 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat developer hub",
+          "product": "red hat developer hub 1",
           "versions": null
         },
         {
           "vendor": "red hat",
-          "product": "red hat developer hub",
+          "product": "red hat developer hub 1",
           "versions": null
         },
         {

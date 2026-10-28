@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:19:51+00:00",
+  "generated_at": "2026-10-28T08:37:51+00:00",
   "vendor": "linux",
   "count": 17420,
   "items": [
@@ -548535,25 +548535,25 @@
           "product": "linux",
           "versions": [
             {
-              "version": "4a1e7c0c63e02daad751842b7880f9bbcdfb6e89",
+              "version": "3505cb9fa26cfec9512744466e754a8cbc2365b0",
               "lessThan": "6675c541f540a29487a802d3135280b69b9f568d",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "4a1e7c0c63e02daad751842b7880f9bbcdfb6e89",
+              "version": "3505cb9fa26cfec9512744466e754a8cbc2365b0",
               "lessThan": "67929e973f5a347f05fef064fea4ae79e7cdb5fd",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "4a1e7c0c63e02daad751842b7880f9bbcdfb6e89",
+              "version": "3505cb9fa26cfec9512744466e754a8cbc2365b0",
               "lessThan": "b34bbc76651065a5eafad8ddff1eb8d1f8473172",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "4a1e7c0c63e02daad751842b7880f9bbcdfb6e89",
+              "version": "3505cb9fa26cfec9512744466e754a8cbc2365b0",
               "lessThan": "543576ec15b17c0c93301ac8297333c7b6e84ac7",
               "status": "affected",
               "versionType": "git"
@@ -548565,12 +548565,12 @@
           "product": "linux",
           "versions": [
             {
-              "version": "5.10",
+              "version": "6.6",
               "status": "affected"
             },
             {
               "version": "0",
-              "lessThan": "5.10",
+              "lessThan": "6.6",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1104826,7 +1104826,7 @@
           "CWE-401"
         ],
         "cpe_count": 1,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -1148796,7 +1148796,7 @@
           "CWE-476"
         ],
         "cpe_count": 9,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -1212559,7 +1212559,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 7,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -1406631,7 +1406631,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 4
       }
     },
@@ -1406744,7 +1406744,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1406857,7 +1406857,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1406970,7 +1406970,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1407083,7 +1407083,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1407196,7 +1407196,7 @@
         "cwe_ids": [
           "CWE-20"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1407428,16 +1407428,16 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 15,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-63859",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: airoha: Add missing bits in airoha_qdma_cleanup_tx_queue()\n\nSimilar to airoha_qdma_cleanup_rx_queue(), reset DMA TX descriptors in\nairoha_qdma_cleanup_tx_queue routine. Moreover, reset TX_DMA_IDX to\nTX_CPU_IDX to notify the NIC the QDMA TX ring is empty.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1407522,12 +1407522,12 @@
       "active_threat": false,
       "probability_score": 0.00125,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 3,
         "reference_count": 4
       }
     },
@@ -1407683,9 +1407683,9 @@
     {
       "cve_id": "CVE-2026-63861",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: mtk-snfi: unregister ECC engine on probe failure and remove() callback\n\nmtk_snand_probe() registers the on-host NAND ECC engine, but teardown was\nmissing from both probe unwind and remove-time cleanup. Add a devm cleanup\naction after successful registration so\nnand_ecc_unregister_on_host_hw_engine() runs automatically on probe\nfailures and during device removal.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1407794,21 +1407794,21 @@
       "active_threat": false,
       "probability_score": 0.00121,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-63862",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: mediatek-gen3: Prevent leaking IRQ domains when IRQ not found\n\nIn mtk_pcie_setup_irq(), the IRQ domains are allocated before the\ncontroller's IRQ is fetched. If the latter fails, the function\ndirectly returns an error, without cleaning up the allocated domains.\n\nHence, reverse the order so that the IRQ domains are allocated after the\ncontroller's IRQ is found.\n\nThis was flagged by Sashiko during a review of \"[PATCH v6 0/7] PCI:\nmediatek-gen3: add power control support\".",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1407917,12 +1407917,12 @@
       "active_threat": false,
       "probability_score": 0.00125,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 6
       }
     },
@@ -1407999,7 +1407999,7 @@
         "cwe_ids": [
           "CWE-667"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 2
       }
     },
@@ -1408074,7 +1408074,7 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 2
       }
     },
@@ -1408209,7 +1408209,7 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 7
       }
     },
@@ -1408296,7 +1408296,7 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 3
       }
     },
@@ -1408431,18 +1408431,19 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-367",
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 7
       }
     },
     {
       "cve_id": "CVE-2026-63868",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: garp: fix unsigned integer underflow in garp_pdu_parse_attr\n\nThe receive-side GARP attribute parser computes dlen with reversed\noperands:\n\n        dlen = sizeof(*ga) - ga->len;\n\nga->len is the on-wire attribute length and includes the GARP attribute\nheader. For normal attributes with data, ga->len is larger than\nsizeof(*ga), so the subtraction underflows in unsigned arithmetic.\n\nThe resulting value is later passed to garp_attr_lookup(), whose length\nargument is u8. After truncation, the parsed data length usually no\nlonger matches the length stored for locally registered attributes, so\nreceived Join/Leave events are ignored. This breaks the GARP receive path\nfor common attributes, such as GVRP VLAN registration attributes.\n\nCompute the data length as the attribute length minus the header length.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1408575,12 +1408576,14 @@
       "active_threat": false,
       "probability_score": 0.00121,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-191"
+        ],
+        "cpe_count": 13,
         "reference_count": 8
       }
     },
@@ -1408679,9 +1408682,10 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-1284",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 4
       }
     },
@@ -1408828,9 +1408832,10 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-908",
           "CWE-119"
         ],
-        "cpe_count": 0,
+        "cpe_count": 13,
         "reference_count": 8
       }
     },
@@ -1409721,7 +1409726,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1409921,7 +1409926,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1410280,7 +1410285,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 10,
         "reference_count": 6
       }
     },
@@ -1410353,7 +1410358,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 3
       }
     },
@@ -1410778,7 +1410783,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1411505,7 +1411510,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1415000,7 +1415005,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1415149,7 +1415154,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 17,
         "reference_count": 8
       }
     },
@@ -1415298,7 +1415303,7 @@
         "cwe_ids": [
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1415447,7 +1415452,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1415536,7 +1415541,7 @@
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 7,
         "reference_count": 3
       }
     },
@@ -1415835,7 +1415840,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1416134,7 +1416139,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1417330,7 +1417335,7 @@
         "cwe_ids": [
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 4
       }
     },
@@ -1417431,7 +1417436,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 4
       }
     },
@@ -1417884,7 +1417889,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1418131,7 +1418136,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1418256,7 +1418261,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 10,
         "reference_count": 6
       }
     },
@@ -1601834,7 +1601839,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -1935376,9 +1935381,9 @@
     {
       "cve_id": "CVE-2026-98119",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfs: break unbuffered write when netfs_alloc_subrequest() fails\n\nsyzbot reported a null-ptr-deref below [1] following a fault injection in\nnetfs_alloc_subrequest(). [0]\n\nWhen netfs_alloc_subrequest() fails, subreq is NULL.\nLater, netfs_prepare_write() tries to initialize members of\nsubreq(e.g., source), the issue in [1] is triggered.\n\nLet's handle the error of netfs_prepare_write() properly.\n\n[0]\nFAULT_INJECTION: forcing a failure.\nname failslab, interval 1, probability 0, space 0, times 0\nCall Trace:\n netfs_alloc_subrequest+0x116/0x3f0\n netfs_prepare_write+0x76/0x7b0\n netfs_unbuffered_write+0x75c/0x2020\n netfs_unbuffered_write_iter_locked+0x7d6/0xa80\n netfs_unbuffered_write_iter+0x442/0x720\n v9fs_file_write_iter+0xbf/0x100\n vfs_write+0x6ac/0x1050\n\n[1]\nKASAN: null-ptr-deref in range [0x00000000000000a8-0x00000000000000af]\nRIP: 0010:netfs_prepare_write+0xbc/0x7b0 fs/netfs/write_issue.c:173\nCall Trace:\n netfs_unbuffered_write+0x75c/0x2020 fs/netfs/direct_write.c:111\n netfs_unbuffered_write_iter_locked+0x7d6/0xa80 fs/netfs/direct_write.c:290\n netfs_unbuffered_write_iter+0x442/0x720 fs/netfs/direct_write.c:382\n v9fs_file_write_iter+0xbf/0x100 fs/9p/vfs_file.c:409\n new_sync_write fs/read_write.c:595 [inline]",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1935451,21 +1935456,23 @@
       "active_threat": false,
       "probability_score": 0.00136,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 4,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-98120",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfs: Fix subreq ref leak\n\nFix a subrequest ref leak in netfs_unbuffered_write() in the event that\nsubreq->io_iter ends up zero length during preparation.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1935555,12 +1935562,14 @@
       "active_threat": false,
       "probability_score": 0.00121,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 11,
         "reference_count": 3
       }
     },
@@ -1937571,9 +1937580,9 @@
     {
       "cve_id": "CVE-2026-98140",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs: fix kmap_local leak in write_mft_record_nolock() error paths\n\nwrite_mft_record_nolock() maps the MFT record folio with\nkmap_local_folio(), but the pre_write_mst_fixup() and\nbio_add_folio() failure paths jump to the error label without\nunmapping it. kmap_local mappings are stack-ordered per task, so\nleaking one corrupts the nesting for any outer mapping.\n\nUnmap the folio on those error paths too.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1937634,21 +1937643,23 @@
       "active_threat": false,
       "probability_score": 0.001,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-98141",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs: propagate reparse index insertion failure\n\nupdate_reparse_data() ignores the return value of\nset_reparse_index(). When index insertion fails, the code removes\nthe just-written reparse data as cleanup but still returns 0, so\nsymlink(2) (and WSL special file creation) reports success while\nno reparse data exists on disk. When there was no previous reparse\ndata (oldsize == 0), the failure was likewise silently ignored.\n\nPropagate the error to the caller.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1937709,21 +1937720,23 @@
       "active_threat": false,
       "probability_score": 0.00145,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-252"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-98142",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/cirrus-qemu: Validate BAR0 size during probe\n\nThe `cirrus-qemu` driver relies on `CIRRUS_VRAM_SIZE` (4 MB) to validate\nframebuffer sizes. However, during PCI probe, the driver mapped BAR0\nwithout verifying that its size matches `CIRRUS_VRAM_SIZE`.\n\nIf a PCI device with a BAR0 smaller than 4 MB is bound to the driver, the\nmapped VRAM will be smaller than expected. Because validation checks assume\n4 MB VRAM, framebuffers larger than the mapped memory can be created.\n\nWhen the display plane is updated (e.g. during release),\n`cirrus_primary_plane_helper_atomic_update()` copies the framebuffer to\nVRAM using `drm_fb_memcpy()`. Writing past the end of the mapped I/O memory\ncauses a supervisor write page fault:\n\nBUG: unable to handle page fault for address: ffffc9000389c000\n...\nRIP: 0010:memcpy_toio+0x7c/0xe0 arch/x86/lib/iomem.c:110\n...\nCall Trace:\n <TASK>\n iosys_map_memcpy_to include/linux/iosys-map.h:285 [inline]\n drm_fb_memcpy+0x325/0x5d0 drivers/gpu/drm/drm_format_helper.c:442\n cirrus_primary_plane_helper_atomic_update+0x98a/0xb00\n drivers/gpu/drm/tiny/cirrus-qemu.c:358\n drm_atomic_helper_commit_planes+0x626/0xea0\n drivers/gpu/drm/drm_atomic_helper.c:3038\n drm_atomic_helper_commit_tail+0x60/0x510\n drivers/gpu/drm/drm_atomic_helper.c:1989\n commit_tail+0x2b1/0x3c0 drivers/gpu/drm/drm_atomic_helper.c:2074\n drm_atomic_helper_commit+0xa77/0xb10\n drivers/gpu/drm/drm_atomic_helper.c:2312\n\nFix this by validating in `cirrus_pci_probe()` that the PCI BAR0 resource\nis not less than `CIRRUS_VRAM_SIZE`, returning `-ENODEV` if it is less.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1937820,12 +1937833,14 @@
       "active_threat": false,
       "probability_score": 0.00156,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1937899,17 +1937914,19 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-681"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-98144",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\naccel/amdxdna: put the chained BO when its mapping fails\n\namdxdna_cmd_set_error() looks up the first BO of a command chain, which\ntakes a reference, and drops it at the end of the function. The mapping of\nthat BO is established in between, and the failure path returns without the\nput, so the reference is leaked.\n\nOrdinary use does not reach it. The chain has been submitted before any of\nthis runs, so aie2_cmdlist_fill_slot() has already called\namdxdna_cmd_get_op() on that BO and amdxdna_gem_vmap() has cached its\naddress. What makes it reachable is that the BO is resolved again by\nhandle here, and the handle is userspace's to recycle: closing it after\nsubmission and importing a dma-buf whose exporter implements no vmap onto\nthe same id leaves amdxdna_gem_get_obj() returning an object this cannot\nmap, since prime_import() types every import AMDXDNA_BO_SHARE.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1937981,21 +1937998,23 @@
       "active_threat": false,
       "probability_score": 0.001,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-98145",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\naccel/amdxdna: reject a command chain that carries no commands\n\nA chain whose command_count is zero passes the payload length check,\nbecause struct_size(payload, data, 0) is just the header. The fill loop\nthen does not run, so offset stays zero and the request is submitted with\na zero-length buffer.\n\nOn firmware without AIE2_NPU_COMMAND that ends at the opcode check, since\nop is still ERT_INVALID_CMD and aie2_get_chain_msg_op() answers\nMSG_OP_MAX_OPCODE. aie2_get_npu_chain_msg_op() answers\nMSG_OP_CHAIN_EXEC_NPU whatever it is given, so there the submission\ncontinues to drm_clflush_virt_range(cmd_buf, 0), which reads the byte\nbefore the buffer and faults on the vmap guard page. EXEC_CMD is\nreachable by any process that can open the render node.\n\nReject the request instead.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1938056,12 +1938075,14 @@
       "active_threat": false,
       "probability_score": 0.001,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
@@ -1938157,9 +1938178,9 @@
     {
       "cve_id": "CVE-2026-98147",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nprintk: Don't WARN on kthread_run failure.\n\nSince __kthread_create_on_node() returns -EINTR upon SIGKILL,\nwe should not use WARN_ON() in order to catch kthread_run() failure.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1938244,21 +1938265,23 @@
       "active_threat": false,
       "probability_score": 0.00156,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-617"
+        ],
+        "cpe_count": 5,
         "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-98148",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/gud: validate GUD_ROTATION_0 is present in supported rotations\n\nThe rotation argument to drm_plane_create_rotation_property() is set to\nDRM_MODE_ROTATE_0, and the device reported rotation bitmask is used as\nthe supported_rotations argument. The driver never validates that\nGUD_ROTATION_0 is present, so a device that omits it from its\nGUD_PROPERTY_ROTATION triggers the\nWARN_ON(rotation & ~supported_rotations) in\ndrm_plane_create_rotation_property()\n\nFix this by skipping the creation of rotation property if the device\ndoesn't have the GUD_ROTATION_0 bit",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1938355,12 +1938378,14 @@
       "active_threat": false,
       "probability_score": 0.00157,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-754"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1940336,7 +1940361,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2020141,7 +2020166,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 2
       }
     },
     {
@@ -2022469,7 +2022494,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 2
       }
     },
     {
@@ -2023774,7 +2023799,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 2
       }
     },
     {
@@ -2041299,7 +2041324,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2042499,7 +2042524,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99089",
@@ -2042601,7 +2042635,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99090",
@@ -2042615,58 +2042658,34 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "d38ceaf99ed015f2a0b9af3499791bd3a3daae21",
               "lessThan": "037796d9ca1da97978deaefd88ca5649f6cb69f5",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "d38ceaf99ed015f2a0b9af3499791bd3a3daae21",
               "lessThan": "11b6193c8841a052b7907006ffb1e02468b1448e",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "d38ceaf99ed015f2a0b9af3499791bd3a3daae21",
               "lessThan": "8d6f773d7479034a574ecc3b585bcd07d46b4824",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "d38ceaf99ed015f2a0b9af3499791bd3a3daae21",
               "lessThan": "f4a0a1ce147d1a6e428d7cb5e3b99fd695139fc7",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "d38ceaf99ed015f2a0b9af3499791bd3a3daae21",
               "lessThan": "1a6023edfbb5673f55fab6348f135fb3b1428ea5",
               "status": "affected",
               "versionType": "git"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.6.160",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.12.113",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.18.57",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "7.2.11",
-              "status": "affected",
-              "versionType": "semver"
             }
           ]
         },
@@ -2042674,6 +2042693,16 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "4.2",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "4.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "6.6.160",
               "lessThanOrEqual": "6.6.*",
@@ -2042717,7 +2042746,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99091",
@@ -2042858,7 +2042896,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99092",
@@ -2042948,7 +2042995,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-99093",
@@ -2043010,7 +2043066,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00162
+      "probability_score": 0.00162,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99094",
@@ -2043100,7 +2043165,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-99095",
@@ -2043202,7 +2043276,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99096",
@@ -2043268,7 +2043351,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00152
+      "probability_score": 0.00152,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99097",
@@ -2043358,7 +2043450,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00164
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-99098",
@@ -2043448,7 +2043549,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00181
+      "probability_score": 0.00181,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-99099",
@@ -2043526,7 +2043636,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00162
+      "probability_score": 0.00162,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99999",
