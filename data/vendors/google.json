@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:06:09+00:00",
+  "generated_at": "2026-10-29T14:14:42+00:00",
   "vendor": "google",
   "count": 50,
   "items": [
@@ -591,7 +591,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05739,
+      "probability_score": 0.05786,
       "kev": {
         "cveID": "CVE-2023-2136",
         "vendorProject": "Google",
@@ -2051,7 +2051,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.07821,
+      "probability_score": 0.07486,
       "kev": {
         "cveID": "CVE-2025-5419",
         "vendorProject": "Google",
@@ -2217,7 +2217,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87988,
+      "probability_score": 0.82641,
       "kev": {
         "cveID": "CVE-2026-111497",
         "vendorProject": "Google",
@@ -2525,7 +2525,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13514,
+      "probability_score": 0.13743,
       "kev": {
         "cveID": "CVE-2026-5281",
         "vendorProject": "Google",

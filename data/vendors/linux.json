@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:06:09+00:00",
+  "generated_at": "2026-10-29T14:14:42+00:00",
   "vendor": "linux",
   "count": 17537,
   "items": [
@@ -3134,7 +3134,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00473,
+      "probability_score": 0.00482,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -3177,7 +3177,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0245,
+      "probability_score": 0.02462,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -199282,7 +199282,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00441,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -249446,7 +249446,7 @@
         "vendor:linux"
       ],
       "active_threat": true,
-      "probability_score": 0.03672,
+      "probability_score": 0.03702,
       "kev": {
         "cveID": "CVE-2023-0266",
         "vendorProject": "Linux",
@@ -318391,7 +318391,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00207,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -664736,7 +664736,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00284,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -668811,7 +668811,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00245,
+      "probability_score": 0.00243,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -690634,7 +690634,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00522,
+      "probability_score": 0.00518,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -691086,7 +691086,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -697858,7 +697858,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00236,
+      "probability_score": 0.00234,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -704928,7 +704928,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00233,
+      "probability_score": 0.00231,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -714437,7 +714437,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00242,
+      "probability_score": 0.0024,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -723868,7 +723868,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00232,
+      "probability_score": 0.0023,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -728734,7 +728734,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00248,
+      "probability_score": 0.00246,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -731762,7 +731762,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00259,
+      "probability_score": 0.00257,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -731952,7 +731952,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00251,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -732632,7 +732632,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00268,
+      "probability_score": 0.00265,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -750513,7 +750513,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0025,
+      "probability_score": 0.00248,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -750650,7 +750650,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0025,
+      "probability_score": 0.00248,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -751299,7 +751299,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0025,
+      "probability_score": 0.00248,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -752101,7 +752101,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00255,
+      "probability_score": 0.00253,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -752238,7 +752238,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0026,
+      "probability_score": 0.00257,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -754447,7 +754447,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00193,
+      "probability_score": 0.00192,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -757146,7 +757146,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00238,
+      "probability_score": 0.00236,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -757898,7 +757898,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018,
+      "probability_score": 0.00179,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -857827,7 +857827,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00298,
+      "probability_score": 0.00301,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -902474,7 +902474,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00477,
+      "probability_score": 0.00474,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -908838,7 +908838,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00211,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -914268,7 +914268,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00301,
+      "probability_score": 0.00299,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -914691,7 +914691,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00178,
+      "probability_score": 0.00179,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -937896,7 +937896,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00197,
+      "probability_score": 0.00195,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939002,7 +939002,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00183,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939103,7 +939103,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167,
+      "probability_score": 0.00179,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939250,7 +939250,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00192,
+      "probability_score": 0.00206,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939372,7 +939372,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00436,
+      "probability_score": 0.00468,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -939496,7 +939496,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00434,
+      "probability_score": 0.00466,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939645,7 +939645,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00178,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939794,7 +939794,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00178,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939881,7 +939881,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00162,
+      "probability_score": 0.00174,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -940018,7 +940018,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00368,
+      "probability_score": 0.00395,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -940167,7 +940167,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00132,
+      "probability_score": 0.00141,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -940316,7 +940316,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00179,
+      "probability_score": 0.00192,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -940564,7 +940564,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177,
+      "probability_score": 0.0019,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -940713,7 +940713,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177,
+      "probability_score": 0.0019,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -940860,7 +940860,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00182,
+      "probability_score": 0.00195,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -941009,7 +941009,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018,
+      "probability_score": 0.00194,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -941126,7 +941126,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00162,
+      "probability_score": 0.00174,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -941239,7 +941239,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016,
+      "probability_score": 0.00172,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -941316,7 +941316,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00139,
+      "probability_score": 0.00149,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -941463,7 +941463,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00169,
+      "probability_score": 0.00182,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -941635,7 +941635,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00719,
+      "probability_score": 0.00772,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -941753,7 +941753,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00155,
+      "probability_score": 0.00167,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -941854,7 +941854,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00336,
+      "probability_score": 0.00361,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -941989,7 +941989,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00223,
+      "probability_score": 0.00241,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -942066,7 +942066,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00095,
+      "probability_score": 0.00102,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -942167,7 +942167,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0017,
+      "probability_score": 0.00183,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -942316,7 +942316,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00242,
+      "probability_score": 0.0026,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -942463,7 +942463,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00349,
+      "probability_score": 0.00375,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -942562,7 +942562,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00157,
+      "probability_score": 0.00169,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -942709,7 +942709,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00173,
+      "probability_score": 0.00186,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -948329,7 +948329,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00169,
+      "probability_score": 0.0017,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -950216,7 +950216,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00405,
+      "probability_score": 0.00403,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1003264,7 +1003264,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00127,
+      "probability_score": 0.0013,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1003413,7 +1003413,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00161,
+      "probability_score": 0.00165,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1003500,7 +1003500,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0017,
+      "probability_score": 0.00174,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1003599,7 +1003599,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00154,
+      "probability_score": 0.00157,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1003698,7 +1003698,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00187,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1003773,7 +1003773,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00127,
+      "probability_score": 0.0013,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1003850,7 +1003850,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00153,
+      "probability_score": 0.00157,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1003993,7 +1003993,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00115,
+      "probability_score": 0.00118,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -1004070,7 +1004070,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00246,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1004159,7 +1004159,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00152,
+      "probability_score": 0.00156,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1076551,7 +1076551,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00134,
+      "probability_score": 0.00135,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1154857,7 +1154857,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00184,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1154946,7 +1154946,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00165,
+      "probability_score": 0.00172,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1155093,7 +1155093,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1155242,7 +1155242,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1155389,7 +1155389,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00181,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1155536,7 +1155536,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1155685,7 +1155685,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00181,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1155834,7 +1155834,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00181,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1155983,7 +1155983,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1156132,7 +1156132,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00141,
+      "probability_score": 0.00143,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1156281,7 +1156281,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145,
+      "probability_score": 0.00147,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1333909,7 +1333909,7 @@
         "vendor:linux"
       ],
       "active_threat": true,
-      "probability_score": 0.10192,
+      "probability_score": 0.15719,
       "kev": {
         "cveID": "CVE-2026-46300",
         "vendorProject": "Linux",
@@ -1418388,7 +1418388,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00338,
+      "probability_score": 0.00261,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1428148,7 +1428148,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00134,
+      "probability_score": 0.00099,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1550224,7 +1550224,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.002,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1646286,7 +1646286,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00243,
+      "probability_score": 0.00409,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1753025,7 +1753025,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0017,
+      "probability_score": 0.00125,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -1753346,7 +1753346,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00168,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1817580,7 +1817580,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00194,
+      "probability_score": 0.00178,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -1933000,7 +1933000,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00183,
+      "probability_score": 0.00314,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1933135,7 +1933135,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018,
+      "probability_score": 0.00119,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1933246,7 +1933246,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00183,
+      "probability_score": 0.00091,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1934478,7 +1934478,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00168,
+      "probability_score": 0.00125,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1934589,7 +1934589,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00168,
+      "probability_score": 0.00125,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1934664,7 +1934664,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0012,
+      "probability_score": 0.00093,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1934799,7 +1934799,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00205,
+      "probability_score": 0.00155,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1934910,7 +1934910,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00168,
+      "probability_score": 0.00122,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1935303,7 +1935303,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167,
+      "probability_score": 0.00128,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1935378,7 +1935378,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156,
+      "probability_score": 0.00091,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -2043807,7 +2043807,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99102",
@@ -2043873,7 +2043873,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99103",
@@ -2043998,7 +2043998,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00168
     },
     {
       "cve_id": "CVE-2026-99104",
@@ -2044064,7 +2044064,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00173
     },
     {
       "cve_id": "CVE-2026-99105",
@@ -2044142,7 +2044142,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99106",
@@ -2044220,7 +2044220,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99107",
@@ -2044286,7 +2044286,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99108",
@@ -2044352,7 +2044352,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00163
     },
     {
       "cve_id": "CVE-2026-99109",
@@ -2044418,7 +2044418,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00163
     },
     {
       "cve_id": "CVE-2026-99110",
@@ -2044496,7 +2044496,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00184
     },
     {
       "cve_id": "CVE-2026-99111",
@@ -2044574,7 +2044574,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99112",
@@ -2044663,7 +2044663,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99113",
@@ -2044741,7 +2044741,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99114",
@@ -2044819,7 +2044819,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99115",
@@ -2044897,7 +2044897,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99116",
@@ -2044975,7 +2044975,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99117",
@@ -2045053,7 +2045053,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99118",
@@ -2045131,7 +2045131,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99119",
@@ -2045197,7 +2045197,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00163
     },
     {
       "cve_id": "CVE-2026-99120",
@@ -2045275,7 +2045275,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99121",
@@ -2045353,7 +2045353,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99122",
@@ -2045431,7 +2045431,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99123",
@@ -2045509,7 +2045509,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99124",
@@ -2045587,7 +2045587,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00206
     },
     {
       "cve_id": "CVE-2026-99125",
@@ -2045653,7 +2045653,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99126",
@@ -2045731,7 +2045731,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99127",
@@ -2045809,7 +2045809,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99128",
@@ -2045887,7 +2045887,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99129",
@@ -2045953,7 +2045953,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99130",
@@ -2046031,7 +2046031,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99131",
@@ -2046109,7 +2046109,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00185
     },
     {
       "cve_id": "CVE-2026-99132",
@@ -2046187,7 +2046187,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99133",
@@ -2046265,7 +2046265,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99134",
@@ -2046343,7 +2046343,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99135",
@@ -2046421,7 +2046421,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99136",
@@ -2046510,7 +2046510,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99137",
@@ -2046588,7 +2046588,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99138",
@@ -2046666,7 +2046666,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99139",
@@ -2046744,7 +2046744,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99140",
@@ -2046822,7 +2046822,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99141",
@@ -2046888,7 +2046888,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99142",
@@ -2046966,7 +2046966,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99143",
@@ -2047044,7 +2047044,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99144",
@@ -2047110,7 +2047110,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99145",
@@ -2047176,7 +2047176,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00163
     },
     {
       "cve_id": "CVE-2026-99146",
@@ -2047254,7 +2047254,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99147",
@@ -2047332,7 +2047332,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99148",
@@ -2047410,7 +2047410,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99149",
@@ -2047476,7 +2047476,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99150",
@@ -2047565,7 +2047565,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99151",
@@ -2047615,7 +2047615,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99152",
@@ -2047693,7 +2047693,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0018
     },
     {
       "cve_id": "CVE-2026-99153",
@@ -2047771,7 +2047771,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0018
     },
     {
       "cve_id": "CVE-2026-99154",
@@ -2047849,7 +2047849,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99155",
@@ -2047927,7 +2047927,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0018
     },
     {
       "cve_id": "CVE-2026-99156",
@@ -2048005,7 +2048005,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99157",
@@ -2048083,7 +2048083,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99158",
@@ -2048161,7 +2048161,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99159",
@@ -2048239,7 +2048239,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00174
     },
     {
       "cve_id": "CVE-2026-99160",
@@ -2048317,7 +2048317,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99161",
@@ -2048395,7 +2048395,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0018
     },
     {
       "cve_id": "CVE-2026-99162",
@@ -2048461,7 +2048461,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99163",
@@ -2048572,7 +2048572,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99164",
@@ -2048638,7 +2048638,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00163
     },
     {
       "cve_id": "CVE-2026-99165",
@@ -2048716,7 +2048716,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99166",
@@ -2048794,7 +2048794,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99167",
@@ -2048872,7 +2048872,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99168",
@@ -2048938,7 +2048938,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99169",
@@ -2049016,7 +2049016,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99170",
@@ -2049082,7 +2049082,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00163
     },
     {
       "cve_id": "CVE-2026-99171",
@@ -2049160,7 +2049160,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99172",
@@ -2049226,7 +2049226,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00161
     },
     {
       "cve_id": "CVE-2026-99173",
@@ -2049326,7 +2049326,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99174",
@@ -2049404,7 +2049404,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99175",
@@ -2049482,7 +2049482,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99176",
@@ -2049560,7 +2049560,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00191
     },
     {
       "cve_id": "CVE-2026-99177",
@@ -2049626,7 +2049626,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99178",
@@ -2049706,7 +2049706,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99179",
@@ -2049784,7 +2049784,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99180",
@@ -2049862,7 +2049862,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99181",
@@ -2049940,7 +2049940,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00185
     },
     {
       "cve_id": "CVE-2026-99182",
@@ -2050018,7 +2050018,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99183",
@@ -2050084,7 +2050084,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99184",
@@ -2050162,7 +2050162,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99185",
@@ -2050228,7 +2050228,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99186",
@@ -2050294,7 +2050294,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99187",
@@ -2050372,7 +2050372,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99188",
@@ -2050438,7 +2050438,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00156
     },
     {
       "cve_id": "CVE-2026-99189",
@@ -2050516,7 +2050516,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99190",
@@ -2050605,7 +2050605,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177
     },
     {
       "cve_id": "CVE-2026-99191",
@@ -2050683,7 +2050683,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99192",
@@ -2050772,7 +2050772,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00172
     },
     {
       "cve_id": "CVE-2026-99193",
@@ -2050838,7 +2050838,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99194",
@@ -2050904,7 +2050904,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99195",
@@ -2050970,7 +2050970,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99196",
@@ -2051036,7 +2051036,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177
     },
     {
       "cve_id": "CVE-2026-99197",
@@ -2051102,7 +2051102,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99198",
@@ -2051168,7 +2051168,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177
     },
     {
       "cve_id": "CVE-2026-99199",
@@ -2051234,7 +2051234,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99200",
@@ -2051300,7 +2051300,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99201",
@@ -2051378,7 +2051378,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99202",
@@ -2051506,7 +2051506,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-99203",
@@ -2051584,7 +2051584,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99204",
@@ -2051662,7 +2051662,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99205",
@@ -2051728,7 +2051728,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99206",
@@ -2051806,7 +2051806,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99207",
@@ -2051872,7 +2051872,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99208",
@@ -2051950,7 +2051950,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00155
     },
     {
       "cve_id": "CVE-2026-99209",
@@ -2052028,7 +2052028,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00155
     },
     {
       "cve_id": "CVE-2026-99210",
@@ -2052106,7 +2052106,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00155
     },
     {
       "cve_id": "CVE-2026-99211",
@@ -2052184,7 +2052184,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99212",
@@ -2052262,7 +2052262,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99213",
@@ -2052340,7 +2052340,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99214",
@@ -2052418,7 +2052418,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00155
     },
     {
       "cve_id": "CVE-2026-99215",
@@ -2052496,7 +2052496,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99216",
@@ -2052607,7 +2052607,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0016
     },
     {
       "cve_id": "CVE-2026-99999",
