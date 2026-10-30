@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:08:01+00:00",
+  "generated_at": "2026-10-30T14:33:14+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -7454,7 +7454,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00239,
+      "probability_score": 0.00235,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -35210,7 +35210,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00534,
+      "probability_score": 0.00545,
       "nvd": {
         "cvss_v3_score": 7.7,
         "cvss_v3_severity": "HIGH",
@@ -65515,7 +65515,7 @@
           "CWE-457"
         ],
         "cpe_count": 0,
-        "reference_count": 22
+        "reference_count": 23
       }
     },
     {
@@ -68439,7 +68439,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0087,
+      "probability_score": 0.00865,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -82658,7 +82658,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00462,
+      "probability_score": 0.0047,
       "nvd": {
         "cvss_v3_score": 8.2,
         "cvss_v3_severity": "HIGH",
@@ -83161,7 +83161,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01576,
+      "probability_score": 0.01604,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -83260,7 +83260,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00443,
+      "probability_score": 0.0045,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -94604,7 +94604,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 82
+        "reference_count": 84
       }
     },
     {
@@ -99939,7 +99939,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00532,
+      "probability_score": 0.00574,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -99949,7 +99949,7 @@
           "CWE-284"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
