@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:18:28+00:00",
+  "generated_at": "2026-10-30T01:15:29+00:00",
   "vendor": "linux",
   "count": 17537,
   "items": [
@@ -1333932,7 +1333932,7 @@
           "CWE-123"
         ],
         "cpe_count": 11,
-        "reference_count": 50
+        "reference_count": 51
       }
     },
     {
@@ -1417548,7 +1417548,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 4
       }
     },
@@ -1417659,9 +1417659,10 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-191",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1418395,9 +1418396,10 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 10,
         "reference_count": 6
       }
     },
@@ -1418534,7 +1418536,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 7
       }
     },
@@ -1419136,7 +1419138,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1646294,7 +1646296,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 9
+        "reference_count": 10
       }
     },
     {
@@ -1932895,17 +1932897,19 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 8,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-98097",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ntipc: Dont send random pad bytes in RESET/ACTIVATE messages\n\nThe interface name is passed in a fixed length (TIPC_MAX_IF_NAME) buffer.\nReplace the strcpy(data, l->if_name) with memcpy() so that the\npad bytes are actually written (l->if_name[] is zero padded)\nrather than sending random bytes from the skb to the remote system.\n\nReplace two other strcpy() with strscpy().",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "affected": [
         {
           "vendor": "linux",
@@ -1933002,21 +1933006,21 @@
       "active_threat": false,
       "probability_score": 0.00314,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
     {
       "cve_id": "CVE-2026-98098",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ntipc: fix NULL deref in tipc_named_node_up() on empty publication list\n\nUser-space applications can bind a large number of service addresses to\none or more sockets. Each binding of a local-scope service address inserts\none entry (publication) into the TIPC name table. If the number of these\npublications exceeds TIPC_MAX_PUBL (65535), protocol service types\n(such as node state and link state) are no longer inserted into the name\ntable. This causes two issues:\n\n1. User-space applications subscribing to node or link up/down events\n   stop receiving notifications.\n\n2. A NULL pointer dereference can occur:\n\n   BUG: kernel NULL pointer dereference, address: 00000000000000d0\n   ...\n   CPU: 0 UID: 0 PID: 0 Comm: swapper/0 Not tainted 7.2.0-rc4-default+ #5 PREEMPT(full)\n   ...\n   RIP: 0010:tipc_named_node_up (./include/linux/skbuff.h:2251 net/tipc/name_distr.c:195 net/tipc/name_distr.c:221)\n   ...\n   Call Trace:\n   <IRQ>\n   tipc_node_write_unlock (net/tipc/node.c:428)\n   tipc_rcv (net/tipc/node.c:934 net/tipc/node.c:2189)\n   tipc_udp_recv (net/tipc/udp_media.c:389)\n\n   Thread 1 (tipc_net_finalize) | Thread 2 (named_distribute)\n   -----------------------------|-----------------------------\n                                | ...\n                                | list_for_each_entry(publ, pls, binding_node) {\n                                | ...\n                                | __skb_queue_tail(list, skb);\n                                | ...\n                                | }\n                                | ...\n                                | hdr = buf_msg(skb_peek_tail(list));\n   ...                          |\n   tipc_nametbl_publish();      |\n\n   If 'tipc_nametbl_publish()' (Thread 1) fails because the number of\n   local publications reaches TIPC_MAX_PUBL, list (Thread 2) will be empty. As a\n   result, NULL is passed to 'buf_msg()', leading to a NULL pointer dereference.\n\nFix these issues by allowing protocol service types (node state, link state,\nand topology server) to be inserted into the name table unconditionally.\nThis ensures that users subscribing to these types always receive\nnotifications. In addition, the maximum number of local user publications is\nreduced to (TIPC_MAX_PUBL - 1). This ensures that the maximum bulk size\ncalculated in tipc_link_set_queue_limits() remains valid.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1933137,21 +1933141,23 @@
       "active_threat": false,
       "probability_score": 0.00119,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 7,
         "reference_count": 7
       }
     },
     {
       "cve_id": "CVE-2026-98099",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: mcast: use rcu_assign_pointer() for __rcu list updates\n\nSeveral places in net/ipv6/mcast.c update RCU-protected lists\n(np->ipv6_mc_list, idev->mc_list, idev->mc_tomb) using direct pointer\nassignments instead of rcu_assign_pointer():\n\n1. In __ipv6_dev_mc_dec(), unlinking a group from idev->mc_list did:\n       *map = ma->next;\n   without rcu_assign_pointer() while concurrent readers traverse\n   idev->mc_list locklessly under rcu_read_lock().\n2. In ipv6_sock_mc_drop() and __ipv6_sock_mc_close(), unlinking a group\n   from np->ipv6_mc_list directly assigned *lnk = mc_lst->next and\n   np->ipv6_mc_list = mc_lst->next without rcu_assign_pointer(), racing\n   with lockless readers in inet6_mc_check().\n3. In __ipv6_sock_mc_join(), mc_lst->next was initialized to\n   np->ipv6_mc_list via raw assignment before publishing mc_lst.\n4. In mld_del_delrec() and __ipv6_dev_mc_inc(), __rcu source pointers\n   passed into rcu_assign_pointer() lacked explicit dereference helpers.\n\nFix these by consistently using rcu_assign_pointer() along with\nmc_dereference() / sock_dereference().",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1933248,12 +1933254,14 @@
       "active_threat": false,
       "probability_score": 0.00091,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 4.7,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-362"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1934393,9 +1934401,9 @@
     {
       "cve_id": "CVE-2026-98110",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btintel: bound firmware ID by TLV length\n\nThe firmware ID is treated as a NUL-terminated string even though the\nTLV length is its only boundary. If the value does not contain a NUL\nterminator, snprintf() can read beyond the received response.\n\nLimit the conversion to the advertised TLV value length.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1934480,21 +1934488,23 @@
       "active_threat": false,
       "probability_score": 0.00125,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 4,
         "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-98111",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btintel: validate version TLV value lengths\n\nbtintel_parse_version_tlv() verifies that a complete TLV is present in\nthe response, but it does not ensure that the value is long enough for\nthe specific TLV type. A short value can therefore cause an\nout-of-bounds read through get_unaligned_le16(), get_unaligned_le32(),\nor memcpy().\n\nReject values shorter than the minimum required by each known TLV type.\nAlso reject responses that do not contain the Command Complete Status\nfield.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1934591,12 +1934601,14 @@
       "active_threat": false,
       "probability_score": 0.00125,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1934670,17 +1934682,20 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-362",
+          "CWE-416"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-98113",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: rate limit unmapped SID errors\n\nA client can include many structurally valid but unmapped SIDs in a DACL.\nLogging every mapping failure lets one request generate hundreds of kernel\nerror messages.\n\nRate limit the message to prevent an authenticated client from flooding\nthe kernel log.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1934801,21 +1934816,23 @@
       "active_threat": false,
       "probability_score": 0.00155,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 7,
         "reference_count": 7
       }
     },
     {
       "cve_id": "CVE-2026-98114",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: propagate DACL parsing errors\n\nparse_dacl() silently accepts truncated ACEs and allocation failures,\nallowing set_info_sec() to continue with an incomplete ACL conversion.\n\nReturn parsing and allocation errors to parse_sec_desc() so malformed\nsecurity descriptors are rejected before inode attributes or ACL xattrs\nare updated.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1934912,12 +1934929,14 @@
       "active_threat": false,
       "probability_score": 0.00122,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-252"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1935222,17 +1935241,19 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 10,
         "reference_count": 7
       }
     },
     {
       "cve_id": "CVE-2026-98117",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncachefiles: Fix potential UAF/KASAN warning\n\nCurrently, trace_cachefiles_coherency() is being passed a pointer to a\n__be64 lain over the coherency data in struct cachefiles_xattr so that it\ncan display the first 8 bytes.  However, the data is of variable length and\ncould even be 0 bytes.  This could lead to a UAF or KASAN warning.\n\nFix this by making sure the buffer has room for at least 8 bytes and that\nthose 8 bytes are pre-cleared.\n\nFurther, those bytes are not 8-byte aligned, so fix the tracepoint to\nextract the data as four 2-byte words (they are 2-byte aligned) and\nreassemble the __be64.  The compiler will convert this into a single 8-byte\nload where the CPU supports it.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1935305,21 +1935326,23 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-98118",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfs: Fix readahead synchronisation issues by loading all folios upfront\n\nThere are some synchronisation issues that derive from the app thread\nadding more folios to the rolling buffer whilst the collector thread is\nlooking at them or trying to clear them, such as determining the setting of\nfront_folio_order when the next folio hasn't been added yet,\n\nThe reason for the rolling buffer approach is that loading the buffer\nupfront and then dropping all the refs just acquired is quite a slow\noperation, and loading progressively allows some of the cost to be deferred\nuntil after at least some of the I/O is started.\n\nInstead, a better way is to load all the folios into the rolling buffer\nupfront - and then drop the refs later, once the I/O is in progress.  (Even\nbetter would be for the refs not to be there at all.)\n\nFix this by changing the rolling buffer loader to load all the folios\nselected by the VM for readahead upfront into the folio queue.  The folio\nqueue is allocated a batch worth at a time as we don't know how many folios\nare involved (the readahead_control struct, alas, has a page count, not a\nfolio count).\n\nThe folio refs acquired from readahead are then dropped in bulk once the\nfirst subrequest is dispatched as it's quite a slow operation.  The\ncollector waits for NETFS_RREQ_NEED_PUT_RA_REFS to be cleared so that it\ndoesn't unlock folios before the xarray has been scanned for them.\n\nThis simplifies the buffer handling later and isn't noticeably slower as\nthe xarray doesn't need to be modified and the folios are all already\npre-locked.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1935380,12 +1935403,14 @@
       "active_threat": false,
       "probability_score": 0.00091,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-362"
+        ],
+        "cpe_count": 3,
         "reference_count": 2
       }
     },
@@ -2043807,7 +2043832,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99102",
@@ -2043873,7 +2043907,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99103",
@@ -2043998,7 +2044041,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00168
+      "probability_score": 0.00168,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99104",
@@ -2044064,7 +2044116,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00173
+      "probability_score": 0.00173,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99105",
@@ -2044142,7 +2044203,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99106",
@@ -2044220,7 +2044290,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99107",
@@ -2044286,7 +2044365,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99108",
@@ -2044352,7 +2044440,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00163
+      "probability_score": 0.00163,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99109",
@@ -2044418,7 +2044515,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00163
+      "probability_score": 0.00163,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99110",
@@ -2044496,7 +2044602,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00184
+      "probability_score": 0.00184,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99111",
@@ -2044574,7 +2044689,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99112",
@@ -2044663,7 +2044787,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99113",
@@ -2044741,7 +2044874,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99114",
@@ -2044819,7 +2044961,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99115",
@@ -2044897,7 +2045048,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99116",
@@ -2044975,7 +2045135,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99117",
@@ -2045053,7 +2045222,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99118",
@@ -2045131,7 +2045309,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99119",
@@ -2045197,7 +2045384,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00163
+      "probability_score": 0.00163,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99120",
@@ -2045275,7 +2045471,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99121",
@@ -2045353,7 +2045558,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99122",
@@ -2045431,7 +2045645,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99123",
@@ -2045509,7 +2045732,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99124",
@@ -2045587,7 +2045819,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00206
+      "probability_score": 0.00206,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99125",
@@ -2045653,7 +2045894,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99126",
@@ -2045731,7 +2045981,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99127",
@@ -2045809,7 +2046068,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99128",
@@ -2045887,7 +2046155,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99129",
@@ -2045953,7 +2046230,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99130",
@@ -2046031,7 +2046317,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99131",
@@ -2046109,7 +2046404,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00185
+      "probability_score": 0.00185,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99132",
@@ -2046187,7 +2046491,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99133",
@@ -2046265,7 +2046578,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99134",
@@ -2046343,7 +2046665,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99135",
@@ -2046421,7 +2046752,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99136",
@@ -2046510,7 +2046850,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99137",
@@ -2046588,7 +2046937,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99138",
@@ -2046666,7 +2047024,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99139",
@@ -2046744,7 +2047111,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99140",
@@ -2046822,7 +2047198,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99141",
@@ -2046888,7 +2047273,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99142",
@@ -2046966,7 +2047360,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99143",
@@ -2047044,7 +2047447,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99144",
@@ -2047110,7 +2047522,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99145",
@@ -2047176,7 +2047597,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00163
+      "probability_score": 0.00163,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99146",
@@ -2047254,7 +2047684,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99147",
@@ -2047332,7 +2047771,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99148",
@@ -2047410,7 +2047858,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99149",
@@ -2047476,7 +2047933,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99150",
@@ -2047565,7 +2048031,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99151",
@@ -2047615,7 +2048090,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99152",
@@ -2047693,7 +2048177,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018
+      "probability_score": 0.0018,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99153",
@@ -2047771,7 +2048264,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018
+      "probability_score": 0.0018,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99154",
@@ -2047849,7 +2048351,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99155",
@@ -2047927,7 +2048438,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018
+      "probability_score": 0.0018,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99156",
@@ -2048005,7 +2048525,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99157",
@@ -2048083,7 +2048612,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99158",
@@ -2048161,7 +2048699,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99159",
@@ -2048239,7 +2048786,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174
+      "probability_score": 0.00174,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99160",
@@ -2048317,7 +2048873,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99161",
@@ -2048395,7 +2048960,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0018
+      "probability_score": 0.0018,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99162",
@@ -2048461,7 +2049035,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99163",
@@ -2048572,7 +2049155,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99164",
@@ -2048638,7 +2049230,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00163
+      "probability_score": 0.00163,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99165",
@@ -2048716,7 +2049317,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99166",
@@ -2048794,7 +2049404,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99167",
@@ -2048872,7 +2049491,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99168",
@@ -2048938,7 +2049566,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99169",
@@ -2049016,7 +2049653,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99170",
@@ -2049082,7 +2049728,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00163
+      "probability_score": 0.00163,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99171",
@@ -2049160,7 +2049815,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99172",
@@ -2049226,7 +2049890,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00161
+      "probability_score": 0.00161,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99173",
@@ -2049326,7 +2049999,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99174",
@@ -2049404,7 +2050086,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99175",
@@ -2049482,7 +2050173,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99176",
@@ -2049560,7 +2050260,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00191
+      "probability_score": 0.00191,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99177",
@@ -2049626,7 +2050335,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99178",
@@ -2049706,7 +2050424,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99179",
@@ -2049784,7 +2050511,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99180",
@@ -2049862,7 +2050598,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99181",
@@ -2049940,7 +2050685,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00185
+      "probability_score": 0.00185,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99182",
@@ -2050018,7 +2050772,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99183",
@@ -2050084,7 +2050847,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99184",
@@ -2050162,7 +2050934,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99185",
@@ -2050228,7 +2051009,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99186",
@@ -2050294,7 +2051084,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99187",
@@ -2050372,7 +2051171,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99188",
@@ -2050438,7 +2051246,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00156
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99189",
@@ -2050516,7 +2051333,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99190",
@@ -2050605,7 +2051431,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99191",
@@ -2050683,7 +2051518,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99192",
@@ -2050772,7 +2051616,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99193",
@@ -2050838,7 +2051691,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99194",
@@ -2050904,7 +2051766,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99195",
@@ -2050970,7 +2051841,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99196",
@@ -2051036,7 +2051916,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99197",
@@ -2051102,7 +2051991,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99198",
@@ -2051168,7 +2052066,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00177
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99199",
@@ -2051234,7 +2052141,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99200",
@@ -2051300,7 +2052216,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99201",
@@ -2051378,7 +2052303,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99202",
@@ -2051506,7 +2052440,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00167
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99203",
@@ -2051584,7 +2052527,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99204",
@@ -2051662,7 +2052614,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99205",
@@ -2051728,7 +2052689,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99206",
@@ -2051806,7 +2052776,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99207",
@@ -2051872,7 +2052851,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00145
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-99208",
@@ -2051950,7 +2052938,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00155
+      "probability_score": 0.00155,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99209",
@@ -2052028,7 +2053025,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00155
+      "probability_score": 0.00155,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99210",
@@ -2052106,7 +2053112,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00155
+      "probability_score": 0.00155,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99211",
@@ -2052184,7 +2053199,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99212",
@@ -2052262,7 +2053286,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99213",
@@ -2052340,7 +2053373,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99214",
@@ -2052418,7 +2053460,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00155
+      "probability_score": 0.00155,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99215",
@@ -2052496,7 +2053547,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99216",
@@ -2052607,7 +2053667,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016
+      "probability_score": 0.0016,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-99999",

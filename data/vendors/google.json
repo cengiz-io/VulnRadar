@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:18:28+00:00",
+  "generated_at": "2026-10-30T01:15:29+00:00",
   "vendor": "google",
   "count": 50,
   "items": [
@@ -2230,15 +2230,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-252",
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 36,
         "reference_count": 18
       }
     },

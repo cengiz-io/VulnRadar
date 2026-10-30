@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:18:28+00:00",
+  "generated_at": "2026-10-30T01:15:29+00:00",
   "vendor": "microsoft",
   "count": 141,
   "items": [
@@ -30859,6 +30859,18 @@
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft edge (chromium-based)",
+          "versions": [
+            {
+              "version": "1.0.0.0",
+              "lessThan": "154.0.4258.62",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "outlook.com",

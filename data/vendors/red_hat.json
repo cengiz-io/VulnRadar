@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:18:28+00:00",
+  "generated_at": "2026-10-30T01:15:29+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -5479,7 +5479,7 @@
           "CWE-122",
           "CWE-787"
         ],
-        "cpe_count": 3,
+        "cpe_count": 28,
         "reference_count": 43
       }
     },
@@ -7444,11 +7444,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         }
       ],
@@ -35185,11 +35180,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -64717,6 +64707,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "1:0.2.0-6.el8_4.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "1:0.2.0-6.el8_4.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.6 advanced mission critical update support",
           "versions": [
             {
@@ -64777,10 +64791,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "1:0.2.2-1.el8_8.3",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.8 update services for sap solutions",
           "versions": [
             {
               "version": "0:75-10.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "1:0.2.2-1.el8_8.3",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -65477,7 +65515,7 @@
           "CWE-457"
         ],
         "cpe_count": 0,
-        "reference_count": 21
+        "reference_count": 22
       }
     },
     {
@@ -99878,8 +99916,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1793001859",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -104174,6 +104219,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cert manager support for red hat openshift release 1.17",
           "versions": [
             {
@@ -104452,7 +104533,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 32
+        "reference_count": 35
       }
     },
     {
@@ -104738,6 +104819,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cert manager support for red hat openshift release 1.17",
           "versions": [
             {
@@ -105002,11 +105119,6 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -105026,7 +105138,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 27
+        "reference_count": 30
       }
     },
     {
@@ -105372,6 +105484,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cert manager support for red hat openshift release 1.17",
           "versions": [
             {
@@ -105650,7 +105798,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 32
+        "reference_count": 35
       }
     },
     {
@@ -107588,6 +107736,54 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.19",
+          "versions": [
+            {
+              "version": "4.19.9.6.202610241701-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cert manager support for red hat openshift release 1.17",
           "versions": [
             {
@@ -107871,7 +108067,7 @@
           "CWE-126"
         ],
         "cpe_count": 0,
-        "reference_count": 34
+        "reference_count": 38
       }
     },
     {
