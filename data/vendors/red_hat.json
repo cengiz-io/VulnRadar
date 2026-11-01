@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:32:17+00:00",
+  "generated_at": "2026-11-01T01:07:54+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -98691,18 +98691,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -99512,18 +99500,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -100255,18 +100231,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -100905,18 +100869,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -101243,18 +101195,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -101513,18 +101453,6 @@
           "versions": [
             {
               "version": "0:2.62.2-9.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -108414,18 +108342,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -109635,7 +109551,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501180",
@@ -109647,7 +109563,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501200",
@@ -109659,7 +109575,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782498923",
@@ -109671,7 +109587,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782510941",
@@ -109683,7 +109599,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501220",
@@ -109695,7 +109611,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501196",
@@ -109707,7 +109623,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501195",
@@ -109719,7 +109635,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1785704636",
@@ -109731,7 +109647,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1785704547",
