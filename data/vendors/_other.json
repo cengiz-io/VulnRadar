@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:07:54+00:00",
+  "generated_at": "2026-11-01T07:38:58+00:00",
   "vendor": "_other",
   "count": 1167,
   "items": [
@@ -40927,7 +40927,7 @@
         "cwe_ids": [
           "CWE-690"
         ],
-        "cpe_count": 0,
+        "cpe_count": 14,
         "reference_count": 2
       }
     },
@@ -71503,9 +71503,9 @@
     {
       "cve_id": "CVE-2026-108518",
       "description": "DBI versions before 1.656 for Perl crash via type confusion in dbi_profile when a database handle is destroyed under a Profile Path with an {attr} element.\n\nAn {attr} element names a database handle attribute, which dbi_profile reads from the handle's inner hash. It expects the inner handle as a reference and dereferences it, but a handle that is being destroyed hands back the inner hash itself, so the dereference yields the hash's bucket array. A type check on that pointer usually fails and the call goes unprofiled. When the memory it addresses passes the check, the attribute lookup dereferences a NULL or invalid pointer and the process dies on SIGSEGV.\n\nThe Path is set by the application, by the Profile handle attribute, or by the DBI_PROFILE environment variable, so `DBI_PROFILE={ImplementorClass}` can crash an unmodified program.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 2.9,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
       "affected": [
         {
           "vendor": "",
@@ -71529,15 +71529,15 @@
       "active_threat": false,
       "probability_score": 0.00254,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 2.9,
+        "cvss_v3_severity": "LOW",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-843"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -71949,9 +71949,9 @@
     {
       "cve_id": "CVE-2026-110680",
       "description": "Cpanel::JSON::XS versions from 4.20 before 4.80 for Perl write out of bounds when a tied or shared hash grows during canonical encoding in encode_hv.\n\nWith canonical, the keys of a tied or threads::shared hash are counted before a second pass collects them for sorting. The encoder uses a fixed 64-entry stack array or, for larger counts, a heap array sized from the first pass. If the second pass exceeds that capacity, entries are written out of bounds before the counts are compared.\n\nThis corrupts stack or heap memory and can crash the process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -71975,8 +71975,8 @@
       "active_threat": false,
       "probability_score": 0.00467,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -71989,9 +71989,9 @@
     {
       "cve_id": "CVE-2026-110681",
       "description": "Cpanel::JSON::XS versions before 4.80 for Perl use the parent interpreter's scalars from a parser object cloned into a new ithread.\n\nA parser object holds its callbacks and its incremental parse buffer as raw scalar pointers. When a thread is created, these are copied into the new interpreter unchanged, so the child's parser uses, and later frees, scalars that belong to the parent and may already have been freed there.\n\nA parser created before a thread starts and used inside it can call freed callbacks, corrupt reference counts and crash the process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72015,8 +72015,8 @@
       "active_threat": false,
       "probability_score": 0.00429,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72630,9 +72630,9 @@
     {
       "cve_id": "CVE-2026-111879",
       "description": "DBI versions before 1.656 for Perl hang on a later open of a DBD::DBM table because a failed open_data does not release the table's lock.\n\nopen_data creates the table's lock file and takes an exclusive flock on it for a CREATE, before the checks that can croak: a dbm_mldbm value that is not a module name, a failing tie, or a missing data file. The croak unwinds before the table object is blessed, so nothing releases the lock, and the meta data holding the open descriptor stays cached on the database handle.\n\nThe dbm_mldbm and dbm_type values come from the DSN or the connect attributes, so a caller that chooses the serializer or the storage backend can trigger the failure.\n\nThe flock has no timeout, so a later open of that table (even through a separate database handle) blocks for as long as the handle holding the stale lock lives, in the same process or any other.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -72656,8 +72656,8 @@
       "active_threat": false,
       "probability_score": 0.00327,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72710,9 +72710,9 @@
     {
       "cve_id": "CVE-2026-112202",
       "description": "Imager::File::GIF versions before 1.006 for Perl allow out-of-bounds reads when consolidating GIF images.\n\nWith `gif_consolidate => 1`, palette indices from the image are used without checking the colour table's bounds. The i_readgif_low routine reads beyond the heap allocation and copies the bytes into output pixels. The default GIF reader is not affected.\n\nThe same code ships bundled in the Imager distribution.\n\nAn attacker supplying a crafted GIF can disclose adjacent heap memory through the decoded output and may crash the process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
       "affected": [
         {
           "vendor": "",
@@ -72748,8 +72748,8 @@
       "active_threat": false,
       "probability_score": 0.00425,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72762,9 +72762,9 @@
     {
       "cve_id": "CVE-2026-112921",
       "description": "Robots::Validate versions from 0.4.3 before 0.4.10 for Perl report clients as imposter robots when User-Agent matcher state carries over from a previous request.\n\nEach Robots::Validate object holds one pure-Perl Aho-Corasick search machine and feeds every User-Agent into it without resetting its state. A User-Agent that ends part-way through a robot name leaves the machine mid-match, so the next User-Agent checked by the same object can complete that name. That client's address is then checked against the robot's DNS rule, which it fails.\n\nA remote client can use this to make a site that blocks bad robots block other visitors where the prefix User-Agent string is a suffix of a robot being validated.\n\nNote that deployments with Algorithm::AhoCorasick::XS are also affected, since it was unused due to a different bug.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "",
@@ -72788,8 +72788,8 @@
       "active_threat": false,
       "probability_score": 0.00359,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -72802,9 +72802,9 @@
     {
       "cve_id": "CVE-2026-113811",
       "description": "Algorithm::UrataniTakeda versions from 0.1.5 before 0.1.7 for Perl allow memory exhaustion via a never-cleared failure shift cache in search.\n\nThe failure shift is cached for each pair of trie state and text character in a field of the matcher object, and nothing clears it. A character not seen before at a given state adds an entry that lasts for the life of the matcher.\n\nAn attacker who can submit text with many distinct characters to a long-lived matcher can grow its memory with each search.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -72828,23 +72828,23 @@
       "active_threat": false,
       "probability_score": 0.00605,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-770"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
       "cve_id": "CVE-2026-113812",
       "description": "Mozilla::CA versions before 20261020 for Perl provide a CA certificate bundle containing a root linked to compromised intermediates.\n\nThe bundle includes \"emSign ECC Root CA - G3\", which provides a trust path for intermediate certificates whose private keys are publicly available.\n\nAn attacker able to intercept or redirect client traffic may use these keys to impersonate a TLS server.\n\nLWP, HTTP::Tiny and other clients normally use IO::Socket::SSL, which looks for CA certificates in OpenSSL's default locations before falling back to Mozilla::CA.\n\nConfiguration and environment variables can override this selection. Users should check which CA store their client uses. If it uses the system store, check for and install the operating system vendor's updates for this incident.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "",
@@ -72868,8 +72868,8 @@
       "active_threat": false,
       "probability_score": 0.00339,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -73672,7 +73672,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00239
+      "probability_score": 0.00239,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-789"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-115866",
@@ -73701,7 +73712,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00239
+      "probability_score": 0.00239,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-115943",
@@ -73834,7 +73856,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00159
+      "probability_score": 0.00159,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-444"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116128",
@@ -73863,7 +73896,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00239
+      "probability_score": 0.00239,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116130",
@@ -73892,7 +73936,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00329
+      "probability_score": 0.00329,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-626"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-116131",
@@ -74746,7 +74801,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00158
+      "probability_score": 0.00158,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-338"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118987",
@@ -74775,7 +74841,16 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00158
+      "probability_score": 0.00158,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118988",
@@ -74804,7 +74879,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00239
+      "probability_score": 0.00239,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-118990",
@@ -74833,7 +74919,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00161
+      "probability_score": 0.00161,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59",
+          "CWE-379"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118991",
@@ -74862,14 +74960,25 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00104
+      "probability_score": 0.00104,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-916"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118992",
       "description": "CallBackery versions before 0.62.0 for Perl allow OS command execution via sqlite3 shell commands in a restored configuration backup.\n\nrestoreConfigBlob() feeds the database dump in a backup to the sqlite3 command-line shell. The shell runs lines starting with a dot as its own commands, so .shell or .system in the dump runs an OS command and .load loads native code.\n\nAnyone who can supply a backup to be restored can run arbitrary commands as the application user.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74891,7 +75000,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00231
+      "probability_score": 0.00231,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118993",
@@ -74920,7 +75040,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00158
+      "probability_score": 0.00158,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118994",
@@ -74949,7 +75080,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0021
+      "probability_score": 0.0021,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-117"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118995",
@@ -74978,7 +75120,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00321
+      "probability_score": 0.00321,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-625"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-118996",
@@ -75007,7 +75160,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00158
+      "probability_score": 0.00158,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-212"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-119036",
@@ -75036,7 +75200,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00176
+      "probability_score": 0.00176,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-119037",
@@ -75065,7 +75240,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00123
+      "probability_score": 0.00123,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-347"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-119038",
@@ -75094,7 +75280,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00166
+      "probability_score": 0.00166,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -75257,7 +75454,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00104
+      "probability_score": 0.00104,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-759",
+          "CWE-916"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-13577",
@@ -78495,9 +78704,9 @@
     {
       "cve_id": "CVE-2026-85783",
       "description": "Crypt::Age versions before 0.004 for Perl allow CPU exhaustion via an unbounded number of recipient stanzas, each costing an X25519 scalar multiplication in unwrap_file_key.\n\nThe header parser accepts any number of recipient stanzas, and unwrap_file_key tries every identity against every X25519 stanza. Each attempt runs a scalar multiplication, an HKDF and a ChaCha20-Poly1305 open. The header MAC cannot be checked first, because its key comes from the file key, which only a successful unwrap produces.\n\nEach stanza is 98 bytes of attacker-chosen header and buys one scalar multiplication per identity held, and the file is rejected only after every one of them has run. A caller reaches this through decrypt, decrypt_file or decrypt_filehandle whenever it decrypts a file it did not write.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -78521,8 +78730,8 @@
       "active_threat": false,
       "probability_score": 0.00561,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -78881,7 +79090,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00195
+      "probability_score": 0.00195,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-407"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-88815",
@@ -79386,9 +79606,9 @@
     {
       "cve_id": "CVE-2026-94140",
       "description": "Rex versions through 1.16.1 for Perl accept an unknown SSH host key for remote rsync transfers because sync hardcodes StrictHostKeyChecking=no.\n\nEvery remote branch of sync builds its ssh command with that option, for password authentication, for private-key authentication and for the fallback. The ssh options a caller sets through set_openssh_opt reach the OpenSSH transport but not this command, so there is no configuration that restores host key checking for the transfer.\n\nAn attacker who can redirect the connection before the real host key is known presents their own and the transfer proceeds: under password authentication sync sends the connection password to that server, an upload writes the selected local files to it, and a download writes what it returns to the local destination.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "",
@@ -79412,8 +79632,8 @@
       "active_threat": false,
       "probability_score": 0.00428,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -79426,9 +79646,9 @@
     {
       "cve_id": "CVE-2026-94423",
       "description": "Net::LibSSH versions before 0.004 for Perl authenticate to an unverified server because connect never checks the host key against known_hosts.\n\nconnect reports success as soon as ssh_connect returns SSH_OK. libssh leaves the known-hosts check to the application, and this binding never makes it, so the strict_hostkeycheck and knownhosts options are set on the session and then decide nothing.\n\nPassword, agent and public-key authentication, channel and SFTP operations all run on a session whose peer was never identified, so an attacker who can redirect the connection receives the password when password authentication is used, and commands and data sent over the session.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "",
@@ -79452,8 +79672,8 @@
       "active_threat": false,
       "probability_score": 0.0044,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -83602,8 +83822,8 @@
         "cwe_ids": [
           "CWE-829"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 7,
+        "reference_count": 3
       }
     },
     {
@@ -87696,7 +87916,7 @@
           "CWE-190"
         ],
         "cpe_count": 6,
-        "reference_count": 5
+        "reference_count": 7
       }
     },
     {
@@ -90507,7 +90727,7 @@
           "CWE-1325"
         ],
         "cpe_count": 306,
-        "reference_count": 9
+        "reference_count": 11
       }
     },
     {
@@ -90579,7 +90799,7 @@
           "CWE-1325"
         ],
         "cpe_count": 306,
-        "reference_count": 17
+        "reference_count": 19
       }
     },
     {
