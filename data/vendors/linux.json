@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:35:39+00:00",
+  "generated_at": "2026-11-02T06:06:26+00:00",
   "vendor": "linux",
   "count": 17537,
   "items": [
@@ -2064855,94 +2064855,52 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "87a9aba92485889d510052e474999a6ec00b888c",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "d5c28994b2c1440480fccd0b6c2ce72c23bb9fff",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "9af312d3607c8f9b5166a19cbf40cee351cc3a1d",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "dda5245afc3470d70406764e3d9f5508e534920a",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "f4c6fcc2ad462ffd76d6e6f909bcd6ae0391f5b7",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "f641066b0ddcd1b0cf007c0d04f9c966f6e888ae",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "8c4f962f368d5e17481f3c2c5a43028953e137a5",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "eff1a59c48e3c6a006eb4fe5f2e405a996f2259d",
               "lessThan": "db7b86bd97b380ece8fa39cfdd7502a9fd35e56f",
               "status": "affected",
               "versionType": "git"
-            },
-            {
-              "version": "0",
-              "lessThan": "5.10.273",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "5.15.224",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.1.191",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.6.161",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.12.115",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.18.59",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "7.2.13",
-              "status": "affected",
-              "versionType": "semver"
             }
           ]
         },
@@ -2064950,6 +2064908,16 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "2.6.24",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "2.6.24",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "5.10.273",
               "lessThanOrEqual": "5.10.*",
@@ -2065034,22 +2065002,16 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "47503f989736d6c4c9f8bfca1c28d267473ccd4b",
               "lessThan": "7dc2c524608039d1b082a0087f7aa0751edd4ffb",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "47503f989736d6c4c9f8bfca1c28d267473ccd4b",
               "lessThan": "0ab6dc1ac4601c8d79e5448a024daed6b0c5ef64",
               "status": "affected",
               "versionType": "git"
-            },
-            {
-              "version": "0",
-              "lessThan": "7.2.13",
-              "status": "affected",
-              "versionType": "semver"
             }
           ]
         },
@@ -2065057,6 +2065019,16 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "7.1",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "7.1",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "7.2.13",
               "lessThanOrEqual": "7.2.*",
@@ -2073791,46 +2073763,28 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "631bc4878220932fe67fc46fc7cf7cccdb1ec597",
               "lessThan": "fd60b32a99627fda479c9fa1d4a82fa9f7994670",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "631bc4878220932fe67fc46fc7cf7cccdb1ec597",
               "lessThan": "b77e9622bbade9812e2090c66d25c372f515e921",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "631bc4878220932fe67fc46fc7cf7cccdb1ec597",
               "lessThan": "f45ee1ff6358a22d7e22a4c53cb3148ea97b10d9",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "631bc4878220932fe67fc46fc7cf7cccdb1ec597",
               "lessThan": "81d99abe2bd81379abfb595e403bbbee6fbfc624",
               "status": "affected",
               "versionType": "git"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.12.115",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.18.59",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "7.2.13",
-              "status": "affected",
-              "versionType": "semver"
             }
           ]
         },
@@ -2073838,6 +2073792,16 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "2.6.38",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "2.6.38",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "6.12.115",
               "lessThanOrEqual": "6.12.*",
