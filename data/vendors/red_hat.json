@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:32:08+00:00",
+  "generated_at": "2026-11-03T06:48:28+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -114294,6 +114294,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:2.9.7-9.el8_4.20",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:2.9.7-9.el8_4.20",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.6 advanced mission critical update support",
           "versions": [
             {
@@ -115463,7 +115487,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 84
+        "reference_count": 85
       }
     },
     {
@@ -128129,6 +128153,18 @@
           "versions": [
             {
               "version": "2:3.0.4-4.el9_8.10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "2:2.99.8-4.el9_2.7",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
