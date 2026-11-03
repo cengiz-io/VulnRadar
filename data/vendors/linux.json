@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T06:48:28+00:00",
+  "generated_at": "2026-11-03T15:08:38+00:00",
   "vendor": "linux",
   "count": 17563,
   "items": [
@@ -385,7 +385,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00326,
+      "probability_score": 0.00334,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -605,7 +605,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00326,
+      "probability_score": 0.00334,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -656,7 +656,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00326,
+      "probability_score": 0.00334,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -707,7 +707,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00329,
+      "probability_score": 0.00337,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -748,7 +748,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00353,
+      "probability_score": 0.00361,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -787,7 +787,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00313,
+      "probability_score": 0.0032,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -828,7 +828,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00785,
+      "probability_score": 0.00794,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -916,7 +916,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00788,
+      "probability_score": 0.00797,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -959,7 +959,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00568,
+      "probability_score": 0.00575,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -2968,7 +2968,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00627,
+      "probability_score": 0.00634,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -10238,7 +10238,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00226,
+      "probability_score": 0.00243,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -82618,7 +82618,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00655,
+      "probability_score": 0.0065,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -151204,7 +151204,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00241,
+      "probability_score": 0.00239,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -154034,7 +154034,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00248,
+      "probability_score": 0.00245,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -165739,7 +165739,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00148,
+      "probability_score": 0.00149,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -176621,7 +176621,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00237,
+      "probability_score": 0.00235,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -184674,7 +184674,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00161,
+      "probability_score": 0.00159,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -191062,7 +191062,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00169,
+      "probability_score": 0.00168,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -201599,7 +201599,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016,
+      "probability_score": 0.00159,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -211786,7 +211786,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00165,
+      "probability_score": 0.00164,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -221123,7 +221123,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00216,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -221432,7 +221432,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00201,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -262944,7 +262944,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00236,
+      "probability_score": 0.00238,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -263091,7 +263091,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00241,
+      "probability_score": 0.00243,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -264505,7 +264505,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00234,
+      "probability_score": 0.00236,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -265483,7 +265483,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0024,
+      "probability_score": 0.00251,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -265716,7 +265716,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00239,
+      "probability_score": 0.00241,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -291498,7 +291498,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0025,
+      "probability_score": 0.00248,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -332163,7 +332163,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00149,
+      "probability_score": 0.00148,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -342259,7 +342259,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00284,
+      "probability_score": 0.00282,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -358975,7 +358975,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0016,
+      "probability_score": 0.00159,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -360210,7 +360210,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00169,
+      "probability_score": 0.00168,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -363841,7 +363841,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00157,
+      "probability_score": 0.00156,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -368223,7 +368223,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00153,
+      "probability_score": 0.00152,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -368858,7 +368858,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0015,
+      "probability_score": 0.00149,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -383976,7 +383976,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00387,
+      "probability_score": 0.00384,
       "nvd": {
         "cvss_v3_score": 8.2,
         "cvss_v3_severity": "HIGH",
@@ -388287,7 +388287,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.0019,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -417405,7 +417405,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.0021,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -420569,7 +420569,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00201,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -430556,7 +430556,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00198,
+      "probability_score": 0.002,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -437889,7 +437889,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00186,
+      "probability_score": 0.00184,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -564161,7 +564161,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00249,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -567822,7 +567822,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00272,
+      "probability_score": 0.0027,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -573663,7 +573663,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00269,
+      "probability_score": 0.00267,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -573961,7 +573961,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0027,
+      "probability_score": 0.00268,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -574098,7 +574098,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00268,
+      "probability_score": 0.00265,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -579981,7 +579981,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0023,
+      "probability_score": 0.00228,
       "nvd": {
         "cvss_v3_score": 6.3,
         "cvss_v3_severity": "MEDIUM",
@@ -659009,7 +659009,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.01369,
+      "probability_score": 0.01358,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -673101,7 +673101,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00278,
+      "probability_score": 0.00276,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -673262,7 +673262,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00282,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -686797,7 +686797,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00789,
+      "probability_score": 0.00782,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -774364,7 +774364,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00222,
+      "probability_score": 0.00224,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -794773,7 +794773,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00202,
+      "probability_score": 0.00204,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -824023,7 +824023,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00228,
+      "probability_score": 0.00235,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -824257,7 +824257,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0023,
+      "probability_score": 0.00233,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -824564,7 +824564,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00203,
+      "probability_score": 0.00205,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -826650,7 +826650,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00218,
+      "probability_score": 0.00225,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -828387,7 +828387,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00233,
+      "probability_score": 0.0025,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -828836,7 +828836,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00267,
+      "probability_score": 0.0027,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -828949,7 +828949,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -829671,7 +829671,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00216,
+      "probability_score": 0.00223,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -830895,7 +830895,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00226,
+      "probability_score": 0.00243,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -831044,7 +831044,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0023,
+      "probability_score": 0.00233,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -832272,7 +832272,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00501,
+      "probability_score": 0.00498,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -834797,7 +834797,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00205,
+      "probability_score": 0.0021,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -834921,7 +834921,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00242,
+      "probability_score": 0.00255,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -835046,7 +835046,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -835619,7 +835619,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00204,
+      "probability_score": 0.00209,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -836043,7 +836043,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00202,
+      "probability_score": 0.00208,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -836293,7 +836293,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00211,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -836382,7 +836382,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00189,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -839303,7 +839303,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00213,
+      "probability_score": 0.00216,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -839539,7 +839539,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00166,
+      "probability_score": 0.00171,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -839951,7 +839951,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00166,
+      "probability_score": 0.00171,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -865645,7 +865645,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0036,
+      "probability_score": 0.00367,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -898197,7 +898197,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00203,
+      "probability_score": 0.00209,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -898582,7 +898582,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00174,
+      "probability_score": 0.00178,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -898707,7 +898707,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00171,
+      "probability_score": 0.00175,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -898819,7 +898819,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00547,
+      "probability_score": 0.0056,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -898968,7 +898968,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -900538,7 +900538,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00212,
+      "probability_score": 0.00218,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -902223,7 +902223,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00181,
+      "probability_score": 0.00182,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -903204,7 +903204,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00192,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -912285,7 +912285,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00189,
+      "probability_score": 0.0019,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -912434,7 +912434,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00235,
+      "probability_score": 0.00234,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -914057,7 +914057,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00182,
+      "probability_score": 0.00183,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -915050,7 +915050,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00182,
+      "probability_score": 0.00181,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -916273,7 +916273,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00176,
+      "probability_score": 0.00177,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -920102,7 +920102,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00207,
+      "probability_score": 0.00206,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -922251,7 +922251,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00339,
+      "probability_score": 0.00337,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -925067,7 +925067,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00211,
+      "probability_score": 0.0021,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -925638,7 +925638,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00216,
+      "probability_score": 0.00217,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -925895,7 +925895,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00218,
+      "probability_score": 0.00219,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -926117,7 +926117,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00216,
+      "probability_score": 0.00217,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -927025,7 +927025,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00197,
+      "probability_score": 0.00198,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -931010,7 +931010,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00195,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -931489,7 +931489,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0021,
+      "probability_score": 0.00209,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -932319,7 +932319,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00189,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -932581,7 +932581,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00213,
+      "probability_score": 0.00211,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -932730,7 +932730,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00207,
+      "probability_score": 0.00208,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -932968,7 +932968,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00217,
+      "probability_score": 0.00216,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -934077,7 +934077,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00502,
+      "probability_score": 0.00506,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -934267,7 +934267,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00222,
+      "probability_score": 0.00223,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -935014,7 +935014,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00207,
+      "probability_score": 0.00208,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -936467,7 +936467,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00189,
+      "probability_score": 0.00191,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -936616,7 +936616,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00207,
+      "probability_score": 0.00208,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -937071,7 +937071,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00219,
+      "probability_score": 0.00217,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -937535,7 +937535,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00219,
+      "probability_score": 0.00217,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -937797,7 +937797,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00596,
+      "probability_score": 0.00593,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -938648,7 +938648,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00584,
+      "probability_score": 0.00581,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -938889,7 +938889,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00192,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -939091,7 +939091,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00184,
+      "probability_score": 0.00183,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -941912,7 +941912,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00233,
+      "probability_score": 0.00232,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -942059,7 +942059,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00197,
+      "probability_score": 0.00198,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -946264,7 +946264,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00173,
+      "probability_score": 0.00183,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -947876,7 +947876,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00369,
+      "probability_score": 0.00372,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -949443,7 +949443,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00172,
+      "probability_score": 0.00171,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -950885,7 +950885,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00169,
+      "probability_score": 0.0017,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -951121,7 +951121,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00179,
+      "probability_score": 0.00178,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -953172,7 +953172,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0045,
+      "probability_score": 0.00447,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -960217,7 +960217,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00173,
+      "probability_score": 0.00178,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -967247,7 +967247,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0028,
+      "probability_score": 0.00292,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1024064,7 +1024064,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0022,
+      "probability_score": 0.00222,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -1061720,7 +1061720,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00078,
+      "probability_score": 0.00079,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1066208,7 +1066208,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00143,
+      "probability_score": 0.00144,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1067269,7 +1067269,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00143,
+      "probability_score": 0.00144,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1105019,7 +1105019,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00129,
+      "probability_score": 0.00132,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1140141,7 +1140141,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0013,
+      "probability_score": 0.00133,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1170360,7 +1170360,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0055,
+      "probability_score": 0.0056,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1170461,7 +1170461,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00159,
+      "probability_score": 0.00162,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1170608,7 +1170608,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00176,
+      "probability_score": 0.0018,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -1170758,7 +1170758,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.00322,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1170895,7 +1170895,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00454,
+      "probability_score": 0.00462,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1171018,7 +1171018,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00165,
+      "probability_score": 0.00168,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1529328,7 +1529328,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00104,
+      "probability_score": 0.00132,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1548217,7 +1548217,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00397,
+      "probability_score": 0.00498,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1751971,7 +1751971,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00676,
+      "probability_score": 0.00724,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1986935,7 +1986935,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00457,
+      "probability_score": 0.0076,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1990765,7 +1990765,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00168,
+      "probability_score": 0.00174,
       "nvd": {
         "cvss_v3_score": 8.2,
         "cvss_v3_severity": "HIGH",
@@ -2077979,7 +2077979,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00168
     },
     {
       "cve_id": "CVE-2026-99218",
@@ -2078093,7 +2078093,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00122
     },
     {
       "cve_id": "CVE-2026-99219",
@@ -2078207,7 +2078207,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00173
     },
     {
       "cve_id": "CVE-2026-99220",
@@ -2078321,7 +2078321,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00115
     },
     {
       "cve_id": "CVE-2026-99221",
@@ -2078447,7 +2078447,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00173
     },
     {
       "cve_id": "CVE-2026-99222",
@@ -2078629,7 +2078629,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2026-99223",
@@ -2078767,7 +2078767,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2026-99224",
@@ -2078905,7 +2078905,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00114
     },
     {
       "cve_id": "CVE-2026-99225",
@@ -2079043,7 +2079043,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2026-99226",
@@ -2079181,7 +2079181,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2026-99227",
@@ -2079271,7 +2079271,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0012
     },
     {
       "cve_id": "CVE-2026-99228",
@@ -2079373,7 +2079373,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00157
     },
     {
       "cve_id": "CVE-2026-99229",
@@ -2079463,7 +2079463,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00157
     },
     {
       "cve_id": "CVE-2026-99230",
@@ -2079541,7 +2079541,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00155
     },
     {
       "cve_id": "CVE-2026-99231",
@@ -2079631,7 +2079631,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00115
     },
     {
       "cve_id": "CVE-2026-99232",
@@ -2079697,7 +2079697,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99233",
@@ -2079811,7 +2079811,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00121
     },
     {
       "cve_id": "CVE-2026-99234",
@@ -2079949,7 +2079949,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00165
     },
     {
       "cve_id": "CVE-2026-99235",
@@ -2080087,7 +2080087,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00117
     },
     {
       "cve_id": "CVE-2026-99236",
@@ -2080225,7 +2080225,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00121
     },
     {
       "cve_id": "CVE-2026-99237",
@@ -2080303,7 +2080303,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00119
     },
     {
       "cve_id": "CVE-2026-99238",
@@ -2080381,7 +2080381,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00119
     },
     {
       "cve_id": "CVE-2026-99239",
@@ -2080566,7 +2080566,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00121
     },
     {
       "cve_id": "CVE-2026-99240",
@@ -2080652,7 +2080652,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00155
     },
     {
       "cve_id": "CVE-2026-99241",
@@ -2080718,7 +2080718,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00154
     },
     {
       "cve_id": "CVE-2026-99242",
@@ -2080784,7 +2080784,7 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00145
     },
     {
       "cve_id": "CVE-2026-99999",
