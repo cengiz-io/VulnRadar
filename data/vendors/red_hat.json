@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:21:32+00:00",
+  "generated_at": "2026-11-04T09:12:04+00:00",
   "vendor": "red_hat",
   "count": 520,
   "items": [
@@ -56914,7 +56914,7 @@
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
-              "version": "sha256:5593067bbf79e50ab9ed89c684c8ee03b4b2a0b6443068459967df623c0643de",
+              "version": "openshift-enterprise-console-container-v4.14.0-202510211320.p2.g0682746.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -56926,7 +56926,7 @@
           "product": "red hat openshift container platform 4.15",
           "versions": [
             {
-              "version": "sha256:8d6e2390929560bdddddf8caab133f14fa50dbd53a5e551f134680837778e180",
+              "version": "openshift-enterprise-console-container-v4.15.0-202508180724.p2.g69615d5.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -118397,7 +118397,7 @@
           "CWE-22"
         ],
         "cpe_count": 0,
-        "reference_count": 34
+        "reference_count": 36
       }
     },
     {
@@ -125477,6 +125477,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:2.12.23-22.el6_10.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -126005,11 +126017,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         },
@@ -126041,7 +126048,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 31
       }
     },
     {
@@ -127261,6 +127268,11 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -127835,6 +127847,11 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -128228,7 +128245,7 @@
           "CWE-191"
         ],
         "cpe_count": 4,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -129364,6 +129381,11 @@
         {
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
           "versions": null
         }
       ],
