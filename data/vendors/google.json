@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:12:04+00:00",
+  "generated_at": "2026-11-04T17:18:31+00:00",
   "vendor": "google",
   "count": 50,
   "items": [
@@ -1819,7 +1819,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00634,
+      "probability_score": 0.00656,
       "kev": {
         "cveID": "CVE-2025-48543",
         "vendorProject": "Android",
@@ -2002,7 +2002,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00262,
+      "probability_score": 0.0026,
       "kev": {
         "cveID": "CVE-2025-48633",
         "vendorProject": "Android",
