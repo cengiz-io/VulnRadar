@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:04:24+00:00",
+  "generated_at": "2026-11-05T15:36:40+00:00",
   "vendor": "apple",
   "count": 53,
   "items": [
@@ -3278,7 +3278,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00598,
+      "probability_score": 0.01414,
       "kev": {
         "cveID": "CVE-2024-27834",
         "vendorProject": "Apple",
@@ -4679,9 +4679,9 @@
     {
       "cve_id": "CVE-2026-20700",
       "description": "A memory corruption issue was addressed with improved state management. This issue is fixed in iOS 26.3 and iPadOS 26.3, macOS Tahoe 26.3, tvOS 26.3, visionOS 26.3, watchOS 26.3. An attacker with memory write capability may be able to execute arbitrary code. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "apple",
@@ -4762,14 +4762,25 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-05",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-119"
+        ],
+        "cpe_count": 6,
+        "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-65400",
       "description": "An authentication issue was addressed with improved state management. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1, macOS Tahoe 26.7. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "apple",
@@ -4826,14 +4837,25 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-08-21",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 3,
+        "reference_count": 9
       }
     },
     {
       "cve_id": "CVE-2026-86950",
       "description": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.11 and iPadOS 18.7.11, iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "apple",
@@ -4890,6 +4912,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-10-13",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 6,
+        "reference_count": 8
       }
     }
   ]

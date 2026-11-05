@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-05T07:04:27+00:00`
+Generated: `2026-11-05T15:36:42+00:00`
 
 ## Executive Summary
 
@@ -14,7 +14,7 @@ Top critical items:
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | 0.981 | 7.8 | 2026-05-15 | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-pl… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.638 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | 0.281 | 7.8 | 2024-06-20 | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local p… |
-| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | 0.033 | 9.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx… |
+| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | 0.032 | 9.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx… |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | 0.161 | 7.8 | 2026-10-31 | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during co… |
 | [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | 0.009 | 8.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writa… |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.037 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
@@ -52,7 +52,7 @@ Top critical items:
 | [CVE-2026-31431](https://www.cve.org/CVERecord?id=CVE-2026-31431) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-05-15 | 0.981 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: algif_aead - Revert to operating out-of-place  This mostly reverts commit 72548b09… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.638 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-1086](https://www.cve.org/CVERecord?id=CVE-2024-1086) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-20 | 0.281 | 7.8 | ✅ | A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.    The nft_verdict_… |
-| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.033 | 9.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx_list  Each recvmsg() call must process … |
+| [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.032 | 9.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx_list  Each recvmsg() call must process … |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-10-31 | 0.161 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during coalescing  skb_try_coalesce() can attach … |
 | [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.009 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writable  The ebtables SNAT target keeps the … |
 | [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.037 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
@@ -89,8 +89,8 @@ Top critical items:
 | [CVE-2023-22527](https://www.cve.org/CVERecord?id=CVE-2023-22527) |  | KEV | ✅ | ✅ | 2024-02-14 | 1.000 | 10.0 |  | A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected inst… |
 | [CVE-2024-1709](https://www.cve.org/CVERecord?id=CVE-2024-1709) |  | KEV | ✅ | ✅ | 2024-02-29 | 1.000 | 10.0 |  | ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel   vulnerability, which may allow an atta… |
 | [CVE-2022-24816](https://www.cve.org/CVERecord?id=CVE-2022-24816) |  | KEV | ✅ | ✅ | 2024-07-17 | 0.999 | 10.0 |  | JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request … |
-| [CVE-2026-10520](https://www.cve.org/CVERecord?id=CVE-2026-10520) |  | KEV | ✅ | ✅ | 2026-06-14 | 0.999 | 10.0 |  | An OS Command Injection vulnerability in Ivanti Sentry before the R10.5.2, R10.6.2 and R10.7.1 versions allows a remote unauthenticated user to achieve root-le… |
 | [CVE-2024-45519](https://www.cve.org/CVERecord?id=CVE-2024-45519) |  | KEV | ✅ | ✅ | 2024-10-24 | 0.999 | 10.0 |  | The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allow… |
+| [CVE-2026-10520](https://www.cve.org/CVERecord?id=CVE-2026-10520) |  | KEV | ✅ | ✅ | 2026-06-14 | 0.999 | 10.0 |  | An OS Command Injection vulnerability in Ivanti Sentry before the R10.5.2, R10.6.2 and R10.7.1 versions allows a remote unauthenticated user to achieve root-le… |
 | [CVE-2025-10035](https://www.cve.org/CVERecord?id=CVE-2025-10035) |  | KEV | ✅ | ✅ | 2025-10-20 | 0.998 | 10.0 |  | A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged license response signature to deseriali… |
 | [CVE-2025-32432](https://www.cve.org/CVERecord?id=CVE-2025-32432) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.998 | 10.0 |  | Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-R… |
 | [CVE-2025-55182](https://www.cve.org/CVERecord?id=CVE-2025-55182) |  | KEV | ✅ | ✅ | 2025-12-12 | 0.997 | 10.0 |  | A pre-authentication remote code execution vulnerability exists in React Server Components versions 19.0.0, 19.1.0, 19.1.1, and 19.2.0 including the following … |
@@ -277,6 +277,12 @@ Top critical items:
 | Oct 30 | [CVE-2026-111357](https://www.cve.org/CVERecord?id=CVE-2026-111357) | 🔴 In CISA KEV |
 | Oct 29 | [CVE-2026-76418](https://www.cve.org/CVERecord?id=CVE-2026-76418) | 🔴 In CISA KEV |
 | Oct 29 | [CVE-2026-97229](https://www.cve.org/CVERecord?id=CVE-2026-97229) | 🔴 In CISA KEV |
+| Nov 05 | [CVE-2026-114627](https://www.cve.org/CVERecord?id=CVE-2026-114627) | 🆕 New |
+| Nov 05 | [CVE-2026-121007](https://www.cve.org/CVERecord?id=CVE-2026-121007) | 🆕 New |
+| Nov 05 | [CVE-2026-121008](https://www.cve.org/CVERecord?id=CVE-2026-121008) | 🆕 New |
+| Nov 05 | [CVE-2026-121009](https://www.cve.org/CVERecord?id=CVE-2026-121009) | 🆕 New |
+| Nov 05 | [CVE-2026-121632](https://www.cve.org/CVERecord?id=CVE-2026-121632) | 🆕 New |
+| Nov 05 | [CVE-2026-121259](https://www.cve.org/CVERecord?id=CVE-2026-121259) | 🆕 New |
 | Nov 04 | [CVE-2026-120631](https://www.cve.org/CVERecord?id=CVE-2026-120631) | 🆕 New |
 | Nov 04 | [CVE-2026-120632](https://www.cve.org/CVERecord?id=CVE-2026-120632) | 🆕 New |
 | Nov 04 | [CVE-2026-120633](https://www.cve.org/CVERecord?id=CVE-2026-120633) | 🆕 New |
@@ -297,10 +303,4 @@ Top critical items:
 | Nov 04 | [CVE-2026-120648](https://www.cve.org/CVERecord?id=CVE-2026-120648) | 🆕 New |
 | Nov 04 | [CVE-2026-120650](https://www.cve.org/CVERecord?id=CVE-2026-120650) | 🆕 New |
 | Nov 04 | [CVE-2026-120651](https://www.cve.org/CVERecord?id=CVE-2026-120651) | 🆕 New |
-| Nov 04 | [CVE-2026-74846](https://www.cve.org/CVERecord?id=CVE-2026-74846) | 🆕 New |
-| Nov 04 | [CVE-2026-118527](https://www.cve.org/CVERecord?id=CVE-2026-118527) | 🔴 In CISA KEV |
-| Nov 04 | [CVE-2026-99243](https://www.cve.org/CVERecord?id=CVE-2026-99243) | 🆕 New |
-| Nov 04 | [CVE-2026-99244](https://www.cve.org/CVERecord?id=CVE-2026-99244) | 🆕 New |
-| Nov 04 | [CVE-2026-99245](https://www.cve.org/CVERecord?id=CVE-2026-99245) | 🆕 New |
-| Nov 04 | [CVE-2026-99246](https://www.cve.org/CVERecord?id=CVE-2026-99246) | 🆕 New |
-| ... | | _and 67 more_ |
+| ... | | _and 73 more_ |
