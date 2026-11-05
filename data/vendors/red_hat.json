@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T23:47:30+00:00",
+  "generated_at": "2026-11-05T07:04:24+00:00",
   "vendor": "red_hat",
-  "count": 520,
+  "count": 521,
   "items": [
     {
       "cve_id": "CVE-2023-0118",
@@ -61898,11 +61898,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat build of apache camel - hawtio 4",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat build of keycloak",
           "versions": null
         },
@@ -91538,11 +91533,6 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -110403,10 +110393,10 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift sandboxed containers 1.1",
+          "product": "red hat openshift sandboxed containers 1.10",
           "versions": [
             {
-              "version": "sha256:a6f29da891174e57fcfd131da7aa90c50459ba24164111b83120a1b91f2eabba",
+              "version": "1.10-1753885668",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -120462,18 +120452,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01032,
-      "nvd": {
-        "cvss_v3_score": 8.3,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-89"
-        ],
-        "cpe_count": 0,
-        "reference_count": 22
-      }
+      "probability_score": 0.01032
     },
     {
       "cve_id": "CVE-2026-0665",
@@ -120537,18 +120516,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00168,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00168
     },
     {
       "cve_id": "CVE-2026-105949",
@@ -120587,18 +120555,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00328,
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-287"
-        ],
-        "cpe_count": 0,
-        "reference_count": 3
-      }
+      "probability_score": 0.00328
     },
     {
       "cve_id": "CVE-2026-107935",
@@ -120701,6 +120658,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift dev spaces",
           "versions": null
         },
@@ -120717,18 +120679,56 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00239,
-      "nvd": {
-        "cvss_v3_score": 9.3,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-22"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
-      }
+      "probability_score": 0.00239
+    },
+    {
+      "cve_id": "CVE-2026-121259",
+      "description": "A flaw was found in the GStreamer JPEG 2000 decimator in gst-plugins-bad. Crafted JPEG 2000 media can cause integer overflows or division by zero during tile processing. An application that processes the malicious media may crash, resulting in a denial of service.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "version": "0",
+              "lessThan": "1.28.2",
+              "status": "affected",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00332
     },
     {
       "cve_id": "CVE-2026-13717",
@@ -120822,18 +120822,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00574,
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-284"
-        ],
-        "cpe_count": 0,
-        "reference_count": 6
-      }
+      "probability_score": 0.00574
     },
     {
       "cve_id": "CVE-2026-15143",
@@ -120910,18 +120899,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00536,
-      "nvd": {
-        "cvss_v3_score": 9.3,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-918"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
-      }
+      "probability_score": 0.00536
     },
     {
       "cve_id": "CVE-2026-15154",
@@ -121022,18 +121000,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00476,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1333"
-        ],
-        "cpe_count": 1,
-        "reference_count": 8
-      }
+      "probability_score": 0.00476
     },
     {
       "cve_id": "CVE-2026-15218",
@@ -121104,18 +121071,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00706,
-      "nvd": {
-        "cvss_v3_score": 7.9,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-266"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
-      }
+      "probability_score": 0.00706
     },
     {
       "cve_id": "CVE-2026-17113",
@@ -121176,18 +121132,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00147,
-      "nvd": {
-        "cvss_v3_score": 6.0,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1287"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00147
     },
     {
       "cve_id": "CVE-2026-1584",
@@ -121261,18 +121206,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01323,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-476"
-        ],
-        "cpe_count": 2,
-        "reference_count": 7
-      }
+      "probability_score": 0.01323
     },
     {
       "cve_id": "CVE-2026-2243",
@@ -121341,18 +121275,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00133,
-      "nvd": {
-        "cvss_v3_score": 5.1,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-125"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00133
     },
     {
       "cve_id": "CVE-2026-33845",
@@ -122039,18 +121962,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02073,
-      "nvd": {
-        "cvss_v3_score": 9.1,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-191"
-        ],
-        "cpe_count": 7,
-        "reference_count": 66
-      }
+      "probability_score": 0.02073
     },
     {
       "cve_id": "CVE-2026-3195",
@@ -122114,18 +122026,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 5
-      }
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-3196",
@@ -122189,18 +122090,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00143,
-      "nvd": {
-        "cvss_v3_score": 5.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-190"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00143
     },
     {
       "cve_id": "CVE-2026-3832",
@@ -122547,18 +122437,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00804,
-      "nvd": {
-        "cvss_v3_score": 3.7,
-        "cvss_v3_severity": "LOW",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-179"
-        ],
-        "cpe_count": 8,
-        "reference_count": 19
-      }
+      "probability_score": 0.00804
     },
     {
       "cve_id": "CVE-2026-3833",
@@ -123209,18 +123088,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00565,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-178"
-        ],
-        "cpe_count": 8,
-        "reference_count": 36
-      }
+      "probability_score": 0.00565
     },
     {
       "cve_id": "CVE-2026-3842",
@@ -123284,18 +123152,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00167,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 5
-      }
+      "probability_score": 0.00167
     },
     {
       "cve_id": "CVE-2026-42009",
@@ -124023,18 +123880,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01335,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-475"
-        ],
-        "cpe_count": 44,
-        "reference_count": 73
-      }
+      "probability_score": 0.01335
     },
     {
       "cve_id": "CVE-2026-42010",
@@ -124755,19 +124601,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0105,
-      "nvd": {
-        "cvss_v3_score": 9.8,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-170",
-          "CWE-626"
-        ],
-        "cpe_count": 8,
-        "reference_count": 70
-      }
+      "probability_score": 0.0105
     },
     {
       "cve_id": "CVE-2026-42011",
@@ -125421,18 +125255,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00475,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-295"
-        ],
-        "cpe_count": 0,
-        "reference_count": 35
-      }
+      "probability_score": 0.00475
     },
     {
       "cve_id": "CVE-2026-42012",
@@ -126038,18 +125861,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00374,
-      "nvd": {
-        "cvss_v3_score": 7.1,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-295"
-        ],
-        "cpe_count": 0,
-        "reference_count": 31
-      }
+      "probability_score": 0.00374
     },
     {
       "cve_id": "CVE-2026-42013",
@@ -126703,18 +126515,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00423,
-      "nvd": {
-        "cvss_v3_score": 8.2,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-295"
-        ],
-        "cpe_count": 0,
-        "reference_count": 35
-      }
+      "probability_score": 0.00423
     },
     {
       "cve_id": "CVE-2026-42014",
@@ -127282,18 +127083,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0015,
-      "nvd": {
-        "cvss_v3_score": 6.6,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-825"
-        ],
-        "cpe_count": 0,
-        "reference_count": 28
-      }
+      "probability_score": 0.0015
     },
     {
       "cve_id": "CVE-2026-42015",
@@ -127861,18 +127651,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00727,
-      "nvd": {
-        "cvss_v3_score": 5.3,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-193"
-        ],
-        "cpe_count": 0,
-        "reference_count": 27
-      }
+      "probability_score": 0.00727
     },
     {
       "cve_id": "CVE-2026-48914",
@@ -127960,18 +127739,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00158,
-      "nvd": {
-        "cvss_v3_score": 6.7,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 5
-      }
+      "probability_score": 0.00158
     },
     {
       "cve_id": "CVE-2026-59087",
@@ -128018,18 +127786,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00491,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 4,
-        "reference_count": 4
-      }
+      "probability_score": 0.00491
     },
     {
       "cve_id": "CVE-2026-59088",
@@ -128076,18 +127833,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00332,
-      "nvd": {
-        "cvss_v3_score": 5.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-190"
-        ],
-        "cpe_count": 3,
-        "reference_count": 3
-      }
+      "probability_score": 0.00332
     },
     {
       "cve_id": "CVE-2026-59089",
@@ -128134,18 +127880,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00296,
-      "nvd": {
-        "cvss_v3_score": 5.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-190"
-        ],
-        "cpe_count": 3,
-        "reference_count": 4
-      }
+      "probability_score": 0.00296
     },
     {
       "cve_id": "CVE-2026-59090",
@@ -128235,18 +127970,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00645,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-191"
-        ],
-        "cpe_count": 4,
-        "reference_count": 8
-      }
+      "probability_score": 0.00645
     },
     {
       "cve_id": "CVE-2026-59091",
@@ -128293,18 +128017,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00405,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 4,
-        "reference_count": 3
-      }
+      "probability_score": 0.00405
     },
     {
       "cve_id": "CVE-2026-5260",
@@ -128999,18 +128712,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00769,
-      "nvd": {
-        "cvss_v3_score": 8.2,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-126"
-        ],
-        "cpe_count": 0,
-        "reference_count": 38
-      }
+      "probability_score": 0.00769
     },
     {
       "cve_id": "CVE-2026-5419",
@@ -129396,18 +129098,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00543,
-      "nvd": {
-        "cvss_v3_score": 3.7,
-        "cvss_v3_severity": "LOW",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-208"
-        ],
-        "cpe_count": 0,
-        "reference_count": 21
-      }
+      "probability_score": 0.00543
     },
     {
       "cve_id": "CVE-2026-5674",
@@ -129543,18 +129234,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00185,
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-427"
-        ],
-        "cpe_count": 0,
-        "reference_count": 8
-      }
+      "probability_score": 0.00185
     },
     {
       "cve_id": "CVE-2026-6266",
@@ -129655,6 +129335,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "0:4.6.28-3.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ansible automation platform 2.5 for rhel 9",
           "versions": [
             {
@@ -129683,6 +129399,78 @@
           "versions": [
             {
               "version": "0:2.5.20260422-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.6.28-3.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.7.11-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.6.20260422-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.6.20260422-1.el9ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -129757,18 +129545,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00397,
-      "nvd": {
-        "cvss_v3_score": 8.3,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-305"
-        ],
-        "cpe_count": 0,
-        "reference_count": 11
-      }
+      "probability_score": 0.00397
     },
     {
       "cve_id": "CVE-2026-6420",
@@ -129814,18 +129591,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00121,
-      "nvd": {
-        "cvss_v3_score": 6.3,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1241"
-        ],
-        "cpe_count": 0,
-        "reference_count": 3
-      }
+      "probability_score": 0.00121
     },
     {
       "cve_id": "CVE-2026-6507",
@@ -129889,18 +129655,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00482,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-787"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00482
     },
     {
       "cve_id": "CVE-2026-6842",
@@ -129964,18 +129719,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00085,
-      "nvd": {
-        "cvss_v3_score": 2.5,
-        "cvss_v3_severity": "LOW",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-732"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00085
     },
     {
       "cve_id": "CVE-2026-6846",
@@ -130133,18 +129877,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00171,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 7,
-        "reference_count": 8
-      }
+      "probability_score": 0.00171
     },
     {
       "cve_id": "CVE-2026-6857",
@@ -130215,18 +129948,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00667,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-502"
-        ],
-        "cpe_count": 0,
-        "reference_count": 9
-      }
+      "probability_score": 0.00667
     },
     {
       "cve_id": "CVE-2026-76061",
@@ -130288,18 +130010,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0023,
-      "nvd": {
-        "cvss_v3_score": 5.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-59"
-        ],
-        "cpe_count": 0,
-        "reference_count": 5
-      }
+      "probability_score": 0.0023
     },
     {
       "cve_id": "CVE-2026-7163",
@@ -130418,18 +130129,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00194,
-      "nvd": {
-        "cvss_v3_score": 5.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-312"
-        ],
-        "cpe_count": 2,
-        "reference_count": 17
-      }
+      "probability_score": 0.00194
     },
     {
       "cve_id": "CVE-2026-7307",
@@ -130605,18 +130305,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00878,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-1286"
-        ],
-        "cpe_count": 1,
-        "reference_count": 18
-      }
+      "probability_score": 0.00878
     },
     {
       "cve_id": "CVE-2026-7374",
@@ -130777,18 +130466,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00742,
-      "nvd": {
-        "cvss_v3_score": 9.9,
-        "cvss_v3_severity": "CRITICAL",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-59"
-        ],
-        "cpe_count": 0,
-        "reference_count": 25
-      }
+      "probability_score": 0.00742
     },
     {
       "cve_id": "CVE-2026-7867",
@@ -130856,18 +130534,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00168,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-863"
-        ],
-        "cpe_count": 0,
-        "reference_count": 6
-      }
+      "probability_score": 0.00168
     },
     {
       "cve_id": "CVE-2026-89060",
@@ -130978,18 +130645,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00475,
-      "nvd": {
-        "cvss_v3_score": 7.7,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-551"
-        ],
-        "cpe_count": 0,
-        "reference_count": 8
-      }
+      "probability_score": 0.00475
     },
     {
       "cve_id": "CVE-2026-92574",
@@ -131130,18 +130786,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00654,
-      "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-250"
-        ],
-        "cpe_count": 0,
-        "reference_count": 2
-      }
+      "probability_score": 0.00654
     },
     {
       "cve_id": "CVE-2026-9064",
@@ -131423,18 +131068,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00815,
-      "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-770"
-        ],
-        "cpe_count": 9,
-        "reference_count": 39
-      }
+      "probability_score": 0.00815
     }
   ]
 }
