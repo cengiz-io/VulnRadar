@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T23:08:48+00:00",
+  "generated_at": "2026-11-07T02:50:40+00:00",
   "vendor": "_other",
-  "count": 1200,
+  "count": 1203,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -73771,9 +73771,9 @@
     {
       "cve_id": "CVE-2026-115943",
       "description": "Spreadsheet::XLSX versions before 0.19 for Perl allow code execution via string eval of number format conditions in ExcelFmt.\n\nWhen a number format has a condition such as [>100], ExcelFmt chooses the format section by passing the condition and the cell value to a string eval. Both come from the workbook, and the eval runs while Spreadsheet::XLSX->new parses it.\n\nAn attacker who supplies an XLSX file can run arbitrary Perl code.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -73797,8 +73797,8 @@
       "active_threat": false,
       "probability_score": 0.0061,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74011,9 +74011,9 @@
     {
       "cve_id": "CVE-2026-116131",
       "description": "HTTP::Body versions before 1.23_01 for Perl allow memory and temporary file exhaustion via an unlimited number of form fields and multipart parts.\n\nThe urlencoded parser splits the whole body on its separators at once, creating one scalar per separator before any field is stored. This costs about 90 bytes of memory per separator byte. The multipart parser creates a temporary file for every part that carries a filename. Neither parser limits how many fields or parts a body may hold.\n\nA remote attacker can exhaust worker memory with a body made of separators, or create thousands of temporary files with one request of small file parts.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74037,8 +74037,8 @@
       "active_threat": false,
       "probability_score": 0.00423,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74051,9 +74051,9 @@
     {
       "cve_id": "CVE-2026-116132",
       "description": "HTTP::Body versions before 1.23_01 for Perl leave the temporary file of an incomplete multipart upload on disk.\n\nThe multipart parser creates a temporary file as soon as a file part starts, but adds it to the upload list only when the part completes. Uploads are only ever deleted from that list, by the cleanup option or by the caller, so a body that ends inside a file part leaves its temporary file where nothing can find it.\n\nA remote attacker can fill the temporary directory by repeating such requests, leaving one file behind for each.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74077,8 +74077,8 @@
       "active_threat": false,
       "probability_score": 0.00233,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74091,9 +74091,9 @@
     {
       "cve_id": "CVE-2026-116133",
       "description": "HTTP::Body versions before 1.23_01 for Perl allow CPU exhaustion via quadratic rescanning of a multipart body with a missing or malformed boundary.\n\nBefore the first part, and between parts, the multipart parser searches the whole buffered body for the next boundary. On a miss it keeps everything and searches again from the start when the next chunk arrives. A body with no boundary, or with a delimiter followed by neither CRLF nor \"--\", is therefore rescanned on every chunk, taking time quadratic in its size.\n\nA remote attacker can exhaust worker CPU with a few such requests.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74117,8 +74117,8 @@
       "active_threat": false,
       "probability_score": 0.00474,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74131,9 +74131,9 @@
     {
       "cve_id": "CVE-2026-116134",
       "description": "HTTP::Body versions before 1.23_01 for Perl allow memory exhaustion via an unbounded multipart part header block.\n\nThe multipart parser takes everything up to the first blank line after a boundary as the part's header block, with no limit on its size or number of lines. Every line is stored in the part's header hash, so a block of short lines costs about 60 bytes of memory per input byte.\n\nA remote attacker can exhaust worker memory with a single request.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74157,8 +74157,8 @@
       "active_threat": false,
       "probability_score": 0.00474,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74171,9 +74171,9 @@
     {
       "cve_id": "CVE-2026-116135",
       "description": "HTTP::Body versions before 1.23_01 for Perl drop mixed-case percent escapes from urlencoded form fields instead of decoding them.\n\nThe decode table holds only the all-lowercase and all-uppercase spelling of each hex pair, while the escape pattern matches either case. An escape such as %aB finds no entry and is replaced with nothing, joining the bytes on either side. Hex digits in percent escapes are case-insensitive, and conforming decoders return the byte.\n\nA remote attacker can send a field name or value that a conforming decoder in front of the application reads differently, so that pass%aBword reaches the application as password.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74197,8 +74197,8 @@
       "active_threat": false,
       "probability_score": 0.00598,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74211,9 +74211,9 @@
     {
       "cve_id": "CVE-2026-116264",
       "description": "MIME::Field::ParamVal versions before 5.521 for Perl allow one invalid Content-Type parameter to hide the parameters after it, including the multipart boundary.\n\nParameter parsing stops at the first parameter whose name it cannot read, such as x:y=1 or a name containing an 8-bit byte, and drops every parameter after it. When the boundary is among them, MIME::Parser keeps the multipart body as a single undecoded part without marking the parse as ambiguous.\n\nMail readers that skip the invalid parameter still find the boundary. A remote sender can hide an attachment from a filter that relies on ambiguous_content() while the recipient's mail client shows it.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -74237,8 +74237,8 @@
       "active_threat": false,
       "probability_score": 0.00206,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74251,9 +74251,9 @@
     {
       "cve_id": "CVE-2026-116265",
       "description": "MIME::Field::ParamVal versions before 5.521 for Perl do not flag an ambiguous multipart boundary written as RFC 2231 continuations.\n\nThe boundary ambiguity checks look only at a plain boundary= parameter, and a boundary split into RFC 2231 sections (boundary*0=, boundary*1= and so on) is joined after they have run. A repeated section number is concatenated rather than reported as a duplicate. From version 5.518, an encoded word or trailing whitespace in such a boundary also goes unflagged, although multipart_boundary() decodes or strips it.\n\nA remote sender can make MIME::Parser split a message on a different boundary than other mail readers, hiding an attachment from a filter that relies on ambiguous_content() while the recipient's mail client shows it.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -74277,8 +74277,8 @@
       "active_threat": false,
       "probability_score": 0.00206,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74291,9 +74291,9 @@
     {
       "cve_id": "CVE-2026-116266",
       "description": "MIME::Head versions from 5.518 before 5.521 for Perl decode a partly encoded multipart boundary without flagging the parse as ambiguous.\n\nThe multipart_boundary() method decodes RFC 2047 encoded words anywhere in the boundary, but the ambiguity check only fires when the whole value is one encoded word. A boundary such as abc=?us-ascii?Q?def?= is used as abcdef, and ambiguous_content() returns false.\n\nEncoded words are not allowed in parameters, so other mail readers split the message on the literal value. A remote sender can hide an attachment from a filter that relies on ambiguous_content() while the recipient's mail client shows it.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -74317,8 +74317,8 @@
       "active_threat": false,
       "probability_score": 0.00206,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74331,9 +74331,9 @@
     {
       "cve_id": "CVE-2026-116267",
       "description": "MIME::Parser versions before 5.521 for Perl allow memory exhaustion via indented error messages from a truncated, deeply nested message.\n\nEach stored parser diagnostic is indented by three spaces per nesting level. When a message nested N levels deep ends without its closing boundaries, every level logs an error at its own depth, so the stored diagnostics grow with the square of N. The defaults place no limit on nesting depth.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74357,8 +74357,8 @@
       "active_threat": false,
       "probability_score": 0.00292,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74371,9 +74371,9 @@
     {
       "cve_id": "CVE-2026-116268",
       "description": "MIME::Field::ParamVal versions before 5.521 for Perl allow CPU exhaustion via unclosed comments in header parameters.\n\nThe comment pattern used to parse Content-Type and Content-Disposition parameters scans from each \"(\" to the next \")\". In a field with no \")\", every \"(\" scans to the end of the header and fails, so parsing takes time quadratic in the header length. The field is parsed again on each attribute lookup, several times per MIME entity.\n\nA 40 KB header takes about 7 seconds to parse once.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74397,8 +74397,8 @@
       "active_threat": false,
       "probability_score": 0.00292,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74411,9 +74411,9 @@
     {
       "cve_id": "CVE-2026-116269",
       "description": "MIME::Field::ParamVal versions before 5.521 for Perl turn an RFC 2231 filename with a hyphenated language tag into an empty recommended filename.\n\nA parameter such as filename*=utf-8'en-US'payload.exe is converted to an encoded word with the language tag appended to the charset. The decoder strips the language suffix only when it is a single word, so it cannot resolve the charset UTF-8*EN-US and returns an empty string. The recommended_filename() method returns that empty string rather than falling back to the name parameter.\n\nOther mail readers return payload.exe. A remote sender can get an attachment past a policy that checks file extensions on the recommended filename.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -74437,8 +74437,8 @@
       "active_threat": false,
       "probability_score": 0.00206,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74451,9 +74451,9 @@
     {
       "cve_id": "CVE-2026-116270",
       "description": "MIME::Words versions before 5.521 for Perl allow memory exhaustion via repeated \"=?\" sequences in decode_mimewords.\n\nFor each \"=?\" that does not start a complete encoded word, decode_mimewords appends an error message containing the whole input string to $@. A boundary of 8,000 \"=?\" pairs (16,000 bytes) adds 8,000 copies of itself to $@, about 128 MB.\n\nFrom version 5.518, MIME::Parser decodes every multipart boundary this way, so a remote sender can exhaust the memory of the parsing process with one Content-Type header.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74477,8 +74477,8 @@
       "active_threat": false,
       "probability_score": 0.00292,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74491,9 +74491,9 @@
     {
       "cve_id": "CVE-2026-116271",
       "description": "MIME::Parser::FileUnder versions before 5.521 for Perl reuse a pre-created output directory and follow symlinks in it, letting local users redirect attachment writes.\n\nEach message is written to a directory named msg-<time>-<pid>-<n> under the output base, and an existing directory of that name is used as is. A file name counts as unused when nothing exists at that path, which holds for a dangling symlink, and the body file is then opened in a way that follows the link.\n\nWhen the output base is writable by other users, as with output_under(\"/tmp\"), a local user can pre-create the directory with a symlink named like an attachment. The parser then writes the attachment to the link target with the privileges of the parsing process.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74517,8 +74517,8 @@
       "active_threat": false,
       "probability_score": 0.00131,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.0,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74531,9 +74531,9 @@
     {
       "cve_id": "CVE-2026-116272",
       "description": "MIME::Field::ParamVal versions before 5.521 for Perl do not flag a duplicate boundary parameter whose name contains a nested comment.\n\nA parameter written boundary((c))=\"A\" or boundary(\\))=\"A\" is stored under that literal name rather than as boundary. A second boundary parameter is then not reported as a duplicate, and MIME::Parser splits the message on it.\n\nReaders that skip comments as RFC 5322 allows take the first boundary instead. A remote sender can hide an attachment from a filter that relies on ambiguous_content() while the recipient's mail client shows it.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -74557,8 +74557,8 @@
       "active_threat": false,
       "probability_score": 0.00206,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74571,9 +74571,9 @@
     {
       "cve_id": "CVE-2026-116273",
       "description": "MIME::Parser versions before 5.521 for Perl set no limit on the number of message parts by default, allowing memory exhaustion.\n\nThe max_parts option defaulted to -1, which disables the limit, so a parser created with default settings builds an entity for every part however many a message has.\n\nVersion 5.521 sets max_parts to 1000 and max_depth to 64 by default. Setting either to -1 still removes the limit.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74597,8 +74597,8 @@
       "active_threat": false,
       "probability_score": 0.00292,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74612,9 +74612,9 @@
     {
       "cve_id": "CVE-2026-116285",
       "description": "HTTP::Body versions before 1.23_01 for Perl allow CPU exhaustion via quadratic regex backtracking when parsing chunked request bodies.\n\nIn chunked mode, used when no content length is given, add() matches each chunk-size line with `/^([\\da-fA-F]+).*\\x0D\\x0A/`. On a line of hex digits whose first LF has no CR before it, the digits and `.*` backtrack against each other, so a single add() takes time quadratic in the line's length. Nothing limits how long the line can be.\n\nA remote attacker can exhaust CPU in applications that pass chunked request bodies to HTTP::Body.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74638,8 +74638,8 @@
       "active_threat": false,
       "probability_score": 0.00385,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74652,9 +74652,9 @@
     {
       "cve_id": "CVE-2026-116531",
       "description": "HTTP::Body versions before 1.23_01 for Perl lose track of chunk boundaries in chunked request bodies when a read ends inside a chunk.\n\nIn chunked mode, used when no content length is given, add() treats a chunk as complete once the buffer is as long as the chunk's declared size, but the buffer still holds the chunk-size line. When a read ends in the last bytes of a chunk, add() takes the chunk short and parses the leftover data as the next chunk-size line.\n\nA remote attacker can make a chunked body never complete, hanging a server that reads until the body is done, and may make it complete early, leaving the remaining bytes to be read as the next request.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74678,8 +74678,8 @@
       "active_threat": false,
       "probability_score": 0.00403,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74776,9 +74776,9 @@
     {
       "cve_id": "CVE-2026-117500",
       "description": "HTTP::Body versions before 1.24_01 for Perl allow CPU exhaustion via regex backtracking on the filename of a multipart upload.\n\nFor every file part, the multipart parser finds the suffix of the uploaded filename by matching the default $basename_regexp, qr/[^.]+(\\.[^\\\\\\/]+)$/, against the whole basename. A basename made of many dots and ending in a backslash makes the regex backtrack in time quadratic in its length.\n\nA remote attacker can exhaust CPU with one request, as a basename of about 32 KB takes several seconds to match and every file part is matched separately.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74802,8 +74802,8 @@
       "active_threat": false,
       "probability_score": 0.00452,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -74816,9 +74816,9 @@
     {
       "cve_id": "CVE-2026-117501",
       "description": "HTTP::Body versions before 1.24_01 for Perl allow memory exhaustion via unbounded buffering of chunked request bodies.\n\nIn chunked mode, used when no content length is given, add() holds each chunk in memory until all of it has arrived. A line that is not a chunk-size line, a size line without CRLF, or a size too large to fit an integer leaves the parser waiting forever, and every later add() grows the buffer.\n\nA remote attacker can exhaust memory in applications that pass chunked request bodies to HTTP::Body.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -74842,8 +74842,8 @@
       "active_threat": false,
       "probability_score": 0.00385,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76216,6 +76216,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-121006",
+      "description": "HTTP::Body versions before 1.24_02 for Perl parse the trailer in quadratic time.\n\nEverything after the last chunk in the same call to add() is parsed with HTTP::Headers, which takes time quadratic in the number of fields of one name.  For example, it takes several seconds to parse 16 KiB of \"a:\" lines.\n\nA remote attackercan exhause the CPU with a single request.\n\nHTTP::Body version 1.25 limits the size and number of lines in the trailer.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.24_02",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00204
+    },
+    {
       "cve_id": "CVE-2026-121007",
       "description": "SQL::Abstract versions from 1.90_01 before 2.000001_04 for Perl allow SQL injection via the where values of a nested statement in an identifier position.\n\nA nested statement such as { -select => ... } in a position where plain scalars are identifiers treats its own plain scalars as identifiers too. These positions are the select list, ORDER BY, GROUP BY, RETURNING, and with the ExtraClauses plugin FROM (-as) and JOIN (to). The values of the statement's where, having and set clauses, and the rows of a -values, go into the SQL text instead of the bind list, unescaped unless quote_char is set. Subselects in a WHERE condition are not affected.\n\nAn application that passes untrusted input as a where value of such a nested statement, expecting it to be bound, allows SQL injection.",
       "cvss_score": null,
@@ -76374,6 +76403,53 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-123655",
+      "description": "A flaw was found in Moodle. Insufficient access control checks on H5P content files allow unauthenticated remote attackers to view restricted materials, including content stored in the system context and files belonging to hidden or unavailable course modules. This issue results in unauthorized information disclosure of protected content.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "4.5.0",
+              "lessThan": "4.5.15",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.0.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.8",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -87196,6 +87272,48 @@
         ],
         "cpe_count": 21,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-19868",
+      "description": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "sonicwall",
+          "product": "sonicos",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "7.3.3-7015 and older versions"
+            },
+            {
+              "status": "affected",
+              "version": "8.2.2-8015 and older versions"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-19868",
+        "vendorProject": "SonicWall",
+        "product": "SonicOS SSLVPN",
+        "vulnerabilityName": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+        "dateAdded": "2026-11-06",
+        "shortDescription": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-20",
+        "knownRansomwareCampaignUse": "Unknown"
       }
     },
     {
