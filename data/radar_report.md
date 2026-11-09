@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-09T06:09:53+00:00`
+Generated: `2026-11-09T16:12:37+00:00`
 
 ## Executive Summary
 
@@ -101,8 +101,8 @@ Top critical items:
 | [CVE-2023-22515](https://www.cve.org/CVERecord?id=CVE-2023-22515) |  | KEV | ✅ | ✅ | 2023-10-13 | 0.992 | 10.0 |  | Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in … |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.990 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
 | [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.989 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
+| [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.996 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2024-50603](https://www.cve.org/CVERecord?id=CVE-2024-50603) |  | KEV | ✅ | ✅ | 2025-02-06 | 0.985 | 10.0 |  | An issue was discovered in Aviatrix Controller before 7.1.4191 and 7.2.x before 7.2.4996. Due to the improper neutralization of special elements used in an OS … |
-| [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.995 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2022-22947](https://www.cve.org/CVERecord?id=CVE-2022-22947) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.983 | 10.0 |  | In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enab… |
 | [CVE-2026-72898](https://www.cve.org/CVERecord?id=CVE-2026-72898) |  | KEV | ✅ | ✅ | 2026-08-14 | 0.982 | 10.0 |  | Metabase allows a remote, unauthenticated attacker to inject arbitrary SQL via the '/reset_password' database endpoint and gain administrator access to the con… |
 | [CVE-2022-26134](https://www.cve.org/CVERecord?id=CVE-2022-26134) |  | KEV | ✅ | ✅ | 2022-06-06 | 1.000 | 9.8 |  | In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbit… |
@@ -191,8 +191,8 @@ Top critical items:
 | [CVE-2022-41352](https://www.cve.org/CVERecord?id=CVE-2022-41352) |  | KEV | ✅ | ✅ | 2022-11-10 | 0.955 | 9.8 |  | An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to … |
 | [CVE-2024-53704](https://www.cve.org/CVERecord?id=CVE-2024-53704) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.953 | 9.8 |  | An Improper Authentication vulnerability in the SSLVPN authentication mechanism allows a remote attacker to bypass authentication. |
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.951 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
-| [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
 | [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
+| [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.949 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.939 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2025-24016](https://www.cve.org/CVERecord?id=CVE-2025-24016) |  | KEV | ✅ | ✅ | 2025-07-01 | 0.938 | 9.9 |  | Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe d… |
