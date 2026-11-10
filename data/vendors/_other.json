@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T00:19:38+00:00",
+  "generated_at": "2026-11-10T08:26:08+00:00",
   "vendor": "_other",
-  "count": 1209,
+  "count": 1210,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -73687,6 +73687,35 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-115864",
+      "description": "Monoceros versions before 0.30 for Perl allow a request declaring a large Content-Length to kill a worker by exhausting memory.\n\nThe request body is read in a loop that asks sysread for all of the remaining declared length at once. Perl grows the read buffer to that size before any data arrives, so a length larger than available memory makes the worker exit with an uncatchable out of memory error before the application is called.\n\nA remote attacker can force a worker restart with each request of a few bytes.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.30",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-115865",
