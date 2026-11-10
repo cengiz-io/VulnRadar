@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-10T08:26:11+00:00`
+Generated: `2026-11-10T17:05:12+00:00`
 
 ## Executive Summary
 
@@ -17,8 +17,8 @@ Top critical items:
 | [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | 0.033 | 9.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx… |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | 0.161 | 7.8 | 2026-10-31 | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during co… |
 | [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | 0.009 | 8.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writa… |
-| [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.037 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | 0.041 | 7.8 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound access… |
+| [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | 0.026 | 7.9 | 2023-04-20 | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32… |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | 0.034 | 7.8 | 2025-02-26 | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_V… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.027 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
 | [CVE-2025-39964](https://www.cve.org/CVERecord?id=CVE-2025-39964) | 0.016 | 7.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  crypto: af_alg - Disallow concurrent writes in af_… |
@@ -55,8 +55,8 @@ Top critical items:
 | [CVE-2025-39682](https://www.cve.org/CVERecord?id=CVE-2025-39682) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.033 | 9.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  tls: fix handling of zero-length records on the rx_list  Each recvmsg() call must process … |
 | [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-10-31 | 0.161 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: preserve shared-frag marker during coalescing  skb_try_coalesce() can attach … |
 | [CVE-2026-53266](https://www.cve.org/CVERecord?id=CVE-2026-53266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.009 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  netfilter: bridge: make ebt_snat ARP rewrite writable  The ebtables SNAT target keeps the … |
-| [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.037 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
 | [CVE-2024-53197](https://www.cve.org/CVERecord?id=CVE-2024-53197) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.041 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix potential out-of-bound accesses for Extigy and Mbox devices  A bogus … |
+| [CVE-2023-0266](https://www.cve.org/CVERecord?id=CVE-2023-0266) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-20 | 0.026 | 7.9 | ✅ | A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ\|WRITE}32 is missing locks that can be used in a … |
 | [CVE-2024-53104](https://www.cve.org/CVERecord?id=CVE-2024-53104) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-26 | 0.034 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format  This ca… |
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
 | [CVE-2025-39964](https://www.cve.org/CVERecord?id=CVE-2025-39964) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.016 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg  Issuing two writes to the s… |
@@ -257,6 +257,8 @@ Top critical items:
 | Nov 10 | [CVE-2026-102895](https://www.cve.org/CVERecord?id=CVE-2026-102895) | 🔴 In CISA KEV |
 | Nov 10 | [CVE-2026-116779](https://www.cve.org/CVERecord?id=CVE-2026-116779) | 🔴 In CISA KEV |
 | Nov 10 | [CVE-2026-123158](https://www.cve.org/CVERecord?id=CVE-2026-123158) | 🔴 In CISA KEV |
+| Nov 10 | [CVE-2026-115864](https://www.cve.org/CVERecord?id=CVE-2026-115864) | 🆕 New |
+| Nov 10 | [CVE-2026-50240](https://www.cve.org/CVERecord?id=CVE-2026-50240) | 🆕 New |
 | Nov 08 | [CVE-2026-121265](https://www.cve.org/CVERecord?id=CVE-2026-121265) | 🆕 New |
 | Nov 08 | [CVE-2026-123776](https://www.cve.org/CVERecord?id=CVE-2026-123776) | 🆕 New |
 | Nov 08 | [CVE-2026-99271](https://www.cve.org/CVERecord?id=CVE-2026-99271) | 🆕 New |
@@ -301,6 +303,4 @@ Top critical items:
 | Nov 04 | [CVE-2026-120643](https://www.cve.org/CVERecord?id=CVE-2026-120643) | 🆕 New |
 | Nov 04 | [CVE-2026-120644](https://www.cve.org/CVERecord?id=CVE-2026-120644) | 🆕 New |
 | Nov 04 | [CVE-2026-120645](https://www.cve.org/CVERecord?id=CVE-2026-120645) | 🆕 New |
-| Nov 04 | [CVE-2026-120646](https://www.cve.org/CVERecord?id=CVE-2026-120646) | 🆕 New |
-| Nov 04 | [CVE-2026-120647](https://www.cve.org/CVERecord?id=CVE-2026-120647) | 🆕 New |
-| ... | | _and 35 more_ |
+| ... | | _and 37 more_ |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:26:08+00:00",
+  "generated_at": "2026-11-10T17:05:09+00:00",
   "vendor": "red_hat",
   "count": 522,
   "items": [
@@ -5469,7 +5469,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02506,
+      "probability_score": 0.02721,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -108563,7 +108563,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00203,
+      "probability_score": 0.00219,
       "nvd": {
         "cvss_v3_score": 4.5,
         "cvss_v3_severity": "MEDIUM",
@@ -126765,7 +126765,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 35
+        "reference_count": 36
       }
     },
     {
@@ -128059,7 +128059,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 35
+        "reference_count": 36
       }
     },
     {
@@ -129483,7 +129483,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0037,
+      "probability_score": 0.00441,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -129493,7 +129493,7 @@
           "CWE-862"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
