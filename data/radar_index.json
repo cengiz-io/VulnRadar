@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T22:25:57+00:00",
-  "total_count": 19573,
+  "generated_at": "2026-11-11T02:50:12+00:00",
+  "total_count": 19581,
   "vendor_count": 6,
   "vendors": {
     "_other": {
       "file": "vendors/_other.json",
-      "count": 1214
+      "count": 1216
     },
     "apple": {
       "file": "vendors/apple.json",
@@ -13,15 +13,15 @@
     },
     "google": {
       "file": "vendors/google.json",
-      "count": 50
+      "count": 51
     },
     "linux": {
       "file": "vendors/linux.json",
-      "count": 17593
+      "count": 17597
     },
     "microsoft": {
       "file": "vendors/microsoft.json",
-      "count": 141
+      "count": 142
     },
     "red_hat": {
       "file": "vendors/red_hat.json",

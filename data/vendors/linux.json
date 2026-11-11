@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T22:25:57+00:00",
+  "generated_at": "2026-11-11T02:50:12+00:00",
   "vendor": "linux",
-  "count": 17593,
+  "count": 17597,
   "items": [
     {
       "cve_id": "CVE-2022-0742",
@@ -1110385,9 +1110385,9 @@
     {
       "cve_id": "CVE-2026-100081",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen-netback: defer xenvif_mcast_addr_list_free()\n\nIn order for the function to legitimately avoid locking/RCU, it needs to\nrun after all TX/RX processing has finished/stopped: Lookups happen from\nxenvif_start_xmit(), while adds/removes happen from xenvif_tx_action()\n(called out of xenvif_poll()).\n\nMove the call out of xenvif_disconnect_data() (the call to the function\nfrom connect()'s error path doesn't require any cleaning up there), and\nput it past the synchronization point in backend_disconnect().\n\nThis is XSA-527 / CVE-2026-100081.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1614675,94 +1614675,28 @@
           "product": "linux",
           "versions": [
             {
-              "version": "e9e4dd3267d0c5234c5c0f47440456b10875dec9",
+              "version": "95e48d862ada73188be6d91a33c49d1712815bd2",
               "lessThan": "cbe10ea090ea9d6fa5ff50c9b44f2a86fe56f0b7",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "e9e4dd3267d0c5234c5c0f47440456b10875dec9",
+              "version": "95e48d862ada73188be6d91a33c49d1712815bd2",
               "lessThan": "b422e3eff0edf0975de4883929adbed28f9d08bc",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "e9e4dd3267d0c5234c5c0f47440456b10875dec9",
+              "version": "95e48d862ada73188be6d91a33c49d1712815bd2",
               "lessThan": "2fface6e0bbd6314d1d9d071abf2c4d67548511c",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "e9e4dd3267d0c5234c5c0f47440456b10875dec9",
+              "version": "95e48d862ada73188be6d91a33c49d1712815bd2",
               "lessThan": "46762cefe7f4e5bffc1eb467810a7bbb02e461d7",
               "status": "affected",
               "versionType": "git"
-            },
-            {
-              "version": "78b6803a1961369d0b8350ff1f99b7375bbd7a8f",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "b5d73d9cdd6be22795499890ea928a6f57ef829c",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "f6533fed1bfa842e391ee50f9a9c5e963c71e579",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "2095ab2456da766174cda8bc105d7a7b1bc70e16",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "f1fdb184aefa8447560e3ea0e605171592ffee41",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "f75c8a3015422128ca150e81c730bc2a471b5f4a",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "3.2.71",
-              "lessThan": "3.3",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "3.4.111",
-              "lessThan": "3.5",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "3.12.48",
-              "lessThan": "3.13",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "3.14.54",
-              "lessThan": "3.15",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "3.18.22",
-              "lessThan": "3.19",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "4.1.9",
-              "lessThan": "4.2",
-              "status": "affected",
-              "versionType": "semver"
             }
           ]
         },
@@ -1614771,12 +1614705,12 @@
           "product": "linux",
           "versions": [
             {
-              "version": "4.2",
+              "version": "6.10",
               "status": "affected"
             },
             {
               "version": "0",
-              "lessThan": "4.2",
+              "lessThan": "6.10",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1753276,6 +1753210,12 @@
           "product": "linux",
           "versions": [
             {
+              "version": "f19f1a1c5fe56274e95b342e8138f4b774febf97",
+              "lessThan": "db07e9b0320e480f05f5c12e8e4d6699f0d3acb7",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
               "version": "c92aab819d56d51631f0484ed7af11d9d8ff4cb0",
               "lessThan": "50d0aa7d25ba4bc3606f150cd69755068e79f97f",
               "status": "affected",
@@ -1791111,6 +1791051,12 @@
           "versions": [
             {
               "version": "9707a6254a8a6b978bde811a44fe07d86c229d1c",
+              "lessThan": "9c757d77a6eb58ca4a47cada5ab60451e6c2d247",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "9707a6254a8a6b978bde811a44fe07d86c229d1c",
               "lessThan": "56c2c5ad35614ca5ae23838d6af5d7f59e3124dc",
               "status": "affected",
               "versionType": "git"
@@ -1791140,6 +1791086,12 @@
             {
               "version": "0",
               "lessThan": "6.8",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1861168,6 +1861120,12 @@
           "versions": [
             {
               "version": "ac27a0ec112a089f1a5102bc8dffc79c8c815571",
+              "lessThan": "094e8139cf5a5e37b363ac984f628359558415e6",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "ac27a0ec112a089f1a5102bc8dffc79c8c815571",
               "lessThan": "64d445d40e5ea4c4d4d88880db753b370cb69161",
               "status": "affected",
               "versionType": "git"
@@ -1861197,6 +1861155,12 @@
             {
               "version": "0",
               "lessThan": "2.6.19",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1956290,6 +1956254,12 @@
           "versions": [
             {
               "version": "14328aa58ce523a59996c5a82681c43ec048cc33",
+              "lessThan": "1ab281c7ce2dc5195d337f2c16e22eba356b47f9",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14328aa58ce523a59996c5a82681c43ec048cc33",
               "lessThan": "9e8f43579f849fba0dd1059160f50bd44a767366",
               "status": "affected",
               "versionType": "git"
@@ -1956319,6 +1956289,12 @@
             {
               "version": "0",
               "lessThan": "5.3",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1956377,6 +1956353,12 @@
           "versions": [
             {
               "version": "d696d536f0a97ac779d6176107ac4e96d0a2f8b9",
+              "lessThan": "85f2d80a260f2ee90647da094b80a2d5ce719750",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "d696d536f0a97ac779d6176107ac4e96d0a2f8b9",
               "lessThan": "3c97f7cb6c48826663648b6081b614c2befc8ac7",
               "status": "affected",
               "versionType": "git"
@@ -1956406,6 +1956388,12 @@
             {
               "version": "0",
               "lessThan": "4.3",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1956638,6 +1956626,12 @@
           "versions": [
             {
               "version": "1d8a5ca436ee4a28eec14cb813f790f7cdeeee19",
+              "lessThan": "0ba7c696eea3af41ac4712197566a7b94eedc637",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1d8a5ca436ee4a28eec14cb813f790f7cdeeee19",
               "lessThan": "d81bf4581903b0cba0698cd4d1c07fc6be21754a",
               "status": "affected",
               "versionType": "git"
@@ -1956667,6 +1956661,12 @@
             {
               "version": "0",
               "lessThan": "5.15",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1962684,6 +1962684,12 @@
           "versions": [
             {
               "version": "fbe0fae601b780622fcb7034a479fa161645b9f4",
+              "lessThan": "8a9a8dfab8f6fb3b85859fb021e4275fadd59ad1",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "fbe0fae601b780622fcb7034a479fa161645b9f4",
               "lessThan": "5802a9fda4cede6af31a3e3b171480c0e446703c",
               "status": "affected",
               "versionType": "git"
@@ -1962713,6 +1962719,12 @@
             {
               "version": "0",
               "lessThan": "6.11",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1983797,6 +1983809,12 @@
           "versions": [
             {
               "version": "f6febd0a30b6e299a08076116256e3b36c24eada",
+              "lessThan": "96ad5311ff75d374430ec82a1843bcb193145c93",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f6febd0a30b6e299a08076116256e3b36c24eada",
               "lessThan": "eb14ee406e1d0fbbfb857f0eaa710daa8c2dc30e",
               "status": "affected",
               "versionType": "git"
@@ -1983826,6 +1983844,12 @@
             {
               "version": "0",
               "lessThan": "6.12",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1987302,6 +1987326,12 @@
           "versions": [
             {
               "version": "0626e6641f6b467447c81dd7678a69c66f7746cf",
+              "lessThan": "2a6ad0d06934628f10fb53513921efbb42e44745",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "0626e6641f6b467447c81dd7678a69c66f7746cf",
               "lessThan": "bbcfc51648fbf32f8c899163b0851fa812628080",
               "status": "affected",
               "versionType": "git"
@@ -1987331,6 +1987361,12 @@
             {
               "version": "0",
               "lessThan": "5.15",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1988291,6 +1988327,12 @@
           "versions": [
             {
               "version": "ee258d79159afed52ca9372aeb9c1a51e89b32ee",
+              "lessThan": "36a2ba21d38a86bae84441e4c8d5b10653ef341a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "ee258d79159afed52ca9372aeb9c1a51e89b32ee",
               "lessThan": "59d30bdc3dd6fd3a8990f59bc7a137b1cbb3ed4e",
               "status": "affected",
               "versionType": "git"
@@ -1988331,6 +1988373,12 @@
             {
               "version": "0",
               "lessThan": "5.0",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1990511,6 +1990559,12 @@
           "versions": [
             {
               "version": "1a919b17ef012ca0572bae759c27e5ea02bfb47f",
+              "lessThan": "6c7b5eb6f7f424f5b82d0f9469a5f5adcdf4d973",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1a919b17ef012ca0572bae759c27e5ea02bfb47f",
               "lessThan": "e5dd2a91a7ae3a276e6d79806127e923936e241b",
               "status": "affected",
               "versionType": "git"
@@ -1990540,6 +1990594,12 @@
             {
               "version": "0",
               "lessThan": "5.19",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2014998,6 +2015058,12 @@
           "versions": [
             {
               "version": "7ecb8ee5c93be9f00cbf090f7f53b2a32d995184",
+              "lessThan": "e5e28b0cd56249d1a45155ee6b656c1bbd8a2b3e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "7ecb8ee5c93be9f00cbf090f7f53b2a32d995184",
               "lessThan": "b473ee29aa0d39e7a7568b9675b15db2b0ae6057",
               "status": "affected",
               "versionType": "git"
@@ -2015027,6 +2015093,12 @@
             {
               "version": "0",
               "lessThan": "6.10",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2015862,6 +2015934,12 @@
           "versions": [
             {
               "version": "c54fc3a4f375663f2361a9cbb2955fb4ef912879",
+              "lessThan": "6e7a06704457594f06e4ea58a17a5d162ccc735c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "c54fc3a4f375663f2361a9cbb2955fb4ef912879",
               "lessThan": "e97dac26ed2cce04f9d159cc99e1eca828c5d49e",
               "status": "affected",
               "versionType": "git"
@@ -2015913,6 +2015991,12 @@
             {
               "version": "0",
               "lessThan": "6.7",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2015969,6 +2016053,12 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "91d1dfae464987aaf6c79ff51d8674880fb3be77",
+              "lessThan": "1506390a788c45af11008adc91a38dfb5beaf03c",
+              "status": "affected",
+              "versionType": "git"
+            },
             {
               "version": "91d1dfae464987aaf6c79ff51d8674880fb3be77",
               "lessThan": "cecf4114069fc19629d284710fd783d56bbca862",
@@ -2016037,6 +2016127,12 @@
               "versionType": "semver"
             },
             {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
               "version": "6.18.56",
               "lessThanOrEqual": "6.18.*",
               "status": "unaffected",
@@ -2016089,6 +2016185,12 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "966a3cb7c7db786452a87afdc3b48858fc4d4d6b",
+              "lessThan": "6787575545cd8af1da3778d7c1ae43a4398a6b26",
+              "status": "affected",
+              "versionType": "git"
+            },
             {
               "version": "966a3cb7c7db786452a87afdc3b48858fc4d4d6b",
               "lessThan": "f82242fe3109a3ef72f429540b5bdde08fbfb0e4",
@@ -2016157,6 +2016259,12 @@
               "versionType": "semver"
             },
             {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
               "version": "6.18.56",
               "lessThanOrEqual": "6.18.*",
               "status": "unaffected",
@@ -2016211,6 +2016319,12 @@
           "versions": [
             {
               "version": "c54fc3a4f375663f2361a9cbb2955fb4ef912879",
+              "lessThan": "eba974d6c850e77db87f6f9ae343164227dffefc",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "c54fc3a4f375663f2361a9cbb2955fb4ef912879",
               "lessThan": "7beb2f2a58023b2ff28fd52bdb72bed74257ee04",
               "status": "affected",
               "versionType": "git"
@@ -2016262,6 +2016376,12 @@
             {
               "version": "0",
               "lessThan": "6.7",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2019857,6 +2019977,12 @@
           "versions": [
             {
               "version": "8d28fec406e4d5ce6c109fe12699976e72e9748e",
+              "lessThan": "2e9b8c79ae6c1dcf650ea288cf8fc69ee5241dd9",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "8d28fec406e4d5ce6c109fe12699976e72e9748e",
               "lessThan": "5d06e2f861d61a03481348378fdf9cc3e68bff47",
               "status": "affected",
               "versionType": "git"
@@ -2019886,6 +2020012,12 @@
             {
               "version": "0",
               "lessThan": "2.6.38",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2019944,6 +2020076,12 @@
           "versions": [
             {
               "version": "38e5e92fe8c02a8766459d505423b855caf9af1f",
+              "lessThan": "bfe48e689ba011d3d6cf8adcca03072aa0430133",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "38e5e92fe8c02a8766459d505423b855caf9af1f",
               "lessThan": "f2bd7cf6a83e49c710e2b93d3064fa0ebb7e0006",
               "status": "affected",
               "versionType": "git"
@@ -2019973,6 +2020111,12 @@
             {
               "version": "0",
               "lessThan": "2.6.38",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2029018,6 +2029162,12 @@
           "versions": [
             {
               "version": "f04d275d94e164d24516c32437c988a323018f63",
+              "lessThan": "0189f725242087679bc9f1bbf77ad086f56a72c8",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f04d275d94e164d24516c32437c988a323018f63",
               "lessThan": "5684a6c24c0d7c40ef2c4ccb3e4a64cffe76a791",
               "status": "affected",
               "versionType": "git"
@@ -2029047,6 +2029197,12 @@
             {
               "version": "0",
               "lessThan": "6.0",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2036493,6 +2036649,12 @@
           "versions": [
             {
               "version": "3347c960295583eee3fd58e5c539fb1972fbc005",
+              "lessThan": "cadffc83ee1a560d5cd18e6d607c1d76f6fd4bd4",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "3347c960295583eee3fd58e5c539fb1972fbc005",
               "lessThan": "388604279da3d0698a151efa4fb6d852efa0de4a",
               "status": "affected",
               "versionType": "git"
@@ -2036522,6 +2036684,12 @@
             {
               "version": "0",
               "lessThan": "3.13",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2037750,6 +2037918,12 @@
           "versions": [
             {
               "version": "671ddc700fd08b94967b1e2a937020e30c838609",
+              "lessThan": "1e231eedb0c5aafdc8d96a816ec75554aa69004d",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "671ddc700fd08b94967b1e2a937020e30c838609",
               "lessThan": "525694a6021ec6c8f7ce1f38acdf2dd77698fec1",
               "status": "affected",
               "versionType": "git"
@@ -2037779,6 +2037953,12 @@
             {
               "version": "0",
               "lessThan": "5.4",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2043778,6 +2043958,12 @@
           "product": "linux",
           "versions": [
             {
+              "version": "b343252d6f536203dd0660f676190dcbf6d2ecdc",
+              "lessThan": "6ba3d758cd40888908f96d68d69322dad65a871e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
               "version": "15ed8a9b7c63e9171f5139a6aaa1ffb61809861f",
               "lessThan": "5c03da745171485fd181f17b69213464f6d05f3d",
               "status": "affected",
@@ -2043796,18 +2043982,13 @@
               "versionType": "git"
             },
             {
-              "version": "b343252d6f536203dd0660f676190dcbf6d2ecdc",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
               "version": "3f6d7f8a5416d852648d15a05e895f1195ee8a85",
               "status": "affected",
               "versionType": "git"
             },
             {
               "version": "6.12.114",
-              "lessThan": "6.13",
+              "lessThan": "6.12.117",
               "status": "affected",
               "versionType": "semver"
             },
@@ -2043830,6 +2044011,12 @@
             {
               "version": "0",
               "lessThan": "7.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2050022,6 +2050209,12 @@
           "versions": [
             {
               "version": "5ff9d8a65ce80efb509ce4e8051394e9ed2cd942",
+              "lessThan": "6c8013ea84fcc51cf26aa870b61b5388c7196ed5",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "5ff9d8a65ce80efb509ce4e8051394e9ed2cd942",
               "lessThan": "6b8dc3713a76346d212abab46cbfc8d7070f534c",
               "status": "affected",
               "versionType": "git"
@@ -2050051,6 +2050244,12 @@
             {
               "version": "0",
               "lessThan": "3.12",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2051340,6 +2051539,12 @@
           "versions": [
             {
               "version": "e149ed2b805fefdccf7ccdfc19eca22fdd4514ac",
+              "lessThan": "b82f3c1131456537a514595c3991b62652507c9d",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "e149ed2b805fefdccf7ccdfc19eca22fdd4514ac",
               "lessThan": "a0ba48256f5dff6f75a45f8ce39fe57f21df1022",
               "status": "affected",
               "versionType": "git"
@@ -2051369,6 +2051574,12 @@
             {
               "version": "0",
               "lessThan": "3.19",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2052172,6 +2052383,12 @@
           "versions": [
             {
               "version": "99b19d16471e9c3faa85cad38abc9cbbe04c6d55",
+              "lessThan": "97c9ca40b67eafbe61a253e28cd51dddb7c6bec4",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "99b19d16471e9c3faa85cad38abc9cbbe04c6d55",
               "lessThan": "bf2c8dec26fb792876b5e9bde7030c45d8be3908",
               "status": "affected",
               "versionType": "git"
@@ -2052256,6 +2052473,12 @@
             {
               "version": "0",
               "lessThan": "4.13",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2055147,6 +2055370,12 @@
           "versions": [
             {
               "version": "27b9ecc7a9ba1d0014779bfe5a6dbf630899c6e7",
+              "lessThan": "a5f43540e14589b53f80306d25c043c0abdcbca0",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "27b9ecc7a9ba1d0014779bfe5a6dbf630899c6e7",
               "lessThan": "82ac8c4939bdbd064b4f54a580fbe4baf0d60e41",
               "status": "affected",
               "versionType": "git"
@@ -2055187,6 +2055416,12 @@
             {
               "version": "0",
               "lessThan": "6.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2055761,6 +2055996,12 @@
           "versions": [
             {
               "version": "5fc889911a99043a97da1daa0d010ad72cbc3042",
+              "lessThan": "aec1d35d76ad883bae83c24707010115f38d02ac",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "5fc889911a99043a97da1daa0d010ad72cbc3042",
               "lessThan": "961563117626f4681623077ec0cfd86f86da0d49",
               "status": "affected",
               "versionType": "git"
@@ -2055790,6 +2056031,12 @@
             {
               "version": "0",
               "lessThan": "3.6",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2061970,6 +2062217,12 @@
           "versions": [
             {
               "version": "2b760fcf5cfb34e8610df56d83745b2b74ae1379",
+              "lessThan": "9b88f0fcbd4b746de0478b4fd99fa495eb26b857",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "2b760fcf5cfb34e8610df56d83745b2b74ae1379",
               "lessThan": "fc1fc874ceed4db566a5efbff39313d3d91d424a",
               "status": "affected",
               "versionType": "git"
@@ -2061999,6 +2062252,12 @@
             {
               "version": "0",
               "lessThan": "4.15",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2063198,6 +2063457,12 @@
           "product": "linux",
           "versions": [
             {
+              "version": "c6138af1f5454c2631a837916fda958ea72c0d71",
+              "lessThan": "0499b6d1c9d4477d6538b88c30f9d0c1a28b3e75",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
               "version": "38625191f32f77a9d5fc7cc15f4f9b78768bfb33",
               "lessThan": "454b67fcc28c18502e47dfb9f067b04c28628ada",
               "status": "affected",
@@ -2063226,14 +2063491,15 @@
               "versionType": "git"
             },
             {
-              "version": "c6138af1f5454c2631a837916fda958ea72c0d71",
+              "version": "3ff70e2e31c419e2230d0c66cb2bfb3b1b414b7f",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "3ff70e2e31c419e2230d0c66cb2bfb3b1b414b7f",
+              "version": "6.12.75",
+              "lessThan": "6.12.117",
               "status": "affected",
-              "versionType": "git"
+              "versionType": "semver"
             },
             {
               "version": "6.18.16",
@@ -2063250,12 +2063516,6 @@
             {
               "version": "6.6.128",
               "lessThan": "6.7",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "6.12.75",
-              "lessThan": "6.13",
               "status": "affected",
               "versionType": "semver"
             },
@@ -2063278,6 +2063538,12 @@
             {
               "version": "0",
               "lessThan": "7.0",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2063336,6 +2063602,12 @@
           "versions": [
             {
               "version": "468dfca38b1a6fbdccd195d875599cb7c8875cd9",
+              "lessThan": "73e5b7b14df0430ef2135e9bd9fa3f5b253ef789",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "468dfca38b1a6fbdccd195d875599cb7c8875cd9",
               "lessThan": "2e25842f0e4423e0efb243f56153d842ed6b933f",
               "status": "affected",
               "versionType": "git"
@@ -2063365,6 +2063637,12 @@
             {
               "version": "0",
               "lessThan": "5.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2065627,6 +2065905,12 @@
           "versions": [
             {
               "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "bc737f5f5cc3fcd10bd919527cacc0efd703c30b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
               "lessThan": "79345a5d14b851e9ed28d3a9fe53301661dbcf11",
               "status": "affected",
               "versionType": "git"
@@ -2065656,6 +2065940,12 @@
             {
               "version": "0",
               "lessThan": "2.6.12",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2067160,6 +2067450,12 @@
           "versions": [
             {
               "version": "d021c344051af91f42c5ba9fdedc176740cbd238",
+              "lessThan": "cdd1f99eaa4d4db82d506eb50e724460671c7cac",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "d021c344051af91f42c5ba9fdedc176740cbd238",
               "lessThan": "c027f8b429dbb2157fc1b503df196e272d947c89",
               "status": "affected",
               "versionType": "git"
@@ -2067189,6 +2067485,12 @@
             {
               "version": "0",
               "lessThan": "3.9",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2069967,6 +2070269,12 @@
           "versions": [
             {
               "version": "3d5928a168a9546b23c6b3439c6158d7a028326c",
+              "lessThan": "fe48b4c48d4131192a10bc6ea526a8a36b345501",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "3d5928a168a9546b23c6b3439c6158d7a028326c",
               "lessThan": "ef82b4d5cb4a3fe77c7f99008d78b8c64709e258",
               "status": "affected",
               "versionType": "git"
@@ -2069996,6 +2070304,12 @@
             {
               "version": "0",
               "lessThan": "5.15",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2072974,6 +2073288,12 @@
           "versions": [
             {
               "version": "dc55e35f9e810f23dd69cfdc91a3d636023f57a2",
+              "lessThan": "4dd36cf72d2c6c090958c0d7b542fa8211635d2d",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "dc55e35f9e810f23dd69cfdc91a3d636023f57a2",
               "lessThan": "4aef6ceb4d6acacd53bc047ac4849677c3edbec1",
               "status": "affected",
               "versionType": "git"
@@ -2073003,6 +2073323,12 @@
             {
               "version": "0",
               "lessThan": "5.19",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2083189,6 +2083515,12 @@
           "versions": [
             {
               "version": "83fccfc3940c4a2db90fd7e7079f5b465cd8c6af",
+              "lessThan": "f7fba81b00699360f96ed7d9a47b8c801e74c6f9",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "83fccfc3940c4a2db90fd7e7079f5b465cd8c6af",
               "lessThan": "b3b56e95f6fad7fa7281450b443e861d82616fdb",
               "status": "affected",
               "versionType": "git"
@@ -2083223,6 +2083555,12 @@
             {
               "version": "0",
               "lessThan": "4.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2083275,6 +2083613,12 @@
           "versions": [
             {
               "version": "63e20df1e5b2ef8d871ecbdb6c038d554ed1ca74",
+              "lessThan": "d063975ed22cdc2cb609a9828e5f658448193606",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "63e20df1e5b2ef8d871ecbdb6c038d554ed1ca74",
               "lessThan": "862d9268f40a6e10cef24eb226e738fb69ce8aa7",
               "status": "affected",
               "versionType": "git"
@@ -2083304,6 +2083648,12 @@
             {
               "version": "0",
               "lessThan": "4.0",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2083437,6 +2083787,12 @@
           "versions": [
             {
               "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "583ede545a14f275a959772b5e1e50fe3e14b861",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
               "lessThan": "06a751809ebd33e95b05bf733697318a17a4872b",
               "status": "affected",
               "versionType": "git"
@@ -2083452,6 +2083808,12 @@
               "lessThan": "a025c4991a7d83edc4dd339e3ea86d8ff6226eca",
               "status": "affected",
               "versionType": "git"
+            },
+            {
+              "version": "0",
+              "lessThan": "6.12.117",
+              "status": "affected",
+              "versionType": "semver"
             },
             {
               "version": "0",
@@ -2083471,6 +2083833,12 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "6.18.61",
               "lessThanOrEqual": "6.18.*",
@@ -2083526,6 +2083894,12 @@
           "versions": [
             {
               "version": "2f3ebaba13cebd8badfb9aed31c0cf3cc82eb4f4",
+              "lessThan": "8e0d425b808c367f5033eb72aa4528ae18473627",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "2f3ebaba13cebd8badfb9aed31c0cf3cc82eb4f4",
               "lessThan": "4a426ca5be7e3dedbe76575b967db04fbf01136f",
               "status": "affected",
               "versionType": "git"
@@ -2083555,6 +2083929,12 @@
             {
               "version": "0",
               "lessThan": "5.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2083764,9 +2084144,9 @@
     {
       "cve_id": "CVE-2026-99277",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: hold a connection reference for each session channel\n\nksmbd_session_unregister() removes a session from the global and per-\nconnection tables before dropping the table reference. A concurrent\nreference holder can keep the session and its channel list alive after\nthose removals.\n\nConnection cleanup can no longer find the unpublished session to remove its\nchannels. Since a channel only stores a raw conn pointer, the connection\ncan be freed while another session reference holder is still accessing it,\nfor example during SMB3.1.1 binding or a procfs read.\n\nTake a connection reference when registering a channel and release it on\ninsertion failure, channel removal, or final session destruction. Keep the\nchannels and signing keys until the session is destroyed so a response can\nstill be signed after the session has been unregistered.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -2084108,14 +2084488,20 @@
     {
       "cve_id": "CVE-2026-99281",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ntun: Require CAP_NET_ADMIN to attach to an ownerless device\n\nTwenty years ago I made creating a tuntap device require CAP_NET_ADMIN\nin commit ca6bb5d7ab22 (\"[NET]: Require CAP_NET_ADMIN to create tuntap\ndevices.\")\n\nThe idea was to allow the permissions on /dev/net/tun to be relaxed to\n0666 and thus allow owners of tun devices assigned with TUNSETOWNER to\nactually open it and get at their devices.\n\nWhat we missed at the time was that persistent devices with *no* owner\nwere already essentially world-consumable, and anyone who could open\nthe device node could also attach to those.\n\nEven then, using persistent devices with no explicitly set owner \u2014 on\nthe (false) presumption that CAP_NET_ADMIN would be required to open\nthem \u2014 wasn't an egregious userspace bug. There are cases where it does\nmake sense to separate the creation/configuration of the netdevice, from\nthe process which shovels packets into it.\n\nSince then, TUNSETGROUP was added a year later in commit 8c644623fe7e\n(\"[NET]: Allow group ownership of TUN/TAP devices.\"). Its commit message\nnoted that if both uid and gid are set, both have to match (in itself a\nbizarre choice) \u2014 but still not that with *neither* set, no permission\nat all was required.\n\nThen in 2012 commit c8d68e6be1c3 (\"tuntap: multiqueue support\") allowed\nnew queues to be attached to a device from the moment of its creation,\nwith no way for userspace to close the race between creation and a\nsubsequent TUNSET{OWNER,GROUP}.\n\nIn 2024, commit 3ca459eaba1bf (\"tun: fix group permission check\") tried\nto fix things to be saner: only require the user *or* the group to\nmatch, in line with standard POSIX permissions, and require\nCAP_NET_ADMIN if neither the user nor group authorised the access\n(although it put the CAP_NET_ADMIN check first, and would wrongly have\nreported the capability as having been used even when it was not).\n\nThat fix was reverted in commit a70c7b3cbc06 (\"tun: revert fix group\npermission check\") due to allegedly causing a regression in an selinux\ntest suite which *expected* the attachment to succeed when authorised\nby none of user, group, nor CAP_NET_ADMIN:\nhttps://lore.kernel.org/netdev/CAFqZXNtkCBT4f+PwyVRmQGoT3p1eVa01fCG_aNtpt6dakXncUg@mail.gmail.com/\n\nWe should not break UAPI. But we don't have to consider an selinux test\ncase which deliberately exercises a security flaw to be UAPI worth\npreserving either. To which end, I have fixed it in selinux-testsuite\ncommit b2f894f0016b (\"tests/tun_tap: set an owner on the device for the\nrelabel tests\").\n\nSo: fix the lack of CAP_NET_ADMIN check on devices which *haven't* been\nassigned an owner or group, while leaving the weird tun ownership model\nas it was (user *and* group have to match, if both are set). If someone\nstill wants to fix the latter (which wasn't actually the reason the\nprevious attempt was reverted), they can do it under separate cover.\n\nPermit attaching to an existing device only if an owner and/or group was\nset and the caller matches all that were set, or if the caller has\nCAP_NET_ADMIN. The only behavioural change is that a device with no\nowner or group now requires CAP_NET_ADMIN to attach \u2014 precisely the\nloophole we want to close.\n\nAnd put the CAP_NET_ADMIN check in the right place this time.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "ca6bb5d7ab22ac79f608fe6cbc6b12de6a5a19f0",
+              "lessThan": "e0d98aab41b79b88609f33fb4d8e7a80ab8f648d",
+              "status": "affected",
+              "versionType": "git"
+            },
             {
               "version": "ca6bb5d7ab22ac79f608fe6cbc6b12de6a5a19f0",
               "lessThan": "2f92c0286cfd58bff9d6d54c01a771073d5eb775",
@@ -2084147,6 +2084533,12 @@
             {
               "version": "0",
               "lessThan": "2.6.18",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2084205,6 +2084597,12 @@
           "versions": [
             {
               "version": "572a9d7b6fc7f20f573664063324c086be310c42",
+              "lessThan": "8d5f768780e26cb82c389219ae7fdb1cd7255421",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "572a9d7b6fc7f20f573664063324c086be310c42",
               "lessThan": "fc55d92ae6a4b2e7d062cad6d4c67f6b061d9cde",
               "status": "affected",
               "versionType": "git"
@@ -2084234,6 +2084632,12 @@
             {
               "version": "0",
               "lessThan": "2.6.33",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2084292,6 +2084696,12 @@
           "versions": [
             {
               "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "4d39a039d0b7737f8475c2431f18572b3b186a3b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
               "lessThan": "0c6d33329960b2d884a399196c8403643d8a9de6",
               "status": "affected",
               "versionType": "git"
@@ -2084301,6 +2084711,12 @@
               "lessThan": "bf80e6802273a900311b44e47c9b1a59c6d2473c",
               "status": "affected",
               "versionType": "git"
+            },
+            {
+              "version": "0",
+              "lessThan": "6.12.117",
+              "status": "affected",
+              "versionType": "semver"
             },
             {
               "version": "0",
@@ -2084314,6 +2084730,12 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "6.18.61",
               "lessThanOrEqual": "6.18.*",
@@ -2084363,6 +2084785,12 @@
           "versions": [
             {
               "version": "af2806f8f90a150160be898cd85332459c83c5cb",
+              "lessThan": "fe8477e23dd2ee6bce231d65f2586a333b211dc0",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "af2806f8f90a150160be898cd85332459c83c5cb",
               "lessThan": "1c623e3cbf43f12dd4a72712079bfa247a9b8ba3",
               "status": "affected",
               "versionType": "git"
@@ -2084398,6 +2084826,12 @@
             {
               "version": "0",
               "lessThan": "3.14",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2084448,6 +2084882,403 @@
         "cpe_count": 0,
         "reference_count": 4
       }
+    },
+    {
+      "cve_id": "CVE-2026-99285",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_byteorder: remove multi-register support\n\n64bit byteorder conversion is broken when several registers need to be\nconverted because the source register array advances in steps for 4 bytes\ninstead of 8:\n\n  for (i = ...\n      src64 = nft_reg_load64(&src[i]);\n                             ~~~~~ u32 *src\n      nft_reg_store64(&dst64[i],\n\nRemove the multi-register support, it has other issues as well:\n\nPablo points out that commit\ncaf3ef7468f7 (\"netfilter: nf_tables: prevent OOB access in nft_byteorder_eval\")\nalters semantics: before the loop operated on registers, i.e.\n for ( ... )\n   dst32[i] = htons((u16)src32[i])\n\n .. but after the patch it will operate on bytes, which makes this\n useless to convert e.g. concatenations, which store each compound\n in its own register.\n\nMulti-convert of u32 has one theoretical application:\n\nct mark . meta mark . tcp dport @intervalset\n\nBecause ct mark and meta mark are host byte order, use with\nintervals has to convert the byteorder for ct/meta mark value\nto network byte order (bigendian).\n\nnftables emits this:\n [ meta load mark => reg 1 ]\n [ byteorder reg 1 = hton(reg 1, 4, 4) ]\n [ ct load mark => reg 9 ]\n [ byteorder reg 9 = hton(reg 9, 4, 4) ]\n ...\n\nI.e. two separate calls.  Theoretically it could be changed to do:\n [ meta load mark => reg 1 ]\n [ ct load mark => reg 9 ]\n [ byteorder reg 1 = htonl(reg 1, 4, 8) ]\n ...\n\nBut then all it would take to change the set to\nmeta mark . tcp dport . ct mark\n\n... and we'd be back to two \"byteorder\" calls. IOW, support to\nconvert a range of registers is both dysfunctional and dubious.\n\nSimplify this: remove the feature.\n\nPablo Neira Ayuso points out that nftables before 1.1.0 can generate\nincorrect byteorder conversions, see 9fe58952c45a,\n\"evaluate: skip byteorder conversion for selector smaller than 2 bytes\"\nin nftables.git).  Affected rulesets fail to load with this change and\nold userspace due to 'len != size' check.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "c301f0981fdd3fd1ffac6836b423c4d7a8e0eb63",
+              "lessThan": "3c5fb3a6c8118d15e60295e76fb5b879021eef43",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "c301f0981fdd3fd1ffac6836b423c4d7a8e0eb63",
+              "lessThan": "dc29c0478b8564feb9371e715b5a0016eb8903fd",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "c301f0981fdd3fd1ffac6836b423c4d7a8e0eb63",
+              "lessThan": "bb061d3de41707415269be75ebf700efb03ec212",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "fca41e5b687e029f69e3a35a2fa31e2560e538dc",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "25b42be4e067e107a2559266b54bf07fa5b094fb",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "9a865a11d6890d4a789db1eaafebdc8bd092b12c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "b8b514b2a6cdfac24911e4910461bcb9db15ca8d",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "18a169810cff769a7a697b35058c756805f589e0",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1a605657adc58b3c8e2c1c66aaa5fecd29072135",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "013deed31ab15ef287b0045e4e7bd8f250e75b94",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "4.19.307",
+              "lessThan": "4.20",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.4.269",
+              "lessThan": "5.5",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.210",
+              "lessThan": "5.11",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.140",
+              "lessThan": "5.16",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.64",
+              "lessThan": "6.2",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.5.13",
+              "lessThan": "6.6",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.3",
+              "lessThan": "6.7",
+              "status": "affected",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "6.7",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "6.7",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.115",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.59",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99286",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen-netback: Fix XenBus connection failure cleanup\n\nxenvif_get_stats and xenvif_get_ethtool_stats capture vif->num_queues\nunder rcu_read_lock. We need to unpublish vif->num_queues before\nsynchronize_net to ensure that readers that come afterwards will not\nread a non-zero vif->num_queues and attempt to access invalid queues.\n\nThis is the same cleanup algorithm as used in backend_disconnect and\nadded in commit b17075d5c198 (\"xen-netback: fix race condition on XenBus\ndisconnect\").\n\nThis is XSA-531",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "ade3082dcdee17c5767069883936d64ff83f6c9f",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "a97aa838903d15f865d80809f5198ff459c6634a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "07aca7d25ce8578fedde49855983a01c537a782b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "0",
+              "lessThan": "6.12.117",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "0",
+              "lessThan": "6.18.63",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "0",
+              "lessThan": "7.3.4",
+              "status": "affected",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99287",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen-netback: Zero out sring pointers on unmap\n\nIf xenvif_map_frontend_data_rings() fails when a ring is already mapped,\nit unmaps them via xenvif_unmap_frontend_data_rings() which keeps the\nring pointers unchanged. xenvif_connect_data()'s cleanup path calls\nxenvif_disconnect_queue() which in turn calls\nxenvif_unmap_frontend_data_rings() again, which will attempt to unmap the\npointers a second time.\n\nZero out the ring pointers after they are unmapped to avoid this issue.\n\nThis is XSA-532",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "2ac061ce97f413bfbbdd768f7d2e0fda2e8170df",
+              "lessThan": "87fd475dc4e354088f6534285388e7b061f54b35",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "2ac061ce97f413bfbbdd768f7d2e0fda2e8170df",
+              "lessThan": "c5f54af611ff6fe1d53fa05d8e87b469dc56122b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "2ac061ce97f413bfbbdd768f7d2e0fda2e8170df",
+              "lessThan": "e7ba61734d6ad6adfd5bf617052e590743211669",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "5.5",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "5.5",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99288",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ninet: reject unhashed sockets during established lookups\n\nTCP established ehash lookups are lockless. The socket caches involved\nuse SLAB_TYPESAFE_BY_RCU, so memory can be reused before an RCU reader\nthat retained its old address has finished.\n\nAfter a tuple match, __inet_lookup_established() and\n__inet6_lookup_established() acquire a reference and repeat the tuple\ncheck. They do not check whether the new object is hashed. If the\naddress is reused for a socket with the same tuple, the lookup can\nacquire a reference to the new object and return it while its nulls node\nis unhashed.\n\nA PoC that drives reuse with a SYN cookie request socket reproduced the\ncrash. The new request socket is unhashed and has a NULL rsk_listener.\nA lookup that had loaded the address of the old request socket acquired\nthe reference published by tcp_get_cookie_sock() and returned the new\nobject. tcp_v4_rcv() then read sk_state through the NULL listener.\n\nThe resulting crash was:\n\n  BUG: kernel NULL pointer dereference, address: 0000000000000012\n  #PF: supervisor read access in kernel mode\n  #PF: error_code(0x0000) - not-present page\n  ...\n  Oops: Oops: 0000 [#1] SMP NOPTI\n  CPU: 4 UID: 0 PID: 0 Comm: swapper/4 Not tainted 7.3.0-00591-g0e135910deec #1 PREEMPT(lazy)\n  ...\n  RIP: 0010:tcp_v4_rcv+0x44e/0x1280\n  ...\n  R10: 0000000000000001 R11: 00000000024ca8c0 R12: 0000000000000000\n  ...\n  CR2: 0000000000000012 CR3: 0000000103d50004 CR4: 0000000000770ef0\n  ...\n  Call Trace:\n   <IRQ>\n   ? raw_local_deliver+0xae/0x240\n   ip_protocol_deliver_rcu+0x2d/0x180\n   ip_local_deliver_finish+0x84/0x100\n   ip_sublist_rcv_finish+0x5f/0x70\n   ip_sublist_rcv+0x12a/0x1d0\n   ip_list_rcv+0xfd/0x130\n   __netif_receive_skb_list_core+0x223/0x250\n   netif_receive_skb_list_internal+0x1d2/0x2c0\n   ? try_fill_recv+0x39/0x7b0\n   napi_complete_done+0x74/0x170\n   virtnet_poll+0x445/0x600\n   __napi_poll+0x27/0x1e0\n   net_rx_action+0x2fe/0x3b0\n   handle_softirqs+0xc2/0x2c0\n   __irq_exit_rcu+0x74/0xd0\n   common_interrupt+0x7f/0x90\n   </IRQ>\n  ...\n  Kernel panic - not syncing: Fatal exception in interrupt\n\nAfter taking a reference, check whether the nulls node is unhashed in\nboth IPv4 and IPv6 established lookups. If it is unhashed or the tuple\nno longer matches, drop the reference and restart the lookup.\n\nLookups racing with the TIME_WAIT hashdance, or with a request being\nreplaced by its child, now restart and find the new socket instead of\nreturning the old one.\n\nRequest sockets that were never inserted into ehash can have a nonzero\nrefcount, and a stale lookup can hold a transient reference. Therefore,\nwhen SYN cookie, Fast Open, and request migration paths fail after\nsetting a nonzero refcount, release the references held by those paths\nwith reqsk_put() instead of freeing the request directly.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "079096f103faca2dd87342cca6f23d4b34da8871",
+              "lessThan": "d69100340b4cae08d40f898f1b601032403f6be6",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "079096f103faca2dd87342cca6f23d4b34da8871",
+              "lessThan": "8e5172cbd227fae32f3313cba1f3e1b9edb5c4fd",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "079096f103faca2dd87342cca6f23d4b34da8871",
+              "lessThan": "eb8a2d156f2c1d862fffdfd1b3432bfbcd939879",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "4.4",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "4.4",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-99999",
