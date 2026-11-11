@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:52:52+00:00",
+  "generated_at": "2026-11-11T18:45:21+00:00",
   "vendor": "google",
   "count": 51,
   "items": [
@@ -2321,7 +2321,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": null,
+      "probability_score": 0.00962,
       "kev": {
         "cveID": "CVE-2026-125350",
         "vendorProject": "Google",
