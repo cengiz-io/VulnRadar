@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-12T09:50:36+00:00`
+Generated: `2026-11-12T18:18:31+00:00`
 
 ## Executive Summary
 
@@ -191,8 +191,8 @@ Top critical items:
 | [CVE-2022-41352](https://www.cve.org/CVERecord?id=CVE-2022-41352) |  | KEV | ✅ | ✅ | 2022-11-10 | 0.955 | 9.8 |  | An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to … |
 | [CVE-2024-53704](https://www.cve.org/CVERecord?id=CVE-2024-53704) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.953 | 9.8 |  | An Improper Authentication vulnerability in the SSLVPN authentication mechanism allows a remote attacker to bypass authentication. |
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.951 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
-| [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
+| [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.949 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.939 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2025-24016](https://www.cve.org/CVERecord?id=CVE-2025-24016) |  | KEV | ✅ | ✅ | 2025-07-01 | 0.938 | 9.9 |  | Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe d… |
@@ -206,11 +206,11 @@ Top critical items:
 | [CVE-2026-109618](https://www.cve.org/CVERecord?id=CVE-2026-109618) |  | KEV | ✅ | ✅ | 2026-10-29 | 1.000 | 9.2 |  | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for thi… |
 | [CVE-2026-109619](https://www.cve.org/CVERecord?id=CVE-2026-109619) |  | KEV | ✅ | ✅ | 2026-10-29 | 1.000 | 9.2 |  | PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated aft… |
 | [CVE-2024-55956](https://www.cve.org/CVERecord?id=CVE-2024-55956) |  | KEV | ✅ | ✅ | 2025-01-07 | 0.940 | 9.8 |  | In Cleo Harmony before 5.8.0.24, VLTrader before 5.8.0.24, and LexiCom before 5.8.0.24, an unauthenticated user can import and execute arbitrary Bash or PowerS… |
-| [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.918 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2024-5217](https://www.cve.org/CVERecord?id=CVE-2024-5217) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.996 | 9.2 |  | ServiceNow has addressed an input validation vulnerability that was identified in the Washington DC, Vancouver, and earlier Now Platform releases. This vulnera… |
 | [CVE-2024-9465](https://www.cve.org/CVERecord?id=CVE-2024-9465) |  | KEV | ✅ | ✅ | 2024-12-05 | 0.996 | 9.2 |  | An SQL injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to reveal Expedition database contents, such as password has… |
 | [CVE-2026-41940](https://www.cve.org/CVERecord?id=CVE-2026-41940) |  | KEV | ✅ | ✅ | 2026-05-03 | 0.985 | 9.3 |  | cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unaut… |
 | [CVE-2023-48788](https://www.cve.org/CVERecord?id=CVE-2023-48788) |  | KEV | ✅ | ✅ | 2024-04-15 | 0.984 | 9.3 |  | A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7… |
+| [CVE-2026-20182](https://www.cve.org/CVERecord?id=CVE-2026-20182) |  | KEV | ✅ | ✅ | 2026-05-17 | 0.911 | 10.0 |  | May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the  was disclosed in Februar… |
 | [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) |  | KEV | ✅ | ✅ | 2024-01-22 | 1.000 | 9.1 |  | A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administ… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 1.000 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
 | [CVE-2024-6670](https://www.cve.org/CVERecord?id=CVE-2024-6670) |  | KEV | ✅ | ✅ | 2024-10-07 | 0.929 | 9.8 |  | In WhatsUp Gold versions released before 2024.0.0, a SQL Injection vulnerability allows an unauthenticated attacker to retrieve the users encrypted password. |
