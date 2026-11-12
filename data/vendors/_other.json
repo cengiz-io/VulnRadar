@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:36:59+00:00",
+  "generated_at": "2026-11-12T09:50:33+00:00",
   "vendor": "_other",
   "count": 1217,
   "items": [
@@ -1687,8 +1687,8 @@
         "cwe_ids": [
           "CWE-94"
         ],
-        "cpe_count": 251,
-        "reference_count": 2
+        "cpe_count": 253,
+        "reference_count": 3
       }
     },
     {
@@ -39266,8 +39266,8 @@
         "cwe_ids": [
           "CWE-611"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 4,
+        "reference_count": 3
       }
     },
     {
@@ -73015,9 +73015,9 @@
     {
       "cve_id": "CVE-2026-114627",
       "description": "Web::Simple versions before 0.036 for Perl do not escape values interpolated into double-quoted strings in HTML::Tags output.\n\nUnder use HTML::Tags or use XML::Tags, a double-quoted string literal becomes a StringThing object that holds each interpolated value as a separate part. The escaping step passes such objects through, and stringify joins their interpolated parts as is. A value passed on its own, as in <p>, $value, </p>, is entity-escaped, but the same value in \"Hello $value\" is not.\n\nAn attacker who controls a value that an application interpolates into a double-quoted string can inject script into the generated page.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -73041,8 +73041,8 @@
       "active_threat": false,
       "probability_score": 0.00254,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -75526,7 +75526,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00218
+      "probability_score": 0.00218,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-120631",
@@ -76336,9 +76347,9 @@
     {
       "cve_id": "CVE-2026-121006",
       "description": "HTTP::Body versions before 1.24_02 for Perl parse the trailer in quadratic time.\n\nEverything after the last chunk in the same call to add() is parsed with HTTP::Headers, which takes time quadratic in the number of fields of one name.  For example, it takes several seconds to parse 16 KiB of \"a:\" lines.\n\nA remote attackercan exhause the CPU with a single request.\n\nHTTP::Body version 1.25 limits the size and number of lines in the trailer.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -76362,8 +76373,8 @@
       "active_threat": false,
       "probability_score": 0.00417,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76376,9 +76387,9 @@
     {
       "cve_id": "CVE-2026-121007",
       "description": "SQL::Abstract versions from 1.90_01 before 2.000001_04 for Perl allow SQL injection via the where values of a nested statement in an identifier position.\n\nA nested statement such as { -select => ... } in a position where plain scalars are identifiers treats its own plain scalars as identifiers too. These positions are the select list, ORDER BY, GROUP BY, RETURNING, and with the ExtraClauses plugin FROM (-as) and JOIN (to). The values of the statement's where, having and set clauses, and the rows of a -values, go into the SQL text instead of the bind list, unescaped unless quote_char is set. Subselects in a WHERE condition are not affected.\n\nAn application that passes untrusted input as a where value of such a nested statement, expecting it to be bound, allows SQL injection.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "",
@@ -76402,8 +76413,8 @@
       "active_threat": false,
       "probability_score": 0.00193,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76416,9 +76427,9 @@
     {
       "cve_id": "CVE-2026-121008",
       "description": "SQL::Abstract::Tree versions before 2.000001_04 for Perl allow cross-site scripting via unescaped SQL text and bind values in the html profile.\n\nThe html profile wraps keywords and placeholders in span elements and breaks lines with br elements, so its output is meant to go into a page as is. The format method does not HTML-escape the SQL text or the bind values it fills in around that markup.\n\nAn application that renders SQL formatted with the html profile, such as in a debug panel or query log, allows an attacker who controls a bind value or part of the SQL text to embed JavaScript in the page.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -76442,8 +76453,8 @@
       "active_threat": false,
       "probability_score": 0.00152,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76456,9 +76467,9 @@
     {
       "cve_id": "CVE-2026-121009",
       "description": "SQL::Abstract versions from 1.90_01 before 2.000001_04 for Perl skip the injection_guard check for function names given with -func.\n\ninjection_guard is documented to apply to every function name, but only the { -name => ... } shorthand goes through it. The explicit { -func => [ $name, ... ] } form puts $name into the SQL unchecked.\n\nAn application that relies on injection_guard to reject an untrusted function name passed with -func allows SQL injection.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "",
@@ -76482,8 +76493,8 @@
       "active_threat": false,
       "probability_score": 0.00193,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76496,9 +76507,9 @@
     {
       "cve_id": "CVE-2026-121265",
       "description": "SQL::Abstract versions before 2.000003 for Perl allow SQL injection via an arrayref column value in insert and update.\n\nWith the array_datatypes option off, which is the default, insert(), update() and values() treat an arrayref column value as literal SQL. Its first element goes into the SQL text unescaped and the rest become bind values. A JSON array, or a repeated form field decoded as an arrayref, is such a value.\n\nAn application that passes request data as column values to insert or update with the default options allows SQL injection.\n\nReleases before 2.000003 also treat an arrayref in generate() as literal SQL, including through AUTOLOAD when allow_autoload is on, whatever array_datatypes is set to.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -76522,8 +76533,8 @@
       "active_threat": false,
       "probability_score": 0.00572,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76536,9 +76547,9 @@
     {
       "cve_id": "CVE-2026-121632",
       "description": "Data::MuForm versions through 0.05 for Perl render attribute values and option labels into HTML without escaping.\n\nprocess_attrs writes each attribute value into the markup as is. The select, radio group and checkbox group renderers pass each option to it, so an option's value becomes an unescaped attribute. Option and option group labels are also unescaped, the group label inside a label attribute and the others in element content.\n\nAny application whose option list is built from data rather than literals, using an options_<field_name> method, a build_options method or a DBIC model, allows attacker-influenced text in an option value or label that can embed JavaScript in rendered pages. Attribute values built from data, such as through element_attr, are affected the same way.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -76562,8 +76573,8 @@
       "active_threat": false,
       "probability_score": 0.00263,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76634,9 +76645,9 @@
     {
       "cve_id": "CVE-2026-123776",
       "description": "RRD::CGI::Image versions through 0.01 for Perl pass CGI query parameters containting \"tz\" to tzset(), , so a FIFO or device path blocks the CGI process.\n\nThe normalize_params method sends any query key matching /tz/i to tz(), which sets $ENV{TZ} to that value, with no validation. It then calls tzset(). glibc treats a TZ value starting with / or : as a file path and opens it, so a value naming a FIFO or a blocking device stalls the process inside tzset().",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -76660,8 +76671,8 @@
       "active_threat": false,
       "probability_score": 0.00633,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -76698,7 +76709,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-125729",
@@ -76727,7 +76749,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00238
+      "probability_score": 0.00238,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-684"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -76860,7 +76893,7 @@
           "CWE-190"
         ],
         "cpe_count": 1,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -77380,7 +77413,7 @@
           "CWE-670"
         ],
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -78716,7 +78749,7 @@
           "CWE-190"
         ],
         "cpe_count": 1,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -78876,7 +78909,7 @@
           "CWE-409"
         ],
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -80925,7 +80958,7 @@
           "CWE-680"
         ],
         "cpe_count": 1,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -81976,7 +82009,7 @@
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
@@ -101989,7 +102022,7 @@
           "CWE-78"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -102040,7 +102073,7 @@
           "CWE-288"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -102090,8 +102123,8 @@
         "cwe_ids": [
           "CWE-669"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 1,
+        "reference_count": 4
       }
     },
     {
