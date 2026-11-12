@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T18:45:21+00:00",
+  "generated_at": "2026-11-12T01:36:59+00:00",
   "vendor": "red_hat",
-  "count": 522,
+  "count": 523,
   "items": [
     {
       "cve_id": "CVE-2023-0118",
@@ -84481,6 +84481,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat build of keycloak",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat single sign-on 7",
           "versions": null
         }
@@ -122053,6 +122058,66 @@
       }
     },
     {
+      "cve_id": "CVE-2026-121885",
+      "description": "A flaw was found in Podman. An attacker can trigger a Denial of Service (DoS) by supplying a container image containing crafted metadata labels. Podman's auto-update mechanism improperly trusts these image labels to determine which system services to restart. If a user runs the malicious container and auto-update processes it, arbitrary system services are restarted with the user's privileges, potentially allowing an attacker to shut down the host system when Podman runs with administrative privileges.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.8.2",
+              "lessThan": "5.8.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "6.0.0",
+              "lessThan": "6.2.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00379
+    },
+    {
       "cve_id": "CVE-2026-13717",
       "description": "A flaw was found in the Red Hat OpenShift AI (RHOAI) MaaS Gateway. Improper configuration of the Gateway in a model-serving context allows a standard user with low privileges to intercept, read, log, and alter all MaaS model traffic. This includes sensitive information such as access keys, input prompts, and outputs, leading to significant information disclosure and data tampering.",
       "cvss_score": 8.8,
@@ -126386,10 +126451,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.13",
+          "versions": [
+            {
+              "version": "413.92.202611041925-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
               "version": "414.92.202611040941-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202611051005-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -127680,10 +127769,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.13",
+          "versions": [
+            {
+              "version": "413.92.202611041925-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
               "version": "414.92.202611040941-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202611051005-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T18:45:21+00:00",
+  "generated_at": "2026-11-12T01:36:59+00:00",
   "vendor": "_other",
-  "count": 1216,
+  "count": 1217,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -76672,6 +76672,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-125637",
+      "description": "A flaw was found in the Konflux UI proxy. Hostname values defined in the KonfluxUI custom resource are inserted directly into proxy configuration files without adequate validation or sanitization. An authenticated user with permissions to modify the custom resource can inject malicious configuration directives to bypass authentication and authorization controls, potentially exposing internal backend services. In addition, providing malformed input can cause the configuration generator to fail, resulting in a denial of service (DoS) by preventing the proxy from starting.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.2"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-125729",
       "description": "Plack::Middleware::CSP versions before 0.03 for Perl send the Content Security Policy under the wrong header name, so browsers never enforce it.\n\nThe call method sets the policy in a response header named \"content-security-protocol\" instead of \"Content-Security-Policy\". Browsers ignore that header.\n\nAny cross-site scripting flaw in the wrapped application can run scripts the policy was meant to block.",
       "cvss_score": null,
@@ -108354,7 +108383,7 @@
             {
               "version": "12.5.0.2421",
               "versionType": "semver",
-              "lessThan": "2.6.0.*",
+              "lessThan": "12.6.0.*",
               "status": "affected"
             }
           ]

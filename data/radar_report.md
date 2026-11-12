@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-11T18:45:24+00:00`
+Generated: `2026-11-12T01:37:01+00:00`
 
 ## Executive Summary
 
@@ -38,10 +38,10 @@ Top critical items:
 
 ## Summary
 
-- Total items: **19581**
-- Watchlist hits: **18739**
+- Total items: **19583**
+- Watchlist hits: **18741**
 - CISA KEVs: **859**
-- Exploit Intel (PoC): **873**
+- Exploit Intel (PoC): **875**
 - Exploit Intel + Watchlist (CRITICAL): **33**
 
 ## Top Findings (max 200)
@@ -300,4 +300,3 @@ Top critical items:
 | Nov 05 | [CVE-2026-121009](https://www.cve.org/CVERecord?id=CVE-2026-121009) | 🆕 New |
 | Nov 05 | [CVE-2026-121632](https://www.cve.org/CVERecord?id=CVE-2026-121632) | 🆕 New |
 | Nov 05 | [CVE-2026-121259](https://www.cve.org/CVERecord?id=CVE-2026-121259) | 🆕 New |
-| Nov 04 | [CVE-2024-27834](https://www.cve.org/CVERecord?id=CVE-2024-27834) | 🔴 In CISA KEV |
