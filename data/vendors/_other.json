@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:54:51+00:00",
+  "generated_at": "2026-11-13T16:17:20+00:00",
   "vendor": "_other",
   "count": 1218,
   "items": [
@@ -39246,7 +39246,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0082,
+      "probability_score": 0.00976,
       "kev": {
         "cveID": "CVE-2026-20320",
         "vendorProject": "Cisco",
@@ -43529,7 +43529,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99728,
+      "probability_score": 0.9976,
       "kev": {
         "cveID": "CVE-2025-61882",
         "vendorProject": "Oracle",
@@ -53060,7 +53060,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03439,
+      "probability_score": 0.03515,
       "kev": {
         "cveID": "CVE-2022-40139",
         "vendorProject": "Trend Micro",
@@ -66617,7 +66617,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00264,
+      "probability_score": 0.00283,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -73764,7 +73764,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00352,
+      "probability_score": 0.00615,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -90459,7 +90459,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.33259,
+      "probability_score": 0.33494,
       "kev": {
         "cveID": "CVE-2024-11182",
         "vendorProject": "MDaemon",
@@ -91160,7 +91160,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00924,
+      "probability_score": 0.01173,
       "kev": {
         "cveID": "CVE-2026-84869",
         "vendorProject": "ConnectWise",
@@ -94051,7 +94051,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.24066,
+      "probability_score": 0.22377,
       "kev": {
         "cveID": "CVE-2025-4632",
         "vendorProject": "Samsung",
@@ -94650,7 +94650,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.31309,
+      "probability_score": 0.3522,
       "kev": {
         "cveID": "CVE-2025-0994",
         "vendorProject": "Trimble",
@@ -97380,7 +97380,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.62512,
+      "probability_score": 0.63245,
       "kev": {
         "cveID": "CVE-2025-47813",
         "vendorProject": "Wing FTP Server",
@@ -98661,7 +98661,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99964,
+      "probability_score": 0.99919,
       "kev": {
         "cveID": "CVE-2025-5777",
         "vendorProject": "Citrix",
@@ -102041,7 +102041,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06196,
+      "probability_score": 0.09082,
       "kev": {
         "cveID": "CVE-2026-111560",
         "vendorProject": "Barracuda Networks",
@@ -102092,7 +102092,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08934,
+      "probability_score": 0.10947,
       "kev": {
         "cveID": "CVE-2026-116606",
         "vendorProject": "Barracuda Networks",
@@ -103254,7 +103254,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13525,
+      "probability_score": 0.13335,
       "kev": {
         "cveID": "CVE-2026-22769",
         "vendorProject": "Dell",
@@ -103540,7 +103540,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.60425,
+      "probability_score": 0.61515,
       "kev": {
         "cveID": "CVE-2026-33634",
         "vendorProject": "Aquasecurity",

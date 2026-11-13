@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-13T07:54:53+00:00`
+Generated: `2026-11-13T16:17:23+00:00`
 
 ## Executive Summary
 
@@ -140,9 +140,9 @@ Top critical items:
 | [CVE-2022-46169](https://www.cve.org/CVERecord?id=CVE-2022-46169) |  | KEV | ✅ | ✅ | 2023-03-09 | 0.998 | 9.8 |  | Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a… |
 | [CVE-2024-36401](https://www.cve.org/CVERecord?id=CVE-2024-36401) |  | KEV | ✅ | ✅ | 2024-08-05 | 0.998 | 9.8 |  | GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.22.6, 2.23.6, 2.24.4, and 2.25.2, multiple OGC requ… |
 | [CVE-2022-1040](https://www.cve.org/CVERecord?id=CVE-2022-1040) |  | KEV | ✅ | ✅ | 2022-04-21 | 0.998 | 9.8 |  | An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older. |
+| [CVE-2025-61882](https://www.cve.org/CVERecord?id=CVE-2025-61882) |  | KEV | ✅ | ✅ | 2025-10-27 | 0.998 | 9.8 |  | Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affect… |
 | [CVE-2022-47966](https://www.cve.org/CVERecord?id=CVE-2022-47966) |  | KEV | ✅ | ✅ | 2023-02-13 | 0.998 | 9.8 |  | Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache Santuario xmlsec (aka … |
 | [CVE-2023-3519](https://www.cve.org/CVERecord?id=CVE-2023-3519) |  | KEV | ✅ | ✅ | 2023-08-09 | 0.997 | 9.8 |  | Unauthenticated remote code execution |
-| [CVE-2025-61882](https://www.cve.org/CVERecord?id=CVE-2025-61882) |  | KEV | ✅ | ✅ | 2025-10-27 | 0.997 | 9.8 |  | Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affect… |
 | [CVE-2022-22965](https://www.cve.org/CVERecord?id=CVE-2022-22965) |  | KEV | ✅ | ✅ | 2022-04-25 | 0.996 | 9.8 |  | A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires t… |
 | [CVE-2025-20281](https://www.cve.org/CVERecord?id=CVE-2025-20281) |  | KEV | ✅ | ✅ | 2025-08-18 | 0.976 | 10.0 |  | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
 | [CVE-2024-9463](https://www.cve.org/CVERecord?id=CVE-2024-9463) |  | KEV | ✅ | ✅ | 2024-12-05 | 0.985 | 9.9 |  | An OS command injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to run arbitrary OS commands as root in Expedition, r… |
@@ -192,7 +192,7 @@ Top critical items:
 | [CVE-2024-53704](https://www.cve.org/CVERecord?id=CVE-2024-53704) |  | KEV | ✅ | ✅ | 2025-03-11 | 0.953 | 9.8 |  | An Improper Authentication vulnerability in the SSLVPN authentication mechanism allows a remote attacker to bypass authentication. |
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.951 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
-| [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 1.000 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
+| [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 0.999 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
 | [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.949 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.939 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2025-24016](https://www.cve.org/CVERecord?id=CVE-2025-24016) |  | KEV | ✅ | ✅ | 2025-07-01 | 0.938 | 9.9 |  | Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe d… |
@@ -253,6 +253,7 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Nov 13 | [CVE-2026-126673](https://www.cve.org/CVERecord?id=CVE-2026-126673) | 🆕 New |
 | Nov 12 | [CVE-2026-125637](https://www.cve.org/CVERecord?id=CVE-2026-125637) | 🆕 New |
 | Nov 12 | [CVE-2026-121885](https://www.cve.org/CVERecord?id=CVE-2026-121885) | 🆕 New |
 | Nov 11 | [CVE-2026-120212](https://www.cve.org/CVERecord?id=CVE-2026-120212) | 🆕 New |
