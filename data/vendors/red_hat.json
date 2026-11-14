@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T22:36:07+00:00",
+  "generated_at": "2026-11-14T03:12:38+00:00",
   "vendor": "red_hat",
-  "count": 523,
+  "count": 524,
   "items": [
     {
       "cve_id": "CVE-2023-0118",
@@ -121873,6 +121873,91 @@
       }
     },
     {
+      "cve_id": "CVE-2026-107174",
+      "description": "A flaw was found in source-to-image. When unpacking archive files, the application fails to properly sanitize symbolic links pointing to absolute file paths. An attacker who supplies a malicious builder image can exploit this vulnerability by embedding links pointing outside the extraction directory. This allows the attacker to bypass sandbox boundaries, potentially leading to unauthorized information disclosure or file modification on the host system.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "1.6.4"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift source-to-image (s2i)",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift source-to-image (s2i)",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat web terminal",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00285,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-61"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2026-107935",
       "description": "A path traversal vulnerability was found in gvproxy, the network forwarder provided by the gvisor-tap-vsock package. The unauthenticated /services/forwarder/expose endpoint does not validate the caller-supplied socket path, allowing an attacker to delete arbitrary files on the host system.",
       "cvss_score": 9.3,
@@ -122084,6 +122169,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "6.1.4-1.4.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -122095,11 +122192,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {

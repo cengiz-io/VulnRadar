@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-13T22:36:09+00:00`
+Generated: `2026-11-14T03:12:41+00:00`
 
 ## Executive Summary
 
@@ -38,10 +38,10 @@ Top critical items:
 
 ## Summary
 
-- Total items: **19586**
-- Watchlist hits: **18742**
+- Total items: **19587**
+- Watchlist hits: **18743**
 - CISA KEVs: **861**
-- Exploit Intel (PoC): **875**
+- Exploit Intel (PoC): **877**
 - Exploit Intel + Watchlist (CRITICAL): **33**
 
 ## Top Findings (max 200)
@@ -254,6 +254,8 @@ Top critical items:
 | Date | CVE | Status |
 |------|-----|--------|
 | Nov 13 | [CVE-2026-126673](https://www.cve.org/CVERecord?id=CVE-2026-126673) | 🆕 New |
+| Nov 13 | [CVE-2026-123039](https://www.cve.org/CVERecord?id=CVE-2026-123039) | 🔴 In CISA KEV |
+| Nov 13 | [CVE-2026-114713](https://www.cve.org/CVERecord?id=CVE-2026-114713) | 🔴 In CISA KEV |
 | Nov 12 | [CVE-2026-125637](https://www.cve.org/CVERecord?id=CVE-2026-125637) | 🆕 New |
 | Nov 12 | [CVE-2026-121885](https://www.cve.org/CVERecord?id=CVE-2026-121885) | 🆕 New |
 | Nov 11 | [CVE-2026-120212](https://www.cve.org/CVERecord?id=CVE-2026-120212) | 🆕 New |
@@ -290,10 +292,3 @@ Top critical items:
 | Nov 08 | [CVE-2026-99282](https://www.cve.org/CVERecord?id=CVE-2026-99282) | 🆕 New |
 | Nov 08 | [CVE-2026-99283](https://www.cve.org/CVERecord?id=CVE-2026-99283) | 🆕 New |
 | Nov 08 | [CVE-2026-99284](https://www.cve.org/CVERecord?id=CVE-2026-99284) | 🆕 New |
-| Nov 07 | [CVE-2026-121006](https://www.cve.org/CVERecord?id=CVE-2026-121006) | 🆕 New |
-| Nov 07 | [CVE-2026-123655](https://www.cve.org/CVERecord?id=CVE-2026-123655) | 🆕 New |
-| Nov 07 | [CVE-2026-19868](https://www.cve.org/CVERecord?id=CVE-2026-19868) | 🔴 In CISA KEV |
-| Nov 07 | [CVE-2026-100080](https://www.cve.org/CVERecord?id=CVE-2026-100080) | 🆕 New |
-| Nov 07 | [CVE-2026-100081](https://www.cve.org/CVERecord?id=CVE-2026-100081) | 🆕 New |
-| Nov 07 | [CVE-2026-100082](https://www.cve.org/CVERecord?id=CVE-2026-100082) | 🆕 New |
-| Nov 07 | [CVE-2026-121621](https://www.cve.org/CVERecord?id=CVE-2026-121621) | 🆕 New |

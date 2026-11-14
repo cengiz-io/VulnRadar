@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:36:07+00:00",
+  "generated_at": "2026-11-14T03:12:38+00:00",
   "vendor": "linux",
   "count": 17597,
   "items": [
@@ -1110269,6 +1110269,12 @@
               "versionType": "git"
             },
             {
+              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "lessThan": "5fb756f1bbec7a3862dda5d79028bf656271804c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
               "version": "0",
               "lessThan": "5.10.274",
               "status": "affected",
@@ -1110357,6 +1110363,12 @@
               "lessThanOrEqual": "7.3.*",
               "status": "unaffected",
               "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc2",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
             }
           ]
         }
@@ -1110434,6 +1110446,12 @@
               "lessThan": "fb38fc58acb26d74fe8f7b19621fafaae3c040ff",
               "status": "affected",
               "versionType": "git"
+            },
+            {
+              "version": "b17075d5c1988b83f840d272c795ac17d57ce804",
+              "lessThan": "bfddc420afe827d9f06458cdf8087cd602f8c9cb",
+              "status": "affected",
+              "versionType": "git"
             }
           ]
         },
@@ -1110492,6 +1110510,12 @@
               "lessThanOrEqual": "7.3.*",
               "status": "unaffected",
               "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc2",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
             }
           ]
         }
@@ -1110529,88 +1110553,52 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "253cff0526781e28b1b0f9fdacd74ecdc23d3ab7",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "2c9ccbe0ffcff3615c7ad917c49b67571a41f21c",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "58ba056991dbcec8a75e6861cb4479ac947b69e6",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "fe9ead8c5bdb752e329cecfecbdb5dfca5e9996b",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "b764e17313534794aeb99c901869f213e36a16ef",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "c49934da934cf495faf782aa5d84f413221c9be6",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
               "lessThan": "b0378161c28e77e4d0e2eda3c9433ab4394d2a2f",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "0",
-              "lessThan": "5.10.274",
+              "version": "db6fbc106786f26d95889c50c18b1f28aa543a17",
+              "lessThan": "a02926f7c89bfc798ee9514e09694ff4279928a1",
               "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "5.15.225",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.1.192",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.6.162",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.12.116",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.18.62",
-              "status": "affected",
-              "versionType": "semver"
-            },
-            {
-              "version": "0",
-              "lessThan": "7.3.3",
-              "status": "affected",
-              "versionType": "semver"
+              "versionType": "git"
             }
           ]
         },
@@ -1110618,6 +1110606,16 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "4.5",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "4.5",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "5.10.274",
               "lessThanOrEqual": "5.10.*",
@@ -1110659,6 +1110657,12 @@
               "lessThanOrEqual": "7.3.*",
               "status": "unaffected",
               "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc2",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
             }
           ]
         }
@@ -1409474,9 +1409478,9 @@
     {
       "cve_id": "CVE-2026-63821",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw88: usb: fix memory leaks on USB write failures\n\nWhen rtw_usb_write_port() fails to submit a USB Request Block (URB)\n(e.g., due to device disconnect or ENOMEM), the completion callback is\nnever executed.\n\nCurrently, the driver ignores the return value of rtw_usb_write_port()\nin rtw_usb_write_data() and rtw_usb_tx_agg_skb(). Because these\nfunctions rely on the completion callback to free the socket buffers\n(skbs) and the transaction control block (txcb), a submission failure\nresults in:\n1. A memory leak of the allocated skb in rtw_usb_write_data().\n2. A memory leak of the txcb structure and all aggregated skbs in\n   rtw_usb_tx_agg_skb().\n\nFix this by checking the return value of rtw_usb_write_port(). If it\nfails, explicitly free the skb in rtw_usb_write_data(), and properly\npurge the tx_ack_queue and free the txcb in rtw_usb_tx_agg_skb().\n\nThe issue was discovered in practice during device disconnect/reconnect\nscenarios and memory pressure conditions. Tested by verifying normal TX\noperation continues after the fix without regressions.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1409573,21 +1409577,23 @@
       "active_threat": false,
       "probability_score": 0.0012,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 4,
         "reference_count": 5
       }
     },
     {
       "cve_id": "CVE-2026-63822",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath11k: fix warning when unbinding\n\nIf there is an error during some initialization related to firmware,\nthe buffers dp->tx_ring[i].tx_status are released.\nHowever this is released again when the device is unbinded (ath11k_pci),\nand we get:\nWARNING: CPU: 0 PID: 6231 at mm/slub.c:4368 free_large_kmalloc+0x57/0x90\nCall Trace:\nfree_large_kmalloc\nath11k_dp_free\nath11k_core_deinit\nath11k_pci_remove\n...\n\nThe issue is always reproducible from a VM because the MSI addressing\ninitialization is failing.\n\nIn order to fix the issue, just set the buffers to NULL after releasing in\norder to avoid the double free.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1409720,12 +1409726,14 @@
       "active_threat": false,
       "probability_score": 0.00127,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-415"
+        ],
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
@@ -1410145,17 +1410153,19 @@
         "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 5,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-63826",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: fix use-after-free in store_modes()\n\nstore_modes() replaces a framebuffer's modelist with modes from userspace.\nOn success it frees the old modelist with fb_destroy_modelist(). Two\nfields still point into that freed list.\n\nOne pointer is fb_display[i].mode, the mode a console is using.\nfbcon_new_modelist() moves these pointers to the new list. It only does so\nfor consoles still mapped to the framebuffer. An unmapped console is\nskipped and keeps its stale pointer. Unbinding fbcon, for example, sets\ncon2fb_map[i] to -1 but leaves fb_display[i].mode set. An\nFBIOPUT_VSCREENINFO ioctl with FB_ACTIVATE_INV_MODE later reaches\nfbcon_mode_deleted(). That function reads the stale fb_display[i].mode\nthrough fb_mode_is_equal(). The read is a use-after-free.\n\nThe other pointer is fb_info->mode, the current mode. It is set through\nthe mode sysfs attribute. store_modes() does not update fb_info->mode, so\nit is left pointing into the freed list. show_mode(), the attribute's read\nhandler, dereferences the stale fb_info->mode through mode_string(). The\nread is a use-after-free.\n\nClear both pointers before freeing the list. Commit a1f305893074 (\"fbcon:\nSet fb_display[i]->mode to NULL when the mode is released\") added the\nhelper fbcon_delete_modelist(). It clears every fb_display[i].mode that\npoints into a given list. So far it is called only from the unregister\npath. Call it from store_modes() too, and set fb_info->mode to NULL.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1410264,12 +1410274,14 @@
       "active_threat": false,
       "probability_score": 0.00161,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 10,
         "reference_count": 6
       }
     },
@@ -1410462,8 +1410474,10 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 13,
         "reference_count": 8
       }
     },
@@ -1411468,9 +1411482,9 @@
     {
       "cve_id": "CVE-2026-63835",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbatman-adv: v: prevent OGM aggregation on disabled hardif\n\nWhen an interface gets disabled, the worker is correctly disabled by\nbatadv_hardif_disable_interface() -> ... -> batadv_v_ogm_iface_disable().\nIn this process, the skb aggr_list is also freed.\n\nBut batadv_v_ogm_send_meshif() can still queue new skbs (via\nbatadv_v_ogm_queue_on_if()) to the aggr_list. This will only stop after all\ncores can no longer find the RCU protected list of hard interfaces. These\nqueued skbs will never be freed or consumed by batadv_v_ogm_aggr_work.\n\nThe batadv_v_ogm_iface_disable() function must block\nbatadv_v_ogm_queue_on_if() to avoid leak of skbs.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1411603,21 +1411617,23 @@
       "active_threat": false,
       "probability_score": 0.00121,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-63836",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbatman-adv: tp_meter: avoid divide-by-zero for dec_cwnd\n\nThe cwnd is always MSS <= cwnd <= 0x20000000. But the calculation in\nbatadv_tp_update_cwnd() assumes unsigned 32 bit arithmetics.\n\n    ((mss * 8) ** 2) / (cwnd * 8)\n\nIn case cwnd is actually 0x20000000, it will be shifted by 3 bit to the\nleft end up at 0x100000000 or U32_MAX + 1. It will therefore wrap around\nand be 0 - resulting in:\n\n    ((mss * 8) ** 2) / 0\n\nThis is of course invalid and cannot be calculated. The calculation should\nmust be simplified to avoid this overflow:\n\n   (mss ** 2) * 8 / cwnd\n\nIt will keep the precision enhancement from the scaling (by 8) but avoid\nthe overflow in the divisor.\n\nIn theory, there could still be an overflow in the dividend. It is at the\nmoment fixed to BATADV_TP_PLEN in batadv_tp_recv_ack() - so it is not an\nimminent problem. But allowing it to use the whole u32 bit range, would\nmean that it can still use up to 67 bits. To keep this calculation safe for\n32 bit arithmetic, mss must never use more than floor((32 - 3) / 2) bits -\nor in other words: must never be larger than 16383.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1411750,21 +1411766,23 @@
       "active_threat": false,
       "probability_score": 0.00121,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-369"
+        ],
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-63837",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ena: PHC: Check return code before setting timestamp output\n\nena_phc_gettimex64() is setting the output parameter regardless\nof whether ena_com_phc_get_timestamp() succeeded or failed.\n\nWhen ena_com_phc_get_timestamp() returns an error, the timestamp\nparameter may contain uninitialized stack memory (e.g., when PHC is\ndisabled or in blocked state) or invalid hardware values. Passing\nthese to userspace via the PTP ioctl is both a security issue\n(information leak) and a correctness bug.\n\nFix by checking the return code after releasing the lock and only\nsetting the output timestamp on success.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1411837,21 +1411855,23 @@
       "active_threat": false,
       "probability_score": 0.00103,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-667"
+        ],
+        "cpe_count": 5,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-63838",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: rsnd: Fix potential out-of-bounds access of component_dais[]\n\ncomponent_dais[RSND_MAX_COMPONENT] is initially zero-initialized\nand later populated in rsnd_dai_of_node(). However, the existing boundary check:\n  if (i >= RSND_MAX_COMPONENT)\n\ndoes not guarantee that the last valid element remains zero. As a result,\nthe loop can rely on component_dais[RSND_MAX_COMPONENT] being zero,\nwhich may lead to an out-of-bounds access.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1411948,21 +1411968,23 @@
       "active_threat": false,
       "probability_score": 0.00138,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 4,
         "reference_count": 5
       }
     },
     {
       "cve_id": "CVE-2026-63839",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: lenovo-wmi-helpers: Fix memory leak in lwmi_dev_evaluate_int()\n\nlwmi_dev_evaluate_int() leaks output.pointer when retval == NULL (found\nby sashiko.dev [1]).\n\nFix it by moving `ret_obj = output.pointer' outside of the `if (retval)'\nblock so that it is always freed by the __free cleanup callback.\n\nNo functional change intended.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1412035,12 +1412057,14 @@
       "active_threat": false,
       "probability_score": 0.00133,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 5,
         "reference_count": 3
       }
     },
@@ -1414028,8 +1414052,10 @@
         "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-908"
+        ],
+        "cpe_count": 4,
         "reference_count": 4
       }
     },
@@ -1415576,9 +1415602,9 @@
     {
       "cve_id": "CVE-2026-63871",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ISO: Fix data-race on iso_pi fields in hci_get_route calls\n\niso_connect_bis(), iso_connect_cis(), iso_listen_bis(), and\niso_conn_big_sync() call hci_get_route() using iso_pi(sk)->dst,\niso_pi(sk)->src, and iso_pi(sk)->src_type without holding lock_sock().\n\nThese fields may be modified concurrently by connect() or setsockopt()\non the same socket, resulting in data-races reported by KCSAN.\n\nFix this by snapshotting the required fields under lock_sock() before\ncalling hci_get_route().\n\nBUG: KCSAN: data-race in memcmp+0x45/0xb0\n\nrace at unknown origin, with read to 0xffff8880122135cf of 1 bytes\nby task 333 on cpu 1:\n memcmp+0x45/0xb0\n hci_get_route+0x27e/0x490\n iso_connect_cis+0x4c/0xa10\n iso_sock_connect+0x60e/0xb30\n __sys_connect_file+0xbd/0xe0\n __sys_connect+0xe0/0x110\n __x64_sys_connect+0x40/0x50\n x64_sys_call+0xcad/0x1c60\n do_syscall_64+0x133/0x590\n entry_SYSCALL_64_after_hwframe+0x77/0x7f",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1415681,12 +1415707,14 @@
       "active_threat": false,
       "probability_score": 0.00123,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 4.7,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-362"
+        ],
+        "cpe_count": 10,
         "reference_count": 5
       }
     },
@@ -1416685,9 +1416713,9 @@
     {
       "cve_id": "CVE-2026-63882",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdkfd: fix NULL pointer bug in svm_range_set_attr\n\nThe process_info could be NULL if user doesn't call kfd_ioctl_acquire_vm\nbefore calling kfd_ioctl_svm.\n\n(cherry picked from commit 83a26c812e0529eb040d31a76f73e33e637243d4)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1416796,12 +1416824,14 @@
       "active_threat": false,
       "probability_score": 0.00167,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 10,
         "reference_count": 6
       }
     },
@@ -1416911,8 +1416941,10 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-362"
+        ],
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1417680,9 +1417712,9 @@
     {
       "cve_id": "CVE-2026-63890",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: fcoe: Reject FIP descriptors with zero fip_dlen in CVL walker\n\ndrivers/scsi/fcoe/fcoe_ctlr.c::fcoe_ctlr_recv_clr_vlink() advanced the\ndescriptor cursor by an attacker-supplied fip_dlen without ever\nrequiring dlen >= sizeof(struct fip_desc) in the default branch.  The\nnamed descriptor cases (FIP_DT_MAC, FIP_DT_NAME, FIP_DT_VN_ID) checked\ntheir per-type minimum lengths, but a FIP_DT_NON_CRITICAL descriptor\n(fip_dtype >= 128, which the standard requires receivers to silently\nignore) skipped that check entirely.\n\nAn unauthenticated L2 peer on the FCoE control VLAN could hang\nfcoe_ctlr_recv_work on an fcoe, qedf, or bnx2fc initiator indefinitely\nby emitting one FIP CVL frame whose single descriptor had fip_dtype ==\nFIP_DT_NON_CRITICAL and fip_dlen == 0: the cursor advanced zero bytes\nper iteration and the loop condition rlen >= sizeof(*desc) stayed true\nforever, blocking every subsequent FIP frame on that controller.\n\nTighten the outer dlen guard to also reject dlen < sizeof(struct\nfip_desc), so a malformed descriptor whose length cannot even cover the\ndescriptor header is rejected before the switch.  This is the same\nlower-bound the named cases already apply and is the minimum scope that\ncloses the loop.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1417815,21 +1417847,23 @@
       "active_threat": false,
       "probability_score": 0.00167,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-835"
+        ],
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-63891",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nthunderbolt: property: Cap recursion depth in __tb_property_parse_dir()\n\nA DIRECTORY entry's value field is used as the dir_offset for a\nrecursive call into __tb_property_parse_dir() with no depth counter.\nA crafted peer that chains DIRECTORY entries into a back-reference\nloop drives the parser until the kernel stack is exhausted and the\nguard page fires.  Any untrusted XDomain peer (cable, dock, in-line\ninspector, adjacent host) that reaches the PROPERTIES_REQUEST\ncontrol-plane exchange can trigger this without authentication.\n\nThread a depth counter through tb_property_parse() and\n__tb_property_parse_dir(), and reject blocks that exceed\nTB_PROPERTY_MAX_DEPTH = 8.  That is comfortably larger than any\nobserved legitimate XDomain layout.\n\nOperators who do not need XDomain host-to-host discovery can disable\nthe path entirely with thunderbolt.xdomain=0 on the kernel command\nline.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1417962,12 +1417996,14 @@
       "active_threat": false,
       "probability_score": 0.00194,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-674"
+        ],
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1418504,9 +1418540,9 @@
     {
       "cve_id": "CVE-2026-63896",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: composite: fix integer underflow in WebUSB GET_URL handling\n\nThe WebUSB GET_URL handler in composite_setup() narrows\nlanding_page_length to fit the host-supplied wLength using\n\n\tlanding_page_length = w_length\n\t\t- WEBUSB_URL_DESCRIPTOR_HEADER_LENGTH + landing_page_offset;\n\nIf wLength is smaller than WEBUSB_URL_DESCRIPTOR_HEADER_LENGTH the\nunsigned subtraction wraps, and the subsequent\n\n\tmemcpy(url_descriptor->URL,\n\t       cdev->landing_page + landing_page_offset,\n\t       landing_page_length - landing_page_offset);\n\nends up copying close to UINT_MAX bytes from cdev->landing_page into\ncdev->req->buf.  KASAN reports a slab-out-of-bounds in composite_setup\non the kmalloc-2k gadget_info allocation, and FORTIFY_SOURCE traps the\nmemcpy as a 4294967293-byte field-spanning write into\nurl_descriptor->URL (size 252).\n\nA USB host can reach this from a single SETUP packet against any\ngadget that has webusb/use=1 and a landingPage configured.\n\nHandle the small-wLength case before the math: when the host requested\nfewer bytes than the URL descriptor header, only the header is\nmeaningful and no URL bytes need to be copied.  Setting\nlanding_page_length to landing_page_offset makes the existing memcpy a\nno-op and leaves the descriptor returned to the host unchanged for all\nlarger wLength values.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1418603,12 +1418639,14 @@
       "active_threat": false,
       "probability_score": 0.00166,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-190"
+        ],
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1427976,9 +1428014,9 @@
     {
       "cve_id": "CVE-2026-63969",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: fix possible infinite loop in rt6_fill_node()\n\nSashiko reported this issue [1]. Apply the same fix as\ncommit f8d8ce1b515a (\"ipv6: fix possible infinite loop in fib6_info_uses_dev()\").\n\nWriters holding tb6_lock can list_del_rcu(&rt->fib6_siblings)\nwithout waiting for RCU readers; rt->fib6_siblings.next then still\npoints into the old ring and this softirq-side walker never reaches\n&rt->fib6_siblings, causing a CPU stall. fib6_del_route() always\nWRITE_ONCE()s rt->fib6_nsiblings to 0 before list_del_rcu(), so an\ninside-loop check is a reliable detach signal.\n\n[1] https://sashiko.dev/#/patchset/20260526020227.4857-1-jiayuan.chen%40linux.dev",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1428116,12 +1428154,14 @@
       "active_threat": false,
       "probability_score": 0.0016,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-835"
+        ],
+        "cpe_count": 11,
         "reference_count": 6
       }
     },
@@ -1428739,7 +1428779,7 @@
         "cwe_ids": [
           "CWE-400"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 6
       }
     },
@@ -1429038,7 +1429078,7 @@
         "cwe_ids": [
           "CWE-694"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1429113,9 +1429153,10 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-476",
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 2
       }
     },
@@ -1429228,7 +1429269,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1429341,7 +1429382,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1429442,16 +1429483,16 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-63981",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: act_mirred: Fix blockcast recursion bypass leading to stack overflow\n\ntcf_mirred_act() checks sched_mirred_nest against MIRRED_NEST_LIMIT (4)\nto prevent deep recursion.  However, when the action uses blockcast\n(tcfm_blockid != 0), the function returns at the tcf_blockcast() call\nBEFORE reaching the counter increment.  As a result, the recursion\ncounter never advances and the limit check is entirely bypassed.\n\nWhen two devices share a TC egress block with a mirred blockcast rule,\na packet egressing on device A is mirrored to device B via blockcast;\ndevice B's egress TC re-enters tcf_mirred_act() via blockcast and\nmirrors back to A, creating an unbounded recursion loop:\n\n  tcf_mirred_act -> tcf_blockcast -> tcf_mirred_to_dev -> dev_queue_xmit\n  -> sch_handle_egress -> tcf_classify -> tcf_mirred_act -> (repeat)\n\nThis recursion continues until the kernel stack overflows.\n\nThe bug is reachable from an unprivileged user via\nunshare(CLONE_NEWUSER | CLONE_NEWNET): user namespaces grant\nCAP_NET_ADMIN in the new network namespace, which is sufficient to\ncreate dummy devices, attach clsact qdiscs with shared blocks, and\ninstall mirred blockcast filters.\n\n BUG: TASK stack guard page was hit at ffffc90000b7fff8\n Oops: stack guard page: 0000 [#1] SMP KASAN NOPTI\n CPU: 2 UID: 1000 PID: 169 Comm: poc Not tainted 7.0.0-rc7-next-20260410\n RIP: 0010:xas_find+0x17/0x480\n Call Trace:\n  xa_find+0x17b/0x1d0\n  tcf_mirred_act+0x640/0x1060\n  tcf_action_exec+0x400/0x530\n  basic_classify+0x128/0x1d0\n  tcf_classify+0xd83/0x1150\n  tc_run+0x328/0x620\n  __dev_queue_xmit+0x797/0x3100\n  tcf_mirred_to_dev+0x7b1/0xf70\n  tcf_mirred_act+0x68a/0x1060\n  [repeating ~30+ times until stack overflow]\n Kernel panic - not syncing: Fatal exception in interrupt\n\nFix this by incrementing sched_mirred_nest before calling\ntcf_blockcast() and decrementing it on return, mirroring the\nnon-blockcast path.  This ensures subsequent recursive entries see the\nupdated counter and are correctly limited by MIRRED_NEST_LIMIT.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1429518,21 +1429559,23 @@
       "active_threat": false,
       "probability_score": 0.00133,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-674"
+        ],
+        "cpe_count": 6,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-63982",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: Fix ethx:ingress -> ethy:egress -> ethx:ingress mirred loop\n\nWhen mirred redirects to ingress (from either ingress or egress) the loop\nstate from sched_mirred_dev array dev is lost because of 1) the packet\ndeferral into the backlog and 2) the fact the sched_mirred_dev array is\ncleared. In such cases, if there was a loop we won't discover it.\n\nHere's a simple test to reproduce:\nip a add dev port0 10.10.10.11/24\n\ntc qdisc add dev port0 clsact\ntc filter add dev port0 egress protocol ip \\\n   prio 10 matchall action mirred ingress redirect dev port1\n\ntc qdisc add dev port1 clsact\ntc filter add dev port1 ingress protocol ip \\\n   prio 10 matchall action mirred egress redirect dev port0\n\nping -c 1 -W0.01 10.10.10.10",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1429599,21 +1429642,21 @@
       "active_threat": false,
       "probability_score": 0.00153,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-63983",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: fix packet loop on netem when duplicate is on\n\nWhen netem duplicates a packet it re-enqueues the copy at the root qdisc.\nIf another netem sits in the tree the copy can be duplicated\nagain, recursing until the stack or memory is exhausted.\n\nThe original duplication guard temporarily zeroed q->duplicate around\nthe re-enqueue, but that does not cover all cases because it is\nper-qdisc state shared across all concurrent enqueue paths\nand is not safe without additional locking.\n\nUse the skb tc_depth field introduced in an earlier patch:\n - increment it on the duplicate before re-enqueue\n - skip duplication for any skb whose tc_depth is already non-zero.\n\nThis marks the packet itself rather than mutating qdisc state,\ntherefore it is safe regardless of tree topology or concurrency.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1429698,12 +1429741,12 @@
       "active_threat": false,
       "probability_score": 0.00122,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 4
       }
     },
@@ -1429850,9 +1429893,10 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-787",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 8
       }
     },
@@ -1485851,9 +1485895,9 @@
     {
       "cve_id": "CVE-2026-64454",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: dwc3: run gadget disconnect from sleepable suspend context\n\ndwc3_gadget_suspend() takes dwc->lock with IRQs disabled and then calls\ndwc3_disconnect_gadget().  For async callbacks that helper only uses\nplain spin_unlock()/spin_lock(), so the gadget ->disconnect() callback\nstill runs with IRQs disabled and any sleepable callback trips Lockdep.\n\nThis issue was found by our static analysis tool and then manually\nreviewed against the current tree.\n\nThe grounded PoC kept the dwc3_gadget_suspend() ->\ndwc3_disconnect_gadget() -> gadget_driver->disconnect() chain, and\nLockdep reported:\n\n  BUG: sleeping function called from invalid context\n  gadget_disconnect+0x21/0x39 [vuln_msv]\n  dwc3_gadget_suspend.constprop.0+0x2b/0x42 [vuln_msv]\n\nKeep the disconnect callback selection in one common helper, but add a\nsleepable suspend-side wrapper which snapshots the callback under\ndwc->lock and then runs it after spin_unlock_irqrestore().  The regular\nevent path still uses the existing spin_unlock()/spin_lock() window.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1485997,21 +1486041,23 @@
       "active_threat": false,
       "probability_score": 0.00099,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-667"
+        ],
+        "cpe_count": 15,
         "reference_count": 7
       }
     },
     {
       "cve_id": "CVE-2026-64455",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nUSB: chaoskey: Fix slab-use-after-free in chaoskey_release()\n\nThe chaoskey driver has a use-after-free bug in its release routine.\nIf the user closes the device file after the USB device has been\nunplugged, a debugging log statement will try to access the\nusb_interface structure after it has been deallocated:\n\n\tBUG: KASAN: slab-use-after-free in dev_driver_string (drivers/base/core.c:2406)\n\tRead of size 8 at addr ffff888168e8a0b8 by task chaoskey_raw_re/10106\n\n\tHardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014\n\tCall Trace:\n\t <TASK>\n\t dump_stack_lvl (lib/dump_stack.c:94 lib/dump_stack.c:120)\n\t print_report (mm/kasan/report.c:378 mm/kasan/report.c:482)\n\t kasan_report (mm/kasan/report.c:595)\n\t dev_driver_string (drivers/base/core.c:2406)\n\t __dynamic_dev_dbg (lib/dynamic_debug.c:906)\n\t chaoskey_release (drivers/usb/misc/chaoskey.c:323)\n\t __fput (fs/file_table.c:510)\n\t fput_close_sync (fs/file_table.c:615)\n\t __x64_sys_close (fs/open.c:1507 fs/open.c:1492 fs/open.c:1492)\n\t do_syscall_64 (arch/x86/entry/syscall_64.c:63 arch/x86/entry/syscall_64.c:94)\n\t entry_SYSCALL_64_after_hwframe (arch/x86/entry/entry_64.S:121)\n\nThe driver's last reference to the interface structure is dropped in\nthe chaoskey_free() routine, so the code must not use the interface --\neven in a debugging statement -- after that routine returns.\n(Exception: If we know that another reference is held by someone else,\nsuch as the device core while the disconnect routine runs, there's no\nproblem.  Thanks to Johan Hovold for pointing this out.)\n\nSince the bad access is part of an unimportant debugging statement,\nwe can fix the problem simply by removing the whole statement.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1486144,12 +1486190,14 @@
       "active_threat": false,
       "probability_score": 0.00135,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 9,
         "reference_count": 8
       }
     },
@@ -1486298,16 +1486346,16 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 13,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64457",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirtio_pci: fix vq info pointer lookup via wrong index\n\nUnbinding a virtio balloon device:\n\n    echo virtio0 > /sys/bus/virtio/drivers/virtio_balloon/unbind\n\ntriggers a NULL pointer dereference. The dmesg says:\n\n    BUG: kernel NULL pointer dereference, address: 0000000000000008\n    [...]\n    RIP: 0010:__list_del_entry_valid_or_report+0x5/0xf0\n    Call Trace:\n    <TASK>\n    vp_del_vqs+0x121/0x230\n    remove_common+0x135/0x150\n    virtballoon_remove+0xee/0x100\n    virtio_dev_remove+0x3b/0x80\n    device_release_driver_internal+0x187/0x2c0\n    unbind_store+0xb9/0xe0\n    kernfs_fop_write_iter.llvm.11660790530567441834+0xf6/0x180\n    vfs_write+0x2a9/0x3b0\n    ksys_write+0x5c/0xd0\n    do_syscall_64+0x54/0x230\n    entry_SYSCALL_64_after_hwframe+0x29/0x31\n    [...]\n    </TASK>\n\nThe virtio_balloon device registers 5 queues (inflate, deflate, stats,\nfree_page, reporting) but only the first two are unconditional. The\nstats, free_page and reporting queues are each conditional on their\nrespective feature bits. When any of these features are absent, the\ncorresponding vqs_info entry has name == NULL, creating holes in the\narray.\n\nThe root cause is an indexing mismatch introduced when vq info storage\nwas changed to be passed as an argument. vp_find_vqs_msix() and\nvp_find_vqs_intx() store the info pointer at vp_dev->vqs[i], where 'i'\nis the caller's sparse array index. However, the virtqueue itself gets\nvq->index assigned from queue_idx, a dense index that skips NULL\nentries. When holes exist, 'i' and queue_idx diverge. Later,\nvp_del_vqs() looks up info via vp_dev->vqs[vq->index] using the dense\nindex into the sparsely-populated array, and hits NULL.\n\nFix this by storing info at vp_dev->vqs[queue_idx] instead of\nvp_dev->vqs[i], so the store index matches the lookup index\n(vq->index). Apply the fix to both the MSIX and INTX paths.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1486392,21 +1486440,23 @@
       "active_threat": false,
       "probability_score": 0.00127,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 10,
         "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-64458",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/damon/ops-common: handle extreme intervals in damon_hot_score()\n\nFix three issues in damon_hot_score() that comes from wrong handling of\nextreme (zero or too high) monitoring intervals user setup.\n\nWhen the user sets sampling interval zero, damon_max_nr_accesses(), which\nis called from damon_hot_score(), causes a divide-by-zero.  Needless to\nsay, it is a problem.\n\nWhen the user sets the aggregation interval zero, the function returns\nzero.  It is wrong, since the real maximum nr_acceses in the setup should\nbe one.  Worse yet, it can cause another divide-by-zero from its caller,\ndamon_hot_score(), since it uses damon_max_nr_accesses() return value as a\ndenominator.\n\nWhen the user sets the aggregation interval very high, damon_hot_score()\ncould return a value out of [0, DAMOS_MAX_SCORE] range.  Since the return\nvalue is used as an index to the regions_score_histogram array, which is\nDAMOS_MAX_SCORE+1 size, it causes out of bounds array access.\n\nThe issues can be relatively easily reproduced like below.  The sysfs\nwrite permission is required, though.\n\n    # ./damo start --damos_action lru_prio --damos_quota_space 100M \\\n            --damos_quota_interval 1s\n    # cd /sys/kernel/mm/damon/admin/kdamonds/0\n    # echo 0 > contexts/0/monitoring_attrs/intervals/sample_us\n    # echo 0 > contexts/0/monitoring_attrs/intervals/aggr_us\n    # echo commit > state\n    # dmesg\n    [...]\n    [  131.329762] Oops: divide error: 0000 [#1] SMP NOPTI\n    [...]\n    [  131.336089] RIP: 0010:damon_hot_score+0x27/0xd0\n    [...]\n\nFix the divide-by-zero intervals problems by explicitly handling the zero\nintervals in damon_max_nr_accesses().  Fix the out-of-bound array access\nby applying [0, DAMOS_MAX_SCORE] bounds before returning from\ndamon_hot_score().\n\nThe issue was discovered [1] by Sashiko.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1486515,12 +1486565,14 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-369"
+        ],
+        "cpe_count": 7,
         "reference_count": 6
       }
     },
@@ -1486694,18 +1486746,19 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
+          "CWE-129",
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-64461",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: mediatek: Fix IRQ domain leak when port fails to enable\n\nWhen mtk_pcie_enable_port() fails, mtk_pcie_port_free() removes the port\nfrom pcie->ports and frees the port structure. However, the IRQ domains set\nup earlier by mtk_pcie_init_irq_domain() are never freed.\n\nFix this by refactoring mtk_pcie_irq_teardown() into a per-port helper,\nmtk_pcie_irq_teardown_port(), and calling it from mtk_pcie_setup() when\nmtk_pcie_enable_port() fails. Since the IRQ teardown must only happen in\nthe probe error path (during resume, child devices may have active MSI\nmappings and the NOIRQ context prohibits sleeping locks),\nmtk_pcie_enable_port() is changed to return an error code so callers can\ndistinguish the two paths and act accordingly.\n\nThis issue was reported by Sashiko while reviewing the EcoNet EN7528 SoC\nsupport series.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1486838,12 +1486891,14 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
@@ -1487148,16 +1487203,16 @@
         "cwe_ids": [
           "CWE-401"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-64464",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxhci: sideband: fix ring sg table pages leak\n\nxhci_ring_to_sgtable() allocates a temporary pages array and\nuses it to build the returned sg_table with\nsg_alloc_table_from_pages().\n\nThe error paths free the pages array, but the success path\nreturns the sg_table without freeing it. This leaks the temporary\narray every time a sideband client gets an endpoint or event ring\nbuffer.\n\nFree the pages array after sg_alloc_table_from_pages() succeeds.\nThe returned sg_table has its own scatterlist entries and does not\ndepend on the temporary array after construction.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1487230,21 +1487285,23 @@
       "active_threat": false,
       "probability_score": 0.00126,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 4,
         "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-64465",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: xhci: Fix sleep in atomic context in xhci_free_streams()\n\nWhen a USB device with active stream endpoints is disconnected,\nxhci_free_streams() is called from the hub_event workqueue to\nfree the stream resources.  It calls xhci_free_stream_info()\nwhile holding xhci->lock with irqs disabled.\n\nxhci_free_stream_info() invokes xhci_free_stream_ctx(), which\ncalls dma_free_coherent() for large stream context arrays.\n\ndma_free_coherent() can sleep (e.g. via vunmap), triggering\na BUG when called from atomic context.\n\nCall trace:\n dma_free_attrs+0x174/0x220\n xhci_free_stream_info+0xd0/0x11c\n xhci_free_streams+0x278/0x37c\n usb_free_streams+0x98/0xc0\n usb_unbind_interface+0x1b8/0x2f8\n device_release_driver_internal+0x1d4/0x2cc\n device_release_driver+0x18/0x28\n bus_remove_device+0x160/0x1a4\n device_del+0x1ec/0x350\n usb_disable_device+0x98/0x214\n usb_disconnect+0xf0/0x35c\n hub_event+0xab4/0x19ec\n process_one_work+0x278/0x63c\n\nFix this by saving the stream_info pointers and clearing the\nep references under the lock, then calling xhci_free_stream_info()\noutside the lock where sleeping is allowed.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1487377,21 +1487434,23 @@
       "active_threat": false,
       "probability_score": 0.00099,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-667"
+        ],
+        "cpe_count": 9,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64466",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nrust_binder: clear freeze listener on node removal\n\nGenerally userspace is supposed to explicitly clear freeze listeners\nbefore they drop the refcount on the node ref to zero, but there's\nnothing forcing that. Currently, in this scenario the freeze listener\nremains in the freeze_listeners rbtree and in the remote node's freeze\nlistener list, even though the ref for which the listener is registered\nis gone. This could potentially lead to a memory leak due to a refcount\ncycle. Thus, remove the freeze listener in this scenario.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1487464,12 +1487523,14 @@
       "active_threat": false,
       "probability_score": 0.00126,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 4,
         "reference_count": 3
       }
     },
@@ -1487555,8 +1487616,10 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-191"
+        ],
+        "cpe_count": 4,
         "reference_count": 3
       }
     },
@@ -1487735,8 +1487798,10 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 15,
         "reference_count": 8
       }
     },
@@ -1487882,17 +1487947,19 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 9,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64470",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btusb: fix use-after-free on marvell probe failure\n\nMake sure to stop any TX URBs submitted during Marvell OOB wakeup\nconfiguration on later probe failures to avoid use-after-free in the\ncompletion callback.\n\nThis issue was reported by Sashiko while reviewing a fix for a wakeup\nsource leak in the btusb probe errors paths.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488025,21 +1488092,23 @@
       "active_threat": false,
       "probability_score": 0.00135,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64471",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btusb: fix use-after-free on registration failure\n\nMake sure to release the sibling interfaces in case controller\nregistration fails to avoid use-after-free and double-free when they are\neventually disconnected.\n\nThis issue was reported by Sashiko while reviewing a fix for a wakeup\nsource leak in the btusb probe errors paths.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488172,21 +1488241,23 @@
       "active_threat": false,
       "probability_score": 0.00135,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 14,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64472",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/mlx5: Fix racy bitfields and tighten struct layout\n\nBitfield operations are not atomic, they use a read-modify-write\npattern, therefore we should be careful not to pack bitfields that\ncan be concurrently updated into the same storage unit.\n\nThis split takes a binary approach: flags that are only modified\npre/post open/close remain bitfields, flags modified from user\naction, including actions that reach across to another device (ex.\nreset) use dedicated storage units.\n\nNote mlx5_vhca_page_tracker.status is relocated to fill the alignment\nhole this split exposes.\n\nBitfield justifications:\n\n  migrate_cap: written only in mlx5vf_cmd_set_migratable() at probe\n  chunk_mode: written only in mlx5vf_cmd_set_migratable() at probe\n  mig_state_cap: written only in mlx5vf_cmd_set_migratable() at probe\n\nDedicated storage units:\n\n  mdev_detach: written in the VF attach/detach event notifier\n               mlx5fv_vf_event() at runtime\n  log_active: written in mlx5vf_start_page_tracker()/\n              mlx5vf_stop_page_tracker() during runtime dirty tracking\n  deferred_reset: written in mlx5vf_state_mutex_unlock()/\n                  mlx5vf_pci_aer_reset_done() during runtime reset handling\n  is_err: set by tracker error handling and dirty-log polling at runtime\n  object_changed: set by tracker event handling and cleared by dirty-log\n                  polling at runtime",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488295,21 +1488366,21 @@
       "active_threat": false,
       "probability_score": 0.00162,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-64473",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio: Remove device debugfs before releasing devres\n\nVFIO device debugfs files created with debugfs_create_devm_seqfile()\nstore a devres allocated debugfs_devm_entry as inode private data.\nvfio_unregister_group_dev() currently calls vfio_device_del() before\nvfio_device_debugfs_exit(), but device_del() releases devres.  This can\nleave debugfs entries visible with stale inode private data while\nunregister waits for userspace references to drain.\n\nRemove the per-device debugfs tree before vfio_device_del().  The debugfs\nview is diagnostic only, so losing it at the start of unregister is\npreferable to preserving entries whose backing storage may already have\nbeen released.\n\nComplete the teardown by clearing the per-device debugfs root after\nremoval.  This matches the global debugfs root cleanup and prevents\nfuture users from mistaking a removed dentry for a live debugfs tree\nduring the remainder of unregister.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488394,21 +1488465,21 @@
       "active_threat": false,
       "probability_score": 0.00127,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-64474",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio: prevent infinite loop in vfio_mig_get_next_state() on blocked arc\n\nvfio_mig_get_next_state() walks vfio_from_fsm_table[] one step at a time,\nlooping to skip optional states the device does not support until\n*next_fsm is supported. A blocked transition is encoded as\nVFIO_DEVICE_STATE_ERROR, which the trailing return reports as -EINVAL.\n\nThe skip loop does not account for the ERROR sentinel.\nstate_flags_table[ERROR] is ~0U and vfio_from_fsm_table[ERROR][*] is\nERROR, so once *next_fsm becomes ERROR the loop condition stays true and\n*next_fsm never changes. The blocked arcs STOP_COPY -> PRE_COPY and\nSTOP_COPY -> PRE_COPY_P2P map to ERROR yet pass the support check on a\nprecopy-capable device, causing the loop to spin forever while holding\nthe driver state mutex. This can result in a soft lockup, and a panic\nwith softlockup_panic set.\n\nTerminate the skip loop on the ERROR sentinel so a blocked transition\nfalls through to the existing return and reports -EINVAL.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488505,12 +1488576,14 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-835"
+        ],
+        "cpe_count": 4,
         "reference_count": 5
       }
     },
@@ -1488687,16 +1488760,16 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64476",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/pci: Latch disable_idle_d3 per device\n\nWhen disable_idle_d3 was introduced in vfio-pci, it directly manipulated\nthe device power state with pci_set_power_state().  There were no\nrefcounts to maintain or balanced operations, we could unconditionally\nbring the device to D0 and conditionally move it to D3hot.  Therefore\nthe module parameter was made writable.\n\nLater, in commit c61302aa48f7 (\"vfio/pci: Move module parameters to\nvfio_pci.c\"), as part of the vfio-pci-core split, the writable aspect\nof the module parameter was nullified.  The parameter value could still\nbe changed through sysfs, but the vfio-pci driver latched the values\ninto vfio-pci-core globals at module init.  Loading the vfio-pci module,\nor unloading and reloading, with non-default or different values could\nchange the globals relative to existing devices bound to vfio-pci\nvariant drivers.\n\nRuntime PM was introduced in commit 7ab5e10eda02 (\"vfio/pci: Move the\nunused device into low power state with runtime PM\"), which marks the\npoint where power states became refcounted.  PM get and put operations\nneed to be balanced, but the same module operations noted above can\nchange the global variables relative to those devices already bound to\nvfio-pci variant drivers.  This introduces a window where PM operations\ncan now become unbalanced.\n\nTo resolve this with a narrow footprint for stable backports, the\ndisable_idle_d3 flag is latched into the vfio_pci_core_device at the\ntime of initialization, such that the device always operates with a\nconsistent value.\n\nNB. vfio_pci_dev_set_try_reset() now unconditionally raises the\nruntime PM usage count around bus reset to account for disable_idle_d3\nbecoming a per-device rather than global flag.  When this flag is set,\nthe additional get/put pair is harmless and allows continued use of the\nshared vfio_pci_dev_set_pm_runtime_get() helper.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488805,21 +1488878,23 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 6,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-64477",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86,fs/resctrl: Prevent out-of-bounds access while offlining CPU when SNC enabled\n\nThe architecture updates the cpu_mask in a domain's header to track which\nonline CPUs are associated with the domain. When this mask becomes empty\nthe architecture initiates offline of the domain that includes calling\non resctrl fs to offline the domain. If it is a monitoring domain in\nwhich LLC occupancy is tracked resctrl fs forces the limbo handler to\nclear all busy RMID state associated with the domain.\n\nThe limbo handler always reads the current event value associated with a\nbusy RMID irrespective of it being checked as part of regular \"is it still\nbusy\" check or whether it will be forced released anyway. When reading an\nRMID on a system with SNC enabled the \"logical RMID\" is converted to the\n\"physical RMID\" and this conversion requires the NUMA node ID of the\nresctrl monitoring domain that is in turn determined by querying the NUMA\nnode ID of any CPU belonging to the monitoring domain.\n\nWhen the monitoring domain is going offline its cpu_mask is empty causing\nthe NUMA node ID query via cpu_to_node() to be done with \"nr_cpu_ids\" as\nargument resulting in an out-of-bounds access.\n\nRefactor the limbo handler to skip reading the RMID when the RMID will\njust be forced to no longer be dirty in the domain anyway. Add a safety\ncheck to the architecture's RMID reader to protect against this scenario.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1488904,21 +1488979,23 @@
       "active_threat": false,
       "probability_score": 0.00131,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 4,
         "reference_count": 4
       }
     },
     {
       "cve_id": "CVE-2026-64478",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: usb-audio: avoid kobject path lookup in DualSense match\n\nThe DualSense jack-detection input handler verifies that a matching input\ndevice belongs to the same physical controller by building kobject path\nstrings for both the input device and the USB audio device, then comparing\nthe path prefix.\n\nThis was observed when a weak physical connection caused the controller\nto rapidly disconnect and reconnect. During that repeated hotplug,\nsnd_dualsense_ih_match() can run while the controller's USB device is\nbeing disconnected. kobject_get_path() walks ancestor kobjects and\ndereferences their names; if the USB device kobject name is no longer\nvalid, this can fault in strlen():\n\n  RIP: 0010:strlen+0x10/0x30\n  Call Trace:\n   kobject_get_path+0x34/0x150\n   snd_dualsense_ih_match+0x49/0xd0 [snd_usb_audio]\n   input_register_device+0x566/0x6a0\n   ps_probe+0xb89/0x1590 [hid_playstation]\n\nThe same ownership check can be done without building kobject path\nstrings. The input device is parented below the HID device, USB interface\nand USB device, so walking the input device parent chain and comparing\nagainst the mixer USB device preserves the check without dereferencing\nkobject names during disconnect.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1489103,21 +1489180,21 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64479",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()\n\nsnd_seq_event_dup() copies an incoming event into a pool cell and, in\nthe UMP-enabled build, clears the trailing cell->ump.raw.extra word that\nthe memcpy() did not cover.  The guard deciding whether to clear it\ncompares the copied size against sizeof(cell->event):\n\n\tmemcpy(&cell->ump, event, size);\n\tif (size < sizeof(cell->event))\n\t\tcell->ump.raw.extra = 0;\n\nFor a legacy (non-UMP) event, size == sizeof(struct snd_seq_event) ==\nsizeof(cell->event), so the condition is false and the extra word keeps\nstale data.  The cell pool is allocated with kvmalloc() (not zeroed) and\ncells are reused via a free list, so that word holds uninitialised heap\nor leftover event data.\n\nWhen such a cell is delivered to a UMP client (client->midi_version > 0)\nthat set SNDRV_SEQ_FILTER_NO_CONVERT -- so the legacy event reaches it\nunconverted -- snd_seq_read() reads it out as the larger struct\nsnd_seq_ump_event and copies the stale word to user space, a 4-byte\nkernel heap infoleak to an unprivileged /dev/snd/seq client.\n\nCompare against sizeof(cell->ump) instead, so the trailing word is zeroed\nfor every event shorter than the UMP cell.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 3.3,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
       "affected": [
         {
           "vendor": "linux",
@@ -1489226,21 +1489303,23 @@
       "active_threat": false,
       "probability_score": 0.00158,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 3.3,
+        "cvss_v3_severity": "LOW",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-908"
+        ],
+        "cpe_count": 4,
         "reference_count": 7
       }
     },
     {
       "cve_id": "CVE-2026-64480",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: ice1712: check snd_ctl_new1() return value\n\nsnd_ctl_new1() can return NULL when memory allocation fails. The\nice1712 driver calls snd_ctl_new1() without checking the return value\nbefore dereferencing the pointer in multiple places (ice1712.c,\nice1724.c, aureon.c), which can lead to NULL pointer dereferences.\n\nAdd NULL checks after snd_ctl_new1() calls and return -ENOMEM if any\nfails.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1489366,12 +1489445,14 @@
       "active_threat": false,
       "probability_score": 0.00128,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 9,
         "reference_count": 6
       }
     },
@@ -1489496,7 +1489577,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 5,
         "reference_count": 6
       }
     },
@@ -1490019,7 +1490100,7 @@
         "cwe_ids": [
           "CWE-401"
         ],
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 3
       }
     },
@@ -1490166,9 +1490247,9 @@
     {
       "cve_id": "CVE-2026-64487",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: caiaq: fix out-of-bounds read in the Traktor Kontrol S4 input parser\n\nsnd_usb_caiaq_tks4_dispatch() decodes the Traktor Kontrol S4 input\nstream in fixed 16-byte (TKS4_MSGBLOCK_SIZE) message blocks. On every\niteration it advances buf and subtracts the block size while looping on\n\"while (len)\".\n\nlen is urb->actual_length. That value is supplied by the device and is\nnot guaranteed to be a multiple of 16. When a final short block leaves\nlen between 1 and 15, the loop runs once more, reads up to buf[15], and\nthen does \"len -= TKS4_MSGBLOCK_SIZE\". As len is unsigned this underflows\nto a huge value. The loop then keeps iterating and walking buf far past\nthe end of the 512-byte ep4_in_buf, reading out of bounds until a bogus\nblock id happens to be hit.\n\nIterate only while a full message block is available. This stops the\nunsigned underflow and silently drops any trailing partial block, which\ncarries no complete control value anyway.\n\nThe sibling endpoint-4 parsers are not affected. The Traktor Kontrol X1\nand Maschine arms in snd_usb_caiaq_ep4_reply_dispatch() floor\nurb->actual_length before dispatching.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1490301,12 +1490382,14 @@
       "active_threat": false,
       "probability_score": 0.00132,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 7,
         "reference_count": 8
       }
     },
@@ -1490694,7 +1490777,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 3,
         "reference_count": 4
       }
     },
@@ -1491433,7 +1491516,7 @@
         "cwe_ids": [
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 8
       }
     },
@@ -1492229,9 +1492312,9 @@
     {
       "cve_id": "CVE-2026-64504",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: accel: bmc150: clamp the device-reported FIFO frame count\n\n__bmc150_accel_fifo_flush() copies the number of samples the device\nreports in its hardware FIFO into an on-stack buffer\n\n\tu16 buffer[BMC150_ACCEL_FIFO_LENGTH * 3];\n\nwhich is sized for at most BMC150_ACCEL_FIFO_LENGTH (32) samples. The\nframe count is read from the FIFO_STATUS register and only masked to its\n7 valid bits:\n\n\tcount = val & 0x7F;\n\nso it can be 0..127. The only other limit applied to it is the optional\ncaller-supplied sample budget:\n\n\tif (samples && count > samples)\n\t\tcount = samples;\n\nwhich does not constrain count on the flush-all path (samples == 0), and\nleaves it well above 32 whenever samples is larger. count samples are\nthen transferred into buffer[]:\n\n\tbmc150_accel_fifo_transfer(data, (u8 *)buffer, count);\n\nbmc150_accel_fifo_transfer() reads count * 6 bytes through regmap, so a\nmalfunctioning, malicious or counterfeit accelerometer (or an attacker\ntampering with the I2C/SPI bus) that reports up to 127 frames writes up\nto 762 bytes into the 192-byte buffer: a stack out-of-bounds write of up\nto 570 bytes that clobbers the stack canary, saved registers and the\nreturn address.\n\nClamp count to BMC150_ACCEL_FIFO_LENGTH, the number of samples buffer[]\nis sized for, before the transfer, mirroring the watermark clamp already\ndone in bmc150_accel_set_watermark(). A well-formed flush reports at most\nBMC150_ACCEL_FIFO_LENGTH frames, so legitimate devices are unaffected.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1492364,21 +1492447,23 @@
       "active_threat": false,
       "probability_score": 0.00156,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 9,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64505",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: function: rndis: add length check for header\n\nAdd a length check for the rndis header in rndis_rm_hdr, to ensure that\nMessageType, MessageLength, DataOffset, and DataLength fields are\npresent before they are accessed.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1492511,21 +1492596,23 @@
       "active_threat": false,
       "probability_score": 0.00115,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 13,
         "reference_count": 8
       }
     },
     {
       "cve_id": "CVE-2026-64506",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw89: correct drop logic for malformed AMPDU frames\n\nThe previous commit aims to fix issue caused by malformed AMPDU frames.\nBut the drop logic fails to deal with the first AMPDU packet paired with\ncertain range of sequence number, and leads to unexpected packet drop.\nIt is more likely to encounter this failure when there are busy traffic\nduring rekey process and could lead to disconnection from the AP.\nFix this by adding a initial state judgement and only reset status\nduring pairwise rekey.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1492586,21 +1492673,23 @@
       "active_threat": false,
       "probability_score": 0.001,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-670"
+        ],
+        "cpe_count": 1,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-64507",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/bugs: Enable IBPB flush on BPF JIT allocation\n\nEnable hardening against JIT spraying when Spectre-v2 mitigations are in\nuse. Specifically, issue an IBPB flush on BPF JIT memory reuse. Skip\nenabling the IBPB flush if the BPF dispatcher is already using a retpoline\nsequence.\n\nThis hardening applies only when BPF-JIT is in use. Guard the enabling\nunder CONFIG_BPF_JIT so that bugs.c still builds with CONFIG_BPF_JIT=n.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1492709,21 +1492798,21 @@
       "active_threat": false,
       "probability_score": 0.00187,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-64508",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Support for hardening against JIT spraying\n\nThe BPF JIT allocator packs many small programs into larger executable\nallocations and reuses space within those allocations as programs are\nloaded and freed. When fresh code is written into space that a previous\nprogram occupied, an indirect jump into the new program can reuse a branch\nprediction left behind by the old one.\n\nFlush the indirect branch predictors before reusing JIT memory so that\nindirect jumps into a newly written program don't reuse predictions from an\nold program that occupied the same space.\n\nIntroduce bpf_arch_pred_flush_enabled static key and bpf_arch_pred_flush\nstatic call for flushing the branch predictors on JIT memory reuse.\nArchitectures that need a flush, can update it to a predictor flush\nfunction. By default, its a NOP and does not emit any CALL.\n\nAllocations larger than a pack are not covered by this flush. That is safe\nbecause cBPF programs (the unprivileged attack surface) are bounded well\nbelow a pack size. Issue a warning if this assumption is ever violated\nwhile the flush is active.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1492832,21 +1492921,23 @@
       "active_threat": false,
       "probability_score": 0.00187,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-459"
+        ],
+        "cpe_count": 6,
         "reference_count": 6
       }
     },
     {
       "cve_id": "CVE-2026-64509",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nrust: block: fix GenDisk cleanup paths\n\nGenDiskBuilder::build() still has fallible work after\n__blk_mq_alloc_disk(), but its error path only recovers the\nforeign queue data. That leaks the temporary gendisk and\nrequest_queue until later teardown. If the caller moved the last\nArc<TagSet<T>> into build(), the leaked queue can retain blk-mq\nstate after the tag set is dropped.\n\nFix the pre-registration failure path by dropping the temporary\ngendisk reference with put_disk() before recovering queue_data,\nso disk_release() can tear down the owned queue.\n\nAlso pair GenDisk::drop() with put_disk() after del_gendisk().\nOnce a Rust GenDisk has been added with device_add_disk(),\ndel_gendisk() only unregisters it; the final gendisk reference\nstill has to be dropped to complete the release path.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1492931,12 +1493022,14 @@
       "active_threat": false,
       "probability_score": 0.00114,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 3,
         "reference_count": 4
       }
     },
@@ -1493093,9 +1493186,9 @@
     {
       "cve_id": "CVE-2026-64511",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: NFIT: core: Fix possible NULL pointer dereference\n\nAfter commit 9b311b7313d6 (\"ACPI: NFIT: Install Notify() handler before\ngetting NFIT table\"), acpi_nfit_probe() installs an ACPI notify handler\nfor the NFIT device before checking the presence of the NFIT table.  If\nthat table is not there, 0 is returned without allocating the acpi_desc\nobject and setting the driver data pointer of the NFIT device.  If the\nplatform firmware triggers an NFIT_NOTIFY_UC_MEMORY_ERROR notification\non the NFIT device at that point, acpi_nfit_uc_error_notify() will\ndereference a NULL pointer.\n\nPrevent that from occurring by adding an acpi_desc check against NULL\nto acpi_nfit_uc_error_notify().",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1493192,12 +1493285,14 @@
       "active_threat": false,
       "probability_score": 0.00114,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1493708,7 +1493803,7 @@
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 7,
         "reference_count": 4
       }
     },
@@ -1494360,7 +1494455,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 3
       }
     },
@@ -1494473,7 +1494568,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 5
       }
     },
@@ -1494610,7 +1494705,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 7
       }
     },
@@ -1495284,7 +1495379,7 @@
         "cwe_ids": [
           "CWE-489"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 9
       }
     },
@@ -1495622,7 +1495717,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 12
       }
     },
@@ -1495759,7 +1495854,7 @@
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 7
       }
     },
@@ -1500226,7 +1500321,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 15
       }
     },
@@ -1500597,7 +1500692,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 10,
         "reference_count": 8
       }
     },
@@ -1500944,7 +1501039,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 4
       }
     },
@@ -1946364,9 +1946459,9 @@
     {
       "cve_id": "CVE-2026-98089",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbonding: alb: fix uninitialized transport header access in alb_determine_nd()\n\nalb_determine_nd() uses icmp6_hdr(skb) to inspect ICMPv6 headers.\nHowever, in xmit paths (e.g. packets sent via AF_PACKET / raw sockets\nor forwarded packets), skb->transport_header is not guaranteed to be\ninitialized. While pskb_network_may_pull() ensures the packet data is\nlinear starting from the network header, it does not set or adjust the\ntransport header offset.\n\nDereferencing icmp6_hdr(skb) can therefore access out-of-bounds memory.\n\nFetch the icmp6hdr directly after ipv6hdr following pskb_network_may_pull(),\nand reload ipv6hdr in case pskb_may_pull() reallocated skb->head.\nAlso remove the unused bond argument from alb_determine_nd().",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1946475,12 +1946570,14 @@
       "active_threat": false,
       "probability_score": 0.00123,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-908"
+        ],
+        "cpe_count": 6,
         "reference_count": 6
       }
     },
@@ -1948466,9 +1948563,9 @@
     {
       "cve_id": "CVE-2026-98106",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/pagemap: Prevent double migration of device pages\n\nA device-private folio migrated to system memory by a CPU fault can\nremain reachable through the raw-PFN eviction path until migration\nfinalization drops the source reference.\n\nIf eviction selects the same device-private folio during this window,\nit can attempt to migrate the folio again. The second migration can leave\nan uncharged folio on an LRU list, causing folio_lruvec_lock_irqsave() to\nretry indefinitely and resulting in a soft lockup and RCU stall.\n\nMark successfully migrated device-private folios using a low bit of\ntheir zone_device_data before migration finalization. Make both CPU-fault\nand raw-PFN migration paths skip device-private folios carrying this\nflag.\n\nMask the flag when retrieving the drm_pagemap_zdd pointer and preserve\nit when a device-private folio is split. Keeping the state on the physical\nfolio also avoids depending on a virtual address that may change before a\nfault occurs.\n\nv2:\n- Replace the retired-PFN XArray with an embedded bitmap. (Matthew Brost)\n- Mark every base page covered by a migrated folio so retirement remains\n  valid if the folio is later split.\n\nv3:\n- Store the migrated state in a low bit of zone_device_data instead of\n  adding virtual-range and bitmap tracking to the ZDD. (Matthew Brost)\n- Mask the flag when retrieving the ZDD and preserve it when splitting\n  a folio.\n- Drop the pre-existing fixes already covered by Matthew Brost's series:\n  https://patchwork.freedesktop.org/series/171651/\n\nv4:\n- Advance by the folio size only for migration entries marked with\n  MIGRATE_PFN_COMPOUND. (Sashiko)\n\nv5:\n- Simplify ZDD flag updates and folio iteration. (Matthew Brost)\n- Skip retired device-private folios in the CPU-fault path. (Matthew Brost)\n- Preserve flag bits while taking a new ZDD reference for split folios.\n\nv6:\n- Restore MIGRATE_PFN_COMPOUND-aware stepping so non-compound migration\n  entries are processed one at a time. (Sashiko)\n- Drop the pre-existing fixes already covered by Matthew Brost's series:\n  https://patchwork.freedesktop.org/series/171651/\n\nThe lockup was observed as:\n[10109.860465] watchdog: BUG: soft lockup - CPU#9 stuck for 26s! [kworker/u65:5:6557]\n[10109.860524] Tainted: [S]=CPU_OUT_OF_SPEC, [O]=OOT_MODULE\n[10109.860524] Hardware name: ASUS System Product Name/PRIME Z790-P WIFI, BIOS 0812 02/24/2023\n[10109.860525] Workqueue: xe_page_fault_work_queue xe_pagefault_queue_work [xe]\n[10109.860644] RIP: 0010:_raw_spin_unlock_irqrestore+0x57/0x80\n[10109.860655] Call Trace:\n[10109.860655]  <TASK>\n[10109.860657]  folio_lruvec_lock_irqsave+0x216/0x220\n[10109.860661]  ? __pfx_lru_add+0x10/0x10\n[10109.860665]  folio_batch_move_lru+0xc8/0x450\n[10109.860670]  ? lock_acquire+0xc4/0x2d0\n[10109.860674]  ? __folio_batch_add_and_move+0x60/0x2e0\n[10109.860677]  ? folio_migrate_mapping+0xa6/0x110\n[10109.860679]  ? folio_migrate_flags+0x13b/0x1b0\n[10109.860681]  ? __pfx_lru_add+0x10/0x10\n[10109.860683]  __folio_batch_add_and_move+0xe7/0x2e0\n[10109.860685]  ? dma_iova_try_alloc+0xb0/0x140\n[10109.860689]  folio_add_lru+0x64/0x80\n[10109.860691]  __migrate_device_finalize+0x12c/0x270\n[10109.860695]  migrate_device_finalize+0x10/0x20\n[10109.860698]  drm_pagemap_evict_to_ram+0x185/0x370 [drm_gpusvm_helper]\n[10109.860704]  ? drm_pagemap_evict_to_ram+0x96/0x370 [drm_gpusvm_helper]\n[10109.860709]  xe_svm_bo_evict+0x15/0x20 [xe]\n[10109.860819]  ? xe_svm_bo_evict+0x15/0x20 [xe]\n[10109.860921]  xe_bo_move+0x107e/0x1570 [xe]\n[10109.860992]  ? xe_ttm_tt_create+0x168/0x340 [xe]\n[10109.861059]  ? __up_read+0x98/0x2b0\n[10109.861061]  ? lock_is_held_type+0xa3/0x130\n[10109.861067]  ttm_bo_handle_move_mem+0xe8/0x1e0 [ttm]\n[10109.861075]  ttm_bo_evict+0x141/0x1c0 [ttm]\n[10109.861081]  ttm_bo_evict_cb+0x9f/0x100 [ttm]\n[10109.861086]  ttm_lru_walk_for_evict+0x84/0x190 [ttm]\n[10109.861091]  ? xe_ttm_vram_mgr_new+0x258/0x3a0 [xe]\n[10109.861198]  ttm_bo_alloc_resource+0x219/0\n---truncated---",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1948529,21 +1948626,23 @@
       "active_threat": false,
       "probability_score": 0.00083,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-667"
+        ],
+        "cpe_count": 2,
         "reference_count": 2
       }
     },
     {
       "cve_id": "CVE-2026-98107",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: fix out-of-bounds write in l2cap_ecred_connect\n\nl2cap_chan_connect() tries to ensure there are no more than\nL2CAP_ECRED_CONN_SCID_MAX pending ECRED channels, so they fit in the\nsame L2CAP_ECRED_CONN_REQ that l2cap_ecred_connect() constructs.\n\nHowever, the check only counts deferred channels.  If 6 L2CAP sockets\nare connected at the same time in order DDDDND (D=deferred,\nN=non-deferred), the last can bump the total to max+1.  It results to\none __le16 written out of bounds of the scid array, and an invalid\nECRED_CONN_REQ being sent.\n\nFix by leaving room for the non-deferred pending ECRED channels in the\ncounting in l2cap_chan_connect(), so the limit can't be exceeded.\n\nMove counting under same critical section where the channel is added.\nAlthough race conditions involving this appear unreachable, it's easier\nto see.\n\nAlso add WARN_ON_ONCE check in l2cap_ecred_defer_connect() to make this\nless brittle.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -1948640,12 +1948739,14 @@
       "active_threat": false,
       "probability_score": 0.00129,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 5,
         "reference_count": 5
       }
     },
@@ -1948791,8 +1948892,10 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 8,
         "reference_count": 8
       }
     },
@@ -1986767,8 +1986870,10 @@
         "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 13,
         "reference_count": 12
       }
     },
@@ -2085076,38 +2085181,87 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "6cd611d2abdd8623a554e14145f82c1cb4e4467a",
               "lessThan": "ade3082dcdee17c5767069883936d64ff83f6c9f",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "37d5a73170579b30e67cc8b19ec69715eea3a6b6",
               "lessThan": "a97aa838903d15f865d80809f5198ff459c6634a",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2",
+              "version": "4867687b6ad28ab84bc0811d8f8f9972e769da02",
               "lessThan": "07aca7d25ce8578fedde49855983a01c537a782b",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "0",
+              "version": "5fb756f1bbec7a3862dda5d79028bf656271804c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "4223b33be49ee09acb6f1d26beb4a36dd3b8d63a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "ab9cdf1291be551da999510b30216a2886074d7a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36f858f228e3f955b9336af7f94634747c221518",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "89e534265b62c94749639350200b10370564bb3a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "6.12.116",
               "lessThan": "6.12.117",
               "status": "affected",
               "versionType": "semver"
             },
             {
-              "version": "0",
+              "version": "6.18.62",
               "lessThan": "6.18.63",
               "status": "affected",
               "versionType": "semver"
             },
             {
-              "version": "0",
+              "version": "7.3.3",
               "lessThan": "7.3.4",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.274",
+              "lessThan": "5.11",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.225",
+              "lessThan": "5.16",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.192",
+              "lessThan": "6.2",
+              "status": "affected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.162",
+              "lessThan": "6.7",
               "status": "affected",
               "versionType": "semver"
             }
@@ -2085117,6 +2085271,16 @@
           "vendor": "linux",
           "product": "linux",
           "versions": [
+            {
+              "version": "7.4-rc2",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "7.4-rc2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
             {
               "version": "6.12.117",
               "lessThanOrEqual": "6.12.*",
@@ -2085274,6 +2085438,12 @@
               "lessThan": "eb8a2d156f2c1d862fffdfd1b3432bfbcd939879",
               "status": "affected",
               "versionType": "git"
+            },
+            {
+              "version": "079096f103faca2dd87342cca6f23d4b34da8871",
+              "lessThan": "4e2b3ef19e0e04adca38442f07dd6bc93c712bf1",
+              "status": "affected",
+              "versionType": "git"
             }
           ]
         },
@@ -2085308,6 +2085478,12 @@
               "lessThanOrEqual": "7.3.*",
               "status": "unaffected",
               "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc2",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
             }
           ]
         }
