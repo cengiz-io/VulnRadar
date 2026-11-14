@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:23:18+00:00",
+  "generated_at": "2026-11-14T17:07:24+00:00",
   "vendor": "_other",
   "count": 1220,
   "items": [
@@ -3430,7 +3430,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.55531,
+      "probability_score": 0.5741,
       "kev": {
         "cveID": "CVE-2022-37055",
         "vendorProject": "D-Link",
@@ -66354,7 +66354,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00348,
+      "probability_score": 0.00342,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -66538,7 +66538,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00174,
+      "probability_score": 0.00171,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -68323,7 +68323,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00904,
+      "probability_score": 0.00971,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68362,7 +68362,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.23793,
+      "probability_score": 0.24565,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -91415,7 +91415,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01274,
+      "probability_score": 0.02191,
       "kev": {
         "cveID": "CVE-2026-123039",
         "vendorProject": "Check Point",
@@ -92063,7 +92063,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.48001,
+      "probability_score": 0.87267,
       "kev": {
         "cveID": "CVE-2026-28318",
         "vendorProject": "SolarWinds",
@@ -94785,7 +94785,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92137,
+      "probability_score": 0.92367,
       "kev": {
         "cveID": "CVE-2025-11371",
         "vendorProject": "Gladinet",
@@ -100101,7 +100101,7 @@
         "vendor:suse linux"
       ],
       "active_threat": false,
-      "probability_score": 0.03637,
+      "probability_score": 0.03438,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -102565,7 +102565,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00302,
+      "probability_score": 0.00508,
       "kev": {
         "cveID": "CVE-2026-114713",
         "vendorProject": "UnrealIRCd",
@@ -108714,7 +108714,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01949,
+      "probability_score": 0.12689,
       "kev": {
         "cveID": "CVE-2026-96654",
         "vendorProject": "Plex",
@@ -108824,7 +108824,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01785,
+      "probability_score": 0.19767,
       "kev": {
         "cveID": "CVE-2026-96656",
         "vendorProject": "Plex",
