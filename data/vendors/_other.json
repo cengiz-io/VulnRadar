@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:19:36+00:00",
+  "generated_at": "2026-11-15T17:07:43+00:00",
   "vendor": "_other",
   "count": 1227,
   "items": [
@@ -68362,7 +68362,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.24565,
+      "probability_score": 0.21292,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -70162,7 +70162,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.75296,
+      "probability_score": 0.72205,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -76709,7 +76709,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00187,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -76749,7 +76749,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00187,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -76789,7 +76789,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00204,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -76829,7 +76829,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00204,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -76989,7 +76989,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00204,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -77029,7 +77029,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00204,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -77070,7 +77070,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null,
+      "probability_score": 0.00204,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -78468,7 +78468,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00349,
+      "probability_score": 0.00357,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -97389,7 +97389,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9635,
+      "probability_score": 0.96814,
       "kev": {
         "cveID": "CVE-2026-33017",
         "vendorProject": "Langflow",
@@ -97925,7 +97925,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93437,
+      "probability_score": 0.93526,
       "kev": {
         "cveID": "CVE-2025-4008",
         "vendorProject": "Smartbedded",
@@ -100607,7 +100607,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02322,
+      "probability_score": 0.0235,
       "kev": {
         "cveID": "CVE-2025-8875",
         "vendorProject": "N-able",
@@ -100658,7 +100658,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04078,
+      "probability_score": 0.04006,
       "kev": {
         "cveID": "CVE-2025-8876",
         "vendorProject": "N-able",
@@ -108660,7 +108660,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98208,
+      "probability_score": 0.98513,
       "kev": {
         "cveID": "CVE-2026-72898",
         "vendorProject": "Metabase",
