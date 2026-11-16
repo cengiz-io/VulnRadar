@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T21:48:27+00:00",
+  "generated_at": "2026-11-16T01:58:46+00:00",
   "vendor": "_other",
-  "count": 1227,
+  "count": 1231,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -6994,6 +6994,318 @@
         ],
         "cpe_count": 1,
         "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-129357",
+      "description": "A vulnerability was determined in Linux Foundation Magma up to 1.9.0. This issue affects the function hostOrgMiddleware of the file nms/server/host/middleware.ts of the component Host Middleware. This manipulation of the argument role causes missing authorization. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P",
+      "affected": [
+        {
+          "vendor": "linux foundation",
+          "product": "magma",
+          "versions": [
+            {
+              "version": "1.0",
+              "status": "affected"
+            },
+            {
+              "version": "1.1",
+              "status": "affected"
+            },
+            {
+              "version": "1.2",
+              "status": "affected"
+            },
+            {
+              "version": "1.3",
+              "status": "affected"
+            },
+            {
+              "version": "1.4",
+              "status": "affected"
+            },
+            {
+              "version": "1.5",
+              "status": "affected"
+            },
+            {
+              "version": "1.6",
+              "status": "affected"
+            },
+            {
+              "version": "1.7",
+              "status": "affected"
+            },
+            {
+              "version": "1.8",
+              "status": "affected"
+            },
+            {
+              "version": "1.9.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:magma",
+        "vendor:linux foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00214,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 6.5,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862",
+          "CWE-863"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
+      }
+    },
+    {
+      "cve_id": "CVE-2026-129358",
+      "description": "A vulnerability was identified in Linux Foundation Magma up to 1.9.0. Impacted is the function handleReact of the file nms/server/main/routes.ts of the component NMS. Such manipulation leads to cross site scripting. It is possible to launch the attack remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cvss_score": 4.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P",
+      "affected": [
+        {
+          "vendor": "linux foundation",
+          "product": "magma",
+          "versions": [
+            {
+              "version": "1.0",
+              "status": "affected"
+            },
+            {
+              "version": "1.1",
+              "status": "affected"
+            },
+            {
+              "version": "1.2",
+              "status": "affected"
+            },
+            {
+              "version": "1.3",
+              "status": "affected"
+            },
+            {
+              "version": "1.4",
+              "status": "affected"
+            },
+            {
+              "version": "1.5",
+              "status": "affected"
+            },
+            {
+              "version": "1.6",
+              "status": "affected"
+            },
+            {
+              "version": "1.7",
+              "status": "affected"
+            },
+            {
+              "version": "1.8",
+              "status": "affected"
+            },
+            {
+              "version": "1.9.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:magma",
+        "vendor:linux foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00214,
+      "nvd": {
+        "cvss_v3_score": 2.4,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": 3.3,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79",
+          "CWE-94"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-129359",
+      "description": "A security flaw has been discovered in Linux Foundation Magma up to 1.9.0. The affected element is an unknown function of the file orc8r/lib/go/registry/interceptors.go. Performing a manipulation results in hard-coded credentials. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P",
+      "affected": [
+        {
+          "vendor": "linux foundation",
+          "product": "magma",
+          "versions": [
+            {
+              "version": "1.0",
+              "status": "affected"
+            },
+            {
+              "version": "1.1",
+              "status": "affected"
+            },
+            {
+              "version": "1.2",
+              "status": "affected"
+            },
+            {
+              "version": "1.3",
+              "status": "affected"
+            },
+            {
+              "version": "1.4",
+              "status": "affected"
+            },
+            {
+              "version": "1.5",
+              "status": "affected"
+            },
+            {
+              "version": "1.6",
+              "status": "affected"
+            },
+            {
+              "version": "1.7",
+              "status": "affected"
+            },
+            {
+              "version": "1.8",
+              "status": "affected"
+            },
+            {
+              "version": "1.9.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:magma",
+        "vendor:linux foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00284,
+      "nvd": {
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 7.5,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-259",
+          "CWE-798"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-129360",
+      "description": "A weakness has been identified in Linux Foundation Magma up to 1.9.0. The impacted element is an unknown function of the file orc8r/cloud/go/services/obsidian/access/operator.go of the component Obsidian REST. Executing a manipulation of the argument X-Magma-Client-Cert-Serial can lead to authentication bypass by spoofing. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X",
+      "affected": [
+        {
+          "vendor": "linux foundation",
+          "product": "magma",
+          "versions": [
+            {
+              "version": "1.0",
+              "status": "affected"
+            },
+            {
+              "version": "1.1",
+              "status": "affected"
+            },
+            {
+              "version": "1.2",
+              "status": "affected"
+            },
+            {
+              "version": "1.3",
+              "status": "affected"
+            },
+            {
+              "version": "1.4",
+              "status": "affected"
+            },
+            {
+              "version": "1.5",
+              "status": "affected"
+            },
+            {
+              "version": "1.6",
+              "status": "affected"
+            },
+            {
+              "version": "1.7",
+              "status": "affected"
+            },
+            {
+              "version": "1.8",
+              "status": "affected"
+            },
+            {
+              "version": "1.9.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:magma",
+        "vendor:linux foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00411,
+      "nvd": {
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 7.5,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287",
+          "CWE-290"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
       }
     },
     {
