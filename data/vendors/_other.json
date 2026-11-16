@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T09:37:18+00:00",
+  "generated_at": "2026-11-16T20:25:14+00:00",
   "vendor": "_other",
   "count": 1231,
   "items": [
@@ -5003,7 +5003,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.85886,
+      "probability_score": 0.86231,
       "kev": {
         "cveID": "CVE-2023-43208",
         "vendorProject": "NextGen Healthcare",
@@ -20935,7 +20935,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9709,
+      "probability_score": 0.97145,
       "kev": {
         "cveID": "CVE-2024-20439",
         "vendorProject": "Cisco",
@@ -51045,7 +51045,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93244,
+      "probability_score": 0.92923,
       "kev": {
         "cveID": "CVE-2022-33891",
         "vendorProject": "Apache",
@@ -53571,7 +53571,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99749,
+      "probability_score": 0.99715,
       "kev": {
         "cveID": "CVE-2023-3519",
         "vendorProject": "Citrix",
@@ -60112,7 +60112,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01186,
+      "probability_score": 0.01492,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -86980,7 +86980,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01123,
+      "probability_score": 0.0106,
       "kev": {
         "cveID": "CVE-2023-36851",
         "vendorProject": "Juniper",
@@ -91655,7 +91655,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99983,
+      "probability_score": 0.9998,
       "kev": {
         "cveID": "CVE-2024-1709",
         "vendorProject": "ConnectWise",
@@ -97600,7 +97600,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90193,
+      "probability_score": 0.90239,
       "kev": {
         "cveID": "CVE-2025-37164",
         "vendorProject": "Hewlett Packard Enterprise (HPE)",
@@ -99525,7 +99525,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.2067,
+      "probability_score": 0.21073,
       "kev": {
         "cveID": "CVE-2025-7775",
         "vendorProject": "Citrix",
@@ -104033,7 +104033,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98984,
+      "probability_score": 0.99013,
       "kev": {
         "cveID": "CVE-2026-24061",
         "vendorProject": "GNU",
@@ -107444,7 +107444,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.89176,
+      "probability_score": 0.88412,
       "kev": {
         "cveID": "CVE-2026-48908",
         "vendorProject": "JoomShaper",
