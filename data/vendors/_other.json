@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T13:15:27+00:00",
+  "generated_at": "2026-11-17T22:19:09+00:00",
   "vendor": "_other",
-  "count": 1231,
+  "count": 1232,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -245,7 +245,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99787,
+      "probability_score": 0.99783,
       "kev": {
         "cveID": "CVE-2024-0012",
         "vendorProject": "Palo Alto Networks",
@@ -1914,7 +1914,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01062,
+      "probability_score": 0.01595,
       "kev": {
         "cveID": "CVE-2022-22706",
         "vendorProject": "Arm",
@@ -4467,7 +4467,7 @@
       "probability_score": 0.68079,
       "kev": {
         "cveID": "CVE-2023-28461",
-        "vendorProject": "Array Networks ",
+        "vendorProject": "Array Networks",
         "product": "AG/vxAG ArrayOS",
         "vulnerabilityName": "Array Networks AG and vxAG ArrayOS Missing Authentication for Critical Function Vulnerability",
         "dateAdded": "2024-11-25",
@@ -6278,7 +6278,7 @@
       "probability_score": 0.66414,
       "kev": {
         "cveID": "CVE-2024-57726",
-        "vendorProject": "SimpleHelp ",
+        "vendorProject": "SimpleHelp",
         "product": "SimpleHelp",
         "vulnerabilityName": "SimpleHelp Missing Authorization Vulnerability",
         "dateAdded": "2026-04-24",
@@ -6327,7 +6327,7 @@
       "probability_score": 0.96833,
       "kev": {
         "cveID": "CVE-2024-57727",
-        "vendorProject": "SimpleHelp ",
+        "vendorProject": "SimpleHelp",
         "product": "SimpleHelp",
         "vulnerabilityName": "SimpleHelp Path Traversal Vulnerability",
         "dateAdded": "2025-02-13",
@@ -6376,7 +6376,7 @@
       "probability_score": 0.64468,
       "kev": {
         "cveID": "CVE-2024-57728",
-        "vendorProject": "SimpleHelp ",
+        "vendorProject": "SimpleHelp",
         "product": "SimpleHelp",
         "vulnerabilityName": "SimpleHelp Path Traversal Vulnerability",
         "dateAdded": "2026-04-24",
@@ -29637,7 +29637,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.32392,
+      "probability_score": 0.30395,
       "kev": {
         "cveID": "CVE-2025-20393",
         "vendorProject": "Cisco",
@@ -57864,7 +57864,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00309,
+      "probability_score": 0.00306,
       "nvd": {
         "cvss_v3_score": 6.3,
         "cvss_v3_severity": "MEDIUM",
@@ -75838,7 +75838,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00218,
+      "probability_score": 0.00233,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -77221,7 +77221,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00238,
+      "probability_score": 0.00322,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -77261,7 +77261,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0025,
+      "probability_score": 0.00466,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -78595,7 +78595,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00642,
+      "probability_score": 0.00657,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -78647,7 +78647,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.13829,
+      "probability_score": 0.1365,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -78699,7 +78699,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00506,
+      "probability_score": 0.00517,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -84593,7 +84593,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84734,
+      "probability_score": 0.84289,
       "kev": {
         "cveID": "CVE-2026-81578",
         "vendorProject": "PaperCut",
@@ -84656,7 +84656,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.63047,
+      "probability_score": 0.60891,
       "kev": {
         "cveID": "CVE-2026-82078",
         "vendorProject": "PaperCut",
@@ -87166,7 +87166,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01207,
+      "probability_score": 0.01211,
       "kev": {
         "cveID": "CVE-2025-59374",
         "vendorProject": "ASUS",
@@ -92008,7 +92008,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02191,
+      "probability_score": 0.01938,
       "kev": {
         "cveID": "CVE-2026-123039",
         "vendorProject": "Check Point",
@@ -96266,7 +96266,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.92219,
+      "probability_score": 0.92455,
       "kev": {
         "cveID": "CVE-2025-9242",
         "vendorProject": "WatchGuard",
@@ -96561,7 +96561,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9384,
+      "probability_score": 0.95208,
       "kev": {
         "cveID": "CVE-2025-24016",
         "vendorProject": "Wazuh",
@@ -100116,7 +100116,7 @@
       "probability_score": 0.0333,
       "kev": {
         "cveID": "CVE-2025-66644",
-        "vendorProject": "Array Networks ",
+        "vendorProject": "Array Networks",
         "product": "ArrayOS AG",
         "vulnerabilityName": "Array Networks ArrayOS AG OS Command Injection Vulnerability",
         "dateAdded": "2025-12-08",
@@ -100334,7 +100334,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.90479,
+      "probability_score": 0.90598,
       "kev": {
         "cveID": "CVE-2025-6218",
         "vendorProject": "RARLAB",
@@ -103158,7 +103158,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00508,
+      "probability_score": 0.00467,
       "kev": {
         "cveID": "CVE-2026-114713",
         "vendorProject": "UnrealIRCd",
@@ -103180,6 +103180,82 @@
         ],
         "cpe_count": 0,
         "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-115731",
+      "description": "Deserialization of untrusted data in the report-processing code of Puppet, as used by Puppet Server, in the affected releases, allows a client that holds any CA-signed agent certificate to execute arbitrary code on the Puppet Server as its service user by submitting a report containing a crafted rich-data type via PUT request. Where the certificate authority autosigns requests without strong verification, an unauthenticated network attacker can obtain such a certificate.",
+      "cvss_score": 9.4,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "perforce",
+          "product": "puppet enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "2023.8.0",
+              "lessThan": "2023.8.13",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "2025.0.0",
+              "lessThan": "2025.12.1",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "2026.0.0",
+              "lessThan": "2026.0.1",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "2023.8.13"
+            },
+            {
+              "status": "unaffected",
+              "version": "2025.12.1"
+            },
+            {
+              "status": "unaffected",
+              "version": "2026.0.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00366,
+      "kev": {
+        "cveID": "CVE-2026-115731",
+        "vendorProject": "Perforce",
+        "product": "Puppet Enterprise",
+        "vulnerabilityName": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-11-17",
+        "shortDescription": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet\u2019s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-12-01",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94",
+          "CWE-502"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
       }
     },
     {
@@ -103404,7 +103480,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01199,
+      "probability_score": 0.01586,
       "kev": {
         "cveID": "CVE-2026-119977",
         "vendorProject": "WordPress",
@@ -106408,7 +106484,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.26157,
+      "probability_score": 0.8234,
       "kev": {
         "cveID": "CVE-2026-45247",
         "vendorProject": "Mirasvit",
@@ -107299,7 +107375,7 @@
       "probability_score": 0.80251,
       "kev": {
         "cveID": "CVE-2026-48558",
-        "vendorProject": "SimpleHelp ",
+        "vendorProject": "SimpleHelp",
         "product": "SimpleHelp",
         "vulnerabilityName": "SimpleHelp Authentication Bypass Vulnerability",
         "dateAdded": "2026-06-29",
@@ -108407,7 +108483,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.2239,
+      "probability_score": 0.7884,
       "kev": {
         "cveID": "CVE-2026-5430",
         "vendorProject": "WSO2",
