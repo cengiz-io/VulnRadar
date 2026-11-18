@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-18T13:56:12+00:00`
+Generated: `2026-11-18T21:58:56+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **19623**
+- Total items: **19627**
 - Watchlist hits: **18778**
-- CISA KEVs: **862**
-- Exploit Intel (PoC): **878**
-- Exploit Intel + Watchlist (CRITICAL): **33**
+- CISA KEVs: **866**
+- Exploit Intel (PoC): **881**
+- Exploit Intel + Watchlist (CRITICAL): **34**
 
 ## Top Findings (max 200)
 
@@ -77,6 +77,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.033 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2026-3888](https://www.cve.org/CVERecord?id=CVE-2026-3888) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.014 | 7.8 | ✅ | Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
+| [CVE-2026-123655](https://www.cve.org/CVERecord?id=CVE-2026-123655) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.006 | 7.5 | ✅ | A flaw was found in Moodle. Insufficient access control checks on H5P content files allow unauthenticated remote attackers to view restricted materials, includ… |
 | [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.043 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
 | [CVE-2025-54597](https://www.cve.org/CVERecord?id=CVE-2025-54597) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.006 | 7.2 | ✅ | LinuxServer.io Heimdall before 2.7.3 allows XSS via the q parameter. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.068 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2024-13161](https://www.cve.org/CVERecord?id=CVE-2024-13161) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.898 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-20127](https://www.cve.org/CVERecord?id=CVE-2026-20127) |  | KEV | ✅ | ✅ | 2026-02-27 | 0.876 | 10.0 |  | A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vMana… |
-| [CVE-2026-9082](https://www.cve.org/CVERecord?id=CVE-2026-9082) |  | KEV | ✅ | ✅ | 2026-05-27 | 0.894 | 9.8 |  | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Drupal Drupal core allows SQL Injection.  This issue affe… |
 
 ## Recent Changes (Last 7 Days)
 
