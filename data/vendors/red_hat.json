@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:58:53+00:00",
+  "generated_at": "2026-11-19T03:20:38+00:00",
   "vendor": "red_hat",
   "count": 524,
   "items": [
@@ -132125,6 +132125,16 @@
         {
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
           "versions": null
         }
       ],
