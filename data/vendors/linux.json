@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:20:38+00:00",
+  "generated_at": "2026-11-19T12:57:13+00:00",
   "vendor": "linux",
   "count": 17627,
   "items": [
@@ -153288,9 +153288,9 @@
     {
       "cve_id": "CVE-2022-4994",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: wean fast IN from emulator_pio_in\n\nUse __emulator_pio_in() directly for fast PIO instead of bouncing through\nemulator_pio_in() now that __emulator_pio_in() fills \"val\" when handling\nin-kernel PIO.  vcpu->arch.pio.count is guaranteed to be '0', so this a\npure nop.\n\nemulator_pio_in_emulated is now the last caller of emulator_pio_in.\n\nNo functional change intended.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "linux",
@@ -153339,12 +153339,12 @@
       "active_threat": false,
       "probability_score": 0.0014,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
