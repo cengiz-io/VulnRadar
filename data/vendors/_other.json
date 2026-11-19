@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:57:13+00:00",
+  "generated_at": "2026-11-19T21:30:09+00:00",
   "vendor": "_other",
   "count": 1239,
   "items": [
@@ -983,7 +983,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98455,
+      "probability_score": 0.98598,
       "kev": {
         "cveID": "CVE-2025-0108",
         "vendorProject": "Palo Alto Networks",
@@ -1126,7 +1126,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01999,
+      "probability_score": 0.01957,
       "kev": {
         "cveID": "CVE-2025-0111",
         "vendorProject": "Palo Alto Networks",
@@ -3528,7 +3528,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.44145,
+      "probability_score": 0.37217,
       "kev": {
         "cveID": "CVE-2022-39197",
         "vendorProject": "Fortra",
@@ -6881,7 +6881,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01713,
+      "probability_score": 0.01722,
       "kev": {
         "cveID": "CVE-2025-48700",
         "vendorProject": "Synacor",
@@ -8225,7 +8225,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.72458,
+      "probability_score": 0.72647,
       "kev": {
         "cveID": "CVE-2022-20699",
         "vendorProject": "Cisco",
@@ -49839,7 +49839,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59427,
+      "probability_score": 0.59694,
       "kev": {
         "cveID": "CVE-2023-21608",
         "vendorProject": "Adobe",
@@ -51815,7 +51815,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01128,
+      "probability_score": 0.01773,
       "kev": {
         "cveID": "CVE-2026-90436",
         "vendorProject": "Apache",
@@ -70381,7 +70381,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00447,
+      "probability_score": 0.00466,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -70420,7 +70420,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00463,
+      "probability_score": 0.00483,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -77016,7 +77016,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00623,
+      "probability_score": 0.01982,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -77497,7 +77497,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00092,
+      "probability_score": 0.00118,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -77537,7 +77537,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00232,
+      "probability_score": 0.00365,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -90922,7 +90922,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01251,
+      "probability_score": 0.0215,
       "kev": {
         "cveID": "CVE-2024-10441",
         "vendorProject": "Synology",
@@ -96433,7 +96433,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.29423,
+      "probability_score": 0.29517,
       "kev": {
         "cveID": "CVE-2025-14733",
         "vendorProject": "WatchGuard",
@@ -96616,7 +96616,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.83218,
+      "probability_score": 0.78501,
       "kev": {
         "cveID": "CVE-2025-14847",
         "vendorProject": "MongoDB",
@@ -98440,7 +98440,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99655,
+      "probability_score": 0.99659,
       "kev": {
         "cveID": "CVE-2025-48703",
         "vendorProject": "CWP",
@@ -98981,7 +98981,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13513,
+      "probability_score": 0.12325,
       "kev": {
         "cveID": "CVE-2025-55177",
         "vendorProject": "Meta Platforms",
@@ -100539,7 +100539,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.98994,
+      "probability_score": 0.97554,
       "kev": {
         "cveID": "CVE-2025-68613",
         "vendorProject": "n8n",
@@ -101446,7 +101446,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.413,
+      "probability_score": 0.38783,
       "kev": {
         "cveID": "CVE-2025-9377",
         "vendorProject": "TP-Link",
@@ -106129,7 +106129,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1702,
+      "probability_score": 0.61911,
       "kev": {
         "cveID": "CVE-2026-40217",
         "vendorProject": "BerriAI",
@@ -108542,7 +108542,7 @@
         "vendor:linuxmint"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00157
     },
     {
       "cve_id": "CVE-2026-59676",
@@ -109689,7 +109689,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03749,
+      "probability_score": 0.25187,
       "kev": {
         "cveID": "CVE-2026-90817",
         "vendorProject": "Vanderbilt University",
