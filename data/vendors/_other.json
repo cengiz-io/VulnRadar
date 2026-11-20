@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:08:54+00:00",
+  "generated_at": "2026-11-20T11:29:33+00:00",
   "vendor": "_other",
   "count": 1257,
   "items": [
@@ -51835,8 +51835,8 @@
         "cwe_ids": [
           "CWE-470"
         ],
-        "cpe_count": 0,
-        "reference_count": 3
+        "cpe_count": 1,
+        "reference_count": 4
       }
     },
     {
@@ -77473,9 +77473,9 @@
     {
       "cve_id": "CVE-2026-129891",
       "description": "IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl let an on-path attacker choose the installed public suffix list because update_self_from_url fetches it over cleartext HTTP with no integrity check.\n\nCalled with no argument, as the module's documentation shows, the updater fetches the list from the `http://` address in the URL constant and checks only that the request succeeded, with no signature or digest over the response. The lines that come back are written into the module's own source file as the built-in list.\n\nAn attacker on the network path when the updater runs chooses the suffix boundary the module reports to every caller on the host, and that answer persists in the installed module until it is reinstalled. Dropping one rule makes the hostname check in IO::Socket::SSL accept a wildcard certificate that spans the whole public suffix that rule named.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -77499,8 +77499,8 @@
       "active_threat": false,
       "probability_score": 0.00118,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -77513,9 +77513,9 @@
     {
       "cve_id": "CVE-2026-129892",
       "description": "IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl allow code injection via a fetched list line that closes the built-in data heredoc when update_self_from_url rewrites the module's source.\n\nThe rewrite copies the module's source down to the built-in list's heredoc and appends each fetched line below it. Nothing checks that a line looks like a domain. A line that is not a comment loses only what follows a `//` and its trailing whitespace, so a line reading END_BUILTIN_DATA is appended as it stands and ends the data block in the rewritten file. Every fetched line after it is Perl.\n\nArbitrary Perl runs in every process that loads IO::Socket::SSL, which loads this module unconditionally, until the file is reinstalled. The attacker must control the fetched list, through the cleartext default URL or a caller-supplied one, and the updater must run with write access to the installed module.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -77539,8 +77539,8 @@
       "active_threat": false,
       "probability_score": 0.00365,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -77601,7 +77601,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133060",
@@ -77654,7 +77665,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133061",
@@ -77707,7 +77729,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133062",
@@ -77760,7 +77793,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-133063",
@@ -77813,7 +77857,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133064",
@@ -77866,7 +77921,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.6,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133065",
@@ -77919,7 +77985,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133066",
@@ -77972,7 +78049,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133067",
@@ -78025,7 +78113,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133068",
@@ -78078,7 +78177,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133069",
@@ -78131,7 +78241,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133070",
@@ -78184,7 +78305,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133071",
@@ -78237,7 +78369,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133072",
@@ -78290,7 +78433,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133073",
@@ -78343,7 +78497,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133074",
@@ -78396,7 +78561,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-133075",
@@ -78437,7 +78613,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -91832,7 +92019,7 @@
           "CWE-116"
         ],
         "cpe_count": 12,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -104889,7 +105076,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0012
+      "probability_score": 0.0012,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-19624",
@@ -107100,8 +107298,8 @@
           "CWE-420",
           "CWE-94"
         ],
-        "cpe_count": 1,
-        "reference_count": 6
+        "cpe_count": 4,
+        "reference_count": 7
       }
     },
     {
@@ -109492,7 +109690,18 @@
         "vendor:linuxmint"
       ],
       "active_threat": false,
-      "probability_score": 0.00157
+      "probability_score": 0.00157,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-88"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
+      }
     },
     {
       "cve_id": "CVE-2026-59676",
@@ -110660,8 +110869,8 @@
           "CWE-73",
           "CWE-94"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 3,
+        "reference_count": 2
       }
     },
     {
