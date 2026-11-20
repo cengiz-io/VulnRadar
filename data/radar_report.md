@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-20T11:29:35+00:00`
+Generated: `2026-11-20T20:07:48+00:00`
 
 ## Executive Summary
 
@@ -23,7 +23,7 @@ Top critical items:
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | 0.027 | 7.8 | 2024-08-28 | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negat… |
 | [CVE-2025-39964](https://www.cve.org/CVERecord?id=CVE-2025-39964) | 0.016 | 7.8 | 2026-09-21 | In the Linux kernel, the following vulnerability has been resolved:  crypto: af_alg - Disallow concurrent writes in af_… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | 0.014 | 7.8 | 2025-09-25 | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cp… |
-| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | 0.007 | 7.8 | 2026-08-30 | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation … |
+| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | 0.013 | 7.8 | 2026-08-30 | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation … |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | 0.014 | 7.1 | 2025-04-30 | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when find… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.102 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.008 | 5.5 | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
@@ -38,9 +38,9 @@ Top critical items:
 
 ## Summary
 
-- Total items: **19902**
+- Total items: **19906**
 - Watchlist hits: **19053**
-- CISA KEVs: **866**
+- CISA KEVs: **870**
 - Exploit Intel (PoC): **883**
 - Exploit Intel + Watchlist (CRITICAL): **34**
 
@@ -61,7 +61,7 @@ Top critical items:
 | [CVE-2024-36971](https://www.cve.org/CVERecord?id=CVE-2024-36971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-08-28 | 0.027 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: fix __dst_negative_advice() race  __dst_negative_advice() does not enforce proper RCU… |
 | [CVE-2025-39964](https://www.cve.org/CVERecord?id=CVE-2025-39964) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-21 | 0.016 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg  Issuing two writes to the s… |
 | [CVE-2025-38352](https://www.cve.org/CVERecord?id=CVE-2025-38352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-25 | 0.014 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del()  If… |
-| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-30 | 0.007 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation path  In __ip6_append_data(), when the p… |
+| [CVE-2026-53362](https://www.cve.org/CVERecord?id=CVE-2026-53362) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-30 | 0.013 | 7.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ipv6: account for fraggap on the paged allocation path  In __ip6_append_data(), when the p… |
 | [CVE-2024-53150](https://www.cve.org/CVERecord?id=CVE-2024-53150) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-30 | 0.014 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ALSA: usb-audio: Fix out of bounds reads when finding clock sources  The current USB-audio… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.102 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.008 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
@@ -195,18 +195,17 @@ Top critical items:
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.951 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 1.000 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
 | [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 0.999 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
-| [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.949 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2026-1731](https://www.cve.org/CVERecord?id=CVE-2026-1731) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.939 | 9.9 |  | BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulner… |
 | [CVE-2024-0012](https://www.cve.org/CVERecord?id=CVE-2024-0012) |  | KEV | ✅ | ✅ | 2024-12-09 | 0.998 | 9.3 |  | An authentication bypass in Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to gain … |
 | [CVE-2024-47575](https://www.cve.org/CVERecord?id=CVE-2024-47575) |  | KEV | ✅ | ✅ | 2024-11-13 | 0.948 | 9.8 |  | A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 th… |
 | [CVE-2026-39987](https://www.cve.org/CVERecord?id=CVE-2026-39987) |  | KEV | ✅ | ✅ | 2026-05-07 | 0.997 | 9.3 |  | marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint /terminal/ws lacks authenticati… |
-| [CVE-2026-21589](https://www.cve.org/CVERecord?id=CVE-2026-21589) |  | KEV | ✅ | ✅ | 2026-10-18 | 0.997 | 9.3 |  | This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. C… |
 | [CVE-2024-21413](https://www.cve.org/CVERecord?id=CVE-2024-21413) |  | KEV | ✅ | ✅ | 2025-02-27 | 0.947 | 9.8 |  | Microsoft Outlook Remote Code Execution Vulnerability |
 | [CVE-2024-8963](https://www.cve.org/CVERecord?id=CVE-2024-8963) |  | KEV | ✅ | ✅ | 2024-10-10 | 0.986 | 9.4 |  | Path Traversal in the Ivanti CSA before 4.6 Patch 519 allows a remote unauthenticated attacker to access restricted functionality. |
 | [CVE-2022-42475](https://www.cve.org/CVERecord?id=CVE-2022-42475) |  | KEV | ✅ | ✅ | 2023-01-03 | 0.995 | 9.3 |  | A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6… |
 | [CVE-2026-109618](https://www.cve.org/CVERecord?id=CVE-2026-109618) |  | KEV | ✅ | ✅ | 2026-10-29 | 1.000 | 9.2 |  | PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for thi… |
 | [CVE-2026-109619](https://www.cve.org/CVERecord?id=CVE-2026-109619) |  | KEV | ✅ | ✅ | 2026-10-29 | 1.000 | 9.2 |  | PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated aft… |
 | [CVE-2024-55956](https://www.cve.org/CVERecord?id=CVE-2024-55956) |  | KEV | ✅ | ✅ | 2025-01-07 | 0.940 | 9.8 |  | In Cleo Harmony before 5.8.0.24, VLTrader before 5.8.0.24, and LexiCom before 5.8.0.24, an unauthenticated user can import and execute arbitrary Bash or PowerS… |
+| [CVE-2026-63077](https://www.cve.org/CVERecord?id=CVE-2026-63077) |  | KEV | ✅ | ✅ | 2026-08-08 | 0.939 | 9.8 |  | In JetBrains TeamCity before 2026.1.3, 2025.11.7 unauthenticated remote code execution was possible via the agent polling protocol |
 | [CVE-2024-5217](https://www.cve.org/CVERecord?id=CVE-2024-5217) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.996 | 9.2 |  | ServiceNow has addressed an input validation vulnerability that was identified in the Washington DC, Vancouver, and earlier Now Platform releases. This vulnera… |
 | [CVE-2024-9465](https://www.cve.org/CVERecord?id=CVE-2024-9465) |  | KEV | ✅ | ✅ | 2024-12-05 | 0.996 | 9.2 |  | An SQL injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to reveal Expedition database contents, such as password has… |
 | [CVE-2026-41940](https://www.cve.org/CVERecord?id=CVE-2026-41940) |  | KEV | ✅ | ✅ | 2026-05-03 | 0.985 | 9.3 |  | cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unaut… |
@@ -248,6 +247,7 @@ Top critical items:
 | [CVE-2022-27593](https://www.cve.org/CVERecord?id=CVE-2022-27593) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.879 | 10.0 |  | An externally controlled reference to a resource vulnerability has been reported to affect QNAP NAS running Photo Station. If exploited, This could allow an at… |
 | [CVE-2024-13161](https://www.cve.org/CVERecord?id=CVE-2024-13161) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.898 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-20127](https://www.cve.org/CVERecord?id=CVE-2026-20127) |  | KEV | ✅ | ✅ | 2026-02-27 | 0.876 | 10.0 |  | A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vMana… |
+| [CVE-2026-9082](https://www.cve.org/CVERecord?id=CVE-2026-9082) |  | KEV | ✅ | ✅ | 2026-05-27 | 0.894 | 9.8 |  | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Drupal Drupal core allows SQL Injection.  This issue affe… |
 
 ## Recent Changes (Last 7 Days)
 
