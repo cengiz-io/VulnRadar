@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-23T09:02:28+00:00`
+Generated: `2026-11-23T21:23:21+00:00`
 
 ## Executive Summary
 
@@ -38,10 +38,10 @@ Top critical items:
 
 ## Summary
 
-- Total items: **20154**
+- Total items: **20156**
 - Watchlist hits: **19301**
-- CISA KEVs: **870**
-- Exploit Intel (PoC): **887**
+- CISA KEVs: **872**
+- Exploit Intel (PoC): **888**
 - Exploit Intel + Watchlist (CRITICAL): **34**
 
 ## Top Findings (max 200)
@@ -232,12 +232,12 @@ Top critical items:
 | [CVE-2022-26258](https://www.cve.org/CVERecord?id=CVE-2022-26258) |  | KEV | ✅ | ✅ | 2022-09-29 | 0.916 | 9.8 |  | D-Link DIR-820L 1.05B03 was discovered to contain remote command execution (RCE) vulnerability via HTTP POST to get set ccp. |
 | [CVE-2026-93616](https://www.cve.org/CVERecord?id=CVE-2026-93616) |  | KEV | ✅ | ✅ | 2026-09-25 | 0.916 | 9.8 |  | A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server. |
 | [CVE-2026-23760](https://www.cve.org/CVERecord?id=CVE-2026-23760) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.964 | 9.3 |  | SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoi… |
+| [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.914 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2022-26352](https://www.cve.org/CVERecord?id=CVE-2022-26352) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.912 | 9.8 |  | An issue was discovered in the ContentResource API in dotCMS 3.0 through 22.02. Attackers can craft a multipart form request to post a file whose filename is n… |
 | [CVE-2024-13160](https://www.cve.org/CVERecord?id=CVE-2024-13160) |  | KEV | ✅ | ✅ | 2025-03-31 | 0.910 | 9.8 |  | Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated at… |
 | [CVE-2026-34908](https://www.cve.org/CVERecord?id=CVE-2026-34908) |  | KEV | ✅ | ✅ | 2026-06-26 | 0.889 | 10.0 |  | A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi OS devices to make unauthorized changes to t… |
 | [CVE-2026-21643](https://www.cve.org/CVERecord?id=CVE-2026-21643) |  | KEV | ✅ | ✅ | 2026-04-16 | 0.977 | 9.1 |  | An improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiClientEMS 7.4.4 may allow an unauthentic… |
 | [CVE-2026-20079](https://www.cve.org/CVERecord?id=CVE-2026-20079) |  | KEV | ✅ | ✅ | 2026-09-12 | 0.887 | 10.0 |  | A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authen… |
-| [CVE-2025-26399](https://www.cve.org/CVERecord?id=CVE-2025-26399) |  | KEV | ✅ | ✅ | 2026-03-12 | 0.906 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, wo… |
 | [CVE-2026-48908](https://www.cve.org/CVERecord?id=CVE-2026-48908) |  | KEV | ✅ | ✅ | 2026-07-10 | 0.884 | 10.0 |  | A vulnerability in SP Page Builder for Joomla allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code. |
 | [CVE-2024-40711](https://www.cve.org/CVERecord?id=CVE-2024-40711) |  | KEV | ✅ | ✅ | 2024-11-07 | 0.904 | 9.8 |  | A deserialization of untrusted data vulnerability with a malicious payload can allow an unauthenticated remote code execution (RCE). |
 | [CVE-2025-54068](https://www.cve.org/CVERecord?id=CVE-2025-54068) |  | KEV | ✅ | ✅ | 2026-04-03 | 0.963 | 9.2 |  | Livewire is a full-stack framework for Laravel. In Livewire v3 up to and including v3.6.3, a vulnerability allows unauthenticated attackers to achieve remote c… |
