@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:23:18+00:00",
+  "generated_at": "2026-11-24T06:02:56+00:00",
   "vendor": "red_hat",
   "count": 526,
   "items": [
@@ -91262,6 +91262,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "10:2.12.0-48.el7_9.3",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -91443,11 +91455,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7",
           "versions": null
         },
         {
