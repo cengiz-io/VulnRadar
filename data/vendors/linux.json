@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:22:46+00:00",
+  "generated_at": "2026-11-25T12:43:17+00:00",
   "vendor": "linux",
   "count": 18112,
   "items": [
@@ -188718,7 +188718,7 @@
           "CWE-416"
         ],
         "cpe_count": 2,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -280670,7 +280670,7 @@
         "cwe_ids": [
           "CWE-120"
         ],
-        "cpe_count": 8,
+        "cpe_count": 9,
         "reference_count": 6
       }
     },
@@ -403095,7 +403095,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 2
       }
     },
     {
@@ -449908,7 +449908,7 @@
           "CWE-787"
         ],
         "cpe_count": 3,
-        "reference_count": 7
+        "reference_count": 9
       }
     },
     {
@@ -467225,7 +467225,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 6,
-        "reference_count": 6
+        "reference_count": 9
       }
     },
     {
@@ -594040,7 +594040,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 4,
-        "reference_count": 11
+        "reference_count": 12
       }
     },
     {
@@ -666018,7 +666018,7 @@
           "CWE-670"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
@@ -715498,7 +715498,7 @@
           "CWE-770"
         ],
         "cpe_count": 9,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -881538,7 +881538,7 @@
           "CWE-120"
         ],
         "cpe_count": 2,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -977801,7 +977801,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 4,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -1020596,7 +1020596,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 7
       }
     },
     {
@@ -1020719,7 +1020719,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1030062,7 +1030062,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1108727,7 +1108727,7 @@
           "CWE-667"
         ],
         "cpe_count": 1,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -1139230,7 +1139230,7 @@
           "CWE-416"
         ],
         "cpe_count": 5,
-        "reference_count": 11
+        "reference_count": 13
       }
     },
     {
@@ -1152256,7 +1152256,7 @@
           "CWE-362"
         ],
         "cpe_count": 14,
-        "reference_count": 11
+        "reference_count": 12
       }
     },
     {
@@ -1168039,7 +1168039,7 @@
           "CWE-770"
         ],
         "cpe_count": 8,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1205405,7 +1205405,7 @@
           "CWE-787"
         ],
         "cpe_count": 10,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1205827,7 +1205827,7 @@
           "CWE-362"
         ],
         "cpe_count": 10,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1209441,7 +1209441,7 @@
           "CWE-787"
         ],
         "cpe_count": 6,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1295932,7 +1295932,7 @@
           "CWE-416"
         ],
         "cpe_count": 6,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1323790,7 +1323790,7 @@
           "CWE-667"
         ],
         "cpe_count": 11,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -1361480,7 +1361480,7 @@
           "CWE-193"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1397113,7 +1397113,7 @@
           "CWE-125"
         ],
         "cpe_count": 8,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1402377,7 +1402377,7 @@
           "CWE-125"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1413184,7 +1413184,7 @@
           "CWE-20"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1413334,7 +1413334,7 @@
           "CWE-20"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1413483,7 +1413483,7 @@
           "CWE-20"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1427707,7 +1427707,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 10,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1506239,7 +1506239,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1512994,7 +1512994,7 @@
           "CWE-476"
         ],
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1545649,7 +1545649,7 @@
           "CWE-416"
         ],
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1574526,7 +1574526,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1594718,7 +1594718,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1611139,7 +1611139,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -1611232,7 +1611232,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -1689332,7 +1689332,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 6
       }
     },
     {
@@ -1707793,7 +1707793,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
@@ -1750961,7 +1750961,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1753993,7 +1753993,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -1755368,7 +1755368,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1755519,7 +1755519,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1764730,7 +1764730,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -1776164,7 +1776164,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -1782821,7 +1782821,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1799475,7 +1799475,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1799727,7 +1799727,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -1812659,7 +1812659,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1839063,7 +1839063,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1862024,7 +1862024,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -1886655,7 +1886655,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1917398,7 +1917398,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1923994,7 +1923994,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1925199,7 +1925199,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1926507,7 +1926507,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1927999,7 +1927999,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1928540,7 +1928540,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1929107,7 +1929107,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1930355,7 +1930355,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1930478,7 +1930478,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1949906,7 +1949906,7 @@
           "CWE-362"
         ],
         "cpe_count": 5,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1950204,7 +1950204,7 @@
           "CWE-416"
         ],
         "cpe_count": 2,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -1957058,7 +1957058,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1957269,7 +1957269,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1957392,7 +1957392,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1957515,7 +1957515,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1957713,7 +1957713,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1957836,7 +1957836,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1958094,7 +1958094,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1962216,7 +1962216,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1962736,7 +1962736,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1963402,7 +1963402,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1964083,7 +1964083,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1966388,7 +1966388,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1967200,7 +1967200,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1967902,7 +1967902,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1968722,7 +1968722,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1974284,7 +1974284,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 8
       }
     },
     {
@@ -1978765,7 +1978765,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 5
       }
     },
     {
@@ -1982927,7 +1982927,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1988445,7 +1988445,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1988817,7 +1988817,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -1989853,7 +1989853,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1990270,7 +1990270,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1991151,7 +1991151,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -1992134,7 +1992134,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1992784,7 +1992784,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -1996666,7 +1996666,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1996900,7 +1996900,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -1997023,7 +1997023,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -1999315,7 +1999315,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2001097,7 +2001097,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2005181,7 +2005181,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 5
       }
     },
     {
@@ -2015678,7 +2015678,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2017684,7 +2017684,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2017830,7 +2017830,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2017986,7 +2017986,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2018121,7 +2018121,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2020897,7 +2020897,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -2021793,7 +2021793,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2021916,7 +2021916,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2022461,7 +2022461,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2024075,7 +2024075,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2024579,7 +2024579,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2031074,7 +2031074,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2038469,7 +2038469,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2038604,7 +2038604,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2039413,7 +2039413,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2039909,7 +2039909,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2052224,7 +2052224,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2053578,7 +2053578,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2057439,7 +2057439,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2058078,7 +2058078,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2064323,7 +2064323,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2065623,7 +2065623,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2065746,7 +2065746,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2066163,7 +2066163,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2068085,7 +2068085,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2069654,7 +2069654,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2071043,7 +2071043,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -2072509,7 +2072509,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2075552,7 +2075552,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2076295,7 +2076295,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2080493,7 +2080493,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 9
       }
     },
     {
@@ -2080787,7 +2080787,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 9
       }
     },
     {
@@ -2082622,7 +2082622,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 9
       }
     },
     {
@@ -2085910,7 +2085910,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 6
       }
     },
     {
@@ -2086057,7 +2086057,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2086204,7 +2086204,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2086339,7 +2086339,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2086486,7 +2086486,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2087162,7 +2087162,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2087309,7 +2087309,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2087466,7 +2087466,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 7
       }
     },
     {
@@ -2087613,7 +2087613,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 8
       }
     },
     {
@@ -2087966,7 +2087966,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 10
       }
     },
     {
@@ -2088113,7 +2088113,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 10
       }
     },
     {
@@ -2088262,7 +2088262,7 @@
           "CWE-362"
         ],
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 11
       }
     },
     {
@@ -2088454,7 +2088454,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2088675,7 +2088675,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2088948,7 +2088948,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2089095,7 +2089095,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2089242,7 +2089242,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2089389,7 +2089389,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2089536,7 +2089536,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2089683,7 +2089683,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2089929,7 +2089929,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2090076,7 +2090076,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2090223,7 +2090223,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2090370,7 +2090370,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2090505,7 +2090505,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2090616,7 +2090616,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2090763,7 +2090763,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2090926,7 +2090926,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2091073,7 +2091073,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2091201,7 +2091201,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2091353,7 +2091353,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2091646,7 +2091646,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2091793,7 +2091793,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2091940,7 +2091940,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2092087,7 +2092087,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2092234,7 +2092234,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2092369,7 +2092369,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2092516,7 +2092516,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2092812,7 +2092812,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2092947,7 +2092947,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2093244,7 +2093244,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2093385,7 +2093385,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2093577,7 +2093577,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2093724,7 +2093724,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2093929,7 +2093929,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2094064,7 +2094064,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2094199,7 +2094199,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2094723,7 +2094723,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2094945,7 +2094945,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2095179,7 +2095179,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2095326,7 +2095326,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2095473,7 +2095473,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2095608,7 +2095608,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2095755,7 +2095755,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2095902,7 +2095902,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2096159,7 +2096159,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2096306,7 +2096306,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2096453,7 +2096453,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2096600,7 +2096600,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2096747,7 +2096747,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2096916,7 +2096916,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2097061,7 +2097061,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2097208,7 +2097208,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2097355,7 +2097355,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2097700,7 +2097700,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2097847,7 +2097847,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2097994,7 +2097994,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2098240,7 +2098240,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2098387,7 +2098387,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2098534,7 +2098534,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2098699,7 +2098699,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2098927,7 +2098927,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2099074,7 +2099074,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2099494,7 +2099494,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2099629,7 +2099629,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2099776,7 +2099776,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2099923,7 +2099923,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2100070,7 +2100070,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2100343,7 +2100343,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2100586,7 +2100586,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2100733,7 +2100733,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2100867,7 +2100867,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2101014,7 +2101014,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2101183,7 +2101183,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2101318,7 +2101318,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2101936,7 +2101936,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2102083,7 +2102083,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2102428,7 +2102428,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2102575,7 +2102575,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2102890,7 +2102890,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2103037,7 +2103037,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2103916,7 +2103916,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2104039,7 +2104039,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2104162,7 +2104162,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2104309,7 +2104309,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2104495,7 +2104495,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2104675,7 +2104675,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2104822,7 +2104822,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2104969,7 +2104969,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2105209,7 +2105209,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2105356,7 +2105356,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2105503,7 +2105503,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2105650,7 +2105650,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2105797,7 +2105797,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2105977,7 +2105977,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2106124,7 +2106124,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2106271,7 +2106271,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2106418,7 +2106418,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2106576,7 +2106576,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2106723,7 +2106723,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2106870,7 +2106870,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2107017,7 +2107017,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2107146,7 +2107146,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2107275,7 +2107275,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2107404,7 +2107404,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2107551,7 +2107551,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2107680,7 +2107680,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2107809,7 +2107809,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2107932,7 +2107932,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2108456,7 +2108456,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2108690,7 +2108690,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2108837,7 +2108837,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2109023,7 +2109023,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2109158,7 +2109158,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2109305,7 +2109305,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2109452,7 +2109452,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2109599,7 +2109599,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2109746,7 +2109746,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2110106,7 +2110106,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2110229,7 +2110229,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2110526,7 +2110526,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2110661,7 +2110661,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2110784,7 +2110784,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2111012,7 +2111012,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2111159,7 +2111159,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2111306,7 +2111306,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2111441,7 +2111441,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2111762,7 +2111762,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2111909,7 +2111909,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2112305,7 +2112305,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2112561,7 +2112561,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2112771,7 +2112771,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2112918,7 +2112918,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2113314,7 +2113314,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2113461,7 +2113461,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2113608,7 +2113608,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2113766,7 +2113766,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2113913,7 +2113913,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2114166,7 +2114166,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2114388,7 +2114388,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2114535,7 +2114535,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2115136,7 +2115136,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2115370,7 +2115370,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2115481,7 +2115481,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2115661,7 +2115661,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2115772,7 +2115772,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2115919,7 +2115919,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2116066,7 +2116066,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2116213,7 +2116213,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2116348,7 +2116348,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2116495,7 +2116495,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2116630,7 +2116630,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2116876,7 +2116876,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2117347,7 +2117347,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2117719,7 +2117719,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2117866,7 +2117866,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2118100,7 +2118100,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2118247,7 +2118247,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2118469,7 +2118469,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2118604,7 +2118604,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2118837,7 +2118837,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2118995,7 +2118995,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2119216,7 +2119216,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2119351,7 +2119351,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2119515,7 +2119515,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2119638,7 +2119638,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2119755,7 +2119755,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2120001,7 +2120001,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2120148,7 +2120148,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2120259,7 +2120259,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2120406,7 +2120406,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2120553,7 +2120553,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2120700,7 +2120700,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2120847,7 +2120847,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2120994,7 +2120994,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2121141,7 +2121141,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2121264,7 +2121264,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2121498,7 +2121498,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2121680,7 +2121680,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2121803,7 +2121803,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2121950,7 +2121950,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2122090,7 +2122090,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2122387,7 +2122387,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 7
       }
     },
     {
@@ -2122806,7 +2122806,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 8
       }
     },
     {
@@ -2122953,7 +2122953,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2123100,7 +2123100,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2123223,7 +2123223,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2123370,7 +2123370,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2123785,7 +2123785,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2123932,7 +2123932,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2124067,7 +2124067,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2124277,7 +2124277,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2124388,7 +2124388,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2124499,7 +2124499,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2124875,7 +2124875,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2125022,7 +2125022,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2125418,7 +2125418,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2125565,7 +2125565,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2125712,7 +2125712,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2125859,7 +2125859,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2126006,7 +2126006,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2126240,7 +2126240,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2126398,7 +2126398,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2126485,7 +2126485,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2126602,7 +2126602,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2126719,7 +2126719,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2126866,7 +2126866,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2127013,7 +2127013,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2127233,7 +2127233,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2127344,7 +2127344,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2127491,7 +2127491,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2127626,7 +2127626,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2127784,7 +2127784,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2128006,7 +2128006,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2128117,7 +2128117,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2128264,7 +2128264,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2128411,7 +2128411,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2128558,7 +2128558,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2128705,7 +2128705,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2128956,7 +2128956,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2129067,7 +2129067,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2129313,7 +2129313,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2129460,7 +2129460,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2129607,7 +2129607,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2129718,7 +2129718,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2129865,7 +2129865,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2130336,7 +2130336,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2130681,7 +2130681,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2130816,7 +2130816,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2131100,7 +2131100,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 5
       }
     },
     {
@@ -2131247,7 +2131247,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2131358,7 +2131358,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2131487,7 +2131487,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2131609,7 +2131609,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -2131756,7 +2131756,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2131903,7 +2131903,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2132350,7 +2132350,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -2132473,7 +2132473,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 6
       }
     },
     {
@@ -2132695,7 +2132695,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2133103,7 +2133103,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2133250,7 +2133250,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2133337,7 +2133337,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2133629,7 +2133629,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2133776,7 +2133776,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2133923,7 +2133923,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2134070,7 +2134070,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2134217,7 +2134217,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2134364,7 +2134364,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2134475,7 +2134475,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 5
       }
     },
     {
@@ -2134628,7 +2134628,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2134781,7 +2134781,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2135497,7 +2135497,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2135644,7 +2135644,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2135791,7 +2135791,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2135938,7 +2135938,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2136113,7 +2136113,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2136236,7 +2136236,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 6
       }
     },
     {
@@ -2136383,7 +2136383,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 8
       }
     },
     {
@@ -2136640,7 +2136640,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2136787,7 +2136787,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2136874,7 +2136874,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2137021,7 +2137021,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2137307,7 +2137307,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 8
       }
     },
     {
@@ -2137442,7 +2137442,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2137589,7 +2137589,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2137736,7 +2137736,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2137945,7 +2137945,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 5
       }
     },
     {
@@ -2138092,7 +2138092,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2138239,7 +2138239,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2138397,7 +2138397,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2138544,7 +2138544,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2138691,7 +2138691,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2138838,7 +2138838,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2138985,7 +2138985,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2139132,7 +2139132,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2139279,7 +2139279,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2139390,7 +2139390,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2139501,7 +2139501,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 5
       }
     },
     {
@@ -2139954,7 +2139954,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 6
       }
     },
     {
@@ -2140065,7 +2140065,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2140251,7 +2140251,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -2140374,7 +2140374,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2140666,7 +2140666,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2140813,7 +2140813,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2140982,7 +2140982,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2141129,7 +2141129,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2141276,7 +2141276,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2141536,7 +2141536,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -2141671,7 +2141671,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2141794,7 +2141794,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2141941,7 +2141941,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2142040,7 +2142040,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -2142175,7 +2142175,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2142400,7 +2142400,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2142546,7 +2142546,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2142911,7 +2142911,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2143121,7 +2143121,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 7
       }
     },
     {
@@ -2143256,7 +2143256,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2143414,7 +2143414,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2143561,7 +2143561,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2143783,7 +2143783,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2143906,7 +2143906,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2144029,7 +2144029,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 6
       }
     },
     {
@@ -2144227,7 +2144227,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2144473,7 +2144473,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2144584,7 +2144584,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2144731,7 +2144731,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2144866,7 +2144866,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2145013,7 +2145013,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2145187,7 +2145187,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2145390,7 +2145390,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 5
       }
     },
     {
@@ -2145525,7 +2145525,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 7
       }
     },
     {
@@ -2145660,7 +2145660,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 7
       }
     },
     {
@@ -2145807,7 +2145807,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2145918,7 +2145918,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2146029,7 +2146029,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2146176,7 +2146176,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2146422,7 +2146422,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 8
       }
     },
     {
@@ -2146569,7 +2146569,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2146716,7 +2146716,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2146863,7 +2146863,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2147010,7 +2147010,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2147157,7 +2147157,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2147403,7 +2147403,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2147550,7 +2147550,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2147763,7 +2147763,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 8
       }
     },
     {
@@ -2148071,7 +2148071,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2148305,7 +2148305,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2148452,7 +2148452,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2148674,7 +2148674,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2148821,7 +2148821,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2148968,7 +2148968,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2149918,7 +2149918,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2150065,7 +2150065,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2150212,7 +2150212,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2150434,7 +2150434,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2150766,7 +2150766,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2150988,7 +2150988,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2151135,7 +2151135,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {
@@ -2151345,7 +2151345,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2151468,7 +2151468,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2151678,7 +2151678,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 6
       }
     },
     {
@@ -2152143,7 +2152143,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 8
       }
     },
     {

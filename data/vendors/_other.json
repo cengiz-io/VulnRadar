@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:22:46+00:00",
+  "generated_at": "2026-11-25T12:43:17+00:00",
   "vendor": "_other",
   "count": 1275,
   "items": [
@@ -79501,7 +79501,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00441
+      "probability_score": 0.00441,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-470"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -95686,8 +95697,8 @@
           "CWE-824",
           "CWE-1325"
         ],
-        "cpe_count": 317,
-        "reference_count": 12
+        "cpe_count": 323,
+        "reference_count": 13
       }
     },
     {
@@ -95758,8 +95769,8 @@
           "CWE-824",
           "CWE-1325"
         ],
-        "cpe_count": 317,
-        "reference_count": 19
+        "cpe_count": 323,
+        "reference_count": 20
       }
     },
     {
@@ -103395,15 +103406,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.7,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-918"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 1,
+        "reference_count": 2
       }
     },
     {
@@ -105590,7 +105601,7 @@
           "CWE-140"
         ],
         "cpe_count": 1,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -106448,15 +106459,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-502"
         ],
-        "cpe_count": 0,
-        "reference_count": 2
+        "cpe_count": 2,
+        "reference_count": 3
       }
     },
     {
@@ -106499,15 +106510,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.7,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-642"
         ],
-        "cpe_count": 0,
-        "reference_count": 11
+        "cpe_count": 1,
+        "reference_count": 12
       }
     },
     {
@@ -106557,8 +106568,8 @@
         "cwe_ids": [
           "CWE-24"
         ],
-        "cpe_count": 0,
-        "reference_count": 5
+        "cpe_count": 1,
+        "reference_count": 6
       }
     },
     {

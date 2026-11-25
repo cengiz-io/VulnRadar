@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-25T02:22:48+00:00`
+Generated: `2026-11-25T12:43:19+00:00`
 
 ## Executive Summary
 
@@ -253,6 +253,13 @@ Top critical items:
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Nov 25 | [CVE-2026-134880](https://www.cve.org/CVERecord?id=CVE-2026-134880) | 🆕 New |
+| Nov 25 | [CVE-2026-131914](https://www.cve.org/CVERecord?id=CVE-2026-131914) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-132224](https://www.cve.org/CVERecord?id=CVE-2026-132224) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-1529](https://www.cve.org/CVERecord?id=CVE-2026-1529) | 🆕 New |
+| Nov 25 | [CVE-2026-2092](https://www.cve.org/CVERecord?id=CVE-2026-2092) | 🆕 New |
+| Nov 25 | [CVE-2026-2603](https://www.cve.org/CVERecord?id=CVE-2026-2603) | 🆕 New |
+| Nov 25 | [CVE-2026-3634](https://www.cve.org/CVERecord?id=CVE-2026-3634) | 🆕 New |
 | Nov 23 | [CVE-2026-134624](https://www.cve.org/CVERecord?id=CVE-2026-134624) | 🔴 In CISA KEV |
 | Nov 23 | [CVE-2026-133968](https://www.cve.org/CVERecord?id=CVE-2026-133968) | 🔴 In CISA KEV |
 | Nov 22 | [CVE-2022-4998](https://www.cve.org/CVERecord?id=CVE-2022-4998) | 🆕 New |
@@ -296,11 +303,4 @@ Top critical items:
 | Nov 21 | [CVE-2026-99595](https://www.cve.org/CVERecord?id=CVE-2026-99595) | 🆕 New |
 | Nov 21 | [CVE-2026-99596](https://www.cve.org/CVERecord?id=CVE-2026-99596) | 🆕 New |
 | Nov 21 | [CVE-2026-99597](https://www.cve.org/CVERecord?id=CVE-2026-99597) | 🆕 New |
-| Nov 21 | [CVE-2026-99598](https://www.cve.org/CVERecord?id=CVE-2026-99598) | 🆕 New |
-| Nov 21 | [CVE-2026-99599](https://www.cve.org/CVERecord?id=CVE-2026-99599) | 🆕 New |
-| Nov 21 | [CVE-2026-99600](https://www.cve.org/CVERecord?id=CVE-2026-99600) | 🆕 New |
-| Nov 21 | [CVE-2026-99601](https://www.cve.org/CVERecord?id=CVE-2026-99601) | 🆕 New |
-| Nov 21 | [CVE-2026-99602](https://www.cve.org/CVERecord?id=CVE-2026-99602) | 🆕 New |
-| Nov 21 | [CVE-2026-99603](https://www.cve.org/CVERecord?id=CVE-2026-99603) | 🆕 New |
-| Nov 21 | [CVE-2026-99604](https://www.cve.org/CVERecord?id=CVE-2026-99604) | 🆕 New |
-| ... | | _and 485 more_ |
+| ... | | _and 490 more_ |
