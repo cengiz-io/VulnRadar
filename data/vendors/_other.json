@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:04:20+00:00",
+  "generated_at": "2026-11-26T15:08:26+00:00",
   "vendor": "_other",
   "count": 1292,
   "items": [
@@ -3626,7 +3626,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03299,
+      "probability_score": 0.04048,
       "kev": {
         "cveID": "CVE-2022-40799",
         "vendorProject": "D-Link",
@@ -49574,7 +49574,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00248,
+      "probability_score": 0.00265,
       "kev": {
         "cveID": "CVE-2026-21385",
         "vendorProject": "Qualcomm",
@@ -54276,7 +54276,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.72378,
+      "probability_score": 0.99999,
       "kev": {
         "cveID": "CVE-2023-4966",
         "vendorProject": "Citrix",
@@ -58364,7 +58364,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00383
     },
     {
       "cve_id": "CVE-2022-50996",
@@ -58393,7 +58393,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00373
     },
     {
       "cve_id": "CVE-2023-0330",
@@ -79599,7 +79599,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00442,
+      "probability_score": 0.01361,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -79639,7 +79639,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00418
     },
     {
       "cve_id": "CVE-2026-136795",
@@ -79668,7 +79668,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00299
     },
     {
       "cve_id": "CVE-2026-136796",
@@ -79697,7 +79697,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00299
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -83925,7 +83925,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00341
     },
     {
       "cve_id": "CVE-2026-92288",
@@ -86110,7 +86110,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.33742,
+      "probability_score": 0.99234,
       "kev": {
         "cveID": "CVE-2023-34048",
         "vendorProject": "VMware",
@@ -86908,7 +86908,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01078,
+      "probability_score": 0.01845,
       "kev": {
         "cveID": "CVE-2023-25914",
         "vendorProject": "Danfoss",
@@ -86957,7 +86957,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01431,
+      "probability_score": 0.02485,
       "kev": {
         "cveID": "CVE-2023-25915",
         "vendorProject": "Danfoss",
@@ -87008,7 +87008,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00513,
+      "probability_score": 0.04271,
       "kev": {
         "cveID": "CVE-2025-41450",
         "vendorProject": "Danfoss",
@@ -89765,7 +89765,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0086,
+      "probability_score": 0.01535,
       "kev": {
         "cveID": "CVE-2026-103406",
         "vendorProject": "Hewlett Packard Enterprise (HPE)",
@@ -93109,7 +93109,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.1184,
+      "probability_score": 0.74315,
       "kev": {
         "cveID": "CVE-2026-97229",
         "vendorProject": "GitLab",
@@ -94889,7 +94889,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.80106,
+      "probability_score": 0.78945,
       "kev": {
         "cveID": "CVE-2026-16232",
         "vendorProject": "Check Point",
@@ -100044,7 +100044,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13481,
+      "probability_score": 0.14017,
       "kev": {
         "cveID": "CVE-2025-32463",
         "vendorProject": "Sudo",
@@ -106006,7 +106006,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01351,
+      "probability_score": 0.10202,
       "kev": {
         "cveID": "CVE-2026-114713",
         "vendorProject": "UnrealIRCd",
@@ -106923,7 +106923,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00784,
+      "probability_score": 0.01055,
       "kev": {
         "cveID": "CVE-2026-132224",
         "vendorProject": "Optimizely",
@@ -106974,7 +106974,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00315,
+      "probability_score": 0.00771,
       "kev": {
         "cveID": "CVE-2026-133275",
         "vendorProject": "Mitel",
@@ -107025,7 +107025,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00515,
+      "probability_score": 0.01326,
       "kev": {
         "cveID": "CVE-2026-133303",
         "vendorProject": "Mitel",
@@ -107076,7 +107076,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00396,
+      "probability_score": 0.00985,
       "kev": {
         "cveID": "CVE-2026-133311",
         "vendorProject": "Mitel",
@@ -107127,7 +107127,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02546,
+      "probability_score": 0.05628,
       "kev": {
         "cveID": "CVE-2026-133323",
         "vendorProject": "Mitel",
@@ -107178,7 +107178,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00414,
+      "probability_score": 0.00832,
       "kev": {
         "cveID": "CVE-2026-133324",
         "vendorProject": "Mitel",
@@ -107245,7 +107245,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01101,
+      "probability_score": 0.31768,
       "kev": {
         "cveID": "CVE-2026-133469",
         "vendorProject": "Vates",
@@ -107673,7 +107673,7 @@
         "vendor:vda-linux"
       ],
       "active_threat": false,
-      "probability_score": 0.0062,
+      "probability_score": 0.00637,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -109046,7 +109046,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.44263,
+      "probability_score": 0.44988,
       "kev": {
         "cveID": "CVE-2026-39987",
         "vendorProject": "Marimo",
