@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-25T22:33:43+00:00`
+Generated: `2026-11-26T05:04:23+00:00`
 
 ## Executive Summary
 
@@ -28,21 +28,21 @@ Top critical items:
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | 0.007 | 5.5 | 2025-03-25 | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Sinc… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | 0.018 | 5.3 | 2024-07-17 | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-… |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | 0.672 | 8.1 |  | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated qu… |
+| [CVE-2026-4631](https://www.cve.org/CVERecord?id=CVE-2026-4631) | 0.136 | 9.8 |  | Cockpit's remote login feature passes user-supplied hostnames and usernames from the web interface to the SSH client wi… |
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | 0.128 | 9.8 |  | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP S… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.054 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | 0.067 | 8.6 |  | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in t… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.053 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | 0.025 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb fr… |
 | [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | 0.005 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through … |
-| [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | 0.040 | 8.1 |  | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access admini… |
 
 ## Summary
 
-- Total items: **20173**
-- Watchlist hits: **19306**
+- Total items: **20220**
+- Watchlist hits: **19353**
 - CISA KEVs: **884**
-- Exploit Intel (PoC): **892**
-- Exploit Intel + Watchlist (CRITICAL): **33**
+- Exploit Intel (PoC): **901**
+- Exploit Intel + Watchlist (CRITICAL): **34**
 
 ## Top Findings (max 200)
 
@@ -66,6 +66,7 @@ Top critical items:
 | [CVE-2024-50302](https://www.cve.org/CVERecord?id=CVE-2024-50302) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-25 | 0.007 | 5.5 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  HID: core: zero-initialize the report buffer  Since the report buffer is used by all kinds… |
 | [CVE-2022-2586](https://www.cve.org/CVERecord?id=CVE-2022-2586) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-17 | 0.018 | 5.3 | ✅ | It was discovered that a nft object or expression could reference a nft set on a different nft table, leading to a use-after-free once that table was deleted. |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.672 | 8.1 | ✅ | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the ca… |
+| [CVE-2026-4631](https://www.cve.org/CVERecord?id=CVE-2026-4631) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.136 | 9.8 | ✅ | Cockpit's remote login feature passes user-supplied hostnames and usernames from the web interface to the SSH client without validation or sanitization. An att… |
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.128 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.054 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.067 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2026-0770](https://www.cve.org/CVERecord?id=CVE-2026-0770) |  | KEV | ✅ | ✅ | 2026-07-24 | 0.409 | 9.8 |  | Langflow exec_globals Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability. This vulnerability allows remote attackers … |
 | [CVE-2026-39808](https://www.cve.org/CVERecord?id=CVE-2026-39808) |  | KEV | ✅ | ✅ | 2026-07-19 | 0.474 | 9.1 |  | A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiSandbox 4.4.0 through 4.4.8 may all… |
 | [CVE-2023-23752](https://www.cve.org/CVERecord?id=CVE-2023-23752) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.848 | 5.3 |  | An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints. |
-| [CVE-2023-21839](https://www.cve.org/CVERecord?id=CVE-2023-21839) |  | KEV | ✅ | ✅ | 2023-05-22 | 0.626 | 7.5 |  | Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1… |
 
 ## Recent Changes (Last 7 Days)
 
@@ -260,6 +260,16 @@ Top critical items:
 | Nov 25 | [CVE-2026-2092](https://www.cve.org/CVERecord?id=CVE-2026-2092) | 🆕 New |
 | Nov 25 | [CVE-2026-2603](https://www.cve.org/CVERecord?id=CVE-2026-2603) | 🆕 New |
 | Nov 25 | [CVE-2026-3634](https://www.cve.org/CVERecord?id=CVE-2026-3634) | 🆕 New |
+| Nov 25 | [CVE-2023-25914](https://www.cve.org/CVERecord?id=CVE-2023-25914) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2023-25915](https://www.cve.org/CVERecord?id=CVE-2023-25915) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2025-41450](https://www.cve.org/CVERecord?id=CVE-2025-41450) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-103406](https://www.cve.org/CVERecord?id=CVE-2026-103406) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-133275](https://www.cve.org/CVERecord?id=CVE-2026-133275) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-133303](https://www.cve.org/CVERecord?id=CVE-2026-133303) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-133311](https://www.cve.org/CVERecord?id=CVE-2026-133311) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-133323](https://www.cve.org/CVERecord?id=CVE-2026-133323) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-133324](https://www.cve.org/CVERecord?id=CVE-2026-133324) | 🔴 In CISA KEV |
+| Nov 25 | [CVE-2026-133469](https://www.cve.org/CVERecord?id=CVE-2026-133469) | 🔴 In CISA KEV |
 | Nov 23 | [CVE-2026-134624](https://www.cve.org/CVERecord?id=CVE-2026-134624) | 🔴 In CISA KEV |
 | Nov 23 | [CVE-2026-133968](https://www.cve.org/CVERecord?id=CVE-2026-133968) | 🔴 In CISA KEV |
 | Nov 22 | [CVE-2022-4998](https://www.cve.org/CVERecord?id=CVE-2022-4998) | 🆕 New |
@@ -293,14 +303,4 @@ Top critical items:
 | Nov 21 | [CVE-2026-99585](https://www.cve.org/CVERecord?id=CVE-2026-99585) | 🆕 New |
 | Nov 21 | [CVE-2026-99586](https://www.cve.org/CVERecord?id=CVE-2026-99586) | 🆕 New |
 | Nov 21 | [CVE-2026-99587](https://www.cve.org/CVERecord?id=CVE-2026-99587) | 🆕 New |
-| Nov 21 | [CVE-2026-99588](https://www.cve.org/CVERecord?id=CVE-2026-99588) | 🆕 New |
-| Nov 21 | [CVE-2026-99589](https://www.cve.org/CVERecord?id=CVE-2026-99589) | 🆕 New |
-| Nov 21 | [CVE-2026-99590](https://www.cve.org/CVERecord?id=CVE-2026-99590) | 🆕 New |
-| Nov 21 | [CVE-2026-99591](https://www.cve.org/CVERecord?id=CVE-2026-99591) | 🆕 New |
-| Nov 21 | [CVE-2026-99592](https://www.cve.org/CVERecord?id=CVE-2026-99592) | 🆕 New |
-| Nov 21 | [CVE-2026-99593](https://www.cve.org/CVERecord?id=CVE-2026-99593) | 🆕 New |
-| Nov 21 | [CVE-2026-99594](https://www.cve.org/CVERecord?id=CVE-2026-99594) | 🆕 New |
-| Nov 21 | [CVE-2026-99595](https://www.cve.org/CVERecord?id=CVE-2026-99595) | 🆕 New |
-| Nov 21 | [CVE-2026-99596](https://www.cve.org/CVERecord?id=CVE-2026-99596) | 🆕 New |
-| Nov 21 | [CVE-2026-99597](https://www.cve.org/CVERecord?id=CVE-2026-99597) | 🆕 New |
-| ... | | _and 486 more_ |
+| ... | | _and 487 more_ |

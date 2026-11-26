@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T22:33:40+00:00",
+  "generated_at": "2026-11-26T05:04:20+00:00",
   "vendor": "linux",
-  "count": 18112,
+  "count": 18117,
   "items": [
     {
       "cve_id": "CVE-2022-0742",
@@ -784670,25 +784670,25 @@
           "product": "linux",
           "versions": [
             {
-              "version": "1dd728f5d4d4b8b53196c1e0fcf86bbaaee39cef",
+              "version": "c30508bb0b4b64780dc219190d54cab13cc3f8ef",
               "lessThan": "60d2fb033a999bb644f8e8606ff4a1b82de36c6f",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1dd728f5d4d4b8b53196c1e0fcf86bbaaee39cef",
+              "version": "1d08326020fba690cbb7b8f1b38ab4eab6745969",
               "lessThan": "9b0063098fcde17cd2894f2c96459b23388507ca",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1dd728f5d4d4b8b53196c1e0fcf86bbaaee39cef",
+              "version": "1d08326020fba690cbb7b8f1b38ab4eab6745969",
               "lessThan": "fc84dd3c909a372c0d130f5f84c404717c17eed8",
               "status": "affected",
               "versionType": "git"
             },
             {
-              "version": "1dd728f5d4d4b8b53196c1e0fcf86bbaaee39cef",
+              "version": "1d08326020fba690cbb7b8f1b38ab4eab6745969",
               "lessThan": "b75439c945b94dd8a2b645355bdb56f948052601",
               "status": "affected",
               "versionType": "git"
@@ -784700,18 +784700,12 @@
           "product": "linux",
           "versions": [
             {
-              "version": "5.0",
+              "version": "6.10",
               "status": "affected"
             },
             {
               "version": "0",
-              "lessThan": "5.0",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "6.6.76",
-              "lessThanOrEqual": "6.6.*",
+              "lessThan": "6.10",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -1915479,105 +1915473,6 @@
       }
     },
     {
-      "cve_id": "CVE-2026-97547",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN\n\nWhen exchanging two full-file ranges, xmi_can_exchange_reflink_flags()\ncan move the reflink inode flag from the file that currently has it to\nthe other file, as long as exactly one side is marked.  This assumes\nthat the file contents, and therefore all shared extents, are exchanged.\n\nThat assumption is not true when XFS_EXCHMAPS_INO1_WRITTEN is set.\nxfs_exchmaps_can_skip_mapping() can skip hole and unwritten mappings\nfrom file1, so an exchange can complete without moving every mapping\nthat the earlier flag-swap decision accounted for.  In that case the\npost-operation cleanup can clear the reflink flag from an inode that\nstill owns shared written extents.  Later writes then take the\nnon-reflink write path and may update blocks that should still have\nbeen protected by CoW, which shows up as data corruption between\nreflink-related files.\n\nFix this by disabling the reflink flag exchange whenever\nXFS_EXCHMAPS_INO1_WRITTEN is requested.  The contents exchange can still\nproceed; the conservative outcome is that both inodes keep the reflink\nflag.  The regular reflink flag cleanup path can drop the extra flag\nlater once the inode no longer has shared extents.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
-      "affected": [
-        {
-          "vendor": "linux",
-          "product": "linux",
-          "versions": [
-            {
-              "version": "966ceafc7a437105ecfe1cadb3747b2965a260ca",
-              "lessThan": "56f87ac2b9543be2be529b831666682e6df4bc40",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "966ceafc7a437105ecfe1cadb3747b2965a260ca",
-              "lessThan": "fac32b9950a2aab3f8659d23b2947b8fb305c3fe",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "966ceafc7a437105ecfe1cadb3747b2965a260ca",
-              "lessThan": "8ae30b9a8c207f9bd03a98eda7b5d641daa79bdb",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "966ceafc7a437105ecfe1cadb3747b2965a260ca",
-              "lessThan": "a23eca88448e52eb1a81549862df7adce794fafb",
-              "status": "affected",
-              "versionType": "git"
-            }
-          ]
-        },
-        {
-          "vendor": "linux",
-          "product": "linux",
-          "versions": [
-            {
-              "version": "6.10",
-              "status": "affected"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.10",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "6.12.111",
-              "lessThanOrEqual": "6.12.*",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "6.18.53",
-              "lessThanOrEqual": "6.18.*",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "7.2.7",
-              "lessThanOrEqual": "7.2.*",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "7.3",
-              "lessThanOrEqual": "*",
-              "status": "unaffected",
-              "versionType": "original_commit_for_fix"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:linux",
-        "vendor:linux"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00209,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
-        "reference_count": 4
-      }
-    },
-    {
       "cve_id": "CVE-2026-97548",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions\n\nThe _maxlevels_ondisk functions are used to compute the size of\nin-memory btree cursors for each btree type.  Unfortunately, LOLLM\nnoticed that the rtrmap and rtrefcount versions of these functions\nforget to account for the inode root, which means that we could access\nbeyond the end of the cursor given a sufficiently large btree.  Fix\nthis.",
       "cvss_score": 7.8,
@@ -1989491,93 +1989386,6 @@
             {
               "version": "0",
               "lessThan": "6.15",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "6.18.55",
-              "lessThanOrEqual": "6.18.*",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "7.2.9",
-              "lessThanOrEqual": "7.2.*",
-              "status": "unaffected",
-              "versionType": "semver"
-            },
-            {
-              "version": "7.3",
-              "lessThanOrEqual": "*",
-              "status": "unaffected",
-              "versionType": "original_commit_for_fix"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:linux",
-        "vendor:linux"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00206,
-      "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
-        "reference_count": 3
-      }
-    },
-    {
-      "cve_id": "CVE-2026-98447",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots\n\nLOLLM noticed that the inode btree root formatting methods copy too many\nbytes -- there's only one set of keys in node blocks, not two.  This\ncauses memory corruption of whatever's beyond the buffers.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
-      "affected": [
-        {
-          "vendor": "linux",
-          "product": "linux",
-          "versions": [
-            {
-              "version": "f0415af60f482a2192065be8b334b409495ca8a3",
-              "lessThan": "d46492fb8018d12d00651b06b9d240e747110b38",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "f0415af60f482a2192065be8b334b409495ca8a3",
-              "lessThan": "2703b954d306ebfe3b11e33e259759329c11b690",
-              "status": "affected",
-              "versionType": "git"
-            },
-            {
-              "version": "f0415af60f482a2192065be8b334b409495ca8a3",
-              "lessThan": "fe2f9135df43db849e74f03956d322ac20b59af7",
-              "status": "affected",
-              "versionType": "git"
-            }
-          ]
-        },
-        {
-          "vendor": "linux",
-          "product": "linux",
-          "versions": [
-            {
-              "version": "6.14",
-              "status": "affected"
-            },
-            {
-              "version": "0",
-              "lessThan": "6.14",
               "status": "unaffected",
               "versionType": "semver"
             },
@@ -2152145,6 +2151953,864 @@
         "cpe_count": 0,
         "reference_count": 8
       }
+    },
+    {
+      "cve_id": "CVE-2026-99805",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: limit priority VLAN untag depth\n\nThe priority VLAN receive path can repeatedly remove VID 0 tags and retry\npacket processing. Unlike the read-only VLAN protocol parser, this path has\nno limit on the number of nested tags it consumes.\n\nEach skb_vlan_untag() advances skb->data and resets header offsets. The\noffsets are stored in 16-bit fields. With enough nested tags, the network\nor transport offset can wrap. A later protocol handler can then derive a\nlarge pull length from the wrapped offsets and access memory outside the\nskb allocation.\n\nApply the existing VLAN_MAX_DEPTH limit to the exceptional VID 0 retry.\nCount the tag already stored in skb VLAN metadata as the first level, then\nstop before untagging a ninth level. Keep the accounting inside this\nuncommon branch so the regular VLAN receive path is unaffected.\n\nA single VID 0 priority tag before a real VLAN tag is valid. No normal\ndeployment was found that intentionally emits multiple consecutive VID 0\ntags; permitting eight levels is therefore conservative.\n\nThe issue was found while researching the Linux network receive path for\nGoogle kvmCTF, with OpenAI Codex (gpt-5.6-sol) assisting the analysis. The\naffected path, reproducer and fix were manually reviewed and tested.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "e80d07f6f08883c922d1e029a0a75ff3fd81e658",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "376aa7635f7b2ded1012b6dbdef6ead4d072962e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "834b0ab00c64886f1de280530c21a40374a6a75a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "052a62de6e467646a2a5f8baced4ea319319ae75",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "dedb3f9aa54a3fcff41373ed948078d35c0cc50e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "3646b7c04717004d0abfc71dd35d25a646c34f45",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "e9e219cc9f542041ab1eb7ac10bf6f01a9d7ed01",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "36b2f61a42c29add695f3bd192ce44d5c113c1eb",
+              "lessThan": "d3ff07f5acc573e5f72bf1c581bae5d05191ba61",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "5.2",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "5.2",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.275",
+              "lessThanOrEqual": "5.10.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.226",
+              "lessThanOrEqual": "5.15.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.193",
+              "lessThanOrEqual": "6.1.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.118",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99806",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Reject mode changes on connected channels\n\nA peer can send a configuration response with an RFC\noption for another mode to a connected channel, for\nexample to switch it from Streaming to ERTM mode.\nl2cap_parse_conf_rsp() then changes chan->mode, but\nl2cap_ertm_init() is not called again, so the ERTM\nsequence lists are never allocated. The next\nout-of-sequence I-frame makes l2cap_seq_list_clear()\nwrite through the NULL srej_list.list.\n\nRefuse the channel when a response tries to change\nthe mode of a connected channel.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "6525cd5756a3d632c1a5d315c8d2dc22ecd88a82",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "061d594cf2ba58bf924735bd245c468ba106c03e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "b82a10836924702140814cf885531e7ff5cdaec0",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "37569b4f53a5fb3e7bc47a420d73e8c12a6a3102",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "5ffc623798d65fa972d3bdde24845421e5ece957",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "ef5743bd6ede07529f0b88f26443a06b8d1c020a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "9d4586b143573de4c40db1036cb23a560f149473",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "c1398cf11b31a94c27ed810ba69515e0df5ce379",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "2.6.32",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "2.6.32",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.275",
+              "lessThanOrEqual": "5.10.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.226",
+              "lessThanOrEqual": "5.15.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.193",
+              "lessThanOrEqual": "6.1.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99807",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Reject invalid TxWindow in configuration requests\n\nA peer can send an ERTM RFC option with a TxWindow\nof zero, which is out of spec. It is stored in\nremote_tx_win unchanged and later passed to\nl2cap_seq_list_init(), where roundup_pow_of_two(0)\nis undefined. On some architectures this results in\na ZERO_SIZE_PTR list and a remote kernel oops.\n\nA TxWindow above 63 is out of spec as well. With\n6-bit sequence numbers we would then send more\nunacknowledged frames than the sequence space can\ntell apart.\n\nReply with L2CAP_CONF_UNACCEPT and propose the\ndefault TxWindow instead of accepting the value, so\nremote_tx_win always stays within 1 to 63. Keep the\nparameters of an earlier request then, and do not\ntreat the request as done because an earlier one was.\n\nAlso refuse a zero size in l2cap_seq_list_init(), so\nany other path that reaches it with a zero TxWindow\nfails the channel instead of the kernel.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "e8885e1db7df5be64e82ef2b953b4a32e8b10e0c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "68340dca01ae410327b698fc989a610618870f1b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "d588344600b70c9508c33a8cdbb647aaa38fc00b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "6918cd1b9dbcc4ceff17937730faf4f621cf617c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "774badce7fd0afd8897ba1631b5aa7a259443fbf",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "c00719deed5b6245dedeeb8d6d19cb852fe2ac4d",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "a6a8d864fc7106aa997cb3ef4adc1ff9c5ea6a79",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "f2fcfcd670257236ebf2088bbdf26f6a8ef459fe",
+              "lessThan": "c5ebb0245fe927cf5fa33510a9cb2799c4a2dd01",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "2.6.32",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "2.6.32",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.275",
+              "lessThanOrEqual": "5.10.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.226",
+              "lessThanOrEqual": "5.15.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.193",
+              "lessThanOrEqual": "6.1.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99808",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Use default TxWindow for zero socket option\n\nL2CAP_OPTIONS accepts a txwin_size of zero and\nstores it in tx_win. The zero is then sent to the\npeer in our configuration request, and if the\nchannel ends up in ERTM mode it is passed to\nl2cap_seq_list_init().\n\nUse the default TxWindow instead, as the mode can\nstill be changed to ERTM during configuration.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "7ec69b3d1a768609dbb4cd1599f832f1ee373341",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "0692f239096bd20b98380b1d04767de3f46802f3",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "f8020b064766de6cc855b6b8e3a6fd8b7c3c54c1",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "7f81ca14df465796603f32ef941f703358651a50",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "abf86216bdc04cf2917c516ef15532510252a25b",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "eb86688484688e7626f71f0a98583f9cdf760f13",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "ad9fe095e539f2f2d76a2bc49dd7662596997973",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "14b5aa71ec506f4e38ca6a1dc02ecd668ecfd902",
+              "lessThan": "226fa3b676cbf2236f803bccd347462433ffc2c8",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "2.6.35",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "2.6.35",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.275",
+              "lessThanOrEqual": "5.10.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.226",
+              "lessThanOrEqual": "5.15.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.193",
+              "lessThanOrEqual": "6.1.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.117",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.63",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.4",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99809",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/platform: prevent read-only region mappings from becoming writable\n\nvfio_platform_mmap() rejects writable mappings of regions without the\nWRITE flag, but leaves VM_MAYWRITE set.  Userspace can map such a region\nread-only and then upgrade the mapping to writable with mprotect().\n\nClear VM_MAYWRITE for regions without the WRITE flag, as i915 does for\nits read-only objects and as fixed in drm/vc4 (CVE-2026-68445),\ndrm/panthor (CVE-2024-53071) and commit a5edadbae57e (\"ptp: vmclock:\nprevent read-only mappings from becoming writable\").\n\nNote this is defensive hardening: no in-tree platform driver currently\npublishes a region without the WRITE flag.  The guard costs nothing and\nkeeps the mmap() interface honest if a read-only region ever appears.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "fad4d5b1f042a659e07ceba3a6d1744b30f8ff7c",
+              "lessThan": "0cd753aefee70beced31e89fb4ed78a795411bd0",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "fad4d5b1f042a659e07ceba3a6d1744b30f8ff7c",
+              "lessThan": "61e756960f715a29fc7f595650e3e5ecc1f7579c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "fad4d5b1f042a659e07ceba3a6d1744b30f8ff7c",
+              "lessThan": "b9289740d2292f02a925f1e34607db678c91000e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "fad4d5b1f042a659e07ceba3a6d1744b30f8ff7c",
+              "lessThan": "97faad50e37e5de90eea4f1fb132576b7f9211db",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "fad4d5b1f042a659e07ceba3a6d1744b30f8ff7c",
+              "lessThan": "420bed9131dbbe37abe9d6b32af51219875811e0",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "4.1",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "4.1",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.119",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.65",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.6",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99810",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/fsl-mc: prevent read-only region mappings from becoming writable\n\nvfio_fsl_mc_mmap() rejects writable mappings of regions without the\nWRITE flag, but leaves VM_MAYWRITE set.  Userspace can map such a region\nread-only and then upgrade the mapping to writable with mprotect().\n\nClear VM_MAYWRITE for regions without the WRITE flag, as i915 does for\nits read-only objects and as fixed in drm/vc4 (CVE-2026-68445),\ndrm/panthor (CVE-2024-53071) and commit a5edadbae57e (\"ptp: vmclock:\nprevent read-only mappings from becoming writable\").\n\nNote this is defensive hardening: the fsl-mc bus publishes all device\nregions with the WRITE flag set, so no device can currently reach the\nread-only path.  The guard costs nothing and keeps the mmap() interface\nhonest if a read-only region ever appears.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "67247289688d49a610a956c23c4ff032f0281845",
+              "lessThan": "7aaac9b7fb576512f096ca6841ebddb158e2b228",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "67247289688d49a610a956c23c4ff032f0281845",
+              "lessThan": "6358b4f3e87c4a81d476dae59737ca083c367292",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "67247289688d49a610a956c23c4ff032f0281845",
+              "lessThan": "7094d4fe5fb6860e150e790784193e07c8a1ff9f",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "67247289688d49a610a956c23c4ff032f0281845",
+              "lessThan": "3043b82aace2dddb7d12585ceee69afcaf657fb7",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "67247289688d49a610a956c23c4ff032f0281845",
+              "lessThan": "25fd8b27ee8d4f59cc2ad99cf67aef4570b82096",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "5.10",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "5.10",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.119",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.65",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.6",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-99811",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/cdx: prevent read-only region mappings from becoming writable\n\nvfio_cdx_mmap() rejects writable mappings of regions without the WRITE\nflag, but leaves VM_MAYWRITE set.  Userspace can map such a region\nread-only and then upgrade the mapping to writable with mprotect(),\nwriting to MMIO regions the device marks read-only.\n\nClear VM_MAYWRITE for regions without the WRITE flag, as i915 does for\nits read-only objects and as fixed in drm/vc4 (CVE-2026-68445),\ndrm/panthor (CVE-2024-53071) and commit a5edadbae57e (\"ptp: vmclock:\nprevent read-only mappings from becoming writable\").\n\nNote this is defensive hardening: no in-tree cdx device currently\npublishes a region without the WRITE flag.  The guard costs nothing and\nkeeps the mmap() interface honest if a read-only region ever appears.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "234489ac561300ceed33e64c3bf3a810b9e2051d",
+              "lessThan": "9628e3fbe9680f5025140cdf44fcbb1de9f8a789",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "234489ac561300ceed33e64c3bf3a810b9e2051d",
+              "lessThan": "3eaabe24a0c0c1c67388e2b4e8624ca484a739eb",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "234489ac561300ceed33e64c3bf3a810b9e2051d",
+              "lessThan": "a82df58e3dbf35325a7eec09d0aa8e16892a3ce3",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "234489ac561300ceed33e64c3bf3a810b9e2051d",
+              "lessThan": "0b4d943393cb75aa398db220c0fa192ed856b6e8",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "234489ac561300ceed33e64c3bf3a810b9e2051d",
+              "lessThan": "9c5cd385d295fa8621dff0e9f6063e3f6ff24159",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "6.5",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "6.5",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.163",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.119",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.65",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.3.6",
+              "lessThanOrEqual": "7.3.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.4-rc1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:linux",
+        "vendor:linux"
+      ],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-99999",

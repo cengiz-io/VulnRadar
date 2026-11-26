@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T22:33:40+00:00",
+  "generated_at": "2026-11-26T05:04:20+00:00",
   "vendor": "_other",
-  "count": 1285,
+  "count": 1292,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -58338,6 +58338,64 @@
       }
     },
     {
+      "cve_id": "CVE-2022-50995",
+      "description": "WWW::Form::UrlEncoded::XS versions before 0.27 for Perl read one byte before the input buffer when parsing an empty string.\n\nparse_urlencoded and parse_urlencoded_arrayref check for a trailing \"&\" or \";\" by reading the last byte of the input, without first checking that the input has any bytes.\n\nA remote client that sends an empty query string or request body to an application parsing it with this module can crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.27",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2022-50996",
+      "description": "WWW::Form::UrlEncoded::XS versions before 0.28 for Perl write past the end of the Perl argument stack when parse_urlencoded returns many pairs.\n\nparse_urlencoded returns its result as a list, pushing each decoded key and value onto the argument stack without first extending the stack to fit them. parse_urlencoded_arrayref returns an array reference and is not affected.\n\nA remote client that sends a query string or request body with many pairs to an application parsing it with parse_urlencoded can corrupt memory and crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.28",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2023-0330",
       "description": "A vulnerability in the lsi53c895a device affects the latest version of qemu. A DMA-MMIO reentrancy problem may lead to memory corruption bugs like stack overflow or use-after-free.",
       "cvss_score": 5.3,
@@ -77498,6 +77556,46 @@
       }
     },
     {
+      "cve_id": "CVE-2026-122093",
+      "description": "Strong::Random versions through 0.96 for Perl allow every later rand output to be predicted from three earlier ones.\n\nThe generator keeps its state in a single number. Each call multiplies the state by a factor derived from it, and the returned digits encode that factor, so three consecutive outputs determine the state however the generator was seeded. Outputs are also biased: the first digit after the decimal point is never zero, so rand(256) never returns 1 to 24.\n\nAn attacker who sees three consecutive outputs can predict the tokens, passwords or key bytes that the same object later issues to other users.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "0.96",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00208,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-327"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2026-123655",
       "description": "A flaw was found in Moodle. Insufficient access control checks on H5P content files allow unauthenticated remote attackers to view restricted materials, including content stored in the system context and files belonging to hidden or unavailable course modules. This issue results in unauthorized information disclosure of protected content.",
       "cvss_score": 7.5,
@@ -79513,6 +79611,93 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-135092",
+      "description": "PDF::API2 versions before 2.049 for Perl allow unbounded recursion via circular cross-reference chains in readxrtr.\n\nWhen a PDF is opened, readxrtr reads each cross-reference table and calls itself on the offset in the trailer's /Prev entry. Nothing records which offsets it has already read, so a /Prev entry pointing back to an earlier table, or to its own, makes it recurse without end.\n\nAn attacker who supplies a crafted PDF can cause a denial of service in any application that opens it.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.049",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-136795",
+      "description": "Crypt::JWT versions before 0.037_1 for Perl allow memory exhaustion via unbounded inflation of zip DEF payloads.\n\nWhen a token header sets \"zip\" to \"DEF\", decode_jwt inflates the payload with no limit on the output size. A signed token is inflated after its signature verifies. An encrypted token is inflated after decryption, and with RSA-OAEP or ECDH-ES key management anyone who holds the recipient's public key can produce a token that decrypts.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.037_1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-136796",
+      "description": "Crypt::JWT versions before 0.037_1 for Perl allow CPU exhaustion via an unbounded PBES2 iteration count.\n\nFor a token using a PBES2 key management algorithm, decode_jwt passes the p2c header parameter to PBKDF2 as the iteration count without a range check, and derives the key before any integrity check. Unless accepted_alg rules it out, a token can select PBES2 whenever decode_jwt is given a symmetric key.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.037_1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -83714,6 +83899,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-8748",
+      "description": "Crypt::JWT versions before 0.037_1 for Perl compare HMAC signatures and JWE authentication tags in non-constant time.\n\ndecode_jwt compares HS256, HS384 and HS512 signatures, and the authentication tag of A128CBC-HS256, A192CBC-HS384 and A256CBC-HS512 encrypted tokens, against the computed value with Perl's eq operator. Its run time depends on the number of matching leading bytes.\n\nAn attacker who can submit many candidate tokens and measure the timing precisely enough may recover the expected signature or tag byte by byte and forge a token that verifies.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.037_1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-92288",
       "description": "Lemonldap::NG::Portal versions from 2.20.0 before 2.21.6, from 2.22.0 before 2.23.4 for Perl allow unauthenticated OAuth2 token introspection because checkEndPointAuthenticationCredentials does not verify the client secret of a public Relying Party.\n\ncheckEndPointAuthenticationCredentials() skips the secret comparison for a Relying Party marked public and still returns the authentication method deduced from the request, client_secret_basic or client_secret_post. introspection() rejects a caller only when that method is missing or none, so a request carrying a public client_id and an arbitrary or empty secret passes the endpoint's authentication check.\n\nAn attacker who holds an access token and knows the client_id of any public Relying Party can confirm the token is active and read its metadata, including scope, audience, expiry and the sub claim. The sub claim is computed with the calling Relying Party's user identifier attribute, so an attacker can translate a user identifier from one Relying Party to another, defeating per-client and pseudonymous identifiers.",
       "cvss_score": 9.1,
@@ -86689,7 +86903,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -86738,7 +86952,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -86789,7 +87003,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -106755,7 +106969,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -106806,7 +107020,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -106857,7 +107071,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -106908,7 +107122,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -106959,7 +107173,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -107425,7 +107639,7 @@
     },
     {
       "cve_id": "CVE-2026-29004",
-      "description": "BusyBox before commit 42202bf contains a heap buffer overflow vulnerability in the DHCPv6 client (udhcpc6) DNS_SERVERS option handler in networking/udhcp/d6_dhcpc.c that allows network-adjacent attackers to trigger memory corruption by sending a crafted DHCPv6 response with a malformed D6_OPT_DNS_SERVERS option. Attackers can exploit incorrect heap buffer allocation calculations in the option_to_env() function to cause denial of service or achieve arbitrary code execution on embedded systems without heap hardening.",
+      "description": "BusyBox versions 1.27.0 before 1.38.0, fixed in commit 42202bf, contain a heap buffer overflow vulnerability in the DHCPv6 client (udhcpc6) DNS_SERVERS option handler in networking/udhcp/d6_dhcpc.c that allows network-adjacent attackers to trigger memory corruption by sending a crafted DHCPv6 response with a malformed D6_OPT_DNS_SERVERS option. Attackers can exploit incorrect heap buffer allocation calculations in the option_to_env() function to cause denial of service or achieve arbitrary code execution on embedded systems without heap hardening.",
       "cvss_score": 7.2,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N",
@@ -107436,9 +107650,15 @@
           "versions": [
             {
               "status": "affected",
-              "version": "0",
+              "version": "64d58aa8061c7c848cf0fd37de3ccbb8582d0fc5",
               "versionType": "git",
               "lessThan": "42202bfb1e6ac51fa995beda8be4d7b654aeee2a"
+            },
+            {
+              "status": "affected",
+              "version": "1.27.0",
+              "versionType": "semver",
+              "lessThan": "1.38.0"
             }
           ]
         }

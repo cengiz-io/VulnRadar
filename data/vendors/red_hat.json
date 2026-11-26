@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T22:33:40+00:00",
+  "generated_at": "2026-11-26T05:04:20+00:00",
   "vendor": "red_hat",
-  "count": 530,
+  "count": 565,
   "items": [
     {
       "cve_id": "CVE-2023-0118",
@@ -33009,6 +33009,102 @@
         },
         {
           "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-62",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -35938,6 +36034,102 @@
         },
         {
           "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-62",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -36094,6 +36286,102 @@
             {
               "status": "affected",
               "version": "3.8.3"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-62",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
             }
           ]
         },
@@ -37026,6 +37314,102 @@
               "version": "9.0.0",
               "lessThan": "9.7.0",
               "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-62",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "ose-osc-1.6-rhel-9",
+          "versions": [
+            {
+              "version": "1.6.0-13",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
             }
           ]
         },
@@ -92360,6 +92744,79 @@
       }
     },
     {
+      "cve_id": "CVE-2025-12805",
+      "description": "A flaw was found in Red Hat OpenShift AI (RHOAI) llama-stack-operator. This vulnerability allows unauthorized access to Llama Stack services deployed in other namespaces via direct network requests, because no NetworkPolicy restricts access to the llama-stack service endpoint. As a result, a user in one namespace can access another user\u2019s Llama Stack instance and potentially view or manipulate sensitive data.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 2.25",
+          "versions": [
+            {
+              "version": "1770224279",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 2.25",
+          "versions": [
+            {
+              "version": "1770788315",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai (rhoai)",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai (rhoai)",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00577,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-653"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
       "cve_id": "CVE-2025-13193",
       "description": "A flaw was found in libvirt. External inactive snapshots for shut-down VMs are incorrectly created as world-readable, making it possible for unprivileged users to inspect the guest OS contents. This results in an information disclosure vulnerability.",
       "cvss_score": 5.5,
@@ -92916,6 +93373,744 @@
         ],
         "cpe_count": 102,
         "reference_count": 33
+      }
+    },
+    {
+      "cve_id": "CVE-2025-14459",
+      "description": "A flaw was found in KubeVirt Containerized Data Importer (CDI). This vulnerability allows a user to clone PersistentVolumeClaims (PVCs) from unauthorized namespaces, resulting in unauthorized access to data via the DataImportCron PVC source mechanism.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.64.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-3",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17.rhel9-82",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-85",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-11",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-19",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-88",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9-cnv-4.19",
+          "versions": [
+            {
+              "version": "v4.19.17-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift virtualization 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00457,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
+      }
+    },
+    {
+      "cve_id": "CVE-2025-14525",
+      "description": "A flaw was found in kubevirt. A user within a virtual machine (VM), if the guest agent is active, can exploit this by causing the agent to report an excessive number of network interfaces. This action can overwhelm the system's ability to store VM configuration updates, effectively blocking changes to the Virtual Machine Instance (VMI). This allows the VM user to restrict the VM administrator's ability to manage the VM, leading to a denial of service for administrative operations.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.8.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift virtualization 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00403,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -121854,6 +123049,513 @@
       }
     },
     {
+      "cve_id": "CVE-2026-0871",
+      "description": "A flaw was found in Keycloak. An administrator with `manage-users` permission can bypass the \"Only administrators can view\" setting for unmanaged attributes, allowing them to modify these attributes. This improper access control can lead to unauthorized changes to user profiles, even when the system is configured to restrict such modifications.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "26.4.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.2",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.9-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-11",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform expansion pack",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00534,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-0980",
+      "description": "A flaw was found in rubyipmi, a gem used in the Baseboard Management Controller (BMC) component of Red Hat Satellite. An authenticated attacker with host creation or update permissions could exploit this vulnerability by crafting a malicious username for the BMC interface. This could lead to remote code execution (RCE) on the system.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "0.13.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:0.13.0-0.1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:0.13.0-0.1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-0.1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-0.1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.1.23-0.3.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.2.0-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.2.28-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.22.3-1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.27.10-2.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.16.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.17.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.0.3-4.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.1.23-0.3.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.2.0-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.2.28-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.22.3-1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.27.10-2.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.16.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.17.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.0.3-4.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.01276,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 2,
+        "reference_count": 5
+      }
+    },
+    {
       "cve_id": "CVE-2026-105949",
       "description": "Cruise Control's Jetty ConstraintSecurityHandler registers security constraints on exact path specs without a catch-all wildcard constraint and without calling setDenyUncoveredHttpMethods(true). The servlet routes requests using Path.of(pathInfo).getFileName(), which strips all leading segments and trailing slashes. Requests like POST /kafkacruisecontrol/x/rebalance bypass authentication entirely but still dispatch to admin endpoints. All 15 admin endpoints become reachable without authentication. In AMQ Streams, the Strimzi operator's NetworkPolicy restricts Cruise Control port 9090 to operator pods only, reducing effective severity to Important.",
       "cvss_score": 8.8,
@@ -122688,6 +124390,21 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -122708,6 +124425,90 @@
         ],
         "cpe_count": 0,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-19546",
+      "description": "A flaw was found in DBI. This is a fix for a partial fix for CVE-2026-14380 for RHEL 9.8.z and 10.2.z.\n\nFor a detailed Statement, Description and Mitigation please reffer to the original https://access.redhat.com/security/cve/cve-2026-19546.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.650",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:1.643-26.el10_2.4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:1.643-9.el9_8.5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0065,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
       }
     },
     {
@@ -122842,6 +124643,732 @@
         ],
         "cpe_count": 0,
         "reference_count": 13
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1530",
+      "description": "A flaw was found in fog-kubevirt. This vulnerability allows a remote attacker to perform a Man-in-the-Middle (MITM) attack due to disabled certificate validation. This enables the attacker to intercept and potentially alter sensitive communications between Satellite and OpenShift, resulting in information disclosure and data integrity compromise.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.5.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.1.23-0.3.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.2.0-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.2.28-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.22.3-1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.27.10-2.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.16.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.17.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.0.3-4.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.1.23-0.3.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.2.0-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.2.28-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.22.3-1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.27.10-2.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.16.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.17.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.0.3-4.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00395,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 0,
+        "reference_count": 9
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1531",
+      "description": "A flaw was found in foreman_kubevirt. When configuring the connection to OpenShift, the system disables SSL verification if a Certificate Authority (CA) certificate is not explicitly set. This insecure default allows a remote attacker, capable of intercepting network traffic between Satellite and OpenShift, to perform a Man-in-the-Middle (MITM) attack. Such an attack could lead to the disclosure or alteration of sensitive information.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "0.4.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:0.2.0-2.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.2.0-2.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.1.23-0.3.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.2.0-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.2.28-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.22.3-1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.27.10-2.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.16.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.17.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.0.3-4.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.1.23-0.3.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.2.0-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.2.28-0.1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.22.3-1.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.27.10-2.el9pc",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:1.5.1-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.16.0.14-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.13.0-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:6.17.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.0.3-4.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:0.4.3-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00432,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 0,
+        "reference_count": 11
       }
     },
     {
@@ -123117,6 +125644,61 @@
       }
     },
     {
+      "cve_id": "CVE-2026-2239",
+      "description": "A flaw was found in GIMP. Heap-buffer-overflow vulnerability exists in the fread_pascal_string function when processing a specially crafted PSD (Photoshop Document) file. This occurs because the buffer allocated for a Pascal string is not properly null-terminated, leading to an out-of-bounds read when strlen() is subsequently called. Successfully exploiting this vulnerability can cause the application to crash, resulting in an application level Denial of Service.",
+      "cvss_score": 2.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.2.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00618,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-170"
+        ],
+        "cpe_count": 4,
+        "reference_count": 3
+      }
+    },
+    {
       "cve_id": "CVE-2026-2243",
       "description": "A flaw was found in QEMU. A specially crafted VMDK image could trigger an out-of-bounds read vulnerability, potentially leading to a 12-byte leak of sensitive information or a denial of service condition (DoS).",
       "cvss_score": 5.1,
@@ -123194,6 +125776,337 @@
         ],
         "cpe_count": 0,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2271",
+      "description": "A flaw was found in GIMP's PSP (Paint Shop Pro) file parser. A remote attacker could exploit an integer overflow vulnerability in the read_creator_block() function by providing a specially crafted PSP image file. This vulnerability occurs when a 32-bit length value from the file is used for memory allocation without proper validation, leading to a heap overflow and an out-of-bounds write. Successful exploitation could result in an application level denial of service.",
+      "cvss_score": 3.3,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.0.8",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00479,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-190"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2272",
+      "description": "A flaw was found in GIMP. An integer overflow vulnerability exists when processing ICO image files, specifically in the `ico_read_info` and `ico_read_icon` functions. This issue arises because a size calculation for image buffers can wrap around due to a 32-bit integer evaluation, allowing oversized image headers to bypass security checks. A remote attacker could exploit this by providing a specially crafted ICO file, leading to a buffer overflow and memory corruption, which may result in an application level denial of service.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.0.8",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.01217,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-190"
+        ],
+        "cpe_count": 5,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2369",
+      "description": "A flaw was found in libsoup. An integer underflow vulnerability occurs when processing content with a zero-length resource, leading to a buffer overread. This can allow an attacker to potentially access sensitive information or cause an application level denial of service.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.6.6",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00669,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-191"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2575",
+      "description": "A flaw was found in Keycloak. An unauthenticated remote attacker can trigger an application level Denial of Service (DoS) by sending a highly compressed SAMLRequest through the SAML Redirect Binding. The server fails to enforce size limits during DEFLATE decompression, leading to an OutOfMemoryError (OOM) and subsequent process termination. This vulnerability allows an attacker to disrupt the availability of the service.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.2.16"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "lessThan": "26.4.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.4",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.10-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6.13",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 7",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el7sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 8",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el8sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el9sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-8 based middleware containers",
+          "versions": [
+            {
+              "version": "7.6-85",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00968,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-409"
+        ],
+        "cpe_count": 1,
+        "reference_count": 9
       }
     },
     {
@@ -123328,6 +126241,80 @@
         ],
         "cpe_count": 2,
         "reference_count": 14
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2625",
+      "description": "A flaw was found in rust-rpm-sequoia. An attacker can exploit this vulnerability by providing a specially crafted Red Hat Package Manager (RPM) file. During the RPM signature verification process, this crafted file can trigger an error in the OpenPGP signature parsing code, leading to an unconditional termination of the rpm process. This issue results in an application level denial of service, making the system unable to process RPM files for signature verification.",
+      "cvss_score": 4.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.10.2",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "1.10.1.1-1.2.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "1.10.3-0.3.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00126,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-347"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
       }
     },
     {
@@ -125036,6 +128023,348 @@
       }
     },
     {
+      "cve_id": "CVE-2026-3099",
+      "description": "A flaw was found in Libsoup. The server-side digest authentication implementation in the SoupAuthDomainDigest class does not properly track issued nonces or enforce the required incrementing nonce-count (nc) attribute. This vulnerability allows a remote attacker to capture a single valid authentication header and replay it repeatedly. Consequently, the attacker can bypass authentication and gain unauthorized access to protected resources, impersonating the legitimate user.",
+      "cvss_score": 5.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.8.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00575,
+      "nvd": {
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-323"
+        ],
+        "cpe_count": 6,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3121",
+      "description": "A flaw was found in Keycloak. An administrator with `manage-clients` permission can exploit a misconfiguration where this permission is equivalent to `manage-permissions`. This allows the administrator to escalate privileges and gain control over roles, users, or other administrative functions within the realm. This privilege escalation can occur when admin permissions are enabled at the realm level.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "lessThan": "26.4.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.6",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.11-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.11",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform expansion pack",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00619,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3184",
+      "description": "A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.",
+      "cvss_score": 3.7,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "2.42",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "2.42-7.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00659,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-289"
+        ],
+        "cpe_count": 2,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3190",
+      "description": "A flaw was found in Keycloak. The User-Managed Access (UMA) 2.0 Protection API endpoint for permission tickets fails to enforce the `uma_protection` role check. This allows any authenticated user with a token issued for a resource server client, even without the `uma_protection` role, to enumerate all permission tickets in the system. This vulnerability partial leads to information disclosure.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.2.16"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "lessThan": "26.4.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.6",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.11-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.11",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00391,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-280"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
       "cve_id": "CVE-2026-3195",
       "description": "A flaw was found in QEMU. When reading input audio in the virtio-snd device input callback, the `virtio_snd_pcm_in_cb` function did not check whether the iov could fit the data buffer, potentially leading to a heap out-of-bounds write. This issue exists due to an incomplete fix for CVE-2024-7730.",
       "cvss_score": 7.4,
@@ -125183,6 +128512,474 @@
         ],
         "cpe_count": 0,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3441",
+      "description": "A flaw was found in GNU Binutils. This heap-based buffer overflow vulnerability, specifically an out-of-bounds read in the bfd linker, allows an attacker to gain access to sensitive information. By convincing a user to process a specially crafted XCOFF object file, an attacker can trigger this flaw, potentially leading to information disclosure or an application level denial of service.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "2.47",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "2.45.1-5.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "2.46.1-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00228,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 7,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3442",
+      "description": "A flaw was found in GNU Binutils. This vulnerability, a heap-based buffer overflow, specifically an out-of-bounds read, exists in the bfd linker component. An attacker could exploit this by convincing a user to process a specially crafted malicious XCOFF object file. Successful exploitation may lead to the disclosure of sensitive information or cause the application to crash, resulting in an application level denial of service.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "2.47",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "2.45.1-5.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "2.46.1-1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00228,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 7,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3632",
+      "description": "A flaw was found in libsoup, a library used by applications to send network requests. This vulnerability occurs because libsoup does not properly validate hostnames, allowing special characters to be injected into HTTP headers. A remote attacker could exploit this to perform HTTP smuggling, where they can send hidden, malicious requests alongside legitimate ones. In certain situations, this could lead to Server-Side Request Forgery (SSRF), enabling an attacker to force the server to make unauthorized requests to other internal or external systems. The impact is low, as SoupServer is not actually used in internet infrastructure.",
+      "cvss_score": 3.9,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.7.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00416,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1286"
+        ],
+        "cpe_count": 6,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3633",
+      "description": "A flaw was found in libsoup. A remote attacker, by controlling the method parameter of the `soup_message_new()` function, could inject arbitrary headers and additional request data. This vulnerability, known as CRLF (Carriage Return Line Feed) injection, occurs because the method value is not properly escaped during request line construction, potentially leading to HTTP request injection.",
+      "cvss_score": 3.9,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.7.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00443,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-93"
+        ],
+        "cpe_count": 6,
+        "reference_count": 3
       }
     },
     {
@@ -131099,6 +134896,831 @@
       }
     },
     {
+      "cve_id": "CVE-2026-4629",
+      "description": "A flaw was found in Keycloak. A highly privileged user with `manage-clients` permission can exploit this vulnerability by injecting a hardcoded role mapper into any client. This action allows the user to bypass existing scope restrictions and inject the `realm-admin` role into generated tokens, resulting in privilege escalation and full administrative access to the realm.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.2.16"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.3.5"
+            },
+            {
+              "status": "affected",
+              "version": "26.4.0",
+              "lessThan": "26.4.14",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.5.7"
+            },
+            {
+              "status": "affected",
+              "version": "26.6.0",
+              "lessThan": "26.6.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.7.0",
+              "lessThan": "26.7.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.14-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-22",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-22",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.14",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.6.5",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00486,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4630",
+      "description": "A flaw was found in Keycloak. An authenticated client could exploit an Insecure Direct Object Reference (IDOR) vulnerability in the Authorization Services Protection API endpoint. By knowing or obtaining a resource's unique identifier (UUID) belonging to another Resource Server within the same realm, the client could bypass authorization checks. This allows the client to perform unauthorized GET, PUT, and DELETE operations on resources, leading to information disclosure and potential unauthorized modification or deletion of data.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.2.16"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.3.5"
+            },
+            {
+              "status": "affected",
+              "version": "26.4.0",
+              "lessThan": "26.4.12",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.5.7"
+            },
+            {
+              "status": "affected",
+              "version": "26.6.0",
+              "lessThan": "26.6.2",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.12-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.12",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00378,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4631",
+      "description": "Cockpit's remote login feature passes user-supplied hostnames and usernames from the web interface to the SSH client without validation or sanitization. An attacker with network access to the Cockpit web service can craft a single HTTP request to the login endpoint that injects malicious SSH options or shell commands, achieving code execution on the Cockpit host without valid credentials. The injection occurs during the authentication flow before any credential verification takes place, meaning no login is required to exploit the vulnerability.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "327",
+              "lessThan": "360",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:344-3.el10_1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:356.1-1.el10_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:334.1-3.el10_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:356.1-1.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:344-2.el9_7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:356.1-1.el9_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:344-2.el9_7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:334.2-2.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.13628,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 17
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4634",
+      "description": "A flaw was found in Keycloak. An unauthenticated attacker can exploit this vulnerability by sending a specially crafted POST request with an excessively long scope parameter to the OpenID Connect (OIDC) token endpoint. This leads to high resource consumption and prolonged processing times, ultimately resulting in a Denial of Service (DoS) for the Keycloak server.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "26.2.15",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.3.5"
+            },
+            {
+              "status": "affected",
+              "version": "26.4.0",
+              "lessThan": "26.4.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.7",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2.15-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-18",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-18",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2.15",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.11-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.11",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6.13",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 7",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el7sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 8",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el8sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el9sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-8 based middleware containers",
+          "versions": [
+            {
+              "version": "7.6-85",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00913,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1050"
+        ],
+        "cpe_count": 5,
+        "reference_count": 18
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4636",
+      "description": "A flaw was found in Keycloak. An authenticated user with the uma_protection role can bypass User-Managed Access (UMA) policy validation. This allows the attacker to include resource identifiers owned by other users in a policy creation request, even if the URL path specifies an attacker-owned resource. Consequently, the attacker gains unauthorized permissions to victim-owned resources, enabling them to obtain a Requesting Party Token (RPT) and access sensitive information or perform unauthorized actions.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "26.2.15",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "26.3.5"
+            },
+            {
+              "status": "affected",
+              "version": "26.4.0",
+              "lessThan": "26.4.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.7",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2.15-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-18",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-18",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2.15",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.11-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.11",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00647,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-551"
+        ],
+        "cpe_count": 5,
+        "reference_count": 13
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4897",
+      "description": "A flaw was found in polkit. A local user can exploit this by providing a specially crafted, excessively long input to the `polkit-agent-helper-1` setuid binary via standard input (stdin). This unbounded input can lead to an out-of-memory (OOM) condition, resulting in a Denial of Service (DoS) for the system.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "128",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:125-4.el10_2.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:125-3.el10_0.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.117-16.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:0.117-16.el9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "127-5.1.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00176,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 7,
+        "reference_count": 6
+      }
+    },
+    {
       "cve_id": "CVE-2026-50240",
       "description": "A flaw was found in OpenShift Pipelines-as-Code (PAC). PAC does not verify whether the creator of a Repository custom resource has permission to create PipelineRuns. A namespace user with only Repository and Secret create/delete permissions can cause PAC to execute attacker-controlled PipelineRuns as the auto-provisioned pipeline ServiceAccount, which carries ClusterRole/edit by default. This results in namespace-scoped privilege escalation, enabling Secret read, resource creation/modification/deletion, and potential supply chain injection in CI/CD namespaces.",
       "cvss_score": 8.8,
@@ -131600,6 +136222,560 @@
           "CWE-787"
         ],
         "cpe_count": 4,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-5135",
+      "description": "A flaw was found in Foreman. This broken access control vulnerability allows an authenticated user with host-edit permissions to retarget an existing lookup value override to a different host. This is achieved by modifying the match field through nested host attributes, effectively bypassing authorisation checks. The consequence is the potential for unauthorised modification of managed host configurations across different organisational and location boundaries.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.3.0",
+              "lessThan": "3.18.2",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "3.19.0",
+              "lessThan": "3.19.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.16.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.19 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.18.0.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00431,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 11,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-5136",
+      "description": "A flaw was found in Foreman. The Usergroup model in Foreman does not properly validate role assignments against the calling user's permissions. This allows an authenticated user with usergroup management permissions to attach arbitrary roles, including administrative roles, to a user group and then add themselves as a member. Successful exploitation of this vulnerability leads to full privilege escalation, granting the attacker administrator-level access.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.18.2",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "3.19.0",
+              "lessThan": "3.19.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.16.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.19 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.18.0.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00555,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 11,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-5138",
+      "description": "A flaw was found in Foreman. An authenticated user with host-edit permissions could exploit a cross-tenant information disclosure vulnerability. This flaw occurs because the taxonomy_scope controller method does not properly validate organization and location IDs from nested request parameters, bypassing existing authorization checks. This allows the user to leak sensitive infrastructure metadata, including subnet topology, IP ranges, gateways, DNS servers, and VLAN IDs, from organizations and locations they are not authorized to access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.18.2",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "3.19.0",
+              "lessThan": "3.19.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.16.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.19 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.18.0.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0038,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 11,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-5142",
+      "description": "A flaw was found in foreman. Authenticated users with 'view_keypairs' permission can bypass taxonomy scoping, allowing them to download private SSH (Secure Shell) keys from other organizations by directly querying key pair IDs. This vulnerability leads to cross-tenant data exposure in multi-tenant deployments, potentially compromising sensitive information.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0",
+              "lessThan": "3.18.2",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "3.19.0",
+              "lessThan": "3.19.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 8",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el8sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.16 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.12.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.17 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.14.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.16.0.17-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.19 for rhel 9",
+          "versions": [
+            {
+              "version": "0:3.18.0.7-1.el9sat",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00445,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 11,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-5164",
+      "description": "A flaw was found in virtio-win. The `RhelDoUnMap()` function does not properly validate the number of descriptors provided by a user during an unmap request. A local user could exploit this input validation vulnerability by supplying an excessive number of descriptors, leading to a buffer overrun. This can cause a system crash, resulting in a Denial of Service (DoS).",
+      "cvss_score": 6.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "mm316",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00185,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-120"
+        ],
+        "cpe_count": 3,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-5165",
+      "description": "A flaw was found in virtio-win, specifically within the VirtIO Block (BLK) device. When the device undergoes a reset, it fails to properly manage memory, resulting in a use-after-free vulnerability. This issue could allow a local attacker to corrupt system memory, potentially leading to system instability or unexpected behavior.",
+      "cvss_score": 6.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "mm316",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0018,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-825"
+        ],
+        "cpe_count": 3,
         "reference_count": 3
       }
     },
@@ -134849,6 +140025,69 @@
         ],
         "cpe_count": 9,
         "reference_count": 39
+      }
+    },
+    {
+      "cve_id": "CVE-2026-9073",
+      "description": "A flaw was found in foreman-mcp-server. This component utilizes two distinct logging mechanisms that can expose sensitive session and authentication data. One mechanism logs session identifiers, which are treated as authentication credentials, at an informational level. The other, when debug logging is enabled, incompletely sanitizes HTTP request headers, leading to the cleartext logging of sensitive information such as authorization tokens and API keys. This vulnerability can result in a confidentiality breach, as sensitive authentication data is persisted in plain text within container logs, increasing the risk if logs are forwarded to a centralized platform.",
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.18",
+          "versions": [
+            {
+              "version": "1782228427",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat satellite 6.19",
+          "versions": [
+            {
+              "version": "1782228692",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00208,
+      "nvd": {
+        "cvss_v3_score": 6.2,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
       }
     }
   ]
