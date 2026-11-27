@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T23:51:52+00:00",
+  "generated_at": "2026-11-27T08:14:26+00:00",
   "vendor": "linux",
   "count": 18117,
   "items": [
@@ -438780,6 +438780,18 @@
           "product": "red hat enterprise linux 8",
           "versions": [
             {
+              "version": "0:4.18.0-513.24.1.rt7.326.el8_9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
               "version": "0:4.18.0-513.24.1.el8_9",
               "lessThan": "*",
               "versionType": "rpm",
@@ -438837,10 +438849,46 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:5.14.0-427.13.1.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:5.14.0-427.13.1.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9.2 extended update support",
           "versions": [
             {
               "version": "0:5.14.0-284.59.1.el9_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 extended update support",
+          "versions": [
+            {
+              "version": "0:5.14.0-284.59.1.rt14.344.el9_2",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -439100,11 +439148,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         }
       ],
@@ -1702167,7 +1702210,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
@@ -1727983,7 +1728026,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -2086012,7 +2086055,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -2086147,7 +2086190,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -2086294,7 +2086337,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -2086393,7 +2086436,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 4
+        "reference_count": 5
       }
     },
     {
@@ -2086479,7 +2086522,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2086565,7 +2086608,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2086651,7 +2086694,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2086737,7 +2086780,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2086823,7 +2086866,7 @@
         "cvss_v2_severity": null,
         "cwe_ids": null,
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -2152090,7 +2152133,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00311
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 8
+      }
     },
     {
       "cve_id": "CVE-2026-99806",
@@ -2152228,7 +2152280,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00311
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 8
+      }
     },
     {
       "cve_id": "CVE-2026-99807",
@@ -2152366,7 +2152427,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00311
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 8
+      }
     },
     {
       "cve_id": "CVE-2026-99808",
@@ -2152504,7 +2152574,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00311
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 8
+      }
     },
     {
       "cve_id": "CVE-2026-99809",
@@ -2152606,7 +2152685,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00296
+      "probability_score": 0.00296,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99810",
@@ -2152708,7 +2152796,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00296
+      "probability_score": 0.00296,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99811",
@@ -2152810,7 +2152907,16 @@
         "vendor:linux"
       ],
       "active_threat": false,
-      "probability_score": 0.00296
+      "probability_score": 0.00296,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 5
+      }
     },
     {
       "cve_id": "CVE-2026-99999",

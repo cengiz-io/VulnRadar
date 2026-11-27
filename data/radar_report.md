@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-26T23:51:54+00:00`
+Generated: `2026-11-27T08:14:28+00:00`
 
 ## Executive Summary
 
@@ -32,17 +32,17 @@ Top critical items:
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | 0.128 | 9.8 |  | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP S… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | 0.054 | 8.8 |  | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validatio… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | 0.067 | 8.6 |  | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in t… |
+| [CVE-2025-12548](https://www.cve.org/CVERecord?id=CVE-2025-12548) | 0.021 | 9.0 |  | A flaw was found in Eclipse Che che-machine-exec. This vulnerability allows unauthenticated remote arbitrary command ex… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | 0.053 | 8.6 |  | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerabili… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | 0.025 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb fr… |
-| [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | 0.005 | 8.8 |  | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through … |
 
 ## Summary
 
-- Total items: **20220**
-- Watchlist hits: **19353**
-- CISA KEVs: **884**
-- Exploit Intel (PoC): **901**
-- Exploit Intel + Watchlist (CRITICAL): **34**
+- Total items: **20233**
+- Watchlist hits: **19365**
+- CISA KEVs: **885**
+- Exploit Intel (PoC): **903**
+- Exploit Intel + Watchlist (CRITICAL): **35**
 
 ## Top Findings (max 200)
 
@@ -70,6 +70,7 @@ Top critical items:
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.128 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.054 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.067 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
+| [CVE-2025-12548](https://www.cve.org/CVERecord?id=CVE-2025-12548) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 9.0 | ✅ | A flaw was found in Eclipse Che che-machine-exec. This vulnerability allows unauthenticated remote arbitrary command execution and secret exfiltration (SSH key… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.053 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2026-43284](https://www.cve.org/CVERecord?id=CVE-2026-43284) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.025 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  xfrm: esp: avoid in-place decrypt on shared skb frags  MSG_SPLICE_PAGES can attach pages f… |
 | [CVE-2026-43503](https://www.cve.org/CVERecord?id=CVE-2026-43503) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.005 | 8.8 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  net: skbuff: propagate shared-frag marker through frag-transfer helpers  Two frag-transfer… |
@@ -247,7 +248,6 @@ Top critical items:
 | [CVE-2023-2868](https://www.cve.org/CVERecord?id=CVE-2023-2868) |  | KEV | ✅ | ✅ | 2023-06-16 | 0.459 | 9.4 |  | A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0… |
 | [CVE-2023-28432](https://www.cve.org/CVERecord?id=CVE-2023-28432) |  | KEV | ✅ | ✅ | 2023-05-12 | 0.648 | 7.5 |  | Minio is a Multi-Cloud Object Storage framework. In a cluster deployment starting with RELEASE.2019-12-17T23-16-33Z and prior to RELEASE.2023-03-20T20-16-18Z, … |
 | [CVE-2024-28986](https://www.cve.org/CVERecord?id=CVE-2024-28986) |  | KEV | ✅ | ✅ | 2024-09-05 | 0.413 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to a Java Deserialization Remote Code Execution vulnerability that, if exploited, would allow an attacker … |
-| [CVE-2026-0770](https://www.cve.org/CVERecord?id=CVE-2026-0770) |  | KEV | ✅ | ✅ | 2026-07-24 | 0.409 | 9.8 |  | Langflow exec_globals Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability. This vulnerability allows remote attackers … |
 
 ## Recent Changes (Last 7 Days)
 
@@ -303,4 +303,4 @@ Top critical items:
 | Nov 26 | [CVE-2026-5165](https://www.cve.org/CVERecord?id=CVE-2026-5165) | 🆕 New |
 | Nov 26 | [CVE-2026-9073](https://www.cve.org/CVERecord?id=CVE-2026-9073) | 🆕 New |
 | Nov 25 | [CVE-2026-134880](https://www.cve.org/CVERecord?id=CVE-2026-134880) | 🆕 New |
-| ... | | _and 536 more_ |
+| ... | | _and 270 more_ |
