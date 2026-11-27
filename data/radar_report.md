@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-27T08:14:28+00:00`
+Generated: `2026-11-27T18:58:50+00:00`
 
 ## Executive Summary
 
@@ -38,9 +38,9 @@ Top critical items:
 
 ## Summary
 
-- Total items: **20233**
+- Total items: **20234**
 - Watchlist hits: **19365**
-- CISA KEVs: **885**
+- CISA KEVs: **886**
 - Exploit Intel (PoC): **903**
 - Exploit Intel + Watchlist (CRITICAL): **35**
 
@@ -84,6 +84,7 @@ Top critical items:
 | [CVE-2026-46333](https://www.cve.org/CVERecord?id=CVE-2026-46333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.010 | 7.1 | ✅ | In the Linux kernel, the following vulnerability has been resolved:  ptrace: slightly saner 'get_dumpable()' logic  The 'dumpability' of a task is fundamentall… |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2022-22536](https://www.cve.org/CVERecord?id=CVE-2022-22536) |  | KEV | ✅ | ✅ | 2022-09-08 | 0.979 | 10.0 |  | SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for … |
+| [CVE-2024-36401](https://www.cve.org/CVERecord?id=CVE-2024-36401) |  | KEV | ✅ | ✅ | 2024-08-05 | 0.998 | 9.8 |  | GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.22.6, 2.23.6, 2.24.4, and 2.25.2, multiple OGC requ… |
 | [CVE-2023-34048](https://www.cve.org/CVERecord?id=CVE-2023-34048) |  | KEV | ✅ | ✅ | 2024-02-12 | 0.992 | 9.8 |  | vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Ser… |
 | [CVE-2022-40684](https://www.cve.org/CVERecord?id=CVE-2022-40684) |  | KEV | ✅ | ✅ | 2022-11-01 | 0.989 | 9.8 |  | An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy versi… |
 | [CVE-2022-44877](https://www.cve.org/CVERecord?id=CVE-2022-44877) |  | KEV | ✅ | ✅ | 2023-02-07 | 0.982 | 9.8 |  | login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metac… |
@@ -104,6 +105,7 @@ Top critical items:
 | [CVE-2025-5777](https://www.cve.org/CVERecord?id=CVE-2025-5777) |  | KEV | ✅ | ✅ | 2025-07-11 | 0.999 | 9.3 |  | Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA … |
 | [CVE-2024-4577](https://www.cve.org/CVERecord?id=CVE-2024-4577) |  | KEV | ✅ | ✅ | 2024-07-03 | 0.948 | 9.8 |  | In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain … |
 | [CVE-2022-29303](https://www.cve.org/CVERecord?id=CVE-2022-29303) |  | KEV | ✅ | ✅ | 2023-08-03 | 0.941 | 9.8 |  | SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php. |
+| [CVE-2026-111497](https://www.cve.org/CVERecord?id=CVE-2026-111497) |  | KEV | ✅ | ✅ | 2026-11-10 | 1.000 | 9.2 |  | A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthent… |
 | [CVE-2022-1040](https://www.cve.org/CVERecord?id=CVE-2022-1040) |  | KEV | ✅ | ✅ | 2022-04-21 | 0.938 | 9.8 |  | An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older. |
 | [CVE-2023-1671](https://www.cve.org/CVERecord?id=CVE-2023-1671) |  | KEV | ✅ | ✅ | 2023-12-07 | 0.935 | 9.8 |  | A pre-auth command injection vulnerability in the warn-proceed handler of Sophos Web Appliance older than version 4.3.10.4 allows execution of arbitrary code. |
 | [CVE-2026-48939](https://www.cve.org/CVERecord?id=CVE-2026-48939) |  | KEV | ✅ | ✅ | 2026-07-13 | 0.912 | 10.0 |  | A vulnerability in the iCagenda extension for Joomla allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code uplo… |
@@ -112,6 +114,7 @@ Top critical items:
 | [CVE-2023-35082](https://www.cve.org/CVERecord?id=CVE-2023-35082) |  | KEV | ✅ | ✅ | 2024-02-08 | 0.903 | 10.0 |  | An authentication bypass vulnerability in Ivanti EPMM 11.10 and older, allows unauthorized users to access restricted functionality or resources of the applica… |
 | [CVE-2023-27350](https://www.cve.org/CVERecord?id=CVE-2023-27350) |  | KEV | ✅ | ✅ | 2023-05-12 | 0.921 | 9.8 |  | This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not requir… |
 | [CVE-2023-29300](https://www.cve.org/CVERecord?id=CVE-2023-29300) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.919 | 9.8 |  | Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vul… |
+| [CVE-2026-93616](https://www.cve.org/CVERecord?id=CVE-2026-93616) |  | KEV | ✅ | ✅ | 2026-09-25 | 0.916 | 9.8 |  | A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server. |
 | [CVE-2023-38035](https://www.cve.org/CVERecord?id=CVE-2023-38035) |  | KEV | ✅ | ✅ | 2023-09-12 | 0.916 | 9.8 |  | A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication contr… |
 | [CVE-2023-36845](https://www.cve.org/CVERecord?id=CVE-2023-36845) |  | KEV | ✅ | ✅ | 2023-11-17 | 0.914 | 9.8 |  | A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series   and SRX Series   allows an unauthenticated, network-bas… |
 | [CVE-2023-46604](https://www.cve.org/CVERecord?id=CVE-2023-46604) |  | KEV | ✅ | ✅ | 2023-11-23 | 0.893 | 10.0 |  | The Java OpenWire protocol marshaller is vulnerable to Remote Code  Execution. This vulnerability may allow a remote attacker with network  access to either a … |
@@ -129,9 +132,9 @@ Top critical items:
 | [CVE-2023-38203](https://www.cve.org/CVERecord?id=CVE-2023-38203) |  | KEV | ✅ | ✅ | 2024-01-29 | 0.866 | 9.8 |  | Adobe ColdFusion versions 2018u17 (and earlier), 2021u7 (and earlier) and 2023u1 (and earlier) are affected by a Deserialization of Untrusted Data vulnerabilit… |
 | [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 0.865 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
 | [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 0.860 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
+| [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.860 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
 | [CVE-2023-22527](https://www.cve.org/CVERecord?id=CVE-2023-22527) |  | KEV | ✅ | ✅ | 2024-02-14 | 0.838 | 10.0 |  | A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected inst… |
 | [CVE-2023-26360](https://www.cve.org/CVERecord?id=CVE-2023-26360) |  | KEV | ✅ | ✅ | 2023-04-05 | 0.977 | 8.6 |  | Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could resu… |
-| [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.856 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
 | [CVE-2022-26352](https://www.cve.org/CVERecord?id=CVE-2022-26352) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.855 | 9.8 |  | An issue was discovered in the ContentResource API in dotCMS 3.0 through 22.02. Attackers can craft a multipart form request to post a file whose filename is n… |
 | [CVE-2022-37042](https://www.cve.org/CVERecord?id=CVE-2022-37042) |  | KEV | ✅ | ✅ | 2022-09-01 | 0.848 | 9.8 |  | Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authenticatio… |
 | [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.847 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
@@ -173,9 +176,9 @@ Top critical items:
 | [CVE-2022-20699](https://www.cve.org/CVERecord?id=CVE-2022-20699) |  | KEV | ✅ | ✅ | 2022-03-17 | 0.713 | 10.0 |  | Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbi… |
 | [CVE-2024-50603](https://www.cve.org/CVERecord?id=CVE-2024-50603) |  | KEV | ✅ | ✅ | 2025-02-06 | 0.711 | 10.0 |  | An issue was discovered in Aviatrix Controller before 7.1.4191 and 7.2.x before 7.2.4996. Due to the improper neutralization of special elements used in an OS … |
 | [CVE-2023-20198](https://www.cve.org/CVERecord?id=CVE-2023-20198) |  | KEV | ✅ | ✅ | 2023-10-20 | 0.709 | 10.0 |  | Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list … |
+| [CVE-2026-123158](https://www.cve.org/CVERecord?id=CVE-2026-123158) |  | KEV | ✅ | ✅ | 2026-11-12 | 0.896 | 8.1 |  | sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretati… |
 | [CVE-2023-40044](https://www.cve.org/CVERecord?id=CVE-2023-40044) |  | KEV | ✅ | ✅ | 2023-10-26 | 0.704 | 10.0 |  | In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer mod… |
 | [CVE-2022-33891](https://www.cve.org/CVERecord?id=CVE-2022-33891) |  | KEV | ✅ | ✅ | 2023-03-28 | 0.820 | 8.8 |  | The Apache Spark UI offers the possibility to enable ACLs via the configuration option spark.acls.enable. With an authentication filter, this checks whether a … |
-| [CVE-2024-36401](https://www.cve.org/CVERecord?id=CVE-2024-36401) |  | KEV | ✅ | ✅ | 2024-08-05 | 0.719 | 9.8 |  | GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.22.6, 2.23.6, 2.24.4, and 2.25.2, multiple OGC requ… |
 | [CVE-2024-45519](https://www.cve.org/CVERecord?id=CVE-2024-45519) |  | KEV | ✅ | ✅ | 2024-10-24 | 0.692 | 10.0 |  | The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allow… |
 | [CVE-2023-44487](https://www.cve.org/CVERecord?id=CVE-2023-44487) |  | KEV | ✅ | ✅ | 2023-10-31 | 0.940 | 7.5 |  | The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the w… |
 | [CVE-2024-38475](https://www.cve.org/CVERecord?id=CVE-2024-38475) |  | KEV | ✅ | ✅ | 2025-05-22 | 0.779 | 9.1 |  | Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that are permitted t… |
@@ -245,14 +248,24 @@ Top critical items:
 | [CVE-2024-55591](https://www.cve.org/CVERecord?id=CVE-2024-55591) |  | KEV | ✅ | ✅ | 2025-01-21 | 0.455 | 9.6 |  | An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0… |
 | [CVE-2023-4863](https://www.cve.org/CVERecord?id=CVE-2023-4863) |  | KEV | ✅ | ✅ | 2023-10-04 | 0.528 | 8.8 |  | Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write v… |
 | [CVE-2024-5217](https://www.cve.org/CVERecord?id=CVE-2024-5217) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.485 | 9.2 |  | ServiceNow has addressed an input validation vulnerability that was identified in the Washington DC, Vancouver, and earlier Now Platform releases. This vulnera… |
-| [CVE-2023-2868](https://www.cve.org/CVERecord?id=CVE-2023-2868) |  | KEV | ✅ | ✅ | 2023-06-16 | 0.459 | 9.4 |  | A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0… |
-| [CVE-2023-28432](https://www.cve.org/CVERecord?id=CVE-2023-28432) |  | KEV | ✅ | ✅ | 2023-05-12 | 0.648 | 7.5 |  | Minio is a Multi-Cloud Object Storage framework. In a cluster deployment starting with RELEASE.2019-12-17T23-16-33Z and prior to RELEASE.2023-03-20T20-16-18Z, … |
-| [CVE-2024-28986](https://www.cve.org/CVERecord?id=CVE-2024-28986) |  | KEV | ✅ | ✅ | 2024-09-05 | 0.413 | 9.8 |  | SolarWinds Web Help Desk was found to be susceptible to a Java Deserialization Remote Code Execution vulnerability that, if exploited, would allow an attacker … |
 
 ## Recent Changes (Last 7 Days)
 
 | Date | CVE | Status |
 |------|-----|--------|
+| Nov 27 | [CVE-2026-132165](https://www.cve.org/CVERecord?id=CVE-2026-132165) | 🔴 In CISA KEV |
+| Nov 27 | [CVE-2025-12548](https://www.cve.org/CVERecord?id=CVE-2025-12548) | 🟠 In PatchThis |
+| Nov 27 | [CVE-2025-13881](https://www.cve.org/CVERecord?id=CVE-2025-13881) | 🆕 New |
+| Nov 27 | [CVE-2025-14025](https://www.cve.org/CVERecord?id=CVE-2025-14025) | 🆕 New |
+| Nov 27 | [CVE-2025-14969](https://www.cve.org/CVERecord?id=CVE-2025-14969) | 🆕 New |
+| Nov 27 | [CVE-2025-9907](https://www.cve.org/CVERecord?id=CVE-2025-9907) | 🆕 New |
+| Nov 27 | [CVE-2025-9908](https://www.cve.org/CVERecord?id=CVE-2025-9908) | 🆕 New |
+| Nov 27 | [CVE-2025-9909](https://www.cve.org/CVERecord?id=CVE-2025-9909) | 🆕 New |
+| Nov 27 | [CVE-2026-1190](https://www.cve.org/CVERecord?id=CVE-2026-1190) | 🆕 New |
+| Nov 27 | [CVE-2026-1961](https://www.cve.org/CVERecord?id=CVE-2026-1961) | 🆕 New |
+| Nov 27 | [CVE-2026-2366](https://www.cve.org/CVERecord?id=CVE-2026-2366) | 🆕 New |
+| Nov 27 | [CVE-2026-3872](https://www.cve.org/CVERecord?id=CVE-2026-3872) | 🆕 New |
+| Nov 27 | [CVE-2026-4633](https://www.cve.org/CVERecord?id=CVE-2026-4633) | 🆕 New |
 | Nov 26 | [CVE-2022-50995](https://www.cve.org/CVERecord?id=CVE-2022-50995) | 🆕 New |
 | Nov 26 | [CVE-2022-50996](https://www.cve.org/CVERecord?id=CVE-2022-50996) | 🆕 New |
 | Nov 26 | [CVE-2026-122093](https://www.cve.org/CVERecord?id=CVE-2026-122093) | 🆕 New |
@@ -290,17 +303,4 @@ Top critical items:
 | Nov 26 | [CVE-2026-3632](https://www.cve.org/CVERecord?id=CVE-2026-3632) | 🆕 New |
 | Nov 26 | [CVE-2026-3633](https://www.cve.org/CVERecord?id=CVE-2026-3633) | 🆕 New |
 | Nov 26 | [CVE-2026-4629](https://www.cve.org/CVERecord?id=CVE-2026-4629) | 🆕 New |
-| Nov 26 | [CVE-2026-4630](https://www.cve.org/CVERecord?id=CVE-2026-4630) | 🆕 New |
-| Nov 26 | [CVE-2026-4631](https://www.cve.org/CVERecord?id=CVE-2026-4631) | 🟠 In PatchThis |
-| Nov 26 | [CVE-2026-4634](https://www.cve.org/CVERecord?id=CVE-2026-4634) | 🆕 New |
-| Nov 26 | [CVE-2026-4636](https://www.cve.org/CVERecord?id=CVE-2026-4636) | 🆕 New |
-| Nov 26 | [CVE-2026-4897](https://www.cve.org/CVERecord?id=CVE-2026-4897) | 🆕 New |
-| Nov 26 | [CVE-2026-5135](https://www.cve.org/CVERecord?id=CVE-2026-5135) | 🆕 New |
-| Nov 26 | [CVE-2026-5136](https://www.cve.org/CVERecord?id=CVE-2026-5136) | 🆕 New |
-| Nov 26 | [CVE-2026-5138](https://www.cve.org/CVERecord?id=CVE-2026-5138) | 🆕 New |
-| Nov 26 | [CVE-2026-5142](https://www.cve.org/CVERecord?id=CVE-2026-5142) | 🆕 New |
-| Nov 26 | [CVE-2026-5164](https://www.cve.org/CVERecord?id=CVE-2026-5164) | 🆕 New |
-| Nov 26 | [CVE-2026-5165](https://www.cve.org/CVERecord?id=CVE-2026-5165) | 🆕 New |
-| Nov 26 | [CVE-2026-9073](https://www.cve.org/CVERecord?id=CVE-2026-9073) | 🆕 New |
-| Nov 25 | [CVE-2026-134880](https://www.cve.org/CVERecord?id=CVE-2026-134880) | 🆕 New |
-| ... | | _and 270 more_ |
+| ... | | _and 283 more_ |

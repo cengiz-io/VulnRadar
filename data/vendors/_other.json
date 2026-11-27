@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T08:14:26+00:00",
+  "generated_at": "2026-11-27T18:58:47+00:00",
   "vendor": "_other",
-  "count": 1293,
+  "count": 1294,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -53664,7 +53664,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02444,
+      "probability_score": 0.02474,
       "kev": {
         "cveID": "CVE-2022-26485",
         "vendorProject": "Mozilla",
@@ -53763,7 +53763,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02148,
+      "probability_score": 0.02174,
       "kev": {
         "cveID": "CVE-2022-26486",
         "vendorProject": "Mozilla",
@@ -75117,7 +75117,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00519,
+      "probability_score": 0.00498,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -75157,7 +75157,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00226,
+      "probability_score": 0.00284,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -75197,7 +75197,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00582,
+      "probability_score": 0.00557,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -75237,7 +75237,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00582,
+      "probability_score": 0.00557,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -75277,7 +75277,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.008,
+      "probability_score": 0.00702,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -75718,7 +75718,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00582,
+      "probability_score": 0.00487,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -75758,7 +75758,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00642,
+      "probability_score": 0.0051,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -75882,7 +75882,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0075,
+      "probability_score": 0.00573,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -75922,7 +75922,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00582,
+      "probability_score": 0.00487,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -77364,7 +77364,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0075,
+      "probability_score": 0.0063,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -77604,7 +77604,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00231,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -79081,7 +79081,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00294,
+      "probability_score": 0.00264,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -79529,7 +79529,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00354,
+      "probability_score": 0.00317,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -86925,7 +86925,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.84847,
+      "probability_score": 0.85074,
       "kev": {
         "cveID": "CVE-2023-23752",
         "vendorProject": "Joomla!",
@@ -95172,7 +95172,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.20905,
+      "probability_score": 0.91605,
       "kev": {
         "cveID": "CVE-2026-93616",
         "vendorProject": "Check Point",
@@ -95580,7 +95580,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.71891,
+      "probability_score": 0.99813,
       "kev": {
         "cveID": "CVE-2024-36401",
         "vendorProject": "OSGeo",
@@ -99477,7 +99477,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.85551,
+      "probability_score": 0.8595,
       "kev": {
         "cveID": "CVE-2025-24893",
         "vendorProject": "XWiki",
@@ -102388,7 +102388,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01929,
+      "probability_score": 0.02071,
       "kev": {
         "cveID": "CVE-2025-7775",
         "vendorProject": "Citrix",
@@ -106445,7 +106445,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.14205,
+      "probability_score": 0.89631,
       "kev": {
         "cveID": "CVE-2026-123158",
         "vendorProject": "OpenBSD",
@@ -106938,7 +106938,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04292,
+      "probability_score": 0.04238,
       "kev": {
         "cveID": "CVE-2026-131914",
         "vendorProject": "Idunno",
@@ -107001,7 +107001,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.11053,
+      "probability_score": 0.08381,
       "kev": {
         "cveID": "CVE-2026-132165",
         "vendorProject": "Drupal",
@@ -107020,6 +107020,69 @@
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-306"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-136716",
+      "description": "Improper Check for Unusual or Exceptional Conditions vulnerability in Drupal Drupal core allows Forceful Browsing. This issue affects Drupal core versions: from 0.0.0 to 10.6.23, from 11.0.0 to 11.3.23, from 11.4.0 to 11.4.14.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "drupal",
+          "product": "drupal core",
+          "versions": [
+            {
+              "lessThan": "10.6.23",
+              "status": "affected",
+              "version": "0.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "11.3.23",
+              "status": "affected",
+              "version": "11.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "11.4.14",
+              "status": "affected",
+              "version": "11.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.01212,
+      "kev": {
+        "cveID": "CVE-2026-136716",
+        "vendorProject": "Drupal",
+        "product": "Core",
+        "vulnerabilityName": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+        "dateAdded": "2026-11-27",
+        "shortDescription": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-30",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-754"
         ],
         "cpe_count": 0,
         "reference_count": 1
@@ -109493,7 +109556,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.20215,
+      "probability_score": 0.2063,
       "kev": {
         "cveID": "CVE-2026-40217",
         "vendorProject": "BerriAI",

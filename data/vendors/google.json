@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:14:26+00:00",
+  "generated_at": "2026-11-27T18:58:47+00:00",
   "vendor": "google",
   "count": 51,
   "items": [
@@ -2217,7 +2217,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.32976,
+      "probability_score": 0.99987,
       "kev": {
         "cveID": "CVE-2026-111497",
         "vendorProject": "Google",
@@ -2269,7 +2269,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01077,
+      "probability_score": 0.00974,
       "kev": {
         "cveID": "CVE-2026-11645",
         "vendorProject": "Google",
@@ -2576,7 +2576,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0073,
+      "probability_score": 0.00804,
       "kev": {
         "cveID": "CVE-2026-5281",
         "vendorProject": "Google",
