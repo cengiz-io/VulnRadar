@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-28T02:02:54+00:00`
+Generated: `2026-11-28T10:20:46+00:00`
 
 ## Executive Summary
 
